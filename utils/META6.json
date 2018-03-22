@@ -1,0 +1,14 @@
+{
+    "perl"          : "6.*",
+    "name"          : "Perl6/doc issue downloader",
+    "version"       : "0.1.0",
+    "author"        : "github:JJ",
+    "authors"       : [ "github:JJ" ],
+    "description"   : "GitHub API",
+    "depends"       : [ "https://github.com/JJ/perl6-WebService-GitHub/",
+			"MIME::Base64",
+			"URI", "IO::Socket::SSL", "HTTP::UserAgent", "JSON::Fast", "Cache::LRU" ],
+    "provides" : {},
+    "source-url"    : "git://github.com/JJ/TPF-Grant.git",
+    "test-depends" : [ "Test::META" ]
+}
