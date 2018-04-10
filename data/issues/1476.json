@@ -1,0 +1,71 @@
+{
+  "body": "I've modified the explanation to focus more on the ending blocks than on the ending semicolon. This is to make improvements toward resolving (or at least mitigating) concerns with issue #1471. Also included an example of implied separator rule with a colon method call.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-08-29T16:16:26Z",
+  "created_at": "2017-08-29T16:13:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1476/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1476",
+    "diff_url": "https://github.com/perl6/doc/pull/1476.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1476.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1476"
+  },
+  "locked": false,
+  "title": "Implied separator rule: focus on ending blocks (instead of the curly brace itself)",
+  "id": 253722453,
+  "html_url": "https://github.com/perl6/doc/pull/1476",
+  "closed_at": "2017-08-29T16:16:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1476/labels{/name}",
+  "number": 1476,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1476/events",
+  "user": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1476"
+}

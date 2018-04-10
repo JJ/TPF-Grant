@@ -1,0 +1,71 @@
+{
+  "body": "Let's make a file:\r\n```bash\r\nperl6 -e 'spurt ‘file’, “foox\\nfooy\\rbar\\nfooz\\n”'\r\n```\r\n\r\nIt is fair to say (on linux at least) that this file has three lines:\r\n<pre>\r\nfoox\r\nfooy<b>\\r</b>bar\r\nfooz\r\n</pre>\r\nAnd any proper command line tool in existence will treat it as such. ``wc -l`` says 3, ``grep foo`` will give the whole line also (your terminal may print it in a weird way, but that's still treated as a whole line).\r\n\r\nSo let's try reading this file in perl 6:\r\n```bash\r\nperl6 -e 'dd $_ for lines' < file\r\n```\r\n```\r\n\"foox\"\r\n\"fooy\\rbar\"\r\n\"fooz\"\r\n```\r\n↑ This is entirely right.\r\n\r\nBut here's a trap:\r\n```bash\r\nperl6 -e 'dd $_ for slurp.lines' < file\r\n```\r\n```\r\n\"foox\"\r\n\"fooy\"\r\n\"bar\"\r\n\"fooz\"\r\n```\r\nIt turns out that ``lines`` and ``slurp.lines`` work differently, which is really surprising. Also, [I managed to get into this trap at least once](https://github.com/perl6/whateverable/commit/39e5c538255db9135e2303aa7ea1e1b5f65135a9).",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-09-01T19:08:19Z",
+  "created_at": "2017-08-27T14:17:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1472/comments",
+  "locked": false,
+  "title": "Using .lines on generated data is wrong (traps)",
+  "id": 253166571,
+  "html_url": "https://github.com/perl6/doc/issues/1472",
+  "closed_at": "2017-09-01T19:02:30Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1472/labels{/name}",
+  "number": 1472,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1472/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1472"
+}

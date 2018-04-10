@@ -1,0 +1,53 @@
+{
+  "body": "when you search for `[\\` or `[\\ ]` and use the \"web search\" you can get to the reduce page directly, but searching for anything with an operator in between will give useless results, for example the front page itself is the first entry.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-09-17T00:20:39Z",
+  "created_at": "2017-09-16T15:53:01Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1559/comments",
+  "locked": false,
+  "title": "reduce metaops [ ] and [\\ ] aren't immediately searchable",
+  "id": 258239940,
+  "html_url": "https://github.com/perl6/doc/issues/1559",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1559/labels{/name}",
+  "number": 1559,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1559/events",
+  "user": {
+    "following_url": "https://api.github.com/users/timo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/timo/received_events",
+    "organizations_url": "https://api.github.com/users/timo/orgs",
+    "subscriptions_url": "https://api.github.com/users/timo/subscriptions",
+    "html_url": "https://github.com/timo",
+    "id": 25167,
+    "login": "timo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/timo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/timo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25167?v=4",
+    "starred_url": "https://api.github.com/users/timo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/timo/followers",
+    "url": "https://api.github.com/users/timo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1559"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "The accompanying text seems to indicate that the modification of the\r\nstored value would occur at retrieval.\r\n\r\nText-'To create a container that returns twice of what was stored in it'\r\n\r\nThe example showcases the capabilities of Proxy in the same way, but\r\nhopefully is a bit more clear.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-09-02T20:13:52Z",
+  "created_at": "2017-09-02T20:10:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1506/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1506",
+    "diff_url": "https://github.com/perl6/doc/pull/1506.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1506.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1506"
+  },
+  "locked": false,
+  "title": "Modify Proxy Example To More Closely Match Text",
+  "id": 254833272,
+  "html_url": "https://github.com/perl6/doc/pull/1506",
+  "closed_at": "2017-09-02T20:13:37Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1506/labels{/name}",
+  "number": 1506,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1506/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
+    "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",
+    "subscriptions_url": "https://api.github.com/users/jstuder-gh/subscriptions",
+    "html_url": "https://github.com/jstuder-gh",
+    "id": 10088878,
+    "login": "jstuder-gh",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jstuder-gh/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jstuder-gh/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10088878?v=4",
+    "starred_url": "https://api.github.com/users/jstuder-gh/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jstuder-gh/followers",
+    "url": "https://api.github.com/users/jstuder-gh"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1506"
+}

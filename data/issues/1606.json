@@ -1,0 +1,53 @@
+{
+  "body": "Custom classes can implement `submethod DESTROY` to do some clean-up when/if an object of that class is about to be garbage-collected.\r\n\r\nAFAICT, p6doc currently does not explain this.\r\n\r\n---\r\n\r\nThere are some intricacies to document:\r\n\r\n* It is not guaranteed to be run (e.g. it'll never run for objects that aren't garbage collected before the end of the program).\r\n* It is called by the garbage collector, on a thread whose normal control flow is currently paused.\r\n* One mustn't make any assumptions about what the dynamic environment of that thread currently looks like.   <sup>(\"[just about *anything* can be on the call stack at the point a DESTROY is called](https://irclog.perlgeek.de/perl6/2017-10-14#i_15301619)\" &mdash; jnthn)</sup>.\r\n* For example...\r\n  * if the thread in question has called `.protect(&code)` on a [`Lock`](http://docs.perl6.org/type/Lock)...  \r\n  * and is in the middle of executing `&code` when it is paused by garbage collection...\r\n  * and your `DESTROY` method calls `.protect(&cleanup)` on the same lock...\r\n\r\n  ...then `&cleanup` will be executed immediately even though `&code` has not yet finished &ndash; because `Lock.protect` is idempotent (i.e. can be recursively locked from the same thread).\r\n* In such cases, one can write a DESTROY method as follows to ensure it is run on a \"clean\" thread that is not in the middle of doing things which may cause surprises for your clean-up code:  \r\n  `submethod DESTROY { start { ... } }`  \r\n  I.e. in the `Lock` example:  \r\n  `submethod DESTROY { start $lock.protect: { ... } }`  \r\n  You can safely close over `self` in the `{ ... }` part, and object destruction will be deferred for as long as necessary <sup>(without calling `DESTROY` a second time &ndash; see jnthn's comment below)</sup>.\r\n  See IRC discussion [starting here](https://irclog.perlgeek.de/perl6/2017-10-14#i_15301603).",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-08T12:34:29Z",
+  "created_at": "2017-10-14T11:13:14Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1606/comments",
+  "locked": false,
+  "title": "Document `submethod DESTROY`, and its intricacies",
+  "id": 265484043,
+  "html_url": "https://github.com/perl6/doc/issues/1606",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1606/labels{/name}",
+  "number": 1606,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1606/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1606"
+}

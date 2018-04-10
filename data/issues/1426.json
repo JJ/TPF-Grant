@@ -1,0 +1,53 @@
+{
+  "body": "https://docs.perl6.org/syntax/$REVERSE_SOLIDUS\r\n\r\n![](https://user-images.githubusercontent.com/104814/28669905-93e85916-72d6-11e7-9da9-630427914104.png)\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-16T06:42:30Z",
+  "created_at": "2017-07-27T12:20:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1426/comments",
+  "locked": false,
+  "title": "https://docs.perl6.org/syntax/$REVERSE_SOLIDUS is 404",
+  "id": 246021339,
+  "html_url": "https://github.com/perl6/doc/issues/1426",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1426/labels{/name}",
+  "number": 1426,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1426/events",
+  "user": {
+    "following_url": "https://api.github.com/users/daxim/following{/other_user}",
+    "gists_url": "https://api.github.com/users/daxim/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/daxim/received_events",
+    "organizations_url": "https://api.github.com/users/daxim/orgs",
+    "subscriptions_url": "https://api.github.com/users/daxim/subscriptions",
+    "html_url": "https://github.com/daxim",
+    "id": 104814,
+    "login": "daxim",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/daxim/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/daxim/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/104814?v=4",
+    "starred_url": "https://api.github.com/users/daxim/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/daxim/followers",
+    "url": "https://api.github.com/users/daxim"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1426"
+}

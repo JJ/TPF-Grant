@@ -1,0 +1,60 @@
+{
+  "body": "[The concurrency docs](https://docs.perl6.org/language/concurrency) say:\r\n\r\n> (allowing more than one thing to happen at the same time)\r\n\r\nBut that's not concurrency. The wikipedia link immediately before that says:\r\n\r\n> Concurrent computing is a form of computing in which several computations are executed during overlapping time periods\r\n\r\nIt doesn't help that that wikipedia article then goes on the discuss parallel computing even though it noted that it's distinct from concurrency.\r\n\r\nWikipedia then has [another article on concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) that I think is closer to what the concurrency docs are trying to say about Perl 6:\r\n\r\n> concurrency is the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units\r\n\r\nPerl 6 can work on multiple tasks before it completes one of them, and that's all it should promise (um, heh).\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-08-30T00:25:20Z",
+  "created_at": "2017-07-28T02:04:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1427/comments",
+  "locked": false,
+  "title": "A more precise definition for concurrency",
+  "id": 246217494,
+  "html_url": "https://github.com/perl6/doc/issues/1427",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1427/labels{/name}",
+  "number": 1427,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1427/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1427"
+}

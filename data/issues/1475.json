@@ -1,0 +1,53 @@
+{
+  "body": "`:my` and `:our` usage within regexes is not documented. For `:my`, something like this would be nice:\r\n\r\n`:my $foo = 0` is needed to declare a variable that has scope throughout and beyond the regex body, unlike variables declared in blocks. For example, the following trivial example shows a counter used for debugging:\r\n\r\n`$paragraph ~~ rx|\r\n    :my $counter = 0;\r\n    ( \\V* { ++$counter } ) *%% \\n\r\n|;\r\nsay \"Matched $counter lines\";`\r\n\r\nIf that's too verbose, a sentence or two could be added to the example that uses `:my` (but doesn't explain it).",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-01-06T20:57:52Z",
+  "created_at": "2017-08-29T10:07:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1475/comments",
+  "locked": false,
+  "title": "Document :my and :our within regex blocks",
+  "id": 253599498,
+  "html_url": "https://github.com/perl6/doc/issues/1475",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1475/labels{/name}",
+  "number": 1475,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1475/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1475"
+}

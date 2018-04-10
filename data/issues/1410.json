@@ -1,0 +1,67 @@
+{
+  "body": "The current build generates the following categories of items for the (search) index.\r\n\r\n```\r\n\"\"\r\n\"&?Routine\"\r\n\"-->\"\r\n\"0B (Radix Form)\"\r\n\"5to6-perlfunc\"\r\n\"Buildall (Method)\"\r\n\"Class\"\r\n\"Coercion Type (Signature)\"\r\n\"Compunit\"\r\n\"Control Flow\"\r\n\"Declarator\"\r\n\"Enum\"\r\n\"Environment Variables\"\r\n\"Function Reference (Constrain)\"\r\n\"Infix\"\r\n\"Language\"\r\n\"Listop\"\r\n\"Matching Adverb\"\r\n\"Method\"\r\n\"Parameter\"\r\n\"Phasers\"\r\n\"Postcircumfix\"\r\n\"Postfix\"\r\n\"Prefix\"\r\n\"Proc Object\"\r\n\"Proc::Async Object\"\r\n\"Programs\"\r\n\"Quote\"\r\n\"Reference\"\r\n\"Regex Adverb\"\r\n\"Regex Quantifier\"\r\n\"Regex\"\r\n\"Role\"\r\n\"Routine\"\r\n\"Running Programs\"\r\n\"Sub\"\r\n\"Subscript Adverb\"\r\n\"Syntax\"\r\n\"Term\"\r\n\"Trait\"\r\n\"Type Constraint\"\r\n\"Type\"\r\n\"Variable\"\r\n```\r\n\r\nSome of these have potential overlap, like Class & Type; others, like 0B (Radix Form) or Proc::Async Object shouldn't be top level categories at all. Items with only one entry are also suspect, like \"Parameter\"\r\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-25T21:40:42Z",
+  "created_at": "2017-07-05T03:05:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1410/comments",
+  "locked": false,
+  "title": "Standardize search categories",
+  "id": 240527155,
+  "html_url": "https://github.com/perl6/doc/issues/1410",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1410/labels{/name}",
+  "number": 1410,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1410/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1410"
+}

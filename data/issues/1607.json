@@ -1,0 +1,60 @@
+{
+  "body": "Example provided by Juerd:\r\n```\r\nperl6 -e 'sub mv ($a, $b) { for 1 { rename $a, $b } }; mv \"does-not-exist\", \"meh\";'\r\n```\r\nEven though `rename` returns a `Failure`, it doesn't get sunked in this context, and therefore above code fails silently.\r\n\r\nAnother example provided by geekosaur:\r\n\r\n```\r\nperl6 -e 'sink [1,2,Failure.new(\"boo!\")]'\r\n```\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-20T14:59:31Z",
+  "created_at": "2017-10-16T03:11:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1607/comments",
+  "locked": false,
+  "title": "Document the trap that the last Failure in a list doesn't get sunk",
+  "id": 265635074,
+  "html_url": "https://github.com/perl6/doc/issues/1607",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1607/labels{/name}",
+  "number": 1607,
+  "comments": 8,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5319e7",
+      "name": "external",
+      "id": 503572706,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/external"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1607/events",
+  "user": {
+    "following_url": "https://api.github.com/users/kjkuan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kjkuan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/kjkuan/received_events",
+    "organizations_url": "https://api.github.com/users/kjkuan/orgs",
+    "subscriptions_url": "https://api.github.com/users/kjkuan/subscriptions",
+    "html_url": "https://github.com/kjkuan",
+    "id": 973329,
+    "login": "kjkuan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/kjkuan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/kjkuan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/973329?v=4",
+    "starred_url": "https://api.github.com/users/kjkuan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/kjkuan/followers",
+    "url": "https://api.github.com/users/kjkuan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1607"
+}

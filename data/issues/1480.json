@@ -1,0 +1,60 @@
+{
+  "body": "Environment: Windows 10, and the build tools from both Strawberry Perl and MSYS.\r\n\r\nSteps: I cloned the p6doc repository to a local directory (the result is the same if I use \"zef look p6doc\"), entered the directory with the windows command shell, and ran \"gmake html\". \r\n\r\nResult:\r\n- Lots of output about pods being successfully processed:\r\n\"processed ./doc\\Type\\X\\Role\\Initialization.pod6\"\r\n- several warnings about duplicate index entries were printed\r\n- The following linux shell code and error were printed:\r\n```\r\nATOMDIR=\"./highlights/atom-language-perl6\";  \\\r\nif [ -d \"$ATOMDIR\" ]; then (cd \"$ATOMDIR\" && git pull); \\\r\nelse git clone https://github.com/perl6/atom-language-perl6 \"$ATOMDIR\"; \\\r\nfi; cd highlights; npm install .\r\n'ATOMDIR' is not recognized as an internal or external command,\r\noperable program or batch file.\r\nmakefile:11: recipe for target 'init-highlights' failed\r\ngmake: *** [init-highlights] Error 1\r\n```",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-30T18:51:24Z",
+  "created_at": "2017-08-31T08:46:59Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1480/comments",
+  "locked": false,
+  "title": "html build process tries to run bash code on Windows",
+  "id": 254260295,
+  "html_url": "https://github.com/perl6/doc/issues/1480",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1480/labels{/name}",
+  "number": 1480,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1480/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1480"
+}

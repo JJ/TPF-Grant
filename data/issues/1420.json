@@ -1,0 +1,78 @@
+{
+  "body": "This came up on perl6-users, and though I'm not sure, I'm guessing that the user came from pythonland because he was wondering where the missing filter function was.\r\n\r\nI don't know Python very well at all, so I'm not going to write the examples, but this should be an easy one.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/bduggan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bduggan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bduggan/received_events",
+    "organizations_url": "https://api.github.com/users/bduggan/orgs",
+    "subscriptions_url": "https://api.github.com/users/bduggan/subscriptions",
+    "html_url": "https://github.com/bduggan",
+    "id": 58956,
+    "login": "bduggan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bduggan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bduggan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/58956?v=4",
+    "starred_url": "https://api.github.com/users/bduggan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bduggan/followers",
+    "url": "https://api.github.com/users/bduggan"
+  },
+  "updated_at": "2018-04-09T19:08:46Z",
+  "created_at": "2017-07-18T21:03:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1420/comments",
+  "locked": false,
+  "title": "Python nutshell: explain that filter is grep",
+  "id": 243850700,
+  "html_url": "https://github.com/perl6/doc/issues/1420",
+  "closed_at": "2017-07-19T13:13:15Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1420/labels{/name}",
+  "number": 1420,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1420/events",
+  "user": {
+    "following_url": "https://api.github.com/users/labster/following{/other_user}",
+    "gists_url": "https://api.github.com/users/labster/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/labster/received_events",
+    "organizations_url": "https://api.github.com/users/labster/orgs",
+    "subscriptions_url": "https://api.github.com/users/labster/subscriptions",
+    "html_url": "https://github.com/labster",
+    "id": 108723,
+    "login": "labster",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/labster/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/labster/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/108723?v=4",
+    "starred_url": "https://api.github.com/users/labster/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/labster/followers",
+    "url": "https://api.github.com/users/labster"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1420"
+}

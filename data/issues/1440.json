@@ -1,0 +1,71 @@
+{
+  "body": "Jonathan Worthington pointed out that the if/elsif/else block is really a single statement, which makes this easier to explain.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "updated_at": "2017-09-01T17:59:09Z",
+  "created_at": "2017-08-07T18:55:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1440/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1440",
+    "diff_url": "https://github.com/perl6/doc/pull/1440.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1440.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1440"
+  },
+  "locked": false,
+  "title": "if/elsif/else construct being one statement simplifies explanation",
+  "id": 248500017,
+  "html_url": "https://github.com/perl6/doc/pull/1440",
+  "closed_at": "2017-08-07T22:27:51Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1440/labels{/name}",
+  "number": 1440,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1440/events",
+  "user": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1440"
+}

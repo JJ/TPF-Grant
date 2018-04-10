@@ -1,0 +1,53 @@
+{
+  "body": "On page:  https://docs.perl6.org/type/Proc::Async\r\n\r\nThe first example:\r\n```# command with arguments \r\nmy $proc = Proc::Async.new('echo', 'foo', 'bar');\r\n \r\n# subscribe to new output from out and err handles: \r\n$proc.stdout.tap(-> $v { print \"Output: $v\" }, quit => { say 'caught exception ' ~ .^name });\r\n$proc.stderr.tap(-> $v { print \"Error:  $v\" });\r\n \r\nsay \"Starting...\";\r\nmy $promise = $proc.start;\r\n \r\n# wait for the external program to terminate \r\nawait $promise;\r\nsay \"Done.\";\r\n```\r\n\r\nWill not run properly on Windows.  Apparently this is because in Windows, echo is a function of the executable cmd.exe.\r\n\r\nSo, to make this work on Windows, one has to change the line:\r\n```\r\nmy $proc = Proc::Async.new('echo', 'foo', 'bar');\r\n```\r\nto:\r\n```\r\nmy $proc = Proc::Adync.new('cmd.exe', '/c', 'echo foo bar');\r\n```\r\nThen it will run properly.\r\n\r\nIt would be great if the example could be updated to mention this\r\n\r\n\r\n\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-08-19T03:03:56Z",
+  "created_at": "2017-08-16T04:09:45Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1453/comments",
+  "locked": false,
+  "title": "Proc::Async Example needs to be modified to run on Windows 10",
+  "id": 250505916,
+  "html_url": "https://github.com/perl6/doc/issues/1453",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1453/labels{/name}",
+  "number": 1453,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1453/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mikersanderson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mikersanderson/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mikersanderson/received_events",
+    "organizations_url": "https://api.github.com/users/mikersanderson/orgs",
+    "subscriptions_url": "https://api.github.com/users/mikersanderson/subscriptions",
+    "html_url": "https://github.com/mikersanderson",
+    "id": 11449326,
+    "login": "mikersanderson",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mikersanderson/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mikersanderson/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11449326?v=4",
+    "starred_url": "https://api.github.com/users/mikersanderson/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mikersanderson/followers",
+    "url": "https://api.github.com/users/mikersanderson"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1453"
+}

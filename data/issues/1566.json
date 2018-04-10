@@ -1,0 +1,53 @@
+{
+  "body": "I could only find `constant` mentioned on one of the perl 5-to-6 pages, which isn't where the meat of the documentation lives. When it's described, it would be helpful to list the non-obvious differences between `constant` and `my` or `our`. For example, constant variables can't have a type constraint.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-01-17T01:53:04Z",
+  "created_at": "2017-09-17T18:01:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1566/comments",
+  "locked": false,
+  "title": "The \"Variables\" page should describe the `constant` declarator",
+  "id": 258320840,
+  "html_url": "https://github.com/perl6/doc/issues/1566",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1566/labels{/name}",
+  "number": 1566,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1566/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1566"
+}

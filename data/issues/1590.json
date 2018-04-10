@@ -1,0 +1,71 @@
+{
+  "body": "https://github.com/rakudo/rakudo/blob/8ff76b5962ed34caa7b66b3f95644410fdb9b17e/src/core/Slang.pm",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Tyil/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Tyil/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Tyil/received_events",
+    "organizations_url": "https://api.github.com/users/Tyil/orgs",
+    "subscriptions_url": "https://api.github.com/users/Tyil/subscriptions",
+    "html_url": "https://github.com/Tyil",
+    "id": 1607290,
+    "login": "Tyil",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Tyil/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Tyil/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1607290?v=4",
+    "starred_url": "https://api.github.com/users/Tyil/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Tyil/followers",
+    "url": "https://api.github.com/users/Tyil"
+  },
+  "updated_at": "2017-10-13T06:36:00Z",
+  "created_at": "2017-10-07T20:42:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1590/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1590",
+    "diff_url": "https://github.com/perl6/doc/pull/1590.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1590.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1590"
+  },
+  "locked": false,
+  "title": "Can find implementation of Slang in rakudo",
+  "id": 263670755,
+  "html_url": "https://github.com/perl6/doc/pull/1590",
+  "closed_at": "2017-10-07T21:45:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1590/labels{/name}",
+  "number": 1590,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1590/events",
+  "user": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1590"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "A [question](https://irclog.perlgeek.de/perl6/2017-10-11#i_15290908) on #perl6 channel was asked today:\r\n```perl6\r\nmy @a = <1 2 3>; say @a.grep( *.Int ~~ 2 );\r\n```\r\n```\r\nCannot use Bool as Matcher with '.grep'.  Did you mean to use $_ inside a block?\r\n  in block <unit> at <tmp> line 1\r\n```\r\n\r\n> why is this? why doesn't this dwim?\r\n\r\n\r\nFollowed by:\r\n> \\<geekosaur\\> \tI thought this was a listed/known trap\r\n\r\nYet I don't see it listed on the traps page. We have a similar item [there](https://docs.perl6.org/language/traps#Topicalizing_Operators)… similar but completely different. That being said, the trick that is mentioned there still applies:\r\n```perl6\r\nmy @a = <1 2 3>; say @a.grep( 2 ~~ *.Int );\r\n```\r\n```\r\n(2)\r\n```\r\nHowever, more common solution to this is to use a block instead:\r\n```perl6\r\nmy @a = <1 2 3>; say @a.grep( {.Int ~~ 2} );\r\n```\r\n```\r\n(2)\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-10-12T01:54:56Z",
+  "created_at": "2017-10-11T21:47:36Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1603/comments",
+  "locked": false,
+  "title": "WhateverCode on the LHS of ~~ (trap?)",
+  "id": 264746931,
+  "html_url": "https://github.com/perl6/doc/issues/1603",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1603/labels{/name}",
+  "number": 1603,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1603/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1603"
+}

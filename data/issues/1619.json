@@ -1,0 +1,71 @@
+{
+  "body": "This is a powerful way of sorting, but it's not currently apparent that\r\nit can be done this way in the documentation.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "updated_at": "2017-10-29T20:27:19Z",
+  "created_at": "2017-10-24T05:52:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1619/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1619",
+    "diff_url": "https://github.com/perl6/doc/pull/1619.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1619.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1619"
+  },
+  "locked": false,
+  "title": "Document List cmp infix and sorting by multiple values (via List)",
+  "id": 267905716,
+  "html_url": "https://github.com/perl6/doc/pull/1619",
+  "closed_at": "2017-10-24T12:28:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1619/labels{/name}",
+  "number": 1619,
+  "comments": 5,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1619/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
+    "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",
+    "subscriptions_url": "https://api.github.com/users/jstuder-gh/subscriptions",
+    "html_url": "https://github.com/jstuder-gh",
+    "id": 10088878,
+    "login": "jstuder-gh",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jstuder-gh/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jstuder-gh/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10088878?v=4",
+    "starred_url": "https://api.github.com/users/jstuder-gh/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jstuder-gh/followers",
+    "url": "https://api.github.com/users/jstuder-gh"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1619"
+}

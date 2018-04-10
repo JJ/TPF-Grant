@@ -1,0 +1,60 @@
+{
+  "body": "\"`$invocant.+method` calls all methods called `method`\" is inaccurate because it does not call all candidates of a multi method, even though they have the same name.\r\n\r\nAlso, the term 'called' can be confusing here; my suggestion is to use 'named' instead.\r\n\r\nLastly, in example code naming a method `method` can also be confusing because that's a keyword.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-01-06T19:41:42Z",
+  "created_at": "2017-07-20T18:38:00Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1421/comments",
+  "locked": false,
+  "title": ".+ and .* are inaccurate",
+  "id": 244458282,
+  "html_url": "https://github.com/perl6/doc/issues/1421",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1421/labels{/name}",
+  "number": 1421,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1421/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Juerd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Juerd/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Juerd/received_events",
+    "organizations_url": "https://api.github.com/users/Juerd/orgs",
+    "subscriptions_url": "https://api.github.com/users/Juerd/subscriptions",
+    "html_url": "https://github.com/Juerd",
+    "id": 791835,
+    "login": "Juerd",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Juerd/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Juerd/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/791835?v=4",
+    "starred_url": "https://api.github.com/users/Juerd/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Juerd/followers",
+    "url": "https://api.github.com/users/Juerd"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1421"
+}

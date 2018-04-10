@@ -1,0 +1,71 @@
+{
+  "body": "Since a common debugging question is \"how is this function being called?\", I added the Backtrace class to the page that describes debugging techniques.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "updated_at": "2017-09-09T04:12:20Z",
+  "created_at": "2017-09-09T03:48:53Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1543/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1543",
+    "diff_url": "https://github.com/perl6/doc/pull/1543.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1543.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1543"
+  },
+  "locked": false,
+  "title": "Describe the Backtrace class in the debugging section.",
+  "id": 256412065,
+  "html_url": "https://github.com/perl6/doc/pull/1543",
+  "closed_at": "2017-09-09T04:12:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1543/labels{/name}",
+  "number": 1543,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1543/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1543"
+}

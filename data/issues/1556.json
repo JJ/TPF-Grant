@@ -1,0 +1,53 @@
+{
+  "body": "The docs for `does` and `isa` each say that a more idiomatic solution is to use the smartmatch operator, `~~`. So are these methods exactly the same? What's the difference? It would be clearer if the pages referenced each other as \"see also ...\", and one of the pages should explain the difference, including whether one would be preferred above the other in the common case of checking whether an object is/does a class/role. (Or for another example, if the invocant is a class rather than an object, or if the argument is a string rather than a type object.)",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-09-17T12:46:19Z",
+  "created_at": "2017-09-16T06:39:00Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1556/comments",
+  "locked": false,
+  "title": "The docs for .does() and .isa() should mention each other and describe the differences, if any",
+  "id": 258212892,
+  "html_url": "https://github.com/perl6/doc/issues/1556",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1556/labels{/name}",
+  "number": 1556,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1556/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1556"
+}

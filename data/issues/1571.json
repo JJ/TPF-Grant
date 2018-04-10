@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/robertlemmen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/robertlemmen/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/robertlemmen/received_events",
+    "organizations_url": "https://api.github.com/users/robertlemmen/orgs",
+    "subscriptions_url": "https://api.github.com/users/robertlemmen/subscriptions",
+    "html_url": "https://github.com/robertlemmen",
+    "id": 14784405,
+    "login": "robertlemmen",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/robertlemmen/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/robertlemmen/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14784405?v=4",
+    "starred_url": "https://api.github.com/users/robertlemmen/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/robertlemmen/followers",
+    "url": "https://api.github.com/users/robertlemmen"
+  },
+  "updated_at": "2017-09-21T20:27:26Z",
+  "created_at": "2017-09-21T11:50:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1571/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1571",
+    "diff_url": "https://github.com/perl6/doc/pull/1571.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1571.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1571"
+  },
+  "locked": false,
+  "title": "Document :Perl5 adverb",
+  "id": 259469193,
+  "html_url": "https://github.com/perl6/doc/pull/1571",
+  "closed_at": "2017-09-21T19:54:58Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1571/labels{/name}",
+  "number": 1571,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1571/events",
+  "user": {
+    "following_url": "https://api.github.com/users/robertlemmen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/robertlemmen/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/robertlemmen/received_events",
+    "organizations_url": "https://api.github.com/users/robertlemmen/orgs",
+    "subscriptions_url": "https://api.github.com/users/robertlemmen/subscriptions",
+    "html_url": "https://github.com/robertlemmen",
+    "id": 14784405,
+    "login": "robertlemmen",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/robertlemmen/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/robertlemmen/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14784405?v=4",
+    "starred_url": "https://api.github.com/users/robertlemmen/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/robertlemmen/followers",
+    "url": "https://api.github.com/users/robertlemmen"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1571"
+}

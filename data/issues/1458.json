@@ -1,0 +1,78 @@
+{
+  "body": "[objects#Object_Cloning](https://docs.perl6.org/language/objects#Object_Cloning) says:\r\n\r\n>  This cloning is shallow since it only binds attributes to the same values contained in the original object; it does not make copies of those values.\r\n\r\nI don't think that's _completely_ accurate.\r\n\r\nA `$.` attribute does get a fresh `Scalar` container, and the value from the old object's attribute gets **assigned** into it:\r\n\r\n``` Perl 6\r\nclass A { has $.x is rw }\r\n\r\nmy $a = A.new(x => 2);\r\nmy $b = $a.clone;\r\n\r\n$b.x = 10;\r\n\r\nsay $a;  # A.new(x => 2)\r\nsay $b;  # B.new(x => 10)\r\n```\r\n\r\n...whereas a `@.` attributes _doesn't_ get a fresh `Array` container, but rather gets the `Array` from the old object's attribute **bound** to it.\r\n\r\nSo it's more like how arguments are passed to `$` and `@` parameters in a signature, than simple `:=` binding.  \r\nNot sure how to properly word that for the docs.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-09-01T17:09:20Z",
+  "created_at": "2017-08-19T08:40:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1458/comments",
+  "locked": false,
+  "title": "The shallowness of `.clone` needs a more precise explanation.",
+  "id": 251410915,
+  "html_url": "https://github.com/perl6/doc/issues/1458",
+  "closed_at": "2017-09-01T17:09:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1458/labels{/name}",
+  "number": 1458,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1458/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1458"
+}
