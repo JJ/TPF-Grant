@@ -1,0 +1,71 @@
+{
+  "body": "Made a number of modifications to the Dockerfile in the repo:\r\n\r\n* Minimized the number of cache layers in final image (by reducing the\r\n  number of Run commands)\r\n  * This way Docker cannot reuse cache layers containing outdated\r\n    package versions.\r\n* Purge build dependencies and apt cache data.\r\n  * These files do not appear in final image due to minimal intermediate\r\n    cache layers.\r\n  * The resulting image is over 100 MB smaller as a result.\r\n* Update NodeJS to the latest stable release via the\r\n  [n](https://github.com/tj/n) script.\r\n* Added Test::META module and GNU aspell (used in tests).\r\n\r\nAlso added a .dockerignore file, so that files within the repo do not\r\nget used in the build context.\r\n\r\nAdded Make targets that make the Docker containers a bit easier to work with.\r\nAdd info to CONTRIBUTING indicating how to use these targets.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/7ojo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/7ojo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/7ojo/received_events",
+    "organizations_url": "https://api.github.com/users/7ojo/orgs",
+    "subscriptions_url": "https://api.github.com/users/7ojo/subscriptions",
+    "html_url": "https://github.com/7ojo",
+    "id": 5542628,
+    "login": "7ojo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/7ojo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/7ojo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5542628?v=4",
+    "starred_url": "https://api.github.com/users/7ojo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/7ojo/followers",
+    "url": "https://api.github.com/users/7ojo"
+  },
+  "updated_at": "2017-10-30T07:34:08Z",
+  "created_at": "2017-10-29T20:57:01Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1637/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1637",
+    "diff_url": "https://github.com/perl6/doc/pull/1637.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1637.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1637"
+  },
+  "locked": false,
+  "title": "Modify Dockerfile and Add Docker-related Make targets",
+  "id": 269434197,
+  "html_url": "https://github.com/perl6/doc/pull/1637",
+  "closed_at": "2017-10-30T07:34:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1637/labels{/name}",
+  "number": 1637,
+  "comments": 5,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1637/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
+    "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",
+    "subscriptions_url": "https://api.github.com/users/jstuder-gh/subscriptions",
+    "html_url": "https://github.com/jstuder-gh",
+    "id": 10088878,
+    "login": "jstuder-gh",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jstuder-gh/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jstuder-gh/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10088878?v=4",
+    "starred_url": "https://api.github.com/users/jstuder-gh/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jstuder-gh/followers",
+    "url": "https://api.github.com/users/jstuder-gh"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1637"
+}

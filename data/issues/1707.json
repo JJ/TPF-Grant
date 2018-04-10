@@ -1,0 +1,60 @@
+{
+  "body": "[EVAL docs](https://docs.perl6.org/routine/EVAL) mentions \"MONKEY Pragma\":\r\n\r\n`use MONKEY;  # shortcut that turns on all MONKEY pragmas `\r\n\r\nFor \"pragma\" is can find docs [Pragmas](https://docs.perl6.org/language/pragmas) using search. Search find nothing for \"MONKEY\" probably because of #1488 (Linking to pragmas). \r\n\r\nBut 'use MONKEY;' is not described on \"Pragmas\" page.\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-02-10T09:01:29Z",
+  "created_at": "2017-12-10T11:01:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1707/comments",
+  "locked": false,
+  "title": "MONKEY pragma",
+  "id": 280800527,
+  "html_url": "https://github.com/perl6/doc/issues/1707",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1707/labels{/name}",
+  "number": 1707,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "NOTSPECCED",
+      "id": 420092522,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1707/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mj41/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mj41/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mj41/received_events",
+    "organizations_url": "https://api.github.com/users/mj41/orgs",
+    "subscriptions_url": "https://api.github.com/users/mj41/subscriptions",
+    "html_url": "https://github.com/mj41",
+    "id": 43324,
+    "login": "mj41",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mj41/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mj41/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/43324?v=4",
+    "starred_url": "https://api.github.com/users/mj41/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mj41/followers",
+    "url": "https://api.github.com/users/mj41"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1707"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "Timo's ADT module gives an example of creating a type with Metamodel::ClassHOW, then adding constructors and methods:\r\n\r\nhttps://github.com/timo/ADT/blob/master/lib/ADT.pm6\r\n\r\nThe most important method `new_type`, isn't even listed in our docs. It would be nice to have official documentation/examples. On the other hand, if this isn't a stable class and isn't supposed to be used, the docs should say so.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-03T15:16:26Z",
+  "created_at": "2017-10-31T10:28:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1641/comments",
+  "locked": false,
+  "title": "Missing docs for creating classes with Metamodel::ClassHOW",
+  "id": 269907379,
+  "html_url": "https://github.com/perl6/doc/issues/1641",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1641/labels{/name}",
+  "number": 1641,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1641/events",
+  "user": {
+    "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lefth/received_events",
+    "organizations_url": "https://api.github.com/users/lefth/orgs",
+    "subscriptions_url": "https://api.github.com/users/lefth/subscriptions",
+    "html_url": "https://github.com/lefth",
+    "id": 2155747,
+    "login": "lefth",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lefth/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lefth/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2155747?v=4",
+    "starred_url": "https://api.github.com/users/lefth/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lefth/followers",
+    "url": "https://api.github.com/users/lefth"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1641"
+}

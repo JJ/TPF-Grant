@@ -1,0 +1,71 @@
+{
+  "body": "Recent commit build fail on travis-CI with message:\r\n```\r\nt/pod-valid.t ........ 33/324 # Failed test 'doc/Language/operators.pod6 has clean POD6'\r\n# at t/pod-valid.t line 33\r\nt/pod-valid.t ........ 42/324 # Failed test 'doc/Language/regexes.pod6 has clean POD6'\r\n# at t/pod-valid.t line 33\r\nt/pod-valid.t ........ 119/324 # Failed test 'doc/Type/Junction.pod6 has clean POD6'\r\n# at t/pod-valid.t line 33\r\nt/pod-valid.t ........ 193/324 # Failed test 'doc/Type/Str.pod6 has clean POD6'\r\n# at t/pod-valid.t line 33\r\nt/pod-valid.t ........ 322/324 # Looks like you failed 4 tests of 324\r\nt/pod-valid.t ........ Dubious, test returned 4 (wstat 1024, 0x400)\r\nFailed 4/324 subtests \r\nt/pod6.t ............. ok\r\nt/tabs.t ............. ok\r\nt/typegraph.t ........ ok\r\nTest Summary Report\r\n-------------------\r\nt/pod-valid.t      (Wstat: 1024 Tests: 324 Failed: 4)\r\n  Failed tests:  34, 43, 120, 193\r\n  Non-zero exit status: 4\r\n```\r\n\r\nHowever, `make test` with the latest version runs well locally.\r\n\r\n```\r\n➜  doc git:(master) make test\r\nif [ \"\" != \"\" ]; then prove -j  -e perl6 t; else prove -e perl6 t; fi\r\nt/00-load.t .......... ok   \r\nt/meta.t ............. ok   \r\nt/pod-convenience.t .. ok     \r\nt/pod-htmlify.t ...... ok   \r\nt/pod-valid.t ........ ok       \r\nt/pod6.t ............. ok       \r\nt/tabs.t ............. ok       \r\nt/typegraph.t ........ ok   \r\nAll tests successful.\r\nFiles=8, Tests=1159, 203 wallclock secs ( 0.26 usr  0.05 sys + 305.88 cusr 30.40 csys = 336.59 CPU)\r\nResult: PASS\r\n```\r\n\r\nI think this error message starts form 0a93d3f , but it seems have nothing to do with the commit.\r\n\r\nBefore it, build fails with (023ac49 ):\r\n```\r\nWorker information\r\nhostname: f259353c-b17f-400b-b941-a46af37200b5@1.i-0e4d705-production-2-worker-org-ec2.travisci.net\r\nversion: v3.4.0 https://github.com/travis-ci/worker/tree/ce0440bc30c289a49a9b0c21e4e1e6f7d7825101\r\ninstance: e3d1ab8 travisci/ci-garnet:packer-1503972846 (via amqp)\r\nstartup: 4.13056152s\r\noci runtime error: exec failed: container_linux.go:265: starting container process caused \"could not create session key: disk quota exceeded\"\r\n```\r\n\r\nIt should be mentioned that 8d7aaa5 passes the test, but, still don't know the point :-(\r\n\r\nThis prevents commits from applying, we should fix it as soon as possible.\r\n\r\n@coke ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "updated_at": "2017-11-29T22:37:53Z",
+  "created_at": "2017-11-28T19:25:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1692/comments",
+  "locked": false,
+  "title": "Build fail strange",
+  "id": 277507978,
+  "html_url": "https://github.com/perl6/doc/issues/1692",
+  "closed_at": "2017-11-29T17:22:19Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1692/labels{/name}",
+  "number": 1692,
+  "comments": 9,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1692/events",
+  "user": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1692"
+}

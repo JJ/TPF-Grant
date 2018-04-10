@@ -1,0 +1,71 @@
+{
+  "body": "From splitting #1212 \r\n\r\n@AlexDaniel thinks it would improve things a lot to also have [an edit this page link] near the top of the page.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "updated_at": "2017-11-09T13:26:59Z",
+  "created_at": "2017-10-24T15:20:27Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1622/comments",
+  "locked": false,
+  "title": "Edit this page near the top.",
+  "id": 268074778,
+  "html_url": "https://github.com/perl6/doc/issues/1622",
+  "closed_at": "2017-11-09T13:26:59Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1622/labels{/name}",
+  "number": 1622,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1622/events",
+  "user": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1622"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "```\r\n\r\n20:40 | moritz | so you should the approach transforming regexes much like you would transforming code\r\n-- | -- | --\r\n20:40 |   | by embedding it in closures\r\n20:40 |   | m: my $a = /a/; my $b = /b/; my $ab = /$a $b/; say \"a\" ~~ $ab; say \"b\" ~~ $ab; say \"ab\" ~~ $ab;\r\n20:40 | camelia | rakudo-moar 06cbe9c29: OUTPUT: «Nil␤Nil␤｢ab｣␤»\r\n20:40 | moritz | no need for <$foo> if $foo already contains a Regex object\r\n\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-14T13:02:10Z",
+  "created_at": "2017-11-14T13:02:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1673/comments",
+  "locked": false,
+  "title": "document regex object in section Regex Interpolation",
+  "id": 273784336,
+  "html_url": "https://github.com/perl6/doc/issues/1673",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1673/labels{/name}",
+  "number": 1673,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1673/events",
+  "user": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1673"
+}

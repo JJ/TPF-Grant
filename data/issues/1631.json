@@ -1,0 +1,53 @@
+{
+  "body": "f1bfdf41307ded0f7fcc19159804537caeaf8230 removed the stale version of this class information that predated the current compilation class refactor.\r\n\r\nThe updated classes should be added back in.\r\n\r\nbe sure to pass xt/type-graph.t when adding things back.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-03T15:16:54Z",
+  "created_at": "2017-10-26T12:42:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1631/comments",
+  "locked": false,
+  "title": "CompUnit classes need to be added back to the type graph",
+  "id": 268744646,
+  "html_url": "https://github.com/perl6/doc/issues/1631",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1631/labels{/name}",
+  "number": 1631,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1631/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1631"
+}

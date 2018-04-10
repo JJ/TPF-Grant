@@ -1,0 +1,53 @@
+{
+  "body": "The [operator list](https://docs.perl6.org/routine-operator.html) is missing the [sequence operator](https://docs.perl6.org/language/operators#infix_...) and its variants:\r\n\r\n* There’s only one entry for `...`, which links to the yada yada yada operator.\r\n* There are no entries at all for `...^`, `…`, and `…^`.",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-03T15:17:57Z",
+  "created_at": "2017-10-24T14:23:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1621/comments",
+  "locked": false,
+  "title": "The sequence operator infix:<...> is not listed",
+  "id": 268052461,
+  "html_url": "https://github.com/perl6/doc/issues/1621",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1621/labels{/name}",
+  "number": 1621,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1621/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Grimy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Grimy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Grimy/received_events",
+    "organizations_url": "https://api.github.com/users/Grimy/orgs",
+    "subscriptions_url": "https://api.github.com/users/Grimy/subscriptions",
+    "html_url": "https://github.com/Grimy",
+    "id": 3199732,
+    "login": "Grimy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Grimy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Grimy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3199732?v=4",
+    "starred_url": "https://api.github.com/users/Grimy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Grimy/followers",
+    "url": "https://api.github.com/users/Grimy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1621"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Adding some elaboration on working with C structs, and a small handfull of test fixes.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-12-16T21:46:29Z",
+  "created_at": "2017-12-16T13:31:09Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1715/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1715",
+    "diff_url": "https://github.com/perl6/doc/pull/1715.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1715.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1715"
+  },
+  "locked": false,
+  "title": "Docfix manchicken 2017 12 12",
+  "id": 282623807,
+  "html_url": "https://github.com/perl6/doc/pull/1715",
+  "closed_at": "2017-12-16T21:46:23Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1715/labels{/name}",
+  "number": 1715,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1715/events",
+  "user": {
+    "following_url": "https://api.github.com/users/manchicken/following{/other_user}",
+    "gists_url": "https://api.github.com/users/manchicken/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/manchicken/received_events",
+    "organizations_url": "https://api.github.com/users/manchicken/orgs",
+    "subscriptions_url": "https://api.github.com/users/manchicken/subscriptions",
+    "html_url": "https://github.com/manchicken",
+    "id": 1848743,
+    "login": "manchicken",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/manchicken/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/manchicken/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1848743?v=4",
+    "starred_url": "https://api.github.com/users/manchicken/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/manchicken/followers",
+    "url": "https://api.github.com/users/manchicken"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1715"
+}

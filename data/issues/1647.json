@@ -1,0 +1,71 @@
+{
+  "body": "As explained here: https://rakudo.party/post/CPAN6-Is-Here",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/patzim/following{/other_user}",
+    "gists_url": "https://api.github.com/users/patzim/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/patzim/received_events",
+    "organizations_url": "https://api.github.com/users/patzim/orgs",
+    "subscriptions_url": "https://api.github.com/users/patzim/subscriptions",
+    "html_url": "https://github.com/patzim",
+    "id": 6307078,
+    "login": "patzim",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/patzim/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/patzim/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6307078?v=4",
+    "starred_url": "https://api.github.com/users/patzim/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/patzim/followers",
+    "url": "https://api.github.com/users/patzim"
+  },
+  "updated_at": "2017-11-03T19:20:26Z",
+  "created_at": "2017-11-03T11:44:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1647/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1647",
+    "diff_url": "https://github.com/perl6/doc/pull/1647.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1647.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1647"
+  },
+  "locked": false,
+  "title": "Update ecosystem module upload docs (CPAN).",
+  "id": 270951776,
+  "html_url": "https://github.com/perl6/doc/pull/1647",
+  "closed_at": "2017-11-03T19:20:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1647/labels{/name}",
+  "number": 1647,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1647/events",
+  "user": {
+    "following_url": "https://api.github.com/users/patzim/following{/other_user}",
+    "gists_url": "https://api.github.com/users/patzim/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/patzim/received_events",
+    "organizations_url": "https://api.github.com/users/patzim/orgs",
+    "subscriptions_url": "https://api.github.com/users/patzim/subscriptions",
+    "html_url": "https://github.com/patzim",
+    "id": 6307078,
+    "login": "patzim",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/patzim/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/patzim/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6307078?v=4",
+    "starred_url": "https://api.github.com/users/patzim/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/patzim/followers",
+    "url": "https://api.github.com/users/patzim"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1647"
+}

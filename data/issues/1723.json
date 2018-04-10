@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2017-12-25T18:08:29Z",
+  "created_at": "2017-12-25T15:50:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1723/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1723",
+    "diff_url": "https://github.com/perl6/doc/pull/1723.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1723.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1723"
+  },
+  "locked": false,
+  "title": "Fix broken links",
+  "id": 284456431,
+  "html_url": "https://github.com/perl6/doc/pull/1723",
+  "closed_at": "2017-12-25T18:08:29Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1723/labels{/name}",
+  "number": 1723,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1723/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dmc00/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dmc00/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dmc00/received_events",
+    "organizations_url": "https://api.github.com/users/dmc00/orgs",
+    "subscriptions_url": "https://api.github.com/users/dmc00/subscriptions",
+    "html_url": "https://github.com/dmc00",
+    "id": 1288814,
+    "login": "dmc00",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dmc00/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dmc00/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1288814?v=4",
+    "starred_url": "https://api.github.com/users/dmc00/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dmc00/followers",
+    "url": "https://api.github.com/users/dmc00"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1723"
+}

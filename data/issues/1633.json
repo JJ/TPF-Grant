@@ -1,0 +1,71 @@
+{
+  "body": "Added Docker way to get tools up and running for contributing",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/7ojo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/7ojo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/7ojo/received_events",
+    "organizations_url": "https://api.github.com/users/7ojo/orgs",
+    "subscriptions_url": "https://api.github.com/users/7ojo/subscriptions",
+    "html_url": "https://github.com/7ojo",
+    "id": 5542628,
+    "login": "7ojo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/7ojo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/7ojo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5542628?v=4",
+    "starred_url": "https://api.github.com/users/7ojo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/7ojo/followers",
+    "url": "https://api.github.com/users/7ojo"
+  },
+  "updated_at": "2017-10-26T20:49:19Z",
+  "created_at": "2017-10-26T20:37:08Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1633/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1633",
+    "diff_url": "https://github.com/perl6/doc/pull/1633.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1633.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1633"
+  },
+  "locked": false,
+  "title": "Added Dockerfile and instructions to CONTRIBUTING.md",
+  "id": 268902881,
+  "html_url": "https://github.com/perl6/doc/pull/1633",
+  "closed_at": "2017-10-26T20:49:19Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1633/labels{/name}",
+  "number": 1633,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1633/events",
+  "user": {
+    "following_url": "https://api.github.com/users/7ojo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/7ojo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/7ojo/received_events",
+    "organizations_url": "https://api.github.com/users/7ojo/orgs",
+    "subscriptions_url": "https://api.github.com/users/7ojo/subscriptions",
+    "html_url": "https://github.com/7ojo",
+    "id": 5542628,
+    "login": "7ojo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/7ojo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/7ojo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5542628?v=4",
+    "starred_url": "https://api.github.com/users/7ojo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/7ojo/followers",
+    "url": "https://api.github.com/users/7ojo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1633"
+}

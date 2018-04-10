@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/type/Telemetry\r\n\r\nhas this sample:\r\n\r\n```\r\nuse Telemetry :COLUMNS;   # imports all of the possible columns of report \r\n```\r\n\r\nbut this dies with:\r\n\r\n```\r\n16:30 < [Coke]> m: use Telemetry :COLUMNS;\r\n16:30 <+camelia> rakudo-moar 4a32089fd: OUTPUT: «===SORRY!=== Error while\r\n                 compiling <tmp>␤Error while importing from 'Telemetry': no\r\n                 such tag 'COLUMNS'␤at <tmp>:1␤------> use Telemetry\r\n                 :COLUMNS⏏;␤»\r\n```",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-12-29T04:59:01Z",
+  "created_at": "2017-11-29T16:33:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1693/comments",
+  "locked": false,
+  "title": "xt/examples-compilation.t fails",
+  "id": 277821782,
+  "html_url": "https://github.com/perl6/doc/issues/1693",
+  "closed_at": "2017-12-29T04:59:01Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1693/labels{/name}",
+  "number": 1693,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "e99695",
+      "name": "xt",
+      "id": 639973381,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/xt"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1693/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1693"
+}

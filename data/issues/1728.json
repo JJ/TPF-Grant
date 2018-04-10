@@ -1,0 +1,71 @@
+{
+  "body": "[This](https://irclog.perlgeek.de/perl6/2018-01-10#i_15676620) and [this](https://irclog.perlgeek.de/perl6/2018-01-11#i_15676648).\r\n\r\nTL;DR:\r\n```perl6\r\nmy $foo; \r\nmy $p = a => $foo;\r\n$foo = 99;\r\nsay $p # OUTPUT: «a => 99␤»\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "html_url": "https://github.com/fluca1978",
+    "id": 813664,
+    "login": "fluca1978",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "url": "https://api.github.com/users/fluca1978"
+  },
+  "updated_at": "2018-01-12T09:31:51Z",
+  "created_at": "2018-01-11T00:22:56Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1728/comments",
+  "locked": false,
+  "title": "Possible trap with pairs (my $p = a => $foo)",
+  "id": 287623514,
+  "html_url": "https://github.com/perl6/doc/issues/1728",
+  "closed_at": "2018-01-12T09:31:00Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1728/labels{/name}",
+  "number": 1728,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1728/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1728"
+}

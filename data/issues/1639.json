@@ -1,0 +1,78 @@
+{
+  "body": "Juerd on #perl6 suggested that I should request this addition:\r\n\r\nrw stands for read-write. ",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "updated_at": "2018-04-09T19:06:16Z",
+  "created_at": "2017-10-30T21:59:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1639/comments",
+  "locked": false,
+  "title": "rw (what it stands for)",
+  "id": 269768492,
+  "html_url": "https://github.com/perl6/doc/issues/1639",
+  "closed_at": "2017-11-04T07:26:34Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1639/labels{/name}",
+  "number": 1639,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1639/events",
+  "user": {
+    "following_url": "https://api.github.com/users/COMBORICO/following{/other_user}",
+    "gists_url": "https://api.github.com/users/COMBORICO/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/COMBORICO/received_events",
+    "organizations_url": "https://api.github.com/users/COMBORICO/orgs",
+    "subscriptions_url": "https://api.github.com/users/COMBORICO/subscriptions",
+    "html_url": "https://github.com/COMBORICO",
+    "id": 29985233,
+    "login": "COMBORICO",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/COMBORICO/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/COMBORICO/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29985233?v=4",
+    "starred_url": "https://api.github.com/users/COMBORICO/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/COMBORICO/followers",
+    "url": "https://api.github.com/users/COMBORICO"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1639"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "As of discussion <https://github.com/perl6/doc/issues/1705> related to\r\nmy previous pull request <https://github.com/perl6/doc/pull/1704> I decided\r\nto remove the explicit reference to Perl 5 and to make it\r\na separate section in the 5-to-6 part related to regexps.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "html_url": "https://github.com/fluca1978",
+    "id": 813664,
+    "login": "fluca1978",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "url": "https://api.github.com/users/fluca1978"
+  },
+  "updated_at": "2017-12-14T07:09:31Z",
+  "created_at": "2017-12-07T10:50:47Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1706/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1706",
+    "diff_url": "https://github.com/perl6/doc/pull/1706.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1706.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1706"
+  },
+  "locked": false,
+  "title": "Remove reference to Perl 5 in not 5-to-6 document.",
+  "id": 280084072,
+  "html_url": "https://github.com/perl6/doc/pull/1706",
+  "closed_at": "2017-12-14T07:09:31Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1706/labels{/name}",
+  "number": 1706,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1706/events",
+  "user": {
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "html_url": "https://github.com/fluca1978",
+    "id": 813664,
+    "login": "fluca1978",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "url": "https://api.github.com/users/fluca1978"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1706"
+}

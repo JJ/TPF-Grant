@@ -1,0 +1,53 @@
+{
+  "body": "Analogous language/list and language/setbagmix, create a new language/hashmap\r\nMove most of the top stuff from type/Hash into language/hashmap\r\n\r\nRationale: Associative stuff should have a major section in language, similar to language/list, the type/Hash should be trimmed to the reference stuff like type/Array\r\n\r\nWhat do you think?\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-01-05T19:37:27Z",
+  "created_at": "2017-11-20T12:02:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1682/comments",
+  "locked": false,
+  "title": "Make a new language/hashmap",
+  "id": 275332031,
+  "html_url": "https://github.com/perl6/doc/issues/1682",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1682/labels{/name}",
+  "number": 1682,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1682/events",
+  "user": {
+    "following_url": "https://api.github.com/users/CurtTilmes/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CurtTilmes/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/CurtTilmes/received_events",
+    "organizations_url": "https://api.github.com/users/CurtTilmes/orgs",
+    "subscriptions_url": "https://api.github.com/users/CurtTilmes/subscriptions",
+    "html_url": "https://github.com/CurtTilmes",
+    "id": 7469229,
+    "login": "CurtTilmes",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/CurtTilmes/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/CurtTilmes/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7469229?v=4",
+    "starred_url": "https://api.github.com/users/CurtTilmes/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/CurtTilmes/followers",
+    "url": "https://api.github.com/users/CurtTilmes"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1682"
+}

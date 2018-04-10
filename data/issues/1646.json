@@ -1,0 +1,60 @@
+{
+  "body": "There was [some feedback on the language](https://www.reddit.com/r/perl/comments/79wjtz/what_are_the_most_disliked_programming_languages/dp6r8j7/) and later [more specific issues pointed out with the docs](https://www.reddit.com/r/perl/comments/79wjtz/what_are_the_most_disliked_programming_languages/dp8lfg1/). \r\n\r\nSome of the navigational issues will be resolved by the site's redesign to a dynamic version (to be done some time in first quarter of 2018).\r\n\r\nI too think that `/type/*` and `/routine/*` docs should be just reference material. They should describe all the details about routine's/Type's behaviour but should assume the reader already has some familiarity with the language and is just looking for edge-case details, list of all accepted arguments and return values, or a refresher material.\r\n\r\nThe `/language/*` docs on the other hand, should be more of beginner-aimed, tutorial-style docs where the language bits are explained in more general terms, along with examples and explanation of how all the pieces fit together. These docs would simply link to `/type/*`/`/routine/*` as a \"see for details\" type of links, so that we don't repeat all the edge cases and all possible accepted arguments in `/language/*` docs.\r\n\r\n-----\r\n\r\n(some of the more prominent bits quoted from OP:)\r\n> One thing I hit a lot is that the information I actually needed was spread over several documents, and it wasn't obvious at first which one I should hit.\r\n\r\n> I'd expect the Type documentation to be more man page-like, laying out a simple reference of each individual piece of functionality, which is what you get later in the Signatures doc in the \"Methods\" section. Basically, the entire \"Signature Literal\" sections should be removed from there and dropped into Functions.\r\n\r\n>As a more specific case, there doesn't seem to be a documented way to have a function's return type be an Array with the types inside further constrained (array of ints, for example). After some experimenting, I found that it's --> Array[Int], which might be what you expect if you used Moose on Perl5. It's not explicitly laid out anywhere I could find, though.\r\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-03T04:33:01Z",
+  "created_at": "2017-11-02T14:31:58Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1646/comments",
+  "locked": false,
+  "title": "User Feedback + Make `/type/<foo>` and `/routine/<foo>` docs be a reference only",
+  "id": 270674695,
+  "html_url": "https://github.com/perl6/doc/issues/1646",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1646/labels{/name}",
+  "number": 1646,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1646/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1646"
+}

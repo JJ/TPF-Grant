@@ -1,0 +1,78 @@
+{
+  "body": "From splitting #1212 \r\n\r\n remove the \"Documentation for \" string that's prepended to the title of some pages (it seems useless; why was it added?) to make more room ;",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2018-04-09T19:06:44Z",
+  "created_at": "2017-10-24T15:21:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1623/comments",
+  "locked": false,
+  "title": "Useless  \"Documentation for \" in some page titles.",
+  "id": 268075185,
+  "html_url": "https://github.com/perl6/doc/issues/1623",
+  "closed_at": "2017-11-04T14:58:00Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1623/labels{/name}",
+  "number": 1623,
+  "comments": 8,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1623/events",
+  "user": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1623"
+}

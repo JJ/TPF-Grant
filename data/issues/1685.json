@@ -1,0 +1,47 @@
+{
+  "body": "```\r\nstart react whenever IO::Socket::Async.listen(\"localhost\", 11111) { };\r\nsleep 1;\r\nreact whenever IO::Socket::Async.listen(\"localhost\", 11111) { };\r\nCATCH { default { say .^name, ': ', .Str } }\r\n# OUTPUT: «X::AdHoc+{X::Await::Died}: Unexplained error␤»\r\n```",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-24T10:30:41Z",
+  "created_at": "2017-11-24T10:30:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1685/comments",
+  "locked": false,
+  "title": "IO::Socket::Async.listen tell to use QUIT handler to deal with ports that are already taken.",
+  "id": 276575333,
+  "html_url": "https://github.com/perl6/doc/issues/1685",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1685/labels{/name}",
+  "number": 1685,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1685/events",
+  "user": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1685"
+}

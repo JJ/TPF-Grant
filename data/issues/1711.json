@@ -1,0 +1,53 @@
+{
+  "body": "[Symbolic Unary Precedence](https://docs.perl6.org/language/operators#Symbolic_Unary_Precedence) has the prefix operators `+`, `~`, and others but not `@` (as in `@$listy-thing`).",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-13T16:27:34Z",
+  "created_at": "2017-12-12T00:10:13Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1711/comments",
+  "locked": false,
+  "title": "Should the @ be the \"list context operator\" in Operators?",
+  "id": 281211677,
+  "html_url": "https://github.com/perl6/doc/issues/1711",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1711/labels{/name}",
+  "number": 1711,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1711/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1711"
+}

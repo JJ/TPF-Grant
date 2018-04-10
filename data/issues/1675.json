@@ -1,0 +1,53 @@
+{
+  "body": "https://github.com/hankache/perl6intro/issues/135\r\n\r\nWhat might be a good/quick way to explain the differences in the intro guide?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-02-07T15:26:35Z",
+  "created_at": "2017-11-14T21:06:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1675/comments",
+  "locked": false,
+  "title": "Difference between //, m//, and rx// in regex",
+  "id": 273942686,
+  "html_url": "https://github.com/perl6/doc/issues/1675",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1675/labels{/name}",
+  "number": 1675,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1675/events",
+  "user": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1675"
+}

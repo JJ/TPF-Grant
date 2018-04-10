@@ -1,0 +1,71 @@
+{
+  "body": "Previously, this section stated that:\r\n\r\n* All ranges (including non-lazy ones) will truncate the output/ omit\r\n  undefined elements.\r\n\r\nRewrote the section to remove that inaccuracy and address the following:\r\n\r\n* If the element at index [x] does not exist then the result will be an\r\n  undefined element (when subscripting Positionals).\r\n     * This behavior can be modified using the :v adverb.\r\n* Using lazy Iterables as subscripts yields a different behavior. Only\r\n  returns defined elements (most of the time; see bullets below).\r\n    * Behind the scenes the elements of the lazy subscript are being\r\n      reified up until the point that the element in the Positional\r\n      is undefined.\r\n    * Continued use of lazy Lists will begin to return undefined\r\n      elements as new elements in the lazy List are reified.\r\n* Include justification for these behaviors. Sometimes returning\r\n  undefined elements is desirable.\r\n    * DESIRABLE:     assignment. eg @a[^10] = 1..10;\r\n    * NOT DESIRABLE: Out-of-memory due to uncontrolled indexing.\r\n\r\nThis removes some information about lack of protection against runaway\r\nslices and reification of subscript elements in instances where the\r\nundefined values are not being returned from the collection (eg,\r\ninstances where the same index is being used over and over again). This\r\nseemed a little out of place in this section and probably fits better\r\nelsewhere. Perhaps it would be appropriate in the Traps section?\r\n\r\nSEE ALSO:\r\n    [Issue #1679](https://github.com/perl6/doc/issues/1679)\r\n    https://irclog.perlgeek.de/perl6/2017-11-18#i_15466865",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-12-26T18:40:38Z",
+  "created_at": "2017-11-19T18:21:27Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1681/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1681",
+    "diff_url": "https://github.com/perl6/doc/pull/1681.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1681.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1681"
+  },
+  "locked": false,
+  "title": "Rewrite, remove inaccurate Range truncation info",
+  "id": 275179960,
+  "html_url": "https://github.com/perl6/doc/pull/1681",
+  "closed_at": "2017-12-26T18:40:32Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1681/labels{/name}",
+  "number": 1681,
+  "comments": 4,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1681/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
+    "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",
+    "subscriptions_url": "https://api.github.com/users/jstuder-gh/subscriptions",
+    "html_url": "https://github.com/jstuder-gh",
+    "id": 10088878,
+    "login": "jstuder-gh",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jstuder-gh/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jstuder-gh/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10088878?v=4",
+    "starred_url": "https://api.github.com/users/jstuder-gh/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jstuder-gh/followers",
+    "url": "https://api.github.com/users/jstuder-gh"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1681"
+}

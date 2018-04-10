@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
+  },
+  "updated_at": "2018-01-02T14:47:09Z",
+  "created_at": "2018-01-02T08:50:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1727/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1727",
+    "diff_url": "https://github.com/perl6/doc/pull/1727.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1727.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1727"
+  },
+  "locked": false,
+  "title": "show how to use Empty",
+  "id": 285379671,
+  "html_url": "https://github.com/perl6/doc/pull/1727",
+  "closed_at": "2018-01-02T14:47:09Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1727/labels{/name}",
+  "number": 1727,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1727/events",
+  "user": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1727"
+}

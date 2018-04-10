@@ -1,0 +1,53 @@
+{
+  "body": "```\r\nsay (&sin, &cos, &sqrt)».(0.5);\r\nrakudo-moar dcf3e28c5: OUTPUT: «(0.479425538604203 0.877582561890373 0.707106781186548)␤»\r\n```",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-11-04T07:33:55Z",
+  "created_at": "2017-10-31T19:36:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1643/comments",
+  "locked": false,
+  "title": "doc >>. on lists of Callables",
+  "id": 270092605,
+  "html_url": "https://github.com/perl6/doc/issues/1643",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1643/labels{/name}",
+  "number": 1643,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1643/events",
+  "user": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1643"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Personally, I rather see it gone from Rakudo altogether, but there are a few roast tests that seem to assume this method can be overridden, so perhaps it should be documented.\r\n\r\n```\r\n$ perl6 -e '42.Bridge.perl.say'                                                                                                                                                                                                    \r\n42e0\r\n```\r\n\r\nTo the best of my knowledge all it does is coerce to a `Num` on our `Numeric` types.... why not just use a `.Num` in the first place? No idea.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2018-02-14T13:23:50Z",
+  "created_at": "2017-11-28T10:59:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1690/comments",
+  "locked": false,
+  "title": "Method `Bridge` is undocumented",
+  "id": 277341952,
+  "html_url": "https://github.com/perl6/doc/issues/1690",
+  "closed_at": "2018-02-14T13:23:50Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1690/labels{/name}",
+  "number": 1690,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1690/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1690"
+}
