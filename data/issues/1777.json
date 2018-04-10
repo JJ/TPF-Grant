@@ -1,0 +1,71 @@
+{
+  "body": "Ref: https://docs.perl6.org/type/Signature#Signature_Literals\r\n\r\nThere is this example:\r\n\r\n    my $sig = :(Int $i, Str $s);\r\n    given ('answer', 10) {\r\n        when :(Str, Int) { say 'match' }\r\n        when $sig { say 'mismatch' }\r\n    } # OUTPUT: «match␤» \r\n\r\nA newbie reader might infer that second 'when' clause could be executed if a non-matching signature was \"given\" (because the action is `say \"mismatch\"`).   It might be better to replace the second `when` with  `default { say \"mismatch\" }`.\r\n\r\nMy reasoning is that people just learning something benefit greatly from examples which \"make sense\" to them in every respect and don't have any logic bugs (which they may assume are not bugs but indicative of them not understanding the topic deeply enough).  Just my 2¢.  I'm in awe of all the high-quality work y'all have done in the last couple of years!",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-02-15T17:50:41Z",
+  "created_at": "2018-02-14T02:45:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1777/comments",
+  "locked": false,
+  "title": "possibly-confusing example of smartmatch of Signature literals",
+  "id": 296958242,
+  "html_url": "https://github.com/perl6/doc/issues/1777",
+  "closed_at": "2018-02-15T06:38:29Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1777/labels{/name}",
+  "number": 1777,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1777/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jimav/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jimav/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jimav/received_events",
+    "organizations_url": "https://api.github.com/users/jimav/orgs",
+    "subscriptions_url": "https://api.github.com/users/jimav/subscriptions",
+    "html_url": "https://github.com/jimav",
+    "id": 1262272,
+    "login": "jimav",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jimav/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jimav/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1262272?v=4",
+    "starred_url": "https://api.github.com/users/jimav/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jimav/followers",
+    "url": "https://api.github.com/users/jimav"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1777"
+}

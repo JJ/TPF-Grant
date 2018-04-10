@@ -1,0 +1,67 @@
+{
+  "body": "Besides the issues that mention it: #1427, #1552 and #1878, there is a comment  in the code that have not been addressed: \r\n\r\n> I'm not quite clear which specific features should be included below hyper-operators, autothreading junctions?\r\n\r\nSo, this would mean including\r\n- [ ]  hyper-operators\r\n- [ ]  autothreading junctions\r\n- [ ]  maybe `hyper` and `race`",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-08T07:14:36Z",
+  "created_at": "2018-04-08T07:14:11Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1906/comments",
+  "locked": false,
+  "title": "Improve the concurrency tutorial.",
+  "id": 312279950,
+  "html_url": "https://github.com/perl6/doc/issues/1906",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1906/labels{/name}",
+  "number": 1906,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "new",
+      "id": 676800971,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/new"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1906/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1906"
+}

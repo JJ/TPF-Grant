@@ -1,0 +1,71 @@
+{
+  "body": "Hello,\r\n\r\nI don't know if it is worth mentioning, but I mention a bug in the WEB site.\r\n\r\nFrom the page `https://docs.perl6.org/routine.html`, I clicked to the link below:\r\n\r\n`https://docs.perl6.org/routine/.*`\r\n\r\nThe required page does not exit. Instead, I can read the following instructions :\r\n\r\n> The page you tried to reach cannot be found. If you got here by following a link on this site, please report it on our GitHub repository so we can fix it!\r\n\r\nThus I report the error.\r\n\r\nBest regards,\r\n\r\nDenis\r\n\r\n\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/denis-beurive/following{/other_user}",
+    "gists_url": "https://api.github.com/users/denis-beurive/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/denis-beurive/received_events",
+    "organizations_url": "https://api.github.com/users/denis-beurive/orgs",
+    "subscriptions_url": "https://api.github.com/users/denis-beurive/subscriptions",
+    "html_url": "https://github.com/denis-beurive",
+    "id": 623614,
+    "login": "denis-beurive",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/denis-beurive/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/denis-beurive/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/623614?v=4",
+    "starred_url": "https://api.github.com/users/denis-beurive/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/denis-beurive/followers",
+    "url": "https://api.github.com/users/denis-beurive"
+  },
+  "updated_at": "2018-02-20T16:20:51Z",
+  "created_at": "2018-02-19T13:23:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1791/comments",
+  "locked": false,
+  "title": "A page is missing in the documentation.",
+  "id": 298273511,
+  "html_url": "https://github.com/perl6/doc/issues/1791",
+  "closed_at": "2018-02-20T16:20:51Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1791/labels{/name}",
+  "number": 1791,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1791/events",
+  "user": {
+    "following_url": "https://api.github.com/users/denis-beurive/following{/other_user}",
+    "gists_url": "https://api.github.com/users/denis-beurive/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/denis-beurive/received_events",
+    "organizations_url": "https://api.github.com/users/denis-beurive/orgs",
+    "subscriptions_url": "https://api.github.com/users/denis-beurive/subscriptions",
+    "html_url": "https://github.com/denis-beurive",
+    "id": 623614,
+    "login": "denis-beurive",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/denis-beurive/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/denis-beurive/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/623614?v=4",
+    "starred_url": "https://api.github.com/users/denis-beurive/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/denis-beurive/followers",
+    "url": "https://api.github.com/users/denis-beurive"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1791"
+}

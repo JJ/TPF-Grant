@@ -1,0 +1,67 @@
+{
+  "body": "It would be a nice feature if you could edit and execute the code of the documentation.\r\n\r\nSee also: https://github.com/perl6/perl6.org/issues/99",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-26T07:10:23Z",
+  "created_at": "2018-03-23T16:51:24Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1866/comments",
+  "locked": false,
+  "title": "execute code on glot.io",
+  "id": 308105370,
+  "html_url": "https://github.com/perl6/doc/issues/1866",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1866/labels{/name}",
+  "number": 1866,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1866/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ufobat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ufobat/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ufobat/received_events",
+    "organizations_url": "https://api.github.com/users/ufobat/orgs",
+    "subscriptions_url": "https://api.github.com/users/ufobat/subscriptions",
+    "html_url": "https://github.com/ufobat",
+    "id": 12395249,
+    "login": "ufobat",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ufobat/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ufobat/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12395249?v=4",
+    "starred_url": "https://api.github.com/users/ufobat/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ufobat/followers",
+    "url": "https://api.github.com/users/ufobat"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1866"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "We have descriptions for some labels here: https://github.com/perl6/doc/blob/master/CONTRIBUTING.md#reporting-bugs\r\n\r\nBut now github conveniently allows label descriptions: https://github.com/perl6/doc/labels\r\n\r\nSo let's remove that stuff from CONTRIBUTING.md to make it simpler, and just use the native github feature to achieve the same (and arguably better) result.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-08T12:42:14Z",
+  "created_at": "2018-04-08T12:39:57Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1909/comments",
+  "locked": false,
+  "title": "Description for all ticket labels",
+  "id": 312302313,
+  "html_url": "https://github.com/perl6/doc/issues/1909",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1909/labels{/name}",
+  "number": 1909,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "000000",
+      "name": "style",
+      "id": 423513323,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/style"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1909/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1909"
+}

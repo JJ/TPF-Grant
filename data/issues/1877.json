@@ -1,0 +1,67 @@
+{
+  "body": "My \"Programming Perl\" 4th ed has a section called \"Accessing Overridden Methods\" in its chapter on objects.  There is a sentence for \"re-dispatch\" at the end of [language/classtut/#Overriding_inherited_methods](https://docs.perl6.org/language/classtut#Overriding_inherited_methods) and `callsame` is mentioned for `BUILDALL` in the \"Object Orientation\" doc.  The [inheritance section in language/objects](https://docs.perl6.org/language/objects#Inheritance) doesn't mention re-dispatch and I think it should and give an example.  Maybe it can refer to the example for `BUILDALL` but that might be seen as a special case.  Neither Perl 6 document now really covers the concepts from \"Accessing Overridden Methods\" in \"Programming Perl\".\r\n\r\nSee also my confused [#perl6](https://irclog.perlgeek.de/perl6/2018-03-28#i_15976203) discussion earlier today.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-28T19:44:05Z",
+  "created_at": "2018-03-28T17:01:13Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1877/comments",
+  "locked": false,
+  "title": "Re-dispatching needs mention and maybe example in language/objects#Inheritance",
+  "id": 309451335,
+  "html_url": "https://github.com/perl6/doc/issues/1877",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1877/labels{/name}",
+  "number": 1877,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "new",
+      "id": 676800971,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/new"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1877/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1877"
+}

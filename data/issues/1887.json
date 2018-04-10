@@ -1,0 +1,71 @@
+{
+  "body": "Improve the documentation on the hyper and race methods by adding some explanations about\r\n- degree\r\n- batch",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2018-03-30T17:33:08Z",
+  "created_at": "2018-03-30T13:35:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1887/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1887",
+    "diff_url": "https://github.com/perl6/doc/pull/1887.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1887.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1887"
+  },
+  "locked": false,
+  "title": "Hyper race methods: explain batch and degree",
+  "id": 310067775,
+  "html_url": "https://github.com/perl6/doc/pull/1887",
+  "closed_at": "2018-03-30T17:33:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1887/labels{/name}",
+  "number": 1887,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1887/events",
+  "user": {
+    "following_url": "https://api.github.com/users/maettu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/maettu/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/maettu/received_events",
+    "organizations_url": "https://api.github.com/users/maettu/orgs",
+    "subscriptions_url": "https://api.github.com/users/maettu/subscriptions",
+    "html_url": "https://github.com/maettu",
+    "id": 167811,
+    "login": "maettu",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/maettu/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/maettu/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/167811?v=4",
+    "starred_url": "https://api.github.com/users/maettu/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/maettu/followers",
+    "url": "https://api.github.com/users/maettu"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1887"
+}

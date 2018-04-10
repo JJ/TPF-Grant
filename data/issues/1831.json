@@ -1,0 +1,71 @@
+{
+  "body": "This section describes the difference well:\r\nhttps://docs.perl6.org/language/faq#Does_Rakudo_have_a_core_standard_library?\r\n\r\nHowever, I think it's little bit difficult to find this section because this section isn't indexed.\r\nIsn't it better to write this explanation in the download page (https://perl6.org/downloads/)?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "updated_at": "2018-03-08T22:47:05Z",
+  "created_at": "2018-03-07T16:16:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1831/comments",
+  "locked": false,
+  "title": "The download page doesn't mention the difference between rakudo-star and rakudo",
+  "id": 303162580,
+  "html_url": "https://github.com/perl6/doc/issues/1831",
+  "closed_at": "2018-03-08T22:22:46Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1831/labels{/name}",
+  "number": 1831,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1831/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1831"
+}

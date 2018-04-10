@@ -1,0 +1,47 @@
+{
+  "body": "There are [three different tests](https://github.com/perl6/doc/tree/master/xt): space-after-comma, trailing-whitespace and perl-nbsp. They kinda do the same: read lines in a file, check for stuff, consider exceptions. [`space-after-comma.t`](https://github.com/perl6/doc/blob/master/xt/space-after-comma.t) is the coolest (great job, @coke and @zoffixznet) doing stuff asynchronously, using promises. \r\nCould we maybe graft the other two into the first and refactor so that we can easily check for regexen + exceptions in a single file?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-18T09:42:11Z",
+  "created_at": "2018-03-05T16:52:27Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1822/comments",
+  "locked": false,
+  "title": "Merging \"whitespacey\" tests",
+  "id": 302377628,
+  "html_url": "https://github.com/perl6/doc/issues/1822",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1822/labels{/name}",
+  "number": 1822,
+  "comments": 6,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1822/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1822"
+}

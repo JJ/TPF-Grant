@@ -1,0 +1,47 @@
+{
+  "body": ".travis.yml has:\r\n\r\nmatrix:\r\n  allow_failures:\r\n    - os: osx\r\n\r\nadded in 9d74487e8\r\n\r\nI think the build is fine on the mac; if no one objects, I'll remove this in the next few days and see what explodes",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-14T18:22:35Z",
+  "created_at": "2018-03-06T20:59:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1828/comments",
+  "locked": false,
+  "title": "travis allowing failures on OS X",
+  "id": 302863617,
+  "html_url": "https://github.com/perl6/doc/issues/1828",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1828/labels{/name}",
+  "number": 1828,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1828/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1828"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "~~Can't~~ ~~search~~ ~~for~~ ~~'Slice'~~.  ~~Or~~ ~~'zen~~ ~~slice'~~ ~~either.~~\r\n\r\n~~Probably~~ ~~should~~ ~~link~~ ~~to~~ ~~https://docs.perl6.org/language/subscripts#Slices~~ ~~and~~ ~~https://docs.perl6.org/language/subscripts#Zen_slices~~\r\n\r\nMight be useful to have an example of how to take the last N elements of an array, too. `@a[*-$N .. *]`is a bit more difficult than the trivial first N elements slice, `@a[^$N]`",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-02-19T08:40:20Z",
+  "created_at": "2018-02-16T07:58:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1782/comments",
+  "locked": false,
+  "title": "Expand slice examples.",
+  "id": 297705602,
+  "html_url": "https://github.com/perl6/doc/issues/1782",
+  "closed_at": "2018-02-19T08:40:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1782/labels{/name}",
+  "number": 1782,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1782/events",
+  "user": {
+    "following_url": "https://api.github.com/users/labster/following{/other_user}",
+    "gists_url": "https://api.github.com/users/labster/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/labster/received_events",
+    "organizations_url": "https://api.github.com/users/labster/orgs",
+    "subscriptions_url": "https://api.github.com/users/labster/subscriptions",
+    "html_url": "https://github.com/labster",
+    "id": 108723,
+    "login": "labster",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/labster/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/labster/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/108723?v=4",
+    "starred_url": "https://api.github.com/users/labster/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/labster/followers",
+    "url": "https://api.github.com/users/labster"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1782"
+}

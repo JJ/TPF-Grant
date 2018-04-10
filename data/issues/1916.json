@@ -1,0 +1,60 @@
+{
+  "body": "From my point of view, I think it would be better if the routines or method from the classes mentioned above were not included and explained in each and every class that inherits from them, and instead just show the methods which are unique to the class.",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-10T17:18:11Z",
+  "created_at": "2018-04-09T20:55:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1916/comments",
+  "locked": false,
+  "title": "Routines supplied by class Cool/ Any/ Mu",
+  "id": 312684052,
+  "html_url": "https://github.com/perl6/doc/issues/1916",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1916/labels{/name}",
+  "number": 1916,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1916/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ElenaMerelo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ElenaMerelo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ElenaMerelo/received_events",
+    "organizations_url": "https://api.github.com/users/ElenaMerelo/orgs",
+    "subscriptions_url": "https://api.github.com/users/ElenaMerelo/subscriptions",
+    "html_url": "https://github.com/ElenaMerelo",
+    "id": 8902059,
+    "login": "ElenaMerelo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ElenaMerelo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ElenaMerelo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8902059?v=4",
+    "starred_url": "https://api.github.com/users/ElenaMerelo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ElenaMerelo/followers",
+    "url": "https://api.github.com/users/ElenaMerelo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1916"
+}

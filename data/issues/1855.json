@@ -1,0 +1,53 @@
+{
+  "body": "I grepped the docs and couldn't fine any place where we show something like this:\r\n\r\n```perl6\r\nmy %a = :11a, :22b;\r\n%a = %a, :33x;\r\nsay %a # OUTPUT: «{a => 11, b => 22, x => 33}␤»\r\n```\r\n\r\nAlso, this can be written using `,=`:\r\n```perl6\r\nmy %a = :11a, :22b;\r\n%a ,= :33x;\r\nsay %a # OUTPUT: «{a => 11, b => 22, x => 33}␤»\r\n```\r\n\r\n`,=` is of course not specific to hashes and behaves like any other op combined with `=`. However, it seems like `,=` is particularly useful for hashes, and people who stumble upon it in code should be able to find this section quickly.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-20T02:09:59Z",
+  "created_at": "2018-03-20T02:04:45Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1855/comments",
+  "locked": false,
+  "title": "Document %a = %a, %b and %a ,= %b (and link ,= to that section for convenience)",
+  "id": 306701615,
+  "html_url": "https://github.com/perl6/doc/issues/1855",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1855/labels{/name}",
+  "number": 1855,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1855/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1855"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Curt Tilmes gave a great addition to a question on perl6 users. I thought it illustrated several parts of NativeCall, so I wrote it up as an example for the NativeCall documentation.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2018-03-04T08:50:27Z",
+  "created_at": "2018-03-04T07:37:34Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1811/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1811",
+    "diff_url": "https://github.com/perl6/doc/pull/1811.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1811.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1811"
+  },
+  "locked": false,
+  "title": "c function tutorial added",
+  "id": 302064843,
+  "html_url": "https://github.com/perl6/doc/pull/1811",
+  "closed_at": "2018-03-04T08:50:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1811/labels{/name}",
+  "number": 1811,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1811/events",
+  "user": {
+    "following_url": "https://api.github.com/users/finanalyst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/finanalyst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/finanalyst/received_events",
+    "organizations_url": "https://api.github.com/users/finanalyst/orgs",
+    "subscriptions_url": "https://api.github.com/users/finanalyst/subscriptions",
+    "html_url": "https://github.com/finanalyst",
+    "id": 363676,
+    "login": "finanalyst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/finanalyst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/finanalyst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/363676?v=4",
+    "starred_url": "https://api.github.com/users/finanalyst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/finanalyst/followers",
+    "url": "https://api.github.com/users/finanalyst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1811"
+}

@@ -1,0 +1,47 @@
+{
+  "body": "When doing `make`\r\n```\r\nfound duplicate index entry is (inheritance) at #i45 #i679\r\nfound duplicate index entry :{} at #i853 #i855\r\nfound duplicate index entry sym at #i260 #i263\r\nfound duplicate index entry «=» at #i430 #i765\r\nfound duplicate index entry compunit at #i273 #i274 #i275\r\nfound duplicate index entry increment operator at #i361 #i365\r\nfound duplicate index entry control flow at #i53 #i54 #i55 #i56 #i58 #i60 #i61 #i65 #i68 #i69 #i71 #i74 #i75 #i76 #i77 #i78 #i79 #i80 #i81\r\nfound duplicate index entry ++ at #i360 #i364\r\nfound duplicate index entry whenever at #i50 #i51\r\nfound duplicate index entry decrement operator at #i363 #i366\r\nfound duplicate index entry NFG at #i214 #i851\r\nfound duplicate index entry ∅ at #i628 #i733\r\nfound duplicate index entry prefix &amp; at #i129 #i871\r\nfound duplicate index entry declarator regex at #i258 #i594\r\nfound duplicate index entry $*USAGE at #i147 #i836\r\nfound duplicate index entry invocant at #i39 #i498\r\n```\r\nAmong the gaggle of errors and warnings that htmlify.p6 emits. That would need a separate issue, or just point to #1823. \r\nThis error is also found in #1910 ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-09T05:55:17Z",
+  "created_at": "2018-04-09T05:44:53Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1912/comments",
+  "locked": false,
+  "title": "Duplicated index entries",
+  "id": 312400944,
+  "html_url": "https://github.com/perl6/doc/issues/1912",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1912/labels{/name}",
+  "number": 1912,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1912/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1912"
+}

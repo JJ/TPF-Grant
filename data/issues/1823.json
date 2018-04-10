@@ -1,0 +1,81 @@
+{
+  "body": "There are [a number of issues involving htmlify.p6](https://github.com/perl6/doc/search?q=htmlify.p6&state=open&type=Issues&utf8=%E2%9C%93). There is also some repeated code, for instance `badchars-ntfs` is redefined in htmlify.p6 although it's included in the module, and `badchars-unix` is re-defined with a different value. htmlify.p6 has lots of methods that could maybe be moved to Htmlify.pm6, and then there a group of methods: viz-*, write-* ... \r\nI wonder if we could kinda take a look at it and suggest some improvements to work on, speed and otherwise. Or, as suggested, just ditch it and change to a dynamic website.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-09T16:24:21Z",
+  "created_at": "2018-03-05T17:11:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1823/comments",
+  "locked": false,
+  "title": "Refactor htmlify.p6",
+  "id": 302385059,
+  "html_url": "https://github.com/perl6/doc/issues/1823",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1823/labels{/name}",
+  "number": 1823,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1823/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1823"
+}

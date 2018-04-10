@@ -1,0 +1,47 @@
+{
+  "body": "[https://docs.perl6.org/routine/defined](https://docs.perl6.org/routine/defined)\r\n\r\n![screenshot 2018-02-26 05 27 09](https://user-images.githubusercontent.com/22255/36665601-069efc3a-1ab6-11e8-8a06-4ead0d42f7bd.png)",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-25T08:33:05Z",
+  "created_at": "2018-02-26T10:31:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1800/comments",
+  "locked": false,
+  "title": "defined is not indexed as a method",
+  "id": 300184921,
+  "html_url": "https://github.com/perl6/doc/issues/1800",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1800/labels{/name}",
+  "number": 1800,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1800/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1800"
+}

@@ -1,0 +1,47 @@
+{
+  "body": "This is related to #561, but I can't figure it out. This is the error in the checklink report:\r\n```\r\nhttps://docs.perl6.org/$SOLIDUSroutine$SOLIDUS\t\r\n  Line: 110\r\n  Code: 404 Not Found\r\n To do: The link is broken. Double-check that you have not made any typo,\r\n\tor mistake in copy-pasting. If the link points to a resource that\r\n\tno longer exists, you may want to remove or fix the link.\r\n```\r\nIt shows up like this in pages, in this case [routine](https://docs.perl6.org/routine.html)\r\n![screenshot from 2018-03-09 08 22 01](https://user-images.githubusercontent.com/500/37195407-fb42589e-2372-11e8-92fa-6e66e435ef3a.png)\r\n\r\nI really have no idea where it comes from. Can anyone help?\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-09T07:23:15Z",
+  "created_at": "2018-03-09T07:23:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1835/comments",
+  "locked": false,
+  "title": "Whitespace links in operator pages",
+  "id": 303747985,
+  "html_url": "https://github.com/perl6/doc/issues/1835",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1835/labels{/name}",
+  "number": 1835,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1835/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1835"
+}

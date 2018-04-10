@@ -1,0 +1,71 @@
+{
+  "body": "This fixes broken link from former PR in hyper / race.\r\nWorks now on my localhost:3000 doc. :-)",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-01T10:18:56Z",
+  "created_at": "2018-04-01T10:13:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1890/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1890",
+    "diff_url": "https://github.com/perl6/doc/pull/1890.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1890.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1890"
+  },
+  "locked": false,
+  "title": "fix broken links",
+  "id": 310312985,
+  "html_url": "https://github.com/perl6/doc/pull/1890",
+  "closed_at": "2018-04-01T10:18:56Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1890/labels{/name}",
+  "number": 1890,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1890/events",
+  "user": {
+    "following_url": "https://api.github.com/users/maettu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/maettu/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/maettu/received_events",
+    "organizations_url": "https://api.github.com/users/maettu/orgs",
+    "subscriptions_url": "https://api.github.com/users/maettu/subscriptions",
+    "html_url": "https://github.com/maettu",
+    "id": 167811,
+    "login": "maettu",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/maettu/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/maettu/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/167811?v=4",
+    "starred_url": "https://api.github.com/users/maettu/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/maettu/followers",
+    "url": "https://api.github.com/users/maettu"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1890"
+}
