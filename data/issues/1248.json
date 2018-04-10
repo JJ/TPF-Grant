@@ -1,0 +1,53 @@
+{
+  "body": "The [`sprintf '<%#.5o>',` examples](https://github.com/perl6/doc/blob/db236af9f32404ed9921ed5c3288941ecbcee6eb/doc/Type/Str.pod6#L543-L545) are wrong [[link]](https://github.com/perl6/doc/blob/db236af9f32404ed9921ed5c3288941ecbcee6eb/doc/Type/Str.pod6#L543-L545)\r\n\r\n1) they issue a warning because in Perl 6 the leading-zero does not indicate an octal number\r\n2) the output shown is incorrect, because the real output is in octal:\r\n```\r\n<Zoffix> m: printf '<%#.5o>', 12345;\r\n<camelia> rakudo-moar b19df9: OUTPUT: «<030071>»\r\n```\r\n\r\nI'm not 100% sure whether that output is correct though. It's not a Perl 6 octal number, but is that by design because all `sprintf`s in the world probably do it that way?\r\n\r\nDon't have the time to check that at the moment, but maybe someone else has...",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-04-15T18:53:05Z",
+  "created_at": "2017-03-14T22:13:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1248/comments",
+  "locked": false,
+  "title": "sprintf '<%#.5o>' is wrong",
+  "id": 214222522,
+  "html_url": "https://github.com/perl6/doc/issues/1248",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1248/labels{/name}",
+  "number": 1248,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1248/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1248"
+}

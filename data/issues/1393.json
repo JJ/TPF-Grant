@@ -1,0 +1,60 @@
+{
+  "body": "",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-16T07:03:49Z",
+  "created_at": "2017-06-23T19:48:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1393/comments",
+  "locked": false,
+  "title": "classtut should mention TWEAK or replace BUILD with TWEAK completely",
+  "id": 238237079,
+  "html_url": "https://github.com/perl6/doc/issues/1393",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1393/labels{/name}",
+  "number": 1393,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1393/events",
+  "user": {
+    "following_url": "https://api.github.com/users/timo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/timo/received_events",
+    "organizations_url": "https://api.github.com/users/timo/orgs",
+    "subscriptions_url": "https://api.github.com/users/timo/subscriptions",
+    "html_url": "https://github.com/timo",
+    "id": 25167,
+    "login": "timo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/timo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/timo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25167?v=4",
+    "starred_url": "https://api.github.com/users/timo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/timo/followers",
+    "url": "https://api.github.com/users/timo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1393"
+}

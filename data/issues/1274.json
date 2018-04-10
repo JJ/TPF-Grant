@@ -1,0 +1,60 @@
+{
+  "body": "I can't give a better title for this issue because there are so many hidden things I'm still unaware of. Jonathan explained some of them in [his answer](http://stackoverflow.com/a/43293323/2766176) to [Should this Perl 6 CATCH block be able to change variables in the lexical scope?](http://stackoverflow.com/q/43289842/2766176).\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-25T13:13:27Z",
+  "created_at": "2017-04-09T00:04:25Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1274/comments",
+  "locked": false,
+  "title": "Document how try works, and what resume is doing",
+  "id": 220436448,
+  "html_url": "https://github.com/perl6/doc/issues/1274",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1274/labels{/name}",
+  "number": 1274,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1274/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1274"
+}

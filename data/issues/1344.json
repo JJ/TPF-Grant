@@ -1,0 +1,71 @@
+{
+  "body": "I've no idea what [Supply.migrate docs](https://docs.perl6.org/routine/migrate) are trying to say with this sentence:\r\n\r\n> Creates a supply that acts like the last supply emitted to the given supply of supplies (usually created with start).\r\n\r\nA code example perhaps would help?",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2017-06-10T14:59:36Z",
+  "created_at": "2017-05-28T01:20:43Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1344/comments",
+  "locked": false,
+  "title": "Supply.migrate docs are dense",
+  "id": 231839174,
+  "html_url": "https://github.com/perl6/doc/issues/1344",
+  "closed_at": "2017-06-10T14:59:36Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1344/labels{/name}",
+  "number": 1344,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1344/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1344"
+}

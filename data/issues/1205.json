@@ -1,0 +1,71 @@
+{
+  "body": "A recent mailing list thread alerted us to the problem that searching \"perl 6 stderr\" will not lead to our docs page at all. for that specific topic there's a result for the tablets which is helpful, but it's buried deep beneath unhelpful stuff, including the RFC about barewords from ~2004. The search engine used was duckduckgo in this example.\r\n\r\nWe might want to come up with a systematic approach for figuring out what features/topics will lead users to our docs page (or any similarly appropriate resource) and what sends the user off on a wild goose chase.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2018-03-03T21:22:18Z",
+  "created_at": "2017-02-20T01:56:13Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1205/comments",
+  "locked": false,
+  "title": "internet searches are unreliable for finding our stuff",
+  "id": 208766601,
+  "html_url": "https://github.com/perl6/doc/issues/1205",
+  "closed_at": "2018-03-03T21:22:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1205/labels{/name}",
+  "number": 1205,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1205/events",
+  "user": {
+    "following_url": "https://api.github.com/users/timo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/timo/received_events",
+    "organizations_url": "https://api.github.com/users/timo/orgs",
+    "subscriptions_url": "https://api.github.com/users/timo/subscriptions",
+    "html_url": "https://github.com/timo",
+    "id": 25167,
+    "login": "timo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/timo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/timo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25167?v=4",
+    "starred_url": "https://api.github.com/users/timo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/timo/followers",
+    "url": "https://api.github.com/users/timo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1205"
+}

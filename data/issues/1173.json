@@ -1,0 +1,78 @@
+{
+  "body": "Firstly, if you change UInt to just \"Int\" - nothing will change.\r\n* What should `++` mean here? Does it do something else with UInt?\r\n* What do we want to show with `my Int $i = $u`?\r\n* `say $u.WHAT` and `a subset of Int is an Int` - oh, really? And it makes reader to think that `.WHAT` will show you a subset of type. But it is the opposite on a different line!\r\n\r\nThe simple\r\n```\r\nmy UInt $a = 5;  # okay\r\nmy UInt $a = -5; # Exception about failed type check\r\nmy UInt $b = 0;\r\n--$b; # Exception once again\r\nsay $a.WHAT; # It is still (Int)\r\n```\r\nwill be much more approachable and correct.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2018-04-09T19:12:14Z",
+  "created_at": "2017-02-01T08:54:33Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1173/comments",
+  "locked": false,
+  "title": "UInt example can be better",
+  "id": 204527128,
+  "html_url": "https://github.com/perl6/doc/issues/1173",
+  "closed_at": "2017-02-12T11:03:51Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1173/labels{/name}",
+  "number": 1173,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1173/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1173"
+}

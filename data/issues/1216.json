@@ -1,0 +1,53 @@
+{
+  "body": "See this discussion: https://irclog.perlgeek.de/perl6/2017-02-24#i_14160027\r\n\r\nWe already have something here: https://docs.perl6.org/language/traps#Containers_versus_values_in_a_Capture\r\n\r\nBut let's add ``@a.push: ($a, $b)`` there as well, because on the first sight it looks very innocent indeed.\r\n\r\nAlso, the section talks about Captures, but I'm not sure what this is about. ``($a, ++$a)`` itself is a List, so where's a capture in the given example?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-03-06T16:41:12Z",
+  "created_at": "2017-02-24T19:58:59Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1216/comments",
+  "locked": false,
+  "title": "Expand “Containers versus values” trap",
+  "id": 210143759,
+  "html_url": "https://github.com/perl6/doc/issues/1216",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1216/labels{/name}",
+  "number": 1216,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1216/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1216"
+}

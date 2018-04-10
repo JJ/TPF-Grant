@@ -1,0 +1,71 @@
+{
+  "body": "Please use whatever you like. Thanks.\r\n\r\nI closed the other pull requests since there was an issue with rebasing.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2017-01-23T21:06:49Z",
+  "created_at": "2017-01-22T21:32:48Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1154/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1154",
+    "diff_url": "https://github.com/perl6/doc/pull/1154.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1154.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1154"
+  },
+  "locked": false,
+  "title": "Style cleanup.",
+  "id": 202411633,
+  "html_url": "https://github.com/perl6/doc/pull/1154",
+  "closed_at": "2017-01-23T20:44:05Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1154/labels{/name}",
+  "number": 1154,
+  "comments": 4,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1154/events",
+  "user": {
+    "following_url": "https://api.github.com/users/antquinonez/following{/other_user}",
+    "gists_url": "https://api.github.com/users/antquinonez/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/antquinonez/received_events",
+    "organizations_url": "https://api.github.com/users/antquinonez/orgs",
+    "subscriptions_url": "https://api.github.com/users/antquinonez/subscriptions",
+    "html_url": "https://github.com/antquinonez",
+    "id": 2933159,
+    "login": "antquinonez",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/antquinonez/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/antquinonez/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2933159?v=4",
+    "starred_url": "https://api.github.com/users/antquinonez/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/antquinonez/followers",
+    "url": "https://api.github.com/users/antquinonez"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1154"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "/pod-htmlify.t ......1/4No such method 'spurt' for invocant of type 'IO::Handle+{File::Temp::File::Temp::AutoUnlink}'\r\n  in block <unit> at t/pod-htmlify.t line 58\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-04-05T17:52:13Z",
+  "created_at": "2017-04-02T13:59:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1264/comments",
+  "locked": false,
+  "title": "Error when running test",
+  "id": 218766278,
+  "html_url": "https://github.com/perl6/doc/issues/1264",
+  "closed_at": "2017-04-05T17:41:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1264/labels{/name}",
+  "number": 1264,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1264/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nkh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nkh/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nkh/received_events",
+    "organizations_url": "https://api.github.com/users/nkh/orgs",
+    "subscriptions_url": "https://api.github.com/users/nkh/subscriptions",
+    "html_url": "https://github.com/nkh",
+    "id": 45409,
+    "login": "nkh",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nkh/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nkh/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/45409?v=4",
+    "starred_url": "https://api.github.com/users/nkh/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nkh/followers",
+    "url": "https://api.github.com/users/nkh"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1264"
+}

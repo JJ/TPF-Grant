@@ -1,0 +1,71 @@
+{
+  "body": "fix #1237",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-03-06T21:41:13Z",
+  "created_at": "2017-03-06T19:44:22Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1239/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1239",
+    "diff_url": "https://github.com/perl6/doc/pull/1239.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1239.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1239"
+  },
+  "locked": false,
+  "title": "pod.pod6 pass xtest",
+  "id": 212228612,
+  "html_url": "https://github.com/perl6/doc/pull/1239",
+  "closed_at": "2017-03-06T19:53:01Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1239/labels{/name}",
+  "number": 1239,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1239/events",
+  "user": {
+    "following_url": "https://api.github.com/users/hankache/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hankache/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/hankache/received_events",
+    "organizations_url": "https://api.github.com/users/hankache/orgs",
+    "subscriptions_url": "https://api.github.com/users/hankache/subscriptions",
+    "html_url": "https://github.com/hankache",
+    "id": 15119547,
+    "login": "hankache",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/hankache/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/hankache/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15119547?v=4",
+    "starred_url": "https://api.github.com/users/hankache/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/hankache/followers",
+    "url": "https://api.github.com/users/hankache"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1239"
+}

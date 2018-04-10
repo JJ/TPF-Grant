@@ -1,0 +1,71 @@
+{
+  "body": "**TL;DR:**\r\n\r\n> moritz: \"it would be more useful to link to the non-raw pages on github ...\"\r\n\r\n> paultcochrane: \"To be honest, I think so too. ...\"\r\n\r\nAiui it's an easy change; shall we do it?\r\n\r\n----\r\n\r\nWhen fixing typos and the like in other projects shared on github I've generally been able to just click a pencil icon, make an edit, and click the save button and then my changes will appear live in a short while (or, if I don't have commit rights, I click another few buttons to create a PR). This encourages me to make edits.\r\n\r\nIn an old closed issue the last two comments were Moritz's [\"it would be more useful to link to the non-raw pages on github\"](https://github.com/perl6/doc/issues/53#issuecomment-76188572) and Paul's agreement: \"To be honest, I think so too.\"\r\n\r\nThere are a variety of problems of course. Paul mentions one. Other factors to consider include that it might be considered better to push folk to read the contributing doc before they do a PR.\r\n\r\nBased on my current understanding that this is an easy-to-apply change, I agree with Moritz and Paul that, all things considered:\r\n\r\n> it would be more useful to link to the non-raw pages on github",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "updated_at": "2018-04-09T19:11:59Z",
+  "created_at": "2017-02-21T16:50:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1212/comments",
+  "locked": false,
+  "title": "\"it would be more useful to link to the non-raw pages on github ...\"",
+  "id": 209205175,
+  "html_url": "https://github.com/perl6/doc/issues/1212",
+  "closed_at": "2017-10-24T15:24:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1212/labels{/name}",
+  "number": 1212,
+  "comments": 19,
+  "labels": [
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1212/events",
+  "user": {
+    "following_url": "https://api.github.com/users/raiph/following{/other_user}",
+    "gists_url": "https://api.github.com/users/raiph/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/raiph/received_events",
+    "organizations_url": "https://api.github.com/users/raiph/orgs",
+    "subscriptions_url": "https://api.github.com/users/raiph/subscriptions",
+    "html_url": "https://github.com/raiph",
+    "id": 1247185,
+    "login": "raiph",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/raiph/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/raiph/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1247185?v=4",
+    "starred_url": "https://api.github.com/users/raiph/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/raiph/followers",
+    "url": "https://api.github.com/users/raiph"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1212"
+}

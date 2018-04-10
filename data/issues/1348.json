@@ -1,0 +1,71 @@
+{
+  "body": "Under `method code`, the docs mention `&?BLOCK`. The link is to https://docs.perl6.org/type/&?BLOCK , which is not found.\r\n\r\nAnd, $?FILE and $?LINE links have the same problem.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2017-06-08T14:08:57Z",
+  "created_at": "2017-05-28T20:36:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1348/comments",
+  "locked": false,
+  "title": "CallFrame page links to &?BLOCK as a type",
+  "id": 231892716,
+  "html_url": "https://github.com/perl6/doc/issues/1348",
+  "closed_at": "2017-06-08T14:08:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1348/labels{/name}",
+  "number": 1348,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1348/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1348"
+}

@@ -1,0 +1,78 @@
+{
+  "body": "When I search for %INC at https://docs.perl6.org/ it offers   \"%INC (Perl 5)\"\r\nbut when I search for the more common @INC it does not give any results.\r\n\r\nIMHO it should also point to https://docs.perl6.org/language/5to6-perlvar that explains it.\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/szabgab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/szabgab/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/szabgab/received_events",
+    "organizations_url": "https://api.github.com/users/szabgab/orgs",
+    "subscriptions_url": "https://api.github.com/users/szabgab/subscriptions",
+    "html_url": "https://github.com/szabgab",
+    "id": 48833,
+    "login": "szabgab",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/szabgab/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/szabgab/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/48833?v=4",
+    "starred_url": "https://api.github.com/users/szabgab/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/szabgab/followers",
+    "url": "https://api.github.com/users/szabgab"
+  },
+  "updated_at": "2017-04-16T07:18:04Z",
+  "created_at": "2017-03-25T14:52:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1257/comments",
+  "locked": false,
+  "title": "search for @INC",
+  "id": 216979116,
+  "html_url": "https://github.com/perl6/doc/issues/1257",
+  "closed_at": "2017-04-16T07:18:04Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1257/labels{/name}",
+  "number": 1257,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1257/events",
+  "user": {
+    "following_url": "https://api.github.com/users/szabgab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/szabgab/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/szabgab/received_events",
+    "organizations_url": "https://api.github.com/users/szabgab/orgs",
+    "subscriptions_url": "https://api.github.com/users/szabgab/subscriptions",
+    "html_url": "https://github.com/szabgab",
+    "id": 48833,
+    "login": "szabgab",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/szabgab/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/szabgab/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/48833?v=4",
+    "starred_url": "https://api.github.com/users/szabgab/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/szabgab/followers",
+    "url": "https://api.github.com/users/szabgab"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1257"
+}

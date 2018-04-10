@@ -1,0 +1,71 @@
+{
+  "body": "Hello!  Thank you for all of the good work that is done to document Perl 6. :+1:\r\n\r\nI'd like to help out with my first small patch; just wanting to correct some grammar. :smile_cat:",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-01-05T22:57:45Z",
+  "created_at": "2017-01-05T22:36:11Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1122/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1122",
+    "diff_url": "https://github.com/perl6/doc/pull/1122.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1122.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1122"
+  },
+  "locked": false,
+  "title": "Small typos on page for Pair type",
+  "id": 199077703,
+  "html_url": "https://github.com/perl6/doc/pull/1122",
+  "closed_at": "2017-01-05T22:57:45Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1122/labels{/name}",
+  "number": 1122,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1122/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tommystanton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tommystanton/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tommystanton/received_events",
+    "organizations_url": "https://api.github.com/users/tommystanton/orgs",
+    "subscriptions_url": "https://api.github.com/users/tommystanton/subscriptions",
+    "html_url": "https://github.com/tommystanton",
+    "id": 880034,
+    "login": "tommystanton",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tommystanton/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tommystanton/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/880034?v=4",
+    "starred_url": "https://api.github.com/users/tommystanton/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tommystanton/followers",
+    "url": "https://api.github.com/users/tommystanton"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1122"
+}

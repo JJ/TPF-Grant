@@ -1,0 +1,67 @@
+{
+  "body": "The docs for [Proc](https://docs.perl6.org/type/Proc#method_shell) shell say\r\n\r\n> $in, $out and $err are the three standard streams of the to-be-launched program, and default to \"-\", which means they inherit the stream from the parent process.\r\n\r\nBut, Brad Gilbert notes in my [StackOverflow question](http://stackoverflow.com/q/42505139/2766176) that Perl 6 won't pass on changes to `$*OUT`, etc to child processes. This seems wrong to me, but if that's the way it is, that's the way it is. If this is a design decision (much like the early issues with the Java in the 90s to standardize behavior for dissimilar devices), that should be emphasized as a major language decision.\r\n\r\nI don't know what the answer is, but if Perl 6 will never pass on the current values of what it tells the user is standard output and so on, it shouldn't say that spawned processes \"inherit the stream from the parent process\". \r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-29T08:59:23Z",
+  "created_at": "2017-02-28T22:06:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1226/comments",
+  "locked": false,
+  "title": "Clarify whether spawned processes get the current standard streams in docs",
+  "id": 210915751,
+  "html_url": "https://github.com/perl6/doc/issues/1226",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1226/labels{/name}",
+  "number": 1226,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1226/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1226"
+}

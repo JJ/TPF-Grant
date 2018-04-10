@@ -1,0 +1,71 @@
+{
+  "body": "replace  https://perl6.org/documentation/ by https://perl6.org/resources/",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-01-08T21:54:11Z",
+  "created_at": "2017-01-03T19:09:25Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1110/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1110",
+    "diff_url": "https://github.com/perl6/doc/pull/1110.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1110.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1110"
+  },
+  "locked": false,
+  "title": "update hyperlink",
+  "id": 198545605,
+  "html_url": "https://github.com/perl6/doc/pull/1110",
+  "closed_at": "2017-01-08T21:54:05Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1110/labels{/name}",
+  "number": 1110,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1110/events",
+  "user": {
+    "following_url": "https://api.github.com/users/hankache/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hankache/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/hankache/received_events",
+    "organizations_url": "https://api.github.com/users/hankache/orgs",
+    "subscriptions_url": "https://api.github.com/users/hankache/subscriptions",
+    "html_url": "https://github.com/hankache",
+    "id": 15119547,
+    "login": "hankache",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/hankache/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/hankache/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15119547?v=4",
+    "starred_url": "https://api.github.com/users/hankache/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/hankache/followers",
+    "url": "https://api.github.com/users/hankache"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1110"
+}

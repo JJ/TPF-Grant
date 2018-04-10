@@ -1,0 +1,71 @@
+{
+  "body": "Probably related to #1134. In the [Regexes](https://docs.perl6.org/language/regexes), the last line before the \"Wildcards and character classes\" heading says:\r\n\r\n> Match results are stored in the $/ variable and are also returned from the match. The result is of type Match if the match was successful; otherwise it is Nil.\r\n\r\nThe actual result is `Any`:\r\n\r\n\tmy $result = 'abcdef' ~~ / de /;\r\n\tsay \"Result is { $result.^name }\";\r\n\r\n\tmy $result2 = 'abcdef' ~~ / dex /;\r\n\tsay \"Result2 is { $result2.^name }\";\r\n\r\nOutput:\r\n\tResult is Match\r\n\tResult2 is Any\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "updated_at": "2017-01-13T07:50:47Z",
+  "created_at": "2017-01-13T04:36:46Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1135/comments",
+  "locked": false,
+  "title": "A failed match returns Any, but Regexes says Nil",
+  "id": 200546139,
+  "html_url": "https://github.com/perl6/doc/issues/1135",
+  "closed_at": "2017-01-13T07:50:29Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1135/labels{/name}",
+  "number": 1135,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1135/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1135"
+}

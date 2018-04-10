@@ -1,0 +1,71 @@
+{
+  "body": "At least I couldn't find it with search.\r\n\r\n```\r\nsay ‘aabbbc’.comb(/.[<same>.]*/) # OUTPUT: «(aa bbb c)␤»\r\n```\r\n\r\n```\r\n20:14:35 <AlexDaniel> huh, <same> ?\r\n20:15:47 <TimToady> it's a 0-width assertion about its surrounding chars\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2017-09-01T17:21:01Z",
+  "created_at": "2017-03-26T17:16:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1259/comments",
+  "locked": false,
+  "title": "<same> is not documented",
+  "id": 217067241,
+  "html_url": "https://github.com/perl6/doc/issues/1259",
+  "closed_at": "2017-09-01T17:21:01Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1259/labels{/name}",
+  "number": 1259,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1259/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1259"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/language/performance#Solve_problems\r\n\r\nTalk about the difference between writing multis and writing given/when constructs. Multis are on C level, given/when is on Perl 6 level (slower)\r\n\r\nAny other situations that are like this?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "updated_at": "2017-03-09T20:21:02Z",
+  "created_at": "2017-03-09T15:31:33Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1243/comments",
+  "locked": false,
+  "title": "Talk about low level constructs vs high level ones in Performance doc",
+  "id": 213072378,
+  "html_url": "https://github.com/perl6/doc/issues/1243",
+  "closed_at": "2017-03-09T19:38:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1243/labels{/name}",
+  "number": 1243,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1243/events",
+  "user": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1243"
+}

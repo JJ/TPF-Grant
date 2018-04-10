@@ -1,0 +1,71 @@
+{
+  "body": "# Summary\r\n\r\nPer [S26](https://design.perl6.org/S26.html#Declarator_blocks), declarator blocks are a way to attach POD blocks to code objects. \r\n\r\n# Code examples\r\n\r\nAs seen below, Rakudo properly builds the `Pod::Block::Declarator` object. Yet there is no entry in the docs for this type.\r\n\r\n```perl6\r\nmy &greet = sub { say \"hi\"; } #= says hi, ya know?\r\nsay &greet.WHY.perl;\r\n# OUTPUT: Pod::Block::Declarator.new(WHEREFORE => sub () { #`(Sub|66820360) ... }, config => {}, contents => [])\r\n\r\n#| says hi, ya know?\r\nmy &greet = sub { say \"hi\"; } \r\nsay &greet.WHY.perl;\r\n# OUTPUT is the same as above\r\n```\r\n\r\nRakudo also properly parses the leading and trailing declarators. Yet there is no entry in the docs for `#|` or `#=`.\r\n```perl6\r\n#| says hi, ya know?\r\nmy &greet = sub { say \"hi\"; } #= it does nothing else.\r\nsay &greet.WHY;\r\n# OUTPUT: says hi, ya know?\r\n#         it does nothing else.\r\n\r\nsay &greet.WHY.leading ~ \" \" ~ &greet.WHY.trailing;\r\n# OUTPUT: says hi, ya know? it does nothing else.\r\n\r\nsay &greet.WHY.^attributes;\r\n# OUTPUT: (Mu $!WHEREFORE Positional @!leading Positional @!trailing Associative %!config Positional @!contents)\r\n\r\n```\r\n\r\nRakudo also works with `.WHEREFORE` called on the declarator object.\r\n\r\n```perl6\r\nsub greet() {\r\n    #= it does some stuff\r\n    #= yeah, no joke\r\n    \r\n    say 'stuff'\r\n    \r\n}\r\nsay &greet.WHY;\r\n# OUTPUT: it does some stuff yeah, no joke\r\n\r\nsay &greet.WHY.WHEREFORE;\r\n# OUTPUT: sub greet () { #`(Sub|57757656) ... }\r\n```\r\n\r\n# Changes needed\r\n\r\nDoc explanations should be added for\r\n\r\n- [x] `#|` (Leading declarator)\r\n- [x] `#=` (Trailing declarator)\r\n- [x] `Pod::Block::Declarator` object\r\n- [x] Add entry for `.WHEREFORE` method on `Pod::Block`s\r\n- [x] Update signature for `.WHY` to show that it returns a Declarator object. \r\n\r\n\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "updated_at": "2017-10-02T18:06:04Z",
+  "created_at": "2017-03-04T03:48:43Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1230/comments",
+  "locked": false,
+  "title": "Add doc entries for POD Declarator Blocks",
+  "id": 211852316,
+  "html_url": "https://github.com/perl6/doc/issues/1230",
+  "closed_at": "2017-10-02T18:06:04Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1230/labels{/name}",
+  "number": 1230,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1230/events",
+  "user": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1230"
+}

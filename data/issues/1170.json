@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/routine/throw\r\n\r\n```perl6\r\n    my $exception = X::AdHoc.new; # Totally fine\r\n    try $exception.throw;             # Throws\r\n    if ($!) { #`( some handling ) };                   # Suppress the exception in a\r\n```\r\n\r\n“Suppress the exception in a” ? Something is missing, not sure what exactly.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2017-01-31T01:37:36Z",
+  "created_at": "2017-01-30T08:57:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1170/comments",
+  "locked": false,
+  "title": "Comments in a snippet about ｢throw｣ are weird",
+  "id": 203954853,
+  "html_url": "https://github.com/perl6/doc/issues/1170",
+  "closed_at": "2017-01-31T01:37:35Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1170/labels{/name}",
+  "number": 1170,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1170/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1170"
+}

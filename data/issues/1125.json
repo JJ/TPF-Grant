@@ -1,0 +1,71 @@
+{
+  "body": "a43313704695bfe98927bbd6ff937da9c207846b added this paragraph to language/containers\r\n\r\n```\r\n+Complex containers, like Array or Hash and relatives, can contain a reference\r\n+to itself, forming recursive data structures. Please note that very few buildin\r\n+functions and methods will detect infinite loops. It is the objective of the\r\n+user to L<handle|/type/Promise#method_in> timeouts.\r\n```\r\n\r\nA few small nits:\r\n* change objective to responsibility\r\n* explain why the \"in\" method is helpful here.\r\n\r\nA bigger nit: this seems like the wrong section for this. Traps might be a better location. Also, which builtins work? are safe?\r\n\r\nThe current phrasing sounds like \"never use self referential structures\".\r\n\r\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-08-08T00:50:26Z",
+  "created_at": "2017-01-09T03:23:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1125/comments",
+  "locked": false,
+  "title": "Self Referential paragraph.",
+  "id": 199470744,
+  "html_url": "https://github.com/perl6/doc/issues/1125",
+  "closed_at": "2017-08-08T00:50:26Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1125/labels{/name}",
+  "number": 1125,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1125/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1125"
+}

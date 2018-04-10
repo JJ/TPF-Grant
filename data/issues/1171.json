@@ -1,0 +1,71 @@
+{
+  "body": "In preparation for future edits.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2017-01-31T17:59:31Z",
+  "created_at": "2017-01-31T00:57:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1171/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1171",
+    "diff_url": "https://github.com/perl6/doc/pull/1171.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1171.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1171"
+  },
+  "locked": false,
+  "title": "added line breaks to grammar_tutorial",
+  "id": 204175815,
+  "html_url": "https://github.com/perl6/doc/pull/1171",
+  "closed_at": "2017-01-31T17:59:30Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1171/labels{/name}",
+  "number": 1171,
+  "comments": 4,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1171/events",
+  "user": {
+    "following_url": "https://api.github.com/users/antquinonez/following{/other_user}",
+    "gists_url": "https://api.github.com/users/antquinonez/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/antquinonez/received_events",
+    "organizations_url": "https://api.github.com/users/antquinonez/orgs",
+    "subscriptions_url": "https://api.github.com/users/antquinonez/subscriptions",
+    "html_url": "https://github.com/antquinonez",
+    "id": 2933159,
+    "login": "antquinonez",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/antquinonez/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/antquinonez/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2933159?v=4",
+    "starred_url": "https://api.github.com/users/antquinonez/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/antquinonez/followers",
+    "url": "https://api.github.com/users/antquinonez"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1171"
+}

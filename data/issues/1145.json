@@ -1,0 +1,71 @@
+{
+  "body": "In [S05](https://design.perl6.org/S05.html#New_metacharacters) the paragraph starts with \r\n\r\n> As with the disjunctions | and ||, conjunctions come in both & and && ...\r\n\r\nRegex conjunctions also show up in some roast tests (https://github.com/perl6/roast/blob/master/S05-capture/caps.t#L66 and https://github.com/perl6/roast/blob/master/S05-mass/rx.t#L801).\r\n\r\nI don't see any mention in user docs yet.\r\n\r\nI don't claim to understand much but my effort at an example might look like:\r\n```Perl6\r\n> perl6 -e 'say so all(\"lost and found\", \"found and lost\") ~~ /.* found .* & .* lost .*/'\r\nTrue\r\n> perl6 -e 'say so all(\"lost and found\", \"found and lost\", \"there already\") ~~ /.* found .* & .* lost .*/'\r\nFalse\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2017-08-31T20:24:25Z",
+  "created_at": "2017-01-19T01:55:46Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1145/comments",
+  "locked": false,
+  "title": "Regex conjunctions & && not documented",
+  "id": 201744218,
+  "html_url": "https://github.com/perl6/doc/issues/1145",
+  "closed_at": "2017-08-31T20:24:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1145/labels{/name}",
+  "number": 1145,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1145/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1145"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "If you have `class c {method m {}}; role r is c {}` then role `r` can execute method `m` both through instantiation and autopunning with `.new` and through auto creation of a class (but not instance?) with `r.m()`\r\n\r\nThe language/objects page claim \"Roles cannot inherit from classes,\" under the inheritance subheading for roles seems confusing to me.  Watch out for a broken internal link in the index at the top of the page and try [https://docs.perl6.org/language/objects#Stubs](https://docs.perl6.org/language/objects#Stubs) to navigate just above the correct page section.\r\n\r\nSee IRC discussion: [https://irclog.perlgeek.de/perl6/2017-01-14#i_13920801](https://irclog.perlgeek.de/perl6/2017-01-14#i_13920801)\r\n\r\nBad link to \"#Inheritance\" seems to be issue #584",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-01-19T05:21:18Z",
+  "created_at": "2017-01-14T18:58:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1138/comments",
+  "locked": false,
+  "title": "\"Roles cannot inherit from classes,\" in language/objects may need more clarification",
+  "id": 200822526,
+  "html_url": "https://github.com/perl6/doc/issues/1138",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1138/labels{/name}",
+  "number": 1138,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1138/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1138"
+}

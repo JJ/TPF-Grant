@@ -1,0 +1,67 @@
+{
+  "body": "This issue is really part of the link-fixing-refactor the doc site needs; there's a whole bunch of other issues about 404s in search results and other links with some kind of special chars in them.\r\n\r\nFor this issue, the old style links like https://docs.perl6.org/type/IO$COLON$COLONPath we used to have no longer work. They still exist in the wild, so they should be made to work, to ensure old links on blogs and stuff still work.\r\n\r\nI see [some rules in .htaccess](https://github.com/perl6/doc/blob/876afdcd50aa4c5a6f242020fc6a1dc25aca98fe/html/.htaccess#L9-L21) that appear to attempt to make them work, but it seems the rules are outdated and the commented out rules need to be uncommented (and the currently uncommented $COLON rules removed).\r\n\r\nBasically both https://docs.perl6.org/type/IO$COLON$COLONPath and https://docs.perl6.org/type/IO::Path URLs are meant to work and link to docs for IO::Path type, in this case.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-30T07:32:34Z",
+  "created_at": "2017-06-15T15:14:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1382/comments",
+  "locked": false,
+  "title": "$COLON$COLON links are busted",
+  "id": 236224878,
+  "html_url": "https://github.com/perl6/doc/issues/1382",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1382/labels{/name}",
+  "number": 1382,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "b60205",
+      "name": "bug",
+      "id": 676814023,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1382/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1382"
+}

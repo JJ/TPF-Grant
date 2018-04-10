@@ -1,0 +1,53 @@
+{
+  "body": "If I run `role R { }; R.HOW.say` the output is `Perl6::Metamodel::ParametricRoleGroupHOW.new␤` ... this does not seem to be documented...\r\n\r\nOn the same note, the type graph for Any on [https://docs.perl6.org/type/Any.html](url) has some links to Role related things which are 404 Page Not Found:\r\n\r\nhttps://docs.perl6.org/type/Metamodel::RolePunning\r\nhttps://docs.perl6.org/type/Metamodel::ConcreteRoleHOW\r\nhttps://docs.perl6.org/type/Metamodel::CurriedRoleHOW\r\nhttps://docs.perl6.org/type/Metamodel::ParametricRoleGroupHOW\r\nhttps://docs.perl6.org/type/Metamodel::ParametricRoleHOW\r\n\r\nAfter figuring out why these pages weren't generated, please automatic test so that, after all the web pages are generated, there are no links to 404 pages.\r\n\r\nThanks!\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-05-17T13:58:37Z",
+  "created_at": "2017-05-15T02:43:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1306/comments",
+  "locked": false,
+  "title": "Missing web documentation for some Role related Metamodel classes/roles",
+  "id": 228593117,
+  "html_url": "https://github.com/perl6/doc/issues/1306",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1306/labels{/name}",
+  "number": 1306,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1306/events",
+  "user": {
+    "following_url": "https://api.github.com/users/BenGoldberg1/following{/other_user}",
+    "gists_url": "https://api.github.com/users/BenGoldberg1/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/BenGoldberg1/received_events",
+    "organizations_url": "https://api.github.com/users/BenGoldberg1/orgs",
+    "subscriptions_url": "https://api.github.com/users/BenGoldberg1/subscriptions",
+    "html_url": "https://github.com/BenGoldberg1",
+    "id": 4063702,
+    "login": "BenGoldberg1",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/BenGoldberg1/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/BenGoldberg1/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4063702?v=4",
+    "starred_url": "https://api.github.com/users/BenGoldberg1/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/BenGoldberg1/followers",
+    "url": "https://api.github.com/users/BenGoldberg1"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1306"
+}

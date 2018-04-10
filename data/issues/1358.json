@@ -1,0 +1,53 @@
+{
+  "body": "https://irclog.perlgeek.de/perl6/2017-06-04#i_14683082\r\n\r\nI got this link: https://docs.perl6.org/syntax/&amp;?ROUTINE but it returns a 404\r\n\r\nAlso \"https://docs.perl6.org/routine/.&amp;\"\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-09-03T00:38:36Z",
+  "created_at": "2017-06-04T08:10:24Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1358/comments",
+  "locked": false,
+  "title": "Search for &$ROUTINE has bad link",
+  "id": 233419013,
+  "html_url": "https://github.com/perl6/doc/issues/1358",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1358/labels{/name}",
+  "number": 1358,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1358/events",
+  "user": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1358"
+}

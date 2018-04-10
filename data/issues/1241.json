@@ -1,0 +1,71 @@
+{
+  "body": "This fixes a few issues with py-nutshell:\r\n- a few cases of nbsps for \"Perl 6\":\r\n- consistent use of colons for indicating the language\r\n- added missing blank lines around code blocks\r\n- some slight changes to wording and examples",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/bduggan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bduggan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bduggan/received_events",
+    "organizations_url": "https://api.github.com/users/bduggan/orgs",
+    "subscriptions_url": "https://api.github.com/users/bduggan/subscriptions",
+    "html_url": "https://github.com/bduggan",
+    "id": 58956,
+    "login": "bduggan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bduggan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bduggan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/58956?v=4",
+    "starred_url": "https://api.github.com/users/bduggan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bduggan/followers",
+    "url": "https://api.github.com/users/bduggan"
+  },
+  "updated_at": "2017-03-07T22:40:36Z",
+  "created_at": "2017-03-07T19:21:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1241/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1241",
+    "diff_url": "https://github.com/perl6/doc/pull/1241.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1241.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1241"
+  },
+  "locked": false,
+  "title": "Perl 6 -> Python in a nutshell, fixes",
+  "id": 212531933,
+  "html_url": "https://github.com/perl6/doc/pull/1241",
+  "closed_at": "2017-03-07T19:52:18Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1241/labels{/name}",
+  "number": 1241,
+  "comments": 4,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1241/events",
+  "user": {
+    "following_url": "https://api.github.com/users/bduggan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bduggan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bduggan/received_events",
+    "organizations_url": "https://api.github.com/users/bduggan/orgs",
+    "subscriptions_url": "https://api.github.com/users/bduggan/subscriptions",
+    "html_url": "https://github.com/bduggan",
+    "id": 58956,
+    "login": "bduggan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bduggan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bduggan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/58956?v=4",
+    "starred_url": "https://api.github.com/users/bduggan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bduggan/followers",
+    "url": "https://api.github.com/users/bduggan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1241"
+}

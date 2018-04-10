@@ -1,0 +1,67 @@
+{
+  "body": "#1255 As with #1223 (and #732), I find that the idea of concept of context is diffuse. I think Perl 6 needs to have a section (somewhere) devoted just to context since this is a fundamental language concept.\r\n\r\nI don't have all the info that would need. Here are some notes I'm working on.\r\n\r\nFirst, a list of words in front of context in various docs, including synopses:\r\n\r\n- [ ] sink\r\n- [ ] number\r\n- [ ] string\r\n- [ ] boolean\r\n- [ ] item (formerly \"scalar\", but still \"scalar\" in roast)\r\n- [ ] list\r\n- [ ] semilist\r\n- [ ] hash\r\n- [ ] quote (single and double)\r\n- [ ] rvalue\r\n- [ ] hyper\r\n- [ ] slurpy (same as \"eager\"?)\r\n- [ ] lazy\r\n- [ ] dereferencing\r\n- [ ] List of lists, \"lol\" context (Array constructor?)\r\n- [ ] declarational\r\n- [ ] enum\r\n\r\nSome other bugs this impacts, as I run across them:\r\n\r\n- [x] [RT 131008: lcm should not work with Nums, and maybe gcd too](https://rt.perl.org/Public/Bug/Display.html?id=131008)\r\n- [x] [RT 131041: Use of Nil in string context](https://rt.perl.org/Public/Bug/Display.html?id=131041)",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-02-16T07:00:17Z",
+  "created_at": "2017-02-27T22:33:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1225/comments",
+  "locked": false,
+  "title": "Document contexts",
+  "id": 210628500,
+  "html_url": "https://github.com/perl6/doc/issues/1225",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1225/labels{/name}",
+  "number": 1225,
+  "comments": 11,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1225/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1225"
+}

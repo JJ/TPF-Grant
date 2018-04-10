@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/language/list.html#Sequences - the second example. The comment says about an error, but this code actually works and it loops forever. Seems like a pre-GLR example, so it needs to be investigated and resolved: do we need to remove this example or do we need to rewrite it?\r\n\r\nDon't forget to remove `:skip-test`(if it will be there) if the result will be finite.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2017-02-12T13:17:24Z",
+  "created_at": "2017-02-04T18:46:49Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1184/comments",
+  "locked": false,
+  "title": "list.pod6 example is broken",
+  "id": 205367476,
+  "html_url": "https://github.com/perl6/doc/issues/1184",
+  "closed_at": "2017-02-12T13:17:24Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1184/labels{/name}",
+  "number": 1184,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1184/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1184"
+}

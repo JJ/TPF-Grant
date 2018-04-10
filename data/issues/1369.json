@@ -1,0 +1,71 @@
+{
+  "body": "I've never seen this before, and I'm actually surprised that somebody came up with this (edit: actually, our docs suggested it).\r\n\r\nCode:\r\n```\r\nmy %h = ‘hello’ => 42;\r\nmy $x = ‘hello’;\r\nsay %h«$x»\r\n```\r\n\r\nResult:\r\n```\r\n42\r\n```\r\n\r\nSo it works, right? Wrong.\r\n\r\nCode:\r\n```\r\nmy %h = ‘hello world’ => 42;\r\nmy $x = ‘hello world’;\r\nsay %h«$x»\r\n```\r\n\r\nResult:\r\n```\r\n((Any) (Any))\r\n```\r\n\r\nOf course, the right way to do it is to use ``%h{$x}``. If you insist on ``«»`` for some reason, then ``%h«“$x”»``.\r\n\r\nSee this: https://irclog.perlgeek.de/perl6/2017-06-07#i_14699923",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-11-05T10:33:28Z",
+  "created_at": "2017-06-07T17:05:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1369/comments",
+  "locked": false,
+  "title": "%h«$x» is a trap",
+  "id": 234278781,
+  "html_url": "https://github.com/perl6/doc/issues/1369",
+  "closed_at": "2017-11-05T10:33:28Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1369/labels{/name}",
+  "number": 1369,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1369/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1369"
+}

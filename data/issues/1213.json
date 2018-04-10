@@ -1,0 +1,78 @@
+{
+  "body": "https://github.com/perl6/doc/blob/master/doc/Type/IO/Socket/Async.pod6#L32\r\n\r\n- [x] change `$p` to `$promise`\r\n- [ ] change anonymous block to a pointy block with a good name. Does the promise return the listening socket, or does it return the connecting socket? I think it returns the connecting socket because it is `print`ing _to_ the listening socket and then it closes itself after it gets a response.\r\n- [ ] Clear up where `.Supply` is coming from? The listening socket, I would presume.\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/lancew/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lancew/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/lancew/received_events",
+    "organizations_url": "https://api.github.com/users/lancew/orgs",
+    "subscriptions_url": "https://api.github.com/users/lancew/subscriptions",
+    "html_url": "https://github.com/lancew",
+    "id": 11627,
+    "login": "lancew",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/lancew/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/lancew/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11627?v=4",
+    "starred_url": "https://api.github.com/users/lancew/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/lancew/followers",
+    "url": "https://api.github.com/users/lancew"
+  },
+  "updated_at": "2018-04-09T19:10:09Z",
+  "created_at": "2017-02-23T15:21:35Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1213/comments",
+  "locked": false,
+  "title": "Make IO::Socket::Async first example more explicit",
+  "id": 209792193,
+  "html_url": "https://github.com/perl6/doc/issues/1213",
+  "closed_at": "2017-09-03T09:48:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1213/labels{/name}",
+  "number": 1213,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1213/events",
+  "user": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1213"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Add a tutorial for Perl 6 Pod under the \"Language\" section.\r\nfix #713  \r\nfix #669",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/hankache/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hankache/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/hankache/received_events",
+    "organizations_url": "https://api.github.com/users/hankache/orgs",
+    "subscriptions_url": "https://api.github.com/users/hankache/subscriptions",
+    "html_url": "https://github.com/hankache",
+    "id": 15119547,
+    "login": "hankache",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/hankache/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/hankache/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15119547?v=4",
+    "starred_url": "https://api.github.com/users/hankache/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/hankache/followers",
+    "url": "https://api.github.com/users/hankache"
+  },
+  "updated_at": "2017-03-06T15:18:44Z",
+  "created_at": "2017-03-04T15:48:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1232/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1232",
+    "diff_url": "https://github.com/perl6/doc/pull/1232.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1232.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1232"
+  },
+  "locked": false,
+  "title": "Add Pod tutorial",
+  "id": 211887320,
+  "html_url": "https://github.com/perl6/doc/pull/1232",
+  "closed_at": "2017-03-06T09:48:58Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1232/labels{/name}",
+  "number": 1232,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1232/events",
+  "user": {
+    "following_url": "https://api.github.com/users/hankache/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hankache/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/hankache/received_events",
+    "organizations_url": "https://api.github.com/users/hankache/orgs",
+    "subscriptions_url": "https://api.github.com/users/hankache/subscriptions",
+    "html_url": "https://github.com/hankache",
+    "id": 15119547,
+    "login": "hankache",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/hankache/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/hankache/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15119547?v=4",
+    "starred_url": "https://api.github.com/users/hankache/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/hankache/followers",
+    "url": "https://api.github.com/users/hankache"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1232"
+}

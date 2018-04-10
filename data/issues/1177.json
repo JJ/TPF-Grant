@@ -1,0 +1,78 @@
+{
+  "body": "https://docs.perl6.org/type/Str#routine_comb\r\n\r\nRight now, no explanation that comb does double duty as a chunker.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2018-04-09T19:12:03Z",
+  "created_at": "2017-02-02T23:40:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1177/comments",
+  "locked": false,
+  "title": "Add explanation that Str.comb(3) chunks the string in groups of 3",
+  "id": 205030894,
+  "html_url": "https://github.com/perl6/doc/issues/1177",
+  "closed_at": "2017-02-17T14:11:53Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1177/labels{/name}",
+  "number": 1177,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1177/events",
+  "user": {
+    "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
+    "organizations_url": "https://api.github.com/users/WildYorkies/orgs",
+    "subscriptions_url": "https://api.github.com/users/WildYorkies/subscriptions",
+    "html_url": "https://github.com/WildYorkies",
+    "id": 1299322,
+    "login": "WildYorkies",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/WildYorkies/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/WildYorkies/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1299322?v=4",
+    "starred_url": "https://api.github.com/users/WildYorkies/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/WildYorkies/followers",
+    "url": "https://api.github.com/users/WildYorkies"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1177"
+}

@@ -1,0 +1,78 @@
+{
+  "body": "https://docs.perl6.org/routine/reduce.html#(List)_routine_reduce says:\r\n\r\n> If @values contains just a single element, that element is returned immediately.\r\n\r\nThis is not the case: Rather, it calls the operator with one argument if the operator's signature allows it, and only failing that falls back to returning the element itself.\r\n\r\nSee [RT 128758](https://rt.perl.org/Ticket/Display.html?id=128758) and the commit message of [Rakudo commit b1c444f](https://github.com/rakudo/rakudo/commit/b1c444f0622bc348a2e860a43faa6d72e9a11558).",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-08T08:24:05Z",
+  "created_at": "2017-06-29T20:12:19Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1399/comments",
+  "locked": false,
+  "title": "`reduce` doc mistakenly claims that a single element is returned immediately",
+  "id": 239597465,
+  "html_url": "https://github.com/perl6/doc/issues/1399",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1399/labels{/name}",
+  "number": 1399,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1399/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1399"
+}

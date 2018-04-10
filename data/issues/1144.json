@@ -1,0 +1,60 @@
+{
+  "body": "Looking at https://docs.perl6.org/routine/made, there's an anchor link to https://docs.perl6.org/routine/made#method_make, but that anchor does not appear on that page. The links back to the defining classes have the same problem.\r\n\r\nThis is an extract for a single routine from another page with a list, so these sorts of links should be fixed-up in the translation.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-26T17:20:34Z",
+  "created_at": "2017-01-17T15:55:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1144/comments",
+  "locked": false,
+  "title": "Anchor links still on single routine extract pages on docs.perl6.org",
+  "id": 201326633,
+  "html_url": "https://github.com/perl6/doc/issues/1144",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1144/labels{/name}",
+  "number": 1144,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1144/events",
+  "user": {
+    "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/briandfoy/received_events",
+    "organizations_url": "https://api.github.com/users/briandfoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/briandfoy/subscriptions",
+    "html_url": "https://github.com/briandfoy",
+    "id": 22255,
+    "login": "briandfoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/briandfoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/briandfoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22255?v=4",
+    "starred_url": "https://api.github.com/users/briandfoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/briandfoy/followers",
+    "url": "https://api.github.com/users/briandfoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1144"
+}

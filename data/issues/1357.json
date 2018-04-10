@@ -1,0 +1,53 @@
+{
+  "body": "Hi, I'm just implementing the cperl ffi.\r\n\r\nThe perl6 design doc properly lists all 4 relevant nativecall traits:\r\n* native(STRING), native\r\n* symbol(STRING)\r\n* encoded(STRING)\r\n* nativeconv(STRING)\r\n\r\nHere in `nativecall.pod6` nativeconv is missing, and esp. the relevant values. \r\nIn the testsuite there's only lowercase \"thisgnu\", which sounds suspicious.\r\n\r\nlibffi supports mostly only one ABI. only on these platforms the following variants:\r\n\r\n    arm (not aarch64): VFP, SYSV\r\n    mips: O32, N32, N64, O32_SOFT_FLOAT, N32_SOFT_FLOAT, N64_SOFT_FLOAT\r\n    powerpc: AIX, DARWIN\r\n    powerpc (not aix, not darwin): SYSV, COMPAT_SYSV, COMPAT_GCC_SYSV,\r\n             COMPAT_LINUX64, COMPAT_LINUX, COMPAT_LINUX_SOFT_FLOAT\r\n      or powerpc64: LINUX\r\n    x86_64: UNIX64, WIN64\r\n    x86: SYSV, STDCALL, THISCALL, FASTCALL, MS_CDECL, PASCAL, REGISTER\r\n\r\nIt would be nice to know what nativeconv or dyncall does. I unsuccessfully grep'ed for `abi` or `thisgnu` or `native_call_convention` in rakudo, nqp, MoarVM and dyncall. Looks like it is ignored and not implemented yet.\r\n\r\ndyncall itself has similar support as libffi, just different names:\r\ne.g. for x86:\r\n* DC_CALL_C_X86_CDECL\r\n* DC_CALL_C_X86_WIN32_STD\r\n* DC_CALL_C_X86_WIN32_FAST_MS\r\n* DC_CALL_C_X86_WIN32_THIS_MS\r\n* DC_CALL_C_X86_WIN32_FAST_GNU \r\n* DC_CALL_C_X86_WIN32_THIS_GNU (= cdecl)\r\n* DC_CALL_SYS_DEFAULT\r\n* DC_CALL_C_X86_PLAN9\r\n* DC_CALL_SYS_X86_INT80H_LINUX\r\n* DC_CALL_SYS_X86_INT80H_BSD\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-06-06T03:23:36Z",
+  "created_at": "2017-06-03T22:13:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1357/comments",
+  "locked": false,
+  "title": "nativecall.pod6 misses nativeconv",
+  "id": 233398389,
+  "html_url": "https://github.com/perl6/doc/issues/1357",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1357/labels{/name}",
+  "number": 1357,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1357/events",
+  "user": {
+    "following_url": "https://api.github.com/users/rurban/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rurban/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rurban/received_events",
+    "organizations_url": "https://api.github.com/users/rurban/orgs",
+    "subscriptions_url": "https://api.github.com/users/rurban/subscriptions",
+    "html_url": "https://github.com/rurban",
+    "id": 41809,
+    "login": "rurban",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rurban/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rurban/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/41809?v=4",
+    "starred_url": "https://api.github.com/users/rurban/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rurban/followers",
+    "url": "https://api.github.com/users/rurban"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1357"
+}

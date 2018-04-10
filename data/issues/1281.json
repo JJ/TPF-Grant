@@ -1,0 +1,71 @@
+{
+  "body": "Sync with latest rakudo definition for `List`",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2017-04-13T11:22:48Z",
+  "created_at": "2017-04-13T10:23:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1281/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1281",
+    "diff_url": "https://github.com/perl6/doc/pull/1281.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1281.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1281"
+  },
+  "locked": false,
+  "title": "doc/Type: correct List definition",
+  "id": 221520800,
+  "html_url": "https://github.com/perl6/doc/pull/1281",
+  "closed_at": "2017-04-13T11:22:42Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1281/labels{/name}",
+  "number": 1281,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1281/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Gnouc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Gnouc/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Gnouc/received_events",
+    "organizations_url": "https://api.github.com/users/Gnouc/orgs",
+    "subscriptions_url": "https://api.github.com/users/Gnouc/subscriptions",
+    "html_url": "https://github.com/Gnouc",
+    "id": 4304764,
+    "login": "Gnouc",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Gnouc/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Gnouc/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4304764?v=4",
+    "starred_url": "https://api.github.com/users/Gnouc/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Gnouc/followers",
+    "url": "https://api.github.com/users/Gnouc"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1281"
+}

@@ -1,0 +1,78 @@
+{
+  "body": "```\r\n$ perl6 xt/aspell.t doc/Language/regexes.pod6\r\n# & foooobar 6 7: foobar, foober, forbear, fiber, lobar, forebear\r\n# & foooobar 6 42: foobar, foober, forbear, fiber, lobar, forebear\r\n\r\n# Failed test 'doc/Language/regexes.pod6 has 2 spelling errors'\r\n# at xt/aspell.t line 68\r\n```",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2018-04-09T19:11:40Z",
+  "created_at": "2017-06-15T12:17:56Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1381/comments",
+  "locked": false,
+  "title": "xt/aspell.t doc/Language/regexes.pod6 failures",
+  "id": 236172063,
+  "html_url": "https://github.com/perl6/doc/issues/1381",
+  "closed_at": "2017-06-15T13:23:21Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1381/labels{/name}",
+  "number": 1381,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1381/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1381"
+}

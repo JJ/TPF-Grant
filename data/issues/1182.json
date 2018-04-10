@@ -1,0 +1,71 @@
+{
+  "body": "In the `Right-hand side` column of the following table:\r\nhttps://docs.perl6.org/language/operators#index-entry-smart-match_operator\r\n`Set:D` may be classified as `Any:D`.\r\nHowever, in fact, `comparison semantics` of this operation is not `object identity`.\r\n```\r\n$ perl6 -e 'use Test; my Set \\a = Set(1,2,3); my Set \\b = Set(1,2,3); ok a ~~ b;'\r\nok 1 -  # comparison semantics is not object identity\r\n$ perl6 -e 'use Test; my Hash \\a = { a => 1 }; my Hash \\b = { a => 1 }; ok a ~~ b';\r\nnot ok 1 -  # comparison semantics is object identity\r\n```\r\n\r\nSee also:\r\n+ https://github.com/rakudo/rakudo/blob/nom/src/core/Set.pm#L1\r\n+ https://github.com/rakudo/rakudo/blob/nom/src/core/Setty.pm#L70-L72",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2017-02-12T12:45:17Z",
+  "created_at": "2017-02-04T05:45:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1182/comments",
+  "locked": false,
+  "title": "Smart-match against Set object is not documented",
+  "id": 205325543,
+  "html_url": "https://github.com/perl6/doc/issues/1182",
+  "closed_at": "2017-02-12T12:45:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1182/labels{/name}",
+  "number": 1182,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1182/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1182"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "See\r\n* This issue: https://github.com/perl6/whateverable/issues/136\r\n* These fixes:\r\n  * https://github.com/perl6/whateverable/commit/96ccddccd804b33e0b9c5ed6580c1c23a91a5737\r\n  * https://github.com/perl6/whateverable/commit/39cde1e3e90bd019a38f51c62221927900b5e01b\r\n  * https://github.com/perl6/whateverable/commit/c63ed89d4ea0fb1e7d6d62683d237432e215d29a\r\n* This discussion: https://irclog.perlgeek.de/perl6-dev/2017-05-13#i_14576982\r\n* And current docs which have the same issue in the provided example: https://docs.perl6.org/type/Proc\r\n\r\nTo me it sounds like a bug, but until somebody is able to find enough justification for a ticket, I think we will have to document it as a trap (in addition to fixing the Proc page, of course).\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-06-27T20:30:54Z",
+  "created_at": "2017-05-13T17:43:39Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1304/comments",
+  "locked": false,
+  "title": "Trap when piping two Procs",
+  "id": 228488372,
+  "html_url": "https://github.com/perl6/doc/issues/1304",
+  "closed_at": "2017-06-27T20:30:54Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1304/labels{/name}",
+  "number": 1304,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1304/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1304"
+}

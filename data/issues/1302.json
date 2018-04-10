@@ -1,0 +1,85 @@
+{
+  "body": "The [CONTRIBUTING.md](https://github.com/perl6/doc/blob/master/CONTRIBUTING.md) doc is way too big (and [I'm not the only one who thinks so](https://irclog.perlgeek.de/perl6/2017-05-11#i_14567654)).\r\n\r\nIt covers everything under the moon, including website debug mode.\r\n\r\nMost contributors don't need to be put through the pain of installing all the prereqs and building the local copy of the site. And IMO the CONTRIBUTING doc should just answer the questions:\r\n\r\n- How to find what to edit to change a thing I see on the site?\r\n- What writing style should I use?\r\n- What the hell is POD6 and how do I write it?\r\n\r\nTo test the change doesn't break too much, users can just run the pod file they edited through Pod::To::Text (add `make render` target or something) instead of building anything and IMO the option of just editing stuff right on GitHub should be suggested as a possibility.\r\n\r\nEverything else should be put into another document.",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-06T10:03:08Z",
+  "created_at": "2017-05-11T18:36:43Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1302/comments",
+  "locked": false,
+  "title": "Move documents spun off CONTRIBUTING.md to a new location.",
+  "id": 228083220,
+  "html_url": "https://github.com/perl6/doc/issues/1302",
+  "closed_at": "2018-04-06T10:03:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1302/labels{/name}",
+  "number": 1302,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "000000",
+      "name": "style",
+      "id": 423513323,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/style"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1302/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1302"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2017-05-30T20:29:14Z",
+  "created_at": "2017-05-30T14:34:20Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1353/comments",
+  "locked": false,
+  "title": "Failed test 'doc/Language/variables.pod6 (line 320): Must not have any trailing whitespace.'",
+  "id": 232273724,
+  "html_url": "https://github.com/perl6/doc/issues/1353",
+  "closed_at": "2017-05-30T20:29:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1353/labels{/name}",
+  "number": 1353,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1353/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1353"
+}

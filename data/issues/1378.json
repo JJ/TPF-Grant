@@ -1,0 +1,67 @@
+{
+  "body": "In https://docs.perl6.org/language/list, binding to an @-sigiled variable is described as \"putting an actual List into an @-sigiled variable\". It's descriptive, but seems semantically inaccurate. This could lead to a wrong understanding of any(lists, @-sigiled variables, binding).\r\n\r\nOn IRC, skids added: \"Yeah, keeping the difference between containers and variables straight in the text is important.  Maybe we should figure out which verbs to use consistently for which operation.\"",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-07T12:32:44Z",
+  "created_at": "2017-06-12T21:13:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1378/comments",
+  "locked": false,
+  "title": "Binding does not \"put into\"",
+  "id": 235367596,
+  "html_url": "https://github.com/perl6/doc/issues/1378",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1378/labels{/name}",
+  "number": 1378,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1378/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Juerd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Juerd/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Juerd/received_events",
+    "organizations_url": "https://api.github.com/users/Juerd/orgs",
+    "subscriptions_url": "https://api.github.com/users/Juerd/subscriptions",
+    "html_url": "https://github.com/Juerd",
+    "id": 791835,
+    "login": "Juerd",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Juerd/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Juerd/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/791835?v=4",
+    "starred_url": "https://api.github.com/users/Juerd/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Juerd/followers",
+    "url": "https://api.github.com/users/Juerd"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1378"
+}

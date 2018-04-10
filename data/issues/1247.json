@@ -1,0 +1,71 @@
+{
+  "body": "In the comparison of Perl 6 with Ruby, it says Ruby lacks a smart match operator and uses == instead. This isn't quite right. Ruby uses the `===` method, which performs a similar function to `~~`. So `Class === foo` matches if `foo` is a `Class`, `/rx/ === foo` matches if the regular expression matches `foo`, `1 === foo` matches if `foo` equals 1, `'string' === foo` matches ... In general `===` delegates to `==`, but it is overridden in `Class` and regular expressions, and can be overridden as needed to make case statements work more intuitively in other ways.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-03-17T19:06:25Z",
+  "created_at": "2017-03-14T12:31:36Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1247/comments",
+  "locked": false,
+  "title": "Ruby uses ===, not ==, in case statements",
+  "id": 214057266,
+  "html_url": "https://github.com/perl6/doc/issues/1247",
+  "closed_at": "2018-03-16T07:22:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1247/labels{/name}",
+  "number": 1247,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1247/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dfhoughton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dfhoughton/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dfhoughton/received_events",
+    "organizations_url": "https://api.github.com/users/dfhoughton/orgs",
+    "subscriptions_url": "https://api.github.com/users/dfhoughton/subscriptions",
+    "html_url": "https://github.com/dfhoughton",
+    "id": 177421,
+    "login": "dfhoughton",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dfhoughton/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dfhoughton/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/177421?v=4",
+    "starred_url": "https://api.github.com/users/dfhoughton/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dfhoughton/followers",
+    "url": "https://api.github.com/users/dfhoughton"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1247"
+}

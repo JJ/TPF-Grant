@@ -1,0 +1,53 @@
+{
+  "body": "I was trying to write `<-[ \\] \\s ]>` but had a very difficult time figuring out how to do this from the documentation.  Perl5 mentions their special cases for `[^]]` pretty eagerly, so I was trying to do something similar.  Attempting to use `'` to quote didn't work either, and there were no examples of using `\\` for simple escaping.",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-09-03T01:12:32Z",
+  "created_at": "2017-01-19T02:07:54Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1146/comments",
+  "locked": false,
+  "title": "Rules for escaping characters in enumerated character classes could be clearer",
+  "id": 201746389,
+  "html_url": "https://github.com/perl6/doc/issues/1146",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1146/labels{/name}",
+  "number": 1146,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1146/events",
+  "user": {
+    "following_url": "https://api.github.com/users/shicks/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shicks/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shicks/received_events",
+    "organizations_url": "https://api.github.com/users/shicks/orgs",
+    "subscriptions_url": "https://api.github.com/users/shicks/subscriptions",
+    "html_url": "https://github.com/shicks",
+    "id": 143899,
+    "login": "shicks",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shicks/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shicks/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/143899?v=4",
+    "starred_url": "https://api.github.com/users/shicks/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shicks/followers",
+    "url": "https://api.github.com/users/shicks"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1146"
+}
