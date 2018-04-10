@@ -1,0 +1,53 @@
+{
+  "body": "See: https://docs.perl6.org/programs/01-debugging \r\nIt says:\r\n\"Historically others have existed and others are likely to be written in future\"\r\n\r\nI'm not sure what \"Historically others\" are, but I think the following should be documented:\r\n\r\n+ perl6-debug-m\r\n+ perl6-gdb-m\r\n+ perl6-valgrind-m\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-12-17T15:07:01Z",
+  "created_at": "2016-12-17T13:25:31Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1060/comments",
+  "locked": false,
+  "title": "Debugging commands are not documented",
+  "id": 196221979,
+  "html_url": "https://github.com/perl6/doc/issues/1060",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1060/labels{/name}",
+  "number": 1060,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1060/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1060"
+}

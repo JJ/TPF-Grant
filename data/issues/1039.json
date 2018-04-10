@@ -1,0 +1,71 @@
+{
+  "body": "The Syntax doc, [docs.perl6.org/language/syntax](https://docs.perl6.org/language/syntax), has a sentence about Unicode that says that Perl 6 is Unicode text but does seem to advertise applications of Unicode source, other than maybe the hyper operator.  I think it might be helpful for the description of identifiers to mention the use of alternative lettering/writing systems from Unicode as well as mathematical symbols as mentioned in a [Rosetta Code example](https://rosettacode.org/wiki/Unicode_variable_names#Perl_6).  It may also be useful to discuss the use of Unicode subscripts and superscripts and the exclusion of numeric Unicode subscripts and superscripts from identifiers (see discussions [IRC #perl6 2016-04-14](https://irclog.perlgeek.de/perl6/2016-04-14#i_12340102) and an [AlexDaniel gist](https://gist.github.com/AlexDaniel/c89bd2786f9b63f31e4c)).  My knowledge in this area is limited and there are likely to be other applications of Unicode source code that I have overlooked.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "updated_at": "2017-01-04T01:46:18Z",
+  "created_at": "2016-12-07T22:00:47Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1039/comments",
+  "locked": false,
+  "title": "Syntax doc should advertise and describe unicode identifiers",
+  "id": 194183415,
+  "html_url": "https://github.com/perl6/doc/issues/1039",
+  "closed_at": "2017-01-03T18:51:19Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1039/labels{/name}",
+  "number": 1039,
+  "comments": 11,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1039/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1039"
+}

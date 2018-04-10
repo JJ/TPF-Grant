@@ -1,0 +1,71 @@
+{
+  "body": "I believe these little changes could make the object documentation more clear.\nI've also fixed what I believe is a miswritten header.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "html_url": "https://github.com/tbrowder",
+    "id": 1039060,
+    "login": "tbrowder",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "url": "https://api.github.com/users/tbrowder"
+  },
+  "updated_at": "2016-10-08T17:30:16Z",
+  "created_at": "2016-10-07T11:47:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/946/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/946",
+    "diff_url": "https://github.com/perl6/doc/pull/946.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/946.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/946"
+  },
+  "locked": false,
+  "title": "A few improvements",
+  "id": 181649119,
+  "html_url": "https://github.com/perl6/doc/pull/946",
+  "closed_at": "2016-10-08T17:29:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/946/labels{/name}",
+  "number": 946,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/946/events",
+  "user": {
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "html_url": "https://github.com/fluca1978",
+    "id": 813664,
+    "login": "fluca1978",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "url": "https://api.github.com/users/fluca1978"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/946"
+}

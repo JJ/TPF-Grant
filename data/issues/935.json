@@ -1,0 +1,78 @@
+{
+  "body": "in the type graph the int bubble\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-03T17:00:33Z",
+  "created_at": "2016-10-04T11:24:31Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/935/comments",
+  "locked": false,
+  "title": "broken link https://docs.perl6.org/type/int on page https://docs.perl6.org/type/Int#Operators",
+  "id": 180867230,
+  "html_url": "https://github.com/perl6/doc/issues/935",
+  "closed_at": "2018-04-03T17:00:33Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/935/labels{/name}",
+  "number": 935,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/935/events",
+  "user": {
+    "following_url": "https://api.github.com/users/grizzlysmit/following{/other_user}",
+    "gists_url": "https://api.github.com/users/grizzlysmit/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/grizzlysmit/received_events",
+    "organizations_url": "https://api.github.com/users/grizzlysmit/orgs",
+    "subscriptions_url": "https://api.github.com/users/grizzlysmit/subscriptions",
+    "html_url": "https://github.com/grizzlysmit",
+    "id": 9037046,
+    "login": "grizzlysmit",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/grizzlysmit/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/grizzlysmit/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9037046?v=4",
+    "starred_url": "https://api.github.com/users/grizzlysmit/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/grizzlysmit/followers",
+    "url": "https://api.github.com/users/grizzlysmit"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/935"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Fixes https://github.com/perl6/doc/issues/1021",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-11-27T22:21:53Z",
+  "created_at": "2016-11-27T16:56:34Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1023/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1023",
+    "diff_url": "https://github.com/perl6/doc/pull/1023.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1023.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1023"
+  },
+  "locked": false,
+  "title": "Fix links to postcircumfix operators",
+  "id": 191871709,
+  "html_url": "https://github.com/perl6/doc/pull/1023",
+  "closed_at": "2016-11-27T22:21:35Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1023/labels{/name}",
+  "number": 1023,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1023/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mienaikage/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mienaikage/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mienaikage/received_events",
+    "organizations_url": "https://api.github.com/users/mienaikage/orgs",
+    "subscriptions_url": "https://api.github.com/users/mienaikage/subscriptions",
+    "html_url": "https://github.com/mienaikage",
+    "id": 966706,
+    "login": "mienaikage",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mienaikage/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mienaikage/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/966706?v=4",
+    "starred_url": "https://api.github.com/users/mienaikage/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mienaikage/followers",
+    "url": "https://api.github.com/users/mienaikage"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1023"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "I've built the html docs (post-edit's to doc/Types/List.pod6) - looks ok\r\nplease take a look at new doc for List routine 'zip', and List sub 'roundrobin'\r\n\r\nnot sure what else to type here, or what files to attach, if any ...",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2016-11-17T12:44:30Z",
+  "created_at": "2016-11-17T00:00:59Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1012/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1012",
+    "diff_url": "https://github.com/perl6/doc/pull/1012.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1012.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1012"
+  },
+  "locked": false,
+  "title": "Attempt to improve the documentation of routines zip, and roundrobin.",
+  "id": 189889961,
+  "html_url": "https://github.com/perl6/doc/pull/1012",
+  "closed_at": "2016-11-17T12:44:23Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1012/labels{/name}",
+  "number": 1012,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1012/events",
+  "user": {
+    "following_url": "https://api.github.com/users/bazzaar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bazzaar/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bazzaar/received_events",
+    "organizations_url": "https://api.github.com/users/bazzaar/orgs",
+    "subscriptions_url": "https://api.github.com/users/bazzaar/subscriptions",
+    "html_url": "https://github.com/bazzaar",
+    "id": 3990488,
+    "login": "bazzaar",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bazzaar/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bazzaar/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3990488?v=4",
+    "starred_url": "https://api.github.com/users/bazzaar/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bazzaar/followers",
+    "url": "https://api.github.com/users/bazzaar"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1012"
+}

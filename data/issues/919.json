@@ -1,0 +1,60 @@
+{
+  "body": "The [Str.match method](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L420) appears to undocumented. Moreover, `Str.subst` uses it for regex matching, and it appears that some of the options accepted by `Str.match` are not listed for `Str.subst` (some may be applicable on for `Str.subst-mutate` that returns `Match` objects).\n\nLastly, the `:nth` (and aliases) also [take a `Whatever`](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L453) while `:x` does [_not_ take a `Callable`, but does take `Range` or `Whatever`](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L481)\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-09-21T08:19:37Z",
+  "created_at": "2016-09-27T16:15:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/919/comments",
+  "locked": false,
+  "title": "Str.match not documented / Str.subst does not list all options [some are inaccurate/incomplete]",
+  "id": 179540753,
+  "html_url": "https://github.com/perl6/doc/issues/919",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/919/labels{/name}",
+  "number": 919,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/919/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/919"
+}

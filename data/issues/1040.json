@@ -1,0 +1,71 @@
+{
+  "body": "```\r\n<babydrop> m: multi foo (Int) is default {say \"here\"}; multi foo (Int) {say \"there\"}; foo 42\r\n<camelia> rakudo-moar a98724: OUTPUT«here␤»\r\n<babydrop> m: multi foo (Int) {say \"here\"}; multi foo (Int) is default {say \"there\"}; foo 42\r\n<camelia> rakudo-moar a98724: OUTPUT«there␤»\r\n<babydrop> Neat.\r\n<babydrop> TIL\r\n<AlexDaniel> hmmm\r\n<AlexDaniel> so what does it do exactly?\r\n<moritz> it disambiguates ambiguous dispatches\r\n```\r\n(IRC log: https://irclog.perlgeek.de/perl6/2016-12-08#i_13703911)",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-09-03T00:23:53Z",
+  "created_at": "2016-12-08T13:22:43Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1040/comments",
+  "locked": false,
+  "title": "｢is default｣ for subs is not searchable",
+  "id": 194334494,
+  "html_url": "https://github.com/perl6/doc/issues/1040",
+  "closed_at": "2017-09-03T00:23:53Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1040/labels{/name}",
+  "number": 1040,
+  "comments": 8,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1040/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1040"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Hi everyone! I was browsing http://docs.perl6.org and typed \"trait\" on the search bar that rests in the top right corner, then clicked on the first link, which yielded a 404.\r\n\r\nMessage said *\"If you got here by following a link on this site, please report it on our GitHub repository so we can fix it!\"*. I did, so... there you go :)\r\n\r\nHope this helps! Thanks!\r\n\r\n![trait-404](https://cloud.githubusercontent.com/assets/52187/20457537/d09e98ec-ae74-11e6-85da-3a373882c8ac.png)\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2016-12-10T13:59:43Z",
+  "created_at": "2016-11-19T18:26:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1014/comments",
+  "locked": false,
+  "title": "/syntax/trait page is 404",
+  "id": 190511899,
+  "html_url": "https://github.com/perl6/doc/issues/1014",
+  "closed_at": "2016-12-10T13:59:43Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1014/labels{/name}",
+  "number": 1014,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1014/events",
+  "user": {
+    "following_url": "https://api.github.com/users/garu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/garu/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/garu/received_events",
+    "organizations_url": "https://api.github.com/users/garu/orgs",
+    "subscriptions_url": "https://api.github.com/users/garu/subscriptions",
+    "html_url": "https://github.com/garu",
+    "id": 52187,
+    "login": "garu",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/garu/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/garu/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/52187?v=4",
+    "starred_url": "https://api.github.com/users/garu/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/garu/followers",
+    "url": "https://api.github.com/users/garu"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1014"
+}

@@ -1,0 +1,78 @@
+{
+  "body": "https://docs.perl6.org/type/IO$COLON$COLONPath#method_s\r\n\r\n“Returns Bool::True if the invocant is a path and the size is bigger then 0.”\r\n\r\nCode:\r\n```perl6\r\nsay ‘file.p6’.IO.s\r\n```\r\nResult:\r\n```\r\n935\r\n```\r\n\r\n\r\nAlso:\r\n```\r\n<ugexe> at the very least s/is a path/is a regular file/\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2018-04-09T19:10:17Z",
+  "created_at": "2016-12-15T17:54:20Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1054/comments",
+  "locked": false,
+  "title": "IO::Path.s returns the size, not Bool",
+  "id": 195872170,
+  "html_url": "https://github.com/perl6/doc/issues/1054",
+  "closed_at": "2016-12-17T16:16:19Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1054/labels{/name}",
+  "number": 1054,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1054/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1054"
+}

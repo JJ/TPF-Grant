@@ -1,0 +1,71 @@
+{
+  "body": "Edits to the Grammar Tutorial. I've attempted to tighten up the description of how the proto token works, and specifically focus on the utilisation of the ``<sym>`` token. I also removed the use of ``$<command><sym>`` in the Grammar Actions class, using instead just ``$<command>``.\r\n\r\nMaking a PR for this, since there maybe a bit of discussion on this. I've checked over and over again, that my statements are in tune with what the proto-regex is doing. I'm happy to receive comments to the opposite however.\r\n\r\nI've built the html docs on my local machine and the grammar_tutorial looks good.  ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/adaptiveoptics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/adaptiveoptics/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/adaptiveoptics/received_events",
+    "organizations_url": "https://api.github.com/users/adaptiveoptics/orgs",
+    "subscriptions_url": "https://api.github.com/users/adaptiveoptics/subscriptions",
+    "html_url": "https://github.com/adaptiveoptics",
+    "id": 22607429,
+    "login": "adaptiveoptics",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/adaptiveoptics/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/adaptiveoptics/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22607429?v=4",
+    "starred_url": "https://api.github.com/users/adaptiveoptics/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/adaptiveoptics/followers",
+    "url": "https://api.github.com/users/adaptiveoptics"
+  },
+  "updated_at": "2016-11-21T01:05:51Z",
+  "created_at": "2016-11-20T23:59:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1017/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1017",
+    "diff_url": "https://github.com/perl6/doc/pull/1017.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1017.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1017"
+  },
+  "locked": false,
+  "title": "Grammar Tutorial : attempt to tighten up the description of how the proto token works.",
+  "id": 190593938,
+  "html_url": "https://github.com/perl6/doc/pull/1017",
+  "closed_at": "2016-11-21T01:05:51Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1017/labels{/name}",
+  "number": 1017,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1017/events",
+  "user": {
+    "following_url": "https://api.github.com/users/bazzaar/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bazzaar/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bazzaar/received_events",
+    "organizations_url": "https://api.github.com/users/bazzaar/orgs",
+    "subscriptions_url": "https://api.github.com/users/bazzaar/subscriptions",
+    "html_url": "https://github.com/bazzaar",
+    "id": 3990488,
+    "login": "bazzaar",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bazzaar/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bazzaar/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3990488?v=4",
+    "starred_url": "https://api.github.com/users/bazzaar/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bazzaar/followers",
+    "url": "https://api.github.com/users/bazzaar"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1017"
+}

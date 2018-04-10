@@ -1,0 +1,71 @@
+{
+  "body": "make html depends on bigpage and bigpage apparently needs \"pod2onepage\". The target should check for the presence of the binary and if not found, either git clone the library like it does in init_highlights, or shout that there is no pod2onepage and die. \r\n\r\npod2onepage --threads=1 -v --source-path=./doc --exclude=404.pod6,/.git,/precompiled > html/perl6.xhtml\r\n/bin/sh: pod2onepage: command not found\r\nMakefile:27: recipe for target 'bigpage' failed\r\nmake: *** [bigpage] Error 127\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2017-01-06T11:16:10Z",
+  "created_at": "2017-01-02T02:17:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1101/comments",
+  "locked": false,
+  "title": "Doc generation fails for bigpage due to dependencies",
+  "id": 198291172,
+  "html_url": "https://github.com/perl6/doc/issues/1101",
+  "closed_at": "2017-01-06T11:16:10Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1101/labels{/name}",
+  "number": 1101,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1101/events",
+  "user": {
+    "following_url": "https://api.github.com/users/benignbala/following{/other_user}",
+    "gists_url": "https://api.github.com/users/benignbala/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/benignbala/received_events",
+    "organizations_url": "https://api.github.com/users/benignbala/orgs",
+    "subscriptions_url": "https://api.github.com/users/benignbala/subscriptions",
+    "html_url": "https://github.com/benignbala",
+    "id": 600098,
+    "login": "benignbala",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/benignbala/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/benignbala/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/600098?v=4",
+    "starred_url": "https://api.github.com/users/benignbala/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/benignbala/followers",
+    "url": "https://api.github.com/users/benignbala"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1101"
+}

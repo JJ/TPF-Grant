@@ -1,0 +1,71 @@
+{
+  "body": "Info taken from https://github.com/rakudo/rakudo/commit/625d1c5116c3314dd5624d6dcbac676ce112fe6a",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-03-23T15:01:00Z",
+  "created_at": "2016-12-14T08:42:54Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1051/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1051",
+    "diff_url": "https://github.com/perl6/doc/pull/1051.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1051.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1051"
+  },
+  "locked": false,
+  "title": "More info on allowing EVAL",
+  "id": 195471242,
+  "html_url": "https://github.com/perl6/doc/pull/1051",
+  "closed_at": "2017-01-09T03:26:48Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1051/labels{/name}",
+  "number": 1051,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1051/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mienaikage/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mienaikage/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mienaikage/received_events",
+    "organizations_url": "https://api.github.com/users/mienaikage/orgs",
+    "subscriptions_url": "https://api.github.com/users/mienaikage/subscriptions",
+    "html_url": "https://github.com/mienaikage",
+    "id": 966706,
+    "login": "mienaikage",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mienaikage/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mienaikage/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/966706?v=4",
+    "starred_url": "https://api.github.com/users/mienaikage/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mienaikage/followers",
+    "url": "https://api.github.com/users/mienaikage"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1051"
+}

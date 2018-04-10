@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-10-06T08:50:21Z",
+  "created_at": "2016-10-06T08:16:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/945/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/945",
+    "diff_url": "https://github.com/perl6/doc/pull/945.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/945.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/945"
+  },
+  "locked": false,
+  "title": "Add more examples of character class ranges.",
+  "id": 181350713,
+  "html_url": "https://github.com/perl6/doc/pull/945",
+  "closed_at": "2016-10-06T08:50:21Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/945/labels{/name}",
+  "number": 945,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/945/events",
+  "user": {
+    "following_url": "https://api.github.com/users/flexibeast/following{/other_user}",
+    "gists_url": "https://api.github.com/users/flexibeast/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/flexibeast/received_events",
+    "organizations_url": "https://api.github.com/users/flexibeast/orgs",
+    "subscriptions_url": "https://api.github.com/users/flexibeast/subscriptions",
+    "html_url": "https://github.com/flexibeast",
+    "id": 190652,
+    "login": "flexibeast",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/flexibeast/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/flexibeast/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/190652?v=4",
+    "starred_url": "https://api.github.com/users/flexibeast/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/flexibeast/followers",
+    "url": "https://api.github.com/users/flexibeast"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/945"
+}

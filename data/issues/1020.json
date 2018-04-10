@@ -1,0 +1,71 @@
+{
+  "body": "Block of text immediately above removed lines is identical.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-11-26T20:06:44Z",
+  "created_at": "2016-11-26T17:49:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1020/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1020",
+    "diff_url": "https://github.com/perl6/doc/pull/1020.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1020.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1020"
+  },
+  "locked": false,
+  "title": "Remove duplicate done-testing text",
+  "id": 191817970,
+  "html_url": "https://github.com/perl6/doc/pull/1020",
+  "closed_at": "2016-11-26T20:06:40Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1020/labels{/name}",
+  "number": 1020,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1020/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mienaikage/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mienaikage/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mienaikage/received_events",
+    "organizations_url": "https://api.github.com/users/mienaikage/orgs",
+    "subscriptions_url": "https://api.github.com/users/mienaikage/subscriptions",
+    "html_url": "https://github.com/mienaikage",
+    "id": 966706,
+    "login": "mienaikage",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mienaikage/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mienaikage/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/966706?v=4",
+    "starred_url": "https://api.github.com/users/mienaikage/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mienaikage/followers",
+    "url": "https://api.github.com/users/mienaikage"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1020"
+}

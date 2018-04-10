@@ -1,0 +1,78 @@
+{
+  "body": "I'm not sure what it is, but it is tested here.\nhttps://github.com/perl6/roast/blob/master/S03-metaops/hyper.t#L434\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "updated_at": "2016-10-04T23:26:08Z",
+  "created_at": "2016-09-29T13:55:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/926/comments",
+  "locked": false,
+  "title": "produce method is not documented",
+  "id": 180056151,
+  "html_url": "https://github.com/perl6/doc/issues/926",
+  "closed_at": "2016-10-04T23:26:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/926/labels{/name}",
+  "number": 926,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/926/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/926"
+}

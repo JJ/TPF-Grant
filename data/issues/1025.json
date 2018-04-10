@@ -1,0 +1,71 @@
+{
+  "body": "In this section: https://docs.perl6.org/type/Iterator#method_count-only\r\nIt says Iterator has count-only method, but in fact this method doesn't exist in the rakudo 2016.11-25:\r\n\r\n```\r\n$ perl6 -e '(^Inf).iterator.^methods.say;'\r\n(new pull-one is-lazy push-at-least push-until-lazy push-exactly skip-at-least sink-all skip-one push-all skip-at-least-pull-one)\r\n\r\n$ perl6 --version\r\nThis is Rakudo version 2016.11-105-gae614f9 built on MoarVM version 2016.11-25-g4be6b38\r\nimplementing Perl 6.c.\r\n```",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "updated_at": "2016-12-03T10:26:19Z",
+  "created_at": "2016-12-03T09:40:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1025/comments",
+  "locked": false,
+  "title": "Iterator doesn't have count-only method",
+  "id": 193277514,
+  "html_url": "https://github.com/perl6/doc/issues/1025",
+  "closed_at": "2016-12-03T10:26:19Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1025/labels{/name}",
+  "number": 1025,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1025/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1025"
+}

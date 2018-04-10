@@ -1,0 +1,60 @@
+{
+  "body": "It's in source at https://github.com/rakudo/rakudo/blob/f0b3b59/src/core/Buf.pm#L44 but doesn't seem to be in the docs\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-09-27T19:08:57Z",
+  "created_at": "2016-09-26T13:32:13Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/917/comments",
+  "locked": false,
+  "title": "Blob.allocate not documented",
+  "id": 179229498,
+  "html_url": "https://github.com/perl6/doc/issues/917",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/917/labels{/name}",
+  "number": 917,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/917/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/917"
+}

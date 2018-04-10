@@ -1,0 +1,71 @@
+{
+  "body": "There are actually two cases to cover.\r\n\r\nI've seen it several times on `#perl6` when people tried to do this when they first learned aout `»`:\r\n\r\n``` perl6\r\n<a b c d>».say # Oops!\r\n```\r\n\r\nWell, okay, it works today, but the idea is that the execution order is not defined, so doing `».say` is probably not the best idea.\r\n\r\nOK, I get it. But still, if I don't care about the execution order, I can use `»` anywhere I use `.map`, right?\r\n\r\nOops.\r\n\r\nSee this:\r\n\r\n```\r\nsay (<a b c d>, <x y z>).map: *.elems # (4 3)     ← OK, that's what we want\r\nsay (<a b c d>, <x y z>)».elems       # (4 3)      YEAH, it works, great!\r\n\r\n# but we may want to use something more\r\n# complex than just a method call. For example this:\r\nsay (<a b c d>, <x y z>).map: *.elems × -1     # (-4 -3)\r\nsay (<a b c d>, <x y z>)».&(*.elems × -1)      # ((-1 -1 -1 -1) (-1 -1 -1)) – ??? Why?\r\nsay (<a b c d>, <x y z>).deepmap: *.elems × -1 # ((-1 -1 -1 -1) (-1 -1 -1)) – OK, so it's like deepmap in this case…\r\n```\r\n\r\nPerhaps see these conversations:\r\n- https://irclog.perlgeek.de/perl6/2016-10-06#i_13343973\r\n- https://irclog.perlgeek.de/perl6/2016-10-08#i_13362495\r\n- https://irclog.perlgeek.de/perl6/2016-10-10#i_13374587\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-09-01T20:17:22Z",
+  "created_at": "2016-10-10T22:51:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/960/comments",
+  "locked": false,
+  "title": "Using » in place of .map is a trap",
+  "id": 182134053,
+  "html_url": "https://github.com/perl6/doc/issues/960",
+  "closed_at": "2017-09-01T20:17:22Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/960/labels{/name}",
+  "number": 960,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/960/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/960"
+}

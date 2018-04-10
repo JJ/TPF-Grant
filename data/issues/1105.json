@@ -1,0 +1,53 @@
+{
+  "body": "For example, the docs on [Mix](https://docs.perl6.org/type/Mix) include method reverse, which says this:\r\n\r\n> Returns a list with the same elements in reverse order.\r\n\r\nHowever, Mix is unordered, so there is no “reverse order”. Yes, this description gets mixed in from Any, but to someone reading the docs for the first time it may not be so clear.\r\n\r\nIs there any way we can fix that?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-01-02T19:03:36Z",
+  "created_at": "2017-01-02T19:00:33Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1105/comments",
+  "locked": false,
+  "title": "Mix/Bag/etc. mention method reverse which talks about order, but there is no order",
+  "id": 198370856,
+  "html_url": "https://github.com/perl6/doc/issues/1105",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1105/labels{/name}",
+  "number": 1105,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1105/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1105"
+}

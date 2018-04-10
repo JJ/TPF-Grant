@@ -1,0 +1,71 @@
+{
+  "body": "The builtin character classes want to be documented\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/adaptiveoptics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/adaptiveoptics/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/adaptiveoptics/received_events",
+    "organizations_url": "https://api.github.com/users/adaptiveoptics/orgs",
+    "subscriptions_url": "https://api.github.com/users/adaptiveoptics/subscriptions",
+    "html_url": "https://github.com/adaptiveoptics",
+    "id": 22607429,
+    "login": "adaptiveoptics",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/adaptiveoptics/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/adaptiveoptics/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22607429?v=4",
+    "starred_url": "https://api.github.com/users/adaptiveoptics/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/adaptiveoptics/followers",
+    "url": "https://api.github.com/users/adaptiveoptics"
+  },
+  "updated_at": "2016-11-29T21:15:35Z",
+  "created_at": "2016-10-18T03:51:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/973/comments",
+  "locked": false,
+  "title": "Built-in Character Classes",
+  "id": 183584079,
+  "html_url": "https://github.com/perl6/doc/issues/973",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/973/labels{/name}",
+  "number": 973,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/973/events",
+  "user": {
+    "following_url": "https://api.github.com/users/adaptiveoptics/following{/other_user}",
+    "gists_url": "https://api.github.com/users/adaptiveoptics/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/adaptiveoptics/received_events",
+    "organizations_url": "https://api.github.com/users/adaptiveoptics/orgs",
+    "subscriptions_url": "https://api.github.com/users/adaptiveoptics/subscriptions",
+    "html_url": "https://github.com/adaptiveoptics",
+    "id": 22607429,
+    "login": "adaptiveoptics",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/adaptiveoptics/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/adaptiveoptics/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22607429?v=4",
+    "starred_url": "https://api.github.com/users/adaptiveoptics/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/adaptiveoptics/followers",
+    "url": "https://api.github.com/users/adaptiveoptics"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/973"
+}

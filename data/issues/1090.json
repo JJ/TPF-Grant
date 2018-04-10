@@ -1,0 +1,103 @@
+{
+  "body": "It would be nice if the docs have the same design as the main perl6.org website. For consistency.",
+  "author_association": "MEMBER",
+  "assignees": [
+    {
+      "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+      "received_events_url": "https://api.github.com/users/coke/received_events",
+      "organizations_url": "https://api.github.com/users/coke/orgs",
+      "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+      "html_url": "https://github.com/coke",
+      "id": 50257,
+      "login": "coke",
+      "type": "User",
+      "repos_url": "https://api.github.com/users/coke/repos",
+      "site_admin": false,
+      "events_url": "https://api.github.com/users/coke/events{/privacy}",
+      "gravatar_id": "",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+      "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+      "followers_url": "https://api.github.com/users/coke/followers",
+      "url": "https://api.github.com/users/coke"
+    }
+  ],
+  "assignee": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "closed_by": null,
+  "updated_at": "2018-04-08T19:46:56Z",
+  "created_at": "2016-12-29T16:03:26Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1090/comments",
+  "locked": false,
+  "title": "docs.perl6.org design",
+  "id": 198029145,
+  "html_url": "https://github.com/perl6/doc/issues/1090",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1090/labels{/name}",
+  "number": 1090,
+  "comments": 8,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1090/events",
+  "user": {
+    "following_url": "https://api.github.com/users/hankache/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hankache/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/hankache/received_events",
+    "organizations_url": "https://api.github.com/users/hankache/orgs",
+    "subscriptions_url": "https://api.github.com/users/hankache/subscriptions",
+    "html_url": "https://github.com/hankache",
+    "id": 15119547,
+    "login": "hankache",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/hankache/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/hankache/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15119547?v=4",
+    "starred_url": "https://api.github.com/users/hankache/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/hankache/followers",
+    "url": "https://api.github.com/users/hankache"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1090"
+}

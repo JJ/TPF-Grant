@@ -1,0 +1,53 @@
+{
+  "body": "https://gist.github.com/niner/70f7b46eefb7e22af78d896bea11efeb describes the effects of merging the lexical_module_loading branch and what users need to do about this. It would be useful to have a place in the documentation to point to when submitting pull requests for fixing such issues and for answering user's questions that will inevitably arise once we merge this branch. Therefore it would be nice if we could include the gist somewhere.\r\n\r\nNote that the described fix in user code could be considered a best practice anyway (being explicit about what modules one expects to be loaded) and that it's fully backwards compatible with older rakudos.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-12-11T04:44:07Z",
+  "created_at": "2016-12-10T12:04:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1043/comments",
+  "locked": false,
+  "title": "Information about lexical module loading",
+  "id": 194763494,
+  "html_url": "https://github.com/perl6/doc/issues/1043",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1043/labels{/name}",
+  "number": 1043,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1043/events",
+  "user": {
+    "following_url": "https://api.github.com/users/niner/following{/other_user}",
+    "gists_url": "https://api.github.com/users/niner/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/niner/received_events",
+    "organizations_url": "https://api.github.com/users/niner/orgs",
+    "subscriptions_url": "https://api.github.com/users/niner/subscriptions",
+    "html_url": "https://github.com/niner",
+    "id": 73249,
+    "login": "niner",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/niner/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/niner/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/73249?v=4",
+    "starred_url": "https://api.github.com/users/niner/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/niner/followers",
+    "url": "https://api.github.com/users/niner"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1043"
+}

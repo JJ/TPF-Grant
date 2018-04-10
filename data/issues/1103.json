@@ -1,0 +1,53 @@
+{
+  "body": "This is a continuation of [RT #130480](https://rt.perl.org/Ticket/Display.html?id=130480).\r\n\r\n[Our docs say](https://docs.perl6.org/language/operators#index-entry-lazy_list_%E2%80%A6):\r\n> The sequence operator is a generic operator to produce lazy lists.\r\n\r\nWell, is it? Seems like it produces ``Seq``-s, not lazy lists. Lazy lists can be obtained, for example, from ``.list``-ing a Range (``..`` operator, not ``...``), or by ``lazy``-ing a Seq.\r\n\r\nAnd getting back to the ticket:\r\n```\r\nmy @a = 1 … 9999999\r\n```\r\n↑ This is not lazy at all. But with our current documentation it is fair to assume that it *should* be lazy.\r\n\r\nWe should improve our docs on ``…`` first. Then perhaps document another trap?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-01-04T21:23:10Z",
+  "created_at": "2017-01-02T15:47:27Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1103/comments",
+  "locked": false,
+  "title": "｢my @a = 1 … 9999999｣ is not lazy, explain it somewhere",
+  "id": 198351828,
+  "html_url": "https://github.com/perl6/doc/issues/1103",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1103/labels{/name}",
+  "number": 1103,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1103/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1103"
+}

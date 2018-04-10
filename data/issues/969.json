@@ -1,0 +1,53 @@
+{
+  "body": "In the Packages language documentation, most of the examples given are incomplete, confusing, and some appear to just flat not work. If they work, I can't tell why they don't for me and some of the examples do not appear to be in roast anywhere that I can find.\n\nIt would be nice if all the examples shown actually work and it was clear what each symbolic dereference was referring to in an original. So provide a package definition like:\n\n``` perl6\nclass Foo {\n  class Bar {\n    sub baz { }\n    our $qux = 42;\n  }\n}\n```\n\nThen, write each of the examples in terms of a defined symbol so we know what the symbol lookup actually does.\n\nFor example, I found the sudden, unexplained use of `$` to prefix symbolic dereferences in the first set of example to be confusing. The use of <::Bar> seems to be incorrect.\n\nAnyway, I think the examples need to be reworked.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-12-01T23:20:53Z",
+  "created_at": "2016-10-14T04:42:13Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/969/comments",
+  "locked": false,
+  "title": "Package documentation includes confusing symbol table lookups",
+  "id": 182962217,
+  "html_url": "https://github.com/perl6/doc/issues/969",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/969/labels{/name}",
+  "number": 969,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/969/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zostay/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zostay/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zostay/received_events",
+    "organizations_url": "https://api.github.com/users/zostay/orgs",
+    "subscriptions_url": "https://api.github.com/users/zostay/subscriptions",
+    "html_url": "https://github.com/zostay",
+    "id": 34711,
+    "login": "zostay",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zostay/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zostay/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/34711?v=4",
+    "starred_url": "https://api.github.com/users/zostay/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zostay/followers",
+    "url": "https://api.github.com/users/zostay"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/969"
+}

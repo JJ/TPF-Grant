@@ -1,0 +1,53 @@
+{
+  "body": "aspell is convinced that doc/Language/grammars.pod6 has an spelling mistake here:\n\n```\nsay +DigitMatcher.subparse: '12७१७९०९', args => \\(:full-unicode);\n```\n\nand doc/Language/operators.pod6 with: \n\n```\n                  Z      <EB     PB     TB     GB     MB     KB> -> [\\v,\\suffix] {\n```\n\nand reports 'ull', and 'ffix' as mispelled words. For now, we're skipping them to silence the spell checker, but we should fix our aspell invocation to avoid the issue and remove them from the skiplist.  (currently on spellcheck branch, moving to master shortly)\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-03T22:35:55Z",
+  "created_at": "2016-10-19T17:14:12Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/975/comments",
+  "locked": false,
+  "title": "xt/aspell.t - aspell issue",
+  "id": 184022392,
+  "html_url": "https://github.com/perl6/doc/issues/975",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/975/labels{/name}",
+  "number": 975,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "e99695",
+      "name": "xt",
+      "id": 639973381,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/xt"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/975/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/975"
+}

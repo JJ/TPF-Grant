@@ -1,0 +1,78 @@
+{
+  "body": "See the following section and lines.\nhttps://docs.perl6.org/language/nativecall#Passing_and_Returning_Values\nhttps://github.com/rakudo/rakudo/blob/nom/lib/NativeCall.pm6#L9-L19\n\nIt seems that `ulong`, `ulonglong`, `ssize_t` are not documented yet. \n(I excluded `OpaquePointer`, because it is equivalent to `Pointer` and already deprecated)\n\n`ulong` and `ulonglong` are tested here\nhttps://github.com/rakudo/rakudo/blob/479628e54240b28496331282ba1bbace050fcaf3/t/04-nativecall/15-rw-args.t#L66-L72\n\n`ssize_t` is tested here\nhttps://github.com/rakudo/rakudo/blob/nom/t/04-nativecall/02-simple-args.t#L68-L69\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2017-06-24T23:24:20Z",
+  "created_at": "2016-09-26T16:29:22Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/918/comments",
+  "locked": false,
+  "title": "Some types used in NativeCall (i.e. ulong, ulonglong, ssize_t) are not documented",
+  "id": 179275816,
+  "html_url": "https://github.com/perl6/doc/issues/918",
+  "closed_at": "2017-06-24T23:24:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/918/labels{/name}",
+  "number": 918,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/918/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/918"
+}

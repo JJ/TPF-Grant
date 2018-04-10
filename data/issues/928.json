@@ -1,0 +1,78 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "updated_at": "2016-10-02T12:06:20Z",
+  "created_at": "2016-09-30T12:15:18Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/928/comments",
+  "locked": false,
+  "title": ":ver not searchable",
+  "id": 180289573,
+  "html_url": "https://github.com/perl6/doc/issues/928",
+  "closed_at": "2016-10-02T12:06:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/928/labels{/name}",
+  "number": 928,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/928/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "html_url": "https://github.com/tbrowder",
+    "id": 1039060,
+    "login": "tbrowder",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "url": "https://api.github.com/users/tbrowder"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/928"
+}

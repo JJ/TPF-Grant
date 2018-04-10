@@ -1,0 +1,71 @@
+{
+  "body": "Add documentation for produce based on reduce (#926) \n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-10-04T16:50:22Z",
+  "created_at": "2016-10-04T15:31:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/936/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/936",
+    "diff_url": "https://github.com/perl6/doc/pull/936.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/936.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/936"
+  },
+  "locked": false,
+  "title": "Issue #926 produce method is not documented",
+  "id": 180927056,
+  "html_url": "https://github.com/perl6/doc/pull/936",
+  "closed_at": "2016-10-04T16:50:22Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/936/labels{/name}",
+  "number": 936,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/936/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ggoebel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ggoebel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ggoebel/received_events",
+    "organizations_url": "https://api.github.com/users/ggoebel/orgs",
+    "subscriptions_url": "https://api.github.com/users/ggoebel/subscriptions",
+    "html_url": "https://github.com/ggoebel",
+    "id": 474218,
+    "login": "ggoebel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ggoebel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ggoebel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/474218?v=4",
+    "starred_url": "https://api.github.com/users/ggoebel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ggoebel/followers",
+    "url": "https://api.github.com/users/ggoebel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/936"
+}

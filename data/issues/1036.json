@@ -1,0 +1,53 @@
+{
+  "body": "In this section: https://docs.perl6.org/type/Order#infix_cmp\r\nit says \"**Coerces it's arguments to Stringy.**\"\r\n\r\nHowever, in the other section: https://docs.perl6.org/routine/cmp#(Operators)_infix_cmp\r\nit says \"**Compares strings with string semantics, numbers with number semantics,** Pair objects first by key and then by value etc.\"\r\n\r\nWhich one is the correct description ?\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-12-07T23:44:47Z",
+  "created_at": "2016-12-06T14:02:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1036/comments",
+  "locked": false,
+  "title": "Description of the cmp operator seems weird",
+  "id": 193779743,
+  "html_url": "https://github.com/perl6/doc/issues/1036",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1036/labels{/name}",
+  "number": 1036,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1036/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1036"
+}

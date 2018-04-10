@@ -1,0 +1,71 @@
+{
+  "body": "Fixed typo in \"Traps\". Changed variable name \"$arg\" to \"$list\" so that it matches the declaration above it.",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-12-27T10:29:54Z",
+  "created_at": "2016-12-27T01:46:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1083/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1083",
+    "diff_url": "https://github.com/perl6/doc/pull/1083.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1083.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1083"
+  },
+  "locked": false,
+  "title": "Fixed typo in \"Traps\". Changed variable name.",
+  "id": 197632968,
+  "html_url": "https://github.com/perl6/doc/pull/1083",
+  "closed_at": "2016-12-27T10:29:54Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1083/labels{/name}",
+  "number": 1083,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1083/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dugword/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dugword/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dugword/received_events",
+    "organizations_url": "https://api.github.com/users/dugword/orgs",
+    "subscriptions_url": "https://api.github.com/users/dugword/subscriptions",
+    "html_url": "https://github.com/dugword",
+    "id": 3106463,
+    "login": "dugword",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dugword/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dugword/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3106463?v=4",
+    "starred_url": "https://api.github.com/users/dugword/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dugword/followers",
+    "url": "https://api.github.com/users/dugword"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1083"
+}
