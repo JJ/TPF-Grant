@@ -1,0 +1,71 @@
+{
+  "body": "We have type relationships like\n\n```\n role X::Comp is Exception { }\n role X::Syntax does X::Comp { }\n class X::Syntax::Confused does X::Syntax { }\n```\n\nnow all of `X::Comp`, `X::Syntax` and `X::Syntax::Confused` have an inheritance arrow to `Exception`, which is clearly too much.\n\nIn the very least X::Syntax shouldn't have such an arrow (ie roles only have arrows to direct superclasses), and in general either the role or the class should have an inheritance arrow. \n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Mouq/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Mouq/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Mouq/received_events",
+    "organizations_url": "https://api.github.com/users/Mouq/orgs",
+    "subscriptions_url": "https://api.github.com/users/Mouq/subscriptions",
+    "html_url": "https://github.com/Mouq",
+    "id": 494270,
+    "login": "Mouq",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Mouq/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Mouq/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/494270?v=4",
+    "starred_url": "https://api.github.com/users/Mouq/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Mouq/followers",
+    "url": "https://api.github.com/users/Mouq"
+  },
+  "updated_at": "2016-06-24T22:50:05Z",
+  "created_at": "2012-08-22T15:00:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/4/comments",
+  "locked": false,
+  "title": "[typegraph] too many inheritance arrows for roles that inherit",
+  "id": 6379454,
+  "html_url": "https://github.com/perl6/doc/issues/4",
+  "closed_at": "2014-06-19T05:19:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/4/labels{/name}",
+  "number": 4,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/4/events",
+  "user": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/4"
+}

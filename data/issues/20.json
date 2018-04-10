@@ -1,0 +1,71 @@
+{
+  "body": "A few small tweaks to top off Mouq++'s heroic redesign work\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Mouq/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Mouq/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Mouq/received_events",
+    "organizations_url": "https://api.github.com/users/Mouq/orgs",
+    "subscriptions_url": "https://api.github.com/users/Mouq/subscriptions",
+    "html_url": "https://github.com/Mouq",
+    "id": 494270,
+    "login": "Mouq",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Mouq/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Mouq/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/494270?v=4",
+    "starred_url": "https://api.github.com/users/Mouq/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Mouq/followers",
+    "url": "https://api.github.com/users/Mouq"
+  },
+  "updated_at": "2014-06-20T21:23:04Z",
+  "created_at": "2014-06-20T21:02:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/20/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/20",
+    "diff_url": "https://github.com/perl6/doc/pull/20.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/20.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/20"
+  },
+  "locked": false,
+  "title": "Some style polishing",
+  "id": 36202455,
+  "html_url": "https://github.com/perl6/doc/pull/20",
+  "closed_at": "2014-06-20T21:23:04Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/20/labels{/name}",
+  "number": 20,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/20/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/20"
+}

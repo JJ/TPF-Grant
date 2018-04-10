@@ -1,0 +1,71 @@
+{
+  "body": "EDIT : oh, ctrl-f doesn't work properly in github web interface ...\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/vendethiel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vendethiel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/vendethiel/received_events",
+    "organizations_url": "https://api.github.com/users/vendethiel/orgs",
+    "subscriptions_url": "https://api.github.com/users/vendethiel/subscriptions",
+    "html_url": "https://github.com/vendethiel",
+    "id": 199499,
+    "login": "vendethiel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/vendethiel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/vendethiel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/199499?v=4",
+    "starred_url": "https://api.github.com/users/vendethiel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/vendethiel/followers",
+    "url": "https://api.github.com/users/vendethiel"
+  },
+  "updated_at": "2014-07-05T13:04:20Z",
+  "created_at": "2014-02-17T21:18:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/16/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/16",
+    "diff_url": "https://github.com/perl6/doc/pull/16.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/16.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/16"
+  },
+  "locked": false,
+  "title": "Remove whatever star from bless",
+  "id": 27749870,
+  "html_url": "https://github.com/perl6/doc/pull/16",
+  "closed_at": "2014-02-17T21:18:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/16/labels{/name}",
+  "number": 16,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/16/events",
+  "user": {
+    "following_url": "https://api.github.com/users/vendethiel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vendethiel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/vendethiel/received_events",
+    "organizations_url": "https://api.github.com/users/vendethiel/orgs",
+    "subscriptions_url": "https://api.github.com/users/vendethiel/subscriptions",
+    "html_url": "https://github.com/vendethiel",
+    "id": 199499,
+    "login": "vendethiel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/vendethiel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/vendethiel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/199499?v=4",
+    "starred_url": "https://api.github.com/users/vendethiel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/vendethiel/followers",
+    "url": "https://api.github.com/users/vendethiel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/16"
+}

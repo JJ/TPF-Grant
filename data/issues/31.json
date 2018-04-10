@@ -1,0 +1,71 @@
+{
+  "body": "```\n> p6doc Pod::To::Markdown\n'less' is not recognized as an internal or external command,\noperable program or batch file.\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T16:40:00Z",
+  "created_at": "2014-12-10T21:20:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/31/comments",
+  "locked": false,
+  "title": "Does not work on Windows cmd.exe because of dependency on less",
+  "id": 51612530,
+  "html_url": "https://github.com/perl6/doc/issues/31",
+  "closed_at": "2014-12-12T08:57:41Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/31/labels{/name}",
+  "number": 31,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/31/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dnmfarrell/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dnmfarrell/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dnmfarrell/received_events",
+    "organizations_url": "https://api.github.com/users/dnmfarrell/orgs",
+    "subscriptions_url": "https://api.github.com/users/dnmfarrell/subscriptions",
+    "html_url": "https://github.com/dnmfarrell",
+    "id": 1469333,
+    "login": "dnmfarrell",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dnmfarrell/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dnmfarrell/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1469333?v=4",
+    "starred_url": "https://api.github.com/users/dnmfarrell/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dnmfarrell/followers",
+    "url": "https://api.github.com/users/dnmfarrell"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/31"
+}

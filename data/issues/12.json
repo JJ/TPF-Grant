@@ -1,0 +1,71 @@
+{
+  "body": "One character typo fix.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/xfix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xfix/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xfix/received_events",
+    "organizations_url": "https://api.github.com/users/xfix/orgs",
+    "subscriptions_url": "https://api.github.com/users/xfix/subscriptions",
+    "html_url": "https://github.com/xfix",
+    "id": 1297598,
+    "login": "xfix",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xfix/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xfix/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1297598?v=4",
+    "starred_url": "https://api.github.com/users/xfix/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xfix/followers",
+    "url": "https://api.github.com/users/xfix"
+  },
+  "updated_at": "2014-06-12T16:57:17Z",
+  "created_at": "2013-01-02T08:18:36Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/12/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/12",
+    "diff_url": "https://github.com/perl6/doc/pull/12.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/12.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/12"
+  },
+  "locked": false,
+  "title": "Update lib/operators.pod",
+  "id": 9611119,
+  "html_url": "https://github.com/perl6/doc/pull/12",
+  "closed_at": "2013-01-02T13:35:27Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/12/labels{/name}",
+  "number": 12,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/12/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ghost/received_events",
+    "organizations_url": "https://api.github.com/users/ghost/orgs",
+    "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+    "html_url": "https://github.com/ghost",
+    "id": 10137,
+    "login": "ghost",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ghost/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+    "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ghost/followers",
+    "url": "https://api.github.com/users/ghost"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/12"
+}

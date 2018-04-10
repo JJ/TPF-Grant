@@ -1,0 +1,71 @@
+{
+  "body": "Today on IRC a P6 newbie was asking for the Perl 6 equivalent of Perl 5's  `__FILE__` .  It might be nice the search box would allow searching for variables by name.\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-07-11T00:41:23Z",
+  "created_at": "2015-02-04T00:41:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/45/comments",
+  "locked": false,
+  "title": "Allow search for variables",
+  "id": 56463037,
+  "html_url": "https://github.com/perl6/doc/issues/45",
+  "closed_at": "2016-07-11T00:41:23Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/45/labels{/name}",
+  "number": 45,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/45/events",
+  "user": {
+    "following_url": "https://api.github.com/users/pmichaud/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pmichaud/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/pmichaud/received_events",
+    "organizations_url": "https://api.github.com/users/pmichaud/orgs",
+    "subscriptions_url": "https://api.github.com/users/pmichaud/subscriptions",
+    "html_url": "https://github.com/pmichaud",
+    "id": 41962,
+    "login": "pmichaud",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/pmichaud/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/pmichaud/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/41962?v=4",
+    "starred_url": "https://api.github.com/users/pmichaud/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/pmichaud/followers",
+    "url": "https://api.github.com/users/pmichaud"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/45"
+}

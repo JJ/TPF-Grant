@@ -1,0 +1,71 @@
+{
+  "body": "Entering \"< >\" in the search box currently lists three entries:\n   Postcircumfix: .< >    leads to routine/.<%20>   (currently 404 not found)\n   Circumfix: < >           leads to routine/<%20>\n   Quote: < >                leads to syntax/<%20>\n\nI don't think there should be a \"circumfix\" entry, as < > is not an operator, nor is there a `circumfix:«< >»` function/routine.  As far as I can tell, it's purely a syntactic construct.\n\nI suspect the same should be said for postcircumfix .< > -- as far as I know it's not a routine in its own right -- it's really syntactic sugar for .{< >} .  It's not an operator in its own right (e.g., that could be overloaded).\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-07-15T01:15:21Z",
+  "created_at": "2015-01-02T18:09:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/38/comments",
+  "locked": false,
+  "title": "Confusion in documentation of < >",
+  "id": 53267444,
+  "html_url": "https://github.com/perl6/doc/issues/38",
+  "closed_at": "2016-07-15T01:15:21Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/38/labels{/name}",
+  "number": 38,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/38/events",
+  "user": {
+    "following_url": "https://api.github.com/users/pmichaud/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pmichaud/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/pmichaud/received_events",
+    "organizations_url": "https://api.github.com/users/pmichaud/orgs",
+    "subscriptions_url": "https://api.github.com/users/pmichaud/subscriptions",
+    "html_url": "https://github.com/pmichaud",
+    "id": 41962,
+    "login": "pmichaud",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/pmichaud/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/pmichaud/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/41962?v=4",
+    "starred_url": "https://api.github.com/users/pmichaud/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/pmichaud/followers",
+    "url": "https://api.github.com/users/pmichaud"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/38"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Please review.\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/xfix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xfix/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xfix/received_events",
+    "organizations_url": "https://api.github.com/users/xfix/orgs",
+    "subscriptions_url": "https://api.github.com/users/xfix/subscriptions",
+    "html_url": "https://github.com/xfix",
+    "id": 1297598,
+    "login": "xfix",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xfix/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xfix/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1297598?v=4",
+    "starred_url": "https://api.github.com/users/xfix/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xfix/followers",
+    "url": "https://api.github.com/users/xfix"
+  },
+  "updated_at": "2014-06-15T16:05:58Z",
+  "created_at": "2012-07-04T14:30:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1",
+    "diff_url": "https://github.com/perl6/doc/pull/1.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1"
+  },
+  "locked": false,
+  "title": "Fixed some typos",
+  "id": 5429069,
+  "html_url": "https://github.com/perl6/doc/pull/1",
+  "closed_at": "2012-07-04T14:32:43Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1/labels{/name}",
+  "number": 1,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1/events",
+  "user": {
+    "following_url": "https://api.github.com/users/muixirt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/muixirt/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/muixirt/received_events",
+    "organizations_url": "https://api.github.com/users/muixirt/orgs",
+    "subscriptions_url": "https://api.github.com/users/muixirt/subscriptions",
+    "html_url": "https://github.com/muixirt",
+    "id": 241494,
+    "login": "muixirt",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/muixirt/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/muixirt/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/241494?v=4",
+    "starred_url": "https://api.github.com/users/muixirt/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/muixirt/followers",
+    "url": "https://api.github.com/users/muixirt"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1"
+}

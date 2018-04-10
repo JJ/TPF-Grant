@@ -1,0 +1,71 @@
+{
+  "body": "I tried ./bin/p6doc Str.zbd  and got a lot of these warnings on STDERR before it printed the whole pod:\n\nuse of uninitialized variable $from of type Any in numeric context  in method render at ./bin/../lib/Pod/To/SectionFilter.pm:15\n\nuse of uninitialized variable $heading-level of type Any in numeric context  in method render at ./bin/../lib/Pod/To/SectionFilter.pm:16\n\nuse of uninitialized value of type Any in string context  in method render at ./bin/../lib/Pod/To/SectionFilter.pm:21\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/xfix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xfix/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xfix/received_events",
+    "organizations_url": "https://api.github.com/users/xfix/orgs",
+    "subscriptions_url": "https://api.github.com/users/xfix/subscriptions",
+    "html_url": "https://github.com/xfix",
+    "id": 1297598,
+    "login": "xfix",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xfix/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xfix/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1297598?v=4",
+    "starred_url": "https://api.github.com/users/xfix/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xfix/followers",
+    "url": "https://api.github.com/users/xfix"
+  },
+  "updated_at": "2016-06-24T22:50:40Z",
+  "created_at": "2012-07-04T20:39:57Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2/comments",
+  "locked": false,
+  "title": "Asking for not-existing method gives warnings",
+  "id": 5433832,
+  "html_url": "https://github.com/perl6/doc/issues/2",
+  "closed_at": "2012-07-06T06:39:16Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2/labels{/name}",
+  "number": 2,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2/events",
+  "user": {
+    "following_url": "https://api.github.com/users/szabgab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/szabgab/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/szabgab/received_events",
+    "organizations_url": "https://api.github.com/users/szabgab/orgs",
+    "subscriptions_url": "https://api.github.com/users/szabgab/subscriptions",
+    "html_url": "https://github.com/szabgab",
+    "id": 48833,
+    "login": "szabgab",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/szabgab/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/szabgab/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/48833?v=4",
+    "starred_url": "https://api.github.com/users/szabgab/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/szabgab/followers",
+    "url": "https://api.github.com/users/szabgab"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2"
+}

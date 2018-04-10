@@ -1,0 +1,71 @@
+{
+  "body": "Character class negation isn't documented anywhere in [regex](http://doc.perl6.org/language/regexes). I asked on IRC where they told be the syntax is `<-[abcd]>` compared with Perl5 `[^abcd]`.\n\nThis should be documented.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:43:30Z",
+  "created_at": "2015-01-15T04:37:46Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/40/comments",
+  "locked": false,
+  "title": "Character class negation is undocumented",
+  "id": 54411800,
+  "html_url": "https://github.com/perl6/doc/issues/40",
+  "closed_at": "2015-01-15T16:26:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/40/labels{/name}",
+  "number": 40,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/40/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mdinger/received_events",
+    "organizations_url": "https://api.github.com/users/mdinger/orgs",
+    "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+    "html_url": "https://github.com/mdinger",
+    "id": 4156987,
+    "login": "mdinger",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mdinger/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4156987?v=4",
+    "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mdinger/followers",
+    "url": "https://api.github.com/users/mdinger"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/40"
+}

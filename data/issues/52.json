@@ -1,0 +1,71 @@
+{
+  "body": "On the page `http://doc.perl6.org/language/variables` at the bottom of the `The ? Twigil` section there is a pointer to _Compile-time variables_ (`http://doc.perl6.org/type/Compile-time%20variables`) which points to a non-existing document. I also couldn't find an alternative file in the same directory.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:41:44Z",
+  "created_at": "2015-02-25T11:23:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/52/comments",
+  "locked": false,
+  "title": "Html link to Compile-time variables.",
+  "id": 58886912,
+  "html_url": "https://github.com/perl6/doc/issues/52",
+  "closed_at": "2015-02-25T11:42:24Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/52/labels{/name}",
+  "number": 52,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/52/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/52"
+}

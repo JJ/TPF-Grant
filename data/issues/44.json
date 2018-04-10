@@ -1,0 +1,71 @@
+{
+  "body": "I added the union operator to the example code at lines 68 and 74.  I (hopefully) fixed the broken link to the setbagmix page at line 77.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/FROGGS/following{/other_user}",
+    "gists_url": "https://api.github.com/users/FROGGS/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/FROGGS/received_events",
+    "organizations_url": "https://api.github.com/users/FROGGS/orgs",
+    "subscriptions_url": "https://api.github.com/users/FROGGS/subscriptions",
+    "html_url": "https://github.com/FROGGS",
+    "id": 141968,
+    "login": "FROGGS",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/FROGGS/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/FROGGS/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/141968?v=4",
+    "starred_url": "https://api.github.com/users/FROGGS/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/FROGGS/followers",
+    "url": "https://api.github.com/users/FROGGS"
+  },
+  "updated_at": "2015-01-29T19:35:39Z",
+  "created_at": "2015-01-29T00:52:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/44/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/44",
+    "diff_url": "https://github.com/perl6/doc/pull/44.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/44.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/44"
+  },
+  "locked": false,
+  "title": "Added example code and fixed a broken link - fixes #43",
+  "id": 55839985,
+  "html_url": "https://github.com/perl6/doc/pull/44",
+  "closed_at": "2015-01-29T07:50:49Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/44/labels{/name}",
+  "number": 44,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/44/events",
+  "user": {
+    "following_url": "https://api.github.com/users/bronco-creek/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bronco-creek/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bronco-creek/received_events",
+    "organizations_url": "https://api.github.com/users/bronco-creek/orgs",
+    "subscriptions_url": "https://api.github.com/users/bronco-creek/subscriptions",
+    "html_url": "https://github.com/bronco-creek",
+    "id": 10747141,
+    "login": "bronco-creek",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bronco-creek/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bronco-creek/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10747141?v=4",
+    "starred_url": "https://api.github.com/users/bronco-creek/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bronco-creek/followers",
+    "url": "https://api.github.com/users/bronco-creek"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/44"
+}

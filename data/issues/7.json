@@ -1,0 +1,71 @@
+{
+  "body": "For example, under http://doc.perl6.org/#Routines :\n- http://doc.perl6.org/routine/left+elems\n- http://doc.perl6.org/routine/calling+package\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T22:48:56Z",
+  "created_at": "2012-08-28T17:33:14Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/7/comments",
+  "locked": false,
+  "title": "links to routines with hyphens in their name appear to be broken",
+  "id": 6505129,
+  "html_url": "https://github.com/perl6/doc/issues/7",
+  "closed_at": "2012-08-28T18:59:59Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/7/labels{/name}",
+  "number": 7,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/7/events",
+  "user": {
+    "following_url": "https://api.github.com/users/uvtc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/uvtc/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/uvtc/received_events",
+    "organizations_url": "https://api.github.com/users/uvtc/orgs",
+    "subscriptions_url": "https://api.github.com/users/uvtc/subscriptions",
+    "html_url": "https://github.com/uvtc",
+    "id": 212308,
+    "login": "uvtc",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/uvtc/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/uvtc/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/212308?v=4",
+    "starred_url": "https://api.github.com/users/uvtc/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/uvtc/followers",
+    "url": "https://api.github.com/users/uvtc"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/7"
+}

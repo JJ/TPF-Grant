@@ -1,0 +1,71 @@
+{
+  "body": "trial change\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/ShimmerFairy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ShimmerFairy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ShimmerFairy/received_events",
+    "organizations_url": "https://api.github.com/users/ShimmerFairy/orgs",
+    "subscriptions_url": "https://api.github.com/users/ShimmerFairy/subscriptions",
+    "html_url": "https://github.com/ShimmerFairy",
+    "id": 236773,
+    "login": "ShimmerFairy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ShimmerFairy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ShimmerFairy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/236773?v=4",
+    "starred_url": "https://api.github.com/users/ShimmerFairy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ShimmerFairy/followers",
+    "url": "https://api.github.com/users/ShimmerFairy"
+  },
+  "updated_at": "2014-07-05T13:04:25Z",
+  "created_at": "2012-07-21T23:53:21Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/3/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/3",
+    "diff_url": "https://github.com/perl6/doc/pull/3.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/3.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/3"
+  },
+  "locked": false,
+  "title": "delete extraneous space",
+  "id": 5757191,
+  "html_url": "https://github.com/perl6/doc/pull/3",
+  "closed_at": "2012-07-22T00:00:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/3/labels{/name}",
+  "number": 3,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/3/events",
+  "user": {
+    "following_url": "https://api.github.com/users/raiph/following{/other_user}",
+    "gists_url": "https://api.github.com/users/raiph/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/raiph/received_events",
+    "organizations_url": "https://api.github.com/users/raiph/orgs",
+    "subscriptions_url": "https://api.github.com/users/raiph/subscriptions",
+    "html_url": "https://github.com/raiph",
+    "id": 1247185,
+    "login": "raiph",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/raiph/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/raiph/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1247185?v=4",
+    "starred_url": "https://api.github.com/users/raiph/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/raiph/followers",
+    "url": "https://api.github.com/users/raiph"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/3"
+}

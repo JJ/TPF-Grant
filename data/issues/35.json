@@ -1,0 +1,71 @@
+{
+  "body": "The recursive example on http://doc.perl6.org/routine/dir gives me a deprecation warning.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/xfix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xfix/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xfix/received_events",
+    "organizations_url": "https://api.github.com/users/xfix/orgs",
+    "subscriptions_url": "https://api.github.com/users/xfix/subscriptions",
+    "html_url": "https://github.com/xfix",
+    "id": 1297598,
+    "login": "xfix",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xfix/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xfix/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1297598?v=4",
+    "starred_url": "https://api.github.com/users/xfix/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xfix/followers",
+    "url": "https://api.github.com/users/xfix"
+  },
+  "updated_at": "2016-06-24T21:44:16Z",
+  "created_at": "2014-12-31T06:09:24Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/35/comments",
+  "locked": false,
+  "title": "recursive dir example is deprecated",
+  "id": 53169046,
+  "html_url": "https://github.com/perl6/doc/issues/35",
+  "closed_at": "2014-12-31T06:25:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/35/labels{/name}",
+  "number": 35,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/35/events",
+  "user": {
+    "following_url": "https://api.github.com/users/szabgab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/szabgab/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/szabgab/received_events",
+    "organizations_url": "https://api.github.com/users/szabgab/orgs",
+    "subscriptions_url": "https://api.github.com/users/szabgab/subscriptions",
+    "html_url": "https://github.com/szabgab",
+    "id": 48833,
+    "login": "szabgab",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/szabgab/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/szabgab/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/48833?v=4",
+    "starred_url": "https://api.github.com/users/szabgab/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/szabgab/followers",
+    "url": "https://api.github.com/users/szabgab"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/35"
+}

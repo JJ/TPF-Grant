@@ -1,0 +1,71 @@
+{
+  "body": "Due to https://rt.perl.org/rt3/Ticket/Display.html?id=114510 we render source code like\n\n```\nC<< infix:<||> >>\n```\n\nwrongly (as `< infix:<|| >>`).\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Mouq/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Mouq/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Mouq/received_events",
+    "organizations_url": "https://api.github.com/users/Mouq/orgs",
+    "subscriptions_url": "https://api.github.com/users/Mouq/subscriptions",
+    "html_url": "https://github.com/Mouq",
+    "id": 494270,
+    "login": "Mouq",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Mouq/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Mouq/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/494270?v=4",
+    "starred_url": "https://api.github.com/users/Mouq/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Mouq/followers",
+    "url": "https://api.github.com/users/Mouq"
+  },
+  "updated_at": "2016-06-24T22:49:12Z",
+  "created_at": "2012-08-27T18:23:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/6/comments",
+  "locked": false,
+  "title": "[HTML] bad rendering of inline code with < or > signs",
+  "id": 6480710,
+  "html_url": "https://github.com/perl6/doc/issues/6",
+  "closed_at": "2014-06-19T05:05:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/6/labels{/name}",
+  "number": 6,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/6/events",
+  "user": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/6"
+}
