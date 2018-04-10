@@ -1,0 +1,71 @@
+{
+  "body": "Escape single-quote in string in sample code\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2015-07-31T04:38:35Z",
+  "created_at": "2015-07-31T00:18:00Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/110/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/110",
+    "diff_url": "https://github.com/perl6/doc/pull/110.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/110.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/110"
+  },
+  "locked": false,
+  "title": "Fix grammars.pod unescaped quote mark in string",
+  "id": 98291175,
+  "html_url": "https://github.com/perl6/doc/pull/110",
+  "closed_at": "2015-07-31T04:36:43Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/110/labels{/name}",
+  "number": 110,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/110/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Sgeo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Sgeo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Sgeo/received_events",
+    "organizations_url": "https://api.github.com/users/Sgeo/orgs",
+    "subscriptions_url": "https://api.github.com/users/Sgeo/subscriptions",
+    "html_url": "https://github.com/Sgeo",
+    "id": 251161,
+    "login": "Sgeo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Sgeo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Sgeo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/251161?v=4",
+    "starred_url": "https://api.github.com/users/Sgeo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Sgeo/followers",
+    "url": "https://api.github.com/users/Sgeo"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/110"
+}

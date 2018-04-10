@@ -1,0 +1,71 @@
+{
+  "body": "I first encountered the method \"succ\" today, and it was a method on Bool. At first I misunderstood it to mean \"success\", and wondered what type of failure or disaster \"pred\" stood for. Then I discovered that \"succ\" means \"successor\" and \"pred\" means \"predecessor\" and that they seem to totally make sense if we think of Bool in terms of it consisting of two possible enums.  So, that's what I tried to explain, but I would really like someone that feels more comfortable with this topic to please review my proposed changes (and please improve them if needed), before merging this pull request. (I could have committed directly, but I wanted someone to review this first.)\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "updated_at": "2016-07-22T20:15:15Z",
+  "created_at": "2016-07-22T16:17:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/744/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/744",
+    "diff_url": "https://github.com/perl6/doc/pull/744.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/744.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/744"
+  },
+  "locked": false,
+  "title": "Bool.succ, .pred methods explained (please review)",
+  "id": 167080977,
+  "html_url": "https://github.com/perl6/doc/pull/744",
+  "closed_at": "2016-07-22T19:52:16Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/744/labels{/name}",
+  "number": 744,
+  "comments": 4,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/744/events",
+  "user": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/744"
+}

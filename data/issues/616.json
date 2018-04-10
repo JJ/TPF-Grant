@@ -1,0 +1,71 @@
+{
+  "body": "There appear to be multiple instances of links that still use HTTP to sites on which we now have HTTPS. Those need to be updated.\n\n``` terminal\nzoffix@VirtualBox:/tmp/tmp.jhmYicfboO$ grep -r 'http://doc' .\n./README.md:An HTML version of this documentation can be found at http://doc.perl6.org/.\n./htmlify.p6:# The build logs are available at http://doc.perl6.org/build-log/\n./html/.htaccess:Redirect 301 /language/5to6 http://doc.perl6.org/language/5to6-nutshell\n./doc/Language/syntax.pod:Scope|http://docs.perl6.org/language/variables#Variable_Declarators_and_Scope>\n./doc/Language/syntax.pod:See also L<Multi-dispatch|http://docs.perl6.org/language/functions#Multi-dispatch>.\n./doc/Language/glossary.pod:L<http://doc.perl6.org/type/Junction>.\n./doc/Language/io.pod:TODO: http://doc.perl6.org/type/IO::Handle has close but no open\n./doc/Language/5to6-perlsyn.pod:I'm taking my information from L<http://doc.perl6.org> (in particular,\n./doc/Language/5to6-perlsyn.pod:L<http://doc.perl6.org/language/syntax> and\n./doc/Language/5to6-perlsyn.pod:L<http://doc.perl6.org/language/control>), supplemented by the design\n./doc/Language/5to6-perlsyn.pod:L<http://doc.perl6.org/language/control#given>.\n./doc/Language/5to6-perlsyn.pod:L<http://doc.perl6.org/language/control#given>.\n./doc/Language/5to6-perlvar.pod:I'm taking my information from L<http://doc.perl6.org/language/variables>\n./doc/Language/5to6-perlvar.pod:L<http://doc.perl6.org/language/variables#The_%5E_Twigil>\n./doc/Language/5to6-perlvar.pod:=item L<http://doc.perl6.org/routine/%5B%20%5D#language_documentation_Operators>\n./doc/Language/5to6-perlvar.pod:=item L<http://doc.perl6.org/type/Whatever>\n./doc/Language/performance.pod:Use the C<m: your code goes here> L<#perl6 channel evalbot|http://doc.perl6.org/language/glossary#camelia>\n./doc/Language/performance.pod:Enter C<prof-m: your code goes here> in the L<#perl6 channel|http://doc.perl6.org/language/glossary#IRC>\n./doc/Language/performance.pod:others using the L<#perl6|http://doc.perl6.org/language/glossary#IRC> evalbot\n./doc/Language/performance.pod:L<camelia|http://doc.perl6.org/language/glossary#camelia>.\n\nzoffix@VirtualBox:/tmp/tmp.jhmYicfboO$ grep -r 'http://perl6' .\n./WANTED:    * Updated version of http://perl6advent.wordpress.com/2010/12/22/day-22-the-meta-object-protocol/ (RT #121967)\n./doc/Type/Int.pod:L<this blog post|http://perl6.party/post/Perl6-.polymod-break-up-a-number-into-denominations>\n./doc/Type/Str.pod:    say \"http://perl6.org/\".starts-with('ftp'); # False\n./doc/Type/Junction.pod:=item L<http://perl6maven.com/perl6-is-a-value-in-a-given-list-of-values>\nzoffix@VirtualBox:/tmp/tmp.jhmYicfboO$ grep -r 'http://modules' .\n./doc/Language/modules.pod:L<http://modules.perl6.org> and github-based infrastructure is temporary. The\n./doc/Language/performance.pod:of L<modules aimed at providing convenient use of libs from other langs|http://modules.perl6.org/#q=inline>.\n\nzoffix@VirtualBox:/tmp/tmp.jhmYicfboO$ grep -r 'http://design' .                                                                                                                                                                                               \n./doc/Type/Mu.pod:See the L<documentation specification|http://design.perl6.org/S26.html> for\n./doc/Language/glossary.pod:L<categories|http://design.perl6.org/S02.html#Grammatical_Categories> of\n./doc/Language/glossary.pod:6. See L<S26|http://design.perl6.org/S26.html> for details.\n./doc/Language/regexes.pod:L<S05|http://design.perl6.org/S05.html#Predefined_Subrules>.\n./doc/Language/mop.pod:L<design documents|http://design.perl6.org/> are very light on details.\n./doc/Language/5to6-perlsyn.pod:documents at L<http://design.perl6.org/> and input from the denizens of\n./doc/Language/5to6-perlsyn.pod:L<http://design.perl6.org/S04.html#The_goto_statement>.\n./doc/Language/5to6-perlsyn.pod:L<http://design.perl6.org/S06.html#Stub_declarations> for the gory\n./doc/Language/5to6-perlsyn.pod:Details on Perl 6 style pod is at L<http://design.perl6.org/S26.html>.\n./doc/Language/5to6-perlvar.pod:supplemented by L<http://design.perl6.org/S28.html> and input from the\n./doc/Language/5to6-perlvar.pod:=item L<http://design.perl6.org/S02.html#line_1126>\n./doc/Language/performance.pod:L<subsets|http://design.perl6.org/S12.html#Types_and_Subtypes> -- force dynamic (run-time)\nzoffix@VirtualBox:/tmp/tmp.jhmYicfboO$ \n```\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2018-04-09T19:11:05Z",
+  "created_at": "2016-06-21T02:32:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/616/comments",
+  "locked": false,
+  "title": "Use HTTPS links whenever we can",
+  "id": 161337208,
+  "html_url": "https://github.com/perl6/doc/issues/616",
+  "closed_at": "2016-06-22T14:55:59Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/616/labels{/name}",
+  "number": 616,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/616/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/616"
+}

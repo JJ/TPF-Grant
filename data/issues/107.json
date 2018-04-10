@@ -1,0 +1,71 @@
+{
+  "body": "@moritz Oops, there were 4. You missed 2.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mdinger/received_events",
+    "organizations_url": "https://api.github.com/users/mdinger/orgs",
+    "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+    "html_url": "https://github.com/mdinger",
+    "id": 4156987,
+    "login": "mdinger",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mdinger/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4156987?v=4",
+    "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mdinger/followers",
+    "url": "https://api.github.com/users/mdinger"
+  },
+  "updated_at": "2015-07-26T19:51:07Z",
+  "created_at": "2015-07-26T19:19:47Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/107/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/107",
+    "diff_url": "https://github.com/perl6/doc/pull/107.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/107.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/107"
+  },
+  "locked": false,
+  "title": "Remove more ? from ?! lookaround assertions",
+  "id": 97342973,
+  "html_url": "https://github.com/perl6/doc/pull/107",
+  "closed_at": "2015-07-26T19:51:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/107/labels{/name}",
+  "number": 107,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/107/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mdinger/received_events",
+    "organizations_url": "https://api.github.com/users/mdinger/orgs",
+    "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+    "html_url": "https://github.com/mdinger",
+    "id": 4156987,
+    "login": "mdinger",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mdinger/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4156987?v=4",
+    "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mdinger/followers",
+    "url": "https://api.github.com/users/mdinger"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/107"
+}

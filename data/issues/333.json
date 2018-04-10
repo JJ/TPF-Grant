@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/CIAvash/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CIAvash/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/CIAvash/received_events",
+    "organizations_url": "https://api.github.com/users/CIAvash/orgs",
+    "subscriptions_url": "https://api.github.com/users/CIAvash/subscriptions",
+    "html_url": "https://github.com/CIAvash",
+    "id": 1062270,
+    "login": "CIAvash",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/CIAvash/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/CIAvash/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1062270?v=4",
+    "starred_url": "https://api.github.com/users/CIAvash/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/CIAvash/followers",
+    "url": "https://api.github.com/users/CIAvash"
+  },
+  "updated_at": "2016-01-09T10:54:03Z",
+  "created_at": "2016-01-09T10:24:45Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/333/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/333",
+    "diff_url": "https://github.com/perl6/doc/pull/333.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/333.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/333"
+  },
+  "locked": false,
+  "title": "Mention TeX input method for entering unicode characters in Emacs",
+  "id": 125751093,
+  "html_url": "https://github.com/perl6/doc/pull/333",
+  "closed_at": "2016-01-09T10:49:29Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/333/labels{/name}",
+  "number": 333,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/333/events",
+  "user": {
+    "following_url": "https://api.github.com/users/CIAvash/following{/other_user}",
+    "gists_url": "https://api.github.com/users/CIAvash/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/CIAvash/received_events",
+    "organizations_url": "https://api.github.com/users/CIAvash/orgs",
+    "subscriptions_url": "https://api.github.com/users/CIAvash/subscriptions",
+    "html_url": "https://github.com/CIAvash",
+    "id": 1062270,
+    "login": "CIAvash",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/CIAvash/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/CIAvash/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1062270?v=4",
+    "starred_url": "https://api.github.com/users/CIAvash/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/CIAvash/followers",
+    "url": "https://api.github.com/users/CIAvash"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/333"
+}

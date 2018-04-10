@@ -1,0 +1,78 @@
+{
+  "body": "For example, in the 'Adverb' section, the link at the bottom to 'Colon Pair and Colon List' doesn't work. It changes the url in the browser, but doesn't move you on the page. However, the ToC links do work. The one difference I can see is that the ToC links have an '_' on the end of the link (e.g., the url it has is 'https://docs.perl6.org/language/glossary#Colon_Pair_and_Colon_List_' instead of 'https://docs.perl6.org/language/glossary#Colon_Pair_and_Colon_List').\n\nHowever, some links do seem to work, but I can't find a reason why the difference. E.g., in the 'Apocalypse' section, the 'TimToady' link works but the 'Exegesis' and 'Synopsis' links don't.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/MasterDuke17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MasterDuke17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MasterDuke17/received_events",
+    "organizations_url": "https://api.github.com/users/MasterDuke17/orgs",
+    "subscriptions_url": "https://api.github.com/users/MasterDuke17/subscriptions",
+    "html_url": "https://github.com/MasterDuke17",
+    "id": 10255441,
+    "login": "MasterDuke17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MasterDuke17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MasterDuke17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10255441?v=4",
+    "starred_url": "https://api.github.com/users/MasterDuke17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MasterDuke17/followers",
+    "url": "https://api.github.com/users/MasterDuke17"
+  },
+  "updated_at": "2016-09-06T02:08:01Z",
+  "created_at": "2016-09-01T20:06:31Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/878/comments",
+  "locked": false,
+  "title": "Most internal links in the Glossary don't work",
+  "id": 174613499,
+  "html_url": "https://github.com/perl6/doc/issues/878",
+  "closed_at": "2016-09-06T02:08:01Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/878/labels{/name}",
+  "number": 878,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/878/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MasterDuke17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MasterDuke17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MasterDuke17/received_events",
+    "organizations_url": "https://api.github.com/users/MasterDuke17/orgs",
+    "subscriptions_url": "https://api.github.com/users/MasterDuke17/subscriptions",
+    "html_url": "https://github.com/MasterDuke17",
+    "id": 10255441,
+    "login": "MasterDuke17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MasterDuke17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MasterDuke17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10255441?v=4",
+    "starred_url": "https://api.github.com/users/MasterDuke17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MasterDuke17/followers",
+    "url": "https://api.github.com/users/MasterDuke17"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/878"
+}

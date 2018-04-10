@@ -1,0 +1,71 @@
+{
+  "body": "http://doc.perl6.org/type/IO::Socket::Async says\n\n```\nuse v6;\n\nreact {\n    whenever IO::Socket::Async.listen('localhost',3333) -> $conn {\n        whenever $conn.Supply(:bin) -> $buf { \n            await $conn.write: $buf \n        } \n    }\n}\n```\n\nWhen I execute that, and then `telnet localhost 3333`, I get\n\n```\nType check failed in binding $b; expected 'Blob' but got 'IO::Socket::Async'\n  in block <unit> at react.p6:3\n```\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:25:34Z",
+  "created_at": "2016-02-04T18:10:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/380/comments",
+  "locked": false,
+  "title": "IO::Socket::Async echo example broken",
+  "id": 131428593,
+  "html_url": "https://github.com/perl6/doc/issues/380",
+  "closed_at": "2016-02-04T18:14:55Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/380/labels{/name}",
+  "number": 380,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/380/events",
+  "user": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/380"
+}

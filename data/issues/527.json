@@ -1,0 +1,71 @@
+{
+  "body": "Around line 946 this example doesn't work:\n\n```\nuse XML;\nXML.parse(slurp \"filename.xml\")\nsay $/;\n```\n\nI'm trying to get an equivalent example but haven't succeeded so far--inputs welcome!\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "html_url": "https://github.com/tbrowder",
+    "id": 1039060,
+    "login": "tbrowder",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "url": "https://api.github.com/users/tbrowder"
+  },
+  "updated_at": "2016-06-24T22:38:54Z",
+  "created_at": "2016-05-19T16:33:32Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/527/comments",
+  "locked": false,
+  "title": "Bad example in file doc/Language/variables.pod",
+  "id": 155781007,
+  "html_url": "https://github.com/perl6/doc/issues/527",
+  "closed_at": "2016-05-23T20:27:37Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/527/labels{/name}",
+  "number": 527,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/527/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "html_url": "https://github.com/tbrowder",
+    "id": 1039060,
+    "login": "tbrowder",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "url": "https://api.github.com/users/tbrowder"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/527"
+}

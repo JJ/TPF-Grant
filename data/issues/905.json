@@ -1,0 +1,53 @@
+{
+  "body": "https://docs.perl6.org/language/phasers\r\n\r\nKEEP and UNDO keep talking about this concept, with no explanation of what it is.\r\n\\#perl6 thinks it might be exception versus not-exception but isn't sure.\r\n\r\nThis probably wants either an explanation or a link to the explanation in a different doc?\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2017-01-09T03:44:34Z",
+  "created_at": "2016-09-13T18:37:08Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/905/comments",
+  "locked": false,
+  "title": "Phasers doc doesn't explain successful/unsuccessful block exit",
+  "id": 176716413,
+  "html_url": "https://github.com/perl6/doc/issues/905",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/905/labels{/name}",
+  "number": 905,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/905/events",
+  "user": {
+    "following_url": "https://api.github.com/users/shadowcat-mst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shadowcat-mst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shadowcat-mst/received_events",
+    "organizations_url": "https://api.github.com/users/shadowcat-mst/orgs",
+    "subscriptions_url": "https://api.github.com/users/shadowcat-mst/subscriptions",
+    "html_url": "https://github.com/shadowcat-mst",
+    "id": 252821,
+    "login": "shadowcat-mst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shadowcat-mst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shadowcat-mst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/252821?v=4",
+    "starred_url": "https://api.github.com/users/shadowcat-mst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shadowcat-mst/followers",
+    "url": "https://api.github.com/users/shadowcat-mst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/905"
+}

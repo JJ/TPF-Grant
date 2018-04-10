@@ -1,0 +1,60 @@
+{
+  "body": "Not sure how [these](https://github.com/rakudo/rakudo/blob/nom/src/Perl6/Actions.nqp#L2030-L2056) should be documented, but currently they are only documented as there method forms.  Would these be called subs? routines? or statement prefixes?\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-09T19:08:09Z",
+  "created_at": "2016-05-21T04:34:54Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/534/comments",
+  "locked": false,
+  "title": "lazy, eager, hyper, race not documented in statement_prefix form",
+  "id": 156083352,
+  "html_url": "https://github.com/perl6/doc/issues/534",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/534/labels{/name}",
+  "number": 534,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/534/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MadcapJake/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MadcapJake/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MadcapJake/received_events",
+    "organizations_url": "https://api.github.com/users/MadcapJake/orgs",
+    "subscriptions_url": "https://api.github.com/users/MadcapJake/subscriptions",
+    "html_url": "https://github.com/MadcapJake",
+    "id": 3377525,
+    "login": "MadcapJake",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MadcapJake/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MadcapJake/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3377525?v=4",
+    "starred_url": "https://api.github.com/users/MadcapJake/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MadcapJake/followers",
+    "url": "https://api.github.com/users/MadcapJake"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/534"
+}

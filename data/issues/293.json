@@ -1,0 +1,71 @@
+{
+  "body": "Reason: rational numbers are not floating point and most math functions yield a Num.\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/niner/following{/other_user}",
+    "gists_url": "https://api.github.com/users/niner/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/niner/received_events",
+    "organizations_url": "https://api.github.com/users/niner/orgs",
+    "subscriptions_url": "https://api.github.com/users/niner/subscriptions",
+    "html_url": "https://github.com/niner",
+    "id": 73249,
+    "login": "niner",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/niner/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/niner/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/73249?v=4",
+    "starred_url": "https://api.github.com/users/niner/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/niner/followers",
+    "url": "https://api.github.com/users/niner"
+  },
+  "updated_at": "2015-12-30T08:28:53Z",
+  "created_at": "2015-12-30T04:03:17Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/293/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/293",
+    "diff_url": "https://github.com/perl6/doc/pull/293.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/293.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/293"
+  },
+  "locked": false,
+  "title": "Clarified item on numeric computation.",
+  "id": 124301422,
+  "html_url": "https://github.com/perl6/doc/pull/293",
+  "closed_at": "2015-12-30T08:28:53Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/293/labels{/name}",
+  "number": 293,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/293/events",
+  "user": {
+    "following_url": "https://api.github.com/users/vinc17fr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vinc17fr/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/vinc17fr/received_events",
+    "organizations_url": "https://api.github.com/users/vinc17fr/orgs",
+    "subscriptions_url": "https://api.github.com/users/vinc17fr/subscriptions",
+    "html_url": "https://github.com/vinc17fr",
+    "id": 8422499,
+    "login": "vinc17fr",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/vinc17fr/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/vinc17fr/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8422499?v=4",
+    "starred_url": "https://api.github.com/users/vinc17fr/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/vinc17fr/followers",
+    "url": "https://api.github.com/users/vinc17fr"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/293"
+}

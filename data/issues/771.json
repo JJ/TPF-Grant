@@ -1,0 +1,71 @@
+{
+  "body": "I think that we have to be picky about such things. We already know that the error messages have to be awesome, I believe that there is no reason to have less than awesome docs. But look at this:\n\n> Where can I find good documentation on Perl 6?\n\nOK, so, someone is looking for **good** documentation! After two not very clear paragraphs we give the best that we have:\n\n> There is much good recent material on YouTube but be careful to check any dates on webpages since much of the Perl 6 information on random websites found by Google is often outdated.\n\n… What?… Well, OK. If that does not work for you:\n\n> You could also try searching the Freenode #perl6 IRC channel log via Google\n\nSeriously? How do you imagine this?\n\nOK, humor aside, what can we do about it?\n\n1) First of all, the best documentation is on https://docs.perl6.org (coincidentally, the website the user is currently on). That's it, that's the answer.\n\n2) In the second paragraph we can say “You can also look at other resources listed on https://www.perl6.org/documentation/ page”. That is, if 1) did not work for you, then you can try one of these links.\n\n3) If nothing works, “Feel free to ask your question on #perl6”. Also say how friendly and helpful we are, and that we are ready to answer all kind of questions.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2017-03-29T14:22:29Z",
+  "created_at": "2016-07-28T04:47:01Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/771/comments",
+  "locked": false,
+  "title": "“There is much good recent material on YouTube” – yeah, so many cool videos…",
+  "id": 168013130,
+  "html_url": "https://github.com/perl6/doc/issues/771",
+  "closed_at": "2017-03-29T14:21:23Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/771/labels{/name}",
+  "number": 771,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/771/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/771"
+}

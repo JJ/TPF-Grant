@@ -1,0 +1,71 @@
+{
+  "body": "When I try to use the link() function, I get an error I didn't expect:\n\n~/rakudostar/rakudo 18:52:05% ./perl6 -e 'link(\"testfile.p6\", \"tfile.p6\");'\nFailed to create link called 'tfile.p6' on target '/Users/dha/rakudostar/rakudo/testfile.p6': Failed to link file: no such file or directory\n  in any  at ././CORE.setting.moarvm:1\n  in block <unit> at -e:1\n\nI _would_ have expected it to tell me it didn't recognize the function, as these aren't documented. Is it implemented? And if it is, it probably should be documented. Similarly for symlink().\n\nOdd that it's not finding the file, though...\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:38:38Z",
+  "created_at": "2015-06-26T23:02:48Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/98/comments",
+  "locked": false,
+  "title": "link and symlink not documented but... may be implemented?",
+  "id": 91381868,
+  "html_url": "https://github.com/perl6/doc/issues/98",
+  "closed_at": "2015-07-11T07:26:31Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/98/labels{/name}",
+  "number": 98,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/98/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dha/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dha/received_events",
+    "organizations_url": "https://api.github.com/users/dha/orgs",
+    "subscriptions_url": "https://api.github.com/users/dha/subscriptions",
+    "html_url": "https://github.com/dha",
+    "id": 97890,
+    "login": "dha",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dha/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dha/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/97890?v=4",
+    "starred_url": "https://api.github.com/users/dha/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dha/followers",
+    "url": "https://api.github.com/users/dha"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/98"
+}

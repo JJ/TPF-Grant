@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "updated_at": "2015-11-10T04:01:39Z",
+  "created_at": "2015-11-10T03:51:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/191/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/191",
+    "diff_url": "https://github.com/perl6/doc/pull/191.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/191.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/191"
+  },
+  "locked": false,
+  "title": "More syntax.pod additions, especially about operators",
+  "id": 116019889,
+  "html_url": "https://github.com/perl6/doc/pull/191",
+  "closed_at": "2015-11-10T04:01:35Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/191/labels{/name}",
+  "number": 191,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/191/events",
+  "user": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/191"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "at line 60 `method closing(Tap:D:)'  changed into 'method close(Tap:D:)'\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-02-19T11:48:47Z",
+  "created_at": "2016-02-19T11:07:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/403/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/403",
+    "diff_url": "https://github.com/perl6/doc/pull/403.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/403.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/403"
+  },
+  "locked": false,
+  "title": "repairing a typo",
+  "id": 134838512,
+  "html_url": "https://github.com/perl6/doc/pull/403",
+  "closed_at": "2016-02-19T11:48:42Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/403/labels{/name}",
+  "number": 403,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/403/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/403"
+}

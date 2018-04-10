@@ -1,0 +1,71 @@
+{
+  "body": "Per jnthn, Channel is supposed to have a Supply method, which returns a Supply.  I think the Supply is supposed to emit any values sent to the Channel.  The method and its behavior are currently undocumented.\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-01-26T08:45:13Z",
+  "created_at": "2016-01-24T22:36:35Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/366/comments",
+  "locked": false,
+  "title": "Supply method of Channel is not documented",
+  "id": 128430326,
+  "html_url": "https://github.com/perl6/doc/issues/366",
+  "closed_at": "2016-01-26T08:45:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/366/labels{/name}",
+  "number": 366,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/366/events",
+  "user": {
+    "following_url": "https://api.github.com/users/gotoexit/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gotoexit/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gotoexit/received_events",
+    "organizations_url": "https://api.github.com/users/gotoexit/orgs",
+    "subscriptions_url": "https://api.github.com/users/gotoexit/subscriptions",
+    "html_url": "https://github.com/gotoexit",
+    "id": 16866490,
+    "login": "gotoexit",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gotoexit/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gotoexit/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16866490?v=4",
+    "starred_url": "https://api.github.com/users/gotoexit/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gotoexit/followers",
+    "url": "https://api.github.com/users/gotoexit"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/366"
+}

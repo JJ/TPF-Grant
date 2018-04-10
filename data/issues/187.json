@@ -1,0 +1,71 @@
+{
+  "body": "I'm a little skeptical of the /type/Blah full path links, but that is what is being used all over.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2015-11-09T04:01:06Z",
+  "created_at": "2015-11-09T03:57:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/187/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/187",
+    "diff_url": "https://github.com/perl6/doc/pull/187.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/187.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/187"
+  },
+  "locked": false,
+  "title": "Fix/add a few links",
+  "id": 115786663,
+  "html_url": "https://github.com/perl6/doc/pull/187",
+  "closed_at": "2015-11-09T04:00:00Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/187/labels{/name}",
+  "number": 187,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/187/events",
+  "user": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/187"
+}

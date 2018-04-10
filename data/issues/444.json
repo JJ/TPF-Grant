@@ -1,0 +1,53 @@
+{
+  "body": "Hello\n\nIn page http://doc.perl6.org/language/list#Sequences , the following example:\n\n```\n  my @s := (loop { 42.say }); # Error expected Positional but got Seq\n```\n\ntriggers an endlees loop instead of the error mentioned in comment (tested with rakudo 2016.03).\n\nAlthough I can't say if this is a bug or a documentation error.\n\nAll the best\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-06-24T16:49:17Z",
+  "created_at": "2016-04-06T08:52:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/444/comments",
+  "locked": false,
+  "title": "Sequence examples no longer work as advertized / section could use improvement",
+  "id": 146238933,
+  "html_url": "https://github.com/perl6/doc/issues/444",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/444/labels{/name}",
+  "number": 444,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/444/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dod38fr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dod38fr/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dod38fr/received_events",
+    "organizations_url": "https://api.github.com/users/dod38fr/orgs",
+    "subscriptions_url": "https://api.github.com/users/dod38fr/subscriptions",
+    "html_url": "https://github.com/dod38fr",
+    "id": 1110441,
+    "login": "dod38fr",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dod38fr/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dod38fr/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1110441?v=4",
+    "starred_url": "https://api.github.com/users/dod38fr/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dod38fr/followers",
+    "url": "https://api.github.com/users/dod38fr"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/444"
+}

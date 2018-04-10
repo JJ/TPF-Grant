@@ -1,0 +1,71 @@
+{
+  "body": "Unlike while, given is actually documented in doc. However, entering it in the search field does not give any results. Not sure if this is an issue with given per se, or a deeper problem with the search feature overall.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T16:35:57Z",
+  "created_at": "2015-07-06T20:51:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/101/comments",
+  "locked": false,
+  "title": "C<given> not searchable.",
+  "id": 93374558,
+  "html_url": "https://github.com/perl6/doc/issues/101",
+  "closed_at": "2015-10-31T18:47:39Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/101/labels{/name}",
+  "number": 101,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "7493fb",
+      "name": "search",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/101/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dha/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dha/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dha/received_events",
+    "organizations_url": "https://api.github.com/users/dha/orgs",
+    "subscriptions_url": "https://api.github.com/users/dha/subscriptions",
+    "html_url": "https://github.com/dha",
+    "id": 97890,
+    "login": "dha",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dha/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dha/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/97890?v=4",
+    "starred_url": "https://api.github.com/users/dha/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dha/followers",
+    "url": "https://api.github.com/users/dha"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/101"
+}

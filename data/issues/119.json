@@ -1,0 +1,71 @@
+{
+  "body": "Hi,\n\nAccording to synopsis of regex (S05) the Match class has a `chars()` method which returns the difference of the values of methods `to()` and `from()`. On the doc page about Match there is a `chars()` method mentioned under the Cool class. But that one has a different meaning.\n\nGreets\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:38:22Z",
+  "created_at": "2015-08-29T11:08:31Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/119/comments",
+  "locked": false,
+  "title": "Match.chars missing",
+  "id": 103845130,
+  "html_url": "https://github.com/perl6/doc/issues/119",
+  "closed_at": "2015-08-29T12:37:35Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/119/labels{/name}",
+  "number": 119,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/119/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/119"
+}

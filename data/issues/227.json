@@ -1,0 +1,71 @@
+{
+  "body": "on This is rakudo version 2015.11-402-g67202d6 built on MoarVM version 2015.11-34-gc3eea17 implementing Perl v6.b.\n\nProcessing Language Pod files ...\n   1/32: doc/Language/5to6-nutshell.pod           => language/5to6-nutshell\n   2/32: doc/Language/5to6-perlfunc.pod           => language/5to6-perlfunc\n   3/32: doc/Language/5to6-perlop.pod             => language/5to6-perlop\n   4/32: doc/Language/5to6-perlsyn.pod            => language/5to6-perlsyn\n   5/32: doc/Language/5to6-perlvar.pod            => language/5to6-perlvar\n   6/32: doc/Language/about.pod                   => language/about\n   7/32: doc/Language/classtut.pod                => language/classtut\n   8/32: doc/Language/concurrency.pod             => language/concurrency\n   9/32: doc/Language/containers.pod              => language/containers\n  10/32: doc/Language/control.pod                 => language/control\n  11/32: doc/Language/exceptions.pod              => language/exceptions\n  12/32: doc/Language/faq.pod                     => language/faq\n  13/32: doc/Language/functions.pod               => language/functions\n  14/32: doc/Language/glossary.pod                => language/glossary\n  15/32: doc/Language/grammars.pod                => language/grammars\nType check failed in assignment to @!categories; expected Str but got Array\n  in method add-new at /home/dex/projekte/perl6/doc/lib/Perl6/Documentable/Registry.pm:12\n  in block  at htmlify.p6:451\n  in sub find-definitions at htmlify.p6:358\n  in sub process-pod-source at htmlify.p6:220\n  in sub process-pod-dir at htmlify.p6:176\n  in sub MAIN at htmlify.p6:123\n  in block <unit> at htmlify.p6:808\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "updated_at": "2016-06-24T21:08:30Z",
+  "created_at": "2015-12-07T12:32:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/227/comments",
+  "locked": false,
+  "title": "lib/Perl6/Documentable/Registry.pm fails at runtime",
+  "id": 120764346,
+  "html_url": "https://github.com/perl6/doc/issues/227",
+  "closed_at": "2015-12-21T00:10:30Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/227/labels{/name}",
+  "number": 227,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/227/events",
+  "user": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/227"
+}

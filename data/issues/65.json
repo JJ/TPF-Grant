@@ -1,0 +1,71 @@
+{
+  "body": "Thought I'd add this to prevent further reinvention of the wheel\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "updated_at": "2015-03-27T15:51:47Z",
+  "created_at": "2015-03-27T15:48:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/65/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/65",
+    "diff_url": "https://github.com/perl6/doc/pull/65.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/65.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/65"
+  },
+  "locked": false,
+  "title": "document $*USER",
+  "id": 64788925,
+  "html_url": "https://github.com/perl6/doc/pull/65",
+  "closed_at": "2015-03-27T15:51:47Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/65/labels{/name}",
+  "number": 65,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/65/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/65"
+}

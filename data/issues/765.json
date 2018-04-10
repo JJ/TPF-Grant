@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/baby-gnu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/baby-gnu/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/baby-gnu/received_events",
+    "organizations_url": "https://api.github.com/users/baby-gnu/orgs",
+    "subscriptions_url": "https://api.github.com/users/baby-gnu/subscriptions",
+    "html_url": "https://github.com/baby-gnu",
+    "id": 1233212,
+    "login": "baby-gnu",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/baby-gnu/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/baby-gnu/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1233212?v=4",
+    "starred_url": "https://api.github.com/users/baby-gnu/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/baby-gnu/followers",
+    "url": "https://api.github.com/users/baby-gnu"
+  },
+  "updated_at": "2016-07-27T12:47:49Z",
+  "created_at": "2016-07-27T12:30:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/765/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/765",
+    "diff_url": "https://github.com/perl6/doc/pull/765.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/765.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/765"
+  },
+  "locked": false,
+  "title": "Fix small typos in concurrency",
+  "id": 167841834,
+  "html_url": "https://github.com/perl6/doc/pull/765",
+  "closed_at": "2016-07-27T12:47:49Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/765/labels{/name}",
+  "number": 765,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/765/events",
+  "user": {
+    "following_url": "https://api.github.com/users/baby-gnu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/baby-gnu/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/baby-gnu/received_events",
+    "organizations_url": "https://api.github.com/users/baby-gnu/orgs",
+    "subscriptions_url": "https://api.github.com/users/baby-gnu/subscriptions",
+    "html_url": "https://github.com/baby-gnu",
+    "id": 1233212,
+    "login": "baby-gnu",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/baby-gnu/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/baby-gnu/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1233212?v=4",
+    "starred_url": "https://api.github.com/users/baby-gnu/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/baby-gnu/followers",
+    "url": "https://api.github.com/users/baby-gnu"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/765"
+}

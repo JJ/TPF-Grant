@@ -1,0 +1,71 @@
+{
+  "body": "The ['Basic use of Pointers' section of the Native Calling documentation](https://docs.perl6.org/language/nativecall#Basic_use_of_Pointers) previously read:\n\n```\n# C prototype is void my_version(int *mayor, int *minor)\nsub my_version(int32 is rw, int32 is rw) is native('foo') { * }\nmy_version(my int32 $mayor, my int32 $minor); # Pass a pointer to\n```\n\nI changed both instances of 'mayor' to 'major'.\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-08-04T17:43:12Z",
+  "created_at": "2016-08-04T17:38:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/795/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/795",
+    "diff_url": "https://github.com/perl6/doc/pull/795.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/795.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/795"
+  },
+  "locked": false,
+  "title": "Change 'mayor' to 'major' in my_version pointers example",
+  "id": 169431482,
+  "html_url": "https://github.com/perl6/doc/pull/795",
+  "closed_at": "2016-08-04T17:43:12Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/795/labels{/name}",
+  "number": 795,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/795/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nsvedberg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nsvedberg/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nsvedberg/received_events",
+    "organizations_url": "https://api.github.com/users/nsvedberg/orgs",
+    "subscriptions_url": "https://api.github.com/users/nsvedberg/subscriptions",
+    "html_url": "https://github.com/nsvedberg",
+    "id": 20744242,
+    "login": "nsvedberg",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nsvedberg/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nsvedberg/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20744242?v=4",
+    "starred_url": "https://api.github.com/users/nsvedberg/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nsvedberg/followers",
+    "url": "https://api.github.com/users/nsvedberg"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/795"
+}

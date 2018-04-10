@@ -1,0 +1,53 @@
+{
+  "body": "https://docs.perl6.org/language/containers\n\n\"Flatteing, items and containers\" mentions flat.\n\n```\n> say (flat @foo, 8, 9).elems\n5\n> say (|@foo, 8, 9).elems\n5\n```\n\nseem to be equivalent but there's no mention of the slip syntax\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-09-10T19:39:05Z",
+  "created_at": "2016-09-07T17:46:24Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/892/comments",
+  "locked": false,
+  "title": "Is flat another way to say |? Why do we only document one?",
+  "id": 175564814,
+  "html_url": "https://github.com/perl6/doc/issues/892",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/892/labels{/name}",
+  "number": 892,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/892/events",
+  "user": {
+    "following_url": "https://api.github.com/users/shadowcat-mst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shadowcat-mst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shadowcat-mst/received_events",
+    "organizations_url": "https://api.github.com/users/shadowcat-mst/orgs",
+    "subscriptions_url": "https://api.github.com/users/shadowcat-mst/subscriptions",
+    "html_url": "https://github.com/shadowcat-mst",
+    "id": 252821,
+    "login": "shadowcat-mst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shadowcat-mst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shadowcat-mst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/252821?v=4",
+    "starred_url": "https://api.github.com/users/shadowcat-mst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shadowcat-mst/followers",
+    "url": "https://api.github.com/users/shadowcat-mst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/892"
+}

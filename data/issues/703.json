@@ -1,0 +1,71 @@
+{
+  "body": "Hello Author,\n\nI was going through the role IO {} documentation and found a typo for \"read-write\" mode for \"sub open\". The current documentation has \n\nmy $fh = open(\"path/to/file\", :w);\n\nwhile it should be\n\nmy $fh = open(\"path/to/file\", :rw);\n\nI believe, this is a minor error, but can someone please correct it?\n\nThanks.\n\n-Tushar\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2016-07-14T18:03:39Z",
+  "created_at": "2016-07-14T17:48:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/703/comments",
+  "locked": false,
+  "title": "Typo in role IO documentation",
+  "id": 165619385,
+  "html_url": "https://github.com/perl6/doc/issues/703",
+  "closed_at": "2016-07-14T17:54:24Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/703/labels{/name}",
+  "number": 703,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/703/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tushardave26/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tushardave26/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tushardave26/received_events",
+    "organizations_url": "https://api.github.com/users/tushardave26/orgs",
+    "subscriptions_url": "https://api.github.com/users/tushardave26/subscriptions",
+    "html_url": "https://github.com/tushardave26",
+    "id": 7506397,
+    "login": "tushardave26",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tushardave26/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tushardave26/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7506397?v=4",
+    "starred_url": "https://api.github.com/users/tushardave26/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tushardave26/followers",
+    "url": "https://api.github.com/users/tushardave26"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/703"
+}

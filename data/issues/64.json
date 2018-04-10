@@ -1,0 +1,71 @@
+{
+  "body": "line:178\n\n```\n  say split(';', \"a;b;c\", :all).perl;    # (\"a\", \";\", \"b\", \";\", \"c\").list \n```\n\nshould be:\n\n```\n  say split(';', \"a;b;c\", :all).perl    # ((\"a\", \";\"), (\"b\", \";\"), \"c\").list\n```\n\nline: 180\n\n```\n  say split(';', \"a;b;c\", 2, :all).perl; #(\"a\", \";\", \"b;c\").list\n```\n\nshould be:\n\n```\n  say split(';', \"a;b;c\" ,2, :all).perl  # ((\"a\", \";\"), \"b;c\").list\n```\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2016-06-24T21:20:27Z",
+  "created_at": "2015-03-26T03:34:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/64/comments",
+  "locked": false,
+  "title": "lib/Type/Str.pod small changes",
+  "id": 64432549,
+  "html_url": "https://github.com/perl6/doc/issues/64",
+  "closed_at": "2015-03-26T05:46:00Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/64/labels{/name}",
+  "number": 64,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/64/events",
+  "user": {
+    "following_url": "https://api.github.com/users/songzan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/songzan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/songzan/received_events",
+    "organizations_url": "https://api.github.com/users/songzan/orgs",
+    "subscriptions_url": "https://api.github.com/users/songzan/subscriptions",
+    "html_url": "https://github.com/songzan",
+    "id": 260335,
+    "login": "songzan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/songzan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/songzan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/260335?v=4",
+    "starred_url": "https://api.github.com/users/songzan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/songzan/followers",
+    "url": "https://api.github.com/users/songzan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/64"
+}

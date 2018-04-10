@@ -1,0 +1,71 @@
+{
+  "body": "fixed typo in section \"Special matchers generally fall under the <> syntax\": surrouned -> surrounded\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2015-03-05T17:34:21Z",
+  "created_at": "2015-03-05T17:32:26Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/59/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/59",
+    "diff_url": "https://github.com/perl6/doc/pull/59.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/59.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/59"
+  },
+  "locked": false,
+  "title": "fixed typo surrouned -> surrounded",
+  "id": 59986036,
+  "html_url": "https://github.com/perl6/doc/pull/59",
+  "closed_at": "2015-03-05T17:34:12Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/59/labels{/name}",
+  "number": 59,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/59/events",
+  "user": {
+    "following_url": "https://api.github.com/users/fhelmberger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fhelmberger/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fhelmberger/received_events",
+    "organizations_url": "https://api.github.com/users/fhelmberger/orgs",
+    "subscriptions_url": "https://api.github.com/users/fhelmberger/subscriptions",
+    "html_url": "https://github.com/fhelmberger",
+    "id": 165061,
+    "login": "fhelmberger",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fhelmberger/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fhelmberger/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/165061?v=4",
+    "starred_url": "https://api.github.com/users/fhelmberger/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fhelmberger/followers",
+    "url": "https://api.github.com/users/fhelmberger"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/59"
+}

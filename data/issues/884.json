@@ -1,0 +1,53 @@
+{
+  "body": "Since Rakudo commit [b508576fc51cfa128a84ed4f302528a3f78bab03](https://github.com/rakudo/rakudo/commit/b508576fc51cfa128a84ed4f302528a3f78bab03)\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-02-16T06:58:26Z",
+  "created_at": "2016-09-04T14:14:30Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/884/comments",
+  "locked": false,
+  "title": "Coercion types are now allowed as return types.",
+  "id": 174950893,
+  "html_url": "https://github.com/perl6/doc/issues/884",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/884/labels{/name}",
+  "number": 884,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/884/events",
+  "user": {
+    "following_url": "https://api.github.com/users/LemonBoy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LemonBoy/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LemonBoy/received_events",
+    "organizations_url": "https://api.github.com/users/LemonBoy/orgs",
+    "subscriptions_url": "https://api.github.com/users/LemonBoy/subscriptions",
+    "html_url": "https://github.com/LemonBoy",
+    "id": 77388,
+    "login": "LemonBoy",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LemonBoy/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LemonBoy/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/77388?v=4",
+    "starred_url": "https://api.github.com/users/LemonBoy/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LemonBoy/followers",
+    "url": "https://api.github.com/users/LemonBoy"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/884"
+}

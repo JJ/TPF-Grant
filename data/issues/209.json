@@ -1,0 +1,67 @@
+{
+  "body": "I'm not sure if `C<>` and friends are affected as well.\n\nIf you look at http://docs.perl6.org/type.html, you'll notice some of the text in the right column is abridged:\n\n`\nclass   Backtrace::Frame    Single frame of a ???\nclass   Tap     Subscription to a ???\nrole    X::Proc::Async  Exception thrown by ???\n`\nLooking at the actual POD for those classes, it seems the `=SUBTITLE` has an `L<...>` with the thing in side the angled brackets missing from the types list.\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-09T19:05:37Z",
+  "created_at": "2015-11-23T17:52:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/209/comments",
+  "locked": false,
+  "title": "L<>s in =SUBTITLE do not work",
+  "id": 118435509,
+  "html_url": "https://github.com/perl6/doc/issues/209",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/209/labels{/name}",
+  "number": 209,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "5319e7",
+      "name": "external",
+      "id": 503572706,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/external"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/209/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/209"
+}

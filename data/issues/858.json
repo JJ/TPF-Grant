@@ -1,0 +1,78 @@
+{
+  "body": "In docs.perl6.org/language/functions multiple dispatch based on argument signature matching is described. Dispatch based on the number of arguments and argument type is described, but the very useful dispatch based on argument value using the where clause is not. This could be described using the traditional example from functional programming, the fibonacci sequence:\n\n```\nmulti fib( Int $n where ( $n==0 ) ) { 0 }\nmulti fib( Int $n where ( $n==1 ) ) { 1 }\nmulti fib( Int $n ) { fib($n-2) + fib($n-1) } \n```\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dogbert17/received_events",
+    "organizations_url": "https://api.github.com/users/dogbert17/orgs",
+    "subscriptions_url": "https://api.github.com/users/dogbert17/subscriptions",
+    "html_url": "https://github.com/dogbert17",
+    "id": 18425138,
+    "login": "dogbert17",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dogbert17/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dogbert17/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18425138?v=4",
+    "starred_url": "https://api.github.com/users/dogbert17/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dogbert17/followers",
+    "url": "https://api.github.com/users/dogbert17"
+  },
+  "updated_at": "2017-06-25T14:31:11Z",
+  "created_at": "2016-08-25T13:20:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/858/comments",
+  "locked": false,
+  "title": "The \"where\" clause should be added to the description of multi-dispatch",
+  "id": 173201142,
+  "html_url": "https://github.com/perl6/doc/issues/858",
+  "closed_at": "2017-06-25T14:31:11Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/858/labels{/name}",
+  "number": 858,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/858/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jdoege/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jdoege/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jdoege/received_events",
+    "organizations_url": "https://api.github.com/users/jdoege/orgs",
+    "subscriptions_url": "https://api.github.com/users/jdoege/subscriptions",
+    "html_url": "https://github.com/jdoege",
+    "id": 918091,
+    "login": "jdoege",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jdoege/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jdoege/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/918091?v=4",
+    "starred_url": "https://api.github.com/users/jdoege/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jdoege/followers",
+    "url": "https://api.github.com/users/jdoege"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/858"
+}

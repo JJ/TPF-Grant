@@ -1,0 +1,78 @@
+{
+  "body": "It occurred to me that following the policy of 'explain in more than one place' could be extended to TMTOWTDI explanations/explorations of code examples. I'm not sure if there is existing Pod syntax for such, but having it separated out in a separate markup tag would make sense. Then the display of such communication could be toggled on/off according to some environment flags. (Or in a hidden div with a link to open via `htmlify`).\n\nThe idea here is that contextualizing the choices of, say:\n\n``` perl6\n@a.map({ .uc })  # or even $_.uc\n# vs.\n@a.map( *.uc )\n# vs.\n@a>>.uc\n```\n\nI know that there are differences between these, but the only one that I can name off the top of my head is the potential out-of-order execution of `>>`. I have a feeling that there must be implications to laziness as well. The first aspect of the TMTOWTDI blocks would be to have centralized 'include' documentation on these 'intersections of style and substance' that quickly give an overview of the technical implications of a given choice. Automatically including them in the doc could be another toggle. When off, it would show as a normal link. When on they would be included as the next paragraph after they were referenced.\n\nNow, in a piece of code that exemplifies the situation where `>>` would clearly cause issues and thus a `map` call is _necessary_, the `=expl` blocks (for lack of a better name) would be a place where we could include that analysis in a form not suited to single-line comments in a code example.\n\nThese contextual discussions would, in my opinion, be a significant benefit to newcomers, where examples can contain uses of language feature that the reader does not yet understand.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ab5tract/received_events",
+    "organizations_url": "https://api.github.com/users/ab5tract/orgs",
+    "subscriptions_url": "https://api.github.com/users/ab5tract/subscriptions",
+    "html_url": "https://github.com/ab5tract",
+    "id": 2742,
+    "login": "ab5tract",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ab5tract/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ab5tract/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2742?v=4",
+    "starred_url": "https://api.github.com/users/ab5tract/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ab5tract/followers",
+    "url": "https://api.github.com/users/ab5tract"
+  },
+  "updated_at": "2018-03-01T20:16:54Z",
+  "created_at": "2015-06-13T13:49:51Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/93/comments",
+  "locked": false,
+  "title": "'TMTOWTDI' explanation blocks for examples.",
+  "id": 88007683,
+  "html_url": "https://github.com/perl6/doc/issues/93",
+  "closed_at": "2018-03-01T20:04:18Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/93/labels{/name}",
+  "number": 93,
+  "comments": 8,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/93/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ab5tract/received_events",
+    "organizations_url": "https://api.github.com/users/ab5tract/orgs",
+    "subscriptions_url": "https://api.github.com/users/ab5tract/subscriptions",
+    "html_url": "https://github.com/ab5tract",
+    "id": 2742,
+    "login": "ab5tract",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ab5tract/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ab5tract/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2742?v=4",
+    "starred_url": "https://api.github.com/users/ab5tract/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ab5tract/followers",
+    "url": "https://api.github.com/users/ab5tract"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/93"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Example: LibraryMake has this, a short para and indented code section.\n\n/Build.pm\n\n```\nuse Panda::Common;\nuse Panda::Builder;\nuse LibraryMake;\nuse Shell::Command;\n\nclass Build is Panda::Builder {\n    method build($workdir) {\n        my $makefiledir = \"$workdir/src\";\n        my $destdir = \"$workdir/blib/lib/My/Module\";\n        mkpath $destdir;\n        make($makefiledir, $destdir);\n    }\n}\n```\n\np6doc renders it thusly:\n\n/Build.pm\n\n```\nuse Panda::Common; use Panda::Builder; use LibraryMake; use Shell::Command;\n\nclass Build is Panda::Builder {\n    method build($workdir) {\n        my $makefiledir = \"$workdir/src\"; my $destdir =\n        \"$workdir/blib/lib/My/Module\"; mkpath $destdir; make($makefiledir,\n        $destdir);\n    }\n}\n```\n\nperl6 --doc /path/to/Librarymake.pm6 renders correctly:\n\n/Build.pm\n\n```\nuse Panda::Common;\nuse Panda::Builder;\nuse LibraryMake;\nuse Shell::Command;\n\nclass Build is Panda::Builder {\n    method build($workdir) {\n        my $makefiledir = \"$workdir/src\";\n        my $destdir = \"$workdir/blib/lib/My/Module\";\n        mkpath $destdir;\n        make($makefiledir, $destdir);\n    }\n}\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-09T19:04:59Z",
+  "created_at": "2015-11-11T22:54:17Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/195/comments",
+  "locked": false,
+  "title": "mishandles code sections",
+  "id": 116439090,
+  "html_url": "https://github.com/perl6/doc/issues/195",
+  "closed_at": "2018-03-10T18:19:27Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/195/labels{/name}",
+  "number": 195,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5319e7",
+      "name": "external",
+      "id": 503572706,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/external"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/195/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zengargoyle/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zengargoyle/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zengargoyle/received_events",
+    "organizations_url": "https://api.github.com/users/zengargoyle/orgs",
+    "subscriptions_url": "https://api.github.com/users/zengargoyle/subscriptions",
+    "html_url": "https://github.com/zengargoyle",
+    "id": 396976,
+    "login": "zengargoyle",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zengargoyle/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zengargoyle/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/396976?v=4",
+    "starred_url": "https://api.github.com/users/zengargoyle/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zengargoyle/followers",
+    "url": "https://api.github.com/users/zengargoyle"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/195"
+}

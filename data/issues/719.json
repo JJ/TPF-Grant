@@ -1,0 +1,71 @@
+{
+  "body": "Explain the current default limit on hyperoperators and methods.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ab5tract/received_events",
+    "organizations_url": "https://api.github.com/users/ab5tract/orgs",
+    "subscriptions_url": "https://api.github.com/users/ab5tract/subscriptions",
+    "html_url": "https://github.com/ab5tract",
+    "id": 2742,
+    "login": "ab5tract",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ab5tract/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ab5tract/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2742?v=4",
+    "starred_url": "https://api.github.com/users/ab5tract/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ab5tract/followers",
+    "url": "https://api.github.com/users/ab5tract"
+  },
+  "updated_at": "2016-07-18T21:10:28Z",
+  "created_at": "2016-07-18T18:59:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/719/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/719",
+    "diff_url": "https://github.com/perl6/doc/pull/719.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/719.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/719"
+  },
+  "locked": false,
+  "title": "How to increase the maximum threads in $*SCHEDULER",
+  "id": 166167274,
+  "html_url": "https://github.com/perl6/doc/pull/719",
+  "closed_at": "2016-07-18T21:10:28Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/719/labels{/name}",
+  "number": 719,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/719/events",
+  "user": {
+    "following_url": "https://api.github.com/users/molecules/following{/other_user}",
+    "gists_url": "https://api.github.com/users/molecules/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/molecules/received_events",
+    "organizations_url": "https://api.github.com/users/molecules/orgs",
+    "subscriptions_url": "https://api.github.com/users/molecules/subscriptions",
+    "html_url": "https://github.com/molecules",
+    "id": 345060,
+    "login": "molecules",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/molecules/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/molecules/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/345060?v=4",
+    "starred_url": "https://api.github.com/users/molecules/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/molecules/followers",
+    "url": "https://api.github.com/users/molecules"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/719"
+}

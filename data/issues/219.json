@@ -1,0 +1,71 @@
+{
+  "body": "http://doc.perl6.org/routine/fc says not implmented in rakudo and niecza\n\nI'm not user of niecza but for rakudo it looks like doing something\n\n```\n> fc(\"NoThing\")\nnothing\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "updated_at": "2016-06-24T21:02:22Z",
+  "created_at": "2015-12-03T18:10:00Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/219/comments",
+  "locked": false,
+  "title": "fc is documented as not implemented ",
+  "id": 120234552,
+  "html_url": "https://github.com/perl6/doc/issues/219",
+  "closed_at": "2015-12-04T03:09:32Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/219/labels{/name}",
+  "number": 219,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/219/events",
+  "user": {
+    "following_url": "https://api.github.com/users/teodozjan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/teodozjan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/teodozjan/received_events",
+    "organizations_url": "https://api.github.com/users/teodozjan/orgs",
+    "subscriptions_url": "https://api.github.com/users/teodozjan/subscriptions",
+    "html_url": "https://github.com/teodozjan",
+    "id": 3833045,
+    "login": "teodozjan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/teodozjan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/teodozjan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3833045?v=4",
+    "starred_url": "https://api.github.com/users/teodozjan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/teodozjan/followers",
+    "url": "https://api.github.com/users/teodozjan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/219"
+}

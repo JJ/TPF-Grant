@@ -1,0 +1,99 @@
+{
+  "body": "I've used [checklink](http://search.cpan.org/dist/W3C-LinkChecker/bin/checklink.pod) utility on doc.perl6.org. **[Here is the output](https://gist.githubusercontent.com/AlexDaniel/fc6cb8d6f66516c837268d43ecc47c33/raw/f56e6cda75e7c046d4eb263e466836e03afa56a9/doc.perl6_checklink)**. I believe that all of these issues have to be fixed.\r\n\r\nSome of the errors are repeated many times, that's why the output is so large.\r\n## Current status\r\n\r\n| Number of lines in the output | Date |\r\n| --- | --- |\r\n| 126591 | 2016-05-31 |\r\n| 128555 | 2016-06-03 |\r\n| 132005 | 2016-06-09 |\r\n| 128771 | 2016-06-11 |\r\n| 126707 | 2016-06-12 |\r\n| 130491 | 2016-06-16 |\r\n| 134073 | 2016-06-23 |\r\n| 131489 | 2016-06-25 |\r\n| 134542 | 2016-07-06 |\r\n| 35561 | 2016-07-13 |\r\n| 35005 | 2016-08-01 |\r\n| 33926 | 2016-08-02 |\r\n| 20540 | 2016-08-03 |\r\n| 17432 | 2016-08-04 |\r\n| 17002 | 2016-08-05 |\r\n| 8253 | 2016-08-06 |\r\n| 8615 | 2016-08-10 |\r\n| 7374 | 2016-11-12 |\r\n| 8157 | 2016-12-20 |\r\n| 208521 | 2017-06-30 |\r\n| 207664 | 2017-07-01 |\r\n| 211899 | 2017-11-04 |\r\n| 213547 | 2018-01-05 |\r\n| 184904 | 2018-03-03 |\r\n\r\n![checklink_graph](https://user-images.githubusercontent.com/5507503/36934127-3ca7eea0-1eed-11e8-8514-97db852fefb2.png)\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-08T07:49:49Z",
+  "created_at": "2016-05-31T00:59:34Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/561/comments",
+  "locked": false,
+  "title": "Lots of broken links, invalid HTML and so on (checklink)",
+  "id": 157571670,
+  "html_url": "https://github.com/perl6/doc/issues/561",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/561/labels{/name}",
+  "number": 561,
+  "comments": 32,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/561/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/561"
+}

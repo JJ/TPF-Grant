@@ -1,0 +1,71 @@
+{
+  "body": "I've tried to modify it in the doc directory but somehow it doesn't get through. I have made branches to be on the save side though.\n\nWhat I've seen is that the default of the named parameter timezone in method now() is set to _$TZ which should be $_TZ.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:11:57Z",
+  "created_at": "2015-10-17T17:32:27Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/168/comments",
+  "locked": false,
+  "title": "Default setting in method now() in doc DateTime",
+  "id": 111975119,
+  "html_url": "https://github.com/perl6/doc/issues/168",
+  "closed_at": "2015-10-18T19:42:51Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/168/labels{/name}",
+  "number": 168,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/168/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/168"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "p6doc command does not work on my environment.\n\n```\n$ p6doc-index build\nType check failed in binding; expected Positional but got Seq\n  in sub MAIN at /home/tokuhirom/.rakudobrew/bin/../moar-nom/install/share/perl6/site/bin/p6doc-index:35\n  in block <unit> at /home/tokuhirom/.rakudobrew/bin/../moar-nom/install/share/perl6/site/bin/p6doc-index:76\n\n$ perl6-m --ll-exception /home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/site/bin/p6doc JSON::Tiny\nCannot invoke this object (REPR: Uninstantiable)\n   at gen/moar/m-CORE.setting:10805  (/home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm:pull-one:97)\n from gen/moar/m-CORE.setting:26515  (/home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm::45)\n from gen/moar/m-CORE.setting:26513  (/home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm::14)\n from gen/moar/m-CORE.setting:10789  (/home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm::25)\n from gen/moar/m-CORE.setting:10805  (/home/tokuhirom/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm:pull-one:97)\n\n$ perl6-m --version\nThis is perl6 version 2015.09-159-g3813a26 built on MoarVM version 2015.09-38-gd28e310\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "updated_at": "2016-06-24T21:06:42Z",
+  "created_at": "2015-09-28T11:49:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/137/comments",
+  "locked": false,
+  "title": "`p6doc-index build` does not work",
+  "id": 108642383,
+  "html_url": "https://github.com/perl6/doc/issues/137",
+  "closed_at": "2015-09-28T15:07:37Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/137/labels{/name}",
+  "number": 137,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/137/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tokuhirom/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tokuhirom/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tokuhirom/received_events",
+    "organizations_url": "https://api.github.com/users/tokuhirom/orgs",
+    "subscriptions_url": "https://api.github.com/users/tokuhirom/subscriptions",
+    "html_url": "https://github.com/tokuhirom",
+    "id": 21084,
+    "login": "tokuhirom",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tokuhirom/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tokuhirom/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21084?v=4",
+    "starred_url": "https://api.github.com/users/tokuhirom/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tokuhirom/followers",
+    "url": "https://api.github.com/users/tokuhirom"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/137"
+}

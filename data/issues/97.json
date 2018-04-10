@@ -1,0 +1,71 @@
+{
+  "body": "The methods from IO::FileTestable have been folded into other classes (IO::Path, ...?); the docs should reflect that.\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2016-06-24T21:38:53Z",
+  "created_at": "2015-06-26T11:18:59Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/97/comments",
+  "locked": false,
+  "title": "IO::FileTestable documented, but doesn't exist anymore",
+  "id": 91227122,
+  "html_url": "https://github.com/perl6/doc/issues/97",
+  "closed_at": "2015-07-25T08:13:59Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/97/labels{/name}",
+  "number": 97,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/97/events",
+  "user": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/97"
+}

@@ -1,0 +1,53 @@
+{
+  "body": "I have a simple task to solve:\n\n```\n[13:02] <MetaZoffix> m: say \"7\\x[308]\" ~~ /^ \\d+ $/\n[13:02] <+camelia> rakudo-moar f0bb58: OUTPUT«｢7̈｣␤»\n[13:03] <MetaZoffix> Is there an easy way to make it look for *just* numbers without combiners?\n```\n\nBut I'm not seeing any section on this in https://docs.perl6.org/language.html\n\nBy osmosis, I know I need some sort of [.NFD](https://docs.perl6.org/type/NFD) or something along the lines of that, but from a perspective of someone who's not familiar with what unicode forms there are and what they're all about, it's hard to understand what I am supposed to do to make my original operation work right.\n\nThere should be a page that explains all of this stuff.\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2016-09-07T17:12:23Z",
+  "created_at": "2016-09-07T17:12:23Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/891/comments",
+  "locked": false,
+  "title": "Explanation of \"Graphemes\" and Unicode Forms Stuff",
+  "id": 175557832,
+  "html_url": "https://github.com/perl6/doc/issues/891",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/891/labels{/name}",
+  "number": 891,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/891/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/891"
+}

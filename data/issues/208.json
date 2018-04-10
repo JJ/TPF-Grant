@@ -1,0 +1,71 @@
+{
+  "body": "Since `await $p1, $p2` will throw if any of the Promises were broken, we should show an example of how to check for broken promises and fetch the results for kept promises, even if some were broken.\n\nIt seems the idiomatic way is to use `await Promise.allof( $p1, $p2 )`, but currently that will throw if any of the promises is broken. jnthn++ believes that's a bug. See this conversation: http://irclog.perlgeek.de/perl6/2015-11-23#i_11585114\n\nOnce the bug  is resolved, the docs should be updated to include correct handling of broken promises, something akin to this, except with `Promise.allof()` instead of `eager`:\n\n``` perl6\nmy $p1 = start die \"I'm dead\";\nmy $p2 = start \"I'm alive\";\ntry eager await $p1, $p2;\nsay .result for grep { .status ~~ 'Kept'}, $p1, $p2;\n```\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2016-08-17T18:18:17Z",
+  "created_at": "2015-11-23T13:26:22Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/208/comments",
+  "locked": false,
+  "title": "Docs for await in Promise should include a way to watch for broken promises",
+  "id": 118379794,
+  "html_url": "https://github.com/perl6/doc/issues/208",
+  "closed_at": "2016-08-17T18:18:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/208/labels{/name}",
+  "number": 208,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/208/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/208"
+}

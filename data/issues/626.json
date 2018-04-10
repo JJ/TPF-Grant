@@ -1,0 +1,71 @@
+{
+  "body": "Item context is listed among operators in [S03](https://github.com/perl6/specs/blob/master/S03-operators.pod), but does not appear to be in the Language/operators documentation, nor listed on the docs site in the list of Routines.\n\nThe phrase \"item context\" is mentioned in only two places and not well explained in either:\n\n```\ndoc/Language/5to6-perlop.pod\n73:named variable, you can use item context, like so: C<$aref = item(@array)>\n\ndoc/Language/faq.pod\n300:on an expression, and item context (not flattening) with C<$( ... )>\n```\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "updated_at": "2016-12-24T23:51:14Z",
+  "created_at": "2016-06-23T14:50:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/626/comments",
+  "locked": false,
+  "title": "item context not documented",
+  "id": 161942367,
+  "html_url": "https://github.com/perl6/doc/issues/626",
+  "closed_at": "2016-12-24T23:51:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/626/labels{/name}",
+  "number": 626,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/626/events",
+  "user": {
+    "following_url": "https://api.github.com/users/xdg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xdg/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xdg/received_events",
+    "organizations_url": "https://api.github.com/users/xdg/orgs",
+    "subscriptions_url": "https://api.github.com/users/xdg/subscriptions",
+    "html_url": "https://github.com/xdg",
+    "id": 7625322,
+    "login": "xdg",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xdg/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xdg/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7625322?v=4",
+    "starred_url": "https://api.github.com/users/xdg/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xdg/followers",
+    "url": "https://api.github.com/users/xdg"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/626"
+}

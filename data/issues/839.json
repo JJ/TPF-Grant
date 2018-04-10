@@ -1,0 +1,78 @@
+{
+  "body": "https://docs.perl6.org/type/Str.html#sub_sprintf\n\nObvious problem: it claims that we have \"Modifiers\" such as `%ld` or `%qd` working and even provides an example. But we're not:\n\n```\n> sprintf \"%ld a big number, %lld a bigger number\\n\", 4294967295, 4294967296;\nDirective ld a big number, %lld a bigger number\n is not valid in sprintf format sequence %ld a big number, %lld a bigger number\n\n  in any  at /home/sena/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm line 1\n  in any panic at /home/sena/.rakudobrew/moar-nom/install/share/nqp/lib/NQPHLL.moarvm line 1\n  in any statement at /home/sena/.rakudobrew/moar-nom/install/share/nqp/lib/NQPHLL.moarvm line 1\n  in any TOP at /home/sena/.rakudobrew/moar-nom/install/share/nqp/lib/NQPHLL.moarvm line 1\n```\n\nDefinitely less than awesome. Someone should\n- Investigate current implementation status of sprintf subroutine\n- Update/change the documentation accordingly to the real world.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "updated_at": "2018-04-09T19:10:28Z",
+  "created_at": "2016-08-14T19:08:09Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/839/comments",
+  "locked": false,
+  "title": "sprintf description is wrong",
+  "id": 171073360,
+  "html_url": "https://github.com/perl6/doc/issues/839",
+  "closed_at": "2016-08-27T23:03:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/839/labels{/name}",
+  "number": 839,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/839/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/839"
+}

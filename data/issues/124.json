@@ -1,0 +1,71 @@
+{
+  "body": "This also fixes the below test failure:\n\n```\n$ panda install p6doc\n==> Fetching p6doc\n==> Building p6doc\n==> Testing p6doc\nt/pod-convenience.t .. \nFailed 1/10 subtests \nt/pod-htmlify.t ...... ok\nt/typegraph.t ........ ok\n\nTest Summary Report\n-------------------\nt/pod-convenience.t (Wstat: 0 Tests: 9 Failed: 0)\n  Parse errors: Bad plan.  You planned 10 tests but ran 9.\nFiles=3, Tests=21, 30 wallclock secs ( 0.20 usr  0.03 sys + 26.77 cusr  1.00 csys = 28.00 CPU)\nResult: FAIL\ntest stage failed for p6doc: Tests failed\n  in method throw at /home/cschwenz/.rakudobrew/moar-nom/install/share/perl6/runtime/CORE.setting.moarvm:1\n  in method install at /home/cschwenz/.rakudobrew/moar-nom/install/share/perl6/site/lib/Panda.pm:142\n  in method resolve at /home/cschwenz/.rakudobrew/moar-nom/install/share/perl6/site/lib/Panda.pm:219\n  in sub MAIN at /home/cschwenz/.rakudobrew/bin/../moar-nom/install/share/perl6/site/bin/panda:18\n  in block <unit> at /home/cschwenz/.rakudobrew/bin/../moar-nom/install/share/perl6/site/bin/panda:95\n\n\nFailure Summary\n----------------\np6doc(\n  *test stage failed for p6doc: Tests failed)\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/FROGGS/following{/other_user}",
+    "gists_url": "https://api.github.com/users/FROGGS/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/FROGGS/received_events",
+    "organizations_url": "https://api.github.com/users/FROGGS/orgs",
+    "subscriptions_url": "https://api.github.com/users/FROGGS/subscriptions",
+    "html_url": "https://github.com/FROGGS",
+    "id": 141968,
+    "login": "FROGGS",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/FROGGS/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/FROGGS/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/141968?v=4",
+    "starred_url": "https://api.github.com/users/FROGGS/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/FROGGS/followers",
+    "url": "https://api.github.com/users/FROGGS"
+  },
+  "updated_at": "2015-09-13T20:32:50Z",
+  "created_at": "2015-09-13T20:31:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/124/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/124",
+    "diff_url": "https://github.com/perl6/doc/pull/124.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/124.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/124"
+  },
+  "locked": false,
+  "title": "As we have a plan, the deprecated \"done;\" can be removed.",
+  "id": 106238032,
+  "html_url": "https://github.com/perl6/doc/pull/124",
+  "closed_at": "2015-09-13T20:32:50Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/124/labels{/name}",
+  "number": 124,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/124/events",
+  "user": {
+    "following_url": "https://api.github.com/users/cschwenz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cschwenz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/cschwenz/received_events",
+    "organizations_url": "https://api.github.com/users/cschwenz/orgs",
+    "subscriptions_url": "https://api.github.com/users/cschwenz/subscriptions",
+    "html_url": "https://github.com/cschwenz",
+    "id": 190854,
+    "login": "cschwenz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/cschwenz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/cschwenz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/190854?v=4",
+    "starred_url": "https://api.github.com/users/cschwenz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/cschwenz/followers",
+    "url": "https://api.github.com/users/cschwenz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/124"
+}

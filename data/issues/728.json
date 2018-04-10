@@ -1,0 +1,60 @@
+{
+  "body": "(In reference to original suggestion to delete glossary)\r\n\r\nAs weird as it sounds. Yeah.\r\n\r\nFirst, see https://github.com/perl6/doc/issues/724.\r\n\r\nThen, take a fresh look at our glossary.\r\n\r\nHalf of the terms on that page are already described elsewhere. Let's pick one randomly: [Subroutine](https://docs.perl6.org/language/glossary#Subroutine_).\r\nIt is already explained on [language/functions](https://docs.perl6.org/language/functions#Subroutines).\r\nPossible fix: Add `X<|Subroutine>` to the language/functions page to make it searchable, remove “Subroutine” from the glossary (you may move the glossary definition to language/functions page, if you wish).\r\n\r\nDoes it sound a bit too harsh? Yes, but can you name any other viable solution? Look, if we want to have every term that can be in the glossary, then there's a lot of work to do, and all that work is about duplicating existing information (from other pages). Otherwise we will have what we have now: some terms are described in the glossary and other terms are described elsewhere, with no real reason why.\r\n\r\nSearch box is our glossary now, and that's totally OK.\r\n\r\nAlso, glossary is one of those pages nobody worked on for a while. I don't think that it is going to change any time soon.\r\n\r\nIn other words, glossary served a very useful function when the rest of the documentation was very incomplete. Now there's no need to keep it, instead we can tell people to rely on the search function.\r\n\r\n**Comments are welcome!** Maybe there are good reasons to keep it?\r\n\r\nAlso, maybe this issue should've been titled “Great Glossary Cleanup”… but that does not clearly indicate what's going to happen ;)\r\n## Meanwhile, here is a TODO list\r\n\r\n**⚠ Feel free to edit this list!**\r\n\r\nHow to read it:\r\n- A clickable link to something means that the search field should point to this link for that query. See subroutine example on top of this issue. However, it is not always as easy. Use your creativity to find a proper solution!\r\n- **?** means that I couldn't find a place where this should go. If you have any idea, please edit it.\r\n- `create language/*` means that there is a topic which is good on its own. Any volunteers to start these pages? If you agree that such page should exist, then please add it to https://github.com/perl6/doc/issues/114\r\n- [ ] Abstract Class – abstract classes should be explained on https://docs.perl6.org/language/objects\r\n- [x] Actions – https://docs.perl6.org/language/grammars#Action_Objects\r\n- [ ] Advent Calendar – **create language/community**\r\n- [ ] Adverb – ?\r\n- [ ] Adverbial Pair – ?\r\n- [ ] Allomorph  – ? Perhaps create **language/notable-design-desicions** ?\r\n- [ ] Anonymous – somewhere on https://docs.perl6.org/language/functions\r\n- [ ] API – something wikipedia should take care of\r\n- [ ] Apocalypse – **create language/history**\r\n- [x] Argument – https://docs.perl6.org/language/functions#Arguments\r\n- [ ] Arity – somewhere on https://docs.perl6.org/language/functions\r\n- [x] Attribute – https://docs.perl6.org/language/objects#Attributes\r\n- [x] AST – ?\r\n- [ ] Autothreading – https://docs.perl6.org/type/Junction\r\n- [ ] block – ?\r\n- [x] Boolean – https://docs.perl6.org/type/Bool\r\n- [ ] bytecode – something wikipedia should take care of\r\n- [ ] Camelia – language/community\r\n- [x] Class – https://docs.perl6.org/language/classtut\r\n- [ ] Colon Pair and Colon List – ?\r\n- [x] Constraint – https://docs.perl6.org/type/Signature#Type_Constraints ?\r\n- [ ] Damian Conway – language/history\r\n- [x] Enum – https://docs.perl6.org/language/typesystem#index-entry-Enumeration-_Enums-_enum\r\n- [ ] Exegesis – language/history\r\n- [x] False – https://docs.perl6.org/type/Bool\r\n- [ ] fiddly – Yeah, perhaps things like “fiddly” or “iffy” are the reason for the glossary to exist. If only there was a definition.\r\n- [x] Field – https://docs.perl6.org/language/objects#Attributes\r\n- [ ] handles – ?\r\n- [x] has – https://docs.perl6.org/language/classtut#index-entry-has\r\n- [x] iffy – same as “fiddly”, keep it for now\r\n- [x] import – https://docs.perl6.org/language/5to6-nutshell#Importing_specific_functions_from_a_module\r\n- [ ] Instance – https://docs.perl6.org/language/classtut\r\n- [ ] Interface – https://docs.perl6.org/language/classtut\r\n- [ ] IRC – language/community\r\n- [ ] IRC Lingo – language/community\r\n- [x] Invocant – https://docs.perl6.org/language/classtut#index-entry-invocant\r\n- [x] JIT – something wikipedia should take care of\r\n- [x] JVM – something wikipedia should take care of\r\n- [ ] Larry Wall – language/history\r\n- [ ] Lexing – ?\r\n- [ ] Literal – ?\r\n- [ ] lvalue – ?\r\n- [x] machine code – something wikipedia should take care of\r\n- [ ] Mainline – ?\r\n- [x] Member – https://docs.perl6.org/language/objects#Attributes\r\n- [x] Method – https://docs.perl6.org/language/classtut#Methods\r\n- [ ] MoarVM – something wikipedia should take care of\r\n- [ ] Multi-Dispatch – https://docs.perl6.org/syntax/multi ?\r\n- [ ] multi-method – https://docs.perl6.org/syntax/multi\r\n- [ ] Niecza – language/history ?\r\n- [ ] Not Quite Perl –  **create language/nqp**\r\n- [ ] NQP – language/nqp\r\n- [ ] NYI – maybe it can stay in the glossary for a while\r\n- [x] OOP – something wikipedia should take care of\r\n- [ ] opcode – ?\r\n- [ ] Operator – ?\r\n- [x] OS – something wikipedia should take care of\r\n- [ ] Parse Tree – something wikipedia should take care of\r\n- [ ] Parameter – https://docs.perl6.org/type/Parameter\r\n- [ ] Parrot – language/history\r\n- [ ] PAST – language/history ?\r\n- [ ] perl – ?\r\n- [ ] Perl – ?\r\n- [ ] Perl Community – language/community\r\n- [ ] PERL – ?\r\n- [ ] POD – **create language/pod**\r\n- [ ] Property – ?\r\n- [ ] Pull Request – **create language/development**\r\n- [ ] pugs – language/history\r\n- [ ] QAST – “Successor to QAST.”, how great. Is it successor to PAST? language/history perhaps?\r\n- [ ] Rakudo – language/development\r\n- [ ] Regular Expression – https://docs.perl6.org/language/regexes or https://docs.perl6.org/language/grammars\r\n- [ ] regex – https://docs.perl6.org/language/regexes or https://docs.perl6.org/language/grammars\r\n- [ ] Repository – language/development\r\n- [ ] roast – language/development\r\n- [x] Role – https://docs.perl6.org/language/objects#Roles\r\n- [ ] rule – https://docs.perl6.org/language/grammars ?\r\n- [ ] rvalue – ?\r\n- [ ] Sigil – language/notable-design-desicions\r\n- [ ] Sigilless Variable – something like https://docs.perl6.org/language/5to6-nutshell#index-entry-constant-constant but not quite\r\n- [x] Slot – ?\r\n- [x] Slurpy – https://docs.perl6.org/type/Signature#Slurpy_%28A.K.A._Variadic%29_Parameters\r\n- [ ] Spesh – ?\r\n- [ ] STD – language/history\r\n- [ ] Stub – ?\r\n- [x] Subroutine – https://docs.perl6.org/language/functions#Subroutines\r\n- [ ] Symbol – ?\r\n- [ ] Synopsis – language/history\r\n- [ ] Syntax Analysis – ?\r\n- [ ] test suite – language/development\r\n- [ ] Texas operator – https://docs.perl6.org/language/unicode_texas\r\n- [ ] TheDamian – same as TimToady\r\n- [ ] TimToady – is there any reason to explain who is who on IRC? No.\r\n- [x] token – https://docs.perl6.org/language/grammars#index-entry-declarator_regex-declarator_token-declarator_rule-Named_Regexes\r\n- [x] True – https://docs.perl6.org/type/Bool\r\n- [x] Twigil – https://docs.perl6.org/language/variables#Twigils\r\n- [ ] Type Object – https://docs.perl6.org/language/classtut#index-entry-type_object\r\n- [ ] value – ?\r\n- [ ] Variable – https://docs.perl6.org/language/variables ?\r\n- [ ] Variable Interpolation – ?\r\n- [ ] Virtual Machine – something wikipedia should take care of\r\n- [ ] whitespace – something wikipedia should take care of ?\r\n- [ ] 6model – ?\r\n- [x] $ – https://docs.perl6.org/language/variables#Sigils\r\n- [x] @ – https://docs.perl6.org/language/variables#Sigils\r\n- [x] % – https://docs.perl6.org/language/variables#Sigils\r\n- [x] & – https://docs.perl6.org/language/variables#Sigils\r\n\r\nRelated: https://github.com/perl6/doc/issues/622\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-15T13:57:37Z",
+  "created_at": "2016-07-20T22:58:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/728/comments",
+  "locked": false,
+  "title": "Major Glossary page cleanup",
+  "id": 166701843,
+  "html_url": "https://github.com/perl6/doc/issues/728",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/728/labels{/name}",
+  "number": 728,
+  "comments": 19,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/728/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/728"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "Here is the example code of what in-range method is.\n\n```\n$ perl6 -e 'my $range = 0..3; say $range.in-range(1);'\nTrue\n$ perl6 -e 'my $range = 0..3; say $range.in-range(4);'\nValue out of range. Is: 4, should be in 0..3\n  in block <unit> at -e line 1\n```\n\nSee also:\nhttps://github.com/rakudo/rakudo/blob/nom/src/core/Range.pm#L661-L664\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-12-02T19:02:12Z",
+  "created_at": "2016-08-07T17:04:12Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/819/comments",
+  "locked": false,
+  "title": "in-range method is not documented",
+  "id": 169805596,
+  "html_url": "https://github.com/perl6/doc/issues/819",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/819/labels{/name}",
+  "number": 819,
+  "comments": 9,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "NOTSPECCED",
+      "id": 420092522,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/819/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/819"
+}

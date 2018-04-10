@@ -1,0 +1,71 @@
+{
+  "body": "The faq links to one glossary: https://doc.perl6.org/language/faq#Is_there_a_glossary_of_Perl_6_related_terms%3F\nbut https://doc.perl6.org/language.html links to a different glossary: https://doc.perl6.org/language/glossary .\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/uvtc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/uvtc/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/uvtc/received_events",
+    "organizations_url": "https://api.github.com/users/uvtc/orgs",
+    "subscriptions_url": "https://api.github.com/users/uvtc/subscriptions",
+    "html_url": "https://github.com/uvtc",
+    "id": 212308,
+    "login": "uvtc",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/uvtc/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/uvtc/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/212308?v=4",
+    "starred_url": "https://api.github.com/users/uvtc/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/uvtc/followers",
+    "url": "https://api.github.com/users/uvtc"
+  },
+  "updated_at": "2016-06-24T21:26:12Z",
+  "created_at": "2016-01-15T16:45:46Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/353/comments",
+  "locked": false,
+  "title": "Two different links to glossary",
+  "id": 126909882,
+  "html_url": "https://github.com/perl6/doc/issues/353",
+  "closed_at": "2016-01-15T17:24:37Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/353/labels{/name}",
+  "number": 353,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/353/events",
+  "user": {
+    "following_url": "https://api.github.com/users/uvtc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/uvtc/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/uvtc/received_events",
+    "organizations_url": "https://api.github.com/users/uvtc/orgs",
+    "subscriptions_url": "https://api.github.com/users/uvtc/subscriptions",
+    "html_url": "https://github.com/uvtc",
+    "id": 212308,
+    "login": "uvtc",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/uvtc/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/uvtc/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/212308?v=4",
+    "starred_url": "https://api.github.com/users/uvtc/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/uvtc/followers",
+    "url": "https://api.github.com/users/uvtc"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/353"
+}

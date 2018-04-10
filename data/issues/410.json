@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/azawawi/received_events",
+    "organizations_url": "https://api.github.com/users/azawawi/orgs",
+    "subscriptions_url": "https://api.github.com/users/azawawi/subscriptions",
+    "html_url": "https://github.com/azawawi",
+    "id": 82854,
+    "login": "azawawi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/azawawi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/azawawi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/82854?v=4",
+    "starred_url": "https://api.github.com/users/azawawi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/azawawi/followers",
+    "url": "https://api.github.com/users/azawawi"
+  },
+  "updated_at": "2016-03-04T13:14:20Z",
+  "created_at": "2016-03-04T12:46:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/410/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/410",
+    "diff_url": "https://github.com/perl6/doc/pull/410.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/410.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/410"
+  },
+  "locked": false,
+  "title": "Fix #407 again with less duplication",
+  "id": 138467253,
+  "html_url": "https://github.com/perl6/doc/pull/410",
+  "closed_at": "2016-03-04T13:14:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/410/labels{/name}",
+  "number": 410,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/410/events",
+  "user": {
+    "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/azawawi/received_events",
+    "organizations_url": "https://api.github.com/users/azawawi/orgs",
+    "subscriptions_url": "https://api.github.com/users/azawawi/subscriptions",
+    "html_url": "https://github.com/azawawi",
+    "id": 82854,
+    "login": "azawawi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/azawawi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/azawawi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/82854?v=4",
+    "starred_url": "https://api.github.com/users/azawawi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/azawawi/followers",
+    "url": "https://api.github.com/users/azawawi"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/410"
+}

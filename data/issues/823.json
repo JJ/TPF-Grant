@@ -1,0 +1,71 @@
+{
+  "body": "Make documentation about constants more consistent.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "html_url": "https://github.com/nxadm",
+    "id": 3687879,
+    "login": "nxadm",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "url": "https://api.github.com/users/nxadm"
+  },
+  "updated_at": "2016-08-08T10:05:05Z",
+  "created_at": "2016-08-08T10:04:57Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/823/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/823",
+    "diff_url": "https://github.com/perl6/doc/pull/823.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/823.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/823"
+  },
+  "locked": false,
+  "title": "Remove $ from constant",
+  "id": 169886624,
+  "html_url": "https://github.com/perl6/doc/pull/823",
+  "closed_at": "2016-08-08T10:05:05Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/823/labels{/name}",
+  "number": 823,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/823/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "html_url": "https://github.com/nxadm",
+    "id": 3687879,
+    "login": "nxadm",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "url": "https://api.github.com/users/nxadm"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/823"
+}

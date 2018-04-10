@@ -1,0 +1,71 @@
+{
+  "body": "Adverb example:\n\n```\n> 4 +> 5 :rotate\nUnexpected named parameter 'rotate' passed\n  in block <unit> at <unknown file> line 1\n```\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-09-17T17:03:22Z",
+  "created_at": "2016-09-07T19:18:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/895/comments",
+  "locked": false,
+  "title": "Glossary adverb example doesn't work",
+  "id": 175583544,
+  "html_url": "https://github.com/perl6/doc/issues/895",
+  "closed_at": "2016-09-17T17:03:22Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/895/labels{/name}",
+  "number": 895,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/895/events",
+  "user": {
+    "following_url": "https://api.github.com/users/shadowcat-mst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shadowcat-mst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shadowcat-mst/received_events",
+    "organizations_url": "https://api.github.com/users/shadowcat-mst/orgs",
+    "subscriptions_url": "https://api.github.com/users/shadowcat-mst/subscriptions",
+    "html_url": "https://github.com/shadowcat-mst",
+    "id": 252821,
+    "login": "shadowcat-mst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shadowcat-mst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shadowcat-mst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/252821?v=4",
+    "starred_url": "https://api.github.com/users/shadowcat-mst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shadowcat-mst/followers",
+    "url": "https://api.github.com/users/shadowcat-mst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/895"
+}

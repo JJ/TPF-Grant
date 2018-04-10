@@ -1,0 +1,71 @@
+{
+  "body": "Test case:\n\n`$ perl6 -e 'my &mulneg = &prefix:<-> ∘ &infix:<*>; say mulneg(3, 4)'`\n\noutput:\n\n`-12`\n\nI think the docs should read:\n\nThe function combinator `infix:<∘>` or `infix:<o>` combines two functions of arity one and one or more, so that the left function is called with the return value of the right function.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-08-08T08:46:34Z",
+  "created_at": "2016-07-20T21:11:49Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/727/comments",
+  "locked": false,
+  "title": "Callable: infix:<∘> docs claim both args must have arity 1",
+  "id": 166683208,
+  "html_url": "https://github.com/perl6/doc/issues/727",
+  "closed_at": "2016-08-08T08:46:34Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/727/labels{/name}",
+  "number": 727,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/727/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ajs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ajs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ajs/received_events",
+    "organizations_url": "https://api.github.com/users/ajs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ajs/subscriptions",
+    "html_url": "https://github.com/ajs",
+    "id": 98660,
+    "login": "ajs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ajs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ajs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/98660?v=4",
+    "starred_url": "https://api.github.com/users/ajs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ajs/followers",
+    "url": "https://api.github.com/users/ajs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/727"
+}

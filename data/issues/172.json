@@ -1,0 +1,71 @@
+{
+  "body": "I found the issue by seeing `*.pod` files being broken in github. Remove all instances I could find.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2015-10-21T15:23:37Z",
+  "created_at": "2015-10-21T03:02:22Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/172/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/172",
+    "diff_url": "https://github.com/perl6/doc/pull/172.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/172.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/172"
+  },
+  "locked": false,
+  "title": "Remove vim settings bits from a number of documents.",
+  "id": 112502952,
+  "html_url": "https://github.com/perl6/doc/pull/172",
+  "closed_at": "2015-10-21T04:39:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/172/labels{/name}",
+  "number": 172,
+  "comments": 12,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/172/events",
+  "user": {
+    "following_url": "https://api.github.com/users/djgoku/following{/other_user}",
+    "gists_url": "https://api.github.com/users/djgoku/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/djgoku/received_events",
+    "organizations_url": "https://api.github.com/users/djgoku/orgs",
+    "subscriptions_url": "https://api.github.com/users/djgoku/subscriptions",
+    "html_url": "https://github.com/djgoku",
+    "id": 105506,
+    "login": "djgoku",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/djgoku/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/djgoku/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/105506?v=4",
+    "starred_url": "https://api.github.com/users/djgoku/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/djgoku/followers",
+    "url": "https://api.github.com/users/djgoku"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/172"
+}

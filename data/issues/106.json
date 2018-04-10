@@ -1,0 +1,71 @@
+{
+  "body": "This is mostly just lookbehind copied and tweaked so it's accurate for lookahead.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2015-07-25T23:07:05Z",
+  "created_at": "2015-07-25T23:01:20Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/106/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/106",
+    "diff_url": "https://github.com/perl6/doc/pull/106.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/106.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/106"
+  },
+  "locked": false,
+  "title": "Document lookahead assertions",
+  "id": 97264568,
+  "html_url": "https://github.com/perl6/doc/pull/106",
+  "closed_at": "2015-07-25T23:05:47Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/106/labels{/name}",
+  "number": 106,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/106/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mdinger/received_events",
+    "organizations_url": "https://api.github.com/users/mdinger/orgs",
+    "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+    "html_url": "https://github.com/mdinger",
+    "id": 4156987,
+    "login": "mdinger",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mdinger/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4156987?v=4",
+    "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mdinger/followers",
+    "url": "https://api.github.com/users/mdinger"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/106"
+}

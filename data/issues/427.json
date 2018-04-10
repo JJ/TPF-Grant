@@ -1,0 +1,71 @@
+{
+  "body": "``` perl6\n$ perl6\n> my $filename = 'enc_missing_colon.txt'\nenc_missing_colon.txt\n> say $filename, \"latin1 text: äöüß\", enc => 'latin1';\nUnexpected named parameter 'enc' passed\n> say $filename, \"latin1 text: äöüß\", :enc => \"latin1\";\nenc_missing_colon.txtlatin1 text: äöüß(enc => True) => latin1\n> exit\n```\n\nThe example for use of `:enc` lacks a colon before `enc`.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/timo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/timo/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/timo/received_events",
+    "organizations_url": "https://api.github.com/users/timo/orgs",
+    "subscriptions_url": "https://api.github.com/users/timo/subscriptions",
+    "html_url": "https://github.com/timo",
+    "id": 25167,
+    "login": "timo",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/timo/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/timo/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25167?v=4",
+    "starred_url": "https://api.github.com/users/timo/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/timo/followers",
+    "url": "https://api.github.com/users/timo"
+  },
+  "updated_at": "2016-06-24T22:42:17Z",
+  "created_at": "2016-03-19T18:54:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/427/comments",
+  "locked": false,
+  "title": "http://doc.perl6.org/routine/spurt:  example lacks ':'",
+  "id": 142090934,
+  "html_url": "https://github.com/perl6/doc/issues/427",
+  "closed_at": "2016-04-17T19:00:58Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/427/labels{/name}",
+  "number": 427,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/427/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jkeenan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jkeenan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jkeenan/received_events",
+    "organizations_url": "https://api.github.com/users/jkeenan/orgs",
+    "subscriptions_url": "https://api.github.com/users/jkeenan/subscriptions",
+    "html_url": "https://github.com/jkeenan",
+    "id": 96524,
+    "login": "jkeenan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jkeenan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jkeenan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/96524?v=4",
+    "starred_url": "https://api.github.com/users/jkeenan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jkeenan/followers",
+    "url": "https://api.github.com/users/jkeenan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/427"
+}

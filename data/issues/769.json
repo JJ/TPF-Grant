@@ -1,0 +1,71 @@
+{
+  "body": "First of all, keep in mind that it is pretty much the start of our FAQ, so let's make it completely right.\n\n> Is there going to be a Perl 6 version 6.0.0?\n\nWhy would anybody ask this question? I think that this question can only be asked if it was not released yet, but it is. Maybe my non-native ear does not get it right, but I think the question itself should make it clear that we had a release. Something like “Why the first language release is called v6.c and not v6.0.0?”.\n\n> It was first implemented by the Rakudo Perl 6 compiler version 2015.12 and is **likely to be supported** by subsequent releases for the foreseeable future by use of the 'use 6.c' pragma**..**\n\nLikely to be supported? We had 7 releases after 2015.12, let's have some definite answer. I know that the situation with v6.c/v6.d is a bit unclear, but it does not mean that we cannot doc the current situation.\n\nAlso, two dots on the end.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "updated_at": "2016-07-29T10:03:25Z",
+  "created_at": "2016-07-28T04:05:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/769/comments",
+  "locked": false,
+  "title": "“Is there going to be a Perl 6 version 6.0.0?” – the question is weird, the answer is even weirder",
+  "id": 168009782,
+  "html_url": "https://github.com/perl6/doc/issues/769",
+  "closed_at": "2016-07-29T10:03:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/769/labels{/name}",
+  "number": 769,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/769/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/769"
+}

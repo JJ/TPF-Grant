@@ -1,0 +1,71 @@
+{
+  "body": "Also, emit() is called on a Supplier rather than Supply.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-02-16T19:15:11Z",
+  "created_at": "2016-02-16T18:20:19Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/399/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/399",
+    "diff_url": "https://github.com/perl6/doc/pull/399.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/399.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/399"
+  },
+  "locked": false,
+  "title": "replace Supply.new in grep and map",
+  "id": 134057053,
+  "html_url": "https://github.com/perl6/doc/pull/399",
+  "closed_at": "2016-02-16T18:51:53Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/399/labels{/name}",
+  "number": 399,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/399/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dbrunton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dbrunton/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dbrunton/received_events",
+    "organizations_url": "https://api.github.com/users/dbrunton/orgs",
+    "subscriptions_url": "https://api.github.com/users/dbrunton/subscriptions",
+    "html_url": "https://github.com/dbrunton",
+    "id": 57850,
+    "login": "dbrunton",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dbrunton/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dbrunton/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/57850?v=4",
+    "starred_url": "https://api.github.com/users/dbrunton/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dbrunton/followers",
+    "url": "https://api.github.com/users/dbrunton"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/399"
+}

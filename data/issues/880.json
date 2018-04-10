@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/language/testing#Writing_tests:\n\n> A typical test file looks something like this:\n> \n> ``` perl6\n> use v6;\n> use Test;      # a Standard module included with Rakudo\n> use lib 'lib';\n> \n> plan $num-tests;\n> \n> # .... tests\n> \n> done-testing;  # optional with 'plan'\n> ```\n\nShould it also have `#!/usr/bin/env perl6` (or something else) on the first line?\n\nI have some stats for you! I have cloned every repo in the ecosystem. Then, with a bit of magic, I got this:\n\n```\n  702 total                          ← couldn't clone 7 modules (709 modules in ecosystem)\n\n  476 no shebang\n   78 #!perl6\n   68 #!/usr/bin/env perl6\n   61 no tests                       ← :(\n   11 can't decide                   ← different shebang lines in test files\n    3 #!/usr/bin/perl6\n    1 #!/usr/local/bin/perl6\n    1 #! /usr/bin/env perl6\n    1 #! /Users/damian/bin/rakudo*   ← oops\n    1 #!perl6                        ← with trailing whitespace\n    1 #! perl6\n```\n\nYou can see lists of modules for every shebang here: https://gist.github.com/AlexDaniel/b5e15174c624f95ae50334ddd23f546f\n\nNote that these stats do not show modules that have a shebang line in some files but not in others (they are shown as having one shebang). Also, there may be some false matches.\n\nUm, so what's the conclusion?\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2016-12-02T18:28:27Z",
+  "created_at": "2016-09-03T02:35:46Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/880/comments",
+  "locked": false,
+  "title": "“A typical test file looks something like this” – what about shebang line? ",
+  "id": 174874821,
+  "html_url": "https://github.com/perl6/doc/issues/880",
+  "closed_at": "2016-12-02T18:28:27Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/880/labels{/name}",
+  "number": 880,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/880/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/880"
+}

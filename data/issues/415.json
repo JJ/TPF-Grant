@@ -1,0 +1,71 @@
+{
+  "body": "These headers had incorrect markup and were not displaying as such. Now they are fixed, but the is the content up to date, or should it be marked as TODO?\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/sylvarant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sylvarant/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/sylvarant/received_events",
+    "organizations_url": "https://api.github.com/users/sylvarant/orgs",
+    "subscriptions_url": "https://api.github.com/users/sylvarant/subscriptions",
+    "html_url": "https://github.com/sylvarant",
+    "id": 43544,
+    "login": "sylvarant",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/sylvarant/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/sylvarant/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43544?v=4",
+    "starred_url": "https://api.github.com/users/sylvarant/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/sylvarant/followers",
+    "url": "https://api.github.com/users/sylvarant"
+  },
+  "updated_at": "2016-03-06T21:32:17Z",
+  "created_at": "2016-03-06T13:07:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/415/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/415",
+    "diff_url": "https://github.com/perl6/doc/pull/415.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/415.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/415"
+  },
+  "locked": false,
+  "title": "Fix markup in nutshell headers",
+  "id": 138789356,
+  "html_url": "https://github.com/perl6/doc/pull/415",
+  "closed_at": "2016-03-06T14:29:31Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/415/labels{/name}",
+  "number": 415,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/415/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jjatria/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jjatria/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jjatria/received_events",
+    "organizations_url": "https://api.github.com/users/jjatria/orgs",
+    "subscriptions_url": "https://api.github.com/users/jjatria/subscriptions",
+    "html_url": "https://github.com/jjatria",
+    "id": 2975989,
+    "login": "jjatria",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jjatria/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jjatria/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2975989?v=4",
+    "starred_url": "https://api.github.com/users/jjatria/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jjatria/followers",
+    "url": "https://api.github.com/users/jjatria"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/415"
+}

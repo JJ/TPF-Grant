@@ -1,0 +1,60 @@
+{
+  "body": "I noticed in docs for [class Method](https://doc.perl6.org/type/Method) that most sections are \"Routines supplied by class...\" but \"Methods supplied by role Callable\". \n\nIn the \"Routines\" section of the docs, there seems to be no consistency with the distinction in the type docs.  E.g. \"arity\" is listed as a \"Routine supplied by class\" in the type docs for Method, but as \"method\" in the Routines page, whereas \"assuming\" is listed as \"Method supplied by role\" in the type docs for Method, and as a \"method\" on the \"Routines\" page.\n\nHaving different terms implies significance, but the inconsistency implies maybe no significance.\n\nI think docs needs to pick one term or another and use it consistently.  Unless there is significance to the term \"Routine supplied by...\", I think saying \"Method supplied by...\" for both classes and roles would be more consistent and be easier to understand for people coming from other languages.\n\nThen the Routines page can roll up all routines (method or not) and indicate their types (as it does).\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-03-26T00:35:49Z",
+  "created_at": "2016-06-26T10:52:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/638/comments",
+  "locked": false,
+  "title": "Inconsistent use of \"methods\" and \"routines\"",
+  "id": 162322709,
+  "html_url": "https://github.com/perl6/doc/issues/638",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/638/labels{/name}",
+  "number": 638,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/638/events",
+  "user": {
+    "following_url": "https://api.github.com/users/xdg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xdg/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xdg/received_events",
+    "organizations_url": "https://api.github.com/users/xdg/orgs",
+    "subscriptions_url": "https://api.github.com/users/xdg/subscriptions",
+    "html_url": "https://github.com/xdg",
+    "id": 7625322,
+    "login": "xdg",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xdg/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xdg/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7625322?v=4",
+    "starred_url": "https://api.github.com/users/xdg/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xdg/followers",
+    "url": "https://api.github.com/users/xdg"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/638"
+}

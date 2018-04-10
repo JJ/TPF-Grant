@@ -1,0 +1,71 @@
+{
+  "body": "> As a Perl 6 **beginner** what should I install?\n> \n> […] download Rakudo Star and install via compilation (**a simple process**)\n\nYea, right. Well, not that it is wrong, but what about rakudobrew? Or are there any instructions we can link to? We can definitely provide some useful information here.\n\nEDIT: A-ha! Next question (well, it is not even a question) is `As an intermediate to advanced user I want to track Rakudo development.`, and the answer is to use rakudobrew. So, did I get it right that as an advanced user you can just run rakudobrew and it will install everything for you, but as a beginner you have to compile it yourself somehow, and surely you can figure out how to do that yourself? ;)\n\n> If you are a Windows 32 or 64 bit user then Rakudo Star **binaries** are also available at the rakudo site.\n\nBinaries? What binaries? Does .msi count as a binary?\n\n> To use panda (see below) to install library modules you will need git and Perl 5's Test::Harness.\n\n“see below” – where? 5 questions below this answer are about something else. Sure, it talks about [faq#Modules](https://docs.perl6.org/language/faq#Modules), but let's add a link or something.\n\n> There should be Linux and Mac binaries available shortly from vendors and third parties. Although vendor versions may be outdated.\n\n“Shortly”! OK, debian testing [has up-to-date rakudo](https://packages.debian.org/search?keywords=rakudo), perhaps we can say that one can use rakudo from debian testing, and that the next debian stable release will include it.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "updated_at": "2016-07-29T10:30:07Z",
+  "created_at": "2016-07-28T04:21:55Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/770/comments",
+  "locked": false,
+  "title": "“As a Perl 6 beginner what should I install?” – various stuff",
+  "id": 168011138,
+  "html_url": "https://github.com/perl6/doc/issues/770",
+  "closed_at": "2016-07-29T10:30:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/770/labels{/name}",
+  "number": 770,
+  "comments": 5,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/770/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/770"
+}

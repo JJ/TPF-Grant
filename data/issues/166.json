@@ -1,0 +1,71 @@
+{
+  "body": "`perl6 --doc=NonExisting` ignores flag passed in and opens interactive shell with no warning/error. It is unclear whether it is not working or docs doesn't exist. consider following:\n\nvytas-local@vytas-desktop:~$ panda --installed list\nFile::Find      -dependency-\nJSON::Fast      -dependency-\nLibraryMake     -dependency-\nLinenoise       [installed] \nShell::Command  -dependency-\npanda           [installed]\nvytas-local@vytas-desktop:~$ perl6 --doc=File::Find\n\n> vytas-local@vytas-desktop:~$ perl6 --doc=Pod::To::File::Find\n# perl6 -v\n\nThis is perl6 version 2015.09-382-ge1890f4 built on MoarVM version 2015.09-79-gee9fc2b\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-03-10T10:55:54Z",
+  "created_at": "2015-10-16T12:44:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/166/comments",
+  "locked": false,
+  "title": "perl6 --doc flag not working",
+  "id": 111824169,
+  "html_url": "https://github.com/perl6/doc/issues/166",
+  "closed_at": "2018-03-10T10:55:54Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/166/labels{/name}",
+  "number": 166,
+  "comments": 14,
+  "labels": [
+    {
+      "color": "5319e7",
+      "name": "external",
+      "id": 503572706,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/external"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/166/events",
+  "user": {
+    "following_url": "https://api.github.com/users/vytas-dauksa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/vytas-dauksa/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/vytas-dauksa/received_events",
+    "organizations_url": "https://api.github.com/users/vytas-dauksa/orgs",
+    "subscriptions_url": "https://api.github.com/users/vytas-dauksa/subscriptions",
+    "html_url": "https://github.com/vytas-dauksa",
+    "id": 2060152,
+    "login": "vytas-dauksa",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/vytas-dauksa/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/vytas-dauksa/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2060152?v=4",
+    "starred_url": "https://api.github.com/users/vytas-dauksa/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/vytas-dauksa/followers",
+    "url": "https://api.github.com/users/vytas-dauksa"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/166"
+}

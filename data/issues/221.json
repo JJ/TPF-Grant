@@ -1,0 +1,71 @@
+{
+  "body": "Most people will get to know .lines from the Input/Output chapter in the Language section of the documentation. It should be stated there that this method will exclude the new line separator.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2015-12-03T21:18:27Z",
+  "created_at": "2015-12-03T20:44:18Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/221/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/221",
+    "diff_url": "https://github.com/perl6/doc/pull/221.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/221.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/221"
+  },
+  "locked": false,
+  "title": "Add info exclusion new line reparator by .lines + fix typo in example",
+  "id": 120265968,
+  "html_url": "https://github.com/perl6/doc/pull/221",
+  "closed_at": "2015-12-03T21:18:27Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/221/labels{/name}",
+  "number": 221,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/221/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "html_url": "https://github.com/nxadm",
+    "id": 3687879,
+    "login": "nxadm",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "url": "https://api.github.com/users/nxadm"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/221"
+}

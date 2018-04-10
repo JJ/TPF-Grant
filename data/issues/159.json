@@ -1,0 +1,78 @@
+{
+  "body": "Currently p6doc uses Pod::To::Text to render pod.\nI want to change it more colorful renderer (in that case `less` must be `less -R`).\nIt's nice I could change it like perl5 perldoc where we could change its behavior via PERLDOC.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-03-10T11:31:55Z",
+  "created_at": "2015-10-12T17:31:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/159/comments",
+  "locked": false,
+  "title": "feature request: make p6doc customizable",
+  "id": 111020358,
+  "html_url": "https://github.com/perl6/doc/issues/159",
+  "closed_at": "2018-03-10T10:42:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/159/labels{/name}",
+  "number": 159,
+  "comments": 10,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/159/events",
+  "user": {
+    "following_url": "https://api.github.com/users/skaji/following{/other_user}",
+    "gists_url": "https://api.github.com/users/skaji/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/skaji/received_events",
+    "organizations_url": "https://api.github.com/users/skaji/orgs",
+    "subscriptions_url": "https://api.github.com/users/skaji/subscriptions",
+    "html_url": "https://github.com/skaji",
+    "id": 1589550,
+    "login": "skaji",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/skaji/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/skaji/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1589550?v=4",
+    "starred_url": "https://api.github.com/users/skaji/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/skaji/followers",
+    "url": "https://api.github.com/users/skaji"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/159"
+}

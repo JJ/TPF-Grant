@@ -1,0 +1,71 @@
+{
+  "body": "[The Compose key has a much better usability](https://superuser.com/a/78724) than any other method mentioned on that page because it is largely mnemonic (hex codes are not) and XCompose not an application-specific solution. So that should definitely be explained first, and the various applications later. You can use my SU post or parts of it without needing to follow the SU terms of copying (cc by-sa 3.0). I think the default key for Compose is <kbd>RShift</kbd>+<kbd>RCtrl</kbd>.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2016-06-24T21:30:51Z",
+  "created_at": "2015-12-28T23:23:53Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/286/comments",
+  "locked": false,
+  "title": "/language/unicode_entry (Entering Unicode Characters) needs to explain XCompose",
+  "id": 124140310,
+  "html_url": "https://github.com/perl6/doc/issues/286",
+  "closed_at": "2016-01-04T20:47:05Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/286/labels{/name}",
+  "number": 286,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/286/events",
+  "user": {
+    "following_url": "https://api.github.com/users/daxim/following{/other_user}",
+    "gists_url": "https://api.github.com/users/daxim/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/daxim/received_events",
+    "organizations_url": "https://api.github.com/users/daxim/orgs",
+    "subscriptions_url": "https://api.github.com/users/daxim/subscriptions",
+    "html_url": "https://github.com/daxim",
+    "id": 104814,
+    "login": "daxim",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/daxim/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/daxim/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/104814?v=4",
+    "starred_url": "https://api.github.com/users/daxim/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/daxim/followers",
+    "url": "https://api.github.com/users/daxim"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/286"
+}

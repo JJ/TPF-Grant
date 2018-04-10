@@ -1,0 +1,71 @@
+{
+  "body": "added examples of the other two forms of calling, and documented some non-obvious behaviour of what perl5 programmers might expect from fat commas\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-01-03T22:04:09Z",
+  "created_at": "2016-01-03T21:38:14Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/313/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/313",
+    "diff_url": "https://github.com/perl6/doc/pull/313.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/313.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/313"
+  },
+  "locked": false,
+  "title": "clarifying push usage",
+  "id": 124672357,
+  "html_url": "https://github.com/perl6/doc/pull/313",
+  "closed_at": "2016-01-03T22:02:36Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/313/labels{/name}",
+  "number": 313,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/313/events",
+  "user": {
+    "following_url": "https://api.github.com/users/daleevans/following{/other_user}",
+    "gists_url": "https://api.github.com/users/daleevans/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/daleevans/received_events",
+    "organizations_url": "https://api.github.com/users/daleevans/orgs",
+    "subscriptions_url": "https://api.github.com/users/daleevans/subscriptions",
+    "html_url": "https://github.com/daleevans",
+    "id": 4944007,
+    "login": "daleevans",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/daleevans/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/daleevans/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4944007?v=4",
+    "starred_url": "https://api.github.com/users/daleevans/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/daleevans/followers",
+    "url": "https://api.github.com/users/daleevans"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/313"
+}

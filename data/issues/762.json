@@ -1,0 +1,71 @@
+{
+  "body": "Fixed up the 5-to-6 caller note and then added documentation for CallFrame and added docs for package on Routine as well since that was needed and related.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-08-01T17:53:58Z",
+  "created_at": "2016-07-26T04:47:48Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/762/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/762",
+    "diff_url": "https://github.com/perl6/doc/pull/762.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/762.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/762"
+  },
+  "locked": false,
+  "title": "Add documentation for Callframe",
+  "id": 167520348,
+  "html_url": "https://github.com/perl6/doc/pull/762",
+  "closed_at": "2016-07-27T22:14:41Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/762/labels{/name}",
+  "number": 762,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/762/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zostay/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zostay/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zostay/received_events",
+    "organizations_url": "https://api.github.com/users/zostay/orgs",
+    "subscriptions_url": "https://api.github.com/users/zostay/subscriptions",
+    "html_url": "https://github.com/zostay",
+    "id": 34711,
+    "login": "zostay",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zostay/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zostay/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/34711?v=4",
+    "starred_url": "https://api.github.com/users/zostay/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zostay/followers",
+    "url": "https://api.github.com/users/zostay"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/762"
+}

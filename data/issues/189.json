@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LLFourn/received_events",
+    "organizations_url": "https://api.github.com/users/LLFourn/orgs",
+    "subscriptions_url": "https://api.github.com/users/LLFourn/subscriptions",
+    "html_url": "https://github.com/LLFourn",
+    "id": 3734083,
+    "login": "LLFourn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LLFourn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LLFourn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3734083?v=4",
+    "starred_url": "https://api.github.com/users/LLFourn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LLFourn/followers",
+    "url": "https://api.github.com/users/LLFourn"
+  },
+  "updated_at": "2015-11-09T05:41:13Z",
+  "created_at": "2015-11-09T05:23:35Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/189/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/189",
+    "diff_url": "https://github.com/perl6/doc/pull/189.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/189.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/189"
+  },
+  "locked": false,
+  "title": "Clarify Hash literal syntax. Expand on other things.",
+  "id": 115796259,
+  "html_url": "https://github.com/perl6/doc/pull/189",
+  "closed_at": "2015-11-09T05:32:10Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/189/labels{/name}",
+  "number": 189,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/189/events",
+  "user": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/189"
+}

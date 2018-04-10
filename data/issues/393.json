@@ -1,0 +1,71 @@
+{
+  "body": "Is there a reason that class Semaphore isn't defined yet? I could write a bit about it. Though I do not know yet what `my class Semaphore is repr('Semaphore') {...` means. I.e. the trait is repr(). I have found it in the file core/Semaphore.pm of rakudo.\n\nMarcel Timmerman\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "updated_at": "2016-06-24T20:53:22Z",
+  "created_at": "2016-02-13T18:56:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/393/comments",
+  "locked": false,
+  "title": "Semaphore documentation",
+  "id": 133459256,
+  "html_url": "https://github.com/perl6/doc/issues/393",
+  "closed_at": "2016-02-15T09:26:11Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/393/labels{/name}",
+  "number": 393,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/393/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MARTIMM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MARTIMM/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MARTIMM/received_events",
+    "organizations_url": "https://api.github.com/users/MARTIMM/orgs",
+    "subscriptions_url": "https://api.github.com/users/MARTIMM/subscriptions",
+    "html_url": "https://github.com/MARTIMM",
+    "id": 6500673,
+    "login": "MARTIMM",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MARTIMM/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MARTIMM/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6500673?v=4",
+    "starred_url": "https://api.github.com/users/MARTIMM/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MARTIMM/followers",
+    "url": "https://api.github.com/users/MARTIMM"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/393"
+}

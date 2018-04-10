@@ -1,0 +1,71 @@
+{
+  "body": "I found a small typo: staring -> starting\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zaucker/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zaucker/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zaucker/received_events",
+    "organizations_url": "https://api.github.com/users/zaucker/orgs",
+    "subscriptions_url": "https://api.github.com/users/zaucker/subscriptions",
+    "html_url": "https://github.com/zaucker",
+    "id": 198038,
+    "login": "zaucker",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zaucker/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zaucker/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/198038?v=4",
+    "starred_url": "https://api.github.com/users/zaucker/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zaucker/followers",
+    "url": "https://api.github.com/users/zaucker"
+  },
+  "updated_at": "2016-02-15T14:49:41Z",
+  "created_at": "2016-02-14T15:19:26Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/395/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/395",
+    "diff_url": "https://github.com/perl6/doc/pull/395.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/395.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/395"
+  },
+  "locked": false,
+  "title": "Update regexes.pod",
+  "id": 133547194,
+  "html_url": "https://github.com/perl6/doc/pull/395",
+  "closed_at": "2016-02-14T15:44:11Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/395/labels{/name}",
+  "number": 395,
+  "comments": 6,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/395/events",
+  "user": {
+    "following_url": "https://api.github.com/users/edehont/following{/other_user}",
+    "gists_url": "https://api.github.com/users/edehont/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/edehont/received_events",
+    "organizations_url": "https://api.github.com/users/edehont/orgs",
+    "subscriptions_url": "https://api.github.com/users/edehont/subscriptions",
+    "html_url": "https://github.com/edehont",
+    "id": 11563385,
+    "login": "edehont",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/edehont/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/edehont/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11563385?v=4",
+    "starred_url": "https://api.github.com/users/edehont/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/edehont/followers",
+    "url": "https://api.github.com/users/edehont"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/395"
+}

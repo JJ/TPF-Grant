@@ -1,0 +1,71 @@
+{
+  "body": "#896\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2016-09-07T22:25:14Z",
+  "created_at": "2016-09-07T22:12:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/899/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/899",
+    "diff_url": "https://github.com/perl6/doc/pull/899.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/899.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/899"
+  },
+  "locked": false,
+  "title": "Moved Thunk out of IRC lingo.",
+  "id": 175619332,
+  "html_url": "https://github.com/perl6/doc/pull/899",
+  "closed_at": "2016-09-07T22:25:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/899/labels{/name}",
+  "number": 899,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/899/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ahalbert/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ahalbert/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ahalbert/received_events",
+    "organizations_url": "https://api.github.com/users/ahalbert/orgs",
+    "subscriptions_url": "https://api.github.com/users/ahalbert/subscriptions",
+    "html_url": "https://github.com/ahalbert",
+    "id": 849804,
+    "login": "ahalbert",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ahalbert/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ahalbert/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/849804?v=4",
+    "starred_url": "https://api.github.com/users/ahalbert/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ahalbert/followers",
+    "url": "https://api.github.com/users/ahalbert"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/899"
+}

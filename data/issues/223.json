@@ -1,0 +1,71 @@
+{
+  "body": "According to http://doc.perl6.org/language/concurrency#Channels, \"[b]ecause looping over a channel in this manner [with $channel.poll and $channel.closed] is a common pattern there is a simpler functional syntax to do this\", namely the \"loop-earliest-more\" syntax. The wording make it sound as both syntaxes should be equivalent.\n\nHowever, the \"loop-earliest-more\" syntax results in an unwanted shared state between Class _instances_, while the classic syntax does not exhibit this problem.\n\nSee short runnable and commented code examples: https://gist.github.com/nxadm/6d867ad7410330d1bfac\n\nThis bug is reported here to know if this different behaviour should be documented (a feature ;) ) or just a bug.\n\nThank you,\n\nC.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "html_url": "https://github.com/nxadm",
+    "id": 3687879,
+    "login": "nxadm",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "url": "https://api.github.com/users/nxadm"
+  },
+  "updated_at": "2016-06-24T21:08:54Z",
+  "created_at": "2015-12-04T21:19:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/223/comments",
+  "locked": false,
+  "title": "Channels and Class instance state: loop-earliest-more syntax results in shared state",
+  "id": 120488168,
+  "html_url": "https://github.com/perl6/doc/issues/223",
+  "closed_at": "2015-12-08T09:24:43Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/223/labels{/name}",
+  "number": 223,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/223/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "html_url": "https://github.com/nxadm",
+    "id": 3687879,
+    "login": "nxadm",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "url": "https://api.github.com/users/nxadm"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/223"
+}

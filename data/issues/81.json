@@ -1,0 +1,71 @@
+{
+  "body": "To me them imply this would return True:\n\n[jdv@wieldy rakudo]$ perl6 -e 'class A{has $a};say A.new(:a(5)) eqv A.new(:a(5))'\nFalse\n[jdv@wieldy rakudo]$ \n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jdv/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jdv/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jdv/received_events",
+    "organizations_url": "https://api.github.com/users/jdv/orgs",
+    "subscriptions_url": "https://api.github.com/users/jdv/subscriptions",
+    "html_url": "https://github.com/jdv",
+    "id": 47612,
+    "login": "jdv",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jdv/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jdv/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47612?v=4",
+    "starred_url": "https://api.github.com/users/jdv/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jdv/followers",
+    "url": "https://api.github.com/users/jdv"
+  },
+  "updated_at": "2016-06-24T21:22:54Z",
+  "created_at": "2015-05-14T01:35:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/81/comments",
+  "locked": false,
+  "title": "eqv docs misleading",
+  "id": 76190288,
+  "html_url": "https://github.com/perl6/doc/issues/81",
+  "closed_at": "2015-07-26T08:50:27Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/81/labels{/name}",
+  "number": 81,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/81/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jdv/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jdv/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jdv/received_events",
+    "organizations_url": "https://api.github.com/users/jdv/orgs",
+    "subscriptions_url": "https://api.github.com/users/jdv/subscriptions",
+    "html_url": "https://github.com/jdv",
+    "id": 47612,
+    "login": "jdv",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jdv/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jdv/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47612?v=4",
+    "starred_url": "https://api.github.com/users/jdv/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jdv/followers",
+    "url": "https://api.github.com/users/jdv"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/81"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "PR incase there is a reason no one has done this yet :)\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LLFourn/received_events",
+    "organizations_url": "https://api.github.com/users/LLFourn/orgs",
+    "subscriptions_url": "https://api.github.com/users/LLFourn/subscriptions",
+    "html_url": "https://github.com/LLFourn",
+    "id": 3734083,
+    "login": "LLFourn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LLFourn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LLFourn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3734083?v=4",
+    "starred_url": "https://api.github.com/users/LLFourn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LLFourn/followers",
+    "url": "https://api.github.com/users/LLFourn"
+  },
+  "updated_at": "2015-10-15T07:13:26Z",
+  "created_at": "2015-10-15T07:11:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/164/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/164",
+    "diff_url": "https://github.com/perl6/doc/pull/164.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/164.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/164"
+  },
+  "locked": false,
+  "title": "s/EnumMap/Map/",
+  "id": 111558093,
+  "html_url": "https://github.com/perl6/doc/pull/164",
+  "closed_at": "2015-10-15T07:13:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/164/labels{/name}",
+  "number": 164,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/164/events",
+  "user": {
+    "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LLFourn/received_events",
+    "organizations_url": "https://api.github.com/users/LLFourn/orgs",
+    "subscriptions_url": "https://api.github.com/users/LLFourn/subscriptions",
+    "html_url": "https://github.com/LLFourn",
+    "id": 3734083,
+    "login": "LLFourn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LLFourn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LLFourn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3734083?v=4",
+    "starred_url": "https://api.github.com/users/LLFourn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LLFourn/followers",
+    "url": "https://api.github.com/users/LLFourn"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/164"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "On Ubuntu, after installing p6doc using panda...\n~/.rakudobrew/moar-nom/install/share/perl6/site/bin/p6doc \n===SORRY!===\nCould not find MONKEY-SEE-NO-EVAL in:\n    /home/bstahlman/.perl6/2015.11-668-g8401e01\n    /home/bstahlman/.rakudobrew/moar-nom/install/share/perl6/site\n    /home/bstahlman/.rakudobrew/moar-nom/install/share/perl6/vendor\n    /home/bstahlman/.rakudobrew/moar-nom/install/share/perl6\n    CompUnit::Repository::AbsolutePath<140701962206784>\n    CompUnit::Repository::NQP<140701962203376>\n    CompUnit::Repository::Perl5<140701962200216>\n\nGoogled MONKEY-SEE-NO-EVAL and saw that there was a recent change in this repo involving it...\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "updated_at": "2016-06-24T21:33:04Z",
+  "created_at": "2015-12-21T18:44:51Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/256/comments",
+  "locked": false,
+  "title": "p6doc broken",
+  "id": 123335393,
+  "html_url": "https://github.com/perl6/doc/issues/256",
+  "closed_at": "2015-12-23T01:11:47Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/256/labels{/name}",
+  "number": 256,
+  "comments": 12,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/256/events",
+  "user": {
+    "following_url": "https://api.github.com/users/bpstahlman/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bpstahlman/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/bpstahlman/received_events",
+    "organizations_url": "https://api.github.com/users/bpstahlman/orgs",
+    "subscriptions_url": "https://api.github.com/users/bpstahlman/subscriptions",
+    "html_url": "https://github.com/bpstahlman",
+    "id": 3074368,
+    "login": "bpstahlman",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/bpstahlman/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/bpstahlman/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3074368?v=4",
+    "starred_url": "https://api.github.com/users/bpstahlman/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/bpstahlman/followers",
+    "url": "https://api.github.com/users/bpstahlman"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/256"
+}

@@ -1,0 +1,78 @@
+{
+  "body": "I really want/wanted to read, but bad usability of the docs page (plus no real UX), furthermore lack of modern design thought process puts the user off. Its old and not up to today's standards. Therefore, it is difficult to navigate. Perl.org with proper indexing, scrolling menu, sidebar and pagination, is currently much much better; it is balanced and readable.\n\nI love Perl, but no one new to the language will ever read this at the current state. \n\nIs there anything we could do to make it look and work okay?\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2017-02-07T20:56:32Z",
+  "created_at": "2016-07-04T21:00:52Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/665/comments",
+  "locked": false,
+  "title": "Docs look and work terrible",
+  "id": 163742191,
+  "html_url": "https://github.com/perl6/doc/issues/665",
+  "closed_at": "2017-02-07T20:56:32Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/665/labels{/name}",
+  "number": 665,
+  "comments": 14,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/665/events",
+  "user": {
+    "following_url": "https://api.github.com/users/graforlock/following{/other_user}",
+    "gists_url": "https://api.github.com/users/graforlock/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/graforlock/received_events",
+    "organizations_url": "https://api.github.com/users/graforlock/orgs",
+    "subscriptions_url": "https://api.github.com/users/graforlock/subscriptions",
+    "html_url": "https://github.com/graforlock",
+    "id": 7515380,
+    "login": "graforlock",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/graforlock/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/graforlock/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7515380?v=4",
+    "starred_url": "https://api.github.com/users/graforlock/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/graforlock/followers",
+    "url": "https://api.github.com/users/graforlock"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/665"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "This PR extends the travis configuration to also run make html.\nI didn't commit this directly because it extends the travis build time from 11 min to **40 min**.\n\nThe Pro's are that issues such as  #227 and #240 and #241 will be immediately noticed when they arise.\nThe Con's are that this duplicates some info captured in the build logs http://doc.perl6.org/build-log/?C=M;O=D  and slows down the CI system substantially\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2015-12-19T15:34:12Z",
+  "created_at": "2015-12-19T13:42:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/250/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/250",
+    "diff_url": "https://github.com/perl6/doc/pull/250.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/250.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/250"
+  },
+  "locked": false,
+  "title": "Travis runs make html",
+  "id": 123085952,
+  "html_url": "https://github.com/perl6/doc/pull/250",
+  "closed_at": "2015-12-19T14:48:37Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/250/labels{/name}",
+  "number": 250,
+  "comments": 5,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/250/events",
+  "user": {
+    "following_url": "https://api.github.com/users/sylvarant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sylvarant/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/sylvarant/received_events",
+    "organizations_url": "https://api.github.com/users/sylvarant/orgs",
+    "subscriptions_url": "https://api.github.com/users/sylvarant/subscriptions",
+    "html_url": "https://github.com/sylvarant",
+    "id": 43544,
+    "login": "sylvarant",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/sylvarant/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/sylvarant/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43544?v=4",
+    "starred_url": "https://api.github.com/users/sylvarant/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/sylvarant/followers",
+    "url": "https://api.github.com/users/sylvarant"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/250"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "This commit clarifies that the CStructs of NativeCall are always pass by reference. \nThis wasn't immediately clear to me when I worked on Compress::Brotli, leading to some odd behaviour.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2015-12-12T13:46:58Z",
+  "created_at": "2015-12-12T12:13:18Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/238/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/238",
+    "diff_url": "https://github.com/perl6/doc/pull/238.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/238.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/238"
+  },
+  "locked": false,
+  "title": "Clarify that CStructs are exchanged by reference",
+  "id": 121851882,
+  "html_url": "https://github.com/perl6/doc/pull/238",
+  "closed_at": "2015-12-12T13:45:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/238/labels{/name}",
+  "number": 238,
+  "comments": 3,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/238/events",
+  "user": {
+    "following_url": "https://api.github.com/users/sylvarant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sylvarant/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/sylvarant/received_events",
+    "organizations_url": "https://api.github.com/users/sylvarant/orgs",
+    "subscriptions_url": "https://api.github.com/users/sylvarant/subscriptions",
+    "html_url": "https://github.com/sylvarant",
+    "id": 43544,
+    "login": "sylvarant",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/sylvarant/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/sylvarant/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43544?v=4",
+    "starred_url": "https://api.github.com/users/sylvarant/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/sylvarant/followers",
+    "url": "https://api.github.com/users/sylvarant"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/238"
+}

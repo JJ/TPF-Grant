@@ -1,0 +1,71 @@
+{
+  "body": "#822\n\nI added a css class for links that do not match *.perl6.org . It adds the SVG file here at the end: \nhttps://commons.wikimedia.org/wiki/File:External-link-04-bold-12x12.svg . I'm not married to this file, but I know we can distribute it freely.\n\nI'm a little concerned that I used this URL in the scss.  \n`../images/LinkExternal12x12.svg`\n\nOn my local deploy of the documentation web server, this was rewritten to /css/images/LinkExternal12x12.svg. I'm not familiar enough with sass to know why this happened. \n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/ahalbert/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ahalbert/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ahalbert/received_events",
+    "organizations_url": "https://api.github.com/users/ahalbert/orgs",
+    "subscriptions_url": "https://api.github.com/users/ahalbert/subscriptions",
+    "html_url": "https://github.com/ahalbert",
+    "id": 849804,
+    "login": "ahalbert",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ahalbert/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ahalbert/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/849804?v=4",
+    "starred_url": "https://api.github.com/users/ahalbert/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ahalbert/followers",
+    "url": "https://api.github.com/users/ahalbert"
+  },
+  "updated_at": "2016-09-01T14:39:54Z",
+  "created_at": "2016-08-30T20:32:08Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/869/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/869",
+    "diff_url": "https://github.com/perl6/doc/pull/869.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/869.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/869"
+  },
+  "locked": false,
+  "title": "Created external link SVG",
+  "id": 174118624,
+  "html_url": "https://github.com/perl6/doc/pull/869",
+  "closed_at": "2016-09-01T14:39:30Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/869/labels{/name}",
+  "number": 869,
+  "comments": 3,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/869/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ahalbert/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ahalbert/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ahalbert/received_events",
+    "organizations_url": "https://api.github.com/users/ahalbert/orgs",
+    "subscriptions_url": "https://api.github.com/users/ahalbert/subscriptions",
+    "html_url": "https://github.com/ahalbert",
+    "id": 849804,
+    "login": "ahalbert",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ahalbert/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ahalbert/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/849804?v=4",
+    "starred_url": "https://api.github.com/users/ahalbert/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ahalbert/followers",
+    "url": "https://api.github.com/users/ahalbert"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/869"
+}

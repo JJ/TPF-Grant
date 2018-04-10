@@ -1,0 +1,71 @@
+{
+  "body": "https://github.com/rakudo/rakudo/commit/c58917725de7eec6ac8f5cffbf5dca96298be19d\n\nThese methods were deprecated since above commit. However `Type/List` document is not updated yet.\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/awwaiid/received_events",
+    "organizations_url": "https://api.github.com/users/awwaiid/orgs",
+    "subscriptions_url": "https://api.github.com/users/awwaiid/subscriptions",
+    "html_url": "https://github.com/awwaiid",
+    "id": 8642,
+    "login": "awwaiid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/awwaiid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/awwaiid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8642?v=4",
+    "starred_url": "https://api.github.com/users/awwaiid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/awwaiid/followers",
+    "url": "https://api.github.com/users/awwaiid"
+  },
+  "updated_at": "2016-06-24T21:11:35Z",
+  "created_at": "2015-10-21T01:46:00Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/171/comments",
+  "locked": false,
+  "title": "grep-index/first-index/last-index are deperecated",
+  "id": 112494792,
+  "html_url": "https://github.com/perl6/doc/issues/171",
+  "closed_at": "2015-12-21T00:53:58Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/171/labels{/name}",
+  "number": 171,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/171/events",
+  "user": {
+    "following_url": "https://api.github.com/users/syohex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/syohex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/syohex/received_events",
+    "organizations_url": "https://api.github.com/users/syohex/orgs",
+    "subscriptions_url": "https://api.github.com/users/syohex/subscriptions",
+    "html_url": "https://github.com/syohex",
+    "id": 554281,
+    "login": "syohex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/syohex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/syohex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/554281?v=4",
+    "starred_url": "https://api.github.com/users/syohex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/syohex/followers",
+    "url": "https://api.github.com/users/syohex"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/171"
+}

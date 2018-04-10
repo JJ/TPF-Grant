@@ -1,0 +1,71 @@
+{
+  "body": "As someone new to Perl 6 I found some documentation missing and in the processes of getting familiar with certain undocumented or poorly documented packages it seems natural for me to contribute docs. Especially from the unspoiled 'what would a new user need' perspective.\n\nBut even though I am not new to programming, not new to documenting code or writing docs in general and not even new to writing POD I am having a hard time to figure out where to actually start contributing.\n\nI am pretty sure a quick getting started guide could help a great deal to get drive-by contributions to the docs.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/mkrull/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mkrull/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mkrull/received_events",
+    "organizations_url": "https://api.github.com/users/mkrull/orgs",
+    "subscriptions_url": "https://api.github.com/users/mkrull/subscriptions",
+    "html_url": "https://github.com/mkrull",
+    "id": 4057793,
+    "login": "mkrull",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mkrull/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mkrull/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4057793?v=4",
+    "starred_url": "https://api.github.com/users/mkrull/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mkrull/followers",
+    "url": "https://api.github.com/users/mkrull"
+  },
+  "updated_at": "2017-02-23T01:03:47Z",
+  "created_at": "2015-02-25T18:39:01Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/53/comments",
+  "locked": false,
+  "title": "Add Getting Started section to the README",
+  "id": 58949390,
+  "html_url": "https://github.com/perl6/doc/issues/53",
+  "closed_at": "2015-02-26T09:48:11Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/53/labels{/name}",
+  "number": 53,
+  "comments": 15,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/53/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mkrull/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mkrull/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mkrull/received_events",
+    "organizations_url": "https://api.github.com/users/mkrull/orgs",
+    "subscriptions_url": "https://api.github.com/users/mkrull/subscriptions",
+    "html_url": "https://github.com/mkrull",
+    "id": 4057793,
+    "login": "mkrull",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mkrull/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mkrull/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4057793?v=4",
+    "starred_url": "https://api.github.com/users/mkrull/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mkrull/followers",
+    "url": "https://api.github.com/users/mkrull"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/53"
+}

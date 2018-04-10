@@ -1,0 +1,71 @@
+{
+  "body": "Some of the meta operator documentation is repeated in the infix operator sections. This makes the cross section match the other meta operators, though.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/sylvarant/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sylvarant/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/sylvarant/received_events",
+    "organizations_url": "https://api.github.com/users/sylvarant/orgs",
+    "subscriptions_url": "https://api.github.com/users/sylvarant/subscriptions",
+    "html_url": "https://github.com/sylvarant",
+    "id": 43544,
+    "login": "sylvarant",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/sylvarant/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/sylvarant/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43544?v=4",
+    "starred_url": "https://api.github.com/users/sylvarant/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/sylvarant/followers",
+    "url": "https://api.github.com/users/sylvarant"
+  },
+  "updated_at": "2016-01-16T15:10:08Z",
+  "created_at": "2016-01-16T14:33:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/356/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/356",
+    "diff_url": "https://github.com/perl6/doc/pull/356.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/356.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/356"
+  },
+  "locked": false,
+  "title": "Cross meta operator",
+  "id": 127028998,
+  "html_url": "https://github.com/perl6/doc/pull/356",
+  "closed_at": "2016-01-16T15:09:38Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/356/labels{/name}",
+  "number": 356,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/356/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dbrunton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dbrunton/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dbrunton/received_events",
+    "organizations_url": "https://api.github.com/users/dbrunton/orgs",
+    "subscriptions_url": "https://api.github.com/users/dbrunton/subscriptions",
+    "html_url": "https://github.com/dbrunton",
+    "id": 57850,
+    "login": "dbrunton",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dbrunton/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dbrunton/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/57850?v=4",
+    "starred_url": "https://api.github.com/users/dbrunton/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dbrunton/followers",
+    "url": "https://api.github.com/users/dbrunton"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/356"
+}

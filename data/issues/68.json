@@ -1,0 +1,71 @@
+{
+  "body": "The sentence \"This documentation was generated from <file>\" at the end of documents such as http://doc.perl6.org/language/mop should be in a different layout than the normal copy (or it should move to the footer).\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2016-06-24T21:20:16Z",
+  "created_at": "2015-03-29T19:40:59Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/68/comments",
+  "locked": false,
+  "title": "Different Layout for \"This documentation was generated from <file>\"",
+  "id": 65088739,
+  "html_url": "https://github.com/perl6/doc/issues/68",
+  "closed_at": "2015-03-30T12:24:43Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/68/labels{/name}",
+  "number": 68,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/68/events",
+  "user": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/68"
+}

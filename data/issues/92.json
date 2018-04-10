@@ -1,0 +1,71 @@
+{
+  "body": "I ran across the following bug when running p6doc:\nUse of Nil in string context  in block  at lib/Pod/To/Text.pm:24\n\nIt looks like the error is actually in Rakudo.\n\nFIX: In sub pod2text add some null strings; replace:\n        when Pod::Block::Comment {  }\n        when Pod::Config       {  }\nwith:\n        when Pod::Block::Comment { \"\" }\n        when Pod::Config       { \"\" }\n\nThis works for me and appears to pass the spec test.  I'm not sure if this is the correct fix, but it's one that appears to work for me.  :)\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2016-06-24T21:39:39Z",
+  "created_at": "2015-06-11T18:49:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/92/comments",
+  "locked": false,
+  "title": "Use of Nil in String contact error (with suggested patch)",
+  "id": 87445395,
+  "html_url": "https://github.com/perl6/doc/issues/92",
+  "closed_at": "2015-07-25T10:11:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/92/labels{/name}",
+  "number": 92,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/92/events",
+  "user": {
+    "following_url": "https://api.github.com/users/kmetcalf/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kmetcalf/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/kmetcalf/received_events",
+    "organizations_url": "https://api.github.com/users/kmetcalf/orgs",
+    "subscriptions_url": "https://api.github.com/users/kmetcalf/subscriptions",
+    "html_url": "https://github.com/kmetcalf",
+    "id": 2421960,
+    "login": "kmetcalf",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/kmetcalf/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/kmetcalf/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2421960?v=4",
+    "starred_url": "https://api.github.com/users/kmetcalf/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/kmetcalf/followers",
+    "url": "https://api.github.com/users/kmetcalf"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/92"
+}

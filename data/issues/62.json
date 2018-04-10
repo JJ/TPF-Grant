@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/paultcochrane/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paultcochrane/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/paultcochrane/received_events",
+    "organizations_url": "https://api.github.com/users/paultcochrane/orgs",
+    "subscriptions_url": "https://api.github.com/users/paultcochrane/subscriptions",
+    "html_url": "https://github.com/paultcochrane",
+    "id": 3437263,
+    "login": "paultcochrane",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/paultcochrane/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/paultcochrane/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3437263?v=4",
+    "starred_url": "https://api.github.com/users/paultcochrane/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/paultcochrane/followers",
+    "url": "https://api.github.com/users/paultcochrane"
+  },
+  "updated_at": "2015-03-25T19:10:17Z",
+  "created_at": "2015-03-24T15:31:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/62/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/62",
+    "diff_url": "https://github.com/perl6/doc/pull/62.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/62.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/62"
+  },
+  "locked": false,
+  "title": "A couple of edits for \"Sets, Bags, and Mixes\"",
+  "id": 64025897,
+  "html_url": "https://github.com/perl6/doc/pull/62",
+  "closed_at": "2015-03-24T15:36:52Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/62/labels{/name}",
+  "number": 62,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/62/events",
+  "user": {
+    "following_url": "https://api.github.com/users/edwinst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/edwinst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/edwinst/received_events",
+    "organizations_url": "https://api.github.com/users/edwinst/orgs",
+    "subscriptions_url": "https://api.github.com/users/edwinst/subscriptions",
+    "html_url": "https://github.com/edwinst",
+    "id": 2489158,
+    "login": "edwinst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/edwinst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/edwinst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2489158?v=4",
+    "starred_url": "https://api.github.com/users/edwinst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/edwinst/followers",
+    "url": "https://api.github.com/users/edwinst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/62"
+}

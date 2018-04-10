@@ -1,0 +1,71 @@
+{
+  "body": "Had to actually google for it! :-)\n\nSuggestion: make \"work in progress\" the link.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:40:09Z",
+  "created_at": "2015-05-24T09:24:04Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/85/comments",
+  "locked": false,
+  "title": "Put link to github repo on doc.perl6.org footer",
+  "id": 80107013,
+  "html_url": "https://github.com/perl6/doc/issues/85",
+  "closed_at": "2015-05-24T13:49:04Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/85/labels{/name}",
+  "number": 85,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/85/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Juerd/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Juerd/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Juerd/received_events",
+    "organizations_url": "https://api.github.com/users/Juerd/orgs",
+    "subscriptions_url": "https://api.github.com/users/Juerd/subscriptions",
+    "html_url": "https://github.com/Juerd",
+    "id": 791835,
+    "login": "Juerd",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Juerd/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Juerd/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/791835?v=4",
+    "starred_url": "https://api.github.com/users/Juerd/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Juerd/followers",
+    "url": "https://api.github.com/users/Juerd"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/85"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "html_url": "https://github.com/jonathanstowe",
+    "id": 736419,
+    "login": "jonathanstowe",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "url": "https://api.github.com/users/jonathanstowe"
+  },
+  "updated_at": "2015-12-21T16:45:27Z",
+  "created_at": "2015-12-21T16:17:38Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/255/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/255",
+    "diff_url": "https://github.com/perl6/doc/pull/255.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/255.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/255"
+  },
+  "locked": false,
+  "title": "Clear as mud - be explicit about the definition of 'module'.",
+  "id": 123308871,
+  "html_url": "https://github.com/perl6/doc/pull/255",
+  "closed_at": "2015-12-21T16:45:26Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/255/labels{/name}",
+  "number": 255,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/255/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ChoHag/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ChoHag/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ChoHag/received_events",
+    "organizations_url": "https://api.github.com/users/ChoHag/orgs",
+    "subscriptions_url": "https://api.github.com/users/ChoHag/subscriptions",
+    "html_url": "https://github.com/ChoHag",
+    "id": 139629,
+    "login": "ChoHag",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ChoHag/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ChoHag/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/139629?v=4",
+    "starred_url": "https://api.github.com/users/ChoHag/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ChoHag/followers",
+    "url": "https://api.github.com/users/ChoHag"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/255"
+}

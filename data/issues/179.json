@@ -1,0 +1,71 @@
+{
+  "body": "Due to first example contains custom `new` it may give impression that writing `new` is something that programmer want to do. Maybe it would be good to mark it as non standard behavior and say that probably want to write build method?\n\nOr maybe better to close this pull request and rewrite this tutorial in way that will not contain neither BUILD nor new at start. Perl has many ways to initialize attributes without them and should be shown first\n\nExample question http://www.nntp.perl.org/group/perl.perl6.users/2015/10/msg2309.html\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "updated_at": "2015-11-20T12:46:48Z",
+  "created_at": "2015-10-28T08:13:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/179/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/179",
+    "diff_url": "https://github.com/perl6/doc/pull/179.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/179.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/179"
+  },
+  "locked": false,
+  "title": "Comment about new method to not confuse new users",
+  "id": 113764852,
+  "html_url": "https://github.com/perl6/doc/pull/179",
+  "closed_at": "2015-11-20T03:26:08Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/179/labels{/name}",
+  "number": 179,
+  "comments": 5,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/179/events",
+  "user": {
+    "following_url": "https://api.github.com/users/teodozjan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/teodozjan/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/teodozjan/received_events",
+    "organizations_url": "https://api.github.com/users/teodozjan/orgs",
+    "subscriptions_url": "https://api.github.com/users/teodozjan/subscriptions",
+    "html_url": "https://github.com/teodozjan",
+    "id": 3833045,
+    "login": "teodozjan",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/teodozjan/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/teodozjan/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3833045?v=4",
+    "starred_url": "https://api.github.com/users/teodozjan/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/teodozjan/followers",
+    "url": "https://api.github.com/users/teodozjan"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/179"
+}

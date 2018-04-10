@@ -1,0 +1,78 @@
+{
+  "body": "As I see it, the advantages in writing a `p6doc-server` intended to be run as a background process are:\n- Significantly speed up command-line queries, which are currently slowed significantly by slurping in `%data` for every invocation. Instead `p6doc-server` exposes all the `%data` search functionality in the server and exposes it via an API.\n- By default it would simply serve the static output of `htmlify`. However, `p6doc-server` could provide the substrate for various other browser-oriented approaches.\n- Theming of `htmlify` could be easily modularized: `p6doc-server --theme Themes::P6Doc::HTML::Dark`\n\nIt also serves a personal goal of digging a bit further into `Promise`s and all the other async goodness.\n\nBefore I start hacking away madly, I wanted to check that everybody agrees that it makes sense and that there are not serious disadvantages to this approach. Enthusiasm can provide powerful blinders sometimes.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-01-27T07:41:50Z",
+  "created_at": "2015-06-14T12:23:12Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/94/comments",
+  "locked": false,
+  "title": "p6doc-server",
+  "id": 88176812,
+  "html_url": "https://github.com/perl6/doc/issues/94",
+  "closed_at": "2018-01-27T07:41:50Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/94/labels{/name}",
+  "number": 94,
+  "comments": 16,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/94/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ab5tract/received_events",
+    "organizations_url": "https://api.github.com/users/ab5tract/orgs",
+    "subscriptions_url": "https://api.github.com/users/ab5tract/subscriptions",
+    "html_url": "https://github.com/ab5tract",
+    "id": 2742,
+    "login": "ab5tract",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ab5tract/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ab5tract/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2742?v=4",
+    "starred_url": "https://api.github.com/users/ab5tract/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ab5tract/followers",
+    "url": "https://api.github.com/users/ab5tract"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/94"
+}

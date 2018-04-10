@@ -1,0 +1,71 @@
+{
+  "body": "Update some verbiage, fix a few spelling errors, fix the examples, and\nadd some additional examples.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/MadcapJake/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MadcapJake/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MadcapJake/received_events",
+    "organizations_url": "https://api.github.com/users/MadcapJake/orgs",
+    "subscriptions_url": "https://api.github.com/users/MadcapJake/subscriptions",
+    "html_url": "https://github.com/MadcapJake",
+    "id": 3377525,
+    "login": "MadcapJake",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MadcapJake/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MadcapJake/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3377525?v=4",
+    "starred_url": "https://api.github.com/users/MadcapJake/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MadcapJake/followers",
+    "url": "https://api.github.com/users/MadcapJake"
+  },
+  "updated_at": "2016-03-14T18:51:38Z",
+  "created_at": "2016-03-14T17:56:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/424/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/424",
+    "diff_url": "https://github.com/perl6/doc/pull/424.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/424.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/424"
+  },
+  "locked": false,
+  "title": "Add, fix and reword feed operator docs",
+  "id": 140749760,
+  "html_url": "https://github.com/perl6/doc/pull/424",
+  "closed_at": "2016-03-14T18:51:38Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/424/labels{/name}",
+  "number": 424,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/424/events",
+  "user": {
+    "following_url": "https://api.github.com/users/MadcapJake/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MadcapJake/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/MadcapJake/received_events",
+    "organizations_url": "https://api.github.com/users/MadcapJake/orgs",
+    "subscriptions_url": "https://api.github.com/users/MadcapJake/subscriptions",
+    "html_url": "https://github.com/MadcapJake",
+    "id": 3377525,
+    "login": "MadcapJake",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/MadcapJake/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/MadcapJake/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3377525?v=4",
+    "starred_url": "https://api.github.com/users/MadcapJake/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/MadcapJake/followers",
+    "url": "https://api.github.com/users/MadcapJake"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/424"
+}

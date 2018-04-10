@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/language/variables\n\n```\nNote that this is not a thread-safe construct when the same clone of the same block is run by multiple threads. Also remember that methods only have one clone per class, not per object.\n\nwill continue to increment $l and append it to @x each time it is called. So it will output\n```\n\nSurely there should be a code sample before the 'will'\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/shadowcat-mst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shadowcat-mst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shadowcat-mst/received_events",
+    "organizations_url": "https://api.github.com/users/shadowcat-mst/orgs",
+    "subscriptions_url": "https://api.github.com/users/shadowcat-mst/subscriptions",
+    "html_url": "https://github.com/shadowcat-mst",
+    "id": 252821,
+    "login": "shadowcat-mst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shadowcat-mst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shadowcat-mst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/252821?v=4",
+    "starred_url": "https://api.github.com/users/shadowcat-mst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shadowcat-mst/followers",
+    "url": "https://api.github.com/users/shadowcat-mst"
+  },
+  "updated_at": "2016-12-05T19:59:52Z",
+  "created_at": "2016-09-14T01:35:21Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/906/comments",
+  "locked": false,
+  "title": "Missing example in variables",
+  "id": 176792792,
+  "html_url": "https://github.com/perl6/doc/issues/906",
+  "closed_at": "2016-09-15T16:06:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/906/labels{/name}",
+  "number": 906,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/906/events",
+  "user": {
+    "following_url": "https://api.github.com/users/shadowcat-mst/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shadowcat-mst/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/shadowcat-mst/received_events",
+    "organizations_url": "https://api.github.com/users/shadowcat-mst/orgs",
+    "subscriptions_url": "https://api.github.com/users/shadowcat-mst/subscriptions",
+    "html_url": "https://github.com/shadowcat-mst",
+    "id": 252821,
+    "login": "shadowcat-mst",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/shadowcat-mst/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/shadowcat-mst/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/252821?v=4",
+    "starred_url": "https://api.github.com/users/shadowcat-mst/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/shadowcat-mst/followers",
+    "url": "https://api.github.com/users/shadowcat-mst"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/906"
+}

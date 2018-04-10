@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LLFourn/received_events",
+    "organizations_url": "https://api.github.com/users/LLFourn/orgs",
+    "subscriptions_url": "https://api.github.com/users/LLFourn/subscriptions",
+    "html_url": "https://github.com/LLFourn",
+    "id": 3734083,
+    "login": "LLFourn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LLFourn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LLFourn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3734083?v=4",
+    "starred_url": "https://api.github.com/users/LLFourn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LLFourn/followers",
+    "url": "https://api.github.com/users/LLFourn"
+  },
+  "updated_at": "2015-07-27T15:59:25Z",
+  "created_at": "2015-07-27T15:59:14Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/109/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/109",
+    "diff_url": "https://github.com/perl6/doc/pull/109.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/109.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/109"
+  },
+  "locked": false,
+  "title": "added example of type coercions for non builtin types",
+  "id": 97496301,
+  "html_url": "https://github.com/perl6/doc/pull/109",
+  "closed_at": "2015-07-27T15:59:24Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/109/labels{/name}",
+  "number": 109,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/109/events",
+  "user": {
+    "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/LLFourn/received_events",
+    "organizations_url": "https://api.github.com/users/LLFourn/orgs",
+    "subscriptions_url": "https://api.github.com/users/LLFourn/subscriptions",
+    "html_url": "https://github.com/LLFourn",
+    "id": 3734083,
+    "login": "LLFourn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/LLFourn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/LLFourn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3734083?v=4",
+    "starred_url": "https://api.github.com/users/LLFourn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/LLFourn/followers",
+    "url": "https://api.github.com/users/LLFourn"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/109"
+}

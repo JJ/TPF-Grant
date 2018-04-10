@@ -1,0 +1,71 @@
+{
+  "body": "I'm not sure this works. If someone can confirm it does, I'd appreciate it.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+    "html_url": "https://github.com/jsoref",
+    "id": 2119212,
+    "login": "jsoref",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jsoref/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2119212?v=4",
+    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jsoref/followers",
+    "url": "https://api.github.com/users/jsoref"
+  },
+  "updated_at": "2016-06-15T18:38:25Z",
+  "created_at": "2016-06-15T03:23:39Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/597/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/597",
+    "diff_url": "https://github.com/perl6/doc/pull/597.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/597.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/597"
+  },
+  "locked": false,
+  "title": "use pod link instead of url for 5to6-nutshell",
+  "id": 160330702,
+  "html_url": "https://github.com/perl6/doc/pull/597",
+  "closed_at": "2016-06-15T18:38:25Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/597/labels{/name}",
+  "number": 597,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/597/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jsoref/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jsoref/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jsoref/received_events",
+    "organizations_url": "https://api.github.com/users/jsoref/orgs",
+    "subscriptions_url": "https://api.github.com/users/jsoref/subscriptions",
+    "html_url": "https://github.com/jsoref",
+    "id": 2119212,
+    "login": "jsoref",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jsoref/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jsoref/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2119212?v=4",
+    "starred_url": "https://api.github.com/users/jsoref/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jsoref/followers",
+    "url": "https://api.github.com/users/jsoref"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/597"
+}

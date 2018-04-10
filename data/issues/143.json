@@ -1,0 +1,71 @@
+{
+  "body": "As I can see from the reddit comments (https://www.reddit.com/r/programming/comments/3nr0xo/larry_wall_unveils_perl_600/cvqo4k1) the doc for routine cos has the text `Coerces the invocant (or in sub form, the argument) to Numeric, interprets it as radians, returns its sine.` The last word sine links to the wikipedia page on cosine and the text could be changed too.\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/tirkarthi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tirkarthi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tirkarthi/received_events",
+    "organizations_url": "https://api.github.com/users/tirkarthi/orgs",
+    "subscriptions_url": "https://api.github.com/users/tirkarthi/subscriptions",
+    "html_url": "https://github.com/tirkarthi",
+    "id": 3972343,
+    "login": "tirkarthi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tirkarthi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tirkarthi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3972343?v=4",
+    "starred_url": "https://api.github.com/users/tirkarthi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tirkarthi/followers",
+    "url": "https://api.github.com/users/tirkarthi"
+  },
+  "updated_at": "2016-06-24T21:15:42Z",
+  "created_at": "2015-10-07T03:52:49Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/143/comments",
+  "locked": false,
+  "title": "Doc from cosine linking to cosine wikipedia page but displayed as sine",
+  "id": 110147627,
+  "html_url": "https://github.com/perl6/doc/issues/143",
+  "closed_at": "2015-10-07T04:06:20Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/143/labels{/name}",
+  "number": 143,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/143/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tirkarthi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tirkarthi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tirkarthi/received_events",
+    "organizations_url": "https://api.github.com/users/tirkarthi/orgs",
+    "subscriptions_url": "https://api.github.com/users/tirkarthi/subscriptions",
+    "html_url": "https://github.com/tirkarthi",
+    "id": 3972343,
+    "login": "tirkarthi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tirkarthi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tirkarthi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3972343?v=4",
+    "starred_url": "https://api.github.com/users/tirkarthi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tirkarthi/followers",
+    "url": "https://api.github.com/users/tirkarthi"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/143"
+}

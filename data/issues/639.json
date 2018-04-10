@@ -1,0 +1,78 @@
+{
+  "body": "The important thing is the name and so that should be in the first column.  The type should come second.\n\nIt's confusing to have multiple types listed (particularly when repetitive).  It might make more sense to relate type and source somehow.  E.g. \"infix: see Operators; method: see Mu, Any, Foo, Bar, ...\"\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-07-11T00:06:57Z",
+  "created_at": "2016-06-26T10:56:37Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/639/comments",
+  "locked": false,
+  "title": "Routines page needs reformatting",
+  "id": 162322832,
+  "html_url": "https://github.com/perl6/doc/issues/639",
+  "closed_at": "2016-07-11T00:06:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/639/labels{/name}",
+  "number": 639,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/639/events",
+  "user": {
+    "following_url": "https://api.github.com/users/xdg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xdg/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/xdg/received_events",
+    "organizations_url": "https://api.github.com/users/xdg/orgs",
+    "subscriptions_url": "https://api.github.com/users/xdg/subscriptions",
+    "html_url": "https://github.com/xdg",
+    "id": 7625322,
+    "login": "xdg",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/xdg/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/xdg/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7625322?v=4",
+    "starred_url": "https://api.github.com/users/xdg/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/xdg/followers",
+    "url": "https://api.github.com/users/xdg"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/639"
+}

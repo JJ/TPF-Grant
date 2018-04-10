@@ -1,0 +1,71 @@
+{
+  "body": "```\n<masak> [backlog] should lazy attribute defaults be part of http://doc.perl6.org/language/classtut ? did someone file an issue about this?\n<masak> m: class C { has $.x = \"OH HAI\" }; say C.new(:x(42)).x; say C.new.x\n<camelia> rakudo-moar 86b1b2: OUTPUT«42␤OH HAI␤»\n* masak submits an issue\n<liztormato> To be clear: has $.a = 42 is not lazy but run at build time\n<masak> oh! yes, you are right. those two are not the same.\n```\n\nUp until that point in the conversation I was confusing \"build-time\" and \"lazy\", which are indeed different points. Leaving aside the lazy case for this issue (as the syntax is still being discussed), I think it'd make sense to document how to do the build-time default thing with attributes.\n\n...including the nice trick with putting `die` in the rhs to make the object explode at build time if an attribute was not passed in.\n",
+  "author_association": "OWNER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2016-06-24T21:21:53Z",
+  "created_at": "2015-05-03T17:43:15Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/79/comments",
+  "locked": false,
+  "title": "Mention how to do build-time attribute defaults",
+  "id": 72839791,
+  "html_url": "https://github.com/perl6/doc/issues/79",
+  "closed_at": "2015-05-09T07:31:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/79/labels{/name}",
+  "number": 79,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/79/events",
+  "user": {
+    "following_url": "https://api.github.com/users/masak/following{/other_user}",
+    "gists_url": "https://api.github.com/users/masak/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/masak/received_events",
+    "organizations_url": "https://api.github.com/users/masak/orgs",
+    "subscriptions_url": "https://api.github.com/users/masak/subscriptions",
+    "html_url": "https://github.com/masak",
+    "id": 20627,
+    "login": "masak",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/masak/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/masak/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/20627?v=4",
+    "starred_url": "https://api.github.com/users/masak/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/masak/followers",
+    "url": "https://api.github.com/users/masak"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/79"
+}

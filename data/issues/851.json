@@ -1,0 +1,71 @@
+{
+  "body": "https://docs.perl6.org/type/List#method_flatmap incorrectly suggests that `flatmap` flattenes the input list before iterating it, when in fact it seems to flatten the _result_ of the map operation:\n\n```\ndd ((1, 2), <a b>).map({ $_, $_ });      # (((1, 2), (1, 2)), ((\"a\", \"b\"), (\"a\", \"b\"))).Seq\ndd ((1, 2), <a b>).flatmap({ $_, $_ });  # (1, 2, 1, 2, \"a\", \"b\", \"a\", \"b\").Seq\n```\n\nThe example given on the page should be removed altogether, as it lies about `&uc` being called four times (it's called twice, once for each element of the input list), and doesn't produce a nested output so there's nothing to flatten, and thus fails to demonstrate what `flatmap` actually does.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+    "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/samcv/received_events",
+    "organizations_url": "https://api.github.com/users/samcv/orgs",
+    "subscriptions_url": "https://api.github.com/users/samcv/subscriptions",
+    "html_url": "https://github.com/samcv",
+    "id": 20145557,
+    "login": "samcv",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/samcv/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/samcv/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/20145557?v=4",
+    "starred_url": "https://api.github.com/users/samcv/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/samcv/followers",
+    "url": "https://api.github.com/users/samcv"
+  },
+  "updated_at": "2017-06-24T05:07:17Z",
+  "created_at": "2016-08-22T05:41:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/851/comments",
+  "locked": false,
+  "title": "flatmap description is wrong",
+  "id": 172373242,
+  "html_url": "https://github.com/perl6/doc/issues/851",
+  "closed_at": "2017-06-24T05:07:17Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/851/labels{/name}",
+  "number": 851,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/851/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/851"
+}

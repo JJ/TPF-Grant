@@ -1,0 +1,71 @@
+{
+  "body": "tried to make it clear what happens with the code following after the CATCH blocks …\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-09-21T18:17:14Z",
+  "created_at": "2016-09-01T13:07:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/876/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/876",
+    "diff_url": "https://github.com/perl6/doc/pull/876.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/876.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/876"
+  },
+  "locked": false,
+  "title": "Exceptions handlers and enclosing blocks.",
+  "id": 174518495,
+  "html_url": "https://github.com/perl6/doc/pull/876",
+  "closed_at": "2016-09-21T18:17:14Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/876/labels{/name}",
+  "number": 876,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/876/events",
+  "user": {
+    "following_url": "https://api.github.com/users/melezhik/following{/other_user}",
+    "gists_url": "https://api.github.com/users/melezhik/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/melezhik/received_events",
+    "organizations_url": "https://api.github.com/users/melezhik/orgs",
+    "subscriptions_url": "https://api.github.com/users/melezhik/subscriptions",
+    "html_url": "https://github.com/melezhik",
+    "id": 988105,
+    "login": "melezhik",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/melezhik/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/melezhik/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/988105?v=4",
+    "starred_url": "https://api.github.com/users/melezhik/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/melezhik/followers",
+    "url": "https://api.github.com/users/melezhik"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/876"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "The docs are currently vague on the use of sigils in constants.\n\nIn [5to6-nutshell](http://doc.perl6.org/language/5to6-nutshell#constant):\n\n> In Perl 6, constant is a declarator for variables, just like my, except the variable is permanently locked to the result of its initialization expression (evaluated at compile time).\n> \n> So, change the => to = , and add a sigil.\n\nBut [some](http://doc.perl6.org/language/terms#Identifier_terms) [examples](http://doc.perl6.org/language/syntax#Barewords_%28Constants%2C_Type_Names%29) do not actually use sigils, and in [Terms](http://doc.perl6.org/language/terms#Constants) this is explicit:\n\n> Constants are declared with constant and do not require a sigil. The RHS is evaluated at compile time, what may be too early to make sense.\n\nSo, regardless of whether they are _required_, I think the docs should at least be consistent in what they recommend, and this should probably be reflected in the examples.\n\nThoughts?\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-08-08T09:18:32Z",
+  "created_at": "2016-03-07T01:12:10Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/416/comments",
+  "locked": false,
+  "title": "Constant: with or without sigil?",
+  "id": 138857551,
+  "html_url": "https://github.com/perl6/doc/issues/416",
+  "closed_at": "2016-08-08T09:18:32Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/416/labels{/name}",
+  "number": 416,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/416/events",
+  "user": {
+    "following_url": "https://api.github.com/users/jjatria/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jjatria/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jjatria/received_events",
+    "organizations_url": "https://api.github.com/users/jjatria/orgs",
+    "subscriptions_url": "https://api.github.com/users/jjatria/subscriptions",
+    "html_url": "https://github.com/jjatria",
+    "id": 2975989,
+    "login": "jjatria",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jjatria/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jjatria/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2975989?v=4",
+    "starred_url": "https://api.github.com/users/jjatria/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jjatria/followers",
+    "url": "https://api.github.com/users/jjatria"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/416"
+}

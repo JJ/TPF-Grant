@@ -1,0 +1,71 @@
+{
+  "body": "% p6doc\nWhat documentation do you want to read?\nExamples: p6doc Type::Str\n          p6doc Type::Str.split\n\nYou can also look up specific method/routine defintions:\n          p6doc -f push\n\n%  p6doc -f push\nWe have multiple matches for 'push'\n\n```\n    Array.push .push .push .push .push .push\n    Hash.push .push .push .push .push .push\n```\n\n%  p6doc -f Array.push\n===SORRY!===\nCannot invoke this object (REPR: Uninstantiable)\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "updated_at": "2016-06-24T21:07:04Z",
+  "created_at": "2015-09-28T15:15:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/138/comments",
+  "locked": false,
+  "title": "command line \"p6doc -f push\" doesn't work",
+  "id": 108679701,
+  "html_url": "https://github.com/perl6/doc/issues/138",
+  "closed_at": "2015-09-30T13:20:45Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/138/labels{/name}",
+  "number": 138,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/138/events",
+  "user": {
+    "following_url": "https://api.github.com/users/stmuk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/stmuk/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/stmuk/received_events",
+    "organizations_url": "https://api.github.com/users/stmuk/orgs",
+    "subscriptions_url": "https://api.github.com/users/stmuk/subscriptions",
+    "html_url": "https://github.com/stmuk",
+    "id": 4533859,
+    "login": "stmuk",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/stmuk/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/stmuk/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4533859?v=4",
+    "starred_url": "https://api.github.com/users/stmuk/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/stmuk/followers",
+    "url": "https://api.github.com/users/stmuk"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/138"
+}

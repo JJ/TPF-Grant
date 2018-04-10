@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-05-16T17:40:39Z",
+  "created_at": "2016-05-16T17:21:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/518/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/518",
+    "diff_url": "https://github.com/perl6/doc/pull/518.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/518.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/518"
+  },
+  "locked": false,
+  "title": "A few factual changes and a few rephrasings for clarity, but mostly typos and grammar.",
+  "id": 155077079,
+  "html_url": "https://github.com/perl6/doc/pull/518",
+  "closed_at": "2016-05-16T17:40:38Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/518/labels{/name}",
+  "number": 518,
+  "comments": 1,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/518/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Coleoid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Coleoid/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Coleoid/received_events",
+    "organizations_url": "https://api.github.com/users/Coleoid/orgs",
+    "subscriptions_url": "https://api.github.com/users/Coleoid/subscriptions",
+    "html_url": "https://github.com/Coleoid",
+    "id": 57844,
+    "login": "Coleoid",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Coleoid/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Coleoid/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/57844?v=4",
+    "starred_url": "https://api.github.com/users/Coleoid/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Coleoid/followers",
+    "url": "https://api.github.com/users/Coleoid"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/518"
+}

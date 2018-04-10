@@ -1,0 +1,71 @@
+{
+  "body": "See https://github.com/perl6/doc/issues/794#issuecomment-237981574\n\nFirstly, cast @gfldex, since he is the main inventor of our doc-compiling project.\n\nSince we need to compile signatures(errors occur there too) we need some method/routine/sub body to compile it without error. The thing is, we don't want reader to see this ugly `{}` empty method body.\nBecause of that, using @coke advice, I've implemented this option. If you write it like this:\n\n```\n=begin code :signature\n    method some(Bar)\n=end code\n```\n\nor even like that\n\n```\n=begin code :signature\n    method some1(Bar)\n    method some2(Bar)\n=end code\n```\n\nempty brackets will be added automatically(in second case, for every string respectively).\n\nMy English is less than awesome(I guess, it really is), so I'll be really grateful if someone will fix up my bad-written description at the `CONTRIBUTION.md` page.\n\nIt can be merged if @gfldex approves.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/gfldex/received_events",
+    "organizations_url": "https://api.github.com/users/gfldex/orgs",
+    "subscriptions_url": "https://api.github.com/users/gfldex/subscriptions",
+    "html_url": "https://github.com/gfldex",
+    "id": 426613,
+    "login": "gfldex",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/gfldex/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/gfldex/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/426613?v=4",
+    "starred_url": "https://api.github.com/users/gfldex/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/gfldex/followers",
+    "url": "https://api.github.com/users/gfldex"
+  },
+  "updated_at": "2016-08-07T13:58:45Z",
+  "created_at": "2016-08-06T00:26:47Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/814/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/814",
+    "diff_url": "https://github.com/perl6/doc/pull/814.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/814.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/814"
+  },
+  "locked": false,
+  "title": "New pod config option: 'signature'",
+  "id": 169718942,
+  "html_url": "https://github.com/perl6/doc/pull/814",
+  "closed_at": "2016-08-06T21:04:47Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/814/labels{/name}",
+  "number": 814,
+  "comments": 8,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/814/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "html_url": "https://github.com/Altai-man",
+    "id": 5764435,
+    "login": "Altai-man",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "url": "https://api.github.com/users/Altai-man"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/814"
+}

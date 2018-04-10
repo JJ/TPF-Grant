@@ -1,0 +1,71 @@
+{
+  "body": "Maybe this is more a panda/zef issue, but given a module that has a separate .pod/.pod6 file, neither zef nor panda install that file, so p6doc cannot find it.\nNext question would be: would p6doc find/use it if it were installed?\nMain question is: where should I specify (if at all, I think it should be automatic) that I have a seperate file with docs\n\n```\n$ ls -l lib/Text\ntotal 144\n-rw-rw-r-- 1 merijn users 64484 Aug 10 08:19 CSV.pm\n-rw-rw-r-- 1 merijn users   246 Dec 21  2015 CSV.pm.rev-deps\n-rw-rw-r-- 1 merijn users 75341 Aug 10 08:56 CSV.pod6\n$ cat META6.json\n{ \"name\"         : \"Text::CSV\",\n  \"version\"      : \"0.006\",\n  \"perl\"         : \"6.c\",\n  \"description\"  : \"Handle CSV data. API based on Text::CSV_XS\",\n  \"auth\"         : \"github:Tux\",\n  \"authors\"      : [ \"H.Merijn Brand (Tux)\"       ],\n  \"tags\"         : [ \"CSV\"                        ],\n  \"depends\"      : [ \"Slang::Tuxic\", \"File::Temp\" ],\n  \"test-depends\" : [ \"Test\"                       ],\n  \"provides\"     : {\n    \"Text::CSV\"  : \"lib/Text/CSV.pm\"\n    },\n  \"repo-type\"    : \"git\",\n  \"source-url\"   : \"git://github.com/Tux/CSV.git\",\n  \"license\"      : \"http://www.perlfoundation.org/artistic_license_2_0\",\n  \"support\"      : {\n    \"irc\"        : \"irc://irc.perl.org/#csv\"\n    }\n  }\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-03-12T09:31:47Z",
+  "created_at": "2016-08-10T10:24:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/832/comments",
+  "locked": false,
+  "title": "separate pod - how to have it installed",
+  "id": 170383651,
+  "html_url": "https://github.com/perl6/doc/issues/832",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/832/labels{/name}",
+  "number": 832,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5319e7",
+      "name": "external",
+      "id": 503572706,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/external"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/832/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Tux/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Tux/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Tux/received_events",
+    "organizations_url": "https://api.github.com/users/Tux/orgs",
+    "subscriptions_url": "https://api.github.com/users/Tux/subscriptions",
+    "html_url": "https://github.com/Tux",
+    "id": 2492,
+    "login": "Tux",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Tux/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Tux/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2492?v=4",
+    "starred_url": "https://api.github.com/users/Tux/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Tux/followers",
+    "url": "https://api.github.com/users/Tux"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/832"
+}

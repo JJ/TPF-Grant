@@ -1,0 +1,71 @@
+{
+  "body": "The context used to determine whether item or list assignment used is\na bit tricky. Added detailed explanation and examples.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/moritz/received_events",
+    "organizations_url": "https://api.github.com/users/moritz/orgs",
+    "subscriptions_url": "https://api.github.com/users/moritz/subscriptions",
+    "html_url": "https://github.com/moritz",
+    "id": 23773,
+    "login": "moritz",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/moritz/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/moritz/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23773?v=4",
+    "starred_url": "https://api.github.com/users/moritz/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/moritz/followers",
+    "url": "https://api.github.com/users/moritz"
+  },
+  "updated_at": "2015-06-21T21:03:09Z",
+  "created_at": "2015-06-21T19:24:45Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/95/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/95",
+    "diff_url": "https://github.com/perl6/doc/pull/95.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/95.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/95"
+  },
+  "locked": false,
+  "title": "Clarify item vs list assignment in Variables",
+  "id": 89949712,
+  "html_url": "https://github.com/perl6/doc/pull/95",
+  "closed_at": "2015-06-21T21:03:09Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/95/labels{/name}",
+  "number": 95,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/95/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Zhtwn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Zhtwn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Zhtwn/received_events",
+    "organizations_url": "https://api.github.com/users/Zhtwn/orgs",
+    "subscriptions_url": "https://api.github.com/users/Zhtwn/subscriptions",
+    "html_url": "https://github.com/Zhtwn",
+    "id": 4630075,
+    "login": "Zhtwn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Zhtwn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Zhtwn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4630075?v=4",
+    "starred_url": "https://api.github.com/users/Zhtwn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Zhtwn/followers",
+    "url": "https://api.github.com/users/Zhtwn"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/95"
+}

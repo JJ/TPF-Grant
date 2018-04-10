@@ -1,0 +1,78 @@
+{
+  "body": "Things were added because they have to be explained in the [glossary](https://doc.perl6.org/language/glossary), but nobody bothered to write a proper description yet.\n\nSince most of that stuff was moved from S99, perhaps it would make sense to delete some of the items. However, most of these terms actually need a description.\n\nPlease check items once they've been described or removed from the glossary. Team members can remove items from this list once they've been resolved.\n- [ ] bytecode\n- [x] Callable\n- [x] Code\n- [x] Container\n- [x] Cool\n- [ ] fiddly\n- [ ] handles\n- [ ] iffy\n- [ ] import\n- [ ] Lexing\n- [x] List\n- [x] machine code\n- [x] Module\n- [ ] Multi-Dispatch\n- [ ] multi-method\n- [ ] opcode\n- [x] OS\n- [ ] Parse Tree\n- [x] Package\n- [ ] Perl Community\n- [ ] pugs\n- [x] Regular Expression\n- [ ] Repository\n- [x] Scalar\n- [ ] Sigilless Variable\n- [ ] Stub\n- [ ] Syntax Analysis\n- [ ] token\n- [ ] value\n- [ ] Variable Interpolation\n- [ ] whitespace\n- [ ] 6model\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-07-21T00:14:31Z",
+  "created_at": "2016-06-22T21:31:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/622/comments",
+  "locked": false,
+  "title": "Some glossary terms have no description",
+  "id": 161791482,
+  "html_url": "https://github.com/perl6/doc/issues/622",
+  "closed_at": "2016-07-21T00:14:31Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/622/labels{/name}",
+  "number": 622,
+  "comments": 7,
+  "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/622/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/622"
+}

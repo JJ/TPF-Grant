@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2018-02-20T17:05:53Z",
+  "created_at": "2016-08-05T11:32:19Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/811/comments",
+  "locked": false,
+  "title": "pragma parameters is not implemented or documented",
+  "id": 169587952,
+  "html_url": "https://github.com/perl6/doc/issues/811",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/811/labels{/name}",
+  "number": 811,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "NOTSPECCED",
+      "id": 420092522,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/811/events",
+  "user": {
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "html_url": "https://github.com/tbrowder",
+    "id": 1039060,
+    "login": "tbrowder",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "url": "https://api.github.com/users/tbrowder"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/811"
+}

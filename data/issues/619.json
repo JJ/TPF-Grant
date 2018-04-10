@@ -1,0 +1,78 @@
+{
+  "body": "```\n16:41:54 * BrokenRobot wishes the docs did not use \"seems\" [ \"to work like ...\" | \"do this \" | \"etc. \" ]\n16:42:18 <BrokenRobot> Makes it sound like it's a guessing game and whoever wrote it doesn't have a clue\n```\n\nYes, I agree.\n## Current status\n\n```\ngrep -Ri --before 3 --after 3 'seems' *    # slightly filtered manually\n```\n\n```\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-Thankfully, C<$_> is the general default variable as in Perl 5. The\nLanguage/5to6-perlvar.pod:main difference in Perl 6 seems to be that you can now call methods on\nLanguage/5to6-perlvar.pod-it. For instance, Perl 5's C<say $_> can be rendered in Perl 6 as\nLanguage/5to6-perlvar.pod-C<$_.say>. Furthermore, as it is the default variable, you don't even\nLanguage/5to6-perlvar.pod-need to use the variable name. The previous example can also be\n--\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-%ENV has been replaced by %*ENV in Perl 6. Note that the keys of this hash may\nLanguage/5to6-perlvar.pod-not be exactly the same between Perl 5 and Perl 6. As of this writing, the\nLanguage/5to6-perlvar.pod:only difference seems to be that OLDPWD is missing from Perl 6's %ENV.\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-=item $OLD_PERL_VERSION\nLanguage/5to6-perlvar.pod-\n--\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-C<$/> now contains the match object, so the Perl 5 behavior of C<$&> can\nLanguage/5to6-perlvar.pod-be obtained by stringifying it, i. e. C<~$/>. C<$/.Str> also should\nLanguage/5to6-perlvar.pod:work, but C<~$/> seems to be the consensus preference.\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-=item ${^MATCH}\nLanguage/5to6-perlvar.pod-\n--\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-=item $^R\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod:S28 suggests C<$*LAST_REGEXP_CODE_RESULT>, but no variable seems to actually\nLanguage/5to6-perlvar.pod-exist yet.\nLanguage/5to6-perlvar.pod-\nLanguage/5to6-perlvar.pod-=item ${^RE_DEBUG_FLAGS}\n--\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=item chdir EXPR\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod:Seems to work as it does in Perl 5.\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=head2 chmod\nLanguage/5to6-perlfunc.pod-\n--\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=item evalbytes EXPR\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod:No longer seems to exist.\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=head2 exec\nLanguage/5to6-perlfunc.pod-\n--\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=item prototype FUNCTION\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod:No available in Perl 6. The closest equivalent seems to be\nLanguage/5to6-perlfunc.pod-C<.signature>. E. g. C<say &sprintf.signature> results in \"(Cool\nLanguage/5to6-perlfunc.pod-$format, *@args)\".\nLanguage/5to6-perlfunc.pod-\n--\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=item require VERSION\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod:Seems that C<require> may work for modules in Perl 6, but unclear if it\nLanguage/5to6-perlfunc.pod-will work with version numbers.\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=head2 reset\n--\nLanguage/5to6-perlfunc.pod-=item utime LIST\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-S32 says this is gone, and refers you to C<Path.times>. Unfortunately, there\nLanguage/5to6-perlfunc.pod:seems to be no sign of C<Path.times>. Perhaps there will be something in\nLanguage/5to6-perlfunc.pod-C<IO::Path>, but it is not currently evident.\nLanguage/5to6-perlfunc.pod-\nLanguage/5to6-perlfunc.pod-=head2 values\n--\nLanguage/5to6-perlop.pod-\nLanguage/5to6-perlop.pod-Works as you would expect. The caveat in Perl 5's perlop about C<**>\nLanguage/5to6-perlop.pod-binding more tightly than unary minus (i. e. \"-2**4\" evaluates as \"-(2**4)\"\nLanguage/5to6-perlop.pod:rather than \"(-2)**4)\") seems to hold true for Perl 6.\nLanguage/5to6-perlop.pod-\nLanguage/5to6-perlop.pod-=head2 Symbolic Unary Operators\nLanguage/5to6-perlop.pod-\n--\nLanguage/5to6-perlop.pod-\nLanguage/5to6-perlop.pod-The C<qr> operator is gone from Perl 6.\nLanguage/5to6-perlop.pod-\nLanguage/5to6-perlop.pod:C<tr///> is not well documented, but seems to work similarly to how it\nLanguage/5to6-perlop.pod-does in Perl 5. The one caveat is that ranges are specified differently.\nLanguage/5to6-perlop.pod-Instead of using a range \"a-z\", you would use \"a..z\", i. e. with Perl's\nLanguage/5to6-perlop.pod-range operator. C<tr///> has a method version, which is better\n--\nLanguage/modules.pod-    =end code\nLanguage/modules.pod-\nLanguage/modules.pod-Note, C<EXPORT> can't be declared inside a package because\nLanguage/modules.pod:presently Rakudo (2015.09) seems to treat C<EXPORT> as part of the\nLanguage/modules.pod-compunit rather than the package.\nLanguage/modules.pod-\nLanguage/modules.pod-Whereas C<UNIT::EXPORT> packages deal with the named parameters passed\n--\nType/IO/Notification.pod-\nType/IO/Notification.pod-The type of the change is very much dependent both on the platform and on\nType/IO/Notification.pod-specific system calls that were used initiate the change. At this point in\nType/IO/Notification.pod:time, relying on them seems to be a bad idea.\nType/IO/Notification.pod-\nType/IO/Notification.pod-=head1 Methods\nType/IO/Notification.pod-\n```\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "updated_at": "2016-12-02T18:14:54Z",
+  "created_at": "2016-06-21T13:47:44Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/619/comments",
+  "locked": false,
+  "title": "The word “seems” is overused",
+  "id": 161441455,
+  "html_url": "https://github.com/perl6/doc/issues/619",
+  "closed_at": "2016-12-02T18:14:54Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/619/labels{/name}",
+  "number": 619,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "efa0cd",
+      "name": "Hacktoberfest",
+      "id": 450843322,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/619/events",
+  "user": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/619"
+}

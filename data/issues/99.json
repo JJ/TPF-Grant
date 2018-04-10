@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/jnthn/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jnthn/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/jnthn/received_events",
+    "organizations_url": "https://api.github.com/users/jnthn/orgs",
+    "subscriptions_url": "https://api.github.com/users/jnthn/subscriptions",
+    "html_url": "https://github.com/jnthn",
+    "id": 50259,
+    "login": "jnthn",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/jnthn/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/jnthn/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/50259?v=4",
+    "starred_url": "https://api.github.com/users/jnthn/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/jnthn/followers",
+    "url": "https://api.github.com/users/jnthn"
+  },
+  "updated_at": "2015-06-28T20:14:55Z",
+  "created_at": "2015-06-28T19:54:58Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/99/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/99",
+    "diff_url": "https://github.com/perl6/doc/pull/99.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/99.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/99"
+  },
+  "locked": false,
+  "title": "fix typos",
+  "id": 91632189,
+  "html_url": "https://github.com/perl6/doc/pull/99",
+  "closed_at": "2015-06-28T20:14:55Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/99/labels{/name}",
+  "number": 99,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/99/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ghost/received_events",
+    "organizations_url": "https://api.github.com/users/ghost/orgs",
+    "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+    "html_url": "https://github.com/ghost",
+    "id": 10137,
+    "login": "ghost",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ghost/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+    "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ghost/followers",
+    "url": "https://api.github.com/users/ghost"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/99"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/labster/following{/other_user}",
+    "gists_url": "https://api.github.com/users/labster/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/labster/received_events",
+    "organizations_url": "https://api.github.com/users/labster/orgs",
+    "subscriptions_url": "https://api.github.com/users/labster/subscriptions",
+    "html_url": "https://github.com/labster",
+    "id": 108723,
+    "login": "labster",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/labster/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/labster/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/108723?v=4",
+    "starred_url": "https://api.github.com/users/labster/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/labster/followers",
+    "url": "https://api.github.com/users/labster"
+  },
+  "updated_at": "2015-04-20T23:15:45Z",
+  "created_at": "2015-04-20T22:53:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/74/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/74",
+    "diff_url": "https://github.com/perl6/doc/pull/74.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/74.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/74"
+  },
+  "locked": false,
+  "title": "Just a typo",
+  "id": 69698916,
+  "html_url": "https://github.com/perl6/doc/pull/74",
+  "closed_at": "2015-04-20T23:15:44Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/74/labels{/name}",
+  "number": 74,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/74/events",
+  "user": {
+    "following_url": "https://api.github.com/users/scriplit/following{/other_user}",
+    "gists_url": "https://api.github.com/users/scriplit/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/scriplit/received_events",
+    "organizations_url": "https://api.github.com/users/scriplit/orgs",
+    "subscriptions_url": "https://api.github.com/users/scriplit/subscriptions",
+    "html_url": "https://github.com/scriplit",
+    "id": 1150969,
+    "login": "scriplit",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/scriplit/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/scriplit/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1150969?v=4",
+    "starred_url": "https://api.github.com/users/scriplit/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/scriplit/followers",
+    "url": "https://api.github.com/users/scriplit"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/74"
+}

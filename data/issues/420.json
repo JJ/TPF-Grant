@@ -1,0 +1,71 @@
+{
+  "body": "Hi\nI added a missing semicolon in Hash page.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/azawawi/received_events",
+    "organizations_url": "https://api.github.com/users/azawawi/orgs",
+    "subscriptions_url": "https://api.github.com/users/azawawi/subscriptions",
+    "html_url": "https://github.com/azawawi",
+    "id": 82854,
+    "login": "azawawi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/azawawi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/azawawi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/82854?v=4",
+    "starred_url": "https://api.github.com/users/azawawi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/azawawi/followers",
+    "url": "https://api.github.com/users/azawawi"
+  },
+  "updated_at": "2016-03-13T23:00:45Z",
+  "created_at": "2016-03-13T05:26:29Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/420/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/420",
+    "diff_url": "https://github.com/perl6/doc/pull/420.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/420.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/420"
+  },
+  "locked": false,
+  "title": "Add a missing semicolon",
+  "id": 140450521,
+  "html_url": "https://github.com/perl6/doc/pull/420",
+  "closed_at": "2016-03-13T06:10:44Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/420/labels{/name}",
+  "number": 420,
+  "comments": 2,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/420/events",
+  "user": {
+    "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/titsuki/received_events",
+    "organizations_url": "https://api.github.com/users/titsuki/orgs",
+    "subscriptions_url": "https://api.github.com/users/titsuki/subscriptions",
+    "html_url": "https://github.com/titsuki",
+    "id": 6792051,
+    "login": "titsuki",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/titsuki/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/titsuki/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6792051?v=4",
+    "starred_url": "https://api.github.com/users/titsuki/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/titsuki/followers",
+    "url": "https://api.github.com/users/titsuki"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/420"
+}

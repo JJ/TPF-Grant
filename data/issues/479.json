@@ -1,0 +1,71 @@
+{
+  "body": "Defining Operators > Precedence\nhttps://doc.perl6.org/language/functions#Precedence\n\nSample output:\nsay 1 + 2 \\* 3 !! 4;     # 29\n\nCorrect output is 1 + ((2 \\* 3) !! 4)\n= 1 + (6 !! 4)\n= 1 + (2 \\* (6 + 4))\n= 1 + (2 \\* 10)\n= 21\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "html_url": "https://github.com/AlexDaniel",
+    "id": 5507503,
+    "login": "AlexDaniel",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "url": "https://api.github.com/users/AlexDaniel"
+  },
+  "updated_at": "2016-06-24T22:39:33Z",
+  "created_at": "2016-05-01T00:07:56Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/479/comments",
+  "locked": false,
+  "title": "sample output typo in Language/functions.pod",
+  "id": 152060188,
+  "html_url": "https://github.com/perl6/doc/issues/479",
+  "closed_at": "2016-05-11T16:26:49Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/479/labels{/name}",
+  "number": 479,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/479/events",
+  "user": {
+    "following_url": "https://api.github.com/users/nd3i/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nd3i/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/nd3i/received_events",
+    "organizations_url": "https://api.github.com/users/nd3i/orgs",
+    "subscriptions_url": "https://api.github.com/users/nd3i/subscriptions",
+    "html_url": "https://github.com/nd3i",
+    "id": 18378368,
+    "login": "nd3i",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/nd3i/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/nd3i/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18378368?v=4",
+    "starred_url": "https://api.github.com/users/nd3i/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/nd3i/followers",
+    "url": "https://api.github.com/users/nd3i"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/479"
+}

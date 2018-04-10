@@ -1,0 +1,85 @@
+{
+  "body": "Imagine a `/language/faq-why.pod` doc page with a section header defined as:\n\n```\n=head2 Why sigils? Couldn't you do without them?\n```\n\nAnd now consider the following two URLs:\n\n```\nhttp://doc.perl6.org/language/faq-why#Why_sigils%3F_Couldn%27t_you_do_without_them%3F\n\nhttp://doc.perl6.org/language/faq-why#sigils\n```\n\nThe first is how the section would have to be linked to, the way things are now. The second is how I would like it to be.\n\nObviously, this would require some kind of markup in the POD to specify the desired ID. Maybe something along the lines of:\n\n```\n=head2 :id<sigils> Why sigils? Couldn't you do without them?\n```\n\n...but I don't know enough about the POD6 format to know whether that syntax even makes sense, or what the right approach would be.\n\nComments / suggestions?\n\nPS: Since p6doc simply lets Rakudo parse the .pod files, we can't just invent syntax willy-nilly. It has to somehow hook into the features that the POD6 format officially provides.\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-03-28T07:58:21Z",
+  "created_at": "2015-08-05T20:59:47Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/111/comments",
+  "locked": false,
+  "title": "Let POD editors define custom section IDs to be used in URLs",
+  "id": 99297952,
+  "html_url": "https://github.com/perl6/doc/issues/111",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/111/labels{/name}",
+  "number": 111,
+  "comments": 16,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/111/events",
+  "user": {
+    "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/smls/received_events",
+    "organizations_url": "https://api.github.com/users/smls/orgs",
+    "subscriptions_url": "https://api.github.com/users/smls/subscriptions",
+    "html_url": "https://github.com/smls",
+    "id": 3093580,
+    "login": "smls",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/smls/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/smls/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3093580?v=4",
+    "starred_url": "https://api.github.com/users/smls/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/smls/followers",
+    "url": "https://api.github.com/users/smls"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/111"
+}
