@@ -42,21 +42,21 @@ my @nodes = $names.keys.map: {%(name => $^þ,
 				group => %creation-ratio{$^þ} > 0.5 ?? "Creator" !! "Closer") };
 my %inverse-mapping;
 
+say "*Vertices ", @nodes.elems;
+
 for @nodes.kv -> $idx, $val {
-    %inverse-mapping{$val<name>} = $idx;
+    my $n = $idx + 1;
+    %inverse-mapping{$val<name>} = $n;
+    say "$n \"$val<name>\" $val<group>";
 }
 
-my %output = %( nodes => @nodes,
-		links => [] );
-
+say "*arcs";
 for %links.kv -> $key, $links {
     for $links.kv -> $target, $value {
-	%output<links>.push: %( source => %inverse-mapping{$key},
-				target => %inverse-mapping{$target},
-				value => $value );
+	say "%inverse-mapping{$key} %inverse-mapping{$target} $value ";
     }
 }
 
-say to-json %output;
+
 
 

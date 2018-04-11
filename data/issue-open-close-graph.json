@@ -1,508 +1,676 @@
 {
   "nodes": [
     {
-      "name": "molecules"
+      "name": "molecules",
+      "group": "Creator"
     },
     {
-      "name": "holli-holzer"
+      "name": "holli-holzer",
+      "group": "Creator"
     },
     {
-      "name": "patzim"
+      "name": "patzim",
+      "group": "Closer"
     },
     {
-      "name": "callyalater"
+      "name": "callyalater",
+      "group": "Creator"
     },
     {
-      "name": "ab5tract"
+      "name": "ab5tract",
+      "group": "Creator"
     },
     {
-      "name": "jstuder-gh"
+      "name": "jstuder-gh",
+      "group": "Creator"
     },
     {
-      "name": "shadowcat-mst"
+      "name": "shadowcat-mst",
+      "group": "Closer"
     },
     {
-      "name": "niner"
+      "name": "niner",
+      "group": "Closer"
     },
     {
-      "name": "0"
+      "name": "0",
+      "group": "Creator"
     },
     {
-      "name": "xfix"
+      "name": "xfix",
+      "group": "Closer"
     },
     {
-      "name": "smls"
+      "name": "smls",
+      "group": "Creator"
     },
     {
-      "name": "nxadm"
+      "name": "nxadm",
+      "group": "Creator"
     },
     {
-      "name": "gfldex"
+      "name": "gfldex",
+      "group": "Creator"
     },
     {
-      "name": "uvtc"
+      "name": "uvtc",
+      "group": "Creator"
     },
     {
-      "name": "Sgeo"
+      "name": "Sgeo",
+      "group": "Creator"
     },
     {
-      "name": "dmaestro"
+      "name": "dmaestro",
+      "group": "Creator"
     },
     {
-      "name": "Tyil"
+      "name": "Tyil",
+      "group": "Closer"
     },
     {
-      "name": "ybj2004"
+      "name": "ybj2004",
+      "group": "Creator"
     },
     {
-      "name": "saito-ta"
+      "name": "saito-ta",
+      "group": "Creator"
     },
     {
-      "name": "con-mo8"
+      "name": "con-mo8",
+      "group": "Creator"
     },
     {
-      "name": "kjkuan"
+      "name": "kjkuan",
+      "group": "Creator"
     },
     {
-      "name": "rafaelschipiura"
+      "name": "rafaelschipiura",
+      "group": "Closer"
     },
     {
-      "name": "dwarring"
+      "name": "dwarring",
+      "group": "Closer"
     },
     {
-      "name": "ahalbert"
+      "name": "ahalbert",
+      "group": "Creator"
     },
     {
-      "name": "avuserow"
+      "name": "avuserow",
+      "group": "Creator"
     },
     {
-      "name": "finanalyst"
+      "name": "finanalyst",
+      "group": "Creator"
     },
     {
-      "name": "VynceMontgomery"
+      "name": "VynceMontgomery",
+      "group": "Creator"
     },
     {
-      "name": "ronaldxs"
+      "name": "ronaldxs",
+      "group": "Creator"
     },
     {
-      "name": "moritz"
+      "name": "moritz",
+      "group": "Closer"
     },
     {
-      "name": "7ojo"
+      "name": "7ojo",
+      "group": "Closer"
     },
     {
-      "name": "Gnouc"
+      "name": "Gnouc",
+      "group": "Creator"
     },
     {
-      "name": "manchicken"
+      "name": "manchicken",
+      "group": "Creator"
     },
     {
-      "name": "ShaneKilkelly"
+      "name": "ShaneKilkelly",
+      "group": "Creator"
     },
     {
-      "name": "flexibeast"
+      "name": "flexibeast",
+      "group": "Creator"
     },
     {
-      "name": "nicqrocks"
+      "name": "nicqrocks",
+      "group": "Creator"
     },
     {
-      "name": "bazzaar"
+      "name": "bazzaar",
+      "group": "Creator"
     },
     {
-      "name": "maettu"
+      "name": "maettu",
+      "group": "Creator"
     },
     {
-      "name": "robertlemmen"
+      "name": "robertlemmen",
+      "group": "Closer"
     },
     {
-      "name": "djgoku"
+      "name": "djgoku",
+      "group": "Creator"
     },
     {
-      "name": "0racle"
+      "name": "0racle",
+      "group": "Creator"
     },
     {
-      "name": "jecki"
+      "name": "jecki",
+      "group": "Creator"
     },
     {
-      "name": "scmorrison"
+      "name": "scmorrison",
+      "group": "Creator"
     },
     {
-      "name": "WildYorkies"
+      "name": "WildYorkies",
+      "group": "Creator"
     },
     {
-      "name": "hankache"
+      "name": "hankache",
+      "group": "Creator"
     },
     {
-      "name": "kalkin"
+      "name": "kalkin",
+      "group": "Creator"
     },
     {
-      "name": "jalbertcruz"
+      "name": "jalbertcruz",
+      "group": "Creator"
     },
     {
-      "name": "MorayJ"
+      "name": "MorayJ",
+      "group": "Creator"
     },
     {
-      "name": "hoelzro"
+      "name": "hoelzro",
+      "group": "Creator"
     },
     {
-      "name": "jonathanstowe"
+      "name": "jonathanstowe",
+      "group": "Closer"
     },
     {
-      "name": "pmichaud"
+      "name": "pmichaud",
+      "group": "Creator"
     },
     {
-      "name": "kmetcalf"
+      "name": "kmetcalf",
+      "group": "Creator"
     },
     {
-      "name": "masak"
+      "name": "masak",
+      "group": "Creator"
     },
     {
-      "name": "kybr"
+      "name": "kybr",
+      "group": "Closer"
     },
     {
-      "name": "dha"
+      "name": "dha",
+      "group": "Creator"
     },
     {
-      "name": "toolforger"
+      "name": "toolforger",
+      "group": "Creator"
     },
     {
-      "name": "jnthn"
+      "name": "jnthn",
+      "group": "Closer"
     },
     {
-      "name": "tirkarthi"
+      "name": "tirkarthi",
+      "group": "Creator"
     },
     {
-      "name": "rightfold"
+      "name": "rightfold",
+      "group": "Creator"
     },
     {
-      "name": "dnmfarrell"
+      "name": "dnmfarrell",
+      "group": "Closer"
     },
     {
-      "name": "thormick"
+      "name": "thormick",
+      "group": "Creator"
     },
     {
-      "name": "coke"
+      "name": "coke",
+      "group": "Closer"
     },
     {
-      "name": "zengargoyle"
+      "name": "zengargoyle",
+      "group": "Creator"
     },
     {
-      "name": "W4anD0eR96"
+      "name": "W4anD0eR96",
+      "group": "Closer"
     },
     {
-      "name": "timo"
+      "name": "timo",
+      "group": "Creator"
     },
     {
-      "name": "muraiki"
+      "name": "muraiki",
+      "group": "Creator"
     },
     {
-      "name": "Zhtwn"
+      "name": "Zhtwn",
+      "group": "Creator"
     },
     {
-      "name": "grizzlysmit"
+      "name": "grizzlysmit",
+      "group": "Creator"
     },
     {
-      "name": "Juerd"
+      "name": "Juerd",
+      "group": "Creator"
     },
     {
-      "name": "tokuhirom"
+      "name": "tokuhirom",
+      "group": "Creator"
     },
     {
-      "name": "ZzZombo"
+      "name": "ZzZombo",
+      "group": "Creator"
     },
     {
-      "name": "cschwenz"
+      "name": "cschwenz",
+      "group": "Creator"
     },
     {
-      "name": "lefth"
+      "name": "lefth",
+      "group": "Creator"
     },
     {
-      "name": "vendethiel"
+      "name": "vendethiel",
+      "group": "Closer"
     },
     {
-      "name": "anopperl"
+      "name": "anopperl",
+      "group": "Creator"
     },
     {
-      "name": "raiph"
+      "name": "raiph",
+      "group": "Creator"
     },
     {
-      "name": "lizmat"
+      "name": "lizmat",
+      "group": "Closer"
     },
     {
-      "name": "book"
+      "name": "book",
+      "group": "Creator"
     },
     {
-      "name": "ccworld1000"
+      "name": "ccworld1000",
+      "group": "Creator"
     },
     {
-      "name": "teodozjan"
+      "name": "teodozjan",
+      "group": "Creator"
     },
     {
-      "name": "athos-ribeiro"
+      "name": "athos-ribeiro",
+      "group": "Creator"
     },
     {
-      "name": "kanatohodets"
+      "name": "kanatohodets",
+      "group": "Creator"
     },
     {
-      "name": "xiaq"
+      "name": "xiaq",
+      "group": "Creator"
     },
     {
-      "name": "COMBORICO"
+      "name": "COMBORICO",
+      "group": "Creator"
     },
     {
-      "name": "nkh"
+      "name": "nkh",
+      "group": "Creator"
     },
     {
-      "name": "benignbala"
+      "name": "benignbala",
+      "group": "Creator"
     },
     {
-      "name": "syohex"
+      "name": "syohex",
+      "group": "Creator"
     },
     {
-      "name": "ggoebel"
+      "name": "ggoebel",
+      "group": "Creator"
     },
     {
-      "name": "JJ"
+      "name": "JJ",
+      "group": "Closer"
     },
     {
-      "name": "muixirt"
+      "name": "muixirt",
+      "group": "Creator"
     },
     {
-      "name": "cfa"
+      "name": "cfa",
+      "group": "Creator"
     },
     {
-      "name": "jimav"
+      "name": "jimav",
+      "group": "Creator"
     },
     {
-      "name": "LLFourn"
+      "name": "LLFourn",
+      "group": "Creator"
     },
     {
-      "name": "CurtTilmes"
+      "name": "CurtTilmes",
+      "group": "Creator"
     },
     {
-      "name": "geekosaur"
+      "name": "geekosaur",
+      "group": "Creator"
     },
     {
-      "name": "FCO"
+      "name": "FCO",
+      "group": "Creator"
     },
     {
-      "name": "ugexe"
+      "name": "ugexe",
+      "group": "Closer"
     },
     {
-      "name": "tushardave26"
+      "name": "tushardave26",
+      "group": "Creator"
     },
     {
-      "name": "labster"
+      "name": "labster",
+      "group": "Creator"
     },
     {
-      "name": "bnoordhuis"
+      "name": "bnoordhuis",
+      "group": "Creator"
     },
     {
-      "name": "garu"
+      "name": "garu",
+      "group": "Creator"
     },
     {
-      "name": "gmichokostas"
+      "name": "gmichokostas",
+      "group": "Creator"
     },
     {
-      "name": "GeJ"
+      "name": "GeJ",
+      "group": "Creator"
     },
     {
-      "name": "vytas-dauksa"
+      "name": "vytas-dauksa",
+      "group": "Creator"
     },
     {
-      "name": "pstuifzand"
+      "name": "pstuifzand",
+      "group": "Creator"
     },
     {
-      "name": "fluca1978"
+      "name": "fluca1978",
+      "group": "Closer"
     },
     {
-      "name": "dugword"
+      "name": "dugword",
+      "group": "Creator"
     },
     {
-      "name": "drforr"
+      "name": "drforr",
+      "group": "Creator"
     },
     {
-      "name": "sjn"
+      "name": "sjn",
+      "group": "Creator"
     },
     {
-      "name": "dmc00"
+      "name": "dmc00",
+      "group": "Creator"
     },
     {
-      "name": "jdv"
+      "name": "jdv",
+      "group": "Creator"
     },
     {
-      "name": "samcv"
+      "name": "samcv",
+      "group": "Closer"
     },
     {
-      "name": "treyharris"
+      "name": "treyharris",
+      "group": "Closer"
     },
     {
-      "name": "faraco"
+      "name": "faraco",
+      "group": "Creator"
     },
     {
-      "name": "aluaces"
+      "name": "aluaces",
+      "group": "Creator"
     },
     {
-      "name": "Gavlooth"
+      "name": "Gavlooth",
+      "group": "Creator"
     },
     {
-      "name": "colomon"
+      "name": "colomon",
+      "group": "Creator"
     },
     {
-      "name": "dfhoughton"
+      "name": "dfhoughton",
+      "group": "Creator"
     },
     {
-      "name": "ungrim97"
+      "name": "ungrim97",
+      "group": "Creator"
     },
     {
-      "name": "vadz"
+      "name": "vadz",
+      "group": "Creator"
     },
     {
-      "name": "MARTIMM"
+      "name": "MARTIMM",
+      "group": "Creator"
     },
     {
-      "name": "jkramer"
+      "name": "jkramer",
+      "group": "Creator"
     },
     {
-      "name": "ufobat"
+      "name": "ufobat",
+      "group": "Creator"
     },
     {
-      "name": "paultcochrane"
+      "name": "paultcochrane",
+      "group": "Closer"
     },
     {
-      "name": "zakame"
+      "name": "zakame",
+      "group": "Creator"
     },
     {
-      "name": "stmuk"
+      "name": "stmuk",
+      "group": "Closer"
     },
     {
-      "name": "AlexDaniel"
+      "name": "AlexDaniel",
+      "group": "Creator"
     },
     {
-      "name": "Altai-man"
+      "name": "Altai-man",
+      "group": "Closer"
     },
     {
-      "name": "swuecho"
+      "name": "swuecho",
+      "group": "Creator"
     },
     {
-      "name": "skaji"
+      "name": "skaji",
+      "group": "Creator"
     },
     {
-      "name": "payerle"
+      "name": "payerle",
+      "group": "Creator"
     },
     {
-      "name": "awwaiid"
+      "name": "awwaiid",
+      "group": "Closer"
     },
     {
-      "name": "titsuki"
+      "name": "titsuki",
+      "group": "Creator"
     },
     {
-      "name": "prammer"
+      "name": "prammer",
+      "group": "Creator"
     },
     {
-      "name": "prodotiscus"
+      "name": "prodotiscus",
+      "group": "Creator"
     },
     {
-      "name": "tommystanton"
+      "name": "tommystanton",
+      "group": "Creator"
     },
     {
-      "name": "zostay"
+      "name": "zostay",
+      "group": "Creator"
     },
     {
-      "name": "MasterDuke17"
+      "name": "MasterDuke17",
+      "group": "Creator"
     },
     {
-      "name": "pwr22"
+      "name": "pwr22",
+      "group": "Creator"
     },
     {
-      "name": "legrady"
+      "name": "legrady",
+      "group": "Creator"
     },
     {
-      "name": "denis-beurive"
+      "name": "denis-beurive",
+      "group": "Closer"
     },
     {
-      "name": "briandfoy"
+      "name": "briandfoy",
+      "group": "Creator"
     },
     {
-      "name": "ethus3h"
+      "name": "ethus3h",
+      "group": "Creator"
     },
     {
-      "name": "bbkr"
+      "name": "bbkr",
+      "group": "Creator"
     },
     {
-      "name": "sfischer13"
+      "name": "sfischer13",
+      "group": "Creator"
     },
     {
-      "name": "flussence"
+      "name": "flussence",
+      "group": "Creator"
     },
     {
-      "name": "tbrowder"
+      "name": "tbrowder",
+      "group": "Creator"
     },
     {
-      "name": "FROGGS"
+      "name": "FROGGS",
+      "group": "Closer"
     },
     {
-      "name": "LenW2"
+      "name": "LenW2",
+      "group": "Creator"
     },
     {
-      "name": "akimd"
+      "name": "akimd",
+      "group": "Creator"
     },
     {
-      "name": "dogbert17"
+      "name": "dogbert17",
+      "group": "Closer"
     },
     {
-      "name": "Mouq"
+      "name": "Mouq",
+      "group": "Closer"
     },
     {
-      "name": "antquinonez"
+      "name": "antquinonez",
+      "group": "Creator"
     },
     {
-      "name": "ghost"
+      "name": "ghost",
+      "group": "Creator"
     },
     {
-      "name": "Bowlslaw"
+      "name": "Bowlslaw",
+      "group": "Closer"
     },
     {
-      "name": "perlpilot"
+      "name": "perlpilot",
+      "group": "Closer"
     },
     {
-      "name": "zoffixznet"
+      "name": "zoffixznet",
+      "group": "Closer"
     },
     {
-      "name": "shlomif"
+      "name": "shlomif",
+      "group": "Creator"
     },
     {
-      "name": "szabgab"
+      "name": "szabgab",
+      "group": "Creator"
     },
     {
-      "name": "mienaikage"
+      "name": "mienaikage",
+      "group": "Creator"
     },
     {
-      "name": "bduggan"
+      "name": "bduggan",
+      "group": "Creator"
     },
     {
-      "name": "lancew"
+      "name": "lancew",
+      "group": "Creator"
     },
     {
-      "name": "grimnebulin"
+      "name": "grimnebulin",
+      "group": "Creator"
     },
     {
-      "name": "the-eater"
+      "name": "the-eater",
+      "group": "Creator"
     },
     {
-      "name": "shinobi"
+      "name": "shinobi",
+      "group": "Closer"
     },
     {
-      "name": "adaptiveoptics"
+      "name": "adaptiveoptics",
+      "group": "Closer"
     },
     {
-      "name": "gdonald"
+      "name": "gdonald",
+      "group": "Creator"
     },
     {
-      "name": "mdinger"
+      "name": "mdinger",
+      "group": "Creator"
     },
     {
-      "name": "ilmari"
+      "name": "ilmari",
+      "group": "Creator"
     }
   ],
   "links": [
