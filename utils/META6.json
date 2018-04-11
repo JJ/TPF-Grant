@@ -7,7 +7,12 @@
     "description"   : "GitHub API",
     "depends"       : [ "WebService::GitHub",
 			"MIME::Base64",
-			"URI", "IO::Socket::SSL", "HTTP::UserAgent", "JSON::Fast", "Cache::LRU" ],
+			"URI", "IO::Socket::SSL",
+			"HTTP::UserAgent",
+			"JSON::Fast",
+			"Cache::LRU",
+			"JSON::Fast",
+			"IO::Glob"],
     "provides" : {},
     "source-url"    : "git://github.com/JJ/TPF-Grant.git",
     "test-depends" : [ "Test::META" ]
