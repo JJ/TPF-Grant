@@ -17,10 +17,10 @@ for glob("../data/issues/[1-9]*.json") -> $file {
 	    say .backtrace;
 	}
     }
-    my $creator = $data<user><login>;
-    $names ∪= $creator;
-    %links{$creator} = %() if ! %links{$creator};
     if $data<closed_by> {
+	my $creator = $data<user><login>;
+	$names ∪= $creator;
+	%links{$creator} = %() if ! %links{$creator};
 	my $closer = $data<closed_by><login>;
 	$names ∪= $closer;
 	%links{$creator}{$closer}++;
