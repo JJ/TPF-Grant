@@ -1,4 +1,10 @@
 library(ggplot2)
-
+library(ggthemes)
+library(lubridate)
+library(dplyr)
 builds <- read.csv("../data/builds-travis.csv")
 builds.date <- setNames( data.frame(table(as.Date(builds$Date, "%Y-%m-%d"))),c("Date","Builds"))
+builds.day <- aggregate(builds.date["Builds"],by=builds.date["Date"],sum)
+builds.day$Date <- as.Date(builds.day$Date)
+ggplot(builds.day,aes(x=Date,y=Builds,group=1))+geom_line()+ theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
+builds.month <-  builds.day %>% group_by(month=floor_date(Date, "month")) %>% summarize(amount=sum(Builds))
