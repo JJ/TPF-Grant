@@ -14,25 +14,26 @@ library(ggthemes)
 issues <- read.csv("../data/issues.csv")
 opens.gt.1 <- issues[issues$created_by %in%  names( table(issues$created_by)[table(issues$created_by) > 1]),]
 closes.gt.1 <- issues[issues$closer %in%  names( table(issues$closer)[table(issues$closer) > 1]),]
+issues$author_association <- as.factor(issues$author_association)
 closes.gt.1 <- closes.gt.1[closes.gt.1$state == " closed",]
 ```
 
-## R Markdown
+# Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Perl 6  [@randal2004perl,@randal2004perl,@lenzperl] is a language whose development started earlier in this century and was released as a production ready system by Christmas 2015. It is an interpreted language with two parts, a virtual machine which supports and abstracts all basic functionalities in the language, and which so far includes an original virtual machine, MoarVM, as well as JVM, and a compiler for that virtual machine, currently called [Rakudo](https://rakudo.org). It is got a fast development cycle, with monthly releases.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+For the purposes of this report, an interesting feature of Perl 6 is that its development is entirely voluntary-based. The Perl Foundation is the organizm in charge of supporting it, but there are very few, if any, full time developers working on it, or for that matter the documentation. That makes it an interesting case on free software development, all by itself.
 
-```{r cars}
-summary(cars)
-```
+Documentation is not, per se, part of the core of a language, however it is an essential feature to attract new users and keep existing users. Bad or non-existing documentation will substract users, or simply not attract them. Usually, however, it is not the first thing that pops into one's head when one want to devote resources to it. Not even volunteer developers. Perl 6, however, has considered it from the beginning a first-class citizen. The scarcity of resources and its cyclic nature has made the result uneven in frequency, if not in quality.
 
-## Including Plots
+In this repor we will try to visualize the behavior of the community, and how the repository has behaved across time. 
 
-You can also embed plots, for example:
+# Who posts issues
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+One of the interesting things to see is who, effectively, posts issues. There are links to do that from every documentation page; however, are new users who find some problem encouraged to actually post it or are perl 6 developers mainly who do that?
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r issuers,echo=FALSE}
+ggplot(issues,aes(x=author_association,fill=state))+geom_bar() 
+``` 
+# References
