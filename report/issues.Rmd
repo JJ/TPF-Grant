@@ -31,9 +31,17 @@ In this repor we will try to visualize the behavior of the community, and how th
 # Who posts issues
 
 One of the interesting things to see is who, effectively, posts issues. There are links to do that from every documentation page; however, are new users who find some problem encouraged to actually post it or are perl 6 developers mainly who do that?
-
+Well try to find that out below, plotting the number of issues per kind of user and how they are doing. 
 
 ```{r issuers,echo=FALSE}
 ggplot(issues,aes(x=author_association,fill=state))+geom_bar() 
 ``` 
+At the same time, we also plot whether those issues are open or closed. First thing that stands out is that the `NONE` category is the smallest, with very few issues, most of them are closed. `NONE` includes users that have no other role in the repository, and it is quite clear from this that they are a slim minority. However, users with no association to the repository can become `CONTRIBUTOR`s once they create a pull request which is accepted; that is the second category, with close to 200 issues. Of course, the repository owner and members with write privileges constitute the vast majority. 
+This probably means that most users who care enough to report issues are already inside the community of Perl 6 developers, or have eventually integrated into it. We are a very open community, so that might be a good thing. But that eventually talks more about the size of the community of developers integrated in the Perl 6 repos as compared with the total community of developers. It is a snapshot of a situation in the early stages of the release, anyhow. 
+Let us look at the same chart in a different way. 
+```{r staters,echo=FALSE}
+ggplot(issues,aes(x=state,fill=author_association))+geom_bar(position="fill") 
+``` 
+What we see here are very slight differences in percentages of issues open or closed depending on the contributor. Basically it is telling us that `OWNER`-created issues tend to form a bigger percentage of open than closed issues; in other words, issues from owners are slightly more likely to stay open, at least if you look at it statically.
+
 # References
