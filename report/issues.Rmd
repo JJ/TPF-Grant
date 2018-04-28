@@ -25,7 +25,7 @@ closed.issues$duration <- closed.issues$closed_at - closed.issues$created_at
 
 # Introduction
 
-Perl 6  [@randal2004perl,@randal2004perl,@lenzperl] is a language whose development started earlier in this century and was released as a production ready system by Christmas 2015. It is an interpreted language with two parts, a virtual machine which supports and abstracts all basic functionalities in the language, and which so far includes an original virtual machine, MoarVM, as well as JVM, and a compiler for that virtual machine, currently called [Rakudo](https://rakudo.org). It is got a fast development cycle, with monthly releases.
+Perl 6  [@randal2004perl,@tang2007perl,@lenzperl] is a language whose development started earlier in this century and was released as a production ready system by Christmas 2015. It is an interpreted language with two parts, a virtual machine which supports and abstracts all basic functionalities in the language, and which so far includes an original virtual machine, MoarVM, as well as JVM, and a compiler for that virtual machine, currently called [Rakudo](https://rakudo.org). It is got a fast development cycle, with monthly releases.
 
 For the purposes of this report, an interesting feature of Perl 6 is that its development is entirely voluntary-based. The Perl Foundation is the organizm in charge of supporting it, but there are very few, if any, full time developers working on it, or for that matter the documentation. That makes it an interesting case on free software development, all by itself.
 
@@ -63,5 +63,12 @@ This histogram shows that most issues are solved straight away, in the very firs
 ggplot(closed.issues,aes(x=transformed))+geom_point(stat='count')+scale_x_log10()+scale_y_log10()
 ``` 
 This chart, that represents in abscises the number of days and in the `y` axis the number of issues taking those number of days, shows a power law. The bigger the number of days, the less frequent it is, but it also exhibits a long tail, with issues with many days creating it. This *long tail* has already been observed in other software projects [@dalle2007different], and is explained by the existence of *superbugs* and different *fixing regimes*, but also to the fact that in many case fixing one issue leads to discovering other similar issues, be it in the same file or with similar nature, and to fix them too. The fact that in this case the repository is mostly text does not change the behavior, which is thus confirmed in the case of the Perl 6 documentation repository. It might be the case that the bugs that take longer have a different nature, but that will be the object of other report. 
+
+# Issue creation frequency
+
+```{r duration2,echo=FALSE,message=FALSE}
+issues$creationMonth <- as.Date(cut(issues$created_at, breaks="month"))
+ggplot(issues,aes(x=creationMonth,fill=state))+geom_bar(stat='count')
+``` 
 
 # References
