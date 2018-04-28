@@ -49,4 +49,13 @@ ggplot(issues,aes(x=state,fill=author_association))+geom_bar(position="fill")
 ``` 
 What we see here are very slight differences in percentages of issues open or closed depending on the contributor. Basically it is telling us that `OWNER`-created issues tend to form a bigger percentage of open than closed issues; in other words, issues from owners are slightly more likely to stay open, at least if you look at it statically.
 
+# Time to response.
+
+Another interesting metric is how long issues tend to stay open. This number is expected to be high, since at any one particular moment there might be around one quarter of all issues created open, but the distribution of durations might tell us more about the dynamics of the repository.
+```{r duration,echo=FALSE,message=FALSE}
+duration.summary <- summary(as.numeric(closed.issues$duration))
+closed.issues$duration = as.numeric(closed.issues$duration)
+ggplot(closed.issues,aes(x=duration))+geom_histogram()+scale_x_log10()
+``` 
+This histogram shows that most issues are solved straight away, in the very first day. However, there are a few issues that take a long time. There is a small bump around one year and even a few that take more than 3 years. The median duration is `r duration.summary['Median']`; that is the number of days needed to fix 50% of the issues. The average is higher, `r duration.summary['Mean']`, due to the highly skewed distribution. And that highly skewed distribution is aso a problem. 25% of the issues take longer than `r duration.summary['3rd Qu.']` to be closed. That is why, also, at any given time, there is more or less around the same number lingering as not closed in the repository.
 # References
