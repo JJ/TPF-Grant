@@ -16,6 +16,11 @@ opens.gt.1 <- issues[issues$created_by %in%  names( table(issues$created_by)[tab
 closes.gt.1 <- issues[issues$closer %in%  names( table(issues$closer)[table(issues$closer) > 1]),]
 issues$author_association <- as.factor(issues$author_association)
 closes.gt.1 <- closes.gt.1[closes.gt.1$state == " closed",]
+issues$created_at <- as.Date(issues$created_at)
+issues$closed_at <- as.Date(issues$closed_at)
+closed.issues <- issues[issues$state == ' closed',]
+closed.issues$duration <- closed.issues$closed_at - closed.issues$created_at
+
 ```
 
 # Introduction
