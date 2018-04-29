@@ -33,6 +33,27 @@ Documentation is not, per se, part of the core of a language, however it is an e
 
 In this repor we will try to visualize the behavior of the community, and how the repository has behaved across time. 
 
+# How many issues are there
+
+What prompted me to apply for the grant was the number of open issues in the repository. There were close to 300, and the number seemed to be increasing. This is by no means unusual, even in managed projects. Besides, the nature of issues, which are never critical, invites to postpone them, so they tend to crop up to a certain number. The problem is that beyond a certain number of issues, duplicates are inevitable, and prioritization is complicated, with the latest issues becoming more attractive for fixing than anything else. But here is how the number of issues evolved in time, to the situation roughly around the time the grant was started.
+
+```{r timeline,echo=FALSE}
+issues.t <- read.csv("../data/issues-timeline.csv")
+
+issues.t$Time <- as.Date(issues.t$Time)
+ggplot(issues.t, aes(x=Time,y=Open.Issues))+geom_line()+theme_tufte()
+``` 
+
+We can observe an approximately stable situation until mid-2016, when the number of issues starts to scalate until it reaches the current situation of around 260 open issues. Some dips in the number of issues match the [monthly bug squash day](https://github.com/rakudo/rakudo/wiki/Monthly-Bug-Squash-Day), which every two months is devoted to this repository. However important, these bug-squash days take the open issue situation one month back, approximately. 
+
+This situation is obviously due to the fact that more issues are created than closed. Below is the number of issues created per month and its current situation.
+
+```{r issuecreation,echo=FALSE,message=FALSE}
+issues$creationMonth <- as.Date(cut(issues$created_at, breaks="month"))
+ggplot(issues,aes(x=creationMonth,fill=state))+geom_bar(stat='count')
+``` 
+
+There is no clear trend here, although in general, several issues are open every day, with some months having more than 100 issues open. This roughly corresponds with usage of the language: as the language increases its popularity, so people go to the site and report issues. The fact that usage, or at least issue creation, is not matched by the same number of colaborators in the repository causes this imbalance and the number of issues to grow.
 # Who posts issues
 
 One of the interesting things to see is who, effectively, posts issues. There are links to do that from every documentation page; however, are new users who find some problem encouraged to actually post it or are perl 6 developers mainly who do that?
@@ -64,11 +85,12 @@ ggplot(closed.issues,aes(x=transformed))+geom_point(stat='count')+scale_x_log10(
 ``` 
 This chart, that represents in abscises the number of days and in the `y` axis the number of issues taking those number of days, shows a power law. The bigger the number of days, the less frequent it is, but it also exhibits a long tail, with issues with many days creating it. This *long tail* has already been observed in other software projects [@dalle2007different], and is explained by the existence of *superbugs* and different *fixing regimes*, but also to the fact that in many case fixing one issue leads to discovering other similar issues, be it in the same file or with similar nature, and to fix them too. The fact that in this case the repository is mostly text does not change the behavior, which is thus confirmed in the case of the Perl 6 documentation repository. It might be the case that the bugs that take longer have a different nature, but that will be the object of other report. 
 
-# Issue creation frequency
+# Conclusions
 
-```{r duration2,echo=FALSE,message=FALSE}
-issues$creationMonth <- as.Date(cut(issues$created_at, breaks="month"))
-ggplot(issues,aes(x=creationMonth,fill=state))+geom_bar(stat='count')
-``` 
+This is an initial data analysis of the dynamics in the [Perl 6 documentation repository](https://github.com/perl6/doc) and its situation until the beginning of April 2018. It is a completely volunteer-based repository, with most people helping in their spare time. Even so, it has got a high degree of completion of issues. 
+
+Most repositories show some kind of emergent, power-law behavior [@merelo16self,merelo17vue,DBLP:conf/ecal/]; this power law behavior, which had already been observed by other researchers, appears also in the time-to-solution of the issues in this repository. Long times to solution should be avoided, however, which would also shorten the list of open issues; this will arrive only via having some kind of permanent human resources assigned to this particular repository and make these resources increase with the popularity of the language. Right now the situation is more or less under control, with the number of issues increasing more slowly in the last months, but it could get out of hand very fast if there is a sudden surge in interest for the language. 
+
+As future work, we will update this report with data during the first few weeks of the grant and after its final, to check if the curation grant awarded to the author has had any noticeable impact on these numbers and the trend they indicate. 
 
 # References
