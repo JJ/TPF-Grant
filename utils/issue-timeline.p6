@@ -9,8 +9,7 @@ use Data::Dump::Tree;
 my $names = ().SetHash;
 my %links;
 my %type;
-my @opens;
-my @closes;
+my %events;
 for glob("../data/issues/[1-9]*.json") -> $file {
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
@@ -20,15 +19,26 @@ for glob("../data/issues/[1-9]*.json") -> $file {
 	    say .backtrace;
 	}
     }
-    @opens.push: $data<created_at>;
+    %events{ $data<created_at> } = 'Open';
     if $data<closed_at> {
-        @closes.push: $data<closed_at>;
+        %events{ $data<closed_at> } = 'Close';
     }
 }
 
-say @closes;
-my @sorted-closes = @closes.map( { Date.new( $^ð.split("T")[0] ) } ).sort ;
-say @sorted-closes;
+my @event-keys = %events.keys;
+my @sorted-keys = @event-keys.map( { DateTime.new( $^ð ) } ).sort ;
+
+my $open-issues = 0;
+say "Time,Open Issues";
+for @sorted-keys -> $time {
+    if %events{$time} eq 'Open' {
+        $open-issues++;
+    } else {
+        $open-issues--;
+    }
+    say "$time,$open-issues";
+}
+
 
 
 
