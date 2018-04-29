@@ -35,11 +35,11 @@ closed.issues$duration <- closed.issues$closed_at - closed.issues$created_at
 
 Perl 6  [@randal2004perl,@tang2007perl,@lenzperl] is a language whose development started earlier in this century and was released as a production ready system by Christmas 2015. It is an interpreted language with two parts, a virtual machine which supports and abstracts all basic functionalities in the language, and which so far includes an original virtual machine, MoarVM, as well as JVM, and a compiler for that virtual machine, currently called [Rakudo](https://rakudo.org). It is got a fast development cycle, with monthly releases.
 
-For the purposes of this report, an interesting feature of Perl 6 is that its development is entirely voluntary-based. The Perl Foundation is the organizm in charge of supporting it, but there are very few, if any, full time developers working on it, or for that matter the documentation. That makes it an interesting case on free software development, all by itself.
+For the purposes of this report, an interesting feature of Perl 6 is that its development is entirely voluntary-based. The Perl Foundation is the organism in charge of supporting it, but there are very few, if any, full time developers working on it, or for that matter the documentation. That makes it an interesting case on free software development, all by itself.
 
-Documentation is not, per se, part of the core of a language, however it is an essential feature to attract new users and keep existing users. Bad or non-existing documentation will substract users, or simply not attract them. Usually, however, it is not the first thing that pops into one's head when one want to devote resources to it. Not even volunteer developers. Perl 6, however, has considered it from the beginning a first-class citizen. The scarcity of resources and its cyclic nature has made the result uneven in frequency, if not in quality.
+Documentation is not, per se, part of the core of a language, however it is an essential feature to attract new users and keep existing users. Bad or non-existing documentation will subtract users, or simply not attract them. Usually, however, it is not the first thing that pops into one's head when one want to devote resources to it. Not even volunteer developers. Perl 6, however, has considered it from the beginning a first-class citizen. The scarcity of resources and its cyclic nature has made the result uneven in frequency, if not in quality.
 
-In this repor we will try to visualize the behavior of the community, and how the repository has behaved across time. 
+In this report we will try to visualize the behavior of the community, and how the repository has behaved across time. 
 
 # How many issues are there
 
@@ -52,7 +52,7 @@ issues.t$Time <- as.Date(issues.t$Time)
 ggplot(issues.t, aes(x=Time,y=Open.Issues))+geom_line()+theme_tufte()
 ``` 
 
-We can observe an approximately stable situation until mid-2016, when the number of issues starts to scalate until it reaches the current situation of around 260 open issues. Some dips in the number of issues match the [monthly bug squash day](https://github.com/rakudo/rakudo/wiki/Monthly-Bug-Squash-Day), which every two months is devoted to this repository. However important, these bug-squash days take the open issue situation one month back, approximately. 
+We can observe an approximately stable situation until mid-2016, when the number of issues starts to climb until it reaches the current situation of around 260 open issues. Some dips in the number of issues match the [monthly bug squash day](https://github.com/rakudo/rakudo/wiki/Monthly-Bug-Squash-Day), which every two months is devoted to this repository. However important, these bug-squash days take the open issue situation one month back, approximately. 
 
 This situation is obviously due to the fact that more issues are created than closed. Below is the number of issues created per month and its current situation.
 
@@ -61,11 +61,11 @@ issues$creationMonth <- as.Date(cut(issues$created_at, breaks="month"))
 ggplot(issues,aes(x=creationMonth,fill=state))+geom_bar(stat='count')
 ``` 
 
-There is no clear trend here, although in general, several issues are open every day, with some months having more than 100 issues open. This roughly corresponds with usage of the language: as the language increases its popularity, so people go to the site and report issues. The fact that usage, or at least issue creation, is not matched by the same number of colaborators in the repository causes this imbalance and the number of issues to grow.
+There is no clear trend here, although in general, several issues are open every day, with some months having more than 100 issues open. This roughly corresponds with usage of the language: as the language increases its popularity, so people go to the site and report issues. The fact that usage, or at least issue creation, is not matched by the same number of collaborators in the repository causes this imbalance and the number of issues to grow.
 
 # Who posts issues
 
-One of the interesting things to see is who, effectively, posts issues. There are links to do that from every documentation page; however, are new users who find some problem encouraged to actually post it or are perl 6 developers mainly who do that?
+One of the interesting things to see is who, effectively, posts issues. There are links to do that from every documentation page; however, are new users who find some problem encouraged to actually post it or are Perl 6 developers mainly who do that?
 Well try to find that out below, plotting the number of issues per kind of user and how they are doing. 
 
 ```{r issuers,echo=FALSE}
@@ -81,18 +81,18 @@ What we see here are very slight differences in percentages of issues open or cl
 
 # Time to response.
 
-Another interesting metric is how long issues tend to stay open. This number is expected to be high, since at any one particular moment there might be around one quarter of all issues created open, but the distribution of durations might tell us more about the dynamics of the repository.
+Another interesting metric is how long issues tend to stay open. This number is expected to be high, since at any one particular moment there might be around one quarter of all issues created open, but the distribution of duration might tell us more about the dynamics of the repository.
 ```{r duration,echo=FALSE,message=FALSE}
 duration.summary <- summary(as.numeric(closed.issues$duration))
 closed.issues$duration = as.numeric(closed.issues$duration)
 closed.issues$transformed = closed.issues$duration+1
 ggplot(closed.issues,aes(x=transformed))+geom_histogram()+scale_x_log10()
 ``` 
-This histogram shows that most issues are solved straight away, in the very first day. However, there are a few issues that take a long time. There is a small bump around one year and even a few that take more than 3 years. The median duration is `r duration.summary['Median']`; that is the number of days needed to fix 50% of the issues. The average is higher, `r duration.summary['Mean']`, due to the highly skewed distribution. And that highly skewed distribution is aso a problem. 25% of the issues take longer than `r duration.summary['3rd Qu.']` days to be closed. That is why, also, at any given time, there is more or less around the same number lingering as not closed in the repository.
+This histogram shows that most issues are solved straight away, in the very first day. However, there are a few issues that take a long time. There is a small bump around one year and even a few that take more than 3 years. The median duration is `r duration.summary['Median']`; that is the number of days needed to fix 50% of the issues. The average is higher, `r duration.summary['Mean']`, due to the highly skewed distribution. And that highly skewed distribution is also a problem. 25% of the issues take longer than `r duration.summary['3rd Qu.']` days to be closed. That is why, also, at any given time, there is more or less around the same number lingering as not closed in the repository.
 ```{r duration2,echo=FALSE,message=FALSE}
 ggplot(closed.issues,aes(x=transformed))+geom_point(stat='count')+scale_x_log10()+scale_y_log10()
 ``` 
-This chart, that represents in abscises the number of days and in the `y` axis the number of issues taking those number of days, shows a power law. The bigger the number of days, the less frequent it is, but it also exhibits a long tail, with issues with many days creating it. This *long tail* has already been observed in other software projects [@dalle2007different], and is explained by the existence of *superbugs* and different *fixing regimes*, but also to the fact that in many case fixing one issue leads to discovering other similar issues, be it in the same file or with similar nature, and to fix them too. The fact that in this case the repository is mostly text does not change the behavior, which is thus confirmed in the case of the Perl 6 documentation repository. It might be the case that the bugs that take longer have a different nature, but that will be the object of other report. 
+This chart, that represents in abscissas the number of days and in the `y` axis the number of issues taking those number of days, shows a power law. The bigger the number of days, the less frequent it is, but it also exhibits a long tail, with issues with many days creating it. This *long tail* has already been observed in other software projects [@dalle2007different], and is explained by the existence of *superbugs* and different *fixing regimes*, but also to the fact that in many case fixing one issue leads to discovering other similar issues, be it in the same file or with similar nature, and to fix them too. The fact that in this case the repository is mostly text does not change the behavior, which is thus confirmed in the case of the Perl 6 documentation repository. It might be the case that the bugs that take longer have a different nature, but that will be the object of other report. 
 
 # Conclusions
 

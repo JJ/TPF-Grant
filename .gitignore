@@ -2,3 +2,4 @@
 .R*
 auto/
 report/*.html
+*.pdf
