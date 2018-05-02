@@ -60,7 +60,7 @@
     "followers_url": "https://api.github.com/users/Altai-man/followers",
     "url": "https://api.github.com/users/Altai-man"
   },
-  "updated_at": "2018-04-09T19:09:34Z",
+  "updated_at": "2018-04-15T08:11:05Z",
   "created_at": "2016-07-19T22:28:59Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/724/comments",
   "locked": false,
@@ -74,13 +74,6 @@
   "number": 724,
   "comments": 17,
   "labels": [
-    {
-      "color": "efa0cd",
-      "name": "Hacktoberfest",
-      "id": 450843322,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
-    },
     {
       "color": "8cef88",
       "name": "good first issue",

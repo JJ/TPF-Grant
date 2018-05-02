@@ -24,11 +24,11 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-04-09T19:07:34Z",
+  "updated_at": "2018-04-14T08:53:21Z",
   "created_at": "2016-10-10T16:31:10Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/949/comments",
   "locked": false,
-  "title": "Move programs/00-running to rakudo wiki",
+  "title": "Create page for environment variables the interpreter uses",
   "id": 182058872,
   "html_url": "https://github.com/perl6/doc/issues/949",
   "closed_at": null,
@@ -38,6 +38,13 @@
   "number": 949,
   "comments": 23,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
     {
       "color": "8cef88",
       "name": "good first issue",
