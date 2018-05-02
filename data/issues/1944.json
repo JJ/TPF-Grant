@@ -1,0 +1,85 @@
+{
+  "body": "## The problem\r\n\r\nNo example exists of multi-line commenting with #`, consequently I don't know how to do it. \r\n\r\nIn addition, it should be explained the difference of choosing to use #' to comment multiple lines verses Pod Comments, and vice versa.  \r\n\r\n## Suggestions\r\n\r\nI'm not knowledgeable to be able to suggest about this. Looking forward to learning about what Pod Comments are.",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-25T15:27:13Z",
+  "created_at": "2018-04-20T20:02:16Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1944/comments",
+  "locked": false,
+  "title": "Example needed of multi-line commenting using #`",
+  "id": 316394538,
+  "html_url": "https://github.com/perl6/doc/issues/1944",
+  "closed_at": "2018-04-25T15:27:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1944/labels{/name}",
+  "number": 1944,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "new",
+      "id": 676800971,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/new"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1944/events",
+  "user": {
+    "following_url": "https://api.github.com/users/COMBORICO/following{/other_user}",
+    "gists_url": "https://api.github.com/users/COMBORICO/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/COMBORICO/received_events",
+    "organizations_url": "https://api.github.com/users/COMBORICO/orgs",
+    "subscriptions_url": "https://api.github.com/users/COMBORICO/subscriptions",
+    "html_url": "https://github.com/COMBORICO",
+    "id": 29985233,
+    "login": "COMBORICO",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/COMBORICO/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/COMBORICO/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29985233?v=4",
+    "starred_url": "https://api.github.com/users/COMBORICO/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/COMBORICO/followers",
+    "url": "https://api.github.com/users/COMBORICO"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1944"
+}

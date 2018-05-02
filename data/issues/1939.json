@@ -1,0 +1,74 @@
+{
+  "body": "## The problem\r\n\r\nApparently due to an old error, `SetHash` hash syntax was not working, which caused [this question in StackOverflow](https://stackoverflow.com/questions/38909146/method-to-add-element-to-sethash-in-perl6/49894235#49894235).\r\n\r\n## Suggestions\r\n\r\nAdd examples to the page. \r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-18T08:04:53Z",
+  "created_at": "2018-04-18T08:04:28Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1939/comments",
+  "locked": false,
+  "title": "Improve SetHash documentation",
+  "id": 315372648,
+  "html_url": "https://github.com/perl6/doc/issues/1939",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1939/labels{/name}",
+  "number": 1939,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1939/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1939"
+}

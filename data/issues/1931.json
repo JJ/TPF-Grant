@@ -1,0 +1,78 @@
+{
+  "body": "## The problem\r\n\r\nI get from time to time reports from Shippable. \r\n\r\n> And some error reports, too. #1930. Maybe it's good as a canary in the mine.\r\n\r\nI think it was set up with the intention of doing things in parallel with Travis, but it's not too clear if it's needed. Besides, it \"passes\" but it really does nothing because it fails in using nvm.\r\n![screenshot from 2018-04-16 07 40 05](https://user-images.githubusercontent.com/500/38791716-919ef484-4149-11e8-87f5-6e9ee164405a.png)\r\n\r\n## Suggestions\r\n\r\nIf we are going to use it, let's set it up properly. If we are not, let's just get rid of it. What do you prefer? ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-22T12:13:10Z",
+  "created_at": "2018-04-16T05:43:19Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1931/comments",
+  "locked": false,
+  "title": "Request for comments: What about shippable?",
+  "id": 314508605,
+  "html_url": "https://github.com/perl6/doc/issues/1931",
+  "closed_at": "2018-04-22T12:13:10Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1931/labels{/name}",
+  "number": 1931,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "000000",
+      "name": "meta",
+      "id": 423513323,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1931/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1931"
+}

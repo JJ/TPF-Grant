@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-05-17T14:01:24Z",
+  "updated_at": "2018-04-21T10:46:22Z",
   "created_at": "2017-05-05T18:52:26Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1297/comments",
   "locked": false,
@@ -18,14 +18,28 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1297/labels{/name}",
   "number": 1297,
-  "comments": 0,
+  "comments": 1,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1297/events",

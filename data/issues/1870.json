@@ -60,7 +60,7 @@
     "followers_url": "https://api.github.com/users/zoffixznet/followers",
     "url": "https://api.github.com/users/zoffixznet"
   },
-  "updated_at": "2018-03-26T20:06:47Z",
+  "updated_at": "2018-04-20T12:13:09Z",
   "created_at": "2018-03-26T19:35:38Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1870/comments",
   "locked": false,
@@ -72,7 +72,7 @@
   "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1870/labels{/name}",
   "number": 1870,
-  "comments": 1,
+  "comments": 2,
   "labels": [
     
   ],

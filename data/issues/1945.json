@@ -1,0 +1,60 @@
+{
+  "body": "I've seen doc headers capitalized like this:\r\n\r\n- Foo bar baz\r\n- Foo Bar Baz\r\n\r\nWhich way of capitalizing them would be more appropriate?",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-05-02T06:17:13Z",
+  "created_at": "2018-04-20T20:09:57Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1945/comments",
+  "locked": false,
+  "title": "Inconsistent capitalization for doc headers",
+  "id": 316396626,
+  "html_url": "https://github.com/perl6/doc/issues/1945",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1945/labels{/name}",
+  "number": 1945,
+  "comments": 6,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "000000",
+      "name": "meta",
+      "id": 423513323,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1945/events",
+  "user": {
+    "following_url": "https://api.github.com/users/Kaiepi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Kaiepi/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/Kaiepi/received_events",
+    "organizations_url": "https://api.github.com/users/Kaiepi/orgs",
+    "subscriptions_url": "https://api.github.com/users/Kaiepi/subscriptions",
+    "html_url": "https://github.com/Kaiepi",
+    "id": 34197615,
+    "login": "Kaiepi",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/Kaiepi/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/Kaiepi/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/34197615?v=4",
+    "starred_url": "https://api.github.com/users/Kaiepi/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/Kaiepi/followers",
+    "url": "https://api.github.com/users/Kaiepi"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1945"
+}

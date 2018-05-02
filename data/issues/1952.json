@@ -1,0 +1,67 @@
+{
+  "body": "## The problem\r\n\r\nSeveral utility programs build a cache of Pod 6 documents, only they do so in different ways.\r\n\r\n- htmlify puts it in a global variable, `$*DR`\r\n- pod-valid.t just ditches of the file as soon as it's checked.\r\n- pod2onepage actually *builds* and puts it in a `.precomp` data store, used as a cache. That is why when you change just one page it says `(cached)`\r\n- p6doc creates one `index.data` file, which is not used by anyone else.\r\n\r\nBaseline is: many programs, some of them run in sequence, load and build Perl 6 objects out of Pod 6 files only to ditch it later. We should make them use the same objects, precomputed if they are available. \r\n\r\n## Suggestions\r\n\r\nCould we maybe take a look at all this and create a single cache for docs that could speed up at least local testing? Would be part of #1823, but not the whole lot, of course... ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-22T17:20:41Z",
+  "created_at": "2018-04-22T17:20:22Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1952/comments",
+  "locked": false,
+  "title": "Sharing Pod 6 caches",
+  "id": 316596667,
+  "html_url": "https://github.com/perl6/doc/issues/1952",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1952/labels{/name}",
+  "number": 1952,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1952/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1952"
+}

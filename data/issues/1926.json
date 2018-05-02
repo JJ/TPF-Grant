@@ -1,0 +1,60 @@
+{
+  "body": "# The problem\r\n\r\n> NOTE: the words are **ready** lazily\r\non https://docs.perl6.org/routine/words\r\n\r\n# Suggestions\r\n## Fix \"ready\"→\"read\" and also use active voice\r\n\r\nNOTE: The handle used under the hood reads the words lazily and won't close until ...\r\n\r\n## Can you add an example of how to close that handle?\r\n\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-14T11:42:23Z",
+  "created_at": "2018-04-14T11:36:03Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1926/comments",
+  "locked": false,
+  "title": "routine/words IO::Path",
+  "id": 314322165,
+  "html_url": "https://github.com/perl6/doc/issues/1926",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1926/labels{/name}",
+  "number": 1926,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1926/events",
+  "user": {
+    "following_url": "https://api.github.com/users/fecundf/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fecundf/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fecundf/received_events",
+    "organizations_url": "https://api.github.com/users/fecundf/orgs",
+    "subscriptions_url": "https://api.github.com/users/fecundf/subscriptions",
+    "html_url": "https://github.com/fecundf",
+    "id": 317592,
+    "login": "fecundf",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fecundf/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fecundf/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/317592?v=4",
+    "starred_url": "https://api.github.com/users/fecundf/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fecundf/followers",
+    "url": "https://api.github.com/users/fecundf"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1926"
+}

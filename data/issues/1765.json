@@ -60,20 +60,34 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-03-04T13:24:09Z",
+  "updated_at": "2018-04-15T17:56:34Z",
   "created_at": "2018-02-10T11:44:04Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1765/comments",
   "locked": false,
   "title": "Reduce travis test time",
   "id": 296094697,
   "html_url": "https://github.com/perl6/doc/issues/1765",
-  "closed_at": null,
+  "closed_at": "2018-04-15T17:56:34Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1765/labels{/name}",
   "number": 1765,
   "comments": 33,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
     {
       "color": "C4DB17",
       "name": "build",

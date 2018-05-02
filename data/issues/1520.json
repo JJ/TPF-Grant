@@ -1,16 +1,16 @@
 {
-  "body": "I am inclined to create this ticket because:\r\n* There was a ticket asking to provide texas versions of code snippets: #526\r\n* “The community as a whole is pushing unicode; I think the docs should lead in this effort, and it's OK to be unicode only, because […]”[⁽¹⁾](https://github.com/perl6/doc/issues/526#issuecomment-320820473)\r\n* Replacing non-texas ops will be relatively easy should we decide to move in another direction (much easier than doing the opposite)\r\n* Automatically replacing non-texas ops *on the fly* will be possible if we decide to reopen #526 (other way around is nearly impossible)\r\n* Copy-pasting code snippets from docs into ``perl6 -e '…'`` is easy for users if non-ascii quotes are used consistently\r\n* Currently our docs are using ``\"…\"`` type of quotes too much (possibly contributors are preferring ``\"…\"`` instead of ``'…'`` so that things can be copy-pasted into ``perl6 -e '…'``, but I'd much rather see single quotes used consistently when no interpolation is needed)\r\n* The transition is relatively easy given that we don't have to force contributors to use non-ascii stuff. We can simply have some ``xxt/`` tests and someone who can type non-ascii stuff easily will rework a bunch of new code snippets once a few months.\r\n\r\nIt may sound radical but I guess that's technically the right thing to do.\r\n\r\nTODOs:\r\n- [ ] Document this style decision\r\n- [ ] Rework the majority of code samples, perhaps in a semi-automated way (over 50% is enough)\r\n- [ ] Help with https://github.com/vim-perl/vim-perl6/issues/8 https://github.com/perl6/atom-language-perl6/issues/72 https://github.com/perl6/perl6-mode/issues/14\r\n- [ ] https://github.com/drforr/perl6-Perl6-Tidy/issues/3 ?\r\n- [ ] Add some ``xt`` or ``xxt`` tests?",
+  "body": "I am inclined to create this ticket because:\r\n* There was a ticket asking to provide texas versions of code snippets: #526\r\n* “The community as a whole is pushing unicode; I think the docs should lead in this effort, and it's OK to be unicode only, because […]”[⁽¹⁾](https://github.com/perl6/doc/issues/526#issuecomment-320820473)\r\n* Replacing non-texas ops will be relatively easy should we decide to move in another direction (much easier than doing the opposite)\r\n* Automatically replacing non-texas ops *on the fly* will be possible if we decide to reopen #526 (other way around is nearly impossible)\r\n* Copy-pasting code snippets from docs into ``perl6 -e '…'`` is easy for users if non-ascii quotes are used consistently\r\n* Currently our docs are using ``\"…\"`` type of quotes too much (possibly contributors are preferring ``\"…\"`` instead of ``'…'`` so that things can be copy-pasted into ``perl6 -e '…'``, but I'd much rather see single quotes used consistently when no interpolation is needed)\r\n* The transition is relatively easy given that we don't have to force contributors to use non-ascii stuff. We can simply have some ``xxt/`` tests and someone who can type non-ascii stuff easily will rework a bunch of new code snippets once a few months.\r\n\r\nIt may sound radical but I guess that's technically the right thing to do.\r\n\r\nTODOs:\r\n- [x] Document this style decision\r\n- [ ] Rework the majority of code samples, perhaps in a semi-automated way (over 50% is enough)\r\n- [ ] Help with https://github.com/vim-perl/vim-perl6/issues/8 https://github.com/perl6/atom-language-perl6/issues/72 https://github.com/perl6/perl6-mode/issues/14\r\n- [ ] https://github.com/drforr/perl6-Perl6-Tidy/issues/3 ?\r\n- [ ] Add some ``xt`` or ``xxt`` tests?",
   "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-03-26T18:15:23Z",
+  "updated_at": "2018-04-14T08:45:37Z",
   "created_at": "2017-09-03T01:53:43Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1520/comments",
   "locked": false,
-  "title": "Prefer non-texas (non-ascii) syntax in code samples",
+  "title": "Prefer non-ASCII syntax in code samples",
   "id": 254847181,
   "html_url": "https://github.com/perl6/doc/issues/1520",
   "closed_at": null,
@@ -21,6 +21,13 @@
   "comments": 8,
   "labels": [
     {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
       "color": "f72bc1",
       "name": "big",
       "id": 244870541,
@@ -29,10 +36,10 @@
     },
     {
       "color": "000000",
-      "name": "style",
+      "name": "meta",
       "id": 423513323,
       "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/style"
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1520/events",

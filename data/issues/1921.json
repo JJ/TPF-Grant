@@ -1,0 +1,60 @@
+{
+  "body": "After speaking with JJ on IRC, and viewing this section as a p6 novice and programming beginner:\r\n\r\nhttps://docs.perl6.org/language/performance#Profile_locally\r\n\r\nUsers could benefit from having the \"Profile Locally\" documentation fleshed out.  An example of utilizing the *--profile* command line option for a simple script, and a lesson on how to read the generated HTML file, could go a long way.\r\n\r\nCurrently, this topic is mostly glossed over with the following documentation:\r\n*To learn how to interpret the profile info, use the prof-m: your code goes here evalbot (explained above) and ask questions on the channel.*\r\n\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-15T15:14:20Z",
+  "created_at": "2018-04-12T23:20:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1921/comments",
+  "locked": false,
+  "title": "Improving the \"Profile Locally\" documentation",
+  "id": 313919706,
+  "html_url": "https://github.com/perl6/doc/issues/1921",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1921/labels{/name}",
+  "number": 1921,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1921/events",
+  "user": {
+    "following_url": "https://api.github.com/users/sylints/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sylints/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/sylints/received_events",
+    "organizations_url": "https://api.github.com/users/sylints/orgs",
+    "subscriptions_url": "https://api.github.com/users/sylints/subscriptions",
+    "html_url": "https://github.com/sylints",
+    "id": 11053903,
+    "login": "sylints",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/sylints/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/sylints/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11053903?v=4",
+    "starred_url": "https://api.github.com/users/sylints/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/sylints/followers",
+    "url": "https://api.github.com/users/sylints"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1921"
+}

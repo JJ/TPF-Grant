@@ -24,7 +24,7 @@
     "followers_url": "https://api.github.com/users/zoffixznet/followers",
     "url": "https://api.github.com/users/zoffixznet"
   },
-  "updated_at": "2017-06-11T11:00:09Z",
+  "updated_at": "2018-04-19T10:40:15Z",
   "created_at": "2017-02-13T20:19:12Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1195/comments",
   "locked": false,
@@ -36,8 +36,15 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1195/labels{/name}",
   "number": 1195,
-  "comments": 1,
+  "comments": 2,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",

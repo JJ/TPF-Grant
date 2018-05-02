@@ -24,19 +24,19 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-03-26T17:19:36Z",
+  "updated_at": "2018-04-23T05:54:39Z",
   "created_at": "2018-03-15T13:46:02Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1845/comments",
   "locked": false,
   "title": "Should we stop using .xhtml?",
   "id": 305558688,
   "html_url": "https://github.com/perl6/doc/issues/1845",
-  "closed_at": null,
+  "closed_at": "2018-04-23T05:52:11Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1845/labels{/name}",
   "number": 1845,
-  "comments": 3,
+  "comments": 5,
   "labels": [
     {
       "color": "c43d38",

@@ -1,0 +1,67 @@
+{
+  "body": "## The problem\r\n\r\nWe have right now a [Chinese version](https://github.com/perl6/doc/blob/master/README.zh.md), we could have more at least to populate search results in a number of languages.\r\n\r\n\r\n## Suggestions\r\n\r\nTranslate to\r\n\r\n- [ ] Spanish\r\n- [ ] German\r\n- [ ] Dutch\r\n- [ ] Portuguese\r\n- [ ] French\r\n- [ ] Japanese\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-05-01T10:50:35Z",
+  "created_at": "2018-05-01T06:05:50Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1984/comments",
+  "locked": false,
+  "title": "Translate README.md to languages",
+  "id": 319124873,
+  "html_url": "https://github.com/perl6/doc/issues/1984",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1984/labels{/name}",
+  "number": 1984,
+  "comments": 2,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
+    },
+    {
+      "color": "000000",
+      "name": "meta",
+      "id": 423513323,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1984/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1984"
+}

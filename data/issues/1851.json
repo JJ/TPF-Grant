@@ -24,21 +24,27 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-04-08T07:59:30Z",
+  "updated_at": "2018-04-28T16:37:53Z",
   "created_at": "2018-03-18T17:39:12Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1851/comments",
   "locked": false,
   "title": "?? !! is pointing to the wrong place",
   "id": 306261674,
   "html_url": "https://github.com/perl6/doc/issues/1851",
-  "closed_at": null,
+  "closed_at": "2018-04-28T16:37:53Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1851/labels{/name}",
   "number": 1851,
-  "comments": 5,
+  "comments": 9,
   "labels": [
-    
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1851/events",
   "user": {

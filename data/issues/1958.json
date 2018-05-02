@@ -1,0 +1,78 @@
+{
+  "body": "## Problem\r\nhttps://docs.perl6.org/syntax/my\r\n## Suggestions\r\n\r\nmy ($a, $b) = \"apple\", \"bucket\";\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-04-26T14:06:53Z",
+  "created_at": "2018-04-23T22:30:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1958/comments",
+  "locked": false,
+  "title": "\"my\" page needs example of List Assignment",
+  "id": 317006002,
+  "html_url": "https://github.com/perl6/doc/issues/1958",
+  "closed_at": "2018-04-26T06:45:03Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1958/labels{/name}",
+  "number": 1958,
+  "comments": 9,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1958/events",
+  "user": {
+    "following_url": "https://api.github.com/users/COMBORICO/following{/other_user}",
+    "gists_url": "https://api.github.com/users/COMBORICO/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/COMBORICO/received_events",
+    "organizations_url": "https://api.github.com/users/COMBORICO/orgs",
+    "subscriptions_url": "https://api.github.com/users/COMBORICO/subscriptions",
+    "html_url": "https://github.com/COMBORICO",
+    "id": 29985233,
+    "login": "COMBORICO",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/COMBORICO/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/COMBORICO/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29985233?v=4",
+    "starred_url": "https://api.github.com/users/COMBORICO/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/COMBORICO/followers",
+    "url": "https://api.github.com/users/COMBORICO"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1958"
+}

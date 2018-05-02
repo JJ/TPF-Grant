@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-05-24T12:27:53Z",
+  "updated_at": "2018-04-24T14:05:17Z",
   "created_at": "2017-05-24T12:27:53Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1331/comments",
   "locked": false,
@@ -18,14 +18,35 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1331/labels{/name}",
   "number": 1331,
-  "comments": 0,
+  "comments": 2,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1331/events",

@@ -24,7 +24,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-04-10T17:17:04Z",
+  "updated_at": "2018-04-12T15:01:49Z",
   "created_at": "2017-10-24T20:52:46Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1625/comments",
   "locked": false,
@@ -36,7 +36,7 @@
   "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1625/labels{/name}",
   "number": 1625,
-  "comments": 6,
+  "comments": 7,
   "labels": [
     {
       "color": "fef2c0",

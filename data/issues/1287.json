@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-05-17T14:01:37Z",
+  "updated_at": "2018-04-20T05:22:19Z",
   "created_at": "2017-04-22T20:48:41Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1287/comments",
   "locked": false,
@@ -18,8 +18,15 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1287/labels{/name}",
   "number": 1287,
-  "comments": 0,
+  "comments": 1,
   "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",

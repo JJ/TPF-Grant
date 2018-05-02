@@ -40,10 +40,10 @@
   "labels": [
     {
       "color": "000000",
-      "name": "style",
+      "name": "meta",
       "id": 423513323,
       "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/style"
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1584/events",

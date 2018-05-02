@@ -1,0 +1,60 @@
+{
+  "body": "## The problem\r\n\r\nThe way it is currently set up, the impression is given that The Docs are a different website than perl6.org.  Not having a prominent link to perl6.org is secluding unfamiliar guests from visiting perl6.org.  This choice is made even more obvious by how the banner currently just links to its self-same page.  So the \"real-estate\" is currently not being availed anyhow.\r\n\r\n## Suggestions\r\n\r\nI propose that only the \"homepage\" of docs.perl6 have the banner click-able to the homepage of perl6.org.  All the other pages of docs.perl6.org can remain the same, and remain linked to the homepage of Docs.\r\n\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-04-26T06:54:40Z",
+  "created_at": "2018-04-22T23:10:42Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1954/comments",
+  "locked": false,
+  "title": "Docs homepage needs banner linked to perl6.org",
+  "id": 316621757,
+  "html_url": "https://github.com/perl6/doc/issues/1954",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1954/labels{/name}",
+  "number": 1954,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "c43d38",
+      "name": "JJ TPF Grant",
+      "id": 876253868,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1954/events",
+  "user": {
+    "following_url": "https://api.github.com/users/COMBORICO/following{/other_user}",
+    "gists_url": "https://api.github.com/users/COMBORICO/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/COMBORICO/received_events",
+    "organizations_url": "https://api.github.com/users/COMBORICO/orgs",
+    "subscriptions_url": "https://api.github.com/users/COMBORICO/subscriptions",
+    "html_url": "https://github.com/COMBORICO",
+    "id": 29985233,
+    "login": "COMBORICO",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/COMBORICO/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/COMBORICO/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29985233?v=4",
+    "starred_url": "https://api.github.com/users/COMBORICO/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/COMBORICO/followers",
+    "url": "https://api.github.com/users/COMBORICO"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1954"
+}
