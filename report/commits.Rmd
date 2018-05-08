@@ -42,7 +42,7 @@ It is interesting to see also how many authors were contributing every month.
 ggplot(commits.t, aes(x=Month,y=Authors))+geom_line()+theme_tufte()
 ``` 
 
-There is no clear trend here. The number of cifferent authors hovers between 10 and 30 every month, with a hitherto never reached again peak of more than 40 when Perl 6 was officialy released in Christmas 2015. Peaks usually correspond to Rakudo Star or stable releases, but the local maximum of April 2018, the first month of the grant, was the highest since September 2017. It should be noted that author peaks do not match contribution peak. New authors might be contributing just a few or a single commit. 
+There is no clear trend here. The number of cifferent authors hovers between 10 and 30 every month, with a hitherto never reached again peak of more than 40 when Perl 6 was officialy released in Christmas 2015. Peaks usually correspond to Rakudo Star or stable releases, but the local maximum of April 2018, the first month of the grant, was the highest since September 2017. It should be noted that author peaks do not match contribution peak. New authors might be contributing just a few or a single commit. An observation on this time series. The trend is not so clear as the number of contributions, but it is not noticeable the effect of the [Monthly Bug Squash Day](https://github.com/rakudo/rakudo/wiki/Monthly-Bug-Squash-Day) that focuses on the repository and that started in September 2017. That particular month attracted 31 different contributors, but that number has not been reached ever since. The next one made no difference in number of authors with respect to the previous month, and neither did the one in March, with a few more contributors than in January (4) but many less than the next month (26). This might indicate than, even if the initial hackathon had a high impact, either the fact that it is repeated every two months or the way it is announced or marketed has made the rest of the editions not have such a high impact. 
 
 We will try to reflect this by using the concept of *entropy*. The concept of author entropy [@casebolt2009author] has been used to predict things like the existence of bugs in repositories. However, we are more interested in the community here, and find out whether peaks of authors and activity match entropy. A high entropy will mean that all authors contribute a different number of commits; a low entropy will mean that all of them are contributing more or less the same, either by doing very little, medium or a lot. A high entropy indicates diversity, and possibly incorporation of new contributors. Let's look at it in the next chart.
 
@@ -53,7 +53,7 @@ ggplot(commits.t, aes(x=Month,y=Entropy,color=Ratio,size=Authors))+geom_line()+t
 
 In this chart, the commit/author ratio is shown as bar color, and the number of authors as the width of the line. It's pretty much stable through time, but entropy seems to go up and down with a highest ratio corresponding to a lower entropy. Entropy is also going down which might indicate there are few authors contributing a lot, with the rest contributing very little. 
 
-```{r entropy,echo=FALSE}
+```{r vs,echo=FALSE}
 ggplot(commits.t, aes(x=Commits,y=Entropy,size=Authors,color=Ratio))+geom_point()+theme_tufte()
 ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits,color=Ratio))+geom_point()+theme_tufte()
 ggplot(commits.t, aes(x=Authors,y=Commits,size=Entropy,color=Ratio))+geom_point()+theme_tufte()
