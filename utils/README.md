@@ -1,9 +1,11 @@
 # Utility and convenience script for the grant
 
-Install with
+Install the Perl 6 dependencies with
 
     zef install --deps-only .
 	
+You'll need to install R, ggplot2 and ggthemes2 to run the R scripts.
+
 	
 ## Download issues
 

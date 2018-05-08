@@ -6,6 +6,7 @@
     "authors"       : [ "github:JJ" ],
     "description"   : "GitHub API",
     "depends"       : [
+        "Text::CSV",
         "Data::Dump::Tree",
         "WebService::GitHub",
 	"MIME::Base64",
