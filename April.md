@@ -12,8 +12,10 @@ issues during April:
 
 ![Issues closed by me and others](illos/closed-issues-jj.png).
 
-This number of issues has been extracted using the GitHub API and is
-probably underestimating the real number, sincd more than 100 issues
-have been closed in the last month. Anyway, as far as it's
-underestimating everyone's closed issues in the same way, it shows
-that most closed issues have been closed by me.
+The initial compromise was to *address* two issues every day; I have
+been checking and commenting on issues far more than that, tagging
+them with `JJ TPF grant`. In fact, as it can be seen, I closed two
+issues per day, twice as much as the rest of the issues that were
+closed.
+
+
