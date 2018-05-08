@@ -7,7 +7,6 @@ use Text::CSV;
 my @data  = "../data/issues.csv".IO.slurp.split("\n");
 shift @data; # Useless first line
 my @tpf = @data.grep( /closed/ );
-say @tpf.elems;
 my %closed;
 my %age;
 for @tpf -> $issue {

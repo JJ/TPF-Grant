@@ -18,4 +18,11 @@ them with `JJ TPF grant`. In fact, as it can be seen, I closed two
 issues per day, twice as much as the rest of the issues that were
 closed.
 
+In fact, those issues are, on average, 4 months old, or almost 120
+days, while the average for the rest of the contributors is ~1
+month. That means that many of the issues addressed were part of the
+backlog that was accumulationg, and weren't, in fact, being addressed,
+making the number of issues accumulate to the tune of a few tens every
+month. 
+
 
