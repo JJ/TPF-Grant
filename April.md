@@ -82,3 +82,11 @@ places. Contributions I'd like to note are
 *
   [The website has seen its highest number of visitors in March and April](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month).
   
+## Conclusion
+
+I would say I have reached most of the objectives I set out to do
+during this month. It has been a great experience, and I will try to
+continue in the same line of work during this month of May, although I
+will try to focus on more complicated issues, and also the oldest
+ones. 
+
