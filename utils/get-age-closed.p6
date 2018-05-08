@@ -4,19 +4,16 @@ use v6;
 
 use Text::CSV;
 
-my $csv = Text::CSV.new;
-my $io  = open "../data/issues.csv", :r, chomp => False;
-my @data = $csv.getline_all($io);
-say @data.elems;
+my @data  = "../data/issues.csv".IO.slurp.split("\n");
+shift @data; # Useless first line
 my @tpf = @data.grep( /closed/ );
+say @tpf.elems;
 my %closed;
 my %age;
-shift @tpf; # Eliminates first issue
-for @tpf -> @issue {
-    say @issue;
-    my $age = DateTime.new( trim-leading(@issue[1]) ) -  DateTime.new( trim-leading(@issue[3]));
-    say $age;
-    if @issue[2] ~~ /JJ/ {
+for @tpf -> $issue {
+    my @issue-data = $issue.split( /\, \s* / );
+    my $age = DateTime.new( @issue-data[1])  -  DateTime.new( @issue-data[3]);
+    if @issue-data[2] ~~ /JJ/ {
         %age<JJ> += $age;
         %closed<JJ>++;   
     } else {
@@ -27,5 +24,5 @@ for @tpf -> @issue {
 
 say "Author, Closed.Issues, Avg.Age";
 for %closed.keys -> $n {
-    say "$n,%closed{$n},", %age{$n}/%closed{$n};
+    say "$n,%closed{$n},", Int(%age{$n}/(%closed{$n}*86400));
 }
