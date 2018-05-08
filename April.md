@@ -10,7 +10,7 @@ Let's list the contributions made during the month of April.
 Using the Perl 6 scripts included in this repo, I have closed 27
 issues during April:
 
-![Issues closed by me and others](illos/closed-issues-jj.png).
+![Issues closed by me and others](illos/closed-issues-jj.png)
 
 The initial compromise was to *address* two issues every day; I have
 been checking and commenting on issues far more than that, tagging
@@ -21,7 +21,7 @@ closed.
 In fact, those issues are, on average, 4 months old, or almost 120
 days, while the average for the rest of the contributors is ~1
 month. That means that many of the issues addressed were part of the
-backlog that was accumulationg, and weren't, in fact, being addressed,
+backlog that was accumulation, and weren't, in fact, being addressed,
 making the number of issues accumulate to the tune of a few tens every
 month. 
 
@@ -63,7 +63,7 @@ places. Contributions I'd like to note are
   
 * Configuring [Travis](https://travis-ci.org/perl6/doc) with two
   different binaries, which now take 10 minutes only for the Docker
-  version to run the whole test suite. An intermitent error with that
+  version to run the whole test suite. An intermittent error with that
   test suit has been (mostly) fixed too. 
   
 * [`Pod::To::BigPage`](https://github.com/perl6/perl6-pod-to-bigpage),
