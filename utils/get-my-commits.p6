@@ -18,7 +18,6 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
         }
     }
 
-    say %commits-month;
     say "Month, Commits, Author";
     for %commits-month.keys.sort -> $m {
         for <JJ !JJ> -> $author {
