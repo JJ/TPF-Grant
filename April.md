@@ -54,8 +54,7 @@ Sometimes working on a issue took me in many unexpected directions,
 and some amount of work had to be done in some other
 places. Contributions I'd like to note are
 
-*
-  Configuring
+* Configuring
   [Shippable to run fast tests](https://app.shippable.com/github/perl6/doc/runs?branchName=master),
   which now take 3 minutes in average. It is not running the whole
   test suite, but at least shows early sign of trouble for pull
@@ -72,15 +71,13 @@ places. Contributions I'd like to note are
   of XHTML. More than 40 commits have been made to that repository,
   mostly during this period. There is still some work to be done.
   
-*
-  [Contributions to StackOverflow](https://stackoverflow.com/questions/tagged/perl6),
+* [Contributions to StackOverflow](https://stackoverflow.com/questions/tagged/perl6),
   and encouragement of everyone (to the point of being annoying at
   times) to contribute their questions and answers there
   too. [StackOverflow](http://data.stackexchange.com/stackoverflow/query/847857/perl6-questions-per-month#graph) has
   seen the highest number of questions ever in April.
   
-*
-  [The website has seen its highest number of visitors in March and April](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month).
+* [The website has seen its highest number of visitors in March and April](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month).
   
 ## Conclusion
 
