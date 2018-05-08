@@ -1,0 +1,78 @@
+---
+title: 'Perl 6 documentation repository through time: contributions through commits'
+author: "JJ Merelo"
+date: "29 de abril de 2018"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: perl6.bib
+abstract: Contributions to a free software repository are made effective through commits, that is, changes in the code. Every commit affects one or several files, and every one is made by a different author. In this report we will look at how these contributions have been distributed throughout the repository history, and what kind of changes have been brought by the Perl Foundation grant and other events. We will also look at the time-wise entropy as a measure of how these contributions are done through time.
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+
+commits.t <- read.csv("../data/commits.csv")
+commits.t$Month <- as.Date(commits.t$Month)
+
+```
+
+# Introduction
+
+In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6). This repository contains the official documentation for the Perl 6 language [@lenzperl], and is entirely based on voluntary contributions, either by contributors with write permission, or spontaneous contribution through pull requests. 
+
+These contributions follow an interesting dynamics that might be explained through the existence of a critical state achieved through self-organization[@MereloCMVCF17], but obviously from the purely metric point of view, the impact of a non-entirely voluntary contributor such as the author of this report, funded partially by the Perl Foundation, must be established.
+
+In this report we will try to visualize the behavior of the community contributions as reflected in the time series of commits made to the repository. The information has been extracted from the git repository using a Perl 6 script that extracts dates and times and authors, and is processed in the same script to be finally plotted using R in this RMarkdown document.
+
+# Commit timeline
+
+This first simple timeline plots the number of commits per month from the beginning of the repository.
+
+```{r timeline,echo=FALSE}
+ggplot(commits.t, aes(x=Month,y=Commits))+geom_line()+theme_tufte()
+``` 
+
+Following the burst of activity at the beginning of the repository, there was a long plateau with very few contributions, followed by a roughly upwards trend that ends in April 2018, the *official* beginning of the grant, which reached the second-highest number of contributions in history after July 2016. That coincided with the [third Rakudo Star release](https://rakudo.org/post/announce-rakudo-star-release-2016-07), which was probably one of the major *stable* releases. 
+
+It is interesting to see also how many authors were contributing every month. 
+
+```{r timeline.authors,echo=FALSE}
+ggplot(commits.t, aes(x=Month,y=Authors))+geom_line()+theme_tufte()
+``` 
+
+There is no clear trend here. The number of cifferent authors hovers between 10 and 30 every month, with a hitherto never reached again peak of more than 40 when Perl 6 was officialy released in Christmas 2015. Peaks usually correspond to Rakudo Star or stable releases, but the local maximum of April 2018, the first month of the grant, was the highest since September 2017. It should be noted that author peaks do not match contribution peak. New authors might be contributing just a few or a single commit. 
+
+We will try to reflect this by using the concept of *entropy*. The concept of author entropy [@casebolt2009author] has been used to predict things like the existence of bugs in repositories. However, we are more interested in the community here, and find out whether peaks of authors and activity match entropy. A high entropy will mean that all authors contribute a different number of commits; a low entropy will mean that all of them are contributing more or less the same, either by doing very little, medium or a lot. A high entropy indicates diversity, and possibly incorporation of new contributors. Let's look at it in the next chart.
+
+```{r entropy,echo=FALSE}
+commits.t$Ratio <- commits.t$Commits / commits.t$Author
+ggplot(commits.t, aes(x=Month,y=Entropy,color=Ratio,size=Authors))+geom_line()+theme_tufte()
+```
+
+In this chart, the commit/author ratio is shown as bar color, and the number of authors as the width of the line. It's pretty much stable through time, but entropy seems to go up and down with a highest ratio corresponding to a lower entropy. Entropy is also going down which might indicate there are few authors contributing a lot, with the rest contributing very little. 
+
+```{r entropy,echo=FALSE}
+ggplot(commits.t, aes(x=Commits,y=Entropy,size=Authors,color=Ratio))+geom_point()+theme_tufte()
+ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits,color=Ratio))+geom_point()+theme_tufte()
+ggplot(commits.t, aes(x=Authors,y=Commits,size=Entropy,color=Ratio))+geom_point()+theme_tufte()
+```
+
+In this chart above, entropy has been plotted against the number of authors and the number of commits, and the number of commits against the number of authors. The clearest correlation is between the number of authors and the entropy. Higher entropy roughly corresponds to more commits, but there can be many commits with a relatively low entropy. 
+
+
+# Conclusions
+
+This report continues the initial data analysis of the dynamics in the [Perl 6 documentation repository](https://github.com/perl6/doc) and its situation after the first month of the Perl Foundation Grant, which has happened by April 2018. 
+
+The main intention of this report was to establish that working on the Perl Foundation grant over this repository had not only a direct effect on the number of contributions, which has been clearly established, but also on the change of composition of the community of volunteers as shown in the contributor monthly entropy. However, this entropy does not seem to be a predictor of anything that is not the number of contributing authors, being very slightly correlated either with the contributions or with the productivity.
+
+Even if any correlation between the entropy and the productivity was proved, this might be done indirectly through the number of authors that correlates to it that to any other, more basic, mechanism. More work needs to be done in this area, over all to find out which are the internal mechanisms that would help attract and keep contributors through time, so that the curation of a repository such as this one is sustainable through time. 
+
+
+## Acknowledgements
+
+This report has been supported by The Perl Foundation under [grant *Curating and improving Perl 6 documentation*](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html). 
+
+# References
