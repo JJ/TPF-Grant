@@ -16,3 +16,7 @@ correlation <-
 ggplot(correlation, aes(x=commits.n,y=entropy))+geom_point()+theme_tufte()
 
                                                     
+commits.y <- read.csv("../data/commits-year.csv")
+commits.y$Year <- as.Date(commits.y$Year)
+ggplot(commits.y, aes(x=Year,y=Commits))+geom_line()+geom_point(aes(size=Authors,color=Entropy))+theme_tufte()
+ggplot(commits.y, aes(x=Year,y=Commits,color=Entropy,size=Authors))+geom_line()+theme_tufte()
