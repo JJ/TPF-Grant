@@ -1,6 +1,6 @@
 {
   "body": "There seems to be something that's generating a huge number of reqests when page loads. I get **231** requests generated when visiting [https://docs.perl6.org/type/ComplexStr](https://docs.perl6.org/type/ComplexStr)\n\nThis is very problematic for users who pay for their bandwidth or users on slow connections, such as users on mobile and wifi, or users in countries with less speedy Internet.\n\nIt looks like it's sending a HEAD request for every link on the page? During the day, I browse from a monitored corprorate network. I don't know the details of the data they gather, but I really wouldn't want them to think I'm vising millions of pages per day, instead of working.\n\nThis is also a needless load on our volunteer-donated server.\n\nHere's a run on a regular 2G network simulation. 231 requests, half a meg transfer, and it takes half a minute to load:\n\n![untitled](https://cloud.githubusercontent.com/assets/5747918/16842910/26936aac-49ad-11e6-83d3-08fcb09ed388.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

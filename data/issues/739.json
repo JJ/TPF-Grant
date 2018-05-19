@@ -1,6 +1,6 @@
 {
   "body": "No idea what `UNIT` is, but it seems to be a thing and [there are tests for it in roast](https://github.com/perl6/roast/blob/master/S02-names/pseudo.t#L386) too.\n\n```\n<Zoffix> m: BEGIN { UNIT; Nil }\n<camelia> rakudo-moar d789da: ( no output )\n<Zoffix> m: UNIT.WHAT\n<camelia> rakudo-moar d789da: ( no output )\n<Zoffix> m: UNIT.WHAT.say\n<camelia> rakudo-moar d789da: OUTPUT«(UNIT)␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

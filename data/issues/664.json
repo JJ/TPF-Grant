@@ -1,6 +1,6 @@
 {
   "body": "The screenshot below shows a partial build of the Language docs, even though [the build log](https://docs.perl6.org/build-log/build-2016-07-04T15:50+0000.log) shows them built. Visiting the missing pages directly gave a 404.\r\n\r\nThis issue may or may not have been caused by 8d83f42b857fb4725de552c16ffdf90df72e081f that added parallelzation. We undid it in d41f52ec5680ed140ccda17180049aa202875143 and the docs built fine.\r\n\r\nSome more testing needs to be done with the parallelization feature turned on.\r\n\r\n![lang](https://cloud.githubusercontent.com/assets/5747918/16566820/0987b978-41e6-11e6-8907-8493d77f720c.png)\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 664,
   "comments": 7,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

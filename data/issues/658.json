@@ -1,6 +1,6 @@
 {
   "body": "Has automatically generated table entries that make no sense ([link](https://docs.perl6.org/type-domain-specific.html)):\n\nclass   Tap Subscription to a\n\nclass   Regex   String pattern\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 658,
   "comments": 6,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

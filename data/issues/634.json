@@ -1,6 +1,6 @@
 {
   "body": "Apparently `only method { ... }` is a thing: http://irclog.perlgeek.de/perl6/2016-06-24#i_12730879\n\nI was unable to find that in the docs. If it exists, it should be added to search index.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "> The \"Role Buf\" page at https://docs.perl6.org/type/Buf is missing\n> descriptions for the following multi methods: push, pop, append,\n> prepend, shift and unshift, splice\n\nOriginally opened as RT #128174 by clifton.wood at gmail.com\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

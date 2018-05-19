@@ -1,6 +1,6 @@
 {
   "body": "There looks to be a `.return` (and `.return-rw`) methods [provided by `Mu`](https://github.com/rakudo/rakudo/blob/09cc2fbfcac902dd45af89bca9872f3c354bf4f4/src/core/Mu.pm#L43-L52), but I'm [not seeing it documented](https://docs.perl6.org/type/Mu):\n\n```\n$ perl6 -e 'sub f($a) { .return with $a; return \"something undef-y\" }; say f \"foo\"; say f Nil'\nfoo\nsomething undef-y\n\n$ perl6 -e 'Mu.^can(\"return\")[0].signature.say'\n(Mu $: | is raw)\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

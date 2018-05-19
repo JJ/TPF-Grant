@@ -1,6 +1,6 @@
 {
   "body": "Best that I can see [from the code](https://github.com/rakudo/rakudo/blob/c769890e2c3b29b0fb054e4969bfd2498852b09e/src/core/Routine.pm#L31), ~~it's supposed to give you a multi candidate given a Capture, however, I can't seem to make it produce anything other than an empty list... maybe I'm not using it right.~~ it gives you the best matching candidate for a Routine and given Capture:\n\n``` perl6\nmy $c = \\(42, 16);\nInt.^can('base')[0].cando($c)[0](|$c).say;\n# OUTPUT: 2A\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

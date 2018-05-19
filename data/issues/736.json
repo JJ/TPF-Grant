@@ -1,6 +1,6 @@
 {
   "body": "Recently a feature was added where _Reference_ type links would point you directly to the `X<>` thing in the text. Now the URLs look weird and the anchor no longer seems to point to anything.\n\nSample for when searching for `throws-like`: https://docs.perl6.org/language/testing#index-entry-throws-like-throws-like%28%24code%2C_%24expected-exception%2C_%24description%3F%2C_*%2525matcher%29\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,12 +1,12 @@
 {
   "body": "Last column is squished and can't scroll sideways:\n![screenshot_2016-06-29-17-10-57](https://cloud.githubusercontent.com/assets/5747918/16468993/aa502552-3e1c-11e6-9978-64e0855b0684.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-12T10:20:37Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-06-29T21:12:43Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/650/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 650,
   "comments": 1,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "0be5a0",
       "name": "site",

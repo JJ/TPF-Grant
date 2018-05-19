@@ -1,6 +1,6 @@
 {
   "body": "example:\n\n2016-06-10T13:24:24.173138Z\n\nwe can definitely drop fractional seconds, and probably don't care about whole seconds at all either.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

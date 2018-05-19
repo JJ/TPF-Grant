@@ -1,6 +1,6 @@
 {
   "body": "Can't seem to find the docs for it.\n\n```\n<Zoffix> m: class Foo { method FALLBACK ($name, |args) { say \"You called $name with {args.perl}\" } }.new.blah: 'blah', :blah\n<camelia> rakudo-moar 15ee3c: OUTPUT«You called blah with \\(\"blah\", :blah)␤»\n```\n\nhttps://design.perl6.org/S12.html#FALLBACK_methods\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

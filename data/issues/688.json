@@ -1,6 +1,6 @@
 {
   "body": "The [docs for `repeat`](https://docs.perl6.org/syntax/repeat) talk about what's allowed in Perl 5, but they never actually say what repeat does in Perl 6. \n\nDoes it execute the block at least once?\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

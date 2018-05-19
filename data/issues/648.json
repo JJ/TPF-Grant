@@ -1,6 +1,6 @@
 {
   "body": "```\nWriting language document for Perl 6 from Ruby - Nutshell ...\n=item4 without preceding =item3 found!  in sub oodwarn at /Users/williamcoleda/sandbox/perl6-doc/rakudo/install/share/perl6/site/sources/342151EED413708D1E987F0AFA636072F958391F (Pod::To::HTML) line 75\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

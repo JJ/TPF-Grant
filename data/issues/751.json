@@ -1,6 +1,6 @@
 {
   "body": "The [Channel.poll docs](https://docs.perl6.org/language/concurrency#Channels) have this code example:\n\n``` perl6\nmy $c = Channel.new;\n\nstart {\n    my $closed = $c.closed;\n    loop {\n        if $c.poll -> $item {\n            say $item;\n        }\n        elsif $closed {\n            last;\n        }\n    }\n}\n\nawait (^10).map: -> $r {\n    start {\n        sleep $r;\n        $c.send($r);\n    }\n}\n$c.close;\n```\n\nIt's a bit questionable for two reasons:\n1. The `.poll` is already inside a Promise, so using a blocking `.receive` would make more sense here instead of wasting CPU cycles repeatedly calling `.poll` and doing the conditional. So the example should use some actual code where `.poll` is useful (what would that be? I don't know)\n2. There's a race condition. After we close the Channel we never `await` the first Promise, so the program will likely exit without outputting some items.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

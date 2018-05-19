@@ -1,6 +1,6 @@
 {
   "body": "Even with the caching, this should be pushed out to our users and run in JS on page load.\n\nIf we want to have solid 404 checking, it should be one of:\n- part of the site build (and tested against the local copy)\n- part of a standalone script that can be run against either the local copy or the deployed site\n- opt in JS that developers/helpers can enable and report.\n\nThe recent caching addition makes this ticket a lower priority, but IMO we should still approach this as part of our build process.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

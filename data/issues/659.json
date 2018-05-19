@@ -1,6 +1,6 @@
 {
   "body": "https://docs.perl6.org/type-exceptions.html says\n\nPerl 6 Exceptions Types\n\nBut would read more naturally with:\n\nPerl 6 Exception Types\n\nLooks like this is a code change to htmlify\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "instead of\n\ncopyright\n\nuse\n\n`&copy;\n`\n(or the actual unicode symbol &copy)\n\n(or if there's a better practice using both the word & the symbol, that's fine too)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "Some entries have word `method` repeated multiple times for each of the classes that provides it. Whatever's generating those lists needs to `.unique` the elements.\n\n![untitled](https://cloud.githubusercontent.com/assets/5747918/16363033/2313621c-3b8c-11e6-9b4c-0c89cff72e2c.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

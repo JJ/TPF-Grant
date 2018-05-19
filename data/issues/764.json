@@ -1,6 +1,6 @@
 {
   "body": "We need to solidify what should be inside META6.json file, what format everything is, and what is optional and what is mandatory—and that should be well documented.\n\nBased on [this IRC conversation](http://irclog.perlgeek.de/perl6/2016-07-26#i_12910337), what goes into META6.json is a bit muddy at the moment.\n\nBased on [ugexe's comments](http://irclog.perlgeek.de/perl6/2016-07-21#i_12882031), the currently described [S22 META6.json](http://design.perl6.org/S22.html#META6.json) is up-to-date, except for what the `resources` property takes.\n\nThe properties we list in [the documentation](https://docs.perl6.org/language/modules#Distributing_Modules) however are different. I think they talk about the old `resources` format and they still mention no-longer specced `source-url` key.\n\nThe new alternative for `source-url` is `\"support: { \"source\": ...`. However, only 26 modules out of 680 actually use it. Worse, it's specced as optional, however, [panda will die](https://github.com/tadzik/panda/blob/04a9c3d50ba0f976b81756be6c9e4c6b73296bf6/lib/Panda.pm#L136-L139) if it cannot find either `source-url` or `support.source` and from what I recall, the modules.perl6.org dist builder [will also have issues](https://github.com/perl6/modules.perl6.org/blob/master/lib/ModulesPerl6/DbBuilder/Dist/Source.pm#L55) with dists that lack any source URLs in META.\n\nSo part of this Issue would be either changing the spec and making some kind of source URL mandatory or fixing our tooling. \n\nMy suggestion would be to go with least resistance and remove optional `support.source` property while adding a mandatory `source-url` property.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 764,
   "comments": 14,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "f72bc1",
       "name": "big",

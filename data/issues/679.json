@@ -1,6 +1,6 @@
 {
   "body": "From [RT#128547](https://rt.perl.org/Ticket/Display.html?id=128547)\n\n```\ndoc/Language/regexes.pod says:\n\n# The C<^^> assertion matches at the start of a logical line. That is, either\n# at the start of the string, or after a newline character.\n\nActual behaviour:\n\nShow quoted textTrue\nShow quoted textFalse\n\n/^^/ doesn't match after a newline character if that's at the end\nof the string.  This mismatch appears to be a documentation bug: the\nbehaviour of /^^/ is consistent with that of /$$/, which is consistent\nwith its documentation.  The description of /^^/ needs to adopt the\n\"when the last character is not a newline character\" qualifier from the\ndescription of /$$/.\n\n-zefram\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

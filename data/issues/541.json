@@ -1,6 +1,6 @@
 {
   "body": "Add a note to the footer about how to note that you were unable to find the docs you were looking for. (something more specific than a link to the github doc project)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

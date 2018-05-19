@@ -1,6 +1,6 @@
 {
   "body": "Test.pm6 has [`PERL6_TEST_TIMES` env var](https://github.com/rakudo/rakudo/blob/nom/lib/Test.pm6#L7), setting which appears to cause the module output the test times. It does not appear to be documented.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

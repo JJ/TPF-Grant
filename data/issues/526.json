@@ -1,6 +1,6 @@
 {
   "body": "Based on a discussion in #524, it would be great if our public face on all examples (except where specifically showcasing a Texas variant) was the unicode variant; While we've been careful to provide an ASCII alternative in most cases, IMO our public face should show the unicode operators.\n\nHowever, to help our users, it would be nice if block code samples had a (potentially automatically generated) Texas-safe block, which was able to be toggled. It might even be nice if the user's selection of Texas vs. Unicode was remembered, for those users who eschew unicode.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "As per [IRC conversation](http://irclog.perlgeek.de/perl6/2016-07-22#i_12890292), opening this ticket to suggest making trailing whitespace tests optional.\n\nThe reasoning is they often break builds and require contributors to spend time unbreaking them, even though the presence of an occasional trailing whitespaces isn't as detrimental to justify paying such a price.\n\nIn an ideal world, there'd be some block that'd prevent a commit from entering if it has trailing whitespace. In a less ideal world, there'd be an automated service unbreaking commits with such breakage. And the last option is to disable the test altogether and learn to live with trailing whitespace.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

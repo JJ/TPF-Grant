@@ -1,6 +1,6 @@
 {
   "body": "Recommendation from the w3c validator.\n\nhttps://www.w3.org/International/questions/qa-lang-why\n\nI don't see the literal tag anywhere in the repo, so I assume it's coming in from the pod 2 html converter.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

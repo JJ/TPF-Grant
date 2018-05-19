@@ -1,6 +1,6 @@
 {
   "body": "The [docs for is-approx](http://docs.perl6.org/language/testing#By_approximate_numeric_comparison) do not mention the possibility of calling it with this signature:\n\n``` perl6\nmulti sub is-approx(Numeric $got, Numeric $expected,\n                    Numeric :$rel_tol = 1e-6, Numeric :$abs_tol = 0,\n                    :$desc = '') \n```\n\nThat multi is [defined in Rakudo's sauce](https://github.com/rakudo/rakudo/blob/5638a13ab46b4017ebd7f79dd437a68f0b1eb268/lib/Test.pm6#L246)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

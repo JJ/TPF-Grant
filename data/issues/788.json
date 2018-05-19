@@ -1,6 +1,6 @@
 {
   "body": "See http://irclog.perlgeek.de/perl6/2016-08-02#i_12957335  for discussion.\n\nGoal is to cut down on travis build times, and this could be shared with other Perl 6 projects doing travis testing.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

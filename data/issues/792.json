@@ -1,6 +1,6 @@
 {
   "body": "Many search terms display results p5-to-p6 guides as the _first items_ on the list of results. This is LTA when you try to read the results and have to skip through the first entries, but it's even more annoying when you navigate to the wanted item with keyboard and have to key through these results all the time.\n\nIt's much more likely the person searching would want to read the P6 results, not P5-to-6 guides: there are programmers who come from other languages and even those who do come from P5 don't need to go to P5's guide to learn that the `accept` that was displayed second in the search results is the `accept` they likely want; or to have `listen` suggested when they search for `List`.\n\nThe P5-to-6 guides should appear last in the search results.\n\n![p5](https://cloud.githubusercontent.com/assets/5747918/17365835/40539db4-5956-11e6-828e-c67dc068ffc9.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

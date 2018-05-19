@@ -1,6 +1,6 @@
 {
   "body": "Something that was commited today broke the JavaScript code on the site. The search box no longer works for me and I get this error in Chrome in `search.js` script. Seems to be some escaping issue with the generated terms maybe?\n\n![untitled](https://cloud.githubusercontent.com/assets/5747918/17081229/69773c68-511e-11e6-822c-d3af0891fdc1.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
