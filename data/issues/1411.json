@@ -1,6 +1,6 @@
 {
   "body": "This test dies under ```make xtest``` with \r\n\r\n```\r\nTest Summary Report\r\n-------------------\r\nxt/space-after-comma.t   (Wstat: 11 Tests: 73 Failed: 1)\r\n  Failed test:  52\r\n  Non-zero wait status: 11\r\n  Parse errors: Bad plan.  You planned 309 tests but ran 73.\r\n```\r\n\r\nEnds with:\r\n\r\n```\r\nok 73 - doc/Type/Capture.pod6: Must have space after comma.\r\nSegmentation fault: 11\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

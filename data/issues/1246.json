@@ -1,6 +1,6 @@
 {
   "body": "It would be nice if both the local and installed website used the same engine to serve out pages. (The installed site could use a caching proxy to improve performance).\r\n\r\nThere are two benefits to this that I see:\r\n\r\n1.  Ability to eliminate many of the $COLON (etc.) substitutions that we make in URLs - we could still make them in filenames, but then automatically map the URL request to the file name. (File name mangling is needed to run docs on certain file systems safely - we then have to mangle every corresponding URL with the current system)\r\n\r\n2. Ability to add dynamic search.\r\n\r\nAnother potential benefit is that we don't have to generate the full set of HTML docs as part of the build, we can do it as they are requested (but only if we have a caching solution in place).\r\n\r\nWith a cache, we can also potentially use a Perl 6 engine to serve the content.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

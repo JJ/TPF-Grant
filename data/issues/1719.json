@@ -1,6 +1,6 @@
 {
   "body": "Went in to drop a handy one-liner that converts \"Perl 6\" / \"Perl 5\" with spaces into non-breaking space version, but didn't find where this stuff is even mentioned in our contributing guides.\r\n```\r\nperl -C -pi -e 's/Perl (6|5)/Perl\\x{A0}$1/g'  SOME-FILE\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

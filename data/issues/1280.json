@@ -1,6 +1,6 @@
 {
   "body": "... or at least, I was unable to find it.\r\n\r\nThere might be more similar escape sequences in existence. For example `\\q[]` seems to be interpreted as well.\r\n\r\nMy knowledge of it is summed up with this:\r\n\r\n```perl6\r\nmy $foo = 42;\r\n\r\n# Single quotes still interpolate some stuff, like the \\qq[] escape:\r\nsay  '$foo is \\qq[$foo]'; # OUTPUT: $foo is 42\r\n\r\n# To avoid it, use Q// quoter, which can be written with U+FF62 + U+FF63 chars\r\nsay Q'$foo is \\qq[$foo]'; # OUTPUT: $foo is \\qq[$foo]\r\nsay  ｢$foo is \\qq[$foo]｣; # OUTPUT: $foo is \\qq[$foo]\r\n\r\n# The \\qq[] escape can be handy when interpolating into HTML with CSS, where\r\n# with liberal quoting you run the risk of the tags being interpreted as\r\n# hash key lookup, and CSS/JS curlies as interpolated blocks.\r\n#\r\n# Don't shove backslashes all over the place! Just use the q// quoter with\r\n# and use \\qq[] escape sequence to insert your variables.\r\nsay '<foo><bar>$foo<ber>\\qq[$foo]<ber> { stick \\qq[$foo] CSS up in here }';\r\nsay q:to/♥/\r\n  <foo><bar>$foo<ber>\\qq[$foo]<ber> { stick \\qq[$foo] CSS up in here }\r\n  ♥\r\n# OUTPUT:\r\n# <foo><bar>$foo<ber>42<ber> { stick 42 CSS up in here }\r\n# <foo><bar>$foo<ber>42<ber> { stick 42 CSS up in here }\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1280,
   "comments": 4,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

@@ -1,6 +1,6 @@
 {
   "body": "http://caniuse.com/#feat=svg\r\n\r\nI have no problem supporting the type graphs only on the supported browser lists.\r\n\r\nLess to do when building the docs, the better. Please comment below if you want to vote on this issue.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

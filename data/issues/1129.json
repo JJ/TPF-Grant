@@ -1,6 +1,6 @@
 {
   "body": "Using the default Promise-enabled highlight path you get when not specifying --no-proc-async hangs on OS X.\r\n\r\n```\r\nThis is Rakudo version 2016.12-269-ge182deb built on MoarVM version 2016.12-100-gf9e14e9\r\nimplementing Perl 6.c.\r\n```\r\n\r\nGets to \"Writing programs document for Perl 6\", and then hangs processing the highlights in the callback.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

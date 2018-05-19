@@ -1,6 +1,6 @@
 {
   "body": "I see in the travis builds that IO::String is being installed with zef.\r\n\r\nIO::String is only used in xt/examples-compilation.t, which is not part of the travis test run.\r\n\r\nIt's listed as a hard dep in META6.json ; it should be optional. (and we should check all the other deps there to make sure they are used outside of xt/)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

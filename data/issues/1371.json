@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/duplicates.t doc/Type/Failure.pod6\r\n1..1\r\nnot ok 1 - doc/Type/Failure.pod6 has duplicate words\r\n\r\n# Failed test 'doc/Type/Failure.pod6 has duplicate words'\r\n# at xt/duplicates.t line 71\r\n# expected: ''\r\n#      got: '“not” on line 66'\r\n# Looks like you failed 1 test of 1\r\n```\r\n\r\nAdded in 457be1609",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

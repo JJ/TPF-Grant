@@ -1,6 +1,6 @@
 {
   "body": "The test is not rendering the pod, so pod directives are tripping up the check, e.g.\r\n\r\n```\r\nC C<Str>\r\n```\r\n\r\nis complaining about the C as a duplicate.\r\n\r\nWe should render the pod and check dupes in the rendered code. (And make sure we're still skipping the things we were when processing it by hand)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

@@ -1,6 +1,6 @@
 {
   "body": "559bd4ce2 introduced WrapHandle to the docs; but this class is lexically defined inside wrap(), so is not visible outside the routine. This means that the xt/examples-compilation.t test now fails, since it doesn't know what the class is.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

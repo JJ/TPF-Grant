@@ -1,6 +1,6 @@
 {
   "body": "- :buffer remains under the hood, deprecated for 3 releases\r\n- :buffer is now :out-buffer, tweaking output buffer\r\n- :in-buffer lets tweak input buffer\r\n\r\nImpl: https://github.com/rakudo/rakudo/commit/f9c10c2145\r\n      https://github.com/rakudo/rakudo/commit/3fcd74abf0\r\nSpec: https://github.com/perl6/roast/commit/1a7b5f6130\r\n      https://github.com/perl6/roast/commit/a99c1d5ae1\r\n\r\n(also, loosen up warning about closing handles, since we now\r\nclose them on exit automatically)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

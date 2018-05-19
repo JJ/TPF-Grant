@@ -1,6 +1,6 @@
 {
   "body": "https://docs.perl6.org/type/Proc::Async#method_bind-stdout\r\n\r\nThe docs say I can give it handle to bind, so I tried:\r\n\r\n```perl6\r\nmy ($out, $err) = IO::Handle.new, IO::Handle.new;\r\n.bind-stdout: $out;\r\n.bind-stderr: $err;\r\n```\r\n\r\nBut that just gives me \"get native descriptor requires an object with REPR MVMOSHandle (got Scalar with REPR P6opaque)\"\r\n\r\nSo how do I do this whole binding thing?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -24,27 +24,20 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-04-08T07:01:42Z",
+  "updated_at": "2018-05-13T15:59:52Z",
   "created_at": "2018-04-07T03:55:08Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1901/comments",
   "locked": false,
   "title": "Proc::Async.bind-stdout / Proc::Async.bind-stderr could use examples",
   "id": 312167759,
   "html_url": "https://github.com/perl6/doc/issues/1901",
-  "closed_at": null,
+  "closed_at": "2018-05-13T15:59:52Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1901/labels{/name}",
   "number": 1901,
-  "comments": 2,
+  "comments": 3,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

@@ -1,12 +1,12 @@
 {
   "body": "IMO https://docs.perl6.org/language/variables#Item_and_List_Assignment is trying to answer too many un-asked questions.\r\n\r\nI'd cut it in half, removing everything starting from *\"For instance, if the internal assignment is a declarator, item assignment is used, which has tighter precedence than both the comma...\"*\r\n\r\nThat part just drones on about all the various permutations of assignment and declarations made within statements, which [causes some confusion](https://irclog.perlgeek.de/perl6/2018-03-03#i_15881093).\r\n\r\nThe first half of that section along with operators page seems to describe all of needed content. If the user wishes to know how various permutations behave, they can experiment at will.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-14T09:00:17Z",
+  "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2018-03-03T22:32:33Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1810/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1810,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

@@ -1,6 +1,6 @@
 {
   "body": "Recently there have been a few new examples added which use non-ASCII variable names or text.\r\n\r\nI'm of two minds; It's nice to showcase that Perl 6 is able to use these, but it also conflicts with showing focused examples about a particular feature.\r\n\r\nAdditionally, it is also easy to trip up the US/UK spelling checks we have in place; so any new code examples that contain non english words have to be tracked to insure we're not accidentally spelling anything wrong. (This is how this came to my attention; xt/aspell.t is failing on the current commit)\r\n\r\nWe should discuss the desired approach here and document it in the style guide. If the result is to not use this style of varnames, we should also cleanup the sample code where it's currently being used (used not as a critical part of what's being demonstrated)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",

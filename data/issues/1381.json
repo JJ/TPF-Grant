@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/aspell.t doc/Language/regexes.pod6\r\n# & foooobar 6 7: foobar, foober, forbear, fiber, lobar, forebear\r\n# & foooobar 6 42: foobar, foober, forbear, fiber, lobar, forebear\r\n\r\n# Failed test 'doc/Language/regexes.pod6 has 2 spelling errors'\r\n# at xt/aspell.t line 68\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

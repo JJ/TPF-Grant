@@ -1,6 +1,6 @@
 {
   "body": "mst just added this comment to ade320d095250b12c2c5364896cdefb57d39f87c\r\n\r\n> We just had a user drop into channel thinking that because the contact information was at the end of the document, it applied to module authoring and review in general.\r\n> \r\n> While I'm all in favour of people finding the channel if they have toolchain problems, having somebody turn up wanting an \"is this module I'm working on useful\" for a set of grammar utilities (which ... looked useful to me, maybe, but I'm hardly the right person to have an opinion there) seemed suboptimal.\r\n> \r\n> So it's likely worth rephrasing or moving this somehow.\r\n\r\nOpening it as a ticket so it doesn't get lost.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

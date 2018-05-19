@@ -1,6 +1,6 @@
 {
   "body": "The section https://docs.perl6.org/language/containers#Type_Constraints appears to contain incorrect information and also code example looks to be busted (with the output shown on the page showing the error instead of what the prose describes it should show... some automated update for output?).\r\n\r\nThe text says the constraint is a property of container not variable and can be changed, but trying to rebind the container fails and [IRC conversation](https://irclog.perlgeek.de/perl6/2017-02-24#i_14160460) pointed out the constraint is a property of a variable.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 1217,
   "comments": 0,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

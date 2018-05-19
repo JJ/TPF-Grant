@@ -1,6 +1,6 @@
 {
   "body": "```\r\nZoffix \tI thought you could merge STDOUT/STDERR with Proc::Async... looks like the info's gone from the docs, even though the code has $!merge_blah blah in it\r\njnthn \tIt's just .Supply\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

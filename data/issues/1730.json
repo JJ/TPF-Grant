@@ -1,6 +1,6 @@
 {
   "body": "`is equiv`/`is tighter`/`is looser` actually [set all the other properties, not just precedence and `is tighter/looser` set associativity to left-associate](https://design.perl6.org/S06.html#Subroutine_traits) (technically, they *delete* `assoc` key, but I think that's same as setting it to `left`). Also, if both `is tighter` and `is looser` are set, the speculation says the precedence would be somewhere in the middle, but that's not the currently implemented behaviour in Rakudo (unsure what the spec says)\r\n\r\nDoesn't look like the docs mention this fact. \r\n\r\nAlso, ~~if \"all the other properties\" includes something more than associativity~~ (based on [this](https://github.com/rakudo/rakudo/commit/f9f0883c6cef3695c5150d336f5e6552e1be4a4c), `thunky` is included as well, but that's likely just an internal thing), then a way to indicate how to JUST set precedence should be listed.\r\n\r\nP.S.: worth mentioning there's [RT#132713](https://rt.perl.org/Ticket/Display.html?id=132713#ticket-history) and [RT#132711](https://rt.perl.org/Ticket/Display.html?id=132711#ticket-history) that may affect how Rakudo implementation currently behaves with these traits.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",

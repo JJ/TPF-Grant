@@ -1,6 +1,6 @@
 {
   "body": "December release of Rakudo will contain SQL as one possible output of profiler's data, however, I'm unaware of any documentation for what is what in those tables.\r\n\r\nGranted, my SQL knowledge is rudimentary, but I can't make out what is what in this schema. `callees` table seems to have the data I'm most interested in, but it just has `caller_id`... which is what? `id` from `routines`?\r\n\r\nConsidering this is currently the only viable way to view profiles for large programs, it'd be nice to have some sort of SQL Profile 101 docs. Explanation on what tables/columns are about and a few sqlite commands one can copy-paste to get some idea of what's the slowest part or something.\r\n\r\n/cc @MasterDuke17 \r\n\r\n\r\n```\r\nsqlite> .s\r\nCREATE TABLE allocations(id INT, spesh INT, jit INT, count INT);\r\nCREATE TABLE allocators(id INTEGER PRIMARY KEY ASC, name TEXT);\r\nCREATE TABLE callees(caller_id INT, id INT, osr INT, spech_entries INT, jit_entries INT, inlined_entries \r\n    INT, inclusive_time INT, exclusive_time INT, entries INT, deopt_one INT, rec_depth INT);\r\nCREATE TABLE gcs(time INT, retained_bytes INT, promoted_bytes INT, gen2_roots INT, full INT, \r\n    cleared_bytes INT);\r\nCREATE TABLE profile(total_time INT, spesh_time INT);\r\nCREATE TABLE routines(id INTEGER PRIMARY KEY ASC, name TEXT, line INT, file TEXT);\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

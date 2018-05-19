@@ -1,6 +1,6 @@
 {
   "body": "Currently the type graph images are generated or not based on the presence of a single file.\r\n\r\nIdeally we should only be generating the files we need (and that includes only a subset of these files if we do a --sparse run)\r\n\r\nThis is a low priority item.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

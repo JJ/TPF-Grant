@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 --doc doc/Type/Iterator.pod6  > /dev/null\r\nPotential difficulties:\r\n    Pod formatting code X missing endtag '>'.\r\n    at $HOME/sandbox/perl6-doc/doc/Type/Iterator.pod6:23\r\n    ------> X<IterationEnd⏏|>\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

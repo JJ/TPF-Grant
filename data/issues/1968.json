@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-26T22:32:30Z",
+  "updated_at": "2018-05-14T06:04:52Z",
   "created_at": "2018-04-26T21:31:00Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1968/comments",
   "locked": false,
@@ -20,7 +20,20 @@
   "number": 1968,
   "comments": 2,
   "labels": [
-    
+    {
+      "color": "5DE0FA",
+      "name": "new",
+      "id": 676800971,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/new"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
+    }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1968/events",
   "user": {

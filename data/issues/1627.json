@@ -1,6 +1,6 @@
 {
   "body": "The example of server/client at the top of https://docs.perl6.org/type/IO::Socket::Async doesn't work.\r\n\r\nPlaying with the code a bit, looks like the `.print` in the client needs a newline added to the end, 'cause server is waiting for lines. Also, the server sends several lines, but the client calls `done` after just receiving the first line.\r\n\r\nP.S.: not sure why the `try` is needed in the server. Also, why not just do one print with a heredoc.\r\n\r\nP.P.S: perhaps it makes more sense to make *one* program a user can start with both server and client. Just shove the server into a separate Promise and wait a bit for it to start up before connecting with a client or maybe even add some Promise that signals when the server started up and when the client can start connecting.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

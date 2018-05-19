@@ -1,6 +1,6 @@
 {
   "body": "The nextcallee, samewith, nextwith, nextsame, callwith, callsame routines are routines, but they don't show up when using the `/routines/` endpoing, e.g.: https://docs.perl6.org/routine/callwith\r\n\r\nInstead links to some of them are in the `/syntax/` and others are references in `/language/functions/`\r\n\r\nHaving https://docs.perl6.org/routine/callwith work properly makes it easier for external tools (like [perl6.party blog](https://github.com/zoffixznet/perl6.party/blob/94b3ac1a1caed4b4e8007cacc9081f6b4e15a4a5/lib/Perl5/Party/Posts.pm#L64-L72)) that auto-generate documentation links for routines and types.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

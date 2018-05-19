@@ -1,6 +1,6 @@
 {
   "body": "20fe05109 added this failing code example:\r\n\r\n```\r\n# sub f(\\x) {\r\n#     raw = 5;\r\n# }\r\n# f(my $x);   # works\r\n# f(42);      # dies\r\n# CATCH { default { put .^name, ': ', .Str } };\r\n# # OUTPUT: «X::Assignment::RO: Cannot modify an immutable Int␤»\r\n# Preceding context expects a term, but found infix = instead\r\nnot ok 14 - doc/Type/Parameter.pod6 chunk 14 compiles\r\n\r\n# Failed test 'doc/Type/Parameter.pod6 chunk 14 compiles'\r\n```\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",

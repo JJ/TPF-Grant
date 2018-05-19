@@ -1,6 +1,6 @@
 {
   "body": "No reference to a ticket in the commit message here.\r\n\r\nWhy is this checked in instead of being generated?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,7 @@
   "number": 1956,
   "comments": 10,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    }
+    
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1956/events",
   "user": {

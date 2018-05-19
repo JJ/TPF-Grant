@@ -1,6 +1,6 @@
 {
   "body": "We have a lot of \"OUTPUT: \" markers embedded in the example code. It would be great if we could compare the output of the code to verify that the output is what we declared.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

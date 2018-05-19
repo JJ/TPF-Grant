@@ -1,6 +1,6 @@
 {
   "body": "We have many examples that are skipped in doc files that are actually fine; Should be possible to make a tool that tries to auto-unfudge them (ala the tool for dealing with roast tests) to automatically enable them when possible.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

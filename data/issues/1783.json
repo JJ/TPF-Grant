@@ -1,6 +1,6 @@
 {
   "body": "For example, I see `infix:<∈>` is [documented as](https://docs.perl6.org/routine/%E2%88%88.html) an `only`, but it's actually a multi.\r\n\r\nThe differences [actually have significant impact on user's code](https://stackoverflow.com/questions/48819031/where-did-my-perl-6-operator-go-after-i-defined-a-more-specific-multi). \r\n\r\nNot yet sure how to resolve this as a general case, since currently we don't actually spec whether certain ops must be implemented as multies or onlies. I think this falls under [RT#130020](https://rt.perl.org/Ticket/Display.html?id=130020#txn-1532843), so I left a comment there mentioning the multi vs. only situation.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

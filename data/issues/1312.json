@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/perl-nbsp.t 2>/dev/null | grep \"not ok\"\r\nnot ok 23 - doc/Language/io-guide.pod6 (line 232): Perl followed by a version should have a single non-breaking space.\r\n```\r\n\r\nIt's from a code snippet that could be using a nbsp (or not using the literal \"Perl 6\")",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

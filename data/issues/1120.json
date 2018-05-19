@@ -1,6 +1,6 @@
 {
   "body": "Impl: https://github.com/rakudo/rakudo/blob/6d28c1d0e8593ed81e4dd55e6c4fdffeaad0771b/src/core/Instant.pm#L43\r\n\r\nBut not seeing it in https://docs.perl6.org/type/Instant\r\n\r\nHaven't checked its presence in roast... ",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

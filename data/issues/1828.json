@@ -1,6 +1,6 @@
 {
   "body": ".travis.yml has:\r\n\r\nmatrix:\r\n  allow_failures:\r\n    - os: osx\r\n\r\nadded in 9d74487e8\r\n\r\nI think the build is fine on the mac; if no one objects, I'll remove this in the next few days and see what explodes",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

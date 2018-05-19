@@ -1,12 +1,12 @@
 {
   "body": "Searching for `.:` on the docs gives two results that end up on 404 pages https://docs.perl6.org/routine/.:: and https://docs.perl6.org/routine/.:%3Cprefix%3E",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-05-02T07:18:22Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-05-28T05:24:05Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1346/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1346,
   "comments": 3,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "7493fb",
       "name": "search",

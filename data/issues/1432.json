@@ -1,6 +1,6 @@
 {
   "body": "In many cases, we have a snippet of code that is meant to demonstrate a particular feature; In order for the example to work, we have to insure we define all the variables and subs used (and more) so the compile doesn't fail; or, if it's too complex, we skip the test.\r\n\r\nAdd a =code directive called :preamble that takes a snippet of Perl 6 code to insert before the compilation test;\r\n\r\nThis would allow you to use the correct snippet of code in the example, but still specify additional code for any compile time strictures.\r\n\r\ne.g.:\r\n\r\n```\r\n=for code :preamble<sub foo {};>\r\n   my $x := &foo;\r\n\r\n=for code <no strict;>\r\n   my $x = @codes.grep({$_ eq $some-var});\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

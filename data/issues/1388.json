@@ -1,6 +1,6 @@
 {
   "body": "Original context:\r\n\r\nhttps://github.com/perl6/doc/commit/97c24a51878b27797dcd9f06645438adaaa68def#diff-41d8ba5d58c8de99795c9c3779f777f6R229",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 1388,
   "comments": 0,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

@@ -1,6 +1,6 @@
 {
   "body": "https://github.com/perl6/doc/blob/master/doc/Type/Signature.pod6#L753\r\n\r\nTest that it's fixed with:\r\n\r\n```\r\nperl6 xt/examples-compilation.t doc/Type/Signature.pod6\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

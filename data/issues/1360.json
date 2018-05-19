@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/aspell.t doc/Language/5to6-perlvar.pod6\r\n1..1\r\n@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)\r\n# & AutoLines 40 21: Auto Lines, Auto-Lines, Outlines, Outline's, Airlines, Towlines, Atones, Ratlines, Outlined, Utilizes, Adeline's, Outline, Datelines, Airline's, Arline's, Outlives, Towline's, Catiline's, Aliens, Aline's, Ratline's, Outshines, Aniline's, Atlantes, Artiness, Ateliers, Outliers, Dateline's, Anatolian's, Chatlines, Olin's, Atolls, Hartline's, Toluene's, Alton's, Atoll's, Earline's, Tulane's, Alien's, Atelier's\r\nnot ok 1 - doc/Language/5to6-perlvar.pod6 has 1 spelling errors\r\n\r\n# Failed test 'doc/Language/5to6-perlvar.pod6 has 1 spelling errors'\r\n# at xt/aspell.t line 68\r\n# Looks like you failed 1 test of 1\r\n```\r\n\r\nadded in 96733774985b86b2132b9b5b8d585e74b5887eee - looks like a new class name.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

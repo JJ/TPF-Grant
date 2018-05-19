@@ -1,6 +1,6 @@
 {
   "body": "I've no idea what [Supply.migrate docs](https://docs.perl6.org/routine/migrate) are trying to say with this sentence:\r\n\r\n> Creates a supply that acts like the last supply emitted to the given supply of supplies (usually created with start).\r\n\r\nA code example perhaps would help?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

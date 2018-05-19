@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/examples-compilation.t doc/Type/IO/Path.pod6\r\n…\r\n# method words(IO::Path:D:\r\n#     :$chomp = True, :$enc = 'utf8', :$nl-in = [\"\\x0A\", \"\\r\\n\"], |c --> Seq:D\r\n# )\r\n# Missing block\r\nnot ok 60 - doc/Type/IO/Path.pod6 chunk 60 compiles\r\n\r\n# Failed test 'doc/Type/IO/Path.pod6 chunk 60 compiles'\r\n# at xt/examples-compilation.t line 95\r\n# method lines(IO::Path:D:\r\n#     :$chomp = True, :$enc = 'utf8', :$nl-in = [\"\\x0A\", \"\\r\\n\"], |c --> Seq:D\r\n# )\r\n# Missing block\r\nnot ok 61 - doc/Type/IO/Path.pod6 chunk 61 compiles\r\n…\r\n```\r\n\r\nPretty sure the current check expects methods to be defined a single line\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

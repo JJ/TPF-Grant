@@ -1,6 +1,6 @@
 {
   "body": "A [Reddit Thread](https://www.reddit.com/r/perl6/comments/812cfa/pl_or_pl6/) asked what's the best practice for Perl 6 code file extensions and recommended those would be codified somewhere.\r\n\r\nI pointed to https://docs.perl6.org/language/modules and turns out a lot of the examples there (including comments in the code examples) use `.pl` and `.pm` extensions, which are really from Perl 5 world. The majority of Perl 6 users prefer the `.p6`/`.pm6` variants instead.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

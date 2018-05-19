@@ -1,6 +1,6 @@
 {
   "body": "The name \"Connor\" was recently added to one of the docs, failing the spelling test.\r\n\r\nNeed to add \"connor\" to xt/words.pws (and keep it sorted)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

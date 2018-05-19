@@ -1,6 +1,6 @@
 {
   "body": "Started from [RT#132179](https://rt.perl.org/Ticket/Display.html?id=132179)\r\n\r\nAlong with avoiding whatever negative feelings anyone might have about the [stereotype](http://allthetropes.wikia.com/wiki/Everything_Is_Big_in_Texas) this joke term is based on, calling ASCII-alternative ops is self-explanatory for anyone unfamiliar with our jargon.\r\n\r\nSo, seems like a two-birds-with-one-commit type of change. Anyone \uD83D\uDC4D ?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

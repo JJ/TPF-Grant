@@ -1,48 +1,12 @@
 {
   "body": "Code blocks now can have an explicit :lang<> set; if this lang is not Perl 6, then we should not run the Perl 6 syntax highlighter on those snippets of code. (See, for example, https://docs.perl6.org/language/rb-nutshell, which has many sections that are marked as :lang<ruby>, and therefore should not get Perl 6 highlighting)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
-    {
-      "following_url": "https://api.github.com/users/JJ/following{/other_user}",
-      "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
-      "received_events_url": "https://api.github.com/users/JJ/received_events",
-      "organizations_url": "https://api.github.com/users/JJ/orgs",
-      "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
-      "html_url": "https://github.com/JJ",
-      "id": 500,
-      "login": "JJ",
-      "type": "User",
-      "repos_url": "https://api.github.com/users/JJ/repos",
-      "site_admin": false,
-      "events_url": "https://api.github.com/users/JJ/events{/privacy}",
-      "gravatar_id": "",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
-      "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
-      "followers_url": "https://api.github.com/users/JJ/followers",
-      "url": "https://api.github.com/users/JJ"
-    }
+    
   ],
-  "assignee": {
-    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
-    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/JJ/received_events",
-    "organizations_url": "https://api.github.com/users/JJ/orgs",
-    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
-    "html_url": "https://github.com/JJ",
-    "id": 500,
-    "login": "JJ",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/JJ/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
-    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/JJ/followers",
-    "url": "https://api.github.com/users/JJ"
-  },
+  "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-03-23T17:20:38Z",
+  "updated_at": "2018-05-14T06:14:57Z",
   "created_at": "2017-07-31T11:56:32Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1430/comments",
   "locked": false,
@@ -56,13 +20,6 @@
   "number": 1430,
   "comments": 6,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

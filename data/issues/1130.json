@@ -1,6 +1,6 @@
 {
   "body": "```\r\nsub highlight-code-blocks(:$no-proc-async = False, :$use-highlights = False) {\r\n    say \"highlight-code-blocks has been called\";\r\n    if $use-highlights {\r\n        note \"Using highlights\";\r\n        #return;\r\n    }\r\n```\r\n\r\n:$use-highlights is never passed in, so it and the conditional can be removed.\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

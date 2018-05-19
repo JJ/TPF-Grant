@@ -1,6 +1,6 @@
 {
   "body": "First example shows two \"Not Yet Implemented\" samples\r\n\r\nThey were originally added in a281cb8ac46609038ac295fc4077bf44773c5e03 as part of #320; the note that they were NYI was added once we started compiling all the examples, I think.\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1805,
   "comments": 4,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

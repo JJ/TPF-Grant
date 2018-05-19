@@ -1,12 +1,12 @@
 {
   "body": "The `nodemap`, `deepmap`, `duckmap` have special handling of `Associative` types, which doesn't appear to be documented.\r\n\r\nIt's a bit convoluted, but makes sense if thought as a handler of `».` hyper method call (nodemap for nodal methods and deepmap for non-nodal).\r\n\r\nFor example, the Callable is called on the *values* of Pairs if those pairs are in a Hash:\r\n```\r\n$ perl6 -e 'm: dd deepmap *.Str.flip, %(:4b, :60c)'\r\nHash % = {:b(\"4\"), :c(\"06\")}\r\n\r\n$ perl6 -e 'm: dd deepmap *.Str.flip, [%(:4b, :60c),]'\r\n[{:b(\"4\"), :c(\"06\")},]\r\n```\r\n\r\nBut is called on the Pairs themselves when those are in some other Iterable:\r\n\r\n```\r\n$ perl6 -e 'm: dd deepmap *.Str.flip, [:4b, :60c]'\r\n[\"4\\tb\", \"06\\tc\"]\r\n```\r\n\r\nI'm not sure how to word this succinctly. Perhaps something about handling `Associative + Iterable` (e.g. Hashes) differently than non-iterable `Associative` (e.g. Pair).\r\n\r\n------\r\n\r\nOne striking relevance of this behaviour (that might be good to mention somewhere in the docs) is in this construct, which seems to be a popular way to deep-decont stuff:\r\n\r\n```\r\nmy @a = %(:42foo, :70bar), <a b c>; say gather { @a».take }'\r\n(70 42 a b c)\r\n```\r\n\r\nThe way it blows up Hashes might not be the result the user's expecting.\r\n\r\n(N.B.: this came up when I [tried to make that construct](https://irclog.perlgeek.de/perl6-dev/2017-12-20#i_15602962) not break Pairs, but that was blocked by 6.c spec and also I realized current behaviour is more desirable in other situations)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-09T19:05:40Z",
+  "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2017-12-20T15:33:16Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1720/comments",
   "locked": false,

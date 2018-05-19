@@ -1,6 +1,6 @@
 {
   "body": "The {}s were meant to highlight the type, but it is not obvious that they should be removed by the author.\r\n\r\nInstead, don't emit them around the typename, one less thing for new authors to worry about.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

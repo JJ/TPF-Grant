@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-06-06T03:23:36Z",
+  "updated_at": "2018-05-15T05:11:49Z",
   "created_at": "2017-06-03T22:13:29Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1357/comments",
   "locked": false,
@@ -18,8 +18,15 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1357/labels{/name}",
   "number": 1357,
-  "comments": 2,
+  "comments": 3,
   "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "NOTSPECCED",
+      "id": 420092522,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",

@@ -1,6 +1,6 @@
 {
   "body": "Not only is it important to know how exactly to refer back to already-matched things (though it's very simple in perl6), but it's very important to know that `$/` only updates whenever a `{ }` is encountered or when a `regex { }` or similar is finished",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

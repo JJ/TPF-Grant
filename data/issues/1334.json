@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/aspell.t doc/Type/Rational.pod6\r\n1..1\r\n@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)\r\n# & DivideByZero 5 13: Dividers, Dividable, Divider's, Divides, Divide's\r\nnot ok 1 - doc/Type/Rational.pod6 has 1 spelling errors\r\n\r\n# Failed test 'doc/Type/Rational.pod6 has 1 spelling errors'\r\n# at xt/aspell.t line 68\r\n# Looks like you failed 1 test of 1\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

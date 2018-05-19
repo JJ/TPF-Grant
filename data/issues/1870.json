@@ -1,6 +1,6 @@
 {
   "body": "On https://docs.perl6.org/language/containers#Type_Constraints  the prose says you can rebind to a variable and remove constraint, yet the very example shown in that section shows that you get an error if you try to do that. Also, it says *\"Scalar containers have Any contraint\"* by default, but that's not true, as scalar variables default to Mu.\r\n\r\n~~Also, I'm not sure, but I don't think the \"constraint is a property of the container\" part is true at all. 'cause `my Int \\x` and `my @foo := 1, 2, 3` have type checks, yet there are no containers involved.~~\r\n\r\nIRC: https://irclog.perlgeek.de/perl6/2018-03-26#i_15968146",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

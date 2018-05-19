@@ -1,6 +1,6 @@
 {
   "body": "make html should be just the action, and not depend on bigpage.\r\n\r\nIf we need both for the website, we can change the build there to specifically mention bigpage or have a different make target that does both.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-02T07:09:47Z",
+  "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2017-09-04T13:02:24Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1534/comments",
   "locked": false,
@@ -18,14 +18,14 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1534/labels{/name}",
   "number": 1534,
-  "comments": 6,
+  "comments": 8,
   "labels": [
     {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
+      "color": "a1ef3b",
+      "name": "CaR Grant",
+      "id": 931788550,
       "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
+      "url": "https://api.github.com/repos/perl6/doc/labels/CaR%20Grant"
     },
     {
       "color": "5DE0FA",

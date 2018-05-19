@@ -1,6 +1,6 @@
 {
   "body": "A run just now shows: \r\n\r\n```\r\nnot ok 4 - Language/concurrency.p6 examples check isn't successful\r\n\r\n# Failed test 'Language/concurrency.p6 examples check isn't successful'\r\n# at xt/examples-compilation.t line 23\r\n```\r\n\r\nBut some of the files have hundreds of lines.\r\n\r\nThe sanity check should be per example, and it should refer back to the line number in the original file.\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

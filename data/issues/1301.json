@@ -1,6 +1,6 @@
 {
   "body": "The [CONTRIBUTING docs mentions Inline::Python](https://github.com/perl6/doc/blob/master/CONTRIBUTING.md#inlinepython) as a prereq.\r\n\r\nIs that still accurate? IIRC we swapped to a new highlighter that doesn't need that module/python anymore.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

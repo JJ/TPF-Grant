@@ -1,6 +1,6 @@
 {
   "body": "The file, added in bfddbcd5d6256c9a9c6706c6b64bbb01b99b2a2b by @hankache is failing 'make xtest'",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/hankache/following{/other_user}",

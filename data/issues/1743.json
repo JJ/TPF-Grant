@@ -1,6 +1,6 @@
 {
   "body": "The docs for [`...` operator](https://docs.perl6.org/language/operators#index-entry-%E2%80%A6_operators) have this index markers listed:\r\n\r\n```perl-6\r\nX<|...,operators>X<|...^,operators>X<|…,operators>X<|…^,operators>\r\n```\r\n\r\nHowever, only the Unicode versions are searchable. If you type `...` or `...^` no results turn up.\r\n\r\n(P.S.: `..` doesn't show up either; dunno if it should, based on title of [the section](https://docs.perl6.org/language/operators#infix_..) alone and no index markers)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

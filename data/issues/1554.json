@@ -1,6 +1,6 @@
 {
   "body": "and then the X::Multi::NoMatch is unable to generate its proper error message because NQPRoutine doesn't have the methods it's trying to use for pretty-printing.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1554,
   "comments": 3,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "b60205",
       "name": "bug",

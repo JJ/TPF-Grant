@@ -1,6 +1,6 @@
 {
   "body": "```\r\nnot ok 63 - doc/Language/traps.pod6 (line 280): Must not have any trailing whitespace.\r\n\r\n# Failed test 'doc/Language/traps.pod6 (line 280): Must not have any trailing whitespace.'\r\n# at xt/trailing-whitespace.t line 31\r\n# Looks like you failed 1 test of 372\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

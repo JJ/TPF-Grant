@@ -1,6 +1,6 @@
 {
   "body": "Changes in Mojolicious have broken 'make run'\r\n\r\nspurt is no longer exported by Mojo::Util, but is part of Mojo::File; it appears to be a method now, not a sub, so a simple change to the module is not sufficient to resolve it.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

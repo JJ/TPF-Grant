@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/examples-compilation.t doc/Type/Signature.pod6\r\n# sub f($c: where .signature ~~ :(Int, Str))  { say $c(10, 'ten') };\r\n# sub g(Num $i, Str $s) { $s ~ $i };\r\n# f(&g);\r\n# # OUTPUT: «ten10␤»\r\n# Cannot do non-typename cases of type_constraint yet\r\nnot ok 23 - doc/Type/Signature.pod6 chunk 23 compiles\r\n```\r\n\r\nTested with a recent rakudo:\r\n```\r\n$ perl6 --version\r\nThis is Rakudo version 2017.12-58-g418fc068f built on MoarVM version 2017.12-9-g05b4c794e\r\nimplementing Perl 6.c.\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

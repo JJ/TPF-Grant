@@ -1,6 +1,6 @@
 {
   "body": "xt/examples-compilation.t has the following list of files that are skipped.\r\n\r\nInstead of skipping the entire file, each block in the file that fails should be skipped if necessary.\r\n\r\n* Skip everything using :skip-test ; use :lang<perl5> if it's (e.g.) perl5\r\n* Run the test with P6_DOC_TEST_FUDGE=1 perl6 xt/examples-compilation.t path/to/file\r\n* Remove the skip-test for the passing todos\r\n* remove the file from the explicit skip list.\r\n\r\nRemaining files to be processed:\r\n```\r\n            doc/Language/5to6-nutshell.pod6\r\n            doc/Language/5to6-perlfunc.pod6\r\n            doc/Language/5to6-perlop.pod6\r\n            doc/Language/nativecall.pod6\r\n            doc/Language/pod.pod6\r\n            doc/Language/tables.pod6\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

@@ -1,6 +1,6 @@
 {
   "body": "Now dies with:\r\n\r\n```\r\nok 105 - doc/Type/IO/Spec.pod6: Must have space after comma.\r\nok 106 - doc/Type/IO/Spec/Cygwin.pod6: Must have space after comma.\r\nok 107 - doc/Type/IO/Spec/QNX.pod6: Must have space after comma.\r\nMalformed UTF-8\r\n  in block <unit> at xt/space-after-comma.t line 25\r\n\r\n# Looks like you planned 309 tests, but ran 107\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

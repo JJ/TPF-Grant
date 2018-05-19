@@ -1,6 +1,6 @@
 {
   "body": "From \r\n\r\n```\r\nperl6 xt/examples-compilation.t doc/Type/Str.pod6\r\n```\r\n\r\n```\r\n# $string.substr-rw(2, 0) = \"-Zorro-\"; # insert new characters BEFORE the character at index 2\r\n# $string.say;                         # OUTPUT: «az-Zorro-c␤»\r\n# Variable '$string' is not declared. Did you mean 'Stringy'?\r\nnot ok 72 - doc/Type/Str.pod6 chunk 72 compiles\r\n```\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",

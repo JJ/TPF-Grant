@@ -1,6 +1,6 @@
 {
   "body": "Haven't checked if it's specced; especially [the candidate](https://github.com/rakudo/rakudo/blob/062c27f343a2ef4499a859734f64ac623b39632e/src/core/Proc.pm#L189-L192) that sets new status.\r\n\r\n```\r\n    proto method status(|) {*}\r\n    multi method status($new_status) {\r\n        $!exitcode = $new_status +> 8;\r\n        $!signal   = $new_status +& 0xFF;\r\n    }\r\n    multi method status(Proc:D:)  {\r\n        self!wait-for-finish;\r\n        ($!exitcode +< 8) +| $!signal\r\n}\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

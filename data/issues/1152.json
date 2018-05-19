@@ -1,6 +1,6 @@
 {
   "body": "```\r\n...\r\n 243/244: doc/Type/X/TypeCheck/Return.pod6         => type/X::TypeCheck::Return\r\n 244/244: doc/Type/X/TypeCheck/Splice.pod6         => type/X::TypeCheck::Splice\r\nNo such method 'started' for invocant of type 'Any'\r\n  in method throw at /Users/williamcoleda/.rakudobrew/moar-e182deb529/install/share/perl6/runtime/CORE.setting.moarvm line 1\r\n  in sub highlight-code-blocks at htmlify.p6 line 967\r\n  in sub MAIN at htmlify.p6 line 183\r\n  in block <unit> at htmlify.p6 line 1005\r\n```\r\n\r\non OS X 10.12.2, rakudo 2017.01",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/samcv/following{/other_user}",

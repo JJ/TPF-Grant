@@ -1,6 +1,6 @@
 {
   "body": "Because we are using \".allof\" to wait for Promises, we are losing the fact that some of the pod processing is erroring out. - allof just makes sure the promise ended, not that it worked.\r\n\r\nSo far I've found issues with files that have:\r\n\r\n```\r\n=head 3 C<thing>\r\n```\r\nand nested tags like:\r\n\r\n```\r\nX<C<a thing>>\r\n```\r\n\r\nBasically, there are several places in the code where we are assuming something is a Str, when in fact it's a Pod object.\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
@@ -41,28 +41,39 @@
     "followers_url": "https://api.github.com/users/coke/followers",
     "url": "https://api.github.com/users/coke"
   },
-  "closed_by": null,
-  "updated_at": "2018-05-01T16:50:30Z",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-07T12:20:29Z",
   "created_at": "2018-04-17T20:46:17Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1938/comments",
   "locked": false,
   "title": "Parallel processing is broken, even with --parallel=1",
   "id": 315228868,
   "html_url": "https://github.com/perl6/doc/issues/1938",
-  "closed_at": null,
+  "closed_at": "2018-05-07T12:20:29Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1938/labels{/name}",
   "number": 1938,
-  "comments": 12,
+  "comments": 13,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

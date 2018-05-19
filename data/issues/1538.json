@@ -1,6 +1,6 @@
 {
   "body": "Here:\r\n\r\nhttps://github.com/perl6/doc/blob/master/doc/Type/IO/Socket/Async.pod6#L33\r\n\r\nThere's:\r\n\r\n    await IO::Socket::Async.connect('localhost', 3333).then( -> $promise {\r\n        if $promise.status {\r\n\r\nBut `status` will be non-zero when the `Promise` is either kept or broken - which it must be if the `then` has been called. Note that checking if the status is `Kept` is also a bad thing to advise, as it means the exception will be silently thrown away. Just removing the `if` would do it, then the exception will be raised on accessing `.result`.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,12 +1,12 @@
 {
-  "body": "#1255 As with #1223 (and #732), I find that the idea of concept of context is diffuse. I think Perl 6 needs to have a section (somewhere) devoted just to context since this is a fundamental language concept.\r\n\r\nI don't have all the info that would need. Here are some notes I'm working on.\r\n\r\nFirst, a list of words in front of context in various docs, including synopses:\r\n\r\n- [ ] sink\r\n- [ ] number\r\n- [ ] string\r\n- [ ] boolean\r\n- [ ] item (formerly \"scalar\", but still \"scalar\" in roast)\r\n- [ ] list\r\n- [ ] semilist\r\n- [ ] hash\r\n- [ ] quote (single and double)\r\n- [ ] rvalue\r\n- [ ] hyper\r\n- [ ] slurpy (same as \"eager\"?)\r\n- [ ] lazy\r\n- [ ] dereferencing\r\n- [ ] List of lists, \"lol\" context (Array constructor?)\r\n- [ ] declarational\r\n- [ ] enum\r\n\r\nSome other bugs this impacts, as I run across them:\r\n\r\n- [x] [RT 131008: lcm should not work with Nums, and maybe gcd too](https://rt.perl.org/Public/Bug/Display.html?id=131008)\r\n- [x] [RT 131041: Use of Nil in string context](https://rt.perl.org/Public/Bug/Display.html?id=131041)",
+  "body": "#1255 As with #1223 (and #732), I find that the idea of concept of context is diffuse. I think Perl 6 needs to have a section (somewhere) devoted just to context since this is a fundamental language concept.\r\n\r\nI don't have all the info that would need. Here are some notes I'm working on.\r\n\r\nFirst, a list of words in front of context in various docs, including synopses:\r\n\r\n- [x] sink\r\n- [x] number\r\n- [x] string\r\n- [ ] boolean\r\n- [ ] item (formerly \"scalar\", but still \"scalar\" in roast)\r\n- [ ] list\r\n- [ ] semilist\r\n- [ ] hash\r\n- [ ] quote (single and double)\r\n- [ ] rvalue\r\n- [ ] hyper\r\n- [ ] slurpy (same as \"eager\"?)\r\n- [ ] lazy\r\n- [ ] dereferencing\r\n- [ ] List of lists, \"lol\" context (Array constructor?)\r\n- [ ] declarational\r\n- [ ] enum\r\n\r\nSome other bugs this impacts, as I run across them:\r\n\r\n- [x] [RT 131008: lcm should not work with Nums, and maybe gcd too](https://rt.perl.org/Public/Bug/Display.html?id=131008)\r\n- [x] [RT 131041: Use of Nil in string context](https://rt.perl.org/Public/Bug/Display.html?id=131041)",
   "author_association": "CONTRIBUTOR",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-05-01T07:05:04Z",
+  "updated_at": "2018-05-16T08:54:47Z",
   "created_at": "2017-02-27T22:33:50Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1225/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1225,
   "comments": 12,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "f72bc1",
       "name": "big",

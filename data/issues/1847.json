@@ -39,13 +39,6 @@
   "comments": 14,
   "labels": [
     {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
-    {
       "color": "0be5a0",
       "name": "site",
       "id": 397990514,

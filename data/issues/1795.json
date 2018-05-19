@@ -1,6 +1,6 @@
 {
   "body": "The documentation for [`sleep-timer`](https://docs.perl6.org/routine/sleep-timer) says *\"This function is just like sleep, but returns the amount of time remaining to sleep as a Duration (which will be 0 if the call was not interrupted).\"* however it doesn't mention what this \"interrupt\" is and how to effect on purpose.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

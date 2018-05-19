@@ -1,6 +1,6 @@
 {
   "body": "a43313704695bfe98927bbd6ff937da9c207846b added this paragraph to language/containers\r\n\r\n```\r\n+Complex containers, like Array or Hash and relatives, can contain a reference\r\n+to itself, forming recursive data structures. Please note that very few buildin\r\n+functions and methods will detect infinite loops. It is the objective of the\r\n+user to L<handle|/type/Promise#method_in> timeouts.\r\n```\r\n\r\nA few small nits:\r\n* change objective to responsibility\r\n* explain why the \"in\" method is helpful here.\r\n\r\nA bigger nit: this seems like the wrong section for this. Traps might be a better location. Also, which builtins work? are safe?\r\n\r\nThe current phrasing sounds like \"never use self referential structures\".\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

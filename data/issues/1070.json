@@ -1,6 +1,6 @@
 {
   "body": "No need to keep it when we've got our own Perl 6 highlighter code (courtesy @samcv) generating the docs now. Also remove the old CSS we don't need.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

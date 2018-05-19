@@ -1,6 +1,6 @@
 {
   "body": "This file is created during the build, but is only used by ./util/test-links.sh\r\n\r\nThe file should be generated outside of the html folder so it's not pushed to the external site.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

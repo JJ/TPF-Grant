@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ perl6 xt/aspell.t doc/Language/io-guide.pod6\r\n@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)\r\n# & CatHandle 8 26: Cat Handle, Cat-Handle, Candle, Candler, Canoodle, Condole, Grandly, Kindle\r\n# & currect 7 56: correct, current, corrects, correcter, corrector, carrycot, currant\r\n# & imporant 9 11: important, imprint, impotent, implant, immigrant, imprints, imprinter, impound, imprint's\r\nnot ok 1 - doc/Language/io-guide.pod6 has 3 spelling errors\r\n\r\n# Failed test 'doc/Language/io-guide.pod6 has 3 spelling errors'\r\n# at xt/aspell.t line 68\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

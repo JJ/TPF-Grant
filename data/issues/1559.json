@@ -1,6 +1,6 @@
 {
   "body": "when you search for `[\\` or `[\\ ]` and use the \"web search\" you can get to the reduce page directly, but searching for anything with an operator in between will give useless results, for example the front page itself is the first entry.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

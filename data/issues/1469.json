@@ -1,6 +1,6 @@
 {
   "body": "The type smileys constrain based on whether an object is `.DEFINITE` (or \"concrete\" or a \"type object\" vs. \"an instance\"), but [the current description](https://docs.perl6.org/type/Signature#Constraining_Defined_and_Undefined_Values) describes the difference very loosely, and it's easy to misunderstand it to be saying that the smileys check for value of `.defined` instead.\r\n\r\n(P.S.:  \"type smileys\" doesn't find any search results, even though [the docs do seem to use that term in a few places](https://www.google.com/search?q=site%3Adocs.perl6.org+smileys))",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

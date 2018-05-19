@@ -1,6 +1,6 @@
 {
   "body": "For example, if you search for `is-approx`, the [link will lead here](https://docs.perl6.org/language/testing#index-entry-is-approx-is-approx%28%24value%2C_%24expected%2C_%24description%3F%29); hiding the title of the section.\r\n\r\nThe same problem exists with glossary, when searching for, say, `reify` [leads to this page](https://docs.perl6.org/language/glossary#index-entry-Reify), again, with the title of the section hidden.\r\n\r\nI believe this is due to the `X<>` bits being below the title.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

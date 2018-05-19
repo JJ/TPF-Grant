@@ -1,6 +1,6 @@
 {
   "body": "Haskell was added to a skip list for extracting examples in 9771ffeeb9e997ed4b4f591cf3c68feec1a73ba0\r\n\r\nHowever, there is a lot of Perl 6 code in that file. The examples all needed to be extracted (and tested); the problematic Haskell bits need need to be skipped.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",

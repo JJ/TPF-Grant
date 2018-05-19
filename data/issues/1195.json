@@ -1,6 +1,6 @@
 {
   "body": "Implemented in https://github.com/rakudo/rakudo/commit/8a6bfc6, https://github.com/rakudo/rakudo/commit/d71bf1e , https://github.com/rakudo/rakudo/commit/15753fd , https://github.com/rakudo/rakudo/commit/e0201f15dffcef82af8750a3d8ca77341b0a8e7f , and https://github.com/rakudo/rakudo/commit/f6531d366f2f620ad5a79319ea47e66d96860596\r\n\r\nTests should be located in S17-supply/skip.t, S32-list/skip.t, and S32-list/batch.t",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -24,7 +24,7 @@
     "followers_url": "https://api.github.com/users/zoffixznet/followers",
     "url": "https://api.github.com/users/zoffixznet"
   },
-  "updated_at": "2018-04-19T10:40:15Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-02-13T20:19:12Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1195/comments",
   "locked": false,
@@ -38,13 +38,6 @@
   "number": 1195,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

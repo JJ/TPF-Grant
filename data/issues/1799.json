@@ -1,6 +1,6 @@
 {
   "body": "It's a pretty neat feature that dumps code around the spot where throwage happeend:\r\n\r\n```\r\n$ RAKUDO_VERBOSE_STACKFRAME=1 ./perl6 --ll-exception ../z.p6 \r\nX::TypeCheck::Binding::Parameter\r\nConstraint type check ZZ9 failed in binding to parameter '<anon>'; expected ZZ8 VLANZZ3 but got Int (0)\r\n  in method throw at SETTING::src/core/Exception.pm line 57\r\n  in block  at SETTING::src/core/Exception.pm line 2711\r\n  in block  at ../z.p6 line 3\r\n    2  \r\n    3* try -> VLAN {}(0);\r\n    4  $!.^name.say;\r\n\r\n  in code  at ../z.p6 line 3\r\n    2  \r\n    3* try -> VLAN {}(0);\r\n    4  $!.^name.say;\r\n\r\n  in block <unit> at ../z.p6 line 6\r\n    5  $!.message.say;\r\n    6* $!.backtrace.full.print;\r\n    7  \r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

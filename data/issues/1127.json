@@ -1,6 +1,6 @@
 {
   "body": "no-proc-async was added as a parallel processing option for highlights and parallel processing is enabled by default.\r\n\r\nThis needs to be merged into the existing --parallel option.\r\n\r\nIt also needs to be disabled by default - it hangs on my my OS X box, for example (See #1129)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/samcv/following{/other_user}",

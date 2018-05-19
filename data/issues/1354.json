@@ -1,6 +1,6 @@
 {
   "body": "Introduced in 6e00889ccaf4976a093f7615a0c2100ea36e13fd\r\n\r\n```\r\n$ perl6 xt/aspell.t doc/Type/Proc/Async.pod6\r\n1..1\r\n@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)\r\n# & overriden 7 59: overridden, override, overriding, overrides, overrode, overwritten, override's\r\nnot ok 1 - doc/Type/Proc/Async.pod6 has 1 spelling errors\r\n\r\n# Failed test 'doc/Type/Proc/Async.pod6 has 1 spelling errors'\r\n# at xt/aspell.t line 68\r\n# Looks like you failed 1 test of 1\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

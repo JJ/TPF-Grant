@@ -1,6 +1,6 @@
 {
   "body": "Old TODO that was originally added by Tom Browder in 07d735dbf\r\n \r\n```\r\n    # TODO: For the moment rakudo doc pod files were copied\r\n    #       from its repo to subdir doc/Programs and modified to Perl 6 pod.\r\n    #       The rakudo install needs\r\n    #       to (1) copy those files to its installation directory (share/pod)\r\n    #       and (2) use Perl 5's pod2man to convert them to man pages in\r\n    #       the installation directory (share/man).\r\n    #\r\n    #       Then they can be copied to doc/Programs.\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

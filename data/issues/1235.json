@@ -1,6 +1,6 @@
 {
   "body": "There are [several candidates](https://github.com/rakudo/rakudo/blob/e114d52/src/core/Pair.pm#L30-L38) (unsure of roast coverage) and they're currently undocumented.\r\n\r\nSome parts of the docs refer to `\"/foo\".IO ~~ :e & :f` type of syntax as \"file test operators\" (will fix that part of docs as part of IO grant), however that syntax is much more general and is part of Pair.ACCEPTS implementation. For example `31337 ~~ :is-prime`  works just as well.\r\n\r\nSee https://irclog.perlgeek.de/perl6/2017-03-05#i_14208291",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "```\r\nrun xt/examples-compilation.t Language/haskell-to-p6.p6\r\n```\r\n\r\nremove examples/Language/haskell-to-p6.p6\r\n\r\n```\r\nrun xt/examples-compilation.t Language/haskell-to-p6.p6\r\n```\r\n\r\nThis re-runs the extraction, but the deleted file is not regenerated.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

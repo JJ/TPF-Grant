@@ -1,6 +1,6 @@
 {
   "body": "We're currently relying on a random number to generate a temp file. Should use the ecosystem module.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

@@ -1,6 +1,6 @@
 {
   "body": "The [`sprintf '<%#.5o>',` examples](https://github.com/perl6/doc/blob/db236af9f32404ed9921ed5c3288941ecbcee6eb/doc/Type/Str.pod6#L543-L545) are wrong [[link]](https://github.com/perl6/doc/blob/db236af9f32404ed9921ed5c3288941ecbcee6eb/doc/Type/Str.pod6#L543-L545)\r\n\r\n1) they issue a warning because in Perl 6 the leading-zero does not indicate an octal number\r\n2) the output shown is incorrect, because the real output is in octal:\r\n```\r\n<Zoffix> m: printf '<%#.5o>', 12345;\r\n<camelia> rakudo-moar b19df9: OUTPUT: «<030071>»\r\n```\r\n\r\nI'm not 100% sure whether that output is correct though. It's not a Perl 6 octal number, but is that by design because all `sprintf`s in the world probably do it that way?\r\n\r\nDon't have the time to check that at the moment, but maybe someone else has...",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1248,
   "comments": 7,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

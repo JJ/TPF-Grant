@@ -1,6 +1,6 @@
 {
   "body": "Personally, I rather see it gone from Rakudo altogether, but there are a few roast tests that seem to assume this method can be overridden, so perhaps it should be documented.\r\n\r\n```\r\n$ perl6 -e '42.Bridge.perl.say'                                                                                                                                                                                                    \r\n42e0\r\n```\r\n\r\nTo the best of my knowledge all it does is coerce to a `Num` on our `Numeric` types.... why not just use a `.Num` in the first place? No idea.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

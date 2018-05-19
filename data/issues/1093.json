@@ -1,6 +1,6 @@
 {
   "body": "from https://rt.perl.org/Ticket/Display.html?id=130419 opened by @briandfoy \r\n\r\n```\r\nThe |, ^, and & character class (and Unicode property) set operators\r\naren't parseable:\r\n\r\n    > / <[abc] | [def]> /\r\n    ===SORRY!=== Error while compiling:\r\n    Unable to parse expression in metachar:sym<assert>; couldn't find final '>'\r\n    ------> / <[abc]⏏ | [def]> /\r\n    > / <[abc] ^ [def]> /\r\n    ===SORRY!=== Error while compiling:\r\n    Unable to parse expression in metachar:sym<assert>; couldn't find final '>'\r\n    ------> / <[abc]⏏ ^ [def]> /\r\n    > / <[abc] & [def]> /\r\n    ===SORRY!=== Error while compiling:\r\n    Unable to parse expression in metachar:sym<assert>; couldn't find final '>'\r\n    ------> / <[abc]⏏ & [def]> /\r\n    > / <[abc] + [def]> /\r\n    / <[abc] + [def]> /\r\n    > / <[abc] - [def]> /\r\n    / <[abc] - [def]> /\r\n\r\nThese are documented in https://docs.perl6.org/language/regexes but are\r\nnot marked as \"not implemented\" or something similar.\r\n```\r\n\r\nAnd a followup by @jnthn:\r\n\r\n```\r\nI doubt they'll be implemented particularly soon; I suggest they are removed from the docs.\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

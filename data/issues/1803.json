@@ -1,6 +1,6 @@
 {
   "body": "This is possibly unspecced.\r\n\r\nSearching for `serial` doesn't show any results, although there's a [cryptic description in Any](https://docs.perl6.org/type/Any.html#serial) that's missing a `routine` or `method` prefix in the title.\r\n\r\nWhy `Any.serial`, does simply return `self` that doesn't quite explain why the method exist—I'm presuming it's to allow for 1-el-list semantics with some one of the narrower types that provide `.serial`, so that should be mentioned I think.\r\n\r\nFrom Rakudo's source, I see Proc::Async, some types in Supply.pm, IO::Socket::Async, as well as RaceSeq and HyperSeq have implementation of `.serial`, but I don't know what's actually part of the specification.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "While this is part of the grammar, it would be nice to have a concise explanation of both:\r\n\r\n* How to use superscripts to indicate power\r\n* How p6 supports unicode numeric literals\r\n\r\nAnd have there be a link between these two sections.\r\n\r\n```\r\n⁰¹²³⁴⁵⁶⁷⁸⁹\r\n```\r\nIn case someone needs the literals to add as X<> markers.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

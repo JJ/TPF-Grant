@@ -1,6 +1,6 @@
 {
   "body": "Just saw that [our Language docs](https://docs.perl6.org/language.html) list [Perl 6 Contributors](https://docs.perl6.org/language/contributors) in the middle of them.\r\n\r\nFeels an odd place for that list, but what I noticed is that other than one person adding themselves last Jan, that page hasn't really been updated with all of the newest contributors.\r\n\r\nThere's probably a way to automatically generate the list from contributors to our various repos. Rakudo's repo already [has a tool](https://github.com/rakudo/rakudo/blob/master/tools/contributors.p6) that pulls contributors from several repos for release announcements that could be modified for this purpose.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 1970,
   "comments": 8,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

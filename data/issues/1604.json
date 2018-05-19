@@ -1,6 +1,6 @@
 {
   "body": "These return an object hash:\r\n\r\n```\r\n10:43 < jnthn> m: ('hello').categorize({ .Str.chars }).^name.say\r\n10:43 <+camelia> rakudo-moar 4b8a0e: OUTPUT: «Hash[Any,Any]␤»\r\n10:43 < jnthn> m: ('hello').classify({ .Str.chars }).^name.say\r\n10:43 <+camelia> rakudo-moar 4b8a0e: OUTPUT: «Hash[Any,Any]␤»\r\n```\r\n\r\nAfter coercing to a one-item `List`, but the docs claim for they return `Seq`. The docs for the actual implementations have the return type right, it's just those in `Any` that coerce that are wrong.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

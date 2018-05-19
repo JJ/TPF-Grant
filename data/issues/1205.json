@@ -1,6 +1,6 @@
 {
   "body": "A recent mailing list thread alerted us to the problem that searching \"perl 6 stderr\" will not lead to our docs page at all. for that specific topic there's a result for the tablets which is helpful, but it's buried deep beneath unhelpful stuff, including the RFC about barewords from ~2004. The search engine used was duckduckgo in this example.\r\n\r\nWe might want to come up with a systematic approach for figuring out what features/topics will lead users to our docs page (or any similarly appropriate resource) and what sends the user off on a wild goose chase.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

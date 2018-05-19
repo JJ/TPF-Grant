@@ -1,6 +1,6 @@
 {
   "body": "The icon link appears touching the text. There should be a few pixels of gap after the link before the icon is visible: e.g.\r\n\r\n![image](https://cloud.githubusercontent.com/assets/50257/21864543/49707bc2-d810-11e6-9e71-b1e4d5371224.png)\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

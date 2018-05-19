@@ -1,6 +1,6 @@
 {
   "body": "This file is explicitly skipped when running examples compilation.\r\n\r\nIt should be removed from the skip list, and then the minimum of :skip-test added to fix the examples so they compile.\r\n\r\n(in some cases, only an OUTPUT: tag is needed to mark output, in others, a section that is clearly marked as FAIL needs to be skipped, while the main portion of the example should be compiled)",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

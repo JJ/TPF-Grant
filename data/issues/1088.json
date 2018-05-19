@@ -1,6 +1,6 @@
 {
   "body": "_from README.md_\r\n\r\n *  Searching for an operator name returns the documentation for\r\n    the operator.  (`p6doc '%%'`  returns the documentation for\r\n    `&infix:<%%>`.)\r\n\r\nNote - this already works in the web search.\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

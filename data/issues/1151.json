@@ -1,6 +1,6 @@
 {
   "body": "```\r\n$ git branch -r --merged\r\n```\r\n\r\n- [x] origin/GT#155\r\n- [x] origin/HEAD -> origin/master\r\n- [x] origin/coke/levenshtein\r\n- [x] origin/consistent-return-types\r\n- [x] origin/highlights\r\n- [x] origin/less-seems\r\n- [x] origin/master\r\n- [x] origin/minor-spelling\r\n- [x] origin/molecules-patch-1\r\n- [x] origin/molecules-patch-2\r\n- [x] origin/return-ways-explanation\r\n- [x] origin/rmdir-tree\r\n- [x] origin/ronaldxs-fix-contributing-link\r\n\r\nSeems like everything here (except HEAD) is safe to delete. Not sure if we have a branch policy, but on projects like this, I'm used to delete-once-merged.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

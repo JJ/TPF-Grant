@@ -1,6 +1,6 @@
 {
   "body": "[The docs for `Lock.lock` and `Lock.unlock`](https://docs.perl6.org/type/Lock#method_lock) just say the methods \"acquire\" and \"release\" the lock... but what exactly does that mean? What happens? When would a user want to do that? Code examples?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

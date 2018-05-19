@@ -1,6 +1,6 @@
 {
   "body": "[It says](https://docs.perl6.org/type/IO::Socket::INET.html#method_accept) *\"In listen/server mode, waits for a new incoming connection, and returns it.\"* ... what is \"it\"? What sort of object is \"it\"?",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1929,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

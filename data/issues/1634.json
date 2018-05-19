@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-11-13T11:23:31Z",
+  "updated_at": "2018-05-15T05:44:01Z",
   "created_at": "2017-10-27T15:35:10Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1634/comments",
   "locked": false,
@@ -18,7 +18,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1634/labels{/name}",
   "number": 1634,
-  "comments": 4,
+  "comments": 5,
   "labels": [
     {
       "color": "5DE0FA",

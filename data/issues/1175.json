@@ -1,6 +1,6 @@
 {
   "body": "Issue was golfed down on coke/bughunt branch - used to segfault, now just getting odd concurrency errors.\r\n\r\nNeed to fix this so we can make parallel building the default.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

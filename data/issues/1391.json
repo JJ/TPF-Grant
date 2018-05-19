@@ -1,12 +1,12 @@
 {
   "body": "If you type a search term and no results show up, you're given an option to do a google search for that term. However, that option isn't available when some results turned up.\r\n\r\nI think the option to do a google search should always be present because the found results might not be what the user is looking for (e.g. I searched for \"binder\"), yet the site might still have the word used somewhere the search index didn't grab it, so a google search would still be useful.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-03-30T07:45:56Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-06-21T15:33:01Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1391/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1391,
   "comments": 3,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "7493fb",
       "name": "search",

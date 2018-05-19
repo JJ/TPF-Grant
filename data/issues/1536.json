@@ -1,6 +1,6 @@
 {
   "body": "Here:\r\n\r\nhttps://docs.perl6.org/language/5to6-perlfunc#open\r\n\r\nIt would be good to highlight that handles to not get closed at scope exit. It's mentioned in the open docs already, but it would be good to call it out as a significant difference between 5 and 6.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",

@@ -1,12 +1,12 @@
 {
   "body": "Since the attributes play a role in how an object is unpacked in signatures, it should be clearly known which public attributes an object has.\r\n\r\nFor example `Pair.Capture` uses `Mu.Capture` and unpacks with `\\(:key<foo>, :value<bar>)`. But the documentation for `Pair` isn't all that clear on what attributes the type has.\r\n\r\nI tried documenting them [just like methods](https://docs.perl6.org/type/IO::Path#attribute_CWD) except calling them `attribute`. In `IO::Handle`, [some of the attributes are documented as methods](https://docs.perl6.org/type/IO::Handle#method_encoding). And relying just on `.new` method's documentation isn't really great either, because [some .new methods have many options](https://docs.perl6.org/type/Date#method_new) and it's unclear which of them end up being attributes.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-24T14:05:17Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-05-24T12:27:53Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1331/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1331,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

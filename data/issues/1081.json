@@ -1,12 +1,12 @@
 {
   "body": "The [reference](https://docs.perl6.org/language/5to6-nutshell#Reference_creation) as well as [Dereferencing](https://docs.perl6.org/language/5to6-nutshell#Dereferencing) need to be completely rewritten as they suggest ridiculous, superfluous operations.\r\n\r\nThe section needs to say that we don't have references like in Perl 5 at all. While objects get \"passed by reference\" we don't even use that term when talking about regular code. \r\n\r\nThe current doc recommend use of things like `say keys %($hashref   );` or that you need an `item()` call to store an array in a scalar variable; or that you need a Zen slice to store a `$hash` in a `%hash`. All of that is superfluous and not needed. \r\n\r\nMoreover, the major utility of references in Perl 5 is to pass around structured data without it being flattened. This is no longer needed in Perl 6, but the sections don't mention that fact at all.\r\n\r\nIf I'm coming from Perl 5, what I'd learn from those sections is I need to switch `->` to `.` and `@{}` to `@()`, when in reality the entire paradigm is different in Perl 6.\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2016-12-28T15:34:05Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-12-25T01:16:33Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1081/comments",
   "locked": false,
@@ -18,7 +18,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1081/labels{/name}",
   "number": 1081,
-  "comments": 0,
+  "comments": 1,
   "labels": [
     {
       "color": "5DE0FA",

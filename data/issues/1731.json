@@ -1,6 +1,6 @@
 {
   "body": "Many, if not most, methods in [`Any` docs](https://docs.perl6.org/type/Any#method_antipairs) are either slightly wrong or are outright completely invalid.\r\n\r\nBriefly scanning the docs I see these issues:\r\n\r\n* [x] `\"Treats the Any as a 1-item list\"` — many methods mention this, however the actual behaviour is the `Any` gets coerced to a list using `.list` method, which *is* a 1-item list if `Any.list` is used, but some types implement their own `.list`. For example `^10 .combinations` would treat that `Range` as a list, but the docs suggest the `Range` would become a single item\r\n* [x] `\"Coerce the invocant first to a List\"` — the actual coercion for many methods is to a \"list\" (lowercase), using `.list` method which can give any `Positional`\r\n* [ ] `\"Returns an empty List.\"` / `\"Returns Any.\"` / etc.  — this is the \"completely invalid\" category. Some methods like `.pairs`, `.antipairs`, and `.kv` seem to document observed behaviour for an `Any` typeobject rather than what the methods actually do.  Yes, `Any.pairs` returns an empty list, but the behaviour for `Any:D` is to coerce to `.list` and then call `.pairs` on the result.\r\n\r\nThere may be more issues and my suggestion would be to look through all the methods to ensure they contain valid information.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",

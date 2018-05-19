@@ -60,7 +60,7 @@
     "followers_url": "https://api.github.com/users/coke/followers",
     "url": "https://api.github.com/users/coke"
   },
-  "updated_at": "2018-04-30T12:54:06Z",
+  "updated_at": "2018-05-14T06:06:26Z",
   "created_at": "2018-04-29T02:33:33Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1973/comments",
   "locked": false,
@@ -72,9 +72,22 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1973/labels{/name}",
   "number": 1973,
-  "comments": 5,
+  "comments": 7,
   "labels": [
-    
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "0be5a0",
+      "name": "site",
+      "id": 397990514,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1973/events",
   "user": {

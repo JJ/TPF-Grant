@@ -1,6 +1,6 @@
 {
   "body": "Add a new top level index/search page.\r\n\r\n* Display every category/item currently available in the existing search box.\r\n* Categories ordered by either a hardcoded ranking, or alphabetically.\r\n* Within a section, items are ordered alphabetically.\r\n* Provide a search box separate from the existing search, which has the result of hiding the links that do not match.\r\n* Should be able to link to this page and pass in a search string - when loading the page, show the string in the search box and perform the search. (preferably before loading the page).\r\n\r\nOnce this is in place, we can start making the dropdown search a little smarter and link to this as a fallback when users want to see all possible search results.\r\n\r\nWe may also want to make it a top level link in the docs menu. ",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
@@ -42,7 +42,7 @@
     "url": "https://api.github.com/users/coke"
   },
   "closed_by": null,
-  "updated_at": "2018-04-28T21:54:38Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-01-01T01:22:49Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1099/comments",
   "locked": false,
@@ -56,13 +56,6 @@
   "number": 1099,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "7493fb",
       "name": "search",

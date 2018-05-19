@@ -1,12 +1,12 @@
 {
-  "body": "## The problem\r\n\r\nWe have right now a [Chinese version](https://github.com/perl6/doc/blob/master/README.zh.md), we could have more at least to populate search results in a number of languages.\r\n\r\n\r\n## Suggestions\r\n\r\nTranslate to\r\n\r\n- [ ] Spanish\r\n- [ ] German\r\n- [ ] Dutch\r\n- [ ] Portuguese\r\n- [ ] French\r\n- [ ] Japanese\r\n",
+  "body": "## The problem\r\n\r\nWe have right now a [Chinese version](https://github.com/perl6/doc/blob/master/README.zh.md), we could have more at least to populate search results in a number of languages.\r\n\r\n\r\n## Suggestions\r\n\r\nTranslate to\r\n\r\n- [x] Spanish\r\n- [x] German\r\n- [ ] Dutch\r\n- [ ] Portuguese\r\n- [ ] French\r\n- [x] Japanese\r\n",
   "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-05-01T10:50:35Z",
+  "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2018-05-01T06:05:50Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1984/comments",
   "locked": false,
@@ -18,15 +18,8 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1984/labels{/name}",
   "number": 1984,
-  "comments": 2,
+  "comments": 7,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "8cef88",
       "name": "good first issue",

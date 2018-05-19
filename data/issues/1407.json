@@ -1,6 +1,6 @@
 {
   "body": "This makes it impossible to run the site offline (as is) for development/testing.\r\n\r\nIf we need those styles specifically, we can pull them in via git so we have them available during build time, and don't necessarily need a network connection at run time.\r\n\r\nLow priority, might be superseded by an update to the site CSS anyway.\r\n\r\nCould also add a build rule to 'make run' that did a one shot curl of the file and used the local copy for make run only.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

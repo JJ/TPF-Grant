@@ -1,12 +1,12 @@
 {
   "body": "It's a special syntax that lets users write stuff like their own versions of stuff like `<before ...>`. (description copied from https://github.com/rakudo/rakudo/issues/1634#issuecomment-374689565)\r\n\r\n> […] it is the syntax that lets us parse `<before abc>` and similar. Unlike with `<foo: ...>` and `<foo(...)>`, where the args are parsed by the MAIN language, the `<foo ...>` form parses the rest of the assertion using the regex language, wraps it in a closure, and passes it to foo. Thus it's a general syntax for higher-order regex operators - which is just what before/after are.\r\n\r\nI guess maybe somewhere in the \"advanced\" section or grammars is a good place to put this. Just to separate it from all the common syntax novice users might be reading through.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-09T19:05:05Z",
+  "updated_at": "2018-05-07T10:09:51Z",
   "created_at": "2018-03-20T17:48:06Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1858/comments",
   "locked": false,
@@ -18,7 +18,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1858/labels{/name}",
   "number": 1858,
-  "comments": 2,
+  "comments": 7,
   "labels": [
     {
       "color": "5DE0FA",
@@ -26,13 +26,6 @@
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "8cef88",
-      "name": "good first issue",
-      "id": 876253381,
-      "default": true,
-      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
     },
     {
       "color": "5DE0FA",

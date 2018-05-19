@@ -1,6 +1,6 @@
 {
   "body": "83ddea53e added a nativecall C tutorial which doesn't pass xt/\r\n\r\nI've committed some updates that mark the C code as such, and output text as such so they aren't tested, leaving these 4 chunks:\r\n\r\n```\r\n$ xt/examples-compilation.t doc/Language/nativecall.pod6 2>&1 | grep 'not ok'\r\nnot ok 24 - doc/Language/nativecall.pod6 chunk 24 starts with “sub getadd” compiles\r\nnot ok 25 - doc/Language/nativecall.pod6 chunk 25 starts with “class Addr” compiles\r\nnot ok 26 - doc/Language/nativecall.pod6 chunk 26 starts with “method fla” compiles\r\nnot ok 27 - doc/Language/nativecall.pod6 chunk 27 starts with “ \\#!/usr/bin” compiles\r\n```\r\n\r\nNot sure how much effort it is to make this compile-able, but it would be nice if it passed the test. \r\n\r\nNote that we can use \":preamble\" on a code block if we need to make something available to a different block.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",

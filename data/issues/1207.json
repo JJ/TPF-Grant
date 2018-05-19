@@ -1,6 +1,6 @@
 {
   "body": "For #1194 \r\n\r\nThis is not yet intended to be merged, but to be considered for review.\r\n\r\nRuntime for this test is definitely slower than before, but the output in case of failure is much more helpful.\r\n\r\nThe slowness is because this branch removes the caching of a combined example per test file, using instead a precompiled version of the source (same mechanism used by htmlify) and walking over that each time the test is run. We can add a similar kind (but more complicated given the split into chunks) of caching back if needed.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/gfldex/following{/other_user}",

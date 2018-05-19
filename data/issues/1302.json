@@ -1,6 +1,6 @@
 {
   "body": "The [CONTRIBUTING.md](https://github.com/perl6/doc/blob/master/CONTRIBUTING.md) doc is way too big (and [I'm not the only one who thinks so](https://irclog.perlgeek.de/perl6/2017-05-11#i_14567654)).\r\n\r\nIt covers everything under the moon, including website debug mode.\r\n\r\nMost contributors don't need to be put through the pain of installing all the prereqs and building the local copy of the site. And IMO the CONTRIBUTING doc should just answer the questions:\r\n\r\n- How to find what to edit to change a thing I see on the site?\r\n- What writing style should I use?\r\n- What the hell is POD6 and how do I write it?\r\n\r\nTo test the change doesn't break too much, users can just run the pod file they edited through Pod::To::Text (add `make render` target or something) instead of building anything and IMO the option of just editing stuff right on GitHub should be suggested as a possibility.\r\n\r\nEverything else should be put into another document.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -38,13 +38,6 @@
   "number": 1302,
   "comments": 4,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

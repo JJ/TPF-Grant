@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-04-07T10:01:04Z",
+  "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2017-09-03T00:18:28Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1512/comments",
   "locked": false,
@@ -18,8 +18,15 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1512/labels{/name}",
   "number": 1512,
-  "comments": 1,
+  "comments": 3,
   "labels": [
+    {
+      "color": "a1ef3b",
+      "name": "CaR Grant",
+      "id": 931788550,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/CaR%20Grant"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",

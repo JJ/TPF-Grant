@@ -1,6 +1,6 @@
 {
   "body": "Need to add 'defg' to xt/codes.pws\r\n\r\n```\r\n$ perl6 xt/aspell.t doc/Type/Str.pod6\r\n1..1\r\n@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.6.1)\r\n# & defg 8 37: defog, def, deg, efg, defy, Deng, defn, deft\r\nnot ok 1 - doc/Type/Str.pod6 has 1 spelling errors\r\n\r\n# Failed test 'doc/Type/Str.pod6 has 1 spelling errors'\r\n# at xt/aspell.t line 68\r\n# Looks like you failed 1 test of 1\r\n```",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/samcv/following{/other_user}",

@@ -6,7 +6,7 @@
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-03-26T17:20:34Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2017-01-17T15:55:42Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1144/comments",
   "locked": false,
@@ -20,13 +20,6 @@
   "number": 1144,
   "comments": 1,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

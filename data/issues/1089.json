@@ -1,6 +1,6 @@
 {
   "body": "Currently a search for proceed finds:\r\n\r\n\"proceed succeed\"\r\n\r\nThis should be two entries, not one.",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

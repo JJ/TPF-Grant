@@ -44,13 +44,7 @@
   "number": 1881,
   "comments": 1,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    }
+    
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1881/events",
   "user": {
