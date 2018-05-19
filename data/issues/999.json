@@ -1,6 +1,6 @@
 {
   "body": "for example, ideally \"startswith\" and \"starts_with\" both should find \"starts-with\".\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

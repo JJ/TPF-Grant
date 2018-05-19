@@ -1,6 +1,6 @@
 {
   "body": "This removes the top level file predefined-search-items and inserts it where it's used.\n\nIt's all static text, so having it separated doesn't add anything to the process, and instead complicates it for no gain.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

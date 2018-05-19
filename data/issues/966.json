@@ -1,6 +1,6 @@
 {
   "body": "Confusing example in doc/Language/typesystem.pod6\n\nWhat does this example code have to do with is nodal?\n\nText is also hard to process; a less tortured phrasing is \"mark a method so hyperoperators do not descend into it\"\n\n```\n=head4 trait C<is nodal>\n\nMark a method for hyperoperators as to be avoided for descending into.\n\n    dd [[1,2,3],[4,5]]>>.elems;\n    # OUTPUT«(3, 2)␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

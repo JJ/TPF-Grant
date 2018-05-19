@@ -1,6 +1,6 @@
 {
   "body": "The ENV var section there should be for implementation agnostic variables.\n\nThere's a link now to https://github.com/rakudo/rakudo/wiki/dev-env-vars , where we can document all the rakudo-specfic variables. (All the ones that were missing are documented there, just need to move the ones that were already doc'd)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

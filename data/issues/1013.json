@@ -1,6 +1,6 @@
 {
   "body": "The spelling test runs the POD6 through 'perl6 --doc', and doc/Type/Real.pod6 generates a warning:\r\n\r\n```\r\n$ perl6 --doc doc/Type/Real.pod6 > /dev/null\r\nPotential difficulties:\r\n    Pod formatting code C missing endtag '>'.\r\n    at ./perl6-doc/doc/Type/Real.pod6:91\r\n```\r\n\r\nTested at 8b85121\r\n\r\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

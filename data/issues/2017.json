@@ -1,0 +1,53 @@
+{
+  "body": "Glancing at the intro section on https://docs.perl6.org/type/Whatever I notice a couple of problems.\r\n\r\n1. Roughly the second half of the section is probably not clear enough for the average reader. The section even introduces the term `\"stored *\"` only to backtrack on it and try to explain that curry already happened before it.\r\n2. The information doesn't give all the details when curry happens. Especially when it comes to chained Whatever stars, such as `* ≥ * ≥ *`,  `*.uc ~~ *`, `*.uc xx *.abs` etc. In code form (and should already be fairly covered by spec) the list of what decisions are made is encoded [here](https://github.com/rakudo/rakudo/blob/da646aa2ee6e3064bdef905f5c0b54b4bd0b2797/src/Perl6/Actions.nqp#L9641-L9665). I think this full information can replace the current second portion of the description.\r\n3. The section should probably mention that HyperWhatever exists, considering how close the two constructs are.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-05-14T05:05:42Z",
+  "created_at": "2018-05-09T14:40:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2017/comments",
+  "locked": false,
+  "title": "Docs on Whatever curry could be clearer / don't cover everything",
+  "id": 321598580,
+  "html_url": "https://github.com/perl6/doc/issues/2017",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2017/labels{/name}",
+  "number": 2017,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2017/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2017"
+}

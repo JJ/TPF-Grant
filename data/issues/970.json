@@ -1,6 +1,6 @@
 {
   "body": "There are [some juicy method dispatch overrides](https://github.com/rakudo/rakudo/blob/a09c8dc99ef7ae60876ad7a7cc478f7e303eb804/src/core/Mu.pm#L658) available in Mu, but I don't see them documented.\n\nThey allow to mod how method dispatch occurs:\n\n```\n<ZoffixW> m: class Foo { method dispatch:<.+>(Mu \\SELF: \\name, |c) { say \"cannot call {name} like that, bruh\" }; }.+meow\n<camelia> rakudo-moar a09c8d: OUTPUT«cannot call meow like that, bruh␤»\n\n<ZoffixW> m: class Foo { method dispatch:<hyper>(Mu \\SELF: \\name, |c) { say \"Calling {name} in hyperspace mode... Set phasers to stun!\" }; }».test\n<camelia> rakudo-moar a09c8d: OUTPUT«Calling test in hyperspace mode... Set phasers to stun!␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

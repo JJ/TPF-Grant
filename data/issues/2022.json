@@ -1,5 +1,5 @@
 {
-  "body": "- https://docs.perl6.org/routine/deepmap\n- https://docs.perl6.org/routine/duckmap\n",
+  "body": "Grep the whole doc repository like this:\r\n```bash\r\nack '`.*`'\r\n```\r\nAnd you will find a lot of cases like:\r\n![image](https://user-images.githubusercontent.com/5507503/39882777-775f47ca-548d-11e8-97e9-312599550095.png)\r\n\r\nClose this issue when all uses of `` ` ` `` were replaced with `C<>` (comments in code are OK).",
   "author_association": "MEMBER",
   "assignees": [
     
@@ -24,29 +24,29 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-07T15:19:15Z",
-  "created_at": "2016-10-06T04:38:31Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/943/comments",
+  "updated_at": "2018-05-15T09:01:31Z",
+  "created_at": "2018-05-10T17:06:25Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2022/comments",
   "locked": false,
-  "title": "Difference between deepmap and duckmap is not discussed",
-  "id": 181322968,
-  "html_url": "https://github.com/perl6/doc/issues/943",
-  "closed_at": "2018-05-07T15:19:15Z",
+  "title": "Accidental `markdown`",
+  "id": 322007377,
+  "html_url": "https://github.com/perl6/doc/issues/2022",
+  "closed_at": "2018-05-15T09:01:31Z",
   "milestone": null,
   "state": "closed",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/943/labels{/name}",
-  "number": 943,
-  "comments": 0,
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2022/labels{/name}",
+  "number": 2022,
+  "comments": 6,
   "labels": [
     {
-      "color": "5DE0FA",
-      "name": "docs",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+      "color": "8cef88",
+      "name": "good first issue",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
     }
   ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/943/events",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2022/events",
   "user": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
@@ -67,5 +67,5 @@
     "url": "https://api.github.com/users/AlexDaniel"
   },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/943"
+  "url": "https://api.github.com/repos/perl6/doc/issues/2022"
 }

@@ -1,0 +1,60 @@
+{
+  "body": "## The problem\r\n\r\n[Classes and Objects](https://docs.perl6.org/language/classtut) and [Object-Orientation](https://docs.perl6.org/language/objects) documentation does not talk about how to compare objects for equality.\r\n\r\n## Suggestions\r\n\r\n- add a section that documents how Objects should be compared for equality. \r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": null,
+  "updated_at": "2018-05-06T15:57:55Z",
+  "created_at": "2018-05-06T12:36:19Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2004/comments",
+  "locked": false,
+  "title": "Object Equality Documentation",
+  "id": 320589170,
+  "html_url": "https://github.com/perl6/doc/issues/2004",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2004/labels{/name}",
+  "number": 2004,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2004/events",
+  "user": {
+    "following_url": "https://api.github.com/users/mcmillhj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mcmillhj/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/mcmillhj/received_events",
+    "organizations_url": "https://api.github.com/users/mcmillhj/orgs",
+    "subscriptions_url": "https://api.github.com/users/mcmillhj/subscriptions",
+    "html_url": "https://github.com/mcmillhj",
+    "id": 1438499,
+    "login": "mcmillhj",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/mcmillhj/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/mcmillhj/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1438499?v=4",
+    "starred_url": "https://api.github.com/users/mcmillhj/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/mcmillhj/followers",
+    "url": "https://api.github.com/users/mcmillhj"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2004"
+}

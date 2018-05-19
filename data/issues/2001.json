@@ -1,5 +1,5 @@
 {
-  "body": "Two quotes from [that section](https://docs.perl6.org/language/operators#Hyper_Operators):\n- `Hyper operators are defined recursively on nested arrays.`\n- `Hyper operators do not descend into child lists.`\n\nSplit it into two sections. One should talk about stuff like `»…«` and another one about `@a»…`. Seems like these are a bit too different.\n",
+  "body": "It is used several times but we never explain what it is. Googling it doesn't help.\r\n```\r\nLanguage/exceptions.pod6\r\n159-A C<try>-block is a normal block and as such treats its last statement as the\r\n160:return value of itself. We can therefore use it as a RHS.\r\n161-\r\n\r\nLanguage/terms.pod6\r\n197-Constants are declared with C<constant>, followed by an\r\n198:L<identifier|/language/syntax#Identifiers> and do not require a sigil. The RHS\r\n199-is evaluated at compile time, therefore being possibly too early to make sense.\r\n--\r\n207-\r\n208:Since constants RHS are evaluated at compile time, their usage within modules\r\n209-could lead to unexpected behavior, please see the related\r\n\r\nLanguage/syntax.pod6\r\n549-When assigning to a C<%> sigiled variable on the LHS, the sigil and parenthesis\r\n550:surrounding the RHS C<Pairs> are optional.\r\n551-\r\n\r\nLanguage/operators.pod6\r\n1217-\r\n1218:Both C<.count> and C<.arity> of the RHS will be maintained.\r\n1219-\r\n\r\nType/Nil.pod6\r\n99-If you are looking for a variable which transforms objects into type objects\r\n100:when said variable appears on the RHS, you can type the container as C<Nil>.\r\n101-\r\n```",
   "author_association": "MEMBER",
   "assignees": [
     {
@@ -41,20 +41,38 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "closed_by": null,
-  "updated_at": "2018-05-14T05:05:41Z",
-  "created_at": "2016-10-06T04:45:36Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/944/comments",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-07T14:54:21Z",
+  "created_at": "2018-05-06T11:26:41Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2001/comments",
   "locked": false,
-  "title": "Revise text on HyperOperators",
-  "id": 181323604,
-  "html_url": "https://github.com/perl6/doc/issues/944",
-  "closed_at": null,
+  "title": "RHS (right hand side) and LHS should be defined in the glossary",
+  "id": 320584379,
+  "html_url": "https://github.com/perl6/doc/issues/2001",
+  "closed_at": "2018-05-07T14:54:21Z",
   "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/944/labels{/name}",
-  "number": 944,
-  "comments": 1,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2001/labels{/name}",
+  "number": 2001,
+  "comments": 4,
   "labels": [
     {
       "color": "5DE0FA",
@@ -64,7 +82,7 @@
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
     }
   ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/944/events",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2001/events",
   "user": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
@@ -85,5 +103,5 @@
     "url": "https://api.github.com/users/AlexDaniel"
   },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/944"
+  "url": "https://api.github.com/repos/perl6/doc/issues/2001"
 }

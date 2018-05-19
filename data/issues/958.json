@@ -1,6 +1,6 @@
 {
   "body": "Including a reference to 'moar --help' is fine, as they are all doc'd there. Should include some language about how this is (obviously) rakudo/MoarVM specific.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

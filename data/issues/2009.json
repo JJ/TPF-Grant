@@ -1,5 +1,5 @@
 {
-  "body": "Two quotes from [that section](https://docs.perl6.org/language/operators#Hyper_Operators):\n- `Hyper operators are defined recursively on nested arrays.`\n- `Hyper operators do not descend into child lists.`\n\nSplit it into two sections. One should talk about stuff like `»…«` and another one about `@a»…`. Seems like these are a bit too different.\n",
+  "body": "https://irclog.perlgeek.de/perl6/2018-05-07#i_16140539\r\n\r\n\r\n> Tison | .ask moritz I found a regex like `regex key { <![#\\[]> <-[;=]>+ }` and wonder what's the different between <![...]> and  <-[...]>. BTW, the former isn't documented.\r\n> Tison | It looks like the former is an assertion while the latter really matches something\r\n> Tison | our documentation on assertion only shows look-around assertions but no general assertion forms\r\n> timotimo | yeah, if you have a ? or ! after the < it becomes a zero-width matching assertion\r\n\r\n",
   "author_association": "MEMBER",
   "assignees": [
     {
@@ -42,19 +42,19 @@
     "url": "https://api.github.com/users/JJ"
   },
   "closed_by": null,
-  "updated_at": "2018-05-14T05:05:41Z",
-  "created_at": "2016-10-06T04:45:36Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/944/comments",
+  "updated_at": "2018-05-14T05:05:42Z",
+  "created_at": "2018-05-07T23:23:40Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2009/comments",
   "locked": false,
-  "title": "Revise text on HyperOperators",
-  "id": 181323604,
-  "html_url": "https://github.com/perl6/doc/issues/944",
+  "title": "Lack of Regex Assertions Documentation",
+  "id": 320991807,
+  "html_url": "https://github.com/perl6/doc/issues/2009",
   "closed_at": null,
   "milestone": null,
   "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/944/labels{/name}",
-  "number": 944,
-  "comments": 1,
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2009/labels{/name}",
+  "number": 2009,
+  "comments": 2,
   "labels": [
     {
       "color": "5DE0FA",
@@ -64,26 +64,26 @@
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
     }
   ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/944/events",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2009/events",
   "user": {
-    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
-    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
-    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
-    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
-    "html_url": "https://github.com/AlexDaniel",
-    "id": 5507503,
-    "login": "AlexDaniel",
+    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
+    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
+    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
+    "html_url": "https://github.com/W4anD0eR96",
+    "id": 18818196,
+    "login": "W4anD0eR96",
     "type": "User",
-    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
     "site_admin": false,
-    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
     "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
-    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
-    "url": "https://api.github.com/users/AlexDaniel"
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
+    "url": "https://api.github.com/users/W4anD0eR96"
   },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/944"
+  "url": "https://api.github.com/repos/perl6/doc/issues/2009"
 }

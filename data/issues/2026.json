@@ -1,0 +1,71 @@
+{
+  "body": "## The problem\r\n\r\nAs seen [in Reddit](https://www.reddit.com/r/ProgrammingLanguages/comments/8jj5tv/mixing_function_overloading_and_named_parameters/), in [this comment by Raiph](https://www.reddit.com/r/ProgrammingLanguages/comments/8jj5tv/mixing_function_overloading_and_named_parameters/dz13yj2/),\r\n\r\n>Unfortunately the [user doc](https://docs.perl6.org/language/functions#Multi-dispatch) about it is minimal, \r\n\r\n## Suggestions\r\n\r\nTry and make the user doc non-minimal by including examples with named parameters. ",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "html_url": "https://github.com/fluca1978",
+    "id": 813664,
+    "login": "fluca1978",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "url": "https://api.github.com/users/fluca1978"
+  },
+  "updated_at": "2018-05-18T10:22:41Z",
+  "created_at": "2018-05-16T05:46:33Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2026/comments",
+  "locked": false,
+  "title": "Improve documentation on function overloading and named parameters",
+  "id": 323476541,
+  "html_url": "https://github.com/perl6/doc/issues/2026",
+  "closed_at": "2018-05-18T10:22:41Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2026/labels{/name}",
+  "number": 2026,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2026/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2026"
+}

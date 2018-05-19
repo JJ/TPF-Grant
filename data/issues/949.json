@@ -1,6 +1,6 @@
 {
   "body": "e.g. search for RAKUDO_NO_DEPRECATIONS\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
@@ -24,7 +24,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-04-14T08:53:21Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-10-10T16:31:10Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/949/comments",
   "locked": false,
@@ -38,13 +38,6 @@
   "number": 949,
   "comments": 23,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "8cef88",
       "name": "good first issue",

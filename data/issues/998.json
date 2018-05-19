@@ -1,6 +1,6 @@
 {
   "body": "=head2 The C«<» Twigil\n\nThis is referring to $/<key>, which can be abbreviated to $<key> - this isn't a twigil. It's a literal hash lookup into a special variable. This whole section can be removed - there's an entire page devoted to $/, as well as another entire section later below.\n\nInsure the recently added examples are covered in one of these two sections before removing it.\n\n(Ideally, eliminate the two distinct sections and pick one place for docs about $/ to live - but down to 2 from 3 is required)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

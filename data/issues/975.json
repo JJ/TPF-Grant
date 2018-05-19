@@ -1,12 +1,12 @@
 {
   "body": "aspell is convinced that doc/Language/grammars.pod6 has an spelling mistake here:\n\n```\nsay +DigitMatcher.subparse: '12७१७९०९', args => \\(:full-unicode);\n```\n\nand doc/Language/operators.pod6 with: \n\n```\n                  Z      <EB     PB     TB     GB     MB     KB> -> [\\v,\\suffix] {\n```\n\nand reports 'ull', and 'ffix' as mispelled words. For now, we're skipping them to silence the spell checker, but we should fix our aspell invocation to avoid the issue and remove them from the skiplist.  (currently on spellcheck branch, moving to master shortly)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2018-03-03T22:35:55Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-10-19T17:14:12Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/975/comments",
   "locked": false,
@@ -18,7 +18,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/975/labels{/name}",
   "number": 975,
-  "comments": 2,
+  "comments": 3,
   "labels": [
     {
       "color": "e99695",
