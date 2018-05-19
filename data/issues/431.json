@@ -1,6 +1,6 @@
 {
   "body": "From #perl6:\n\n```\n13:36 < gflohr> moritz: I have read that. but I got stuck looking for the p5 \n            equivalents of \"make test\" and \"make install\".\n```\n\nWe should document stuff like `panda install .` and a convenient way to test the current module.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 431,
   "comments": 2,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",

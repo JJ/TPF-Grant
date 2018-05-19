@@ -1,6 +1,6 @@
 {
   "body": "The `.formatter` is an attribute that can be set to modify how a `Dateish` thing is `.Str`ingified. The docs only mention its return value and there's no explanation for how to set your own formatter or how it will be called:\n\n``` perl6\n    multi method Str(Dateish:D:) {\n        &!formatter ?? &!formatter(self) !! self!formatter\n    }\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

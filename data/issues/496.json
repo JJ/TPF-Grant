@@ -1,6 +1,6 @@
 {
   "body": "In the [Dateish source](https://github.com/rakudo/rakudo/blob/nom/src/core/Dateish.pm#L117), there's:\n\n``` perl6\nmethod yyyy-mm-dd() { sprintf '%04d-%02d-%02d',$!year,$!month,$!day }\n```\n\nIt doesn't seem to be documented\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

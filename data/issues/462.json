@@ -1,6 +1,6 @@
 {
   "body": "Not really sure what they're called. Captures, but not the `$0, $1, $2...` captures:\n\n```\n<ZoffixW> m: say 'foo=bar' ~~ / \\w+  '='  \\w+/\n<camelia> rakudo-moar f05c77: OUTPUT«｢foo=bar｣␤»\n<ZoffixW> m: say 'foo=bar' ~~ / \\w+ )>  '='  \\w+/\n<camelia> rakudo-moar f05c77: OUTPUT«｢foo｣␤»\n<ZoffixW> m: say 'foo=bar' ~~ / \\w+ <(  '='  \\w+/\n<camelia> rakudo-moar f05c77: OUTPUT«｢=bar｣␤»\n<ZoffixW> m: say 'foo=bar' ~~ / \\w+ <(  '='  )> \\w+/\n<camelia> rakudo-moar f05c77: OUTPUT«｢=｣␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

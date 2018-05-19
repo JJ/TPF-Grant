@@ -1,6 +1,6 @@
 {
   "body": "http://doc.perl6.org/type/Int introduces the Int type by saying \"There are two main syntax forms for Int literals\", then discusses the standard decimal (123) and radix (:16<BEEF>) forms.\n\nI think the 0x, 0d, 0b, and 0o forms should also be listed as other standard syntax forms for Int literals.  I'm not exactly sure how to rephrase the text to include these literal formats, thus this issue ticket to solicit corrections.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

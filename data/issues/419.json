@@ -1,6 +1,6 @@
 {
   "body": "including how to introspect its contents:\n\n```\n14:31 < lizmat> m: dd VM.^attributes>>.name   # [Coke]  ??\n14:31 < camelia> rakudo-moar b703d6: OUTPUT«(\"\\$!config\", \"\\$!prefix\",\n                 \"\\$!precomp-ext\", \"\\$!precomp-target\", \"\\$!precomp-dir\",\n                 \"\\$!name\", \"\\$!auth\", \"\\$!version\", \"\\$!signature\",\n                 \"\\$!desc\")␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
