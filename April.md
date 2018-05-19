@@ -38,8 +38,8 @@ were old ones.
 ## Contributions via commits
 
 Last month I contributed almost as many commits as the rest of the
-authors together, and in fact [April 2018 was the second most with the
-highest number of commits in history](https://www.researchgate.net/publication/325020270_Perl_6_documentation_repository_through_time_contributions_through_commits).
+authors together, and in
+fact [April 2018 was the second month with the highest number of commits in history](https://www.researchgate.net/publication/325020270_Perl_6_documentation_repository_through_time_contributions_through_commits).
 
 ![Commits by JJ and the rest](illos/commits-april.png)
 
