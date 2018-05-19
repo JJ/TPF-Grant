@@ -1,5 +1,5 @@
 {
-  "body": "> \\<izmat\\> m: say \"\\c[woman facepalming]\"  # now that we can do this, maybe a docs.perl6.org page about emoji support would be applicable ?\r\n> \\<camelia\\> rakudo-moar 2a7c27: OUTPUT«\uD83E\uDD26‍♀️␤»\r\n\r\nAnd not just emojis, we should have a page with more information on how Perl 6 supports unicode and what features are there.",
+  "body": "Avoiding JSON errors",
   "author_association": "MEMBER",
   "assignees": [
     {
