@@ -1,0 +1,71 @@
+{
+  "body": "## The problem\r\nissue #1971 'got empty filename' error\r\n\r\n## Solution provided\r\nhtmlify.p6 was looking for \"infix C<foo>\" and tried to process '=head1 baz X<|baz>' same way which results in empty document name.  Note 'infix X<C<foo>>' is sometimes used so need to check content as well as .type eq 'X'.\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-06T09:20:04Z",
+  "created_at": "2018-05-05T21:36:07Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1997/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1997",
+    "diff_url": "https://github.com/perl6/doc/pull/1997.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1997.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1997"
+  },
+  "locked": false,
+  "title": "Update htmlify.p6 to fix 'got empty filename' issue #1971.  ",
+  "id": 320543060,
+  "html_url": "https://github.com/perl6/doc/pull/1997",
+  "closed_at": "2018-05-06T09:20:04Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1997/labels{/name}",
+  "number": 1997,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1997/events",
+  "user": {
+    "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
+    "organizations_url": "https://api.github.com/users/ronaldxs/orgs",
+    "subscriptions_url": "https://api.github.com/users/ronaldxs/subscriptions",
+    "html_url": "https://github.com/ronaldxs",
+    "id": 77234,
+    "login": "ronaldxs",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/ronaldxs/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/ronaldxs/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/77234?v=4",
+    "starred_url": "https://api.github.com/users/ronaldxs/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ronaldxs/followers",
+    "url": "https://api.github.com/users/ronaldxs"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1997"
+}

@@ -1,0 +1,71 @@
+{
+  "body": "…#1923\r\n\r\n## The problem\r\n\r\nMissing non-breaking space before the 6\r\n\r\n## Solution provided\r\n\r\nInsert non-breaking space before the 6\r\n<!--\r\n\r\n    The template below contains optional suggestions. Simply omit it\r\n    if you think it does not apply to this PR.\r\n\r\n    Please state clearly in \"The problem\" what you are addressing with this\r\n    pull request, referencing the issue(s) where it is described.\r\n\r\n    In \"Solution provided\", tell us what you have done to address the\r\n    problem.\r\n\r\n-->\r\n\r\n\r\n",
+  "author_association": "NONE",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-04T11:03:39Z",
+  "created_at": "2018-05-04T10:50:58Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1992/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/1992",
+    "diff_url": "https://github.com/perl6/doc/pull/1992.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/1992.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/1992"
+  },
+  "locked": false,
+  "title": "Non breaking space inserted in some 'Pod 6' and 'Perl 6'. This fixed …",
+  "id": 320231198,
+  "html_url": "https://github.com/perl6/doc/pull/1992",
+  "closed_at": "2018-05-04T11:03:38Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1992/labels{/name}",
+  "number": 1992,
+  "comments": 0,
+  "labels": [
+    
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1992/events",
+  "user": {
+    "following_url": "https://api.github.com/users/psicobyte/following{/other_user}",
+    "gists_url": "https://api.github.com/users/psicobyte/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/psicobyte/received_events",
+    "organizations_url": "https://api.github.com/users/psicobyte/orgs",
+    "subscriptions_url": "https://api.github.com/users/psicobyte/subscriptions",
+    "html_url": "https://github.com/psicobyte",
+    "id": 1206823,
+    "login": "psicobyte",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/psicobyte/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/psicobyte/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1206823?v=4",
+    "starred_url": "https://api.github.com/users/psicobyte/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/psicobyte/followers",
+    "url": "https://api.github.com/users/psicobyte"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1992"
+}
