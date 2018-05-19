@@ -1,6 +1,6 @@
 {
   "body": "There isn't really a `Temporal` type in Perl 6, so there's no place for a `doc/type/Temporal.pod`.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

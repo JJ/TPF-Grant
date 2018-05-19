@@ -1,6 +1,6 @@
 {
   "body": "Entering \"< >\" in the search box currently lists three entries:\n   Postcircumfix: .< >    leads to routine/.<%20>   (currently 404 not found)\n   Circumfix: < >           leads to routine/<%20>\n   Quote: < >                leads to syntax/<%20>\n\nI don't think there should be a \"circumfix\" entry, as < > is not an operator, nor is there a `circumfix:«< >»` function/routine.  As far as I can tell, it's purely a syntactic construct.\n\nI suspect the same should be said for postcircumfix .< > -- as far as I know it's not a routine in its own right -- it's really syntactic sugar for .{< >} .  It's not an operator in its own right (e.g., that could be overloaded).\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

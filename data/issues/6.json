@@ -1,6 +1,6 @@
 {
   "body": "Due to https://rt.perl.org/rt3/Ticket/Display.html?id=114510 we render source code like\n\n```\nC<< infix:<||> >>\n```\n\nwrongly (as `< infix:<|| >>`).\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

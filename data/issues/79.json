@@ -1,6 +1,6 @@
 {
   "body": "```\n<masak> [backlog] should lazy attribute defaults be part of http://doc.perl6.org/language/classtut ? did someone file an issue about this?\n<masak> m: class C { has $.x = \"OH HAI\" }; say C.new(:x(42)).x; say C.new.x\n<camelia> rakudo-moar 86b1b2: OUTPUT«42␤OH HAI␤»\n* masak submits an issue\n<liztormato> To be clear: has $.a = 42 is not lazy but run at build time\n<masak> oh! yes, you are right. those two are not the same.\n```\n\nUp until that point in the conversation I was confusing \"build-time\" and \"lazy\", which are indeed different points. Leaving aside the lazy case for this issue (as the syntax is still being discussed), I think it'd make sense to document how to do the build-time default thing with attributes.\n\n...including the nice trick with putting `die` in the rhs to make the object explode at build time if an attribute was not passed in.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

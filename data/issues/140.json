@@ -1,6 +1,6 @@
 {
   "body": "Should probably point to http://doc.perl6.org/language/nativecall - note that searching for 'native' does find this page.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",

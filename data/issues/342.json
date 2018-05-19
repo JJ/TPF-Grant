@@ -1,6 +1,6 @@
 {
   "body": "Right now, running htmlify.p6 with --help or -? or any unrecognized option just runs with the default parameters.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "```\n<jab> Where can I find the syntax for the enum statement?\n<masak> jab: described in S12, at least.\n<masak> S12:Enumerations\n<synbot6> Link: http://design.perl6.org/S12.html#Enumerations\n<jab> thanks\n<masak> dunno if docs.perl6.org has something. if not, it probably should.\n<masak> cursory search yields nothing.\n<jab> Yeah it's hard to find enum info\n* masak files issue\n```\n\nEnumerations are important enough to merit a page of their own, methinks. Going through the basic syntax, its variations, default values, common uses, etc.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

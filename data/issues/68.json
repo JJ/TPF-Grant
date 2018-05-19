@@ -1,6 +1,6 @@
 {
   "body": "The sentence \"This documentation was generated from <file>\" at the end of documents such as http://doc.perl6.org/language/mop should be in a different layout than the normal copy (or it should move to the footer).\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

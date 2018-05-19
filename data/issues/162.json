@@ -1,6 +1,6 @@
 {
   "body": "If you visit http://doc.perl6.org/routine/push and try to click the `method append` link at the bottom of `routine push` section, nothing will happen, because target `#method_push` doesn't exist on that page. It does exist on the full page, from which the aforementioned page was generated: http://doc.perl6.org/type/Array#method_append\n\nWhatever's generating those pages need to account that `L<>` links need to be expanded. Currently, all of these links are likely broken (grep on `doc/` dir of this repo:)\n\n``` bash\n$ grep -iER '[<|]#method' .\n./Type/CurrentThreadScheduler.pod:that L<#method cue> blocks until the code has finished executing.\n./Type/IO/Socket.pod:connection. The binary version is L<#method write>.\n./Type/IO/Socket.pod:connection. The string version is L<#method send>.\n./Type/IO/Socket/INET.pod:For text operations (such as L<#method lines> and L<#method get>),\n./Type/Supply.pod:The L<live method|#method live> returns C<True> on live supplies. Factory\n./Type/Supply.pod:methods such as L<interval|#method interval>, L<from-list|#method from-list>\n./Type/Metamodel/AttributeContainer.pod:Returns a true value if L<method set_rw|#method set_rw> has been called on\n./Type/Array.pod:See L<method append|#method append> for when you want to append multiple\n./Type/Array.pod:The notes in L<the documentation for method push|#method push> apply,\n./Type/Array.pod:L<#method prepend> is the equivalent for adding multiple elements from one\n./Type/Match.pod:Returns the payload that was set with L<#method make>.\n./Type/Match.pod:Alias for L<#method made>.\n./Type/Proc/Async.pod:You must call C<stdout> before you call L<#method start>. Otherwise an\n./Type/Proc/Async.pod:You must call C<stderr> before you call L<#method start>. Otherwise an\n./Type/Proc/Async.pod:waiting for the promise from C<#method start> hangs (for a program opened for\n./Type/Cool.pod:The inverse operation is L<chr|#method chr>.\n./Type/Cool.pod:The inverse operation is L<ord|#method ord>.\n./Type/DateTime.pod:L<#method timezone>.\n./Type/DateTime.pod:The formatting function is called by L<#method Str> with the invocant as its\n./Type/DateTime.pod:L<the formatter|#method formatter>.\n./Type/DateTime.pod:Negative offsets are allowed, though L<#method earlier> is more idiomatic for\n./Type/DateTime.pod:towards the past applied. See L<#method later> for usage.\n./Type/Parameter.pod:L<alias|#method named_names>.  Often, the name will chosen descriptively\n./Type/Parameter.pod:L<rw|#method_rw>-parameter which can only bind to variables, never to values.\n./Type/Parameter.pod:L<sigil|#method sigil> of C<'\\'>, which is not really a sigil insofar\n./Language/subscripts.pod:See L<#method BIND-POS> and L<#method BIND-KEY> for the underlying mechanism.\n./Language/subscripts.pod:See L<#method EXISTS-POS> and L<#method EXISTS-KEY> for the underlying\n./Language/subscripts.pod:See L<#method DELETE-POS> and L<#method DELETE-KEY> for the underlying\n./Language/subscripts.pod:|#Methods_to_implement_for_positional_subscripting>) for your custom type.\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 162,
   "comments": 9,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

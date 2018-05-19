@@ -1,6 +1,6 @@
 {
   "body": "Only the `.put` and `.say` methods from `Mu` are listed on the [IO::Handle docs](http://doc.perl6.org/type/IO::Handle). However, both `.put` and `.say` are implemented, as can be seen [here](https://github.com/rakudo/rakudo/blob/591783d116a56d4b2c54fe01501804cb52702369/src/core/IO/Handle.pm#L730) and [here](https://github.com/rakudo/rakudo/blob/591783d116a56d4b2c54fe01501804cb52702369/src/core/IO/Handle.pm#L744), with the semantics that those methods will print to the filehandle.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

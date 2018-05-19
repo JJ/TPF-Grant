@@ -1,6 +1,6 @@
 {
   "body": "lib/type/Variable.pod has headings like `=head2 trait is default`, which should work like `=head2 method foo`, and should show up in the search as `Trait: is default`\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

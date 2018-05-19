@@ -1,6 +1,6 @@
 {
   "body": "We have many cases in doc/Language/subscripts.pod of\n\n```\nC<=>>\n```\n\nWhich should probably be\n\n```\nC<< => >>\n```\n\nOtherwise the trailing > isn't code-ified. Opening a ticket so someone can review the instances and make sure my take is correct.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

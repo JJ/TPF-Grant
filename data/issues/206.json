@@ -1,6 +1,6 @@
 {
   "body": "For example, say on long lists will actually only print the first 100 elements. This does not appear to be clearly documented in http://doc.perl6.org/type/List.\n\nSee relevant IRC discussion: http://irclog.perlgeek.de/perl6/2015-11-22#i_11580085\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

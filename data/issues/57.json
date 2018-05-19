@@ -1,6 +1,6 @@
 {
   "body": "When github renders a README, hoovering over the heading shows a link with an anchor to exactly that section.\n\nI'd like to have something similar for the htmlify output, so that it becomes easy to link to a section directly.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

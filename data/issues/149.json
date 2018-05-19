@@ -1,6 +1,6 @@
 {
   "body": "The search box should be present on page load, even if the JS takes a second to be available.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

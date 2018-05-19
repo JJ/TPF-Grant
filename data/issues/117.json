@@ -1,6 +1,6 @@
 {
   "body": "When I load http://perl6.org/ by entering the URL, the search box doesn't show up; when I follow a link to another page, it shows up on that page, and when I then follow a link to the front page, it shows up again. When reloading the front page, it occasionally shows up, but not always.\n\nOthers have reported similar issues for other pages as well.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

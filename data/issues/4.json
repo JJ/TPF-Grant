@@ -1,6 +1,6 @@
 {
   "body": "We have type relationships like\n\n```\n role X::Comp is Exception { }\n role X::Syntax does X::Comp { }\n class X::Syntax::Confused does X::Syntax { }\n```\n\nnow all of `X::Comp`, `X::Syntax` and `X::Syntax::Confused` have an inheritance arrow to `Exception`, which is clearly too much.\n\nIn the very least X::Syntax shouldn't have such an arrow (ie roles only have arrows to direct superclasses), and in general either the role or the class should have an inheritance arrow. \n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

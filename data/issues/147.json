@@ -1,6 +1,6 @@
 {
   "body": "We should have one folder for modules/code used to generate the site, and one folder for files that are Pod docs (Right now both are in lib/)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "http://doc.perl6.org/type/IO::Socket::Async says\n\n```\nuse v6;\n\nreact {\n    whenever IO::Socket::Async.listen('localhost',3333) -> $conn {\n        whenever $conn.Supply(:bin) -> $buf { \n            await $conn.write: $buf \n        } \n    }\n}\n```\n\nWhen I execute that, and then `telnet localhost 3333`, I get\n\n```\nType check failed in binding $b; expected 'Blob' but got 'IO::Socket::Async'\n  in block <unit> at react.p6:3\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

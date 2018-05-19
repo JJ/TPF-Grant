@@ -1,6 +1,6 @@
 {
   "body": "It shouldn't be expected that something is implemented in niecza at this point. Remove any mention of\n\n```\nnot implemented in.* Niecza\n```\n\nOk to say \"not implemented in Rakudo\"\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

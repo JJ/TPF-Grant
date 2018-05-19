@@ -1,6 +1,6 @@
 {
   "body": "When one enters `< >`in the search box, and selects `Circumfix < >` one lands on `/routine/<+>`, which is a 404. The same happens for `Quote < >`, which links to `/syntax/<+>`, which is also a 404.\n\nThe correct URL seems to be with `%20` instead of a `+` sign.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

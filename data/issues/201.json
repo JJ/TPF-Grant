@@ -1,6 +1,6 @@
 {
   "body": "For example, the several code blocks following [this one](http://docs.perl6.org/type/Signature#Constraining_Defined_and_Undefined_Values) have no highlighting. I looked at the pod for both working and non-working codes and I don't see the difference:\n\n![hs](https://cloud.githubusercontent.com/assets/5747918/11188346/559c2a22-8c58-11e5-8a95-14f1592a53ae.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "The main `5to6` guide is all the way in the middle of the list and isn't obvious. It would be nice if it were grouped together with all the other `5to6` guides at the top:\n\n![p6](https://cloud.githubusercontent.com/assets/5747918/10433949/24239f0a-70e4-11e5-9a6a-03dfe0ddbe73.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/stmuk/following{/other_user}",

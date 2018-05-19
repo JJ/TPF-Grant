@@ -1,6 +1,6 @@
 {
   "body": "```\n$ perl6 htmlify.p6 --no-highlight --sparse=100\n```\n\neventually dies with\n\n```\nMethod 'name' not found for invocant of class 'Any'\n  in block  at htmlify.p6:536\n  in sub write-search-file at htmlify.p6:535\n  in sub MAIN at htmlify.p6:147\n  in block <unit> at htmlify.p6:759\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",

@@ -1,6 +1,6 @@
 {
   "body": "Lots of unitialized warnings\n\n```\n...........................Use of uninitialized value <element> of type Any in string context\nAny of .^name, .perl, .gist, or .say can stringify undefined things, if needed.  in sub english-list at /Users/xxx/sandbox/perl6-doc/lib/Perl6/Documentable.pm:16\n```\n\nand a crash:\n\n```\nInvocant requires an instance of type Str, but a type object was passed.  Did you forget a .new?\n  in block  at htmlify.p6:539\n  in sub write-search-file at htmlify.p6:535\n  in sub MAIN at htmlify.p6:147\n  in block <unit> at htmlify.p6:759\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

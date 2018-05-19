@@ -1,6 +1,6 @@
 {
   "body": "doc doesn't declare a dependency on Pod::To::HTML or URI because most users don't need to run htmlify. But `t/pod-htmlify.t` uses `Pod::Htmlify`, which in turn uses `URI::Escape`. Which makes the test fail when one tries to install doc via panda, and also [in the smoke test](http://smoke.perl6.org/project/p6doc)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

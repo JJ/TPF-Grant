@@ -1,6 +1,6 @@
 {
   "body": "To simplify testing, IWBNI all the HTML/JS/CSS links were relative.\n\nLooks like all the HTML is in the top level directory, so we don't have to deal with different relative pathing at all.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

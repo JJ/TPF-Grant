@@ -1,6 +1,6 @@
 {
   "body": "A question on #perl6 was roughly: from a `CHECK` phaser inside a class, can I use the class?\n\nTo answer this (and other) questions, the various compilation phases, phasers, and type composition time should be explained. \n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",

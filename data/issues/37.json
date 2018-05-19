@@ -1,6 +1,6 @@
 {
   "body": "http://doc.perl6.org/type/Int doesn't show methods from Numeric, but it does show methods from Real. Presumably this is because Int does Real, and Real does Numeric, and the code that composes the roles doesn't do so recursively.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

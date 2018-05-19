@@ -1,6 +1,6 @@
 {
   "body": "As reported in https://github.com/perl6/user-experience/issues/10, the method [names in the table of contents](https://doc.perl6.org/type/Backtrace) are in no coherent order, which makes it hard to spot the one you want to read about. I'd suggest them to be sorted alphabetically.\n\n![untitled](https://cloud.githubusercontent.com/assets/5747918/12966230/54e42baa-d02a-11e5-9b94-3b8c718d2b92.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
@@ -60,7 +60,7 @@
     "followers_url": "https://api.github.com/users/zoffixznet/followers",
     "url": "https://api.github.com/users/zoffixznet"
   },
-  "updated_at": "2018-04-18T08:37:46Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-02-11T00:10:43Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/392/comments",
   "locked": false,
@@ -74,13 +74,6 @@
   "number": 392,
   "comments": 15,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "C4DB17",
       "name": "build",

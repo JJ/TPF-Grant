@@ -1,6 +1,6 @@
 {
   "body": "Don't need this right away, but eventually, need to be able to 1) handle multiple implementations, 2) handle multiple specifications.\n\n(e.g. \".sort was introduced in Perl 6.d; it is available in rakudo 2017.01, niecza 2017.05\")\n\nIdeally, we'd like this to be a simple notation in the original POD (or in a data file) rather than a formatted block we have to copy around.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

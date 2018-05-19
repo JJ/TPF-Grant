@@ -1,6 +1,6 @@
 {
   "body": "When searching for something like \"Supply\", where there's only one result per headline, the highlighted result (the first available result by default, apparently) really blends in with the headings. Both have light-green background, both have black bold text with what looks like the same font size.\n\nI don't have a particular suggestion on how to fix this. Perhaps the headings need a little margin-left, or even have the text centered. Or perhaps the background color should be much more pastel-y?\n\n![image](https://cloud.githubusercontent.com/assets/25167/12452822/a65964b4-bf90-11e5-8b34-5a63e05a2093.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

@@ -1,6 +1,6 @@
 {
   "body": "```\n11:54 < [Coke]> lizmat: what is Supply.throttle(:$vent-at) do? (needs docs for\n                http://docs.perl6.org/type/Supply#method_throttle)\n11:55 < [Coke]> *does\n11:55 < lizmat> it gives the value at which any buffered messages are bled of\n                to the bleed supply\n11:55 < lizmat> *off\n11:57 < [Coke]> \"bleed\" also doesn't appear anywhere in the Supply docs.\n11:58 < [Coke]> nor \"message\"\n11:58 < [Coke]> I'll open a doc ticket.\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

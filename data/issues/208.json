@@ -1,6 +1,6 @@
 {
   "body": "Since `await $p1, $p2` will throw if any of the Promises were broken, we should show an example of how to check for broken promises and fetch the results for kept promises, even if some were broken.\n\nIt seems the idiomatic way is to use `await Promise.allof( $p1, $p2 )`, but currently that will throw if any of the promises is broken. jnthn++ believes that's a bug. See this conversation: http://irclog.perlgeek.de/perl6/2015-11-23#i_11585114\n\nOnce the bug  is resolved, the docs should be updated to include correct handling of broken promises, something akin to this, except with `Promise.allof()` instead of `eager`:\n\n``` perl6\nmy $p1 = start die \"I'm dead\";\nmy $p2 = start \"I'm alive\";\ntry eager await $p1, $p2;\nsay .result for grep { .status ~~ 'Kept'}, $p1, $p2;\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

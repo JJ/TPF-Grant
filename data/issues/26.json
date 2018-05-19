@@ -1,6 +1,6 @@
 {
   "body": "If our users use doc.perl6.org as their first step towards finding out how something works, but whatever it is isn't covered there (in my case I was looking for an easy to find explanation of 'for' loops), they would miss this excellent resource.\n\nWe should perhaps consider either getting the set of available translations from their website or look for a way to link to perl6 \"in all available languages\".\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

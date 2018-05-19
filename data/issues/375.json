@@ -1,6 +1,6 @@
 {
   "body": "`:all` was [removed](https://github.com/rakudo/rakudo/commit/dee63c3de536ada407e4e541c5e2fad60e3c4cc9) but the [split docs](http://docs.perl6.org/routine/split) still mention it.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/moritz/following{/other_user}",

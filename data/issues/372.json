@@ -1,6 +1,6 @@
 {
   "body": "Looking at https://github.com/rakudo/rakudo/blob/nom/src/core/natives.pm, I see these types: `int int8 int16 int32 int64 uint uint8 byte uint16 uint32 uint64 num num32 num64 str`\n\nThe [Types TOC](http://docs.perl6.org/type.html) only lists one of them, the `int`\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

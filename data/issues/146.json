@@ -1,6 +1,6 @@
 {
   "body": "htmlify noisily complains about subkinds, e.g.\n\n```\nThe subkinds of routine shift in Array cannot be determined.\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

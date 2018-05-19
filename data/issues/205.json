@@ -1,6 +1,6 @@
 {
   "body": "`<[Coke]> The doc answer to \"are we slow\" should be that rakudo's architecture offers many chances for optimization, and we are pursuing them.`\n\nhttp://doc.perl6.org/language/faq#Is_Perl_6_fast_enough_for_me%3F\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

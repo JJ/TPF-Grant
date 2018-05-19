@@ -1,6 +1,6 @@
 {
   "body": "The previous ticket to split up our infrastructure code and our docs into 2 separate directories had an unintended consequence: The installation tool that previously installed docs into a lib directory is now not installing them there.\n\nI still think we need the split between docs & code in our repository; but we need to revisit what \"panda install\" does to our app and perhaps implement a Build.pm that allows the \"right\" thing to happen. (which is probably: make our install target install the docs only - and to the standard location, and not our internal tools) \n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

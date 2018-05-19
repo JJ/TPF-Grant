@@ -1,6 +1,6 @@
 {
   "body": "Easiest solution might be square vs. elliptical nodes.\n\nRight now both roles implemented and parent classes are shown as the same kind of object, which is confusing.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

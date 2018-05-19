@@ -1,6 +1,6 @@
 {
   "body": "A search for the string \"str\" should show Class:Str and Routine:Str as the first choices.\n\nA search for \"bef\" should sort Infix:before before the exception.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

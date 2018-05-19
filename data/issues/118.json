@@ -1,6 +1,6 @@
 {
   "body": "For example on this page: http://docs.perl6.org/routine/is-prime\n\nIf you look at the source, \"routine is prime\" is wrapped by two links:\n\n![screenshot from 2015-08-22 09 51 07](https://cloud.githubusercontent.com/assets/5747918/9424249/a04a29a4-48b3-11e5-865e-15ddde2acf4d.png)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

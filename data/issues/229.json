@@ -1,6 +1,6 @@
 {
   "body": "The [current description](http://docs.perl6.org/language/testing#Comparison_of_expected_and_actual_output) suggests passing operators as strings should work. It does work for `'~~'`, but not for `==`. We should also include a way to include other operators like so:\n`cmp-ok 42, &infix:[ '==' ], 42, 'ayup'`\n\nEDIT: this actually seems to be a bug in `cmp-ok`: http://irclog.perlgeek.de/perl6/2015-12-07#i_11670988\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

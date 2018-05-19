@@ -1,6 +1,6 @@
 {
   "body": "It seems methods provided by the [Any-iterable-methods.pm](https://github.com/rakudo/rakudo/blob/02588190492349fabde00c5a15b873ea61a9333e/src/core/Any-iterable-methods.pm#L696) aren't showing up in the docs. The [docs for Range type](http://docs.perl6.org/type/Range) do not have any mention of the `.first` method or `.squish`, even though the class does have them available. The same applies to [Seq](http://docs.perl6.org/type/Seq), and I'm assuming any class that inherits from Any.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",

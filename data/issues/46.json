@@ -1,6 +1,6 @@
 {
   "body": "On docs.perl6.org/language/variables, there's a heading called `Compile-time \"constants\"` .  Clicking on the link heading fails because of the quotation marks (%22) in the heading title.\n\nThe heading tag is incorrectly rendered as `<h2 id=\"Compile-time_\"constants\"\">` .\n\nMy suggestion is to remove the quotation marks around \"constants\"; perhaps \"compile-time variables\" or \"compile-time values\" is a better wording anyway.\n\nPm\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

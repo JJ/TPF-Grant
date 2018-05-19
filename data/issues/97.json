@@ -1,6 +1,6 @@
 {
   "body": "The methods from IO::FileTestable have been folded into other classes (IO::Path, ...?); the docs should reflect that.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

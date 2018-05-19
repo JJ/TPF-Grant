@@ -1,6 +1,6 @@
 {
   "body": "http://doc.perl6.org/routine/parse shows two explanations for the same method, presumably once from `lib/Type/Grammar.pod` (good) and once from `lib/language/grammars.pod` (bad). Those docs should be unified, and language/grammars should link to the type with the API docs.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
