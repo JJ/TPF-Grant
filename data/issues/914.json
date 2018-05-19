@@ -1,6 +1,6 @@
 {
   "body": "The description of [+@ slurpy](https://docs.perl6.org/type/Signature#Single_Argument_Rule_Slurpy) doesn't explain what the difference is between the `*@` slurpy and none of the examples [show that difference](http://irclog.perlgeek.de/perl6/2016-09-20#i_13240113)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

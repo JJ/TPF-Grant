@@ -1,6 +1,6 @@
 {
   "body": "On https://docs.perl6.org/type/IO$COLON$COLONSocket$COLON$COLONINET it shows a listener example that does not bind to localhost, and then a connect example that does. I got caught out by this; changing the connect to 127.0.0.1 fixed it.\n\nNote that I got especially caught out 'cus I nabbed the example to base a spectest on, and it actually worked on my Ubtuntu VM. Then the test failed because of this on OSX and somebody's Debian server.\n\nMight be worth tweaking the example to save somebody else headaches or confusion. :-)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

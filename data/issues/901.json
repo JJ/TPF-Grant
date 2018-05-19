@@ -1,6 +1,6 @@
 {
   "body": "The [docs for `.split`](https://docs.perl6.org/routine/split) appear not to mention [the form where delimiters can be passed as a list](https://github.com/rakudo/rakudo/blob/20ed9e2/src/core/Str.pm#L1083).\n\n```\n<Zoffix> m: dd 'foobarber'.split: ('bar', 'o')\n<camelia> rakudo-moar 20ed9e: OUTPUT«(\"f\", \"\", \"\", \"ber\")␤»\n<Zoffix> m: dd 'foobarber'.split: ('bar', /o+/)\n<camelia> rakudo-moar 20ed9e: OUTPUT«(\"f\", \"\", \"ber\")␤»\n```\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",

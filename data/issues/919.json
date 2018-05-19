@@ -1,12 +1,12 @@
 {
   "body": "The [Str.match method](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L420) appears to undocumented. Moreover, `Str.subst` uses it for regex matching, and it appears that some of the options accepted by `Str.match` are not listed for `Str.subst` (some may be applicable on for `Str.subst-mutate` that returns `Match` objects).\n\nLastly, the `:nth` (and aliases) also [take a `Whatever`](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L453) while `:x` does [_not_ take a `Callable`, but does take `Range` or `Whatever`](https://github.com/rakudo/rakudo/blob/222d16b/src/core/Str.pm#L481)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2017-09-21T08:19:37Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-09-27T16:15:28Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/919/comments",
   "locked": false,

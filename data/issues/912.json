@@ -1,6 +1,6 @@
 {
   "body": "There is [method .tree](https://github.com/rakudo/rakudo/blob/363a3a899f2cb342d1ca56626657e103e9d6b6f1/src/core/Any.pm#L157) that doesn't appear to be documented.\n\nThere are some tests for it in S02-lists/tree.t\n\nNo idea what it's doing and in the code there's comment `# XXX GLR Do we need tree post-GLR?`\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

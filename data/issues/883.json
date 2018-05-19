@@ -1,6 +1,6 @@
 {
   "body": "[https://docs.perl6.org/routine/slurp-rest](slurp-rest) method [now supports](https://github.com/rakudo/rakudo/commit/4efdd949dfb6279ed4998877f015101f3c653bfb) `:close`\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

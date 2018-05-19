@@ -1,6 +1,6 @@
 {
   "body": "I see them in the precedence table on https://docs.perl6.org/language/operators, but they don't appear in the text or search index.\n\nI'm talking about `~^`, `~|`, `~&` (there may be more)\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

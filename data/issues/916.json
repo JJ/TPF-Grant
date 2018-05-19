@@ -1,6 +1,6 @@
 {
   "body": "The [Hash.classify-list](https://github.com/rakudo/rakudo/blob/e12ebb9/src/core/Hash.pm#L308) and [Hash.categorize-list](https://github.com/rakudo/rakudo/blob/e12ebb9/src/core/Hash.pm#L361) are not documented. \n\nThe same-named methods are documented for role `Baggy` that hashes do not `does`. The difference is small, so most of the test from Baggy can probably be just copied.\n\nThe difference is the classified values get pushed into an array (list?) (that's the value of a key) and take an optional `:&as` parameter that takes a Callable, that modifies what those pushed classified values are.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

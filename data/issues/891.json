@@ -1,12 +1,12 @@
 {
   "body": "I have a simple task to solve:\n\n```\n[13:02] <MetaZoffix> m: say \"7\\x[308]\" ~~ /^ \\d+ $/\n[13:02] <+camelia> rakudo-moar f0bb58: OUTPUT«｢7̈｣␤»\n[13:03] <MetaZoffix> Is there an easy way to make it look for *just* numbers without combiners?\n```\n\nBut I'm not seeing any section on this in https://docs.perl6.org/language.html\n\nBy osmosis, I know I need some sort of [.NFD](https://docs.perl6.org/type/NFD) or something along the lines of that, but from a perspective of someone who's not familiar with what unicode forms there are and what they're all about, it's hard to understand what I am supposed to do to make my original operation work right.\n\nThere should be a page that explains all of this stuff.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
   "closed_by": null,
-  "updated_at": "2016-09-07T17:12:23Z",
+  "updated_at": "2018-05-14T05:05:41Z",
   "created_at": "2016-09-07T17:12:23Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/891/comments",
   "locked": false,
@@ -18,7 +18,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/891/labels{/name}",
   "number": 891,
-  "comments": 0,
+  "comments": 1,
   "labels": [
     {
       "color": "5DE0FA",

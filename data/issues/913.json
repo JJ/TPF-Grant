@@ -1,6 +1,6 @@
 {
   "body": "`Proc` [recently received](https://github.com/rakudo/rakudo/commit/c4fd9f515d) `@.command` attribute that contains the command and its args that the Proc was run with.\n\nIf it's not in roast, it needs to be added there as well.\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],

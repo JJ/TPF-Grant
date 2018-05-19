@@ -1,6 +1,6 @@
 {
   "body": "It's in source at https://github.com/rakudo/rakudo/blob/f0b3b59/src/core/Buf.pm#L44 but doesn't seem to be in the docs\n",
-  "author_association": "OWNER",
+  "author_association": "MEMBER",
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
@@ -74,13 +74,6 @@
   "number": 917,
   "comments": 0,
   "labels": [
-    {
-      "color": "c43d38",
-      "name": "JJ TPF Grant",
-      "id": 876253868,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/JJ%20TPF%20Grant"
-    },
     {
       "color": "5DE0FA",
       "name": "docs",
