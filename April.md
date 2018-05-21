@@ -7,7 +7,7 @@ Let's list the contributions made during the month of April.
 
 ## Issues closed
 
-[Here's the table of issues closed during April](report/issues-April-2018.md)
+[Here's the table of issues closed during April](https://github.com/JJ/TPF-Grant/blob/master/report/issues-April-2018.md)
 
 Using the Perl 6 scripts included in this repo, I have closed more than 60
 issues during April:
