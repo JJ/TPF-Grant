@@ -7,7 +7,9 @@ Let's list the contributions made during the month of April.
 
 ## Issues closed
 
-Using the Perl 6 scripts included in this repo, I have closed 27
+[Here's the table of issues closed during April](report/issues-April-2018.md)
+
+Using the Perl 6 scripts included in this repo, I have closed more than 60
 issues during April:
 
 ![Issues closed by me and others](illos/closed-issues-jj.png)

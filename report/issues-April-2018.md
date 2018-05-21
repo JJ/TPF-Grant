@@ -1,5 +1,4 @@
 # Closed issues, April 2018
-
 | Issue                             | Age when closed | Closes at | Comment | 
 | --------------------------------- | --------------- | --------- | ------- |
 |[Capture literals are not indexed](https://github.com/perl6/doc/issues/1443.json) | 235 days | 2018-04-01 | |
@@ -61,7 +60,7 @@
 |[/language/contributors hasn't been updated in ages](https://github.com/perl6/doc/issues/1970.json) | 0 days | 2018-04-27 | |
 |[?? !! is pointing to the wrong place](https://github.com/perl6/doc/issues/1851.json) | 40 days | 2018-04-28 | |
 |[defined is not indexed as a method](https://github.com/perl6/doc/issues/1800.json) | 60 days | 2018-04-28 | |
-|[L<foo|#method bar> Links Are Broken on Individual Generated Pages](https://github.com/perl6/doc/issues/162.json) | 926 days | 2018-04-28 | |
+|[L<foo&verbar;#method bar> Links Are Broken on Individual Generated Pages](https://github.com/perl6/doc/issues/162.json) | 926 days | 2018-04-28 | |
 |[｢is default｣ is indexed twice](https://github.com/perl6/doc/issues/1514.json) | 237 days | 2018-04-28 | |
 |[Routines supplied by class Cool/ Any/ Mu](https://github.com/perl6/doc/issues/1916.json) | 19 days | 2018-04-29 | |
 |[Some unicode characters eliminated in generated page](https://github.com/perl6/doc/issues/1976.json) | 0 days | 2018-04-29 | |
