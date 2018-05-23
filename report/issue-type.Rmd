@@ -1,0 +1,99 @@
+---
+title: 'Perl 6 documentation repository through time: dealing with issues'
+author: "JJ Merelo"
+date: "May 8th, 2018"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: perl6.bib
+abstract: Issues in repositories are generally tagged with labels that relate to their type, and hint at how to deal with them, which implies that labels will be correlated with repository and issue metrics. In this report we will look at the issues in the Perl 6 repository and the labels they use, and try and draw some conclusions on tag management.
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+library(scales)
+library(data.table)
+
+data <- read.csv('../data/age-issues-tags.csv')
+
+fac <- with(data, reorder(Label, Age, median, order = TRUE)) # finds median
+data$Label <- factor(data$Label,levels=levels(fac)) # Orders factors according to median
+data$Age <- data$Age/86400
+
+data.table <- table(data.frame(state=data$State,label=data$Label))
+issues.label.tag <- as.data.frame.matrix(data.table)
+
+data.counts <- data.frame(Label=data$Label,State=data$State)
+fac <- with(data.counts, reorder(Label, State, length, order = TRUE)) # finds median
+data.counts$Label <- factor(data.counts$Label,levels=rev(levels(fac))) # Orders factors according to length
+
+```
+
+# Introduction
+
+In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6), a purely volunteer-based repository devoted to the creation of the official documentation of the Perl 6 language. 
+
+However, not all issues are the same. Issues in GitHub can receive *tags*, which are related to what they are supposed to do or what part of the documentation they focus on. Tags are a GitHub feature, and can change name through time, so their use might have changed. However, they are generally kept in more or less the same spirit. The most important [tags used in this repository](https://github.com/perl6/doc/labels) are either related to the documentation itself (`doc`, `new`), the underlying language (mainly `NOT-SPECCED`, which indicates that particular feature has not been specified yet, although it is in use) and the tools used to build and publish the repository (`meta`, `site`, `search`). In general, there is little overlap between these tags, although document and language tags do overlap; generally, site-related labels appear together and isolated from the rest.
+
+These labels are assigned by volunteers, just like the rest of the work done in the repository, and are a signal for whoever is going to be in charge of that task where to look, or what to do with it. Not all issues have a label, and this might be due to a series of factors.
+
+In this report we will look at these labels and how they influence the time needed to close them, or the fact that they are, or not, closed. In order to do that, we downloaded all issue information using GitHub API and processed them using Perl 6 scripts. This report and the data used to generate it will share a repository with those scripts
+
+
+# Distribution of issues
+
+The chart below shows the distribution of issues per label, including open and closed issues.
+
+```{r number,echo=FALSE}
+fac <- with(data.counts, reorder(Label, State, length, order = TRUE)) # finds median
+data.counts$Label <- factor(data.counts$Label,levels=levels(fac)) # Orders factors according to length
+ggplot(data.counts,aes(x=Label,fill=factor(State),y=(..count..)))+  geom_bar() + ylab('Number of issues') +ggtitle("Issues per label")+coord_flip()
+``` 
+
+Most issues have either no label or the `docs` label. The proportion of open issues in the latter case is much higher, although, as it can be seen, there are labels like `wishlist` or `NOT-SPECCED` where the majority of the issues is open. The former refers exactly to things that would be nice to have, but are not essential, so they have a very low priority and just by chance some of them might be closed. In the case of `NOT-SPECCED`, the behavior has not been fixed so they are documented in very few cases. These issues are waiting for the specification, which in the case of Perl 6 is usually a *Roast* test, or test that specifies how the different cases should be dealt with. `big` issues are also obviously open, and in a bigger proportion. These might refer to major changes that affect all documents, and the include the oldest open issues in the repository. 
+
+# Issues by label and age
+
+The time it takes to close an issue, or the time it has remained open, are also related to the type of the issue. This is shown in the chart below, which includes a boxplot of the age, including open and closed issues, and different fill colors for open (blue) and closed (red). Issue age is also represented invidually in the x axis, which is logarithmic. 
+
+```{r age, echo=FALSE}
+ggplot(data,aes(Label,Age))+geom_point(data=data,aes(x=Label, y=Age,fill=State,color=Label,stroke=1),shape=21,position='jitter',size=3)+geom_boxplot()+ scale_y_log10()+theme_tufte()+coord_flip()
+```
+
+Age of issues goes up from the minimum median age, which corresponds to those without a label, to `help-wanted`, which includes a single issue that has been singled out since it is the oldest in the set. It is an issue that is also `big` and intends to complete the whole set of pages that would be needed for the documentation to be complete. Most of the pages have been created, but there are still some of them to go. Age, expressed in days, is very close to 0 for those with no label. In many cases they will be issues created by a developer in the moment they have been spotted and solved straight away. `big` issues, in general, take a long time to solve. The table of median and average times to solve, in days, is shown below
+
+```{r times, echo=FALSE}
+library(knitr)
+library(plyr)
+kable(ddply(data, .(Label), summarize, "mean" = mean(Age), "median" = median(Age)))
+```
+
+The divergence between medians and means show that it is a highly skewed distribution. While 50% of the issues with `build`, for instance, take 8 days to solve, some of them might take a long time. The time to solve was shown already in our first report [@mereloperl]; the age of issues to date, which would include also unsolved issues, is similar:
+
+```{r histo, echo=FALSE,message=FALSE}
+ages <- unique(data$Age)
+qplot(ages,geom="histogram")+scale_x_log10()
+```
+
+As in the previous report, there is a concentration on ages less than 100 days, but there is a big bar that sets the metrics askew, indicating the presence of issues that have not been solved for a long time. 
+
+# Conclusions
+
+The main intention with starting the grant was to deal with the backlog of issues that were accumulating in the repository. The incidence of the grant is not the focus of this report, whose intention is mainly to show the reason why some issues are not addressed and how long it takes to eventually address or close them. 
+
+A quick conclusion would be that in most cases issues remain open, it is for reasons that have nothing to do with the repository itself. The exception would be the `big` cases. Volunteer work is allotted in small chunks, and commiting yourself to a `big` issue might be more than a volunteer is usually able to afford. Even in the case of other kind of issues, most `meta` or `site` issues will have no indirect influence in the perception by users, but `doc` issues will have a negative impact. Although most of them are addressed in a reasonable amount of time, in some other cases it might take a long time to do something with them. In many cases it will be when they are also `big`, but in some other cases it might be better if it is addressed in a reasonable amount of time, so one has to appreciate the great amount of work devoted by volunteers to this repository.
+
+We could wonder if the labelling is appropriate, and from this data, it seems that labels more or less reflect the intuitive degree of difficulty one could assign them. It stratifies well the issues, and there seems to be no big gap in the age of issues from one to the next hardest; except for those with no-label, which might be interpreted as "too easy to even need to spend the time to label it".
+
+The first inmediate conclusion is that volunteer work in an open source repository is able to have a very reasonable productivity, even dealing with some issues that are, by and in themselves, quite difficult to solve. However, these numbers also mean that it is generally a good thing to have a certain amount of permanent resources assigned to this repository. This person could be devoted part-time to the `big` issues, and part-time to issues related to the site itself, or to check if the non-solved issues have been solved and thus close them, or reject them. If there is any remaining time, she could work on the `wishlist`. 
+
+Permanent human resources are always desirable, and not always attainable. Second best would be to have someone performing the duty of *triaging* new issues. Some of them will be solvable straight away, and you can label them accordingly, including `good first issue` to encourage newcomers to participate in the site. Some others might be more difficult, and labeling them as such will make volunteers not spend a time they they don't have in finding out how difficult they are. This is particularly true for the `NOT-SPECCED` issues, as well as other external issues. This *triage dev* could also look for changes in the repo and close issues if they do, because in some cases issues are really solved, only nobody has taken the time to match new code to existing issues. When the number of issues excedes what one can reasonably remember, that is bound to happen. This role could be a rotating one, and could be delegated to however does it in a more committed way, like the case of the current grant.
+
+Let me conclude with a note of admiration for the more than 200 persons that have worked in the repository so far. That such a complex and well-rounded piece of work has been achieved in a mostly self-organizing way is a tribute to the spirit of free software in general, and Perl and its community in particular. 
+
+## Acknowledgements
+
+This report has been supported by The Perl Foundation under [grant *Curating and improving Perl 6 documentation*](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html). 
+
+# References
