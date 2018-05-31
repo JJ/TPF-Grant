@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMA==",
       "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/JJ/received_events",
       "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
+  "node_id": "MDU6SXNzdWUyMTAxNTEyOTI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -84,6 +89,7 @@
     {
       "color": "5DE0FA",
       "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
       "id": 676800676,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/update"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1217/events",
   "user": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",

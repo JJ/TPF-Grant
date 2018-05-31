@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyMjk4MjcxOTc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/robertlemmen/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE0Nzg0NDA1",
     "gists_url": "https://api.github.com/users/robertlemmen/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/robertlemmen/received_events",
     "organizations_url": "https://api.github.com/users/robertlemmen/orgs",
@@ -43,6 +45,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1314/events",
   "user": {
     "following_url": "https://api.github.com/users/robertlemmen/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE0Nzg0NDA1",
     "gists_url": "https://api.github.com/users/robertlemmen/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/robertlemmen/received_events",
     "organizations_url": "https://api.github.com/users/robertlemmen/orgs",

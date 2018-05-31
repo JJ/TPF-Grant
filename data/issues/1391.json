@@ -5,8 +5,9 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyMzc1NzY1OTQ=",
   "closed_by": null,
-  "updated_at": "2018-05-14T05:05:41Z",
+  "updated_at": "2018-05-19T10:54:32Z",
   "created_at": "2017-06-21T15:33:01Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1391/comments",
   "locked": false,
@@ -23,6 +24,7 @@
     {
       "color": "7493fb",
       "name": "search",
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY=",
       "id": 390783036,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/search"
@@ -30,14 +32,24 @@
     {
       "color": "0be5a0",
       "name": "site",
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
       "id": 397990514,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/site"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1391/events",
   "user": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
