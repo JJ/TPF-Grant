@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxODIwNTg4NzI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -24,16 +26,16 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-14T05:05:41Z",
+  "updated_at": "2018-05-31T10:52:53Z",
   "created_at": "2016-10-10T16:31:10Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/949/comments",
   "locked": false,
   "title": "Create page for environment variables the interpreter uses",
   "id": 182058872,
   "html_url": "https://github.com/perl6/doc/issues/949",
-  "closed_at": null,
+  "closed_at": "2018-05-31T10:52:53Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/949/labels{/name}",
   "number": 949,
   "comments": 23,
@@ -41,6 +43,7 @@
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -48,6 +51,7 @@
     {
       "color": "7493fb",
       "name": "search",
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY=",
       "id": 390783036,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/search"
@@ -56,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/949/events",
   "user": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",

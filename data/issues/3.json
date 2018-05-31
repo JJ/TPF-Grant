@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTg1NzI5Mg==",
   "closed_by": {
     "following_url": "https://api.github.com/users/ShimmerFairy/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIzNjc3Mw==",
     "gists_url": "https://api.github.com/users/ShimmerFairy/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ShimmerFairy/received_events",
     "organizations_url": "https://api.github.com/users/ShimmerFairy/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/3/events",
   "user": {
     "following_url": "https://api.github.com/users/raiph/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEyNDcxODU=",
     "gists_url": "https://api.github.com/users/raiph/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/raiph/received_events",
     "organizations_url": "https://api.github.com/users/raiph/orgs",

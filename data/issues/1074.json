@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0OTkxOTg3NTE=",
   "closed_by": {
     "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "node_id": "MDQ6VXNlcjY3OTIwNTE=",
     "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/titsuki/received_events",
     "organizations_url": "https://api.github.com/users/titsuki/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1074/events",
   "user": {
     "following_url": "https://api.github.com/users/ahalbert/following{/other_user}",
+    "node_id": "MDQ6VXNlcjg0OTgwNA==",
     "gists_url": "https://api.github.com/users/ahalbert/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ahalbert/received_events",
     "organizations_url": "https://api.github.com/users/ahalbert/orgs",
