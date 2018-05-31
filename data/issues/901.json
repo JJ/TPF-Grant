@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+      "node_id": "MDQ6VXNlcjU3NDc5MTg=",
       "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
       "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/zoffixznet/followers",
     "url": "https://api.github.com/users/zoffixznet"
   },
+  "node_id": "MDU6SXNzdWUxNzYxOTc5NDk=",
   "closed_by": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -84,6 +89,7 @@
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/901/events",
   "user": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",

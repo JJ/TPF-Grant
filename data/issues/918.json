@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxNzkyNzU4MTY=",
   "closed_by": {
     "following_url": "https://api.github.com/users/dogbert17/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE4NDI1MTM4",
     "gists_url": "https://api.github.com/users/dogbert17/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/dogbert17/received_events",
     "organizations_url": "https://api.github.com/users/dogbert17/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "efa0cd",
       "name": "Hacktoberfest",
+      "node_id": "MDU6TGFiZWw0NTA4NDMzMjI=",
       "id": 450843322,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
@@ -48,6 +51,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -56,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/918/events",
   "user": {
     "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "node_id": "MDQ6VXNlcjY3OTIwNTE=",
     "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/titsuki/received_events",
     "organizations_url": "https://api.github.com/users/titsuki/orgs",
