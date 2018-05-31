@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+      "node_id": "MDQ6VXNlcjE3NjgyMTE2",
       "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
       "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
     "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
     "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
     "url": "https://api.github.com/users/rafaelschipiura"
   },
+  "node_id": "MDU6SXNzdWUyMDI5NTA4NTY=",
   "closed_by": {
     "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
     "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
     "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -85,6 +90,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1163/events",
   "user": {
     "following_url": "https://api.github.com/users/bbkr/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE1NzUwMA==",
     "gists_url": "https://api.github.com/users/bbkr/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/bbkr/received_events",
     "organizations_url": "https://api.github.com/users/bbkr/orgs",

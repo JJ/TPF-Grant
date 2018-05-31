@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTAwMjE1OTU1",
   "closed_by": {
     "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NjQ0MzU=",
     "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/Altai-man/received_events",
     "organizations_url": "https://api.github.com/users/Altai-man/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1116/events",
   "user": {
     "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "node_id": "MDQ6VXNlcjc3MjM0",
     "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
     "organizations_url": "https://api.github.com/users/ronaldxs/orgs",

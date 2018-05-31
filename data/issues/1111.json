@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/jnthn/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU5",
       "gists_url": "https://api.github.com/users/jnthn/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/jnthn/received_events",
       "organizations_url": "https://api.github.com/users/jnthn/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/jnthn/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU5",
     "gists_url": "https://api.github.com/users/jnthn/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jnthn/received_events",
     "organizations_url": "https://api.github.com/users/jnthn/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/jnthn/followers",
     "url": "https://api.github.com/users/jnthn"
   },
+  "node_id": "MDU6SXNzdWUxOTg2NDA2OTA=",
   "closed_by": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -85,6 +90,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1111/events",
   "user": {
     "following_url": "https://api.github.com/users/briandfoy/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIyMjU1",
     "gists_url": "https://api.github.com/users/briandfoy/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/briandfoy/received_events",
     "organizations_url": "https://api.github.com/users/briandfoy/orgs",

@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+      "node_id": "MDQ6VXNlcjIwMTQ1NTU3",
       "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/samcv/received_events",
       "organizations_url": "https://api.github.com/users/samcv/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIwMTQ1NTU3",
     "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/samcv/received_events",
     "organizations_url": "https://api.github.com/users/samcv/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/samcv/followers",
     "url": "https://api.github.com/users/samcv"
   },
+  "node_id": "MDU6SXNzdWUyMDI1NjM3Mjc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIwMTQ1NTU3",
     "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/samcv/received_events",
     "organizations_url": "https://api.github.com/users/samcv/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "0be5a0",
       "name": "site",
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
       "id": 397990514,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/site"
@@ -85,6 +90,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1156/events",
   "user": {
     "following_url": "https://api.github.com/users/WildYorkies/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEyOTkzMjI=",
     "gists_url": "https://api.github.com/users/WildYorkies/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/WildYorkies/received_events",
     "organizations_url": "https://api.github.com/users/WildYorkies/orgs",

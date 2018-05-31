@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMA==",
       "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/JJ/received_events",
       "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -23,6 +24,7 @@
     },
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU3",
       "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/coke/received_events",
       "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -43,6 +45,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -60,8 +63,10 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
+  "node_id": "MDU6SXNzdWUyMDIyOTYzNTc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -96,6 +101,7 @@
     {
       "color": "C4DB17",
       "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
@@ -104,6 +110,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1153/events",
   "user": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
