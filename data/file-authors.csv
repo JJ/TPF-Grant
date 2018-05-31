@@ -1,5244 +1,1310 @@
 File,Authors
-xt/duplicates.t, +cpan	1
-jjmerelo	1
-will	12.keys
-lib/Type/X/Method/InvalidQualifier.pod, +alexmoquin	2
-smls75	1.keys
-lib/Int.pod, +alexmoquin	2
-benjamin.tyler	1
-felix	2
-glitchmr	2
-moritz	4.keys
-doc/Language/rb-nutshell.pod, +ahmad.zawawi	1
-awwaiid	5.keys
-doc/Language/5to6-perlvar.pod6, +215106+cfa	1
-ZzZombo	2
-altay-man	1
-book	1
-bwilcox	1
-cpan	2
-fluca1978	12
-gabor	1
-jan-olof.hendig	1
-jjmerelo	2
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	8
-zoffixznet	3.keys
-t/pod-valid.t, +215106+cfa	1
-cpan	7
-will	11.keys
-lib/Instant.pod, +moritz	1
-rnddim	2
-tim.dolores	1.keys
-sync, +moritz	5.keys
-doc/Type/X/Export/NameClash.pod6, +altay-man	2
-will	1.keys
-doc/Type/NFKD.pod6, +altay-man	1
-samantham	2
-studerj1.mail	1
-will	2.keys
-lib/Type/X/Syntax/UnlessElse.pod, +alexmoquin	1
-smls75	1.keys
-lib/Type/X/OutOfRange.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-doc/Type/X/Parameter/Default.pod, +will	1.keys
-sketch/html/css/custom-theme/images/ui-bg_glass_75_f5e47b_1x400.png, +alexmoquin	2.keys
-doc/Type/X/Promise/CauseOnlyValidOnBroken.pod6, +will	1.keys
-assets/js/jquery.tablesorter.js, +cpan	1.keys
-doc/Type/Regex.pod, +alex.jakimenko	1
-dbrunton	1
-jan-olof.hendig	1
-will	1.keys
-lib/Type/DateTime.pod, +dha	1
-lumimies	1
-moritz	8
-smls75	1.keys
-lib/X/Signature/NameClash.pod, +moritz	1.keys
-doc/Language/unicode_entry.pod, +alex.jakimenko	4
-cpan	2
-siavash.askari.nasr	2
-will	2.keys
-doc/Type/Lock.pod, +alex.jakimenko	1
-jan-olof.hendig	2
-will	2.keys
-README.nl.md, +39702500+KlappeZuAffeTot	1
-will	2.keys
-doc/Type/IO/Pipe.pod6, +altay-man	2
-cpan	3
-jan-olof.hendig	1
-will	2
-zoffixznet	1.keys
-sketch/html/css/custom-theme/images/ui-bg_flat_0_c0e472_40x100.png, +alexmoquin	2.keys
-lib/Perl6/Type.pm6, +alex.jakimenko	1.keys
-doc/Type/X/IO.pod, +will	1.keys
-doc/Type/X/Syntax/Comment/Embedded.pod, +will	1.keys
-lib/Type/Metamodel/Primitives.pod, +bri	1
-liz	1
-moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/Type/X/Channel/SendOnClosed.pod, +moritz	1
-smls75	1.keys
-lib/X/TypeCheck/Splice.pod, +moritz	1.keys
-doc/Type/X/IO/Dir.pod6, +altay-man	2
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Declaration/Scope.pod6, +altay-man	3
-will	2.keys
-doc/Type/Sub.pod6, +ZzZombo	1
-altay-man	3
-cale.short	2
-doug	1
-nicq20	3
-studerj1.mail	1
-wenzel.peppmeyer	11
-will	2.keys
-doc/Type/X/Syntax/Regex/Adverb.pod, +will	1.keys
-lib/Type/PositionalBindFailover.pod, +moritz	1
-will	1.keys
-lib/Language/testing.pod, +jns+git	1
-liz	1
-moritz	2
-muraiki	1
-paul	7.keys
-lib/Type/X/Bind/NativeType.pod, +alexmoquin	2
-smls75	1.keys
-lib/Enum.pod, +moritz	2
-pmichaud	1.keys
-WANTED, +alex.jakimenko	1
-alexmoquin	2
-cmasak	1
-dha	8
-flussence	1
-jns+git	1
-jnthn	3
-justin	1
-liz	1
-mlenz	1
-moritz	14
-paul	4
-pmichaud	1
-sog	1
-timonator	2
-will	1.keys
-assets/sass/_jquery-ui.scss, +cpan	1.keys
-doc/Type/Callable.pod6, +altay-man	5
-cpan	3
-jan-olof.hendig	1
-jjmerelo	1
-molecules	1
-perrettdl	1
-studerj1.mail	1
-wander4096	2
-wenzel.peppmeyer	8
-will	2
-zoffixznet	6.keys
-lib/Type/Enum.pod, +alexmoquin	2
-dha	1
-smls75	1.keys
-lib/Type/Scheduler.pod, +moritz	1
-nlogan	1
-smls75	1.keys
-util/check-type-graph.pl6, +alexmoquin	1
-moritz	1
-paul	1.keys
-sketch/html/type.html, +alexmoquin	4.keys
-doc/Type/Rat.pod, +jan-olof.hendig	1
-jsoref	1
-will	2.keys
-doc/Type/Associative.pod, +LLFourn	1
-will	1.keys
-lib/Type/Mixy.pod, +alexmoquin	2
-cpan	1
-smls75	3.keys
-lib/BagHash.pod, +alexmoquin	1.keys
-lib/Type/X/Parameter/WrongOrder.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Sub.pod, +will	1.keys
-doc/Language/typesystem.pod6, +215106+cfa	1
-MasterDuke17	1
-altay-man	4
-book	1
-doug	1
-ei	1
-fluca1978	2
-garu	1
-ianmcb	1
-jan-olof.hendig	7
-jjmerelo	3
-moritz	1
-perrettdl	1
-seatek	2
-siavash.askari.nasr	2
-studerj1.mail	2
-titsuki	2
-tom.browder	2
-treyharris	1
-wander4096	1
-wenzel.peppmeyer	83
-will	28
-zoffixznet	9.keys
-doc/Type/X/Pod.pod, +will	1.keys
-lib/Type/Rational.pod, +alexmoquin	2
-moritz	1
-smls75	2
-steve.mynott	1.keys
-lib/Type/X/NoDispatcher.pod, +alexmoquin	2
-smls75	1.keys
-doc/Programs/03-hacking.pod, +steve.mynott	1
-tom.browder	1.keys
-doc/Language/terms.pod6, +alex.jakimenko	1
-altay-man	3
-cpan	1
-ddgreen	1
-fluca1978	3
-gabor	2
-jjmerelo	2
-molecules	1
-pub.claudio	1
-studerj1.mail	1
-titsuki	1
-tom.browder	1
-wenzel.peppmeyer	5
-will	4
-zoffixznet	1.keys
-lib/Type/X/Export/NameClash.pod, +alexmoquin	2
-smls75	1.keys
-lib/X/Temporal/Truncation.pod, +moritz	1.keys
-doc/Type/X/Caller/NotDynamic.pod, +jan-olof.hendig	1.keys
-doc/Type/X/IO/Chdir.pod, +will	1.keys
-lib/Type/Label.pod, +dha	1
-moritz	1
-olshevskiy87	1
-smls75	1.keys
-lib/Language/regexes.pod, +alexmoquin	8
-bri	1
-bruce.gray	1
-cpan	1
-dha	4
-mdinger.bugzilla	3
-moritz	27
-paul	7
-timonator	1.keys
-doc/Language/control.pod, +LLFourn	2
-alex.jakimenko	2
-bri	16
-bwilcox	2
-cpan	5
-daniel.dehennin	2
-jgabriele	1
-jns	1
-jsoref	1
-mlenz	2
-molecules	1
-steve.mynott	1
-wenzel.peppmeyer	8
-will	4.keys
-doc/Type/X/Inheritance/NotComposed.pod, +alex.jakimenko	1
-will	1.keys
-doc/Type/Real.pod, +moritz	1
-simon	1
-will	1.keys
-doc/Type/X/Promise/CauseOnlyValidOnBroken.pod, +will	1.keys
-lib/Type/Associative.pod, +alexmoquin	1
-paul	1
-smls75	2.keys
-doc/Type/IO/Socket/Async.pod, +alex.jakimenko	2
-info	1
-jan-olof.hendig	3
-jns+git	3
-moritz	1
-will	2.keys
-doc/Type/Metamodel/Finalization.pod, +will	1.keys
-doc/Type/X/TypeCheck/Splice.pod, +will	1.keys
-doc/Type/Rational.pod, +jan-olof.hendig	1
-jsoref	1
-titsuki	1
-will	1.keys
-doc/Type/RatStr.pod6, +altay-man	5
-b2gills	1
-cpan	6
-jan-olof.hendig	1
-studerj1.mail	1
-will	3.keys
-doc/Type/X/IO/Link.pod, +jan-olof.hendig	1.keys
-doc/Language/contexts.pod6, +jjmerelo	7
-sanchezchristian	1
-will	2.keys
-util/compile-sass.sh, +cpan	3
-samantham	3.keys
-doc/404.pod, +cpan	1
-will	1.keys
-util/extract-examples.p6, +altay-man	7
-wenzel.peppmeyer	15
-will	4.keys
-lib/Type/X/Method/Private/Unqualified.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/X/Bind/Slice.pod, +will	1.keys
-doc/Type/Real.pod6, +MasterDuke17	1
-altay-man	4
-cpan	3
-studerj1.mail	1
-will	4
-zakame	1
-zoffixznet	5.keys
-lib/X/Comp.pod, +moritz	3.keys
-doc/Type/IO/Special.pod, +alex.jakimenko	1
-ddgreen	1
-jan-olof.hendig	1
-jns	2
-steve.mynott	1
-titsuki	1.keys
-doc/Type/X/Syntax/Signature/InvocantMarker.pod6, +altay-man	2
-will	1.keys
-doc/Type/X/Proc/Async/MustBeStarted.pod, +will	1.keys
-lib/Language/subscripting.pod, +smls75	1.keys
-doc/Type/IO/Spec/QNX.pod, +info	1
-tom.browder	1
-wenzel.peppmeyer	2
-will	1.keys
-doc/Type/X/Syntax/Regex/SolitaryQuantifier.pod6, +altay-man	2
-will	1.keys
-doc/Type/IO/Path.pod6, +ZzZombo	2
-alex.jakimenko	1
-altay-man	9
-bahtiar	2
-bwilcox	2
-cpan	70
-ddgreen	1
-fluca1978	1
-jan-olof.hendig	2
-jjmerelo	6
-molecules	2
-paul	2
-sam	1
-samantham	1
-sanchezchristian	2
-wander4096	1
-wenzel.peppmeyer	4
-will	7
-zoffixznet	23.keys
-doc/Language/regexes.pod6, +215106+cfa	1
-MasterDuke17	1
-alex.jakimenko	4
-altay-man	10
-antquinonez	6
-armand.halbert	1
-clint_who	3
-cpan	3
-f.sizov	1
-flexibeast	1
-fluca1978	27
-github	1
-jan-olof.hendig	5
-jjmerelo	17
-johnnyspoon	2
-molecules	1
-moritz	2
-moritz.lenz	10
-mt1957	1
-rafaelschipiura	1
-robertle	1
-ronaldxs	2
-samantham	12
-sanchezchristian	1
-seatek	2
-steve.mynott	1
-studerj1.mail	1
-titsuki	1
-tom.browder	9
-wander4096	25
-wenzel.peppmeyer	1
-will	22
-zoffixznet	7.keys
-doc/Language/iterating.pod6, +jjmerelo	12.keys
-doc/Type/Pod/Block/Named.pod, +will	1.keys
-doc/Type/X/Syntax/InfixInTermPosition.pod6, +altay-man	3
-will	1.keys
-doc/Language/io-guide.pod6, +book	1
-cpan	9
-curt	1
-flussence	1
-jan-olof.hendig	1
-kris	1
-sanchezchristian	1
-studerj1.mail	1
-will	1
-zoffixznet	6.keys
-doc/Type/X/Declaration/Scope/Multi.pod, +will	2.keys
-doc/Type/Set.pod, +will	1.keys
-lib/Type/Junction.pod, +alexmoquin	1
-bri	1
-moritz	1
-smls75	1.keys
-index.p6, +alexmoquin	1
-steve.mynott	6.keys
-doc/Type/X/Syntax/Term/MissingInitializer.pod, +will	1.keys
-lib/Type/Positional.pod, +alexmoquin	2
-moritz	1
-smls75	3.keys
-lib/Type/X/Declaration/Scope/Multi.pod, +alexmoquin	1
-smls75	1.keys
-lib/X/Parameter/Default.pod, +moritz	1.keys
-lib/Grammar.pod, +benjamin.tyler	1
-moritz	1.keys
-lib/Type/X/Proc/Async/AlreadyStarted.pod, +moritz	1
-smls75	1.keys
-doc/Type/Channel.pod, +alex.jakimenko	1
-altay-man	1
-bri	1
-gotoexit	1
-jns+git	1
-will	2.keys
-lib/Perl6/Documentable/Registry.pm, +jnthn	1
-moritz	7
-paul	1
-smls75	1
-will	2.keys
-sketch/html/css/custom-theme/jquery-ui-1.8.21.custom.css, +alexmoquin	2.keys
-html/css/custom-theme/images/ui-bg_glass_45_80b5ff_1x400.png, +cpan	2
-geoff	1.keys
-doc/Type/X/Syntax/Comment/Embedded.pod6, +altay-man	2
-will	2.keys
-doc/Type/Promise.pod6, +altay-man	5
-cpan	1
-jan-olof.hendig	1
-jkramer	1
-samantham	1
-steve.mynott	1
-studerj1.mail	1
-timonator	1
-wenzel.peppmeyer	2
-will	5
-zoffixznet	2.keys
-README.es.md, +ElenaMerelo	5
-angr7991	1
-antoniogamiz10	13
-ceci.merelo	1
-fritz.zaucker	1
-jjmerelo	1
-nenamer	1
-uzluisf	1
-will	1.keys
-lib/Type/Metamodel/AttributeContainer.pod, +moritz	3
-smls75	1.keys
-lib/Type/X/IO/Unlink.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-lib/X/Syntax/Obsolete.pod, +moritz	1.keys
-doc/Perl6/01-debugging.pod, +tom.browder	1.keys
-t/07-tabs.t, +jjmerelo	1.keys
-Makefile, +bwilcox	1
-cpan	13
-jjmerelo	13
-jsoref	3
-paul	5
-samantham	5
-studerj1.mail	1
-wenzel.peppmeyer	7
-will	9
-zoffixznet	1.keys
-lib/X/Anon/Augment.pod, +moritz	1.keys
-doc/Type/Semaphore.pod, +bruce.gray	1
-jan-olof.hendig	1
-jns+git	1
-tom.browder	1.keys
-doc/Type/Pod/Item.pod6, +altay-man	2
-will	1.keys
-.dockerignore, +studerj1.mail	1.keys
-doc/Type/X/StubCode.pod, +will	1.keys
-t/02-tests-valid.t, +jjmerelo	1.keys
-doc/Type/X/Parameter/MultipleTypeConstraints.pod, +will	1.keys
-doc/Type/NFC.pod6, +altay-man	1
-samantham	1
-studerj1.mail	1
-will	1.keys
-lib/Type/X/Sequence/Deduction.pod, +alexmoquin	1
-smls75	1.keys
-lib/modules.pod, +alexmoquin	3.keys
-xt/doc, +will	2.keys
-doc/Programs/02-other-progs.pod, +steve.mynott	1
-tom.browder	1.keys
-doc/Type/Instant.pod, +alex.jakimenko	1
-jan-olof.hendig	2
-will	1.keys
-t/06-pod-htmlify.t, +jjmerelo	1.keys
-util/missing-types.pl6, +alexmoquin	1
-moritz	1
-paul	1.keys
-lib/X/Role/Initialization.pod, +moritz	1.keys
-doc/Type/X/Assignment/RO.pod6, +altay-man	3
-will	1.keys
-doc/Type/X/Syntax/Confused.pod6, +altay-man	2
-will	2.keys
-shippable.yml, +jjmerelo	55.keys
-doc/Type/Mixy.pod6, +215106+cfa	1
-alex.jakimenko	1
-altay-man	2
-studerj1.mail	2
-will	1.keys
-lib/Type/Metamodel/PrivateMethodContainer.pod, +dha	1
-moritz	1
-smls75	1.keys
-lib/X/Inheritance/Unsupported.pod, +moritz	2.keys
-lib/Bag.pod, +alexmoquin	7.keys
-xt/type-graph.t, +will	3.keys
-doc/Type/Hash.pod, +LLFourn	1
-alex.jakimenko	1
-bwilcox	2
-cookbook_000	1
-dabe	2
-dale.evans	1
-jan-olof.hendig	4
-john.haltiwanger	4
-mathieu	1
-moritz	1
-paul	1
-simon	2
-wenzel.peppmeyer	7
-will	3.keys
-doc/Type/X/StubCode.pod6, +will	1.keys
-doc/Type/X/Promise/Vowed.pod6, +will	1.keys
-doc/Type/X/Proc/Async/TapBeforeSpawn.pod, +timonator	1
-will	1.keys
-lib/Type/X/Proc/Async/OpenForWriting.pod, +moritz	1
-smls75	1.keys
-doc/Language/modules.pod, +LLFourn	3
-alex.jakimenko	3
-altay-man	1
-bruce.gray	1
-bwilcox	3
-coleoid	1
-cpan	2
-flussence	1
-fritz.zaucker	2
-jns	1
-jns+git	1
-lloyd.fourn	1
-matthew.king	1
-moritz	2
-pub.claudio	2
-scolinet	1
-steve.mynott	1
-tom.browder	3
-ungrim97	1
-wenzel.peppmeyer	3
-will	4
-zoffixznet	3.keys
-t/05-pod-convenience.t, +jjmerelo	1.keys
-doc/Language/classtut.pod, +alex.jakimenko	1
-bri	1
-bwilcox	1
-claudio.ramirez	1
-coleoid	1
-cpan	3
-jan-olof.hendig	1
-jns	4
-ronaldxs	1
-steve.mynott	1
-teodozjan	1
-wenzel.peppmeyer	5
-will	2.keys
-META6.json, +alex.jakimenko	2
-jjmerelo	11
-steve.mynott	1
-wander4096	4
-wenzel.peppmeyer	1
-zoffixznet	3.keys
-doc/Type/X/NoDispatcher.pod, +bri	1
-will	2.keys
-lib/Type/X/Obsolete.pod, +alexmoquin	1
-smls75	1.keys
-xt/perl-nbsp.t, +jjmerelo	4
-will	12.keys
-doc/Type/X/Syntax/Malformed.pod, +will	1.keys
-lib/Type/X/IO/Chdir.pod, +alexmoquin	2
-smls75	1.keys
-html/search.html, +raydiak	4.keys
-lib/Type/Seq.pod, +larry	1
-moritz	3.keys
-lib/Signature.pod, +benjamin.tyler	1
-moritz	5
-pmichaud	2.keys
-doc/Language/5to6-perlop.pod6, +215106+cfa	2
-ZzZombo	3
-altay-man	1
-antquinonez	1
-bwilcox	1
-cpan	2
-dha	1
-fluca1978	9
-jan-olof.hendig	2
-jjmerelo	2
-kaiepi	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	8.keys
-doc/Type/X/IO/Chmod.pod, +will	1.keys
-doc/Type/Tap.pod, +jan-olof.hendig	1
-mt1957	1
-will	1.keys
-lib/Type/X/Channel/ReceiveOnClosed.pod, +moritz	1
-smls75	1.keys
-lib/X/Syntax/Self/WithoutObject.pod, +moritz	1.keys
-doc/Language/io.pod, +altay-man	1
-coleoid	1
-cpan	7
-pub.claudio	2
-will	1.keys
-doc/Type/MixHash.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Language/containers.pod6, +Curt.Tilmes	1
-alex.jakimenko	1
-altay-man	3
-cpan	4
-fluca1978	1
-jjmerelo	7
-steve.mynott	1
-studerj1.mail	1
-wenzel.peppmeyer	12
-will	7
-zoffixznet	7.keys
-lib/Type/Pod/To/SectionFilter.pm, +alexmoquin	1.keys
-html/css/highlights.css, +samantham	5
-zoffixznet	3.keys
-doc/Type/Scalar.pod6, +altay-man	4
-armand.halbert	1
-cpan	2
-jan-olof.hendig	1
-jnthn	1
-liz	1
-moritz.lenz	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	2.keys
-lib/Set.pod, +alexmoquin	10.keys
-lib/Type/X/Placeholder/Mainline.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/Str.pod, +alex.jakimenko	1
-altay-man	1
-bwilcox	1
-developer	1
-dha	2
-jan-olof.hendig	3
-jns	1
-liz	5
-moritz	1
-mt1957	1
-patch	1
-revhippie	1
-simon	2
-steve.mynott	2
-timonator	1
-titsuki	1
-tom.browder	1
-wenzel.peppmeyer	2
-will	2
-zoffixznet	3.keys
-doc/Type/Capture.pod, +alex.jakimenko	1
-parabolize	1
-will	1
-zoffixznet	1.keys
-doc/Language/modules.pod6, +215106+cfa	2
-alex.jakimenko	3
-altay-man	6
-cpan	6
-gabor	1
-grinnz	1
-jjmerelo	14
-moritz.lenz	2
-nine	1
-p.spek	3
-patrick	2
-paul	2
-pub.claudio	1
-rafaelschipiura	2
-samantham	1
-sanchezchristian	1
-seatek	1
-studerj1.mail	4
-tom.browder	16
-wenzel.peppmeyer	9
-will	19
-zoffixznet	4.keys
-doc/Type/X/Sequence/Deduction.pod, +will	2.keys
-doc/Language/typesystem.pod, +alex.jakimenko	1
-cpan	1
-wenzel.peppmeyer	18
-will	2.keys
-doc/Type/X/TypeCheck/Binding.pod, +will	1.keys
-lib/X/IO/Mkdir.pod, +moritz	1.keys
-doc/Type/Bag.pod6, +alex.jakimenko	1
-altay-man	5
-jan-olof.hendig	1
-jjmerelo	2
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	3.keys
-lib/Type/X/Syntax/P5.pod, +alexmoquin	1
-smls75	1.keys
-lib/Type/X/TypeCheck/Return.pod, +alexmoquin	1
-smls75	1.keys
-doc/Language/testing.pod, +alex.jakimenko	3
-bwilcox	1
-cpan	7
-jsoref	3
-neil.shadrach	1
-paul	2
-pub.claudio	3
-siavash.askari.nasr	2
-smls75	2
-steve.mynott	1
-tom.browder	13
-vendethiel	1
-wenzel.peppmeyer	1
-will	2
-zoffixznet	12.keys
-lib/Type/Version.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-template/index_header.html, +raydiak	4.keys
-doc/Type/X/Seq/Consumed.pod6, +will	1.keys
-doc/Language/unicode_entry.pod6, +altay-man	4
-athoscr	1
-cpan	1
-jan-olof.hendig	1
-jjmerelo	5
-p.spek	5
-samantham	3
-studerj1.mail	1
-timonator	1
-wenzel.peppmeyer	3
-will	10
-zoffixznet	4.keys
-doc/Type/Attribute.pod6, +altay-man	10
-jjmerelo	3
-studerj1.mail	1
-titsuki	1
-wenzel.peppmeyer	3
-will	3.keys
-doc/Type/IO/Path/Unix.pod6, +cpan	3
-jjmerelo	1.keys
-lib/Language/control.pod, +bri	6
-dha	9
-paul	5
-steve.mynott	1.keys
-lib/Type/X/Syntax.pod, +alexmoquin	1
-smls75	2.keys
-lib/Cursor.pod, +benjamin.tyler	1
-moritz	1.keys
-doc/Type/X/IO/Chmod.pod6, +altay-man	2
-will	1.keys
-doc/Type/Dateish.pod, +alex.jakimenko	3
-jan-olof.hendig	8
-jsoref	1
-liz	1
-wenzel.peppmeyer	1
-will	1.keys
-t/01-load.t, +jjmerelo	1.keys
-doc/Type/Kernel.pod6, +jan-olof.hendig	2
-jjmerelo	2
-liz	2
-studerj1.mail	1
-wander4096	1.keys
-doc/Type/X/Syntax/InfixInTermPosition.pod, +will	1.keys
-lib/Type/BagHash.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-TODO, +alex.jakimenko	1
-alexmoquin	8
-moritz	9
-rnddim	1.keys
-util/travis-test.sh, +jjmerelo	3.keys
-doc/Language/tables.pod6, +allan	1
-altay-man	1
-studerj1.mail	1
-tom.browder	21
-wenzel.peppmeyer	1
-will	3.keys
-lib/Type/X/Eval/NoSuchLang.pod, +alexmoquin	2
-smls75	1.keys
-lib/Str.pod, +benjamin.tyler	1
-gabor	2
-geoff	1
-glitchmr	1
-moritz	19
-nastavs	1
-pmichaud	5
-steve.mynott	1
-szabgab	2
-tim.dolores	1.keys
-doc/Type/Mix.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Programs/01-debugging.pod, +steve.mynott	1
-tom.browder	1
-zoffixznet	1.keys
-doc/Type/Buf.pod6, +david.warring	1
-fluca1978	4
-jjmerelo	1
-liz	1
-studerj1.mail	2
-will	3.keys
-lib/Perl6/TypeGraph.pm, +alexmoquin	1
-bri	1
-geoff	3
-mlenz	1
-moritz	6
-paul	1
-steve.mynott	1
-wander4096	1
-will	2.keys
-doc/Type/Iterator.pod, +will	2.keys
-lib/Type/Whatever.pod, +alexmoquin	2
-john.haltiwanger	2
-moritz	1
-smls75	2.keys
-lib/Type/Supply.pod, +book	2
-jns+git	1
-liz	6
-mlenz	1
-moritz	11
-rob	1
-smls75	2
-steve.mynott	2.keys
-doc/Type/Rational.pod6, +altay-man	4
-cpan	3
-jjmerelo	2
-studerj1.mail	1
-will	2
-zoffixznet	1.keys
-template/header.html, +alex.jakimenko	2
-alexmoquin	4
-carl	1
-cpan	7
-raydiak	5
-smls75	1
-tom.browder	1
-wander4096	1
-wenzel.peppmeyer	1
-zoffixznet	1.keys
-doc/Type/X/Syntax/Augment/Role.pod, +jan-olof.hendig	1
-will	1.keys
-lib/Type/X/Proc/Async/CharsOrBytes.pod, +moritz	1
-smls75	1.keys
-doc/Language/subscripts.pod, +alex.jakimenko	3
-bwilcox	1
-cpan	1
-jan-olof.hendig	1
-jsoref	1
-ronaldxs	1
-simon	1
-tom.browder	1
-wenzel.peppmeyer	3
-will	1.keys
-doc/Type/X/Numeric/Real.pod6, +altay-man	2
-will	1.keys
-doc/Programs/01-debugging.pod6, +alex.jakimenko	1
-altay-man	1
-cpan	1
-dzwell	1
-jan-olof.hendig	2
-jjmerelo	5
-rafaelschipiura	1
-studerj1.mail	2
-tom.browder	3
-will	5
-zoffixznet	1.keys
-lib/Type/Cursor.pod, +alexmoquin	1
-smls75	1.keys
-lib/Type/X/TypeCheck/Splice.pod, +alexmoquin	2
-smls75	1.keys
-lib/Type/Real.pod, +alexmoquin	2
-moritz	1
-smls75	2.keys
-doc/Type/Date.pod6, +alex.jakimenko	1
-altay-man	6
-cpan	1
-fluca1978	5
-jan-olof.hendig	2
-molecules	1
-samantham	1
-studerj1.mail	1
-will	7
-zoffixznet	4.keys
-lib/X/Attribute/Undeclared.pod, +moritz	1.keys
-doc/Type/IntStr.pod, +ddgreen	1
-jan-olof.hendig	1
-jns	1
-will	1.keys
-t/pod-htmlify.t, +ahmad.zawawi	1
-cpan	3
-paul	6
-steve.mynott	1
-timonator	2
-will	1
-zoffixznet	2.keys
-CONTRIBUTING.md, +alex.jakimenko	2
-altay-man	3
-bwilcox	1
-cpan	9
-jarkko	1
-jgabriele	1
-jjmerelo	10
-m.krull	1
-moritz	6
-moritz.lenz	1
-paul	3
-samantham	1
-steveb	1
-studerj1.mail	2
-themanchicken	1
-tom.browder	1
-wenzel.peppmeyer	7
-will	20
-zoffixznet	12.keys
-lib/Type/MixHash.pod, +alexmoquin	2
-dha	1
-smls75	1.keys
-doc/Type/X/Inheritance/NotComposed.pod6, +altay-man	3
-will	1.keys
-doc/Type/IO.pod, +alex.jakimenko	1
-bruce.gray	1
-cpan	2
-liz	1
-mlenz	1
-timonator	1
-titsuki	1
-tom.browder	1
-wenzel.peppmeyer	9
-will	2.keys
-doc/Type/X/NoDispatcher.pod6, +altay-man	2
-will	1.keys
-doc/Type/X/Phaser/PrePost.pod6, +altay-man	3
-will	2.keys
-doc/Type/Metamodel/MROBasedMethodDispatch.pod6, +altay-man	1
-cpan	1
-tobias.leich	1
-will	1.keys
-doc/Type/IO/Path/Cygwin.pod6, +cpan	3
-jjmerelo	1.keys
-doc/Language/enumeration.pod6, +studerj1.mail	1
-tom.browder	3
-wander4096	1
-will	2.keys
-lib/X/Export/NameClash.pod, +moritz	1.keys
-doc/Type/X/Eval/NoSuchLang.pod6, +altay-man	1
-wenzel.peppmeyer	1
-will	1.keys
-html/js/sift4-common.js, +cpan	1
-will	2.keys
-doc/Type/X/Parameter/Twigil.pod, +will	1.keys
-lib/Type/Capture.pod, +alexmoquin	2
-bri	2
-bruce.gray	1
-dha	1
-paul	1
-smls75	2
-steve.mynott	1.keys
-sketch/html/js/jquery-1.7.2.min.js, +alexmoquin	2.keys
-doc/Type/Num.pod, +wenzel.peppmeyer	4
-will	1.keys
-doc/Language/grammars.pod, +book	1
-cpan	9
-will	1.keys
-README.pt.md, +rafaelschipiura	1.keys
-doc/Type/X/Method/InvalidQualifier.pod, +will	2.keys
-lib/Type/X/IO/Copy.pod, +alexmoquin	2
-smls75	1.keys
-doc/Language/testing.pod6, +alex.jakimenko	4
-altay-man	1
-antquinonez	3
-cpan	10
-doug	1
-gabor	1
-jan-olof.hendig	3
-jjmerelo	6
-mienaikage	1
-perrettdl	1
-studerj1.mail	1
-tom.browder	6
-wenzel.peppmeyer	4
-will	8
-zoffixznet	22.keys
-lib/Type/X/Placeholder/Block.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-lib/X/ControlFlow/Return.pod, +moritz	1.keys
-sketch/html/images/camelia-faded.png, +alexmoquin	2.keys
-doc/Type/X/IO/Move.pod6, +altay-man	2
-will	1.keys
-doc/Type/IO/Spec/QNX.pod6, +altay-man	2
-cpan	7
-will	1.keys
-doc/Type/IO/Path/Win32.pod6, +cpan	3
-jjmerelo	1.keys
-lib/Whatever.pod, +moritz	3.keys
-doc/Type/WhateverCode.pod6, +altay-man	2
-bri	1
-cpan	3
-jan-olof.hendig	1
-studerj1.mail	1
-will	1.keys
-doc/Type/X/Signature/Placeholder.pod, +will	1.keys
-lib/X/Bind/NativeType.pod, +moritz	2.keys
-doc/Type/List.pod, +alex	1
-alex.jakimenko	2
-bri	1
-bwilcox	1
-dha	1
-jan-olof.hendig	4
-jns+git	1
-liz	9
-moritz	2
-paul	1
-simon	2
-smls75	1
-tom.browder	1
-will	3.keys
-.github/pull_request_template.md, +jjmerelo	3.keys
-doc/Type/Supplier.pod6, +altay-man	3
-jan-olof.hendig	2
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/Pod/Block/Declarator.pod6, +naoum88	1
-will	1.keys
-doc/Language/packages.pod6, +215106+cfa	1
-altay-man	1
-cpan	1
-github	1
-jan-olof.hendig	1
-jjmerelo	3
-studerj1.mail	1
-wenzel.peppmeyer	4
-will	5
-zoffixznet	2.keys
-lib/Type/Date.pod, +alexmoquin	2
-dha	1
-john.haltiwanger	1
-moritz	2
-paul	1
-smls75	1
-steve.mynott	1.keys
-lib/X/NYI.pod, +moritz	1.keys
-lib/X/Declaration/Scope/Multi.pod, +moritz	1.keys
-doc/Type/X/Syntax/AddCategorial/MissingSeparator.pod, +use_v6	1
-will	1.keys
-doc/Type/Macro.pod, +will	1.keys
-html/style.css, +moritz	1
-raydiak	7.keys
-util/ignored-methods.txt, +wenzel.peppmeyer	7.keys
-doc/Type/Pod/Block/Para.pod, +will	1.keys
-lib/X/Method/InvalidQualifier.pod, +moritz	1.keys
-doc/Type/X/Seq/Consumed.pod, +alex.jakimenko	1
-jan-olof.hendig	1.keys
-doc/Language/classtut.pod6, +alex.jakimenko	1
-altay-man	6
-antquinonez	2
-armand.halbert	1
-jan-olof.hendig	1
-jjmerelo	7
-samantham	1
-sanchezchristian	1
-seatek	1
-sterling	1
-studerj1.mail	1
-titsuki	1
-tom.browder	2
-vynce.montgomery	1
-wenzel.peppmeyer	4
-will	7
-zoffixznet	2.keys
-doc/Type/Proc/Async.pod, +bri	1
-jan-olof.hendig	1
-will	1.keys
-doc/Type/Dateish.pod6, +215106+cfa	1
-altay-man	4
-cpan	2
-jan-olof.hendig	1
-studerj1.mail	2
-will	3.keys
-doc/Type/X/TypeCheck/Binding.pod6, +altay-man	1
-will	1.keys
-lib/Stringy.pod, +jnthn	1.keys
-doc/Type/X/Undeclared.pod6, +altay-man	2
-will	1.keys
-doc/Type/X/Bind/NativeType.pod, +will	1.keys
-lib/Type/X/Anon/Augment.pod, +alexmoquin	2
-moritz	1
-smls75	1.keys
-lib/Num.pod, +moritz	1.keys
-sketch/app.pl, +alexmoquin	3.keys
-doc/Type/X/Syntax/Missing.pod6, +altay-man	3
-will	2.keys
-lib/Type/IO/Spec.pod, +jns+git	4.keys
-lib/Language/Sets_Bags_and_Mixes.pod, +alexmoquin	6
-smls75	1
-steve.mynott	1.keys
-lib/Type/X/Redeclaration.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-lib/Type/Proc.pod, +moritz	2
-nlogan	1
-smls75	1
-steve.mynott	1.keys
-doc/Type/Metamodel/PrivateMethodContainer.pod, +will	1.keys
-doc/Type/X/Assignment/RO.pod, +will	1.keys
-lib/Type/Callable.pod, +alexmoquin	1
-moritz	1
-smls75	1.keys
-doc/Type/IO/Spec.pod6, +altay-man	2
-cpan	5
-will	1.keys
-bin/p6doc, +alexmoquin	2
-andreoss	1
-awwaiid	1
-bahtiar	2
-bduggan	2
-coleoid	1
-ddgreen	11
-ilmari.vacklin	1
-jnthn	1
-john.haltiwanger	10
-kevin	2
-madcap.russo	3
-moritz	4
-paul	3
-rob	1
-simula67	1
-steve.mynott	48
-szabgab	6
-tadzikes	1
-teodozjan	1
-tom.browder	1
-ugexe	1.keys
-doc/Type/Stash.pod, +bri	1
-will	1.keys
-lib/Type/Metamodel/MROBasedMethodDispatch.pod, +moritz	2
-smls75	1.keys
-lib/Type/X/Numeric/Real.pod, +alexmoquin	2
-smls75	1.keys
-lib/HomePage.pod, +alexmoquin	5
-moritz	1
-paul	1
-raydiak	1
-smls75	1
-steve.mynott	1.keys
-lib/X/OS.pod, +moritz	1.keys
-template/examples.html, +cpan	1
-wenzel.peppmeyer	1.keys
-html/perl6.html, +jjmerelo	3.keys
-doc/Type/Metamodel/C3MRO.pod6, +altay-man	3
-jan-olof.hendig	1
-jjmerelo	2
-wenzel.peppmeyer	1
-will	1.keys
-lib/Language/5to6-perlop.pod, +cpan	1
-dha	1
-moritz	1
-steve.mynott	1.keys
-doc/Type/HyperWhatever.pod6, +zoffixznet	1.keys
-doc/Type/X/Proc/Async.pod6, +altay-man	5
-jan-olof.hendig	1
-will	2.keys
-doc/Type/FatRat.pod, +will	1.keys
-doc/Type/IO/ArgFiles.pm, +will	1.keys
-html/js/jquery-1.11.3.min.js, +cpan	2
-will	2.keys
-doc/Type/X/Channel/ReceiveOnClosed.pod6, +altay-man	3
-jan-olof.hendig	1
-will	1.keys
-lib/Type/X/Inheritance/NotComposed.pod, +moritz	1
-smls75	1.keys
-lib/X/IO/Unlink.pod, +moritz	1.keys
-doc/Type/X/Channel/SendOnClosed.pod6, +altay-man	3
-jan-olof.hendig	1
-will	1.keys
-lib/Language/functions.pod, +LLFourn	1
-alexmoquin	5
-bri	4
-justin	1
-moritz	16
-mt1957	1
-paul	3
-scriplit	1
-sjn	1
-steve.mynott	2
-use_v6	1
-will	1.keys
-doc/Type/X/ControlFlow/Return.pod6, +altay-man	1
-will	1.keys
-doc/Type/WrapHandle.pod6, +alex.jakimenko	1
-altay-man	3
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	2.keys
-doc/Type/X/Syntax/Signature/InvocantMarker.pod, +will	1.keys
-writing-docs/EXAMPLES.md, +jjmerelo	2.keys
-doc/Type/Method.pod6, +altay-man	1
-samantham	1
-studerj1.mail	2
-wenzel.peppmeyer	10
-will	5
-zoffixznet	2.keys
-lib/EnumMap.pod, +moritz	3
-raiph.mellor	1.keys
-lib/Failure.pod, +moritz	1.keys
-lib/X/Package/Stubbed.pod, +moritz	1.keys
-lib/X/Declaration/Scope.pod, +moritz	1.keys
-doc/Type/Setty.pod, +jan-olof.hendig	1
-will	1.keys
-lib/X/Signature/Placeholder.pod, +moritz	1.keys
-doc/Type/Supplier.pod, +jns+git	2
-jsoref	1
-moritz	1
-will	1.keys
-util/xt-recent-aspell.p6, +will	1.keys
-doc/Language/about.pod6, +altay-man	3
-antquinonez	1
-jjmerelo	2
-naoum88	1
-ronaldxs	1
-sjn	1
-studerj1.mail	1
-tom.browder	12
-vynce.montgomery	1
-wenzel.peppmeyer	1
-will	5
-zoffixznet	1.keys
-lib/Block.pod, +moritz	1.keys
-lib/X/Pod.pod, +moritz	1.keys
-doc/Type/Pod/Block.pod6, +altay-man	2
-cale.short	1
-naoum88	1
-will	1.keys
-html/js/DUMMY.txt, +cpan	2.keys
-doc/Type/Mix.pod6, +alex.jakimenko	1
-altay-man	6
-jjmerelo	2
-samantham	1
-studerj1.mail	1
-will	2
-zoffixznet	3.keys
-doc/Language/js-nutshell.pod6, +jjmerelo	2
-kaiepi	4
-rafaelschipiura	1
-will	2.keys
-lib/Type/X/Proc/Async/TapBeforeSpawn.pod, +moritz	1
-smls75	1.keys
-doc/Type/Cancellation.pod, +parabolize	1.keys
-bin/p6doc.bat, +andrew	1
-sog	1.keys
-doc/Type/IO.pod6, +alex.jakimenko	10
-allan	1
-altay-man	10
-b2gills	2
-cpan	30
-gabor	2
-jan-olof.hendig	4
-jjmerelo	3
-jkramer	1
-pawelmurias	1
-samantham	2
-sanchezchristian	1
-skelic2	1
-studerj1.mail	1
-tom.browder	2
-wenzel.peppmeyer	8
-will	9
-zoffixznet	12.keys
-doc/Type/Attribute.pod, +LLFourn	1
-ddgreen	1
-krunen	1
-moritz	2
-will	1.keys
-doc/Language/modules-extra.pod, +bri	1
-coleoid	1
-fischer.emeric	1
-pub.claudio	1
-scolinet	1
-zoffixznet	2.keys
-doc/Language/modules-extra.pod6, +Tyil	1
-altay-man	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/ThreadPoolScheduler.pod, +will	1.keys
-lib/X/Syntax/Augment/WithoutMonkeyTyping.pod, +moritz	1.keys
-doc/Type/X/Proc/Unsuccessful.pod6, +altay-man	2
-jan-olof.hendig	1
-will	1.keys
-lib/Language/subscripts.pod, +bri	3
-dha	1
-jns+git	1
-moritz	2
-smls75	9
-steve.mynott	2.keys
-README, +moritz	9
-paul	2
-pmichaud	3
-steve.mynott	2
-trixium	1.keys
-lib/X/Syntax/Comment/Embedded.pod, +moritz	1.keys
-lib/X/Syntax/Signature/InvocantMarker.pod, +moritz	1.keys
-doc/Language/py-nutshell.pod6, +215106+cfa	2
-antquinonez	1
-bduggan	17
-cpan	4
-gabor	1
-jecki	2
-studerj1.mail	1
-tom.browder	1
-will	2
-zoffixznet	2.keys
-doc/Type/Tap.pod6, +altay-man	2
-jan-olof.hendig	2
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	1.keys
-lib/IO/Handle.pod, +alexmoquin	1.keys
-doc/Type/Telemetry.pod6, +alex.jakimenko	1
-cpan	2
-jan-olof.hendig	1
-jjmerelo	3
-liz	5
-steve.mynott	1
-studerj1.mail	1
-wander4096	7
-will	1.keys
-lib/Type/X/IO/Rmdir.pod, +alexmoquin	2
-smls75	1.keys
-sketch/html/css/custom-theme/images/ui-bg_glass_45_80b5ff_1x400.png, +alexmoquin	2.keys
-doc/Type/Metamodel/PrivateMethodContainer.pod6, +altay-man	1
-will	2.keys
-doc/Type/X/Method/NotFound.pod, +will	1.keys
-doc/Type/NFKC.pod6, +altay-man	1
-samantham	1
-studerj1.mail	1
-will	1.keys
-lib/X/Placeholder/Block.pod, +moritz	1.keys
-lib/glossary.pod, +benjamin.tyler	1
-moritz	4
-raiph.mellor	1
-rnddim	1.keys
-doc/Type/Mu.pod, +alex.jakimenko	4
-altay-man	1
-cpan	1
-jan-olof.hendig	4
-jsoref	1
-mlenz	1
-wenzel.peppmeyer	7
-will	2.keys
-doc/Type/X/TypeCheck/Return.pod6, +altay-man	2
-jjmerelo	1
-will	1.keys
-doc/Type/Associative.pod6, +jjmerelo	2
-studerj1.mail	1
-wenzel.peppmeyer	3
-will	1.keys
-lib/Type/Code.pod, +alexmoquin	2
-dha	1
-smls75	1.keys
-doc/Type/X/Parameter/Twigil.pod6, +altay-man	2
-will	1.keys
-html/css/pygments.css.bak, +samantham	2.keys
-html/js/jquery-1.7.2.min.js, +cpan	1
-geoff	1.keys
-lib/Type/X/Augment/NoSuchType.pod, +alexmoquin	2
-bruce.gray	1
-moritz	1
-smls75	1.keys
-lib/X/TypeCheck.pod, +moritz	1.keys
-lib/Type/X/Phaser/PrePost.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-doc/Language/syntax.pod, +altay-man	1
-awwaiid	1
-bruce.gray	1
-bwilcox	14
-dha	1
-info	2
-jsoref	2
-vz-github	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Language/mop.pod, +altay-man	1
-coleoid	1
-moritz	2
-steve.mynott	1
-will	1.keys
-doc/Type/X/Bind/Slice.pod6, +altay-man	2
-will	1.keys
-lib/Pod/To/SectionFilter.pm6, +alex.jakimenko	1.keys
-doc/Type/Range.pod6, +215106+cfa	1
-altay-man	5
-armand.halbert	1
-cpan	3
-fluca1978	12
-jan-olof.hendig	4
-jjmerelo	4
-sanchezchristian	1
-studerj1.mail	1
-titsuki	2
-wenzel.peppmeyer	4
-will	4
-zoffixznet	2.keys
-lib/Perl6/Documentable.pm6, +alex.jakimenko	1.keys
-lib/X/Syntax/Number/RadixOutOfRange.pod, +moritz	1.keys
-README.it.md, +angr7991	1
-fluca1978	10
-fritz.zaucker	1
-will	1.keys
-doc/Language/traps.pod, +alex.jakimenko	2
-bri	3
-cpan	1
-molecules	2
-raiph.mellor	1
-tom.browder	4
-wenzel.peppmeyer	2
-will	2.keys
-assets/sass/_highlights.scss, +cpan	2
-samantham	7.keys
-doc/Language/community.pod6, +jjmerelo	4
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	3.keys
-doc/Type/Pair.pod6, +altay-man	4
-cpan	6
-fluca1978	4
-grizzly	1
-jan-olof.hendig	5
-jjmerelo	1
-studerj1.mail	2
-titsuki	1
-tommystanton	1
-wenzel.peppmeyer	6
-will	3.keys
-doc/Type/List.pod6, +alex.jakimenko	3
-altay-man	10
-barryfoxbat	1
-bri	1
-cpan	7
-cuong.manhle.vn	1
-garrett.goebel	3
-jan-olof.hendig	10
-jjmerelo	4
-jkramer	1
-jns	1
-joshuamy	1
-nlogan	1
-samantham	3
-sanchezchristian	1
-sterling	1
-studerj1.mail	5
-wenzel.peppmeyer	8
-will	13
-zoffixznet	10.keys
-doc/Programs/README.md, +alex.jakimenko	1
-altay-man	1
-jjmerelo	1
-tom.browder	3
-will	2.keys
-html/images/External-link-04-bold-12x12.svg, +armand.halbert	1
-wander4096	1.keys
-lib/Type/X/Phaser/Multiple.pod, +alexmoquin	2
-bruce.gray	1
-smls75	1.keys
-doc/Type/Variable.pod, +jan-olof.hendig	1
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/X/Bind/NativeType.pod6, +altay-man	4
-jjmerelo	1
-will	1.keys
-lib/Test-Files.pm, +jjmerelo	1
-will	2.keys
-doc/Type/PseudoStash.pod6, +jjmerelo	1
-studerj1.mail	1
-will	2.keys
-lib/Bool.pod, +alexmoquin	1
-glitchmr	1
-moritz	2
-pmichaud	2.keys
-sketch/html/css/custom-theme/images/ui-bg_glass_75_c0e472_1x400.png, +alexmoquin	2.keys
-doc/404.pod6, +studerj1.mail	1
-will	1.keys
-doc/Type/FatRat.pod6, +altay-man	1
-studerj1.mail	1
-will	1.keys
-lib/Type/X/IO/Chmod.pod, +alexmoquin	1
-smls75	1.keys
-.gitignore, +ahmad.zawawi	2
-alexmoquin	2
-cpan	6
-geoff	2
-moritz	2
-raydiak	1
-rnddim	1
-samantham	2
-szabgab	2
-tim.dolores	1
-wander4096	2
-will	5.keys
-doc/Type/X/Syntax/UnlessElse.pod, +will	1.keys
-lib/Parameter.pod, +benjamin.tyler	1
-moritz	4
-raiph.mellor	1.keys
-util/sync, +moritz	2.keys
-lib/Type/Signature.pod, +alexmoquin	7
-bri	5
-larry	1
-moritz	1
-paul	1
-smls75	1.keys
-lib/X/Syntax/Augment/Role.pod, +moritz	1.keys
-lib/Type/Sub.pod, +alexmoquin	1
-smls75	1.keys
-lib/Test-Files.pm6, +alex.jakimenko	1
-jjmerelo	1
-will	1.keys
-doc/Type/Numeric.pod6, +215106+cfa	1
-altay-man	7
-cpan	2
-studerj1.mail	1
-will	2
-zoffixznet	3.keys
-lib/Rat.pod, +benjamin.tyler	1
-duff	1
-moritz	3
-pmichaud	1.keys
-lib/Type/X/Syntax/Signature/InvocantMarker.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/SetHash.pod6, +altay-man	3
-fluca1978	2
-studerj1.mail	1
-tom.browder	1
-will	2
-zoffixznet	1.keys
-doc/Type/Method.pod, +will	1.keys
-doc/Language/quoting.pod6, +215106+cfa	1
-alex.jakimenko	2
-altay-man	4
-armand.halbert	1
-b2gills	1
-bri	1
-cpan	2
-doug	1
-francois	1
-jan-olof.hendig	5
-jjmerelo	4
-samantham	7
-studerj1.mail	4
-titsuki	1
-tom.browder	4
-wenzel.peppmeyer	15
-will	6
-zoffixznet	4.keys
-doc/Type/Proc.pod6, +alex.jakimenko	1
-altay-man	5
-b2gills	1
-cpan	2
-gabor	1
-grizzly	1
-jan-olof.hendig	2
-jjmerelo	1
-liz	1
-pub.claudio	1
-sterling	1
-studerj1.mail	1
-tom.browder	9
-wenzel.peppmeyer	2
-will	3
-zoffixznet	4.keys
-lib/Code.pod, +jnthn	2
-moritz	2
-pmichaud	1.keys
-doc/Type/NumStr.pod6, +altay-man	2
-b2gills	1
-cpan	4
-jan-olof.hendig	1
-studerj1.mail	1
-will	3.keys
-xt/code.pws, +215106+cfa	3
-cpan	15
-jan-olof.hendig	2
-jjmerelo	1
-naoum88	1
-themanchicken	1
-will	54
-zoffixznet	1.keys
-doc/Type/Proc/Status.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Type/X/TypeCheck/Assignment.pod, +will	1.keys
-lib/Type/X/Parameter/Twigil.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Metamodel/MultipleInheritance.pod, +alex.jakimenko	1
-will	1.keys
-doc/Language/operators.pod6, +215106+cfa	1
-ZzZombo	3
-alex.jakimenko	7
-altay-man	6
-antquinonez	4
-book	1
-cpan	20
-dmaestro	1
-doug	3
-fluca1978	5
-grizzly	1
-jan-olof.hendig	5
-jjmerelo	29
-lucasbuchala	1
-lw	1
-mienaikage	1
-molecules	1
-moritz	2
-pawelmurias	1
-rafaelschipiura	1
-rob	2
-robertle	1
-samantham	2
-sanchezchristian	3
-smls75	2
-studerj1.mail	2
-thundergnat	1
-tim.dolores	1
-titsuki	1
-tom.browder	6
-wander4096	8
-wenzel.peppmeyer	38
-will	19
-zoffixznet	28.keys
-doc/Type/IO/Path.pod, +alex.jakimenko	2
-ddgreen	4
-info	1
-jan-olof.hendig	6
-john.haltiwanger	2
-simon	1
-tom.browder	1
-wenzel.peppmeyer	1
-will	1
-zoffixznet	2.keys
-doc/Type/X/IO/Symlink.pod6, +alex.jakimenko	1
-altay-man	2
-will	1.keys
-lib/Type/IO/Path.pod, +jns+git	3
-moritz	7
-nlogan	1
-paul	7
-rob	5
-smls75	5
-x.fix	1.keys
-doc/Type/Promise.pod, +alex.jakimenko	1
-cpan	2
-jns+git	2
-liz	1
-will	2.keys
-doc/Type/X/IO/Mkdir.pod6, +altay-man	2
-will	1.keys
-doc/Language/system.pod6, +jjmerelo	5
-will	2.keys
-doc/Type/Mixy.pod, +alex.jakimenko	1
-tom.browder	1
-will	1.keys
-doc/Type/Instant.pod6, +altay-man	4
-cpan	2
-studerj1.mail	1
-will	2
-zoffixznet	3.keys
-doc/Type/Metamodel/AttributeContainer.pod6, +altay-man	6
-will	1.keys
-doc/Type/IO/Pipe.pod, +will	1.keys
-doc/Type/X/OS.pod, +will	1.keys
-doc/Type/X/NYI.pod6, +altay-man	3
-jjmerelo	1
-will	1.keys
-doc/Type/X/Obsolete.pod6, +alex.jakimenko	1
-altay-man	4
-will	1.keys
-doc/Type/Metamodel/Naming.pod, +will	1.keys
-lib/X/Method/NotFound.pod, +moritz	1.keys
-util/list-missing-methods.p6, +altay-man	1
-wenzel.peppmeyer	11
-will	1.keys
-highlights/highlight-filename-from-stdin.coffee, +samantham	8.keys
-doc/Type/Num.pod6, +altay-man	2
-cpan	2
-jjmerelo	2
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	4
-will	5
-zoffixznet	8.keys
-writing-docs/SQUASHATONS.md, +alex.jakimenko	1
-jjmerelo	2.keys
-lib/X/IO/Copy.pod, +moritz	1.keys
-lib/X/IO/Rmdir.pod, +moritz	1.keys
-sketch/html/css/custom-theme/images/ui-icons_000000_256x240.png, +alexmoquin	2.keys
-t/tabs.t, +cpan	1
-will	11.keys
-lib/Baggy.pod, +alexmoquin	1.keys
-xt/words.pws, +alex.jakimenko	3
-antquinonez	2
-bri	1
-cpan	13
-jjmerelo	21
-moritz.lenz	1
-naoum88	1
-samantham	1
-will	83
-zoffixznet	1.keys
-doc/Type/CurrentThreadScheduler.pod, +alex.jakimenko	1
-jsoref	1
-will	1.keys
-doc/Type/Uni.pod, +alex.jakimenko	1
-jsoref	1
-moritz	1.keys
-doc/Type/Metamodel/RoleContainer.pod6, +altay-man	3
-will	1.keys
-html/css/custom-theme/images/ui-bg_flat_0_888888_40x100.png, +cpan	2
-geoff	1.keys
-html/js/main.js, +altay-man	4
-cpan	14
-wenzel.peppmeyer	21
-zoffixznet	3.keys
-template/search_template.js, +altay-man	2
-cpan	10
-moritz	1
-raydiak	3
-samantham	2
-wander4096	1
-wenzel.peppmeyer	4
-will	10
-zoffixznet	1.keys
-doc/Type/X/IO/Unlink.pod, +will	1.keys
-predefined-search-items, +altay-man	1
-sjn	1
-titsuki	1
-will	1.keys
-lib/IO/FileTestable.pod, +alexmoquin	1
-filip	1.keys
-doc/Type/X/IO/Unlink.pod6, +altay-man	2
-wenzel.peppmeyer	1
-will	1.keys
-lib/Type/X/Syntax/InfixInTermPosition.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Parameter.pod, +alex.jakimenko	1
-jan-olof.hendig	2
-jsoref	1
-raiph.mellor	1
-will	1.keys
-doc/Type/Int.pod6, +alex.jakimenko	2
-altay-man	10
-cpan	2
-dmaestro	1
-grizzly	2
-rafaelschipiura	1
-studerj1.mail	1
-timonator	2
-will	2
-zoffixznet	1.keys
-lib/Version.pod, +alexmoquin	1
-moritz	1
-pmichaud	1
-tim.dolores	1.keys
-README.fr.md, +angr7991	1
-ronaldxs	1
-will	1.keys
-lib/Type/X/Method/Private/Permission.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/BagHash.pod, +ddgreen	1
-jan-olof.hendig	1
-will	1.keys
-doc/Type/RatStr.pod, +ddgreen	1
-jan-olof.hendig	1
-jns	1
-will	1.keys
-lib/Type/Match.pod, +alexmoquin	2
-moritz	1
-nine	1
-paul	1
-smls75	1.keys
-doc/Type/Scalar.pod, +alex.jakimenko	1
-bri	3.keys
-html/images/Camelia.svg, +cpan	1
-tom.browder	1
-will	1.keys
-doc/Type/Enum.pod, +paul	1
-will	1.keys
-lib/X/Syntax/Variable/Match.pod, +moritz	1.keys
-t/meta.t, +cpan	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Language/rb-nutshell.pod6, +215106+cfa	4
-alex.jakimenko	2
-altay-man	1
-awwaiid	1
-book	1
-cpan	2
-jjmerelo	1
-kaiepi	1
-sanchezchristian	1
-studerj1.mail	1
-wenzel.peppmeyer	4
-will	13
-zoffixznet	1.keys
-lib/Language/containers.pod, +alexmoquin	3
-bri	1
-moritz	2
-paul	3
-steve.mynott	1.keys
-lib/Type/X/Anon/Multi.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/X/Package/Stubbed.pod, +will	1.keys
-html/images/camelia-small.png, +alexmoquin	1
-timonator	1.keys
-lib/Type/Method.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/Telemetry/Period.pod6, +cpan	1
-liz	3
-studerj1.mail	1
-wander4096	7.keys
-doc/Type/X/NYI.pod, +will	1.keys
-lib/X/AdHoc.pod, +moritz	2.keys
-doc/Type/X/TypeCheck/Assignment.pod6, +altay-man	2
-will	1.keys
-README.jp.md, +angr7991	2
-fritz.zaucker	1
-pauladelahoz	3
-titsuki	1
-wander4096	1
-will	3.keys
-doc/Type/Grammar.pod6, +altay-man	3
-jan-olof.hendig	1
-raydiak	1
-studerj1.mail	1
-titsuki	1
-wander4096	2
-will	2
-zoffixznet	1.keys
-lib/Type/IO/Socket/INET.pod, +moritz	2
-steve.mynott	2.keys
-lib/Type/X/IO/Mkdir.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Str.pod6, +LLFourn	1
-ZzZombo	1
-alex.jakimenko	3
-altay-man	13
-armand.halbert	4
-bri	1
-brian.d.foy	1
-cale.short	1
-cpan	19
-grizzly	2
-jan-olof.hendig	10
-jjmerelo	7
-jnthn	1
-liz	2
-rafaelschipiura	1
-samantham	3
-studerj1.mail	1
-titsuki	1
-tom.browder	8
-wander4096	1
-wenzel.peppmeyer	6
-will	19
-zoffixznet	12.keys
-doc/Language/grammar_tutorial.pod6, +MasterDuke17	1
-altay-man	2
-antquinonez	5
-barryfoxbat	1
-ddgreen	1
-jan-olof.hendig	1
-jjmerelo	2
-ronaldxs	2
-seatek	3
-studerj1.mail	1
-tom.browder	2
-wander4096	7
-wenzel.peppmeyer	4
-will	10.keys
-doc/Type/Telemetry/Sampler.pod6, +jjmerelo	1
-liz	1
-will	1.keys
-doc/Type/X/Method/NotFound.pod6, +altay-man	3
-will	2.keys
-htmlify.pl, +alexmoquin	10
-geoff	8
-moritz	66
-raydiak	13
-timonator	3.keys
-doc/Type/X/Method/Private/Unqualified.pod6, +altay-man	3
-will	1.keys
-lib/X/Syntax/Regex/Adverb.pod, +moritz	1.keys
-doc/Type/Backtrace.pod, +ddgreen	1
-will	1.keys
-doc/Type/X/Phaser/Multiple.pod6, +altay-man	2
-will	1.keys
-lib/Setty.pod, +alexmoquin	2.keys
-doc/Type/Metamodel/Primitives.pod6, +altay-man	3
-will	1.keys
-lib/Iterable.pod, +moritz	1.keys
-doc/Type/Thread.pod, +alex.jakimenko	1
-jan-olof.hendig	4
-will	1.keys
-lib/Language/io.pod, +john.haltiwanger	1
-moritz	1
-paul	9.keys
-doc/Type/Match.pod, +cpan	1
-will	1.keys
-lib/Type/X/ControlFlow.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-html/images/pencil.svg, +wander4096	2.keys
-doc/Type/X/Signature/Placeholder.pod6, +altay-man	3
-will	2.keys
-doc/Language/nativecall.pod6, +MasterDuke17	1
-alex.jakimenko	4
-allan	1
-altay-man	1
-antquinonez	1
-armand.halbert	1
-cpan	1
-curt	4
-david.warring	2
-finanalyst	2
-fluca1978	4
-jan-olof.hendig	4
-jjmerelo	17
-kaiepi	2
-liz	1
-moritz.lenz	1
-nadim.khemir	1
-neil.svedberg	1
-samantham	1
-studerj1.mail	1
-themanchicken	1
-titsuki	9
-tom.browder	2
-wenzel.peppmeyer	1
-will	16
-zoffixznet	3.keys
-doc/Type/Pod/Block/Table.pod6, +jan-olof.hendig	1
-will	1.keys
-doc/Type/X/Syntax/P5.pod, +will	1.keys
-lib/Type/X/Bind/Slice.pod, +moritz	1
-smls75	1.keys
-index_header.html, +raydiak	3.keys
-doc/Type/IO/Socket.pod, +alex.jakimenko	1
-jan-olof.hendig	2
-jns+git	1
-moritz	1
-will	1.keys
-doc/Language/variables.pod6, +ahmad.zawawi	1
-alex.jakimenko	2
-altay-man	5
-aluaces	1
-antquinonez	6
-armand.halbert	1
-book	1
-bri	1
-cpan	12
-fluca1978	23
-jan-olof.hendig	6
-jjmerelo	22
-liz	3
-molecules	5
-moritz.lenz	1
-naoum88	1
-perrettdl	2
-rafaelschipiura	1
-samantham	1
-sanchezchristian	2
-skelic3	1
-studerj1.mail	2
-titsuki	1
-tom.browder	3
-wander4096	7
-wenzel.peppmeyer	23
-will	15
-zoffixznet	7.keys
-doc/Language/subscripts.pod6, +215106+cfa	1
-alex.jakimenko	1
-altay-man	5
-armand.halbert	1
-book	1
-cpan	1
-fluca1978	1
-jalbertcruz	1
-jan-olof.hendig	2
-jjmerelo	4
-sanchezchristian	1
-studerj1.mail	3
-wenzel.peppmeyer	3
-will	6
-zoffixznet	3.keys
-lib/Type/X/Syntax/Variable/Twigil.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/X/Augment/NoSuchType.pod6, +altay-man	3
-will	1.keys
-doc/Type/Stringy.pod6, +studerj1.mail	1
-will	1.keys
-lib/Type/Iterator.pod, +alexmoquin	2
-dha	1
-moritz	2
-nine	1
-smls75	1
-will	1.keys
-lib/X/TypeCheck/Return.pod, +moritz	1.keys
-sketch/html/css/custom-theme/images/ui-bg_highlight-soft_75_f5e47b_1x100.png, +alexmoquin	2.keys
-doc/Type/X/Syntax/Term/MissingInitializer.pod6, +altay-man	2
-will	1.keys
-lib/AST.pod, +moritz	1
-prammer1	1.keys
-lib/Mixy.pod, +alexmoquin	2.keys
-lib/Type/Macro.pod, +alexmoquin	1
-smls75	1.keys
-lib/Duration.pod, +benjamin.tyler	1
-moritz	1
-raiph.mellor	1
-rnddim	1.keys
-doc/Language/faq.pod6, +215106+cfa	3
-alex.jakimenko	7
-allan	1
-altay-man	4
-antquinonez	4
-cpan	2
-fluca1978	2
-jan-olof.hendig	1
-jjmerelo	12
-larry	1
-liz	3
-molecules	2
-moritz.lenz	1
-mryan50	1
-nadim.khemir	1
-steve.mynott	18
-studerj1.mail	2
-titsuki	5
-tom.browder	1
-wander4096	1
-wenzel.peppmeyer	4
-will	25
-zoffixznet	16.keys
-util/perl-nbsp.p6, +kaiepi	4
-will	1.keys
-lib/Type/EnumMap.pod, +alexmoquin	2
-bri	1
-dha	1
-paul	1
-smls75	1.keys
-doc/Type/X/IO/Move.pod, +jan-olof.hendig	1.keys
-doc/Language/module-packages.pod6, +215106+cfa	4
-mryan50	1
-will	4.keys
-doc/Type/Hash.pod6, +215106+cfa	1
-MasterDuke17	1
-alex.jakimenko	2
-altay-man	6
-bduggan	1
-book	1
-cpan	3
-dzwell	1
-jan-olof.hendig	5
-jjmerelo	2
-samantham	2
-studerj1.mail	3
-titsuki	2
-tom.browder	1
-wander4096	5
-wenzel.peppmeyer	8
-will	11
-zoffixznet	8.keys
-lib/Language/5to6-perlvar.pod, +dha	1.keys
-lib/Language/syntax.pod, +bri	1
-dha	1
-john.haltiwanger	1
-moritz	12
-paul	1
-steve.mynott	3.keys
-lib/X/Syntax/UnlessElse.pod, +moritz	1.keys
-doc/Type/NFKC.pod, +jsoref	2
-moritz	1.keys
-doc/Type/BagHash.pod6, +altay-man	3
-jan-olof.hendig	1
-jjmerelo	2
-studerj1.mail	1
-wander4096	1
-will	2.keys
-doc/Type/Signature.pod6, +215106+cfa	2
-MasterDuke17	2
-ZzZombo	1
-alex.jakimenko	1
-altay-man	11
-cale.short	1
-cpan	7
-dzwell	1
-fluca1978	1
-ilmari	1
-jan-olof.hendig	2
-jjmerelo	12
-sanchezchristian	1
-sfischer13	1
-sterling	1
-studerj1.mail	2
-titsuki	6
-tom.browder	11
-wander4096	6
-wenzel.peppmeyer	26
-will	18
-zakame	2
-zoffixznet	10.keys
-doc/Type/Slip.pod6, +altay-man	4
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	3
-will	2.keys
-doc/Language/contributors.pod6, +altay-man	1
-jjmerelo	1
-studerj1.mail	1
-wander4096	1
-wenzel.peppmeyer	2
-will	2.keys
-doc/Language/mop.pod6, +altay-man	4
-bri	1
-dzwell	1
-jjmerelo	2
-jns	1
-studerj1.mail	1
-wenzel.peppmeyer	3
-will	3.keys
-lib/Type/IO/Pipe.pod, +moritz	2
-smls75	1.keys
-lib/Type/WhateverCode.pod, +alexmoquin	1
-bri	1
-smls75	1.keys
-lib/Perl6/TypeGraph/Viz.pm, +MasterDuke17	1
-alex.jakimenko	2
-alexmoquin	2
-bri	1
-bruce.gray	1
-ddgreen	1
-geoff	3
-mlenz	1
-moritz	7
-paul	1
-rob	1
-will	1.keys
-doc/Type/X/Proc/Async/TapBeforeSpawn.pod6, +altay-man	3
-will	1.keys
-html/css/custom-theme/images/ui-bg_inset-hard_95_f5e47b_1x100.png, +cpan	2
-geoff	1.keys
-lib/X/Str/Numeric.pod, +moritz	1.keys
-doc/Type/X/OutOfRange.pod, +will	1.keys
-doc/Type/X/Syntax/Number/RadixOutOfRange.pod, +will	1.keys
-lib/Type/Routine.pod, +alexmoquin	2
-cmasak	1
-moritz	7
-smls75	1.keys
-doc/Type/X/Attribute/Undeclared.pod6, +altay-man	2
-will	1.keys
-doc/Type/StrDistance.pod6, +jjmerelo	2.keys
-doc/Type/X/Anon/Multi.pod, +will	1.keys
-doc/Type/Signature.pod, +LLFourn	2
-alex.jakimenko	2
-bruce.gray	1
-bwilcox	1
-cpan	2
-dbrunton	1
-jan-olof.hendig	2
-revhippie	1
-tom.browder	1
-wenzel.peppmeyer	23
-will	3.keys
-doc/Type/Stringy.pod, +jan-olof.hendig	1
-will	1.keys
-lib/Int.pm, +moritz	2.keys
-doc/Type/X/IO/Link.pod6, +altay-man	2
-wenzel.peppmeyer	1
-will	1.keys
-html/css/custom-theme/images/ui-bg_flat_0_c0e472_40x100.png, +cpan	2
-geoff	1.keys
-doc/Type/X/Mixin/NotComposable.pod, +will	2.keys
-doc/Type/X/ControlFlow/Return.pod, +will	1.keys
-doc/Type/X/IO/Rename.pod, +will	1.keys
-lib/Type/Metamodel/MethodContainer.pod, +moritz	2
-smls75	1
-steve.mynott	1.keys
-lib/Type/X/Inheritance/Unsupported.pod, +alexmoquin	2
-smls75	1.keys
-lib/Numeric.pod, +benjamin.tyler	1
-felix	1
-moritz	6
-pmichaud	2.keys
-doc/Type/Nil.pod, +alex.jakimenko	1
-bri	1
-jan-olof.hendig	3
-jsoref	1
-tom.browder	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Sequence/Deduction.pod6, +will	1.keys
-doc/Language/list.pod, +alex.jakimenko	2
-bri	5
-bruce.gray	2
-jnthn	2
-jsoref	3
-raiph.mellor	1
-revhippie	1
-wenzel.peppmeyer	5.keys
-doc/Type/Cursor.pod6, +jjmerelo	1
-moritz	1
-moritz.lenz	1
-studerj1.mail	1
-wander4096	1
-will	3.keys
-xt/word-variants.t, +jjmerelo	6
-sanchezchristian	4
-will	2.keys
-lib/Perl6/TypeGraph/Viz.pm6, +alex.jakimenko	2
-jjmerelo	5.keys
-lib/Type/X/Promise/CauseOnlyValidOnBroken.pod, +bri	1.keys
-lib/Backtrace.pod, +moritz	1.keys
-util/missing-methods.p6, +paul	10
-will	1.keys
-doc/Type/Semaphore.pod6, +altay-man	2
-studerj1.mail	1
-will	2.keys
-doc/Programs/00-running.pod6, +MasterDuke17	2
-altay-man	2
-cpan	6
-jjmerelo	1
-raiph.mellor	1
-studerj1.mail	1
-tom.browder	2
-wenzel.peppmeyer	1
-will	8
-zoffixznet	13.keys
-doc/Type/Proxy.pod6, +altay-man	3
-studerj1.mail	2
-wenzel.peppmeyer	1
-will	1.keys
-lib/Language/grammars.pod, +alexmoquin	6
-cpan	1
-justin	2
-moritz	3
-paul	2
-sgeoster	1
-sjn	1
-smls75	1
-steve.mynott	1
-timonator	1.keys
-xt/space-after-comma.t, +cpan	1
-jjmerelo	4
-will	13.keys
-doc/Type/Version.pod6, +altay-man	4
-cpan	1
-fluca1978	1
-jan-olof.hendig	3
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Syntax/Variable/Twigil.pod, +will	1.keys
-lib/Language/glossary.pod, +alexmoquin	3
-bri	3
-paul	3.keys
-html/css/custom-theme/images/ui-bg_flat_75_ffffff_40x100.png, +cpan	2
-geoff	1.keys
-doc/Type/X/Attribute/NoPackage.pod6, +altay-man	3
-will	2.keys
-doc/Type/atomicint.pod6, +b2gills	1
-cpan	2
-jan-olof.hendig	3
-jnthn	3
-liz	4
-studerj1.mail	1
-will	1
-zoffixznet	2.keys
-doc/Programs/03-environment-variables.pod6, +jjmerelo	2.keys
-lib/Pod/To/SectionFilter.pm, +alexmoquin	2
-moritz	3
-paul	1
-rob	1.keys
-doc/Type/ComplexStr.pod, +ddgreen	1
-jan-olof.hendig	1
-jns	1
-will	1.keys
-lib/X/IO/Rename.pod, +moritz	1.keys
-xt/aspell.t, +215106+cfa	1
-cpan	1
-jjmerelo	4
-will	24.keys
-template/footer.html, +alex.jakimenko	2
-alexmoquin	1
-armand.halbert	1
-cpan	10
-moritz	1
-paul	4
-raydiak	2
-wenzel.peppmeyer	1
-will	6
-zakame	2
-zoffixznet	1.keys
-lib/X/Syntax/Variable/Numeric.pod, +moritz	1.keys
-doc/Type/AST.pod, +ddgreen	1
-will	1.keys
-.DS_Store, +wander4096	2.keys
-doc/Type/Metamodel/C3MRO.pod, +will	1.keys
-doc/Type/X/Does/TypeObject.pod, +will	1.keys
-lib/Type/QuantHash.pod, +alexmoquin	1
-smls75	3.keys
-lib/Type/ThreadPoolScheduler.pod, +moritz	1.keys
-lib/ObjAt.pod, +moritz	1.keys
-doc/Type/Cursor.pod, +will	1.keys
-doc/Type/X/Obsolete.pod, +will	1.keys
-doc/Type/X/Bind.pod, +will	1.keys
-lib/Type/Pair.pod, +alexmoquin	2
-dha	1
-moritz	2
-smls75	1
-steve.mynott	1.keys
-sketch/html/js/search.js, +alexmoquin	2.keys
-sketch/html/css/custom-theme/images/ui-bg_flat_0_888888_40x100.png, +alexmoquin	2.keys
-doc/Type/Iterator.pod6, +altay-man	4
-b2gills	1
-cpan	3
-jan-olof.hendig	1
-jjmerelo	1
-liz	1
-studerj1.mail	2
-titsuki	2
-wenzel.peppmeyer	1
-will	4
-zoffixznet	11.keys
-doc/Type/Positional.pod6, +studerj1.mail	1
-will	1.keys
-lib/Type/X/Proc/Async.pod, +moritz	1
-smls75	1.keys
-lib/Type/Buf.pod, +alexmoquin	2
-cygx	1
-moritz	2
-smls75	1.keys
-doc/Type/Metamodel/MROBasedMethodDispatch.pod, +will	1.keys
-html/images/Camelia-faded.svg, +cpan	1
-jjmerelo	2
-will	1.keys
-doc/Type/Metamodel/AttributeContainer.pod, +bruce.gray	1
-will	1.keys
-doc/Type/X/Parameter/Placeholder.pod, +will	1.keys
-doc/Type/X/Undeclared.pod, +will	1.keys
-lib/Type/Proc/Async.pod, +moritz	12
-nlogan	1
-smls75	1
-steve.mynott	1.keys
-, +215106+cfa	43
-34807039+ilyash-b	1
-39702500+KlappeZuAffeTot	1
-Curt.Tilmes	3
-ElenaMerelo	6
-LLFourn	27
-MasterDuke17	24
-Tyil	1
-ZzZombo	16
-abcxyz	1
-adriaan.larmuseau	5
-after.fallout	1
-ahmad.zawawi	8
-akim	2
-alex	1
-alex.jakimenko	174
-alex.jakimenko+github	1
-alexmoquin	183
-allan	1
-altay-man	126
-aluaces	1
-andreoss	1
-andrew	1
-angr7991	3
-antoniogamiz10	15
-antquinonez	47
-arilik.ismail	1
-armand.halbert	11
-athoscr	1
-autarch	1
-avuserow	1
-awwaiid	13
-b2gills	11
-bahtiar	4
-barryfoxbat	2
-bbkr	1
-bduggan	23
-benjamin.tyler	5
-blaabs	1
-book	10
-bri	100
-brian	1
-brian.d.foy	2
-bruce.gray	11
-bslaabs	1
-bwilcox	38
-cale.short	25
-carbin	2
-carl	1
-ccworld1000	3
-ceci.merelo	4
-cedric	1
-ckeirsey2	1
-claudio.ramirez	4
-clint_who	3
-cmasak	12
-cognominal	4
-coleoid	3
-cookbook_000	1
-cpan	665
-cschwenz	1
-cuong.manhle.vn	1
-curt	5
-cxreg	2
-cygx	1
-dabe	2
-dale.evans	1
-daniel.dehennin	3
-darius	1
-david.warring	5
-davidnmfarrell	1
-dbrunton	11
-ddgreen	34
-developer	1
-dha	89
-dmaestro	2
-dmc00	2
-donaldh	5
-doug	5
-duff	3
-dzwell	4
-edwin.steiner	6
-ei	1
-email	7
-eric-github	3
-f.sizov	1
-felix	19
-fh	1
-filip	1
-finanalyst	2
-fischer.emeric	2
-flexibeast	3
-fluca1978	250
-flussence	4
-francois	1
-fritz.zaucker	6
-gabor	14
-garrett.goebel	3
-garu	1
-gdonald	1
-geoff	25
-git	1
-github	2
-gjb	1
-glitchmr	12
-gotoexit	1
-grinnz	1
-grizzly	10
-hayter	1
-heiko_jansen	2
-hello	1
-holli.holzer	1
-ianmcb	1
-ilmari	1
-ilmari.vacklin	1
-info	6
-jalbertcruz	1
-jan-olof.hendig	427
-jarkko	5
-jecki	2
-jenkinsd	1
-jgabriele	8
-jgoff	2
-jjatria	7
-jjmerelo	652
-jkramer	7
-jmg3000	1
-jns	20
-jns+git	82
-jnthn	32
-john.haltiwanger	28
-johnnyspoon	3
-joshuamy	1
-jsoref	50
-justin	8
-kaiepi	10
-karl.yerkes	2
-kevin	2
-kris	1
-krunen	1
-larry	20
-liz	150
-lloyd.fourn	5
-lotsmanov89	1
-lucasbuchala	2
-lumimies	1
-lw	2
-m.krull	4
-madcap.russo	7
-martin	1
-mathieu	3
-matthew.king	1
-matthias.bloch	4
-mattoates	2
-mdinger.bugzilla	3
-melezhik	3
-mienaikage	3
-mkrull	1
-mlenz	15
-molecules	36
-moritz	785
-moritz.lenz	34
-mryan50	2
-mt1957	4
-muraiki	1
-nadim.khemir	1
-naoum88	11
-nastavs	1
-nathaniel_heyer	1
-nbrown04	1
-neil.shadrach	1
-neil.svedberg	1
-nenamer	1
-nicq20	6
-nine	4
-nlogan	6
-nxadm	1
-olshevskiy87	1
-p.spek	8
-parabolize	3
-patch	1
-patrick	2
-paul	274
-pauladelahoz	3
-pawelmurias	2
-perrettdl	12
-peter.stuifzand	1
-pmichaud	37
-prammer1	1
-pub.claudio	16
-rafaelschipiura	18
-raiph.mellor	31
-raydiak	27
-revhippie	6
-rightfold	1
-rjbs	1
-rnddim	10
-rob	20
-robert.newbould	1
-robertle	2
-ronaldxs	18
-sam	1
-samantham	159
-sanchezchristian	7
-scolinet	9
-scriplit	1
-seatek	17
-sfischer13	1
-sgeoster	1
-shlomif	5
-siavash.askari.nasr	9
-simon	23
-simula67	1
-sjn	4
-skelic2	4
-skelic3	1
-smls75	48
-sog	7
-sterling	21
-steve.mynott	177
-steveb	1
-studerj1.mail	21
-szabgab	16
-tadzikes	2
-teodozjan	9
-themanchicken	1
-thormichael	2
-thundergnat	1
-tim.dolores	6
-timonator	43
-tirkarthi	1
-titsuki	56
-tobias.leich	1
-tokuhirom	2
-tom.browder	300
-tommystanton	1
-trey	1
-treyharris	4
-trixium	2
-tsmith	1
-ugexe	1
-ungrim97	4
-use_v6	5
-uzluisf	2
-vendethiel	2
-vincent-github	1
-vynce.montgomery	5
-vz-github	3
-wander4096	144
-wenzel.peppmeyer	809
-will	794
-x.fix	2
-zakame	9
-zhtwnpanta	2
-zhuomingliang	1
-zoffixznet	611.keys
-doc/Type/Whatever.pod, +will	2.keys
-html/js/levenshtein.js, +will	2.keys
-html/css/custom-theme/jquery-ui.css, +cpan	3.keys
-doc/Type/X/Proc/Async/OpenForWriting.pod6, +altay-man	2
-jan-olof.hendig	1
-will	2.keys
-lib/Type/X/Attribute/Package.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Date.pod, +alex.jakimenko	2
-jan-olof.hendig	2
-liz	6
-paul	1
-will	1.keys
-doc/Type/Set.pod6, +alex.jakimenko	1
-altay-man	5
-samantham	1
-studerj1.mail	1
-will	3.keys
-lib/Type/SetHash.pod, +alexmoquin	2
-ckeirsey2	1
-paul	1
-smls75	1.keys
-lib/Type/Rat.pod, +alexmoquin	1
-smls75	1.keys
-util/trigger-rebuild.txt, +jjmerelo	4
-samantham	8
-wander4096	2
-will	2
-zoffixznet	14.keys
-doc/Language/5to6.pod, +will	1.keys
-assets/js/jquery-3.1.1.min.js, +cpan	1.keys
-doc/Language/modules-core.pod6, +alex.jakimenko	1
-cpan	1
-jjmerelo	1
-studerj1.mail	1
-tom.browder	6
-zoffixznet	4.keys
-doc/Language/glossary.pod6, +215106+cfa	2
-alex.jakimenko	9
-altay-man	13
-arilik.ismail	1
-armand.halbert	2
-bri	1
-bwilcox	1
-cpan	5
-ddgreen	1
-fluca1978	1
-jjmerelo	33
-kaiepi	1
-molecules	2
-moritz.lenz	1
-sanchezchristian	2
-studerj1.mail	1
-tom.browder	10
-treyharris	1
-wander4096	2
-wenzel.peppmeyer	6
-will	23
-zoffixznet	9.keys
-doc/Type/X/Attribute/Package.pod, +will	2.keys
-xt/return-type.t, +altay-man	2
-jjmerelo	1
-will	7.keys
-doc/Type/.DS_Store, +wander4096	2.keys
-html/index.html, +alexmoquin	2.keys
-doc/Type/X/TypeCheck.pod6, +altay-man	1
-will	1.keys
-doc/Type/X/Caller/NotDynamic.pod6, +altay-man	2
-will	1.keys
-doc/Type/MixHash.pod6, +altay-man	4
-jjmerelo	2
-studerj1.mail	1
-will	1
-zoffixznet	3.keys
-doc/Type/X/Channel/SendOnClosed.pod, +bruce.gray	1
-will	1.keys
-lib/Type/Metamodel/ClassHOW.pod, +moritz	3
-smls75	1.keys
-lib/Type/X/StubCode.pod, +rob	1.keys
-doc/Type/Complex.pod, +jan-olof.hendig	3
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/X/Role/Initialization.pod, +will	2.keys
-html-files/favicon.ico, +moritz	2.keys
-doc/Language/5to6-perlsyn.pod6, +215106+cfa	2
-altay-man	1
-cpan	1
-jan-olof.hendig	1
-jjmerelo	1
-kaiepi	2
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	5.keys
-doc/Type/X/Syntax/Self/WithoutObject.pod, +will	2.keys
-lib/X/Parameter/MultipleTypeConstraints.pod, +moritz	1.keys
-lib/MixHash.pod, +alexmoquin	2.keys
-doc/Type/NFKD.pod, +jsoref	3
-moritz	1.keys
-doc/Type/X/IO/Rmdir.pod6, +altay-man	2
-wenzel.peppmeyer	1
-will	1.keys
-lib/Type/Metamodel/RoleContainer.pod, +bri	1
-jns+git	1
-moritz	1
-smls75	1.keys
-lib/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod, +alexmoquin	1
-moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/Junction.pod, +moritz	3
-raiph.mellor	1.keys
-lib/X/Syntax/NoSelf.pod, +moritz	1.keys
-lib/Regex.pod, +benjamin.tyler	1
-moritz	1.keys
-lib/Type/X/Signature/NameClash.pod, +alexmoquin	2
-smls75	1.keys
-html/css/style.css, +alex.jakimenko	2
-alexmoquin	9
-altay-man	2
-cpan	29
-raydiak	1
-simon	1
-smls75	3
-wenzel.peppmeyer	21
-will	1.keys
-html/images/camelia.png, +alexmoquin	1
-cpan	1
-timonator	1.keys
-lib/Type/Pod/Block/Para.pod, +alexmoquin	1
-smls75	2.keys
-doc/Type/Metamodel/MethodContainer.pod6, +altay-man	4
-jan-olof.hendig	1
-will	1.keys
-doc/Type/Duration.pod, +wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Numeric/Real.pod, +will	1.keys
-lib/X/TypeCheck/MacroUnquote.pod, +moritz	1.keys
-doc/Type/IO/Spec/Unix.pod, +tom.browder	1
-wenzel.peppmeyer	1
-will	1.keys
-lib/Type/Pod/Block/Code.pod, +alexmoquin	2
-smls75	2.keys
-util/new-type.p6, +bruce.gray	1
-moritz	4
-paul	1
-will	2.keys
-lib/Type/IO/FileTestable.pod, +alexmoquin	2
-moritz	1
-paul	5
-smls75	1.keys
-doc/Type/X/Declaration/Scope/Multi.pod6, +altay-man	2
-will	1.keys
-doc/Type/UInt.pod6, +altay-man	2
-jan-olof.hendig	1
-studerj1.mail	1
-tom.browder	3
-will	4.keys
-lib/Type/CurrentThreadScheduler.pod, +moritz	1
-smls75	1.keys
-util/sync-build-log, +moritz	2.keys
-lib/Type/X/IO/Dir.pod, +alexmoquin	2
-smls75	1.keys
-lib/FatRat.pod, +moritz	1.keys
-doc/Type/X/Anon/Multi.pod6, +altay-man	3
-will	1.keys
-lib/Type/IO/Handle.pod, +alexmoquin	2
-jns+git	2
-moritz	1
-paul	3
-smls75	1
-tsmith	1.keys
-doc/Type/X/Syntax/Self/WithoutObject.pod6, +altay-man	2
-jjmerelo	1
-will	1.keys
-lib/Type/Slip.pod, +moritz	1.keys
-doc/Type/X/IO/DoesNotExist.pod, +jan-olof.hendig	1.keys
-doc/Type/AST.pod6, +studerj1.mail	1
-will	1.keys
-doc/Type/Macro.pod6, +studerj1.mail	1
-will	1.keys
-doc/Type/X/IO/Symlink.pod, +jan-olof.hendig	1.keys
-doc/Type/IO/Handle.pod, +alex.jakimenko	1
-coleoid	1
-info	1
-jan-olof.hendig	6
-jns	1
-jns+git	1
-liz	5
-pub.claudio	3
-wenzel.peppmeyer	1
-will	2.keys
-lib/Language/mop.pod, +alexmoquin	2
-bri	1
-moritz	4
-paul	2
-steve.mynott	1.keys
-doc/Language/setbagmix.pod, +alex.jakimenko	1
-jan-olof.hendig	2
-jsoref	1
-liz	4
-perrettdl	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/Metamodel/MethodContainer.pod, +wenzel.peppmeyer	2
-will	1.keys
-doc/Type/IO/Socket/Async.pod6, +altay-man	8
-bduggan	1
-jan-olof.hendig	1
-jarkko	3
-jnthn	1
-lw	1
-molecules	2
-sterling	1
-timonator	1
-wenzel.peppmeyer	2
-will	4
-zoffixznet	2.keys
-doc/Type/X/Placeholder/Mainline.pod, +will	1.keys
-lib/Type/X/Mixin/NotComposable.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-lib/X/Undeclared.pod, +moritz	1.keys
-lib/Type/X/Syntax/Self/WithoutObject.pod, +alexmoquin	1
-smls75	1.keys
-t/00-meta.t, +jjmerelo	1.keys
-lib/regexes.pod, +moritz	6
-timonator	2.keys
-doc/Type/Backtrace/Frame.pod, +will	1.keys
-lib/X/Syntax/Variable/Twigil.pod, +moritz	1.keys
-lib/X/Syntax/Reserved.pod, +moritz	1.keys
-lib/Pod/Block/Named.pod, +moritz	1.keys
-doc/Perl6/other-progs.pod, +tom.browder	1.keys
-doc/Type/X/IO/Copy.pod6, +altay-man	2
-will	1.keys
-.github/issue_template.md, +215106+cfa	1
-jjmerelo	6.keys
-lib/X/Anon/Multi.pod, +moritz	1.keys
-lib/Exception.pod, +moritz	1
-pmichaud	1
-raiph.mellor	1.keys
-lib/Type/Str.pod, +alexmoquin	3
-dha	3
-mlenz	2
-moritz	3
-olshevskiy87	1
-paul	7
-raydiak	1
-rob	1
-smls75	1
-will	1.keys
-lib/Language/objects.pod, +alexmoquin	12
-benjamin.tyler	1
-bri	5
-jns+git	1
-moritz	7
-paul	4
-smls75	1
-steve.mynott	1.keys
-lib/Type/X/Pod.pod, +alexmoquin	1
-smls75	2.keys
-highlights/highlight-file.coffee, +samantham	1
-will	1.keys
-doc/Type/X/Does/TypeObject.pod6, +altay-man	4
-will	3.keys
-assets/js/jquery-ui.min.js, +cpan	1.keys
-lib/Type/Tap.pod, +moritz	1
-smls75	1.keys
-doc/Language/io.pod6, +altay-man	2
-armand.halbert	1
-cpan	2
-jan-olof.hendig	2
-sanchezchristian	1
-studerj1.mail	1
-tom.browder	10
-wenzel.peppmeyer	2
-will	3.keys
-lib/Perl6/Type.pm, +alexmoquin	1
-geoff	1
-moritz	1
-paul	1
-will	1.keys
-lib/Type/Failure.pod, +alexmoquin	2
-dha	1
-heiko_jansen	1
-smls75	1.keys
-doc/Language/unicode_texas.pod6, +alex.jakimenko	5
-altay-man	4
-cpan	1
-donaldh	1
-liz	1
-ronaldxs	1
-tom.browder	2
-wenzel.peppmeyer	2
-will	5
-zoffixznet	12.keys
-template/footer_template.html, +alexmoquin	1
-raydiak	4
-smls75	1.keys
-doc/Type/X/Placeholder/Mainline.pod6, +altay-man	2
-wenzel.peppmeyer	1
-will	1.keys
-doc/Language/syntax.pod6, +215106+cfa	2
-alex.jakimenko	3
-altay-man	5
-cpan	1
-fluca1978	7
-jan-olof.hendig	2
-jjmerelo	5
-jnthn	1
-molecules	4
-moritz.lenz	1
-peter.stuifzand	1
-rafaelschipiura	1
-ronaldxs	2
-sanchezchristian	1
-studerj1.mail	3
-titsuki	3
-tom.browder	3
-vynce.montgomery	1
-wander4096	1
-wenzel.peppmeyer	8
-will	6
-zoffixznet	2.keys
-t/00-load.t, +cpan	1
-nlogan	1
-wenzel.peppmeyer	1
-will	2.keys
-lib/Type/X/TypeCheck/Binding.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/IO/Rename.pod6, +altay-man	2
-will	1.keys
-doc/Type/X/Syntax/UnlessElse.pod6, +altay-man	2
-jjmerelo	1
-will	1.keys
-doc/Type/X/Redeclaration.pod, +will	1.keys
-lib/Language/terms.pod, +alexmoquin	6
-bruce.gray	1
-moritz	1
-paul	3.keys
-lib/Type/Metamodel/C3MRO.pod, +moritz	5
-smls75	2.keys
-lib/QuantHash.pod, +alexmoquin	2.keys
-doc/Type/Scheduler.pod, +will	1.keys
-doc/Type/nativeInt.pod, +will	1.keys
-lib/Type/Setty.pod, +alexmoquin	2
-smls75	3.keys
-doc/Type/QuantHash.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Type/IO/Notification.pod6, +altay-man	2
-bwilcox	1
-jan-olof.hendig	1
-will	4.keys
-doc/Type/X/Placeholder/Block.pod, +will	2.keys
-t/03-pod6.t, +jjmerelo	1.keys
-lib/terms.pod, +alexmoquin	5
-benjamin.tyler	1
-cmasak	1
-moritz	4.keys
-doc/Language/objects.pod, +LLFourn	2
-alex.jakimenko	1
-bri	1
-bwilcox	1
-coleoid	1
-cpan	7
-jan-olof.hendig	3
-raiph.mellor	1
-revhippie	1
-steve.mynott	1
-tom.browder	1
-wenzel.peppmeyer	3
-will	2.keys
-doc/Type/VM.pod6, +jjmerelo	2
-liz	1
-studerj1.mail	1
-wander4096	1.keys
-doc/Type/Stash.pod6, +altay-man	3
-studerj1.mail	1
-will	1.keys
-doc/Type/Version.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Type/Pod/Block/Comment.pod6, +jan-olof.hendig	1.keys
-template/head.html, +alex.jakimenko	1
-alexmoquin	1
-cpan	8
-paul	1
-raydiak	5
-samantham	10
-timonator	1
-wenzel.peppmeyer	1.keys
-lib/Language/setbagmix.pod, +bri	1
-edwin.steiner	3
-moritz	2
-paul	3
-smls75	1.keys
-lib/operators.pod, +abcxyz	1
-benjamin.tyler	2
-cmasak	1
-liz	1
-mlenz	1
-moritz	23
-pmichaud	1
-raiph.mellor	1
-tim.dolores	1
-timonator	5
-trixium	1.keys
-doc/Type/Iterable.pod, +alex.jakimenko	1
-jan-olof.hendig	1
-will	1
-zoffixznet	1.keys
-doc/Language/unicode_ascii.pod6, +jjmerelo	2
-studerj1.mail	1
-tom.browder	1.keys
-doc/Type/Match.pod6, +altay-man	3
-jan-olof.hendig	2
-moritz.lenz	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	1
-zoffixznet	1.keys
-highlights/highlight-folder.coffee, +samantham	1.keys
-doc/Type/IO/Spec/Win32.pod, +tom.browder	1
-wenzel.peppmeyer	1
-will	1.keys
-html/images/camelia-faded.png, +alexmoquin	1
-cpan	1
-timonator	1.keys
-doc/Type/X/Method/Private/Permission.pod6, +altay-man	3
-will	1.keys
-doc/Type/Order.pod6, +altay-man	1
-jjmerelo	1
-moritz	1
-studerj1.mail	1
-will	1.keys
-html/.htaccess, +altay-man	1
-cpan	4
-jjmerelo	2
-moritz	2
-moritz.lenz	2
-samantham	2
-wenzel.peppmeyer	1
-zoffixznet	8.keys
-doc/Type/Supply.pod6, +LLFourn	1
-alex.jakimenko	2
-allan	1
-altay-man	5
-cpan	3
-jan-olof.hendig	19
-jjmerelo	1
-jnthn	1
-samantham	3
-sanchezchristian	1
-studerj1.mail	2
-wander4096	1
-wenzel.peppmeyer	2
-will	4
-zoffixznet	1.keys
-doc/Type/Failure.pod, +will	1.keys
-lib/Type/FatRat.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/Method/Private/Unqualified.pod, +will	1.keys
-lib/X/Attribute/NoPackage.pod, +moritz	1.keys
-sketch/html/css/custom-theme/images/ui-bg_flat_75_ffffff_40x100.png, +alexmoquin	2.keys
-lib/Type/X/Str/Numeric.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-doc/Programs/00-running.pod, +tom.browder	3
-zoffixznet	2.keys
-doc/Type/WhateverCode.pod, +alex.jakimenko	2
-will	1.keys
-doc/Type/IO/ArgFiles.pod6, +cpan	1
-jan-olof.hendig	1
-nicq20	1
-wenzel.peppmeyer	1
-will	1.keys
-lib/Type/Any.pod, +alexmoquin	2
-dha	1
-moritz	5
-paul	1
-smls75	2.keys
-lib/Type/X/Proc/Async/MustBeStarted.pod, +moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/Pod/To/Serialization.pm, +moritz	2.keys
-doc/Type/X/Bind.pod6, +altay-man	3
-will	1.keys
-html/css/custom-theme/images/ui-icons_63a4ff_256x240.png, +cpan	2
-geoff	1.keys
-doc/Type/Whatever.pod6, +MasterDuke17	1
-alex.jakimenko	1
-altay-man	3
-cpan	1
-jan-olof.hendig	1
-jjmerelo	1
-studerj1.mail	1
-wander4096	1
-will	5
-zoffixznet	1.keys
-t/pod-convenience.t, +ahmad.zawawi	1
-cpan	1
-cschwenz	1
-jsoref	1
-moritz	2
-paul	12
-will	2.keys
-lib/Type/X/IO/Cwd.pod, +alexmoquin	1
-bruce.gray	1
-smls75	1.keys
-lib/Type/X/Syntax/Term/MissingInitializer.pod, +paul	1
-smls75	1
-use_v6	1.keys
-doc/Type/X/Proc/Async/MustBeStarted.pod6, +altay-man	3
-jan-olof.hendig	1
-will	1.keys
-lib/Type/Complex.pod, +alexmoquin	3
-dha	1
-smls75	1.keys
-lib/Type/Pod/Item.pod, +alexmoquin	2
-smls75	2.keys
-doc/Type/Backtrace.pod6, +altay-man	5
-studerj1.mail	1
-will	2
-zoffixznet	2.keys
-doc/Type/X/Syntax/Confused.pod, +will	1.keys
-lib/Type/X/OS.pod, +alexmoquin	2
-smls75	3.keys
-doc/Type/Junction.pod6, +alex.jakimenko	1
-altay-man	3
-cpan	4
-fluca1978	1
-jjmerelo	1
-moritz.lenz	1
-studerj1.mail	1
-wander4096	1
-will	3
-zoffixznet	3.keys
-EXAMPLES.md, +cpan	1
-jjmerelo	1
-will	7.keys
-lib/Language/5to6-perlsyn.pod, +dha	1.keys
-doc/Type/X/Syntax/NegatedPair.pod6, +will	1.keys
-doc/Type/IO/Special.pod6, +altay-man	3
-cpan	3
-fluca1978	8
-sanchezchristian	1
-will	2.keys
-lib/Type/IO/Notification.pod, +moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/Type/X/Declaration/Scope.pod, +alexmoquin	2
-smls75	1.keys
-lib/X/Parameter/Twigil.pod, +moritz	1.keys
-lib/Type/Regex.pod, +alexmoquin	2
-smls75	1.keys
-html/cheatsheet.css, +jjmerelo	2
-will	1.keys
-lib/Type/X/Parameter/Placeholder.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/X/Syntax/Reserved.pod6, +altay-man	3
-will	1.keys
-doc/Type/X/Role/Initialization.pod6, +215106+cfa	1
-altay-man	1
-will	2.keys
-lib/Type/Metamodel/Naming.pod, +moritz	2
-smls75	2.keys
-lib/Type/Mu.pod, +alexmoquin	2
-moritz	3
-paul	5
-smls75	2.keys
-doc/Type/Mu.pod6, +altay-man	6
-cpan	5
-fluca1978	4
-jjmerelo	8
-molecules	1
-naoum88	1
-studerj1.mail	3
-titsuki	2
-wenzel.peppmeyer	8
-will	7
-zoffixznet	5.keys
-lib/Type/Int.pod, +alexmoquin	2
-dha	3
-moritz	3
-paul	2
-smls75	1
-steve.mynott	1.keys
-lib/X/Constructor/Positional.pod, +moritz	1.keys
-lib/Parcel.pod, +benjamin.tyler	1
-moritz	2
-pmichaud	2.keys
-lib/objects.pod, +benjamin.tyler	1
-jnthn	1
-moritz	12
-tim.dolores	1
-timonator	2
-zhuomingliang	1.keys
-doc/Type/Baggy.pod, +ddgreen	1
-jan-olof.hendig	19
-moritz	1
-will	1.keys
-doc/Type/X/Temporal/InvalidFormat.pod, +jan-olof.hendig	1.keys
-doc/Type/Variable.pod6, +altay-man	3
-fluca1978	3
-jan-olof.hendig	1
-jjmerelo	3
-moritz.lenz	1
-nicq20	1
-sanchezchristian	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	3.keys
-lib/X/Parameter/WrongOrder.pod, +moritz	1.keys
-doc/Type/X/Phaser/PrePost.pod, +will	1.keys
-doc/Type/X/Declaration/Scope.pod, +will	2.keys
-doc/Type/X/IO/Dir.pod, +will	1.keys
-lib/Type/Array.pod, +alexmoquin	1
-bri	1
-dha	2
-moritz	1
-smls75	1.keys
-lib/X/Phaser/PrePost.pod, +moritz	1.keys
-doc/Type/X/TypeCheck/Return.pod, +will	1.keys
-lib/Type/X/Comp.pod, +alexmoquin	2
-moritz	1
-steve.mynott	1.keys
-doc/Type/Metamodel/Naming.pod6, +altay-man	1
-will	1.keys
-doc/Type/X/Composition/NotComposable.pod, +will	2.keys
-lib/Nil.pod, +moritz	1.keys
-lib/Type/X/IO.pod, +alexmoquin	1
-smls75	2.keys
-lib/Cool.pod, +benjamin.tyler	1
-moritz	4
-pmichaud	1
-raiph.mellor	1.keys
-doc/Language/regexes.pod, +akim	2
-alex.jakimenko	2
-altay-man	2
-cpan	3
-donaldh	3
-eric-github	1
-jgoff	2
-jjatria	5
-mlenz	1
-molecules	1
-moritz	1
-nathaniel_heyer	1
-revhippie	1
-robert.newbould	1
-ungrim97	3
-vz-github	1
-wenzel.peppmeyer	2
-will	1.keys
-doc/Type/IO/Socket/INET.pod6, +215106+cfa	1
-altay-man	5
-fluca1978	10
-jjmerelo	1
-wenzel.peppmeyer	1
-will	4
-zoffixznet	2.keys
-doc/Type/Metamodel/ClassHOW.pod6, +ZzZombo	1
-alex.jakimenko	1
-altay-man	4
-book	1
-cpan	2
-jjmerelo	2
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/EnumMap.pod, +will	1.keys
-lib/Rational.pod, +benjamin.tyler	1
-moritz	3.keys
-doc/Language/terms.pod, +dbrunton	1
-jan-olof.hendig	1
-molecules	1
-tom.browder	1
-wenzel.peppmeyer	2
-will	1.keys
-doc/Type/X/Syntax/Regex/Adverb.pod6, +altay-man	6
-will	1.keys
-app-start, +cpan	3.keys
-doc/Language/performance.pod6, +MasterDuke17	5
-altay-man	2
-antquinonez	3
-armand.halbert	1
-david.warring	1
-ddgreen	1
-jan-olof.hendig	1
-jjmerelo	4
-moritz.lenz	1
-sanchezchristian	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	7
-zoffixznet	1.keys
-doc/Type/X/Constructor/Positional.pod, +will	1.keys
-lib/X/IO/Chdir.pod, +moritz	1.keys
-lib/Type/X/Composition/NotComposable.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/X/Mixin/NotComposable.pod6, +altay-man	1
-jan-olof.hendig	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/Proc/Async.pod6, +LLFourn	2
-alex.jakimenko	14
-altay-man	6
-cpan	3
-ddgreen	2
-fluca1978	1
-grizzly	2
-hello	1
-jan-olof.hendig	2
-jarkko	1
-jjmerelo	5
-wenzel.peppmeyer	4
-will	5
-zoffixznet	2.keys
-lib/Type/Instant.pod, +alexmoquin	1
-smls75	1.keys
-doc/Language/5to6-nutshell.pod6, +215106+cfa	2
-ZzZombo	1
-alex.jakimenko	2
-altay-man	4
-cpan	3
-fluca1978	15
-holli.holzer	1
-jjmerelo	7
-kaiepi	1
-liz	2
-pub.claudio	1
-sanchezchristian	2
-shlomif	1
-studerj1.mail	2
-wander4096	1
-wenzel.peppmeyer	3
-will	19
-zoffixznet	4.keys
-doc/Type/Block.pod6, +altay-man	3
-studerj1.mail	1
-wenzel.peppmeyer	3
-will	2.keys
-doc/Type/Int.pod, +alex.jakimenko	1
-cpan	1
-dha	1
-jan-olof.hendig	3
-molecules	1
-tom.browder	1
-wenzel.peppmeyer	2
-will	1
-zoffixznet	3.keys
-lib/Type/Attribute.pod, +alexmoquin	2
-dha	1
-moritz	1
-smls75	1.keys
-doc/Type/Range.pod, +cpan	1
-ddgreen	1
-jan-olof.hendig	1
-liz	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/IO/Path/QNX.pod6, +cpan	3
-jjmerelo	1.keys
-lib/Type/Backtrace/Frame.pod, +alexmoquin	2
-dha	1
-moritz	1
-smls75	2
-steve.mynott	1.keys
-lib/X/OutOfRange.pod, +moritz	2.keys
-lib/Type/X/Temporal/Truncation.pod, +alexmoquin	2
-smls75	1.keys
-util/update-and-sync, +bruce.gray	1
-cpan	1
-mlenz	1
-moritz	9
-paul	3
-wenzel.peppmeyer	4
-will	3
-zoffixznet	6.keys
-CREDITS, +dmc00	1
-fluca1978	1
-jjmerelo	1
-karl.yerkes	1
-moritz	2
-pmichaud	2
-pub.claudio	1
-steve.mynott	1
-studerj1.mail	1
-wander4096	1
-wenzel.peppmeyer	1.keys
-lib/Type/Cool.pod, +alexmoquin	1
-dha	2
-edwin.steiner	1
-heiko_jansen	1
-moritz	27
-paul	3
-ronaldxs	1
-smls75	1
-steve.mynott	1
-tirkarthi	1.keys
-lib/Type/IO/Spec/Win32.pod, +dha	1
-jns+git	1.keys
-doc/Type/X/Parameter/MultipleTypeConstraints.pod6, +altay-man	3
-will	2.keys
-lib/Type/X/Syntax/Placeholder.pod, +alexmoquin	2.keys
-doc/Type/nativeInt.pod6, +jjmerelo	1
-studerj1.mail	1
-will	1.keys
-doc/Type/Any.pod, +bruce.gray	1
-dbrunton	1
-ddgreen	1
-molecules	1
-wenzel.peppmeyer	6
-will	1
-zoffixznet	1.keys
-doc/Type/Map.pod, +LLFourn	1
-bri	1
-jan-olof.hendig	5.keys
-doc/Type/X/AdHoc.pod6, +altay-man	7
-armand.halbert	1
-jjmerelo	1
-will	2.keys
-doc/Type/Buf.pod, +will	1.keys
-doc/Type/Cool.pod6, +215106+cfa	1
-MasterDuke17	1
-alex.jakimenko	3
-altay-man	12
-cpan	4
-jan-olof.hendig	8
-jjmerelo	4
-mienaikage	1
-moritz.lenz	1
-samantham	8
-sanchezchristian	1
-seatek	1
-skelic2	3
-steve.mynott	1
-studerj1.mail	1
-tom.browder	1
-vynce.montgomery	1
-wenzel.peppmeyer	5
-will	8
-zoffixznet	9.keys
-doc/Type/Label.pod6, +altay-man	9
-studerj1.mail	2
-will	1.keys
-lib/Language/variables.pod, +alexmoquin	13
-dha	6
-jns+git	4
-justin	1
-mlenz	1
-moritz	14
-paul	11
-sjn	1
-steve.mynott	3
-teodozjan	1
-zhtwnpanta	2.keys
-htmlify.p6, +LLFourn	1
-MasterDuke17	1
-ahmad.zawawi	4
-alex.jakimenko	7
-alexmoquin	57
-altay-man	6
-avuserow	1
-bwilcox	2
-cpan	16
-ddgreen	2
-email	1
-gjb	1
-jan-olof.hendig	2
-jjmerelo	15
-jnthn	2
-jsoref	4
-justin	1
-liz	1
-lloyd.fourn	1
-m.krull	2
-mlenz	1
-moritz	30
-paul	31
-perrettdl	1
-rob	1
-ronaldxs	1
-samantham	22
-smls75	4
-steve.mynott	2
-tom.browder	4
-wander4096	11
-wenzel.peppmeyer	16
-will	31
-zoffixznet	4.keys
-doc/Language/temporal.pod6, +jjmerelo	2
-sanchezchristian	1
-will	2.keys
-doc/Type/Exception.pod6, +altay-man	4
-jjmerelo	1
-jns	2
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	6
-zoffixznet	1.keys
-doc/Type/Proxy.pod, +will	1.keys
-doc/Type/X/Method/InvalidQualifier.pod6, +altay-man	2
-will	1.keys
-doc/Type/ThreadPoolScheduler.pod6, +altay-man	2
-studerj1.mail	1
-will	1.keys
-lib/X/Syntax.pod, +moritz	1.keys
-doc/Type/Block.pod, +alex.jakimenko	1
-bwilcox	1
-ddgreen	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/Compiler.pod6, +jjmerelo	2
-will	1.keys
-doc/Type/X/Attribute/Undeclared.pod, +will	1.keys
-lib/Type/X/Syntax/NegatedPair.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Any.pod6, +alex.jakimenko	3
-altay-man	15
-bri	1
-cpan	7
-fluca1978	15
-jan-olof.hendig	9
-jjmerelo	14
-jkramer	3
-liz	1
-moritz.lenz	1
-perrettdl	1
-rafaelschipiura	2
-samantham	1
-studerj1.mail	4
-titsuki	3
-wander4096	1
-wenzel.peppmeyer	15
-will	11
-zoffixznet	14.keys
-doc/Type/X/Augment/NoSuchType.pod, +will	1.keys
-lib/X/Augment/NoSuchType.pod, +moritz	1.keys
-doc/Language/contributors.pod, +liz	3
-titsuki	1.keys
-html/css/custom-theme/images/ui-icons_000000_256x240.png, +cpan	2
-geoff	1.keys
-doc/Type/IO/Spec/Unix.pod6, +altay-man	2
-cpan	29
-jan-olof.hendig	1
-will	5.keys
-lib/Pod/Item.pod, +moritz	1.keys
-lib/Type/AST.pod, +alexmoquin	1
-smls75	1.keys
-template/index_head.html, +raydiak	4.keys
-lib/Type/ObjAt.pod, +alexmoquin	1
-smls75	1.keys
-lib/Type/X/Syntax/Regex/SolitaryQuantifier.pod, +smls75	1
-use_v6	1.keys
-doc/.DS_Store, +wander4096	2.keys
-lib/Type/X/Syntax/Variable/Numeric.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/IO/Spec.pod, +info	2
-tom.browder	1
-wenzel.peppmeyer	1
-will	1.keys
-html/css/custom-theme/images/ui-bg_glass_75_f5e47b_1x400.png, +cpan	2
-geoff	1.keys
-html/favicon.ico, +moritz	1.keys
-doc/Type/Metamodel/Trusting.pod6, +altay-man	3
-will	2.keys
-xt/trailing-whitespace.t, +cpan	1
-jjmerelo	1
-tom.browder	1
-will	12.keys
-Dockerfile, +jarkko	1
-studerj1.mail	1.keys
-lib/Type/PairMap.pod, +moritz	1
-timonator	1.keys
-lib/Type/X/Syntax/Variable/Match.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/Map.pod6, +altay-man	3
-fluca1978	3
-jan-olof.hendig	3
-sanchezchristian	1
-studerj1.mail	1
-will	4
-zoffixznet	4.keys
-doc/Type/IO/Spec/Win32.pod6, +altay-man	2
-cpan	23
-jan-olof.hendig	1
-will	4.keys
-doc/Type/Telemetry/Instrument/Thread.pod6, +liz	1
-will	1.keys
-doc/Type/IntStr.pod6, +altay-man	2
-b2gills	1
-cpan	4
-jan-olof.hendig	1
-studerj1.mail	1
-will	3.keys
-doc/Type/X/Temporal.pod, +will	1.keys
-template/index-content.html, +alexmoquin	2.keys
-doc/Type/X/DateTime/TimezoneClash.pod6, +altay-man	2
-will	2.keys
-util/travis-build.sh, +jjmerelo	3.keys
-doc/Type/X/Method/Private/Permission.pod, +will	1.keys
-lib/Type/Range.pod, +alexmoquin	2
-moritz	1
-paul	1
-smls75	1.keys
-lib/Date.pod, +benjamin.tyler	1
-felix	1
-moritz	9
-vz-github	1.keys
-doc/Language/variables.pod, +LLFourn	2
-alex.jakimenko	4
-awwaiid	2
-bri	1
-cpan	1
-cxreg	2
-jan-olof.hendig	4
-jns+git	11
-raiph.mellor	2
-revhippie	1
-scolinet	1
-timonator	1
-tom.browder	3
-wenzel.peppmeyer	9
-will	3
-zoffixznet	1.keys
-sketch/html/index.html, +alexmoquin	3.keys
-doc/Type/X/Promise/Vowed.pod, +alex.jakimenko	1
-jan-olof.hendig	1.keys
-util/xt-recent-aspell.sh, +will	3.keys
-doc/Type/IO/Spec/Cygwin.pod6, +altay-man	2
-cpan	19
-will	1.keys
-doc/Perl6/debugging.pod, +tom.browder	1.keys
-doc/Type/X/Parameter/Placeholder.pod6, +altay-man	2
-will	1.keys
-lib/Type/Block.pod, +alexmoquin	1
-smls75	1.keys
-xt/double-dots.t, +jjmerelo	1
-will	2.keys
-doc/Type/X/IO/Mkdir.pod, +will	1.keys
-lib/Type/X/Syntax/Malformed.pod, +moritz	1
-smls75	1.keys
-doc/Type/X/Comp.pod6, +will	1.keys
-xt/trailing_whitespace.t, +will	1.keys
-assets/sass/style.scss, +alex.jakimenko	2
-altay-man	3
-armand.halbert	1
-cpan	28
-jjmerelo	5
-wander4096	1
-wenzel.peppmeyer	16
-will	1
-zoffixznet	3.keys
-doc/Language/ipc.pod6, +Curt.Tilmes	1
-altay-man	3
-cpan	1
-jan-olof.hendig	2
-sanchezchristian	1
-sterling	3
-studerj1.mail	1
-timonator	1
-wenzel.peppmeyer	1.keys
-lib/Type/X/TypeCheck.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Blob.pod6, +215106+cfa	1
-altay-man	5
-cpan	2
-jan-olof.hendig	3
-jjmerelo	3
-liz	1
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	4.keys
-lib/Language/modules.pod, +LLFourn	6
-alexmoquin	3
-cpan	2
-larry	1
-moritz	1
-paul	5.keys
-lib/X/IO/Chmod.pod, +moritz	1.keys
-lib/Language/5to6-perlfunc.pod, +dha	2
-steve.mynott	1.keys
-lib/Range.pod, +benjamin.tyler	1
-moritz	4
-pmichaud	1.keys
-lib/Type/X/Method/NotFound.pod, +alexmoquin	2
-smls75	1.keys
-lib/Type/Hash.pod, +alexmoquin	2
-dha	1
-john.haltiwanger	2
-paul	1
-rnddim	1
-smls75	1.keys
-lib/Pod/Block/Code.pod, +moritz	1.keys
-html/js/jquery-ui.min.js, +cpan	2.keys
-doc/Type/IO/Spec/Cygwin.pod, +info	1
-tom.browder	1
-wenzel.peppmeyer	1
-will	1.keys
-t/trailing_whitespace.t, +will	2
-zoffixznet	1.keys
-doc/Type/X/Redeclaration.pod6, +altay-man	2
-will	1.keys
-doc/Language/functions.pod6, +215106+cfa	3
-altay-man	5
-antquinonez	1
-armand.halbert	2
-book	2
-brian.d.foy	1
-cpan	5
-fluca1978	12
-jan-olof.hendig	6
-jjmerelo	7
-liz	1
-lotsmanov89	1
-seatek	2
-sterling	2
-studerj1.mail	2
-tom.browder	1
-trey	1
-wander4096	5
-wenzel.peppmeyer	27
-will	17
-zoffixznet	5.keys
-doc/Type/X/Constructor/Positional.pod6, +altay-man	1
-jan-olof.hendig	1
-will	1.keys
-doc/Type/Bool.pod6, +altay-man	6
-fluca1978	2
-jan-olof.hendig	4
-jjmerelo	1
-molecules	3
-studerj1.mail	1
-will	4.keys
-doc/Type/Systemic.pod6, +jjmerelo	4.keys
-doc/Language/nativetypes.pod6, +jjmerelo	6
-will	1.keys
-lib/Pod/Block/Para.pod, +moritz	1.keys
-sketch/html/css/custom-theme/images/ui-icons_63a4ff_256x240.png, +alexmoquin	2.keys
-doc/Language/5to6-perlsyn.pod, +alex.jakimenko	1
-altay-man	4
-jan-olof.hendig	1
-jsoref	1
-revhippie	2
-will	1.keys
-doc/Language/structures.pod6, +jjmerelo	24
-uzluisf	1
-will	1.keys
-doc/Type/X/IO/Copy.pod, +will	1.keys
-doc/Type/X/Temporal/Truncation.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Type/X/Placeholder/Block.pod6, +altay-man	3
-will	1.keys
-doc/Type/X/Signature/NameClash.pod6, +altay-man	3
-will	1.keys
-doc/Type/Exception.pod, +wenzel.peppmeyer	1
-will	1.keys
-doc/Type/SetHash.pod, +will	1.keys
-lib/Type/Stringy.pod, +alexmoquin	1
-smls75	2.keys
-lib/Type/Exception.pod, +alexmoquin	2
-dha	1
-paul	2
-smls75	2.keys
-doc/Type/Regex.pod6, +altay-man	3
-jjmerelo	2
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	3.keys
-bin/p6doc-index, +andreoss	1
-ilmari.vacklin	1
-jns+git	1
-paul	2
-sog	2
-steve.mynott	13
-teodozjan	1
-timonator	1
-will	2.keys
-util/test-links.sh, +wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Str/Numeric.pod, +will	1.keys
-lib/Type/IO/Spec/QNX.pod, +dha	1
-jns+git	1.keys
-doc/Type/Rat.pod6, +215106+cfa	1
-altay-man	4
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	2
-zoffixznet	1.keys
-t/typegraph.t, +cschwenz	1
-geoff	1
-moritz	6
-paul	1
-will	1.keys
-doc/Language/glossary.pod, +alex.jakimenko	5
-altay-man	2
-bruce.gray	1
-jgabriele	1
-jns	1
-jsoref	9
-liz	11
-revhippie	1
-steve.mynott	1
-titsuki	1
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/Junction.pod, +alex.jakimenko	1
-hayter	1
-wenzel.peppmeyer	1
-will	2.keys
-html/images/camelia-404.png, +cpan	1.keys
-README.de.md, +angr7991	1
-fritz.zaucker	3
-moritz.lenz	1
-will	1.keys
-lib/Attribute.pod, +moritz	1.keys
-lib/Complex.pod, +benjamin.tyler	1
-moritz	2
-raiph.mellor	1.keys
-doc/Type/X/Syntax/P5.pod6, +altay-man	3
-will	1.keys
-lib/Iterator.pod, +moritz	1.keys
-lib/X/TypeCheck/Assignment.pod, +moritz	1.keys
-lib/X/Syntax/InfixInTermPosition.pod, +moritz	1.keys
-lib/Type/Bool.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/Proc/Async/CharsOrBytes.pod, +will	1.keys
-doc/Language/5to6-perlop.pod, +alex.jakimenko	2
-altay-man	3
-bruce.gray	1
-bwilcox	1
-dha	1
-jan-olof.hendig	1
-moritz	1
-will	1.keys
-doc/Type/X/Inheritance/Unsupported.pod6, +altay-man	2
-will	1.keys
-doc/Type/Distro.pod6, +jjmerelo	3
-liz	1
-studerj1.mail	1
-wander4096	1.keys
-doc/Type/X/Comp.pod, +will	1.keys
-lib/Sub.pod, +moritz	1.keys
-doc/Type/Pod/Block/Para.pod6, +will	1.keys
-README.zh.md, +ccworld1000	3
-fritz.zaucker	1
-wander4096	11
-will	1.keys
-html/css/pygments.css, +paul	1
-rob	1
-samantham	3.keys
-doc/Type/X/Proc/Async/AlreadyStarted.pod, +will	1.keys
-doc/Type/CallFrame.pod6, +altay-man	2
-jan-olof.hendig	6
-jjmerelo	1
-samantham	1
-sterling	1
-studerj1.mail	1
-will	1.keys
-lib/variables.pod, +benjamin.tyler	1
-email	1
-felix	15
-geoff	1
-moritz	4
-rob	1
-szabgab	3
-tim.dolores	2
-timonator	1.keys
-lib/X/Syntax/Placeholder.pod, +moritz	1.keys
-doc/Type/Order.pod, +alex.jakimenko	1
-wenzel.peppmeyer	3
-will	1.keys
-doc/Language/about.pod, +cpan	1
-moritz	1
-tom.browder	6
-will	1.keys
-lib/X/Mixin/NotComposable.pod, +moritz	1.keys
-doc/Perl6/README.md, +tom.browder	1.keys
-doc/Type/Uni.pod6, +altay-man	2
-jan-olof.hendig	1
-jjmerelo	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	1.keys
-doc/Type/X/OS.pod6, +altay-man	1
-will	1.keys
-html/cheatsheet.html, +jjmerelo	2
-will	1.keys
-doc/Type/Capture.pod6, +34807039+ilyash-b	1
-altay-man	5
-armand.halbert	1
-jan-olof.hendig	10
-jjmerelo	2
-studerj1.mail	1
-will	1.keys
-doc/Type/IO/CatHandle.pod6, +cpan	6
-jan-olof.hendig	2
-jjmerelo	1
-will	3
-zoffixznet	2.keys
-lib/Type/X/ControlFlow/Return.pod, +alexmoquin	1
-smls75	1.keys
-lib/Associative.pod, +moritz	1.keys
-sketch/html/css/style.css, +alexmoquin	5.keys
-type-graph.txt, +LLFourn	1
-alexmoquin	10
-cmasak	3
-cpan	2
-geoff	4
-jan-olof.hendig	12
-jns	1
-jsoref	1
-mlenz	1
-moritz	21
-paul	5
-use_v6	3
-wander4096	1
-will	4
-zoffixznet	2.keys
-writing-docs/STYLEGUIDE.md, +215106+cfa	2
-fluca1978	1
-jjmerelo	13
-will	2.keys
-lib/X/IO/Cwd.pod, +moritz	1.keys
-.travis.yml, +215106+cfa	1
-adriaan.larmuseau	2
-alex.jakimenko	3
-cpan	6
-gabor	1
-jjmerelo	37
-samantham	17
-wenzel.peppmeyer	5
-will	2
-zoffixznet	1.keys
-README.md, +215106+cfa	1
-ElenaMerelo	1
-adriaan.larmuseau	1
-altay-man	2
-angr7991	2
-antoniogamiz10	2
-bduggan	2
-ccworld1000	2
-ceci.merelo	3
-cpan	9
-fluca1978	9
-fritz.zaucker	1
-grizzly	1
-jgabriele	1
-jjmerelo	7
-m.krull	1
-mkrull	1
-moritz	5
-moritz.lenz	1
-paul	2
-samantham	1
-steve.mynott	4
-wander4096	2
-will	6
-zoffixznet	10.keys
-doc/Type/NFD.pod6, +altay-man	1
-samantham	1
-studerj1.mail	1
-will	2.keys
-doc/Type/Label.pod, +will	1.keys
-lib/Real.pod, +benjamin.tyler	1
-moritz	4
-pmichaud	1.keys
-lib/classtut.pod, +benjamin.tyler	1
-moritz	2
-timonator	2.keys
-doc/Type/NumStr.pod, +ddgreen	1
-jan-olof.hendig	1
-jns	1
-will	1.keys
-lib/Callable.pod, +glitchmr	2.keys
-META.info, +altay-man	1
-david.warring	1
-jnthn	1
-moritz	1
-nine	1
-samantham	1
-steve.mynott	2
-tadzikes	1
-ugexe	1
-wenzel.peppmeyer	3
-will	1
-zoffixznet	1.keys
-doc/Language/experimental.pod6, +alex.jakimenko	1
-altay-man	1
-antquinonez	1
-jjmerelo	2
-samantham	2
-studerj1.mail	1
-tom.browder	3
-wenzel.peppmeyer	1
-will	3.keys
-lib/Type/Pod/Block.pod, +alexmoquin	2
-smls75	2.keys
-lib/Array.pod, +moritz	2.keys
-doc/Language/containers.pod, +alex.jakimenko	2
-coleoid	1
-jgabriele	2
-revhippie	1
-wenzel.peppmeyer	5
-will	1.keys
-lib/List.pod, +benjamin.tyler	1
-cmasak	1
-moritz	19
-pmichaud	7
-raiph.mellor	1
-tim.dolores	3.keys
-doc/Perl6/00-running.pod, +tom.browder	2.keys
-xt/links-not-links.t, +215106+cfa	1
-jjmerelo	11
-will	2.keys
-doc/Type/X/IO/DoesNotExist.pod6, +altay-man	2
-jjmerelo	1
-will	1.keys
-lib/X/Syntax/Confused.pod, +moritz	1.keys
-template/type-graph.html, +alex.jakimenko	1
-cpan	1
-wander4096	1
-will	1.keys
-doc/Type/Failure.pod6, +altay-man	3
-cmasak	1
-cpan	1
-jan-olof.hendig	1
-rafaelschipiura	4
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	1
-zoffixznet	6.keys
-lib/Type/Submethod.pod, +dha	1
-moritz	1
-smls75	1.keys
-doc/Language/quoting.pod, +bwilcox	1
-cpan	1
-jns	1
-jsoref	1
-tom.browder	1
-will	2.keys
-doc/Type/Pod/Block.pod, +LLFourn	1
-jsoref	1
-tom.browder	1
-will	1.keys
-util/xt-recent.sh, +will	2.keys
-doc/Type/Parameter.pod6, +altay-man	3
-armand.halbert	1
-jan-olof.hendig	7
-studerj1.mail	1
-will	4.keys
-doc/Type/utf8.pod6, +jan-olof.hendig	2
-samantham	3
-studerj1.mail	1
-wander4096	1
-will	2.keys
-doc/Language/hashmap.pod6, +jjmerelo	8.keys
-doc/Type/Temporal.pod, +paul	2
-will	1.keys
-doc/Type/X/Temporal.pod6, +will	1.keys
-t/perl-nbsp.t, +will	1.keys
-html/css/custom-theme/images/ui-bg_inset-hard_95_e47286_1x100.png, +cpan	2
-geoff	1.keys
-index_head.html, +raydiak	2.keys
-doc/Language/unicode.pod6, +215106+cfa	1
-altay-man	2
-cpan	1
-jan-olof.hendig	2
-jjmerelo	4
-samantham	11
-sanchezchristian	1
-studerj1.mail	1
-timonator	1
-tom.browder	1
-wenzel.peppmeyer	1
-will	12
-zoffixznet	1.keys
-doc/Language/routines.pod6, +jjmerelo	3.keys
-lib/Type/Promise.pod, +moritz	5
-paul	1
-smls75	2.keys
-lib/Perl6/Documentable.pm, +alex.jakimenko	1
-alexmoquin	10
-cmasak	1
-moritz	5
-paul	1
-raydiak	1
-smls75	2.keys
-doc/Language/phasers.pod, +alex.jakimenko	2
-bwilcox	4
-moritz	1
-sterling	2
-wenzel.peppmeyer	2.keys
-t/return-type.t, +alex.jakimenko	1
-altay-man	4.keys
-doc/Type/Telemetry/Instrument/Usage.pod6, +cpan	1
-liz	1.keys
-lib/Type/Parcel.pod, +alexmoquin	1
-moritz	1
-smls75	1.keys
-lib/Type/Metamodel/Finalization.pod, +moritz	1
-paul	1
-smls75	1.keys
-lib/Type/X/Assignment/RO.pod, +moritz	1.keys
-lib/Method.pod, +moritz	1.keys
-doc/Type/Metamodel/ClassHOW.pod, +alex.jakimenko	1
-moritz	1
-will	3.keys
-doc/Type/Grammar.pod, +will	2.keys
-lib/Type/List.pod, +alexmoquin	2
-dha	1
-edwin.steiner	2
-justin	1
-moritz	7
-paul	7
-rob	3
-smls75	1
-steve.mynott	2.keys
-html/js/jquery-ui-1.8.21.custom.min.js, +cpan	1
-geoff	1.keys
-doc/Type/snapper.pod6, +liz	1
-studerj1.mail	1.keys
-doc/Type/Duration.pod6, +studerj1.mail	1
-will	1.keys
-lib/Type/X/IO/Rename.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Telemetry/Instrument/Threadpool.pod6, +cpan	1
-liz	1.keys
-doc/Type/X/Syntax/Reserved.pod, +will	1.keys
-lib/Type/Channel.pod, +dha	1
-liz	1
-moritz	5
-smls75	1
-sterling	1.keys
-doc/Type/DateTime.pod, +alex.jakimenko	1
-blaabs	1
-jan-olof.hendig	2
-jns+git	1
-liz	10
-moritz	1
-simon	1
-will	1.keys
-lib/Type/Thread.pod, +moritz	5
-olshevskiy87	1.keys
-test-links.sh, +wenzel.peppmeyer	2.keys
-doc/Language/from-haskell.pod6, +cale.short	2.keys
-search_template.js, +raydiak	4.keys
-sketch/html/css/custom-theme/images/ui-icons_e13755_256x240.png, +alexmoquin	2.keys
-doc/Type/Pair.pod, +alex.jakimenko	1
-jan-olof.hendig	5
-paul	1
-sog	1
-titsuki	1
-will	1.keys
-doc/Type/X/IO/Chdir.pod6, +altay-man	2
-will	1.keys
-doc/Language/pod.pod6, +Curt.Tilmes	1
-cpan	1
-fluca1978	4
-jjmerelo	8
-naoum88	4
-samantham	1
-studerj1.mail	1
-themanchicken	1
-tom.browder	20
-will	5
-zoffixznet	2.keys
-lib/Type/Grammar.pod, +alexmoquin	3
-dha	1
-justin	1
-moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/Type/nativeInt.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/Metamodel/Primitives.pod, +jan-olof.hendig	1
-will	1.keys
-doc/Type/Nil.pod6, +alex.jakimenko	2
-altay-man	5
-larry	1
-studerj1.mail	1
-wenzel.peppmeyer	8
-will	2.keys
-lib/X/Parameter/Placeholder.pod, +moritz	1.keys
-t/04-typegraph.t, +jjmerelo	1.keys
-lib/X/Placeholder/Mainline.pod, +moritz	2.keys
-lib/Macro.pod, +moritz	1.keys
-doc/Type/X/DateTime/TimezoneClash.pod, +jan-olof.hendig	1.keys
-doc/Type/X/IO.pod6, +will	1.keys
-doc/Type/Complex.pod6, +altay-man	6
-cpan	1
-jan-olof.hendig	1
-studerj1.mail	1
-will	2.keys
-lib/Language/operators.pod, +alexmoquin	10
-cmasak	1
-dha	2
-john.haltiwanger	1
-justin	1
-moritz	6
-paul	4
-pmichaud	1
-rnddim	2
-smls75	3
-steve.mynott	3
-x.fix	1.keys
-lib/Type/X/Syntax/Augment/Role.pod, +alexmoquin	2
-bruce.gray	1
-moritz	1
-smls75	1.keys
-html/css/custom-theme/images/ui-bg_highlight-soft_75_f5e47b_1x100.png, +cpan	2
-geoff	1.keys
-doc/Type/X/Phaser/Multiple.pod, +will	1.keys
-lib/Language/concurrency.pod, +jns+git	23
-justin	1
-moritz	3
-steve.mynott	3.keys
-doc/Type/X/Parameter/Default.pod6, +altay-man	2
-will	1.keys
-doc/Type/Pod/Heading.pod6, +jan-olof.hendig	1.keys
-doc/Type/Baggy.pod6, +alex.jakimenko	1
-altay-man	4
-cpan	2
-jan-olof.hendig	8
-sanchezchristian	1
-studerj1.mail	1
-will	2
-zoffixznet	1.keys
-lib/Type/Backtrace.pod, +alexmoquin	2
-dha	1
-moritz	1
-smls75	1.keys
-doc/Language/nativecall.pod, +adriaan.larmuseau	2
-alex.jakimenko	1
-autarch	1
-bruce.gray	2
-bwilcox	1
-cpan	2
-email	2
-jns	2
-john.haltiwanger	1
-scolinet	6
-simon	8
-sog	1
-steve.mynott	1
-tom.browder	3
-will	3
-zoffixznet	2.keys
-lib/Type/X/Syntax/Missing.pod, +alexmoquin	2
-smls75	1.keys
-doc/Language/packages.pod, +bwilcox	2
-wenzel.peppmeyer	1.keys
-lib/X/Method/Private/Permission.pod, +moritz	1.keys
-doc/Type/ComplexStr.pod6, +altay-man	2
-b2gills	1
-cpan	5
-jan-olof.hendig	1
-studerj1.mail	1
-will	3.keys
-doc/Type/X/Attribute/NoPackage.pod, +will	1.keys
-doc/Type/Array.pod, +alex.jakimenko	1
-ddgreen	1
-eric-github	2
-jan-olof.hendig	3
-jns+git	1
-moritz	1
-tokuhirom	1
-will	2.keys
-doc/Type/Array.pod6, +altay-man	9
-cpan	4
-jan-olof.hendig	2
-jkramer	1
-sterling	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	2
-zoffixznet	7.keys
-lib/perlvar.pod, +moritz	1
-pmichaud	2.keys
-lib/X/TypeCheck/Binding.pod, +moritz	1.keys
-doc/Type/X/Inheritance/Unsupported.pod, +will	2.keys
-doc/Type/X/IO/Cwd.pod, +will	1.keys
-doc/Type/CurrentThreadScheduler.pod6, +altay-man	3
-jjmerelo	1
-studerj1.mail	1
-will	2.keys
-doc/Type/X/Proc/Async/OpenForWriting.pod, +will	1.keys
-doc/Type/IO/Handle.pod6, +alex.jakimenko	4
-altay-man	5
-cpan	68
-fluca1978	2
-gdonald	1
-jan-olof.hendig	4
-jnthn	1
-nxadm	1
-samantham	2
-sanchezchristian	1
-timonator	4
-tom.browder	2
-wenzel.peppmeyer	1
-will	11
-zoffixznet	22.keys
-lib/Type/Duration.pod, +alexmoquin	1
-smls75	1.keys
-doc/Language/functions.pod, +LLFourn	1
-alex.jakimenko	2
-bwilcox	1
-claudio.ramirez	3
-donaldh	1
-jan-olof.hendig	3
-jsoref	1
-lloyd.fourn	2
-neil.shadrach	1
-parabolize	1
-sterling	1
-tom.browder	4
-wenzel.peppmeyer	14
-will	3
-zoffixznet	1.keys
-doc/Type/X/Syntax/Variable/Match.pod6, +altay-man	2
-will	1.keys
-doc/Type/Code.pod6, +allan	1
-altay-man	5
-cpan	3
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	1.keys
-doc/Type/Pod/Block/Named.pod6, +altay-man	1
-will	1.keys
-doc/Type/Pod/Block/Code.pod6, +altay-man	1
-will	1.keys
-lib/Type/Temporal.pod, +paul	2
-teodozjan	1.keys
-html/js/jquery-3.1.1.min.js, +cpan	1
-will	2.keys
-doc/Language/phasers.pod6, +215106+cfa	1
-alex.jakimenko	1
-cognominal	2
-cpan	2
-jan-olof.hendig	1
-jjmerelo	3
-sanchezchristian	1
-studerj1.mail	1
-wander4096	1
-wenzel.peppmeyer	5
-will	4
-zoffixznet	3.keys
-lib/Type/X/Bind.pod, +moritz	1
-smls75	1.keys
-doc/Type/Metamodel/RoleContainer.pod, +will	1.keys
-doc/Type/X/Syntax/NegatedPair.pod, +will	1.keys
-lib/Type/IO/Spec/Cygwin.pod, +dha	1
-jns+git	1.keys
-lib/Type/Set.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-lib/SetHash.pod, +alexmoquin	1.keys
-doc/Language/operators.pod, +LLFourn	3
-alex.jakimenko	3
-awwaiid	2
-bruce.gray	1
-cpan	2
-dbrunton	3
-ddgreen	2
-jan-olof.hendig	2
-jjatria	1
-john.haltiwanger	1
-jsoref	1
-madcap.russo	4
-paul	1
-perrettdl	4
-revhippie	1
-simon	2
-steve.mynott	2
-wenzel.peppmeyer	21
-will	2
-zoffixznet	2.keys
-doc/Type/X/Composition/NotComposable.pod6, +altay-man	3
-will	1.keys
-doc/Type/QuantHash.pod6, +studerj1.mail	1
-will	1.keys
-lib/Pod/Htmlify.pm6, +alex.jakimenko	2
-cpan	3
-liz	1
-moritz	2
-paul	11
-samantham	9
-wander4096	1
-wenzel.peppmeyer	11
-zakame	3.keys
-lib/Language/classtut.pod, +alexmoquin	4
-benjamin.tyler	2
-moritz	4
-paul	5
-rjbs	1
-ronaldxs	1
-steve.mynott	1
-teodozjan	4.keys
-doc/Type/X/Syntax.pod6, +will	1.keys
-doc/Type/Channel.pod6, +altay-man	3
-bri	1
-cpan	1
-jjmerelo	1
-samantham	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	3.keys
-html/js/jquery.cookie.js, +cpan	2.keys
-lib/Type/IO/Socket.pod, +moritz	1
-smls75	1
-steve.mynott	1.keys
-lib/X/IO.pod, +moritz	1.keys
-lib/Type/X/NYI.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-doc/Type/X/TypeCheck/Splice.pod6, +altay-man	3
-jjmerelo	1
-will	1.keys
-doc/Language/list.pod6, +215106+cfa	1
-ZzZombo	1
-alex.jakimenko	1
-altay-man	5
-armand.halbert	1
-bri	2
-jjmerelo	9
-molecules	1
-rightfold	1
-studerj1.mail	3
-wander4096	1
-wenzel.peppmeyer	11
-will	4
-zoffixznet	1.keys
-t/02-pod-valid.t, +jjmerelo	7
-will	1.keys
-doc/Type/IO/Socket/INET.pod, +flussence	1
-steve.mynott	2
-will	1.keys
-writing-docs/SQUASHATHONS.md, +mattoates	1
-will	2.keys
-lib/Type/IO.pod, +alexmoquin	2
-bruce.gray	1
-email	1
-moritz	7
-paul	17
-rob	3
-smls75	3.keys
-lib/Any.pod, +benjamin.tyler	1
-moritz	4
-pmichaud	1.keys
-html/css/custom-theme/images/ui-icons_e13755_256x240.png, +cpan	2
-geoff	1.keys
-lib/Perl6/Documentable/Registry.pm6, +alex.jakimenko	1.keys
-lib/Buf.pod, +benjamin.tyler	1
-moritz	5
-pmichaud	1.keys
-lib/Type/X/Syntax/Confused.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/Syntax/Variable/Numeric.pod6, +altay-man	2
-will	1.keys
-lib/Type/IO/ArgFiles.pm, +paul	2.keys
-lib/X/Syntax/P5.pod, +moritz	1.keys
-lib/Type/X/Signature/Placeholder.pod, +alexmoquin	2
-smls75	1.keys
-doc/Perl6/03-hacking.pod, +tom.browder	1.keys
-doc/Type/Metamodel/MultipleInheritance.pod6, +altay-man	2
-will	1.keys
-lib/Language/exceptions.pod, +paul	1
-steve.mynott	1.keys
-lib/Type/Parameter.pod, +alexmoquin	2
-bri	3
-moritz	3
-smls75	2.keys
-doc/Type/Bool.pod, +will	1.keys
-doc/Type/X/Channel/ReceiveOnClosed.pod, +bruce.gray	1
-will	1.keys
-lib/Type/Variable.pod, +moritz	1
-olshevskiy87	1.keys
-lib/X/Attribute/Package.pod, +moritz	2.keys
-doc/Perl6/hacking.pod, +tom.browder	2.keys
-html/css/custom-theme/images/ui-bg_glass_75_c0e472_1x400.png, +cpan	2
-geoff	1.keys
-doc/Type/ObjAt.pod, +will	1.keys
-lib/Type/Nil.pod, +alexmoquin	2
-john.haltiwanger	2
-paul	3
-smls75	2.keys
-html/css/custom-theme/jquery-ui-1.8.21.custom.css, +geoff	1.keys
-lib/Type/Blob.pod, +dha	2
-moritz	3
-paul	4
-smls75	1.keys
-doc/Type/Seq.pod6, +MasterDuke17	1
-alex.jakimenko	1
-altay-man	4
-bri	1
-jjmerelo	3
-liz	1
-sterling	1
-studerj1.mail	2
-will	2.keys
-lib/Type/X/AdHoc.pod, +alexmoquin	2
-smls75	1.keys
-doc/Language/exceptions.pod6, +alex.jakimenko	2
-altay-man	4
-antquinonez	2
-book	1
-darius	1
-fluca1978	4
-jan-olof.hendig	1
-jjmerelo	2
-melezhik	3
-seatek	2
-studerj1.mail	1
-tom.browder	1
-wenzel.peppmeyer	4
-will	9.keys
-doc/Type/X/Eval/NoSuchLang.pod, +will	1.keys
-xt/space-after-commma.t, +cpan	3
-will	2.keys
-doc/HomePage.pod6, +altay-man	1
-cpan	1
-jjmerelo	3
-naoum88	1
-studerj1.mail	1
-wander4096	1
-wenzel.peppmeyer	2
-will	2
-zoffixznet	2.keys
-doc/Type/Backtrace/Frame.pod6, +altay-man	4
-jan-olof.hendig	1
-will	1.keys
-lib/Type/Stash.pod, +moritz	1
-smls75	1.keys
-app.pl, +alexmoquin	1
-cpan	14
-geoff	2
-info	1
-samantham	3
-tom.browder	2
-zoffixznet	1.keys
-doc/Type/Pod/Item.pod, +will	1.keys
-lib/Match.pod, +benjamin.tyler	1
-moritz	2
-pmichaud	1
-raiph.mellor	1.keys
-util/missing-types.p6, +alexmoquin	1
-paul	1
-will	1.keys
-doc/Type/NFC.pod, +moritz	1.keys
-lib/Type/X/Role/Initialization.pod, +alexmoquin	2
-smls75	1.keys
-lib/X/Sequence/Deduction.pod, +moritz	1.keys
-lib/Type/X/Package/Stubbed.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/IO/Notification.pod, +alex.jakimenko	1
-wenzel.peppmeyer	2
-will	1.keys
-lib/Type/X/Constructor/Positional.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/Syntax/Number/RadixOutOfRange.pod6, +altay-man	1
-will	1.keys
-lib/Type/X/TypeCheck/Assignment.pod, +alexmoquin	1
-smls75	1.keys
-doc/Type/X/Syntax/Missing.pod, +will	1.keys
-sketch/html/css/custom-theme/images/ui-bg_inset-hard_95_f5e47b_1x100.png, +alexmoquin	2.keys
-LICENSE, +alex.jakimenko	1
-moritz	1.keys
-doc/Perl6/02-other-progs.pod, +tom.browder	1.keys
-doc/Type/X/OutOfRange.pod6, +altay-man	2
-will	1.keys
-doc/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod6, +altay-man	2
-jjmerelo	1
-will	1.keys
-doc/Type/Telemetry/snapper.pod6, +liz	3.keys
-lib/X/IO/Dir.pod, +moritz	1.keys
-lib/Pair.pod, +moritz	5
-pmichaud	2
-tim.dolores	1.keys
-xt/.aspell.pws, +will	3.keys
-doc/Language/concurrency.pod6, +MasterDuke17	3
-altay-man	3
-cpan	2
-daniel.dehennin	1
-fluca1978	1
-jan-olof.hendig	1
-jjmerelo	8
-studerj1.mail	1
-tom.browder	1
-wander4096	1
-wenzel.peppmeyer	4
-will	6
-zoffixznet	3.keys
-doc/Type/Positional.pod, +will	2.keys
-lib/Language/quoting.pod, +alexmoquin	4
-moritz	3
-paul	7.keys
-lib/X/Phaser/Multiple.pod, +moritz	1.keys
-doc/Type/Routine.pod, +LLFourn	1
-alex.jakimenko	1
-cpan	2
-info	1
-jnthn	1
-jsoref	1
-mlenz	1
-titsuki	1
-will	1
-zoffixznet	1.keys
-doc/Type/X/Parameter/WrongOrder.pod6, +altay-man	2
-will	1.keys
-lib/Perl6/TypeGraph.pm6, +alex.jakimenko	1.keys
-lib/Type/Proxy.pod, +cedric	1
-moritz	1
-smls75	1.keys
-lib/WhateverCode.pod, +moritz	1.keys
-doc/Type/Numeric.pod, +wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/IO/Cwd.pod6, +altay-man	2
-will	1.keys
-lib/Type/X/Syntax/Number/RadixOutOfRange.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Perl.pod6, +jjmerelo	3
-liz	1
-studerj1.mail	1.keys
-doc/Type/Iterable.pod6, +altay-man	4
-jan-olof.hendig	1
-jjmerelo	3
-jnthn	1
-liz	1
-matthias.bloch	4
-steve.mynott	1
-studerj1.mail	1
-wenzel.peppmeyer	2
-will	4
-zoffixznet	1.keys
-lib/X/Temporal.pod, +moritz	1.keys
-lib/Type/X/Does/TypeObject.pod, +bri	1
-moritz	2
-smls75	1.keys
-lib/Mix.pod, +alexmoquin	3.keys
-doc/Language/performance.pod, +alex.jakimenko	1
-altay-man	2
-raiph.mellor	9
-timonator	3
-tom.browder	1.keys
-lib/Language/about.pod, +alexmoquin	1
-justin	1
-moritz	1.keys
-doc/Type/Supply.pod, +alex.jakimenko	1
-bri	1
-cpan	1
-dbrunton	4
-jan-olof.hendig	2
-jns+git	3
-jnthn	3
-liz	8
-moritz	2
-nlogan	1
-steve.mynott	1
-will	4.keys
-xt/examples-compilation.t, +altay-man	3
-cpan	4
-jjmerelo	4
-naoum88	1
-studerj1.mail	3
-wenzel.peppmeyer	1
-will	43.keys
-lib/Type/IO/Socket/Async.pod, +jns+git	4
-smls75	1
-steve.mynott	1.keys
-doc/Type/Supplier/Preserving.pod6, +jan-olof.hendig	1
-wenzel.peppmeyer	1
-will	1.keys
-doc/Type/X/Syntax/Variable/Twigil.pod6, +altay-man	3
-will	1.keys
-lib/Pod/Convenience.pm6, +alexmoquin	5
-cpan	1
-ddgreen	2
-jjmerelo	1
-moritz	1
-paul	3
-rob	2
-timonator	1
-will	3.keys
-doc/Type/X/Temporal/InvalidFormat.pod6, +215106+cfa	1
-altay-man	2
-studerj1.mail	1
-will	2.keys
-doc/Type/Telemetry/.DS_Store, +wander4096	2.keys
-sketch/html/images/camelia-small.png, +alexmoquin	2.keys
-doc/Language/pragmas.pod6, +215106+cfa	1
-MasterDuke17	1
-antquinonez	2
-cpan	3
-jjmerelo	1
-liz	4
-studerj1.mail	1
-tom.browder	4
-wenzel.peppmeyer	5
-will	4
-zoffixznet	1.keys
-doc/Type/X/AdHoc.pod, +bri	1
-will	1.keys
-lib/Type/Lock.pod, +dha	2
-moritz	2.keys
-doc/Type/X/Proc/Async/AlreadyStarted.pod6, +altay-man	2
-jan-olof.hendig	1
-will	1.keys
-doc/Type/Code.pod, +jan-olof.hendig	1
-moritz	1
-scolinet	1
-wenzel.peppmeyer	1
-will	1.keys
-lib/Language/unicode_entry.pod, +alexmoquin	2
-justin	1
-moritz	1
-paul	3
-rob	1.keys
-doc/Type/DateTime.pod6, +altay-man	5
-cpan	7
-samantham	1
-studerj1.mail	1
-thormichael	1
-tom.browder	2
-wander4096	1
-wenzel.peppmeyer	1
-will	4
-zoffixznet	4.keys
-doc/Type/Submethod.pod6, +altay-man	1
-studerj1.mail	1
-will	2.keys
-lib/Type/X/Syntax/AddCategorial/MissingSeparator.pod, +paul	2
-smls75	1
-use_v6	1.keys
-lib/Type/Proc/Status.pod, +moritz	1
-paul	1
-smls75	1.keys
-cpanfile, +cpan	1
-jjmerelo	1.keys
-highlights/package.json, +jjmerelo	1
-samantham	5.keys
-lib/Language/5to6.pod, +alexmoquin	1
-bri	1
-bruce.gray	2
-cpan	4
-dha	3
-duff	2
-fh	1
-justin	1
-larry	11
-nbrown04	1
-paul	14
-smls75	5
-steve.mynott	1.keys
-doc/Type/Metamodel/Finalization.pod6, +altay-man	1
-will	1.keys
-lib/Type/X/Attribute/NoPackage.pod, +alexmoquin	2
-smls75	1.keys
-lib/X/Redeclaration.pod, +moritz	1.keys
-doc/Type/Scheduler.pod6, +cpan	1
-studerj1.mail	1
-will	1.keys
-doc/Type/X/Syntax/Malformed.pod6, +altay-man	5
-will	1.keys
-STYLEGUIDE.md, +alex.jakimenko	1
-bwilcox	1
-cpan	2
-fluca1978	2
-jjmerelo	1
-will	4
-zoffixznet	1.keys
-doc/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod, +will	1.keys
-lib/Language/nativecall.pod, +carbin	2
-cedric	1
-dha	1
-email	2
-git	1
-jns+git	3
-moritz	1
-paul	1
-smls75	2.keys
-lib/Positional.pod, +glitchmr	1
-moritz	1
-pmichaud	1.keys
-doc/Type/Bag.pod, +ddgreen	1
-jan-olof.hendig	1
-mathieu	1
-will	1.keys
-doc/Language/objects.pod6, +215106+cfa	1
-altay-man	6
-antquinonez	9
-bri	1
-bwilcox	1
-cpan	1
-fluca1978	7
-jan-olof.hendig	1
-jjmerelo	10
-jkramer	1
-moritz	2
-moritz.lenz	1
-ronaldxs	3
-samantham	1
-sanchezchristian	1
-seatek	1
-studerj1.mail	1
-thormichael	1
-tom.browder	1
-wander4096	6
-wenzel.peppmeyer	3
-will	11
-zakame	4
-zoffixznet	2.keys
-doc/Type/X/TypeCheck.pod, +will	1.keys
-lib/Type/IO/Spec/Unix.pod, +dha	1
-jns+git	1.keys
-doc/Type/X/Pod.pod6, +will	1.keys
-html/perl6.xhtml, +jjmerelo	2.keys
-lib/Mu.pod, +benjamin.tyler	1
-glitchmr	5
-mlenz	1
-moritz	7
-pmichaud	4
-raiph.mellor	1.keys
-doc/Language/5to6-perlvar.pod, +alex.jakimenko	2
-altay-man	4
-dha	2
-jan-olof.hendig	1
-liz	1
-lloyd.fourn	1
-mathieu	1
-pub.claudio	2
-steve.mynott	1
-tokuhirom	1
-will	1.keys
-doc/Type/Encoding.pod6, +jnthn	1
-moritz.lenz	1
-samantham	1
-studerj1.mail	1.keys
-doc/Type/X/Anon/Augment.pod6, +altay-man	6
-jan-olof.hendig	1
-will	1.keys
-doc/Type/X/Syntax/Variable/Match.pod, +will	1.keys
-lib/X/NoDispatcher.pod, +moritz	1.keys
-lib/Type/X/Syntax/Regex/Adverb.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Lock.pod6, +altay-man	5
-jjmerelo	1
-studerj1.mail	1
-will	2
-zoffixznet	1.keys
-search_template.html, +geoff	2.keys
-lib/IO.pod, +alexmoquin	1
-moritz	1
-raiph.mellor	1
-szabgab	3.keys
-lib/Type/Num.pod, +alexmoquin	1
-smls75	1.keys
-html/css/custom-theme/images/ui-bg_glass_45_C0E472_1x400.png, +cpan	1.keys
-lib/Backtrace/Frame.pod, +moritz	1.keys
-lib/X/Syntax/Missing.pod, +moritz	1.keys
-lib/Type/X/Syntax/Comment/Embedded.pod, +alexmoquin	1
-smls75	1.keys
-doc/Language/exceptions.pod, +alex.jakimenko	1
-cpan	3
-moritz	1
-wenzel.peppmeyer	7
-will	1.keys
-doc/Type/Cool.pod, +LLFourn	1
-alex.jakimenko	3
-bwilcox	1
-dha	2
-fischer.emeric	1
-jan-olof.hendig	8
-jnthn	2
-jsoref	6
-moritz	1
-steve.mynott	1
-timonator	1
-wenzel.peppmeyer	6
-will	1
-zoffixznet	3.keys
-doc/Type/NFD.pod, +jsoref	1
-moritz	1.keys
-lib/Type/X/Parameter/Default.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Callable.pod, +LLFourn	1
-alex.jakimenko	2
-awwaiid	1
-bruce.gray	1
-tom.browder	1
-wenzel.peppmeyer	4
-will	2.keys
-doc/Language/concurrency.pod, +adriaan.larmuseau	1
-alex.jakimenko	2
-cpan	3
-jan-olof.hendig	1
-jns+git	6
-sterling	2
-will	3.keys
-lib/X/Composition/NotComposable.pod, +moritz	1.keys
-doc/Language/control.pod6, +altay-man	3
-armand.halbert	1
-bduggan	1
-bri	2
-bwilcox	1
-cpan	1
-fluca1978	1
-jan-olof.hendig	7
-jjmerelo	2
-liz	1
-studerj1.mail	1
-tom.browder	13
-wander4096	1
-wenzel.peppmeyer	30
-will	10
-zoffixznet	2.keys
-doc/Language/math.pod6, +jjmerelo	13
-will	3.keys
-doc/Type/Proc.pod, +will	1.keys
-doc/Type/X/Signature/NameClash.pod, +will	1.keys
-lib/Type/X/Syntax/Reserved.pod, +alexmoquin	2
-smls75	1
-steve.mynott	1.keys
-doc/Language/faq.pod, +LLFourn	1
-alex.jakimenko	2
-altay-man	2
-b2gills	1
-bri	1
-cmasak	1
-cognominal	2
-coleoid	1
-cpan	7
-jan-olof.hendig	1
-jgabriele	1
-jsoref	2
-larry	3
-liz	2
-martin	1
-molecules	1
-moritz	5
-steve.mynott	30
-titsuki	1
-tom.browder	1
-vincent-github	1
-wenzel.peppmeyer	3
-will	1
-zoffixznet	1.keys
-lib/Type/Metamodel/MultipleInheritance.pod, +moritz	2
-smls75	1.keys
-lib/Type/Metamodel/Trusting.pod, +moritz	2
-smls75	1.keys
-doc/Type/Slip.pod, +alex.jakimenko	2
-bri	1
-bruce.gray	1
-wenzel.peppmeyer	1
-will	1.keys
-lib/X/Numeric/Real.pod, +moritz	1.keys
-sketch/html/js/jquery-ui-1.8.21.custom.min.js, +alexmoquin	2.keys
-doc/Type/X/Syntax/Variable/Numeric.pod, +will	1.keys
-doc/HomePage.pod, +cpan	1
-jsoref	1
-moritz	1
-tom.browder	2
-will	1
-zoffixznet	1.keys
-doc/Language/grammars.pod6, +215106+cfa	1
-altay-man	5
-antquinonez	1
-armand.halbert	1
-cpan	8
-flexibeast	1
-fluca1978	2
-jan-olof.hendig	1
-jjmerelo	5
-raydiak	1
-studerj1.mail	1
-titsuki	1
-tom.browder	2
-wander4096	3
-wenzel.peppmeyer	2
-will	5
-zoffixznet	3.keys
-doc/Programs/02-reading-docs.pod6, +jjmerelo	1
-studerj1.mail	1
-tom.browder	3.keys
-doc/Type/X/Export/NameClash.pod, +will	1.keys
-lib/Capture.pod, +bbkr	1
-moritz	1.keys
-lib/Language/traps.pod, +bri	3
-moritz	5
-paul	9
-raydiak	1
-ronaldxs	1
-steve.mynott	1
-vendethiel	1.keys
-index.pl, +moritz	1
-szabgab	3.keys
-doc/Type/Pod/Block/Code.pod, +will	1.keys
-lib/Type/X/Parameter/MultipleTypeConstraints.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-lib/Type/X/Syntax/NoSelf.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Metamodel/EnumHOW.pod6, +brian	1
-jjmerelo	1
-will	1.keys
-doc/Type/PositionalBindFailover.pod, +tom.browder	1
-will	1.keys
-doc/Language/haskell-to-p6.pod6, +215106+cfa	2
-b2gills	3
-cale.short	19
-jjmerelo	1
-kaiepi	1
-siavash.askari.nasr	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	12.keys
-doc/Type/Seq.pod, +alex.jakimenko	1
-jan-olof.hendig	1
-wenzel.peppmeyer	1
-will	2.keys
-doc/Type/Cancellation.pod6, +altay-man	3
-studerj1.mail	1
-will	1.keys
-doc/Type/X/Proc/Async.pod, +will	1.keys
-lib/Type/Baggy.pod, +alexmoquin	2
-dha	1
-smls75	3.keys
-lib/Type/Mix.pod, +alexmoquin	3
-smls75	1.keys
-lib/X/Syntax/NegatedPair.pod, +moritz	2.keys
-lib/Pod/Block.pod, +moritz	1.keys
-lib/Routine.pod, +benjamin.tyler	1
-moritz	1
-tim.dolores	1.keys
-doc/Type/X/Package/Stubbed.pod6, +altay-man	3
-will	1.keys
-type-groups.json, +wenzel.peppmeyer	2.keys
-Build.pm, +sog	1
-steve.mynott	5
-ugexe	1
-will	1.keys
-doc/Type/PositionalBindFailover.pod6, +altay-man	2
-studerj1.mail	1
-will	1
-zoffixznet	2.keys
-doc/Type/Metamodel/Trusting.pod, +will	1.keys
-sketch/html/css/custom-theme/images/ui-bg_inset-hard_95_e47286_1x100.png, +alexmoquin	2.keys
-doc/Type/X/Syntax/NoSelf.pod6, +altay-man	2
-jjmerelo	1
-will	2.keys
-doc/Language/traps.pod6, +215106+cfa	6
-MasterDuke17	1
-after.fallout	1
-alex.jakimenko	32
-alex.jakimenko+github	1
-altay-man	4
-book	1
-bri	1
-cpan	7
-fluca1978	7
-jan-olof.hendig	5
-jenkinsd	1
-jjmerelo	21
-johnnyspoon	2
-karl.yerkes	1
-lucasbuchala	1
-mattoates	1
-nicq20	2
-pmichaud	1
-raiph.mellor	1
-samantham	1
-sanchezchristian	1
-seatek	2
-sterling	1
-steve.mynott	1
-studerj1.mail	3
-vynce.montgomery	1
-wander4096	2
-wenzel.peppmeyer	8
-will	29
-zoffixznet	31.keys
-doc/Type/IO/Socket.pod6, +cpan	1
-jan-olof.hendig	2
-will	1
-zoffixznet	1.keys
-doc/Type/X/Parameter/WrongOrder.pod, +will	1.keys
-lib/Type/X/Attribute/Undeclared.pod, +alexmoquin	2
-paul	1
-smls75	1.keys
-util/check-type-graph.p6, +paul	1.keys
-lib/Type/Iterable.pod, +alexmoquin	1
-davidnmfarrell	1
-dha	1
-moritz	1
-smls75	2
-will	1.keys
-lib/Type/Numeric.pod, +alexmoquin	2
-bslaabs	1
-moritz	3
-smls75	1.keys
-lib/X/ControlFlow.pod, +moritz	1.keys
-lib/Type/X/Undeclared.pod, +alexmoquin	2
-smls75	1.keys
-doc/Type/Submethod.pod, +jan-olof.hendig	2
-will	1.keys
-doc/Language/5to6-perlfunc.pod6, +215106+cfa	8
-alex.jakimenko	2
-altay-man	1
-cpan	6
-ddgreen	1
-flexibeast	1
-gabor	3
-jan-olof.hendig	3
-jjmerelo	7
-jnthn	1
-kaiepi	1
-liz	16
-molecules	1
-rafaelschipiura	1
-sterling	1
-steve.mynott	2
-studerj1.mail	1
-themanchicken	1
-timonator	1
-tom.browder	1
-treyharris	2
-wenzel.peppmeyer	1
-will	13
-zoffixznet	8.keys
-doc/Type/Setty.pod6, +alex.jakimenko	1
-altay-man	9
-cpan	1
-jan-olof.hendig	11
-studerj1.mail	1
-will	1.keys
-lib/Type/X/Syntax/Obsolete.pod, +alexmoquin	2.keys
-doc/Type/Blob.pod, +ddgreen	1
-jns+git	1
-liz	1
-will	1.keys
-doc/Type/X/Syntax.pod, +will	1.keys
-lib/Type/Bag.pod, +alexmoquin	3
-smls75	1.keys
-doc/Language/ipc.pod, +sterling	1.keys
-assets/js/main.js, +cpan	4
-zoffixznet	1.keys
-doc/Type/ObjAt.pod6, +studerj1.mail	1
-will	1.keys
-doc/Type/X/Syntax/NoSelf.pod, +will	1.keys
-doc/Type/X/Syntax/Regex/SolitaryQuantifier.pod, +will	1.keys
-doc/Language/unicode_texas.pod, +alex.jakimenko	6
-cpan	2
-larry	1
-liz	8
-siavash.askari.nasr	2
-tom.browder	21
-zoffixznet	2.keys
-doc/Language/setbagmix.pod6, +alex.jakimenko	1
-altay-man	2
-armand.halbert	1
-dmc00	2
-jan-olof.hendig	2
-jjmerelo	6
-liz	1
-studerj1.mail	1
-wander4096	1
-wenzel.peppmeyer	2
-will	2
-zoffixznet	1.keys
-t/pod6.t, +cpan	1
-jjmerelo	1
-will	6.keys
-lib/Type/Pod/Block/Named.pod, +alexmoquin	2
-smls75	2.keys
-lib/Hash.pod, +benjamin.tyler	1
-moritz	1
-raiph.mellor	1.keys
-lib/containers.pod, +alexmoquin	1
-jmg3000	1
-moritz	8
-rnddim	1.keys
-doc/Language/5to6-nutshell.pod, +alex.jakimenko	2
-bruce.gray	1
-bwilcox	4
-cpan	4
-dabe	2
-dha	3
-jjatria	1
-jsoref	2
-liz	1
-moritz	3
-shlomif	4
-steve.mynott	2
-tom.browder	6
-wenzel.peppmeyer	2
-zoffixznet	4.keys
-doc/Type/Routine.pod6, +alex.jakimenko	2
-altay-man	5
-cpan	3
-jjmerelo	5
-moritz.lenz	3
-sterling	1
-studerj1.mail	1
-wenzel.peppmeyer	6
-will	5
-zoffixznet	1.keys
-doc/Type/PairMap.pod, +LLFourn	1
-will	1.keys
-doc/Type/Telemetry/Instrument/ThreadPool.p6, +jjmerelo	1.keys
-doc/Type/X/Anon/Augment.pod, +will	1.keys
-doc/Type/Lock/Async.pod6, +liz	2
-will	1.keys
-doc/Type/X/Proc/Async/CharsOrBytes.pod6, +altay-man	3
-jan-olof.hendig	1
-will	1.keys
-doc/Type/Thread.pod6, +altay-man	4
-jan-olof.hendig	1
-jnthn	1
-liz	1
-studerj1.mail	1
-wenzel.peppmeyer	1
-will	2
-zoffixznet	1.keys
-doc/Type/X/ControlFlow.pod, +will	2.keys
-lib/Type/X/Temporal.pod, +alexmoquin	1
-smls75	2.keys
-lib/X/Eval/NoSuchLang.pod, +moritz	2.keys
-doc/Language/5to6-perlfunc.pod, +alex.jakimenko	1
-altay-man	3
-bri	1
-bruce.gray	1
-bwilcox	2
-cpan	2
-dha	6
-jan-olof.hendig	2
-jgabriele	1
-mathieu	1
-moritz	1
-simon	2
-tom.browder	1
-will	2
-zoffixznet	2.keys
-doc/Type/X/ControlFlow.pod6, +altay-man	1
-will	1.keys
-doc/Type/X/Attribute/Package.pod6, +altay-man	3
-will	1.keys
-doc/Type/X/IO/Rmdir.pod, +will	1.keys
-lib/X/Method/Private/Unqualified.pod, +moritz	1.keys
-doc/Type/X/Str/Numeric.pod6, +altay-man	2
-will	1.keys
-lib/Type/Dateish.pod, +dha	1
-moritz	1
-smls75	1
-steve.mynott	1.keys
+doc/Type/X/IO/Cwd.pod, 1
+lib/Pod/To/SectionFilter.pm, 4
+doc/Type/Metamodel/AttributeContainer.pod, 2
+lib/Type/X/Augment/NoSuchType.pod, 4
+doc/Type/IO/Socket.pod, 5
+doc/Type/Slip.pod6, 5
+lib/Type/X/Channel/SendOnClosed.pod, 2
+lib/Bag.pod, 1
+doc/Type/AST.pod, 2
+doc/Type/NFD.pod, 2
+doc/Type/IO/Socket.pod6, 4
+lib/Type/X/Syntax.pod, 2
+doc/Type/X/IO/Link.pod6, 3
+t/05-pod-convenience.t, 1
+README.es.md, 9
+doc/Type/Pod/Item.pod, 1
+doc/Type/X/Proc/Async/CharsOrBytes.pod, 1
+lib/X/TypeCheck/Assignment.pod, 1
+doc/Type/X/Syntax/Regex/Adverb.pod6, 2
+doc/Type/Nil.pod6, 6
+lib/Type/IO/ArgFiles.pm, 1
+doc/Type/Parameter.pod6, 5
+lib/Type/X/Undeclared.pod, 2
+sketch/html/css/custom-theme/images/ui-bg_inset-hard_95_e47286_1x100.png, 1
+lib/Type/Slip.pod, 1
+doc/Language/contributors.pod, 2
+doc/Language/5to6-perlfunc.pod6, 24
+util/test-links.sh, 2
+lib/Type/Junction.pod, 4
+doc/Language/containers.pod, 6
+doc/Type/IO/Socket/INET.pod6, 7
+lib/Test-Files.pm, 2
+doc/Type/X/Assignment/RO.pod, 1
+lib/Type/X/Str/Numeric.pod, 3
+doc/Type/X/Channel/ReceiveOnClosed.pod6, 3
+doc/Type/Pair.pod6, 11
+doc/Type/Block.pod, 5
+html/js/DUMMY.txt, 1
+doc/Type/Telemetry/Instrument/Thread.pod6, 2
+doc/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod, 1
+doc/Type/Range.pod, 6
+doc/Type/Pod/Block.pod6, 4
+lib/Language/5to6-perlop.pod, 4
+doc/Language/classtut.pod6, 17
+doc/Type/X/Bind/NativeType.pod, 1
+doc/Type/X/Syntax/NegatedPair.pod, 1
+lib/Type/X/Phaser/PrePost.pod, 3
+lib/Type/X/IO/Rename.pod, 2
+doc/Type/X/Temporal/Truncation.pod, 2
+lib/Type/X/Syntax/Reserved.pod, 3
+doc/Type/QuantHash.pod, 2
+doc/Type/X/Syntax/Variable/Match.pod, 1
+lib/Type/X/Channel/ReceiveOnClosed.pod, 2
+doc/Type/NFKC.pod, 2
+doc/Type/Semaphore.pod, 4
+doc/Language/concurrency.pod, 7
+doc/Language/functions.pod, 15
+doc/Type/Label.pod6, 3
+lib/Type/Match.pod, 5
+lib/Type/X/Syntax/Augment/Role.pod, 4
+lib/X/Method/Private/Unqualified.pod, 1
+doc/Type/X/Syntax/P5.pod, 1
+lib/Sub.pod, 1
+doc/Type/BagHash.pod, 3
+sketch/html/css/style.css, 1
+doc/Type/Stringy.pod6, 2
+doc/Programs/03-environment-variables.pod6, 1
+doc/Type/X/Constructor/Positional.pod6, 3
+doc/Type/Metamodel/Naming.pod6, 2
+doc/Type/Whatever.pod6, 10
+doc/Type/Variable.pod6, 10
+Makefile, 10
+doc/Type/X/IO/Rename.pod, 1
+lib/Type/Complex.pod, 3
+doc/Language/typesystem.pod, 4
+doc/Type/Metamodel/MROBasedMethodDispatch.pod6, 4
+doc/Type/IO/CatHandle.pod6, 5
+t/pod-convenience.t, 7
+doc/Type/CurrentThreadScheduler.pod6, 4
+doc/Type/X/Undeclared.pod, 1
+lib/Pod/Block.pod, 1
+lib/X/NoDispatcher.pod, 1
+lib/Int.pod, 5
+template/type-graph.html, 4
+doc/Type/X/AdHoc.pod6, 4
+lib/Language/containers.pod, 5
+lib/Type/IO/Pipe.pod, 2
+lib/Type/X/Temporal/Truncation.pod, 2
+doc/Type/IO/Socket/INET.pod, 3
+doc/Type/Metamodel/RoleContainer.pod, 1
+doc/Type/Attribute.pod, 5
+lib/Type/X/Attribute/NoPackage.pod, 2
+.DS_Store, 1
+doc/Language/rb-nutshell.pod6, 13
+doc/Type/Regex.pod6, 5
+doc/Type/X/Syntax/InfixInTermPosition.pod6, 2
+html/images/Camelia-faded.svg, 3
+doc/Type/Telemetry/Instrument/Threadpool.pod6, 2
+lib/Type/Attribute.pod, 4
+lib/WhateverCode.pod, 1
+doc/Type/X/Method/InvalidQualifier.pod, 1
+doc/.DS_Store, 1
+doc/Type/ThreadPoolScheduler.pod6, 3
+lib/Type/X/Syntax/Placeholder.pod, 1
+doc/Type/X/Syntax/Number/RadixOutOfRange.pod, 1
+doc/Perl6/01-debugging.pod, 1
+doc/Type/Array.pod, 8
+html/css/custom-theme/images/ui-icons_e13755_256x240.png, 2
+html/css/custom-theme/images/ui-bg_glass_45_80b5ff_1x400.png, 2
+util/update-and-sync, 8
+lib/X/Syntax/Placeholder.pod, 1
+html/css/custom-theme/jquery-ui-1.8.21.custom.css, 1
+doc/Type/X/Pod.pod, 1
+sketch/html/css/custom-theme/images/ui-icons_e13755_256x240.png, 1
+doc/Type/X/IO.pod6, 1
+doc/Type/X/Anon/Multi.pod6, 2
+sketch/html/css/custom-theme/images/ui-bg_flat_75_ffffff_40x100.png, 1
+doc/Type/X/Seq/Consumed.pod, 2
+html/css/pygments.css.bak, 1
+doc/Type/Kernel.pod6, 5
+doc/Type/Bag.pod6, 8
+xt/duplicates.t, 3
+index.p6, 2
+doc/Language/5to6.pod, 1
+doc/Type/Mu.pod6, 11
+doc/Type/EnumMap.pod, 1
+lib/Parameter.pod, 3
+util/sync, 1
+doc/Type/X/Channel/ReceiveOnClosed.pod, 2
+doc/Type/Supplier.pod, 4
+doc/Type/Metamodel/MethodContainer.pod6, 3
+doc/Type/MixHash.pod6, 5
+doc/Type/PseudoStash.pod6, 3
+doc/Type/Any.pod6, 19
+doc/Type/X/IO/DoesNotExist.pod6, 3
+sketch/html/css/custom-theme/images/ui-bg_glass_75_c0e472_1x400.png, 1
+doc/Programs/02-other-progs.pod, 2
+bin/p6doc-index, 9
+doc/Language/hashmap.pod6, 1
+WANTED, 16
+doc/Type/X/Str/Numeric.pod6, 2
+html/.htaccess, 8
+doc/Type/AST.pod6, 2
+doc/Type/X/Role/Initialization.pod, 1
+doc/Type/Pod/Block.pod, 4
+README.nl.md, 2
+doc/Type/X/Proc/Async/TapBeforeSpawn.pod, 2
+lib/Type/Pod/Item.pod, 2
+doc/Type/Metamodel/Trusting.pod6, 2
+doc/Type/Telemetry/Instrument/Usage.pod6, 2
+doc/Type/Blob.pod, 4
+doc/Type/Instant.pod6, 5
+doc/Type/X/Syntax/NoSelf.pod, 1
+doc/Type/IO/Path/Cygwin.pod6, 2
+sketch/html/js/jquery-ui-1.8.21.custom.min.js, 1
+search_template.js, 1
+template/search_template.js, 9
+doc/Type/Cool.pod6, 20
+lib/Type/X/Anon/Multi.pod, 2
+doc/Type/Systemic.pod6, 1
+doc/Type/Bool.pod, 1
+doc/Type/X/Does/TypeObject.pod, 1
+lib/Language/testing.pod, 5
+lib/Type/Instant.pod, 2
+lib/Type/Channel.pod, 5
+lib/Type/Metamodel/Primitives.pod, 5
+lib/Type/Metamodel/RoleContainer.pod, 4
+doc/Language/unicode_entry.pod, 4
+doc/Language/phasers.pod6, 12
+lib/X/Redeclaration.pod, 1
+README.md, 25
+util/travis-build.sh, 1
+lib/Type/Metamodel/Naming.pod, 2
+doc/Type/X/Inheritance/Unsupported.pod, 1
+doc/Type/Int.pod6, 10
+doc/Type/X/Proc/Async/MustBeStarted.pod, 1
+lib/Type/X/Signature/Placeholder.pod, 2
+lib/X/IO/Chdir.pod, 1
+doc/Language/traps.pod6, 31
+doc/Type/Cursor.pod, 1
+doc/Type/Lock.pod, 3
+doc/Language/subscripts.pod6, 15
+lib/Type/Str.pod, 10
+lib/Rat.pod, 4
+doc/Type/Metamodel/Naming.pod, 1
+doc/Type/VM.pod6, 4
+doc/Type/X/Channel/SendOnClosed.pod, 2
+html/js/jquery-1.11.3.min.js, 2
+util/new-type.p6, 4
+xt/aspell.t, 4
+lib/Type/X/Parameter/WrongOrder.pod, 2
+lib/X/Parameter/WrongOrder.pod, 1
+doc/Type/X/Attribute/Package.pod6, 2
+doc/Type/X/TypeCheck/Splice.pod, 1
+lib/Type/X/Method/NotFound.pod, 2
+sketch/html/css/custom-theme/images/ui-bg_flat_0_888888_40x100.png, 1
+doc/Type/X/Numeric/Real.pod6, 2
+README.zh.md, 4
+lib/Type/X/Proc/Async.pod, 2
+lib/Language/mop.pod, 5
+util/sync-build-log, 1
+lib/X/Placeholder/Mainline.pod, 1
+doc/Type/X/Proc/Async.pod, 1
+doc/Type/Any.pod, 7
+doc/Language/temporal.pod6, 3
+lib/Type/Tap.pod, 2
+doc/Language/control.pod6, 16
+lib/Type/PairMap.pod, 2
+sketch/html/css/custom-theme/images/ui-icons_000000_256x240.png, 1
+lib/regexes.pod, 2
+doc/Type/Slip.pod, 5
+lib/Type/Metamodel/MethodContainer.pod, 3
+lib/X/IO/Copy.pod, 1
+doc/Language/contributors.pod6, 6
+util/compile-sass.sh, 2
+lib/Pod/To/SectionFilter.pm6, 1
+doc/Type/Encoding.pod6, 4
+lib/Callable.pod, 1
+doc/Type/Code.pod, 5
+doc/Type/Telemetry/Sampler.pod6, 3
+lib/X/Attribute/Package.pod, 1
+lib/X/Placeholder/Block.pod, 1
+doc/Type/Callable.pod, 7
+xt/space-after-commma.t, 2
+Build.pm, 4
+util/missing-types.p6, 3
+lib/Type/Cursor.pod, 2
+lib/Baggy.pod, 1
+doc/Type/Backtrace.pod, 2
+doc/Type/X/Attribute/NoPackage.pod, 1
+doc/Type/nativeInt.pod, 1
+lib/Type/X/TypeCheck/Return.pod, 2
+lib/Perl6/TypeGraph.pm, 9
+doc/Type/X/Parameter/Placeholder.pod, 1
+lib/Language/subscripts.pod, 6
+lib/X/Syntax/Missing.pod, 1
+doc/Type/NumStr.pod, 4
+doc/Type/X/Syntax/P5.pod6, 2
+doc/Type/X/Syntax/Self/WithoutObject.pod6, 3
+doc/Language/unicode.pod6, 13
+doc/Type/Metamodel/PrivateMethodContainer.pod, 1
+lib/Type/IO/Socket.pod, 3
+doc/Type/Signature.pod, 11
+doc/Type/IO/Pipe.pod6, 5
+doc/Language/modules-extra.pod6, 5
+lib/Iterator.pod, 1
+doc/Type/Metamodel/Primitives.pod, 2
+doc/Type/X/Eval/NoSuchLang.pod6, 3
+doc/Programs/01-debugging.pod6, 11
+doc/Type/Uni.pod, 3
+doc/Type/X/ControlFlow/Return.pod6, 2
+doc/Language/pragmas.pod6, 11
+doc/Language/nativecall.pod6, 26
+lib/X/IO/Dir.pod, 1
+doc/Type/X/Syntax/Self/WithoutObject.pod, 1
+doc/Type/X/OutOfRange.pod6, 2
+lib/Type/X/IO/Chmod.pod, 2
+doc/Type/X/Promise/Vowed.pod, 2
+doc/Language/math.pod6, 2
+lib/Type/PositionalBindFailover.pod, 2
+lib/Cursor.pod, 2
+doc/Type/Setty.pod6, 6
+doc/Language/exceptions.pod, 5
+doc/Type/Code.pod6, 6
+lib/X/Syntax/Obsolete.pod, 1
+doc/Language/5to6-perlsyn.pod, 6
+doc/Language/variables.pod, 16
+xt/doc, 1
+lib/Language/glossary.pod, 3
+doc/Type/NFC.pod6, 4
+doc/Type/X/Syntax/Augment/Role.pod, 2
+doc/HomePage.pod, 6
+lib/Language/5to6-perlsyn.pod, 1
+lib/Type/List.pod, 9
+lib/X/Composition/NotComposable.pod, 1
+doc/Type/X/Inheritance/Unsupported.pod6, 2
+doc/Type/X/Method/Private/Permission.pod6, 2
+lib/Type/ObjAt.pod, 2
+doc/Type/Duration.pod6, 2
+doc/Type/X/IO/Chdir.pod, 1
+lib/Type/Any.pod, 5
+sketch/html/css/custom-theme/images/ui-icons_63a4ff_256x240.png, 1
+lib/Type/Real.pod, 3
+lib/Type/X/Anon/Augment.pod, 3
+doc/Language/5to6-perlfunc.pod, 15
+doc/Type/IO/Notification.pod6, 4
+doc/Type/Routine.pod, 10
+doc/Type/X/Promise/CauseOnlyValidOnBroken.pod6, 1
+doc/Language/community.pod6, 4
+lib/Type/Associative.pod, 3
+doc/Type/X/Syntax.pod6, 1
+doc/Type/X/IO/Move.pod6, 2
+doc/Type/Str.pod6, 23
+highlights/package.json, 2
+lib/Type/X/ControlFlow/Return.pod, 2
+doc/Type/Tap.pod6, 5
+doc/Language/faq.pod6, 23
+util/travis-test.sh, 1
+doc/Type/IO/Path.pod, 10
+doc/Language/5to6-nutshell.pod, 15
+doc/Language/exceptions.pod6, 14
+doc/Type/Seq.pod6, 9
+doc/Type/X/IO/Symlink.pod, 1
+doc/Type/Int.pod, 9
+lib/Type/X/Method/Private/Unqualified.pod, 2
+doc/Type/X/Syntax/Variable/Match.pod6, 2
+util/missing-methods.p6, 2
+doc/Language/py-nutshell.pod6, 10
+doc/Type/Complex.pod6, 5
+lib/Type/X/IO.pod, 2
+test-links.sh, 1
+doc/Type/X/Syntax/Variable/Twigil.pod, 1
+lib/Type/IO/Socket/Async.pod, 3
+doc/Type/Thread.pod, 3
+lib/Type/MixHash.pod, 3
+lib/Type/X/Parameter/Default.pod, 2
+sketch/html/css/custom-theme/images/ui-bg_glass_45_80b5ff_1x400.png, 1
+doc/Type/Iterable.pod, 4
+doc/Type/X/Comp.pod6, 1
+doc/Language/glossary.pod6, 22
+doc/Type/X/Syntax/Regex/SolitaryQuantifier.pod, 1
+doc/Type/Pod/Block/Code.pod, 1
+lib/Rational.pod, 2
+doc/Type/X/Inheritance/NotComposed.pod, 2
+README.fr.md, 3
+lib/Type/X/Syntax/Obsolete.pod, 1
+lib/Pod/Block/Named.pod, 1
+doc/Type/IO/Spec/QNX.pod, 4
+html/css/custom-theme/images/ui-bg_inset-hard_95_e47286_1x100.png, 2
+assets/js/main.js, 2
+lib/Type/Stash.pod, 2
+doc/Type/X/IO/Chmod.pod, 1
+lib/Type/X/Bind.pod, 2
+lib/Type/IO/FileTestable.pod, 4
+lib/Type/WhateverCode.pod, 3
+doc/Type/Numeric.pod, 2
+doc/Type/X/Placeholder/Mainline.pod6, 3
+doc/Type/X/Proc/Async/MustBeStarted.pod6, 3
+doc/Type/X/Parameter/Default.pod, 1
+doc/Type/X/Syntax/Regex/SolitaryQuantifier.pod6, 2
+lib/Type/X/Syntax/Variable/Numeric.pod, 2
+doc/Type/X/ControlFlow.pod6, 2
+lib/Language/variables.pod, 11
+lib/classtut.pod, 3
+doc/Language/5to6-perlop.pod6, 14
+lib/Language/concurrency.pod, 4
+lib/Type/Duration.pod, 2
+lib/Type/X/Promise/CauseOnlyValidOnBroken.pod, 1
+lib/Hash.pod, 3
+doc/Type/Lock.pod6, 5
+lib/X/Method/NotFound.pod, 1
+doc/Type/Channel.pod6, 8
+doc/Type/X/Method/Private/Unqualified.pod, 1
+writing-docs/SQUASHATHONS.md, 2
+lib/Type/Metamodel/AttributeContainer.pod, 2
+lib/containers.pod, 4
+doc/Type/X/TypeCheck.pod, 1
+lib/Language/functions.pod, 12
+lib/X/Syntax/Confused.pod, 1
+doc/Type/X/Syntax/Signature/InvocantMarker.pod6, 2
+, 256
+doc/Language/unicode_entry.pod6, 12
+lib/Type/IO/Spec/Unix.pod, 2
+doc/Type/Version.pod6, 7
+doc/Type/X/Method/NotFound.pod6, 2
+doc/Type/Cool.pod, 14
+doc/Language/glossary.pod, 12
+doc/Type/Stash.pod, 2
+doc/Type/IO/Spec/Unix.pod6, 4
+doc/Type/Telemetry/snapper.pod6, 1
+doc/Type/X/Channel/SendOnClosed.pod6, 3
+doc/Type/NFD.pod6, 4
+lib/Type/X/Syntax/Signature/InvocantMarker.pod, 2
+lib/X/Parameter/MultipleTypeConstraints.pod, 1
+doc/Type/X/IO/Rename.pod6, 2
+lib/Type/X/Proc/Async/CharsOrBytes.pod, 2
+lib/Type/X/Composition/NotComposable.pod, 2
+lib/Type/X/Sequence/Deduction.pod, 2
+lib/X/Role/Initialization.pod, 1
+doc/Type/Proc.pod6, 16
+lib/Type/Baggy.pod, 3
+doc/Type/Mixy.pod, 3
+sketch/html/images/camelia-small.png, 1
+doc/Type/Rational.pod, 4
+doc/Language/modules-extra.pod, 6
+doc/Type/Pod/Block/Para.pod6, 1
+doc/Type/IO/Spec/Cygwin.pod6, 3
+doc/Type/X/Syntax.pod, 1
+README.pt.md, 1
+doc/Language/mop.pod6, 8
+lib/Type/X/Proc/Async/TapBeforeSpawn.pod, 2
+util/check-type-graph.pl6, 3
+util/extract-examples.p6, 3
+doc/Type/X/Phaser/Multiple.pod, 1
+htmlify.p6, 34
+bin/p6doc, 22
+doc/Language/grammars.pod6, 17
+doc/Language/experimental.pod6, 9
+doc/Type/X/Bind.pod, 1
+lib/Type/Whatever.pod, 4
+template/index-content.html, 1
+doc/Type/RatStr.pod, 4
+doc/Type/IO/Spec.pod6, 3
+doc/Type/X/Declaration/Scope.pod6, 2
+lib/Type/Lock.pod, 2
+t/06-pod-htmlify.t, 1
+doc/Type/X/IO/Symlink.pod6, 3
+lib/Type/X/Role/Initialization.pod, 2
+lib/List.pod, 6
+lib/Macro.pod, 1
+doc/Type/Whatever.pod, 1
+doc/Type/X/Parameter/Default.pod6, 2
+lib/Type/FatRat.pod, 2
+doc/Type/X/Syntax/Malformed.pod, 1
+lib/Language/grammars.pod, 10
+doc/Type/X/Caller/NotDynamic.pod, 1
+STYLEGUIDE.md, 7
+lib/Setty.pod, 1
+doc/Type/X/Mixin/NotComposable.pod6, 4
+doc/Language/regexes.pod6, 33
+xt/words.pws, 10
+lib/Type/CurrentThreadScheduler.pod, 2
+lib/X/Syntax/Variable/Twigil.pod, 1
+doc/Type/Real.pod, 3
+doc/Language/ipc.pod, 1
+doc/Type/Rational.pod6, 6
+doc/Type/nativeInt.pod6, 3
+lib/Perl6/Documentable/Registry.pm, 5
+sketch/html/images/camelia-faded.png, 1
+lib/X/Syntax/P5.pod, 1
+lib/Iterable.pod, 1
+doc/Type/X/Phaser/PrePost.pod6, 2
+doc/Language/modules-core.pod6, 6
+CONTRIBUTING.md, 19
+lib/Type/X/Placeholder/Block.pod, 3
+lib/X/AdHoc.pod, 1
+doc/Type/Enum.pod, 2
+doc/Type/X/Phaser/Multiple.pod6, 2
+doc/Type/IO/Path.pod6, 19
+lib/Type/Range.pod, 4
+lib/Type/X/NYI.pod, 3
+doc/Type/Baggy.pod, 4
+lib/Block.pod, 1
+doc/Type/X/Bind.pod6, 2
+doc/Type/X/Method/Private/Permission.pod, 1
+doc/Type/Perl.pod6, 3
+doc/Language/functions.pod6, 21
+html/css/custom-theme/images/ui-bg_glass_75_c0e472_1x400.png, 2
+doc/Type/Signature.pod6, 23
+lib/Type/X/Method/Private/Permission.pod, 2
+type-groups.json, 1
+doc/Type/X/Syntax/Missing.pod6, 2
+lib/Type/X/IO/Dir.pod, 2
+lib/X/Parameter/Placeholder.pod, 1
+doc/Type/X/StubCode.pod, 1
+lib/Type/nativeInt.pod, 2
+template/index_head.html, 1
+doc/Type/X/IO/Move.pod, 1
+html/css/custom-theme/images/ui-icons_000000_256x240.png, 2
+lib/Language/5to6-perlfunc.pod, 2
+lib/Type/Rational.pod, 4
+lib/X/Anon/Augment.pod, 1
+doc/Type/Label.pod, 1
+lib/X/Signature/NameClash.pod, 1
+doc/Type/Submethod.pod, 2
+doc/Type/X/IO/Mkdir.pod, 1
+lib/Type/X/Placeholder/Mainline.pod, 2
+lib/Type/Regex.pod, 2
+doc/Language/terms.pod, 6
+lib/Bool.pod, 4
+doc/Type/Iterator.pod, 1
+doc/Type/X/Anon/Multi.pod, 1
+t/pod6.t, 3
+lib/Type/X/Obsolete.pod, 2
+doc/Type/X/IO/Unlink.pod6, 3
+doc/Type/X/Assignment/RO.pod6, 2
+assets/sass/_highlights.scss, 2
+writing-docs/EXAMPLES.md, 1
+lib/Buf.pod, 3
+lib/X/TypeCheck/MacroUnquote.pod, 1
+doc/Language/5to6-perlvar.pod, 11
+doc/Language/ipc.pod6, 9
+lib/Type/Int.pod, 6
+lib/Type/X/Syntax/Self/WithoutObject.pod, 2
+lib/X/Syntax/Regex/Adverb.pod, 1
+lib/X/Export/NameClash.pod, 1
+html/css/custom-theme/images/ui-icons_63a4ff_256x240.png, 2
+doc/Type/RatStr.pod6, 6
+lib/Instant.pod, 3
+doc/Type/Pod/Heading.pod6, 1
+doc/Type/Date.pod, 5
+assets/js/jquery.tablesorter.js, 1
+doc/Type/X/Parameter/WrongOrder.pod, 1
+util/check-type-graph.p6, 1
+lib/Type/X/NoDispatcher.pod, 2
+doc/Type/Pair.pod, 6
+lib/Failure.pod, 1
+doc/Type/X/Declaration/Scope/Multi.pod, 1
+doc/Type/X/Seq/Consumed.pod6, 1
+doc/Type/Iterable.pod6, 11
+lib/Type/X/Parameter/MultipleTypeConstraints.pod, 3
+lib/Regex.pod, 2
+doc/Type/Channel.pod, 6
+t/pod-valid.t, 3
+lib/Type/Pod/Block/Named.pod, 2
+lib/Enum.pod, 2
+doc/Type/X/Promise/CauseOnlyValidOnBroken.pod, 1
+lib/X/Numeric/Real.pod, 1
+lib/Type/Mixy.pod, 3
+lib/Backtrace/Frame.pod, 1
+lib/Language/modules.pod, 6
+.dockerignore, 1
+assets/sass/style.scss, 9
+doc/Type/X/IO/Dir.pod, 1
+lib/Type/IO/Path.pod, 7
+doc/Type/Junction.pod, 4
+util/xt-recent-aspell.p6, 1
+lib/Code.pod, 3
+doc/Type/Iterator.pod6, 11
+lib/Type/X/IO/Cwd.pod, 3
+doc/Type/Grammar.pod, 1
+doc/Language/5to6-perlsyn.pod6, 9
+doc/Type/Failure.pod6, 9
+lib/X/ControlFlow/Return.pod, 1
+doc/Language/grammar_tutorial.pod6, 14
+doc/Type/BagHash.pod6, 6
+doc/Type/Associative.pod6, 4
+doc/Type/Supplier.pod6, 5
+doc/Type/X/IO/Dir.pod6, 3
+doc/Type/X/Augment/NoSuchType.pod6, 2
+template/footer.html, 11
+doc/Type/X/Proc/Async/OpenForWriting.pod, 1
+lib/Type/X/Signature/NameClash.pod, 2
+doc/Language/control.pod, 14
+doc/Type/Pod/Block/Named.pod, 1
+template/index_header.html, 1
+lib/X/IO/Mkdir.pod, 1
+lib/Language/5to6-perlvar.pod, 1
+html/search.html, 1
+lib/X/Syntax/UnlessElse.pod, 1
+lib/Language/regexes.pod, 9
+doc/Type/Mix.pod, 2
+doc/Type/IO/Socket/Async.pod, 6
+doc/Type/X/Temporal.pod6, 1
+highlights/highlight-file.coffee, 2
+doc/Type/Exception.pod6, 8
+doc/Type/HyperWhatever.pod6, 1
+doc/Type/Order.pod, 3
+doc/Type/X/Caller/NotDynamic.pod6, 2
+lib/AST.pod, 2
+lib/MixHash.pod, 1
+lib/Type/X/Constructor/Positional.pod, 2
+lib/Type/X/Export/NameClash.pod, 2
+lib/Routine.pod, 3
+lib/Int.pm, 1
+doc/Language/module-packages.pod6, 3
+xt/trailing-whitespace.t, 4
+doc/Type/X/Sequence/Deduction.pod6, 1
+lib/Type/X/IO/Copy.pod, 2
+doc/Perl6/hacking.pod, 1
+doc/Type/X/Bind/NativeType.pod6, 3
+doc/Type/Attribute.pod6, 6
+doc/Type/X/Signature/NameClash.pod, 1
+lib/Type/DateTime.pod, 4
+lib/Type/X/Syntax/Malformed.pod, 2
+doc/404.pod6, 2
+doc/Type/X/Export/NameClash.pod, 1
+doc/Type/X/IO/Copy.pod, 1
+sketch/html/css/custom-theme/images/ui-bg_flat_0_c0e472_40x100.png, 1
+html/images/camelia.png, 3
+lib/Type/Bag.pod, 2
+lib/Type/Method.pod, 2
+doc/Type/X/Attribute/Package.pod, 1
+doc/Type/X/Bind/Slice.pod6, 2
+html/js/levenshtein.js, 1
+doc/Type/Pod/Block/Comment.pod6, 1
+doc/Type/Pod/Block/Table.pod6, 2
+doc/Type/Lock/Async.pod6, 2
+lib/Type/X/OS.pod, 2
+doc/Language/haskell-to-p6.pod6, 9
+lib/Type/Variable.pod, 2
+doc/Language/io.pod, 5
+html/css/pygments.css, 3
+lib/Type/X/Bind/NativeType.pod, 2
+doc/Type/NFKD.pod, 2
+doc/Type/Uni.pod6, 6
+lib/Perl6/Documentable.pm, 7
+lib/Type/X/Assignment/RO.pod, 1
+doc/Type/X/Signature/Placeholder.pod, 1
+lib/X/Parameter/Default.pod, 1
+highlights/highlight-filename-from-stdin.coffee, 1
+doc/Type/NumStr.pod6, 6
+doc/Type/X/Method/NotFound.pod, 1
+lib/Associative.pod, 1
+doc/Type/Proc/Async.pod, 3
+lib/Type/Numeric.pod, 4
+lib/Pod/Item.pod, 1
+assets/sass/_jquery-ui.scss, 1
+lib/Type/IO/Spec/QNX.pod, 2
+doc/Type/Metamodel/ClassHOW.pod, 3
+html/css/custom-theme/images/ui-bg_flat_0_c0e472_40x100.png, 2
+lib/Type/Promise.pod, 3
+sketch/app.pl, 1
+doc/Language/operators.pod, 20
+shippable.yml, 1
+lib/Type/X/Redeclaration.pod, 3
+doc/Type/Duration.pod, 2
+lib/Type/X/Proc/Async/MustBeStarted.pod, 3
+doc/Perl6/03-hacking.pod, 1
+doc/Type/WhateverCode.pod, 2
+doc/Language/grammars.pod, 3
+doc/Type/X/IO/Copy.pod6, 2
+xt/space-after-comma.t, 3
+writing-docs/STYLEGUIDE.md, 4
+lib/Perl6/TypeGraph/Viz.pm, 12
+lib/Array.pod, 1
+doc/Type/Numeric.pod6, 6
+doc/Type/Supplier/Preserving.pod6, 3
+lib/Type/X/Syntax/Confused.pod, 2
+lib/Pod/To/Serialization.pm, 1
+sketch/html/css/custom-theme/jquery-ui-1.8.21.custom.css, 1
+lib/Type/Iterator.pod, 6
+lib/Language/io.pod, 3
+html/index.html, 1
+doc/Type/Set.pod, 1
+doc/Type/X/Augment/NoSuchType.pod, 1
+doc/Type/Version.pod, 2
+doc/Language/operators.pod6, 34
+lib/X/Str/Numeric.pod, 1
+doc/Language/packages.pod, 2
+doc/Type/X/Method/Private/Unqualified.pod6, 2
+html/css/custom-theme/images/ui-bg_glass_75_f5e47b_1x400.png, 2
+html/js/sift4-common.js, 2
+lib/Type/X/StubCode.pod, 1
+lib/X/Syntax/Comment/Embedded.pod, 1
+html/css/style.css, 9
+doc/Type/Scheduler.pod, 1
+lib/Language/operators.pod, 12
+doc/Type/Map.pod6, 7
+lib/Type/Metamodel/ClassHOW.pod, 2
+lib/Type/Version.pod, 3
+doc/Language/objects.pod, 13
+doc/Language/variables.pod6, 28
+doc/Type/X/Str/Numeric.pod, 1
+doc/Type/X/Syntax/Comment/Embedded.pod, 1
+lib/Language/terms.pod, 4
+lib/Type/Buf.pod, 4
+lib/Language/Sets_Bags_and_Mixes.pod, 3
+doc/Language/rb-nutshell.pod, 2
+doc/Type/X/TypeCheck/Return.pod6, 3
+doc/Type/Range.pod6, 13
+lib/Type/Metamodel/MROBasedMethodDispatch.pod, 2
+lib/X/Phaser/Multiple.pod, 1
+doc/Type/IO/Special.pod, 6
+doc/Type/X/Proc/Async/AlreadyStarted.pod, 1
+doc/Perl6/00-running.pod, 1
+lib/Perl6/Documentable.pm6, 1
+lib/Type/Setty.pod, 2
+t/07-tabs.t, 1
+lib/Type/Set.pod, 3
+lib/Version.pod, 4
+doc/Language/containers.pod6, 11
+lib/Type/IO/Spec.pod, 1
+lib/Type/IO/Socket/INET.pod, 2
+lib/X/Undeclared.pod, 1
+doc/Type/Buf.pod6, 6
+lib/X/Syntax/Signature/InvocantMarker.pod, 1
+doc/Type/Num.pod, 2
+lib/Type/Exception.pod, 4
+index.pl, 2
+doc/Type/X/Syntax/UnlessElse.pod6, 3
+html/style.css, 2
+search_template.html, 1
+doc/Type/MixHash.pod, 2
+doc/Language/setbagmix.pod, 7
+lib/Type/X/Mixin/NotComposable.pod, 3
+doc/Type/Pod/Block/Named.pod6, 2
+lib/Type/Code.pod, 3
+lib/Type/X/TypeCheck.pod, 2
+lib/FatRat.pod, 1
+lib/Type/Parameter.pod, 4
+lib/Type/Proc/Async.pod, 4
+lib/Language/quoting.pod, 3
+lib/Type/Macro.pod, 2
+doc/Type/X/TypeCheck/Binding.pod, 1
+doc/Type/Rat.pod, 3
+doc/Type/X/Method/InvalidQualifier.pod6, 2
+lib/Type/X/Syntax/P5.pod, 2
+doc/Type/Mu.pod, 8
+.github/issue_template.md, 2
+doc/Perl6/02-other-progs.pod, 1
+doc/Type/Str.pod, 20
+CREDITS, 11
+lib/IO/Handle.pod, 1
+doc/Type/Proc/Status.pod, 2
+app.pl, 7
+lib/Type/Iterable.pod, 6
+lib/X/IO.pod, 1
+doc/Type/X/OutOfRange.pod, 1
+lib/Real.pod, 3
+doc/Type/Match.pod6, 7
+html/css/custom-theme/jquery-ui.css, 1
+doc/Language/terms.pod6, 15
+doc/Type/Metamodel/MROBasedMethodDispatch.pod, 1
+doc/Type/Metamodel/Trusting.pod, 1
+doc/Language/testing.pod, 15
+util/xt-recent-aspell.sh, 1
+doc/Language/contexts.pod6, 3
+EXAMPLES.md, 3
+cpanfile, 2
+lib/X/OS.pod, 1
+util/ignored-methods.txt, 1
+html/images/Camelia.svg, 3
+lib/Type/Grammar.pod, 6
+lib/Type/Seq.pod, 2
+lib/Type/X/Syntax/Regex/Adverb.pod, 2
+doc/Type/CallFrame.pod6, 7
+doc/Type/X/Obsolete.pod, 1
+lib/Type/X/Parameter/Twigil.pod, 2
+lib/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod, 4
+lib/Capture.pod, 2
+doc/Type/X/DateTime/TimezoneClash.pod, 1
+lib/Type/X/Proc/Async/AlreadyStarted.pod, 2
+doc/Type/SetHash.pod6, 6
+lib/Language/5to6.pod, 13
+lib/Type/X/Attribute/Undeclared.pod, 3
+lib/Type/Sub.pod, 2
+doc/Language/quoting.pod6, 18
+doc/Type/X/Placeholder/Mainline.pod, 1
+lib/variables.pod, 9
+lib/modules.pod, 1
+doc/Type/Variable.pod, 3
+doc/Type/IO/Special.pod6, 5
+lib/Pod/Block/Code.pod, 1
+lib/Type/X/IO/Chdir.pod, 2
+doc/Type/List.pod, 14
+doc/Type/X/Inheritance/NotComposed.pod6, 2
+doc/Type/Routine.pod6, 10
+lib/X/TypeCheck/Return.pod, 1
+t/00-load.t, 4
+doc/Type/Blob.pod6, 10
+doc/Language/modules.pod6, 22
+doc/Type/Metamodel/C3MRO.pod, 1
+lib/Type/Mu.pod, 4
+lib/Type/X/Syntax/Missing.pod, 2
+lib/X/Attribute/Undeclared.pod, 1
+html/perl6.xhtml, 1
+doc/Type/SetHash.pod, 1
+lib/Str.pod, 10
+html/css/custom-theme/images/ui-bg_glass_45_C0E472_1x400.png, 1
+doc/Type/X/Does/TypeObject.pod6, 2
+doc/Type/Scalar.pod6, 10
+doc/Type/X/Numeric/Real.pod, 1
+doc/Type/X/Syntax/InfixInTermPosition.pod, 1
+lib/Type/Metamodel/MultipleInheritance.pod, 2
+lib/Type/X/Declaration/Scope.pod, 2
+doc/Type/X/Placeholder/Block.pod6, 2
+util/list-missing-methods.p6, 3
+doc/Type/.DS_Store, 1
+doc/Type/Mixy.pod6, 5
+lib/Type/Temporal.pod, 2
+doc/Type/ComplexStr.pod, 4
+util/missing-types.pl6, 3
+lib/X/Mixin/NotComposable.pod, 1
+doc/Type/Proc/Async.pod6, 14
+sketch/html/type.html, 1
+doc/Type/X/Sequence/Deduction.pod, 1
+doc/Type/List.pod6, 20
+doc/Type/X/Proc/Async/AlreadyStarted.pod6, 3
+html/cheatsheet.html, 2
+doc/Type/Metamodel/Finalization.pod, 1
+lib/X/Temporal/Truncation.pod, 1
+html/favicon.ico, 1
+xt/perl-nbsp.t, 2
+lib/Type/X/ControlFlow.pod, 3
+doc/Type/X/IO/Link.pod, 1
+doc/Type/X/Anon/Augment.pod6, 3
+doc/Language/unicode_texas.pod6, 10
+lib/X/Syntax/Reserved.pod, 1
+lib/ObjAt.pod, 1
+doc/Type/X/IO/Mkdir.pod6, 2
+t/meta.t, 3
+doc/Type/X/Redeclaration.pod, 1
+lib/Type/Rat.pod, 2
+lib/Complex.pod, 3
+lib/EnumMap.pod, 2
+doc/Type/Match.pod, 2
+lib/Type/Parcel.pod, 3
+html/images/External-link-04-bold-12x12.svg, 2
+doc/Type/Macro.pod6, 2
+doc/Type/Failure.pod, 1
+lib/Type/EnumMap.pod, 5
+doc/Type/Pod/Item.pod6, 2
+lib/Type/X/Syntax/Variable/Twigil.pod, 2
+lib/Type/Bool.pod, 2
+doc/Language/packages.pod6, 10
+doc/Language/system.pod6, 2
+doc/Type/X/Syntax/Reserved.pod6, 2
+Dockerfile, 2
+lib/Type/X/Attribute/Package.pod, 2
+lib/terms.pod, 4
+doc/Type/Associative.pod, 2
+doc/Type/X/Syntax/UnlessElse.pod, 1
+lib/Language/syntax.pod, 6
+lib/X/Sequence/Deduction.pod, 1
+README.de.md, 4
+lib/Type/Thread.pod, 2
+doc/Language/tables.pod6, 6
+lib/Type/Dateish.pod, 4
+lib/Type/X/Syntax/NoSelf.pod, 2
+doc/Type/IO/Spec/QNX.pod6, 3
+index_head.html, 1
+lib/X/Syntax/Self/WithoutObject.pod, 1
+util/trigger-rebuild.txt, 5
+lib/X/Phaser/PrePost.pod, 1
+lib/Attribute.pod, 1
+doc/Type/X/Attribute/Undeclared.pod, 1
+doc/Language/io.pod6, 9
+lib/Type/Hash.pod, 6
+app-start, 1
+doc/Language/unicode_ascii.pod6, 3
+html/images/camelia-404.png, 1
+doc/Type/Exception.pod, 2
+doc/Type/X/Temporal.pod, 1
+lib/Type/BagHash.pod, 3
+doc/Type/X/Syntax/AddCategorial/MissingSeparator.pod, 2
+doc/Type/X/Syntax/NegatedPair.pod6, 1
+lib/Type/Proxy.pod, 3
+lib/operators.pod, 11
+doc/Type/Map.pod, 3
+lib/X/TypeCheck/Binding.pod, 1
+index_header.html, 1
+doc/Programs/02-reading-docs.pod6, 3
+doc/Language/traps.pod, 8
+html/css/custom-theme/images/ui-bg_flat_0_888888_40x100.png, 2
+doc/Type/IO/Path/QNX.pod6, 2
+doc/Type/X/ControlFlow/Return.pod, 1
+html/js/jquery-ui-1.8.21.custom.min.js, 2
+doc/Language/5to6-perlop.pod, 8
+html/js/jquery-3.1.1.min.js, 2
+lib/Type/IO/Notification.pod, 3
+lib/X/Method/Private/Permission.pod, 1
+doc/Type/Nil.pod, 7
+doc/Type/X/NoDispatcher.pod6, 2
+doc/Type/Grammar.pod6, 8
+doc/Language/from-haskell.pod6, 1
+xt/examples-compilation.t, 7
+html/js/jquery-1.7.2.min.js, 2
+lib/Type/X/IO/Unlink.pod, 3
+doc/Type/Capture.pod, 4
+doc/Type/Parameter.pod, 5
+predefined-search-items, 4
+doc/Type/X/Syntax/Missing.pod, 1
+lib/X/Declaration/Scope/Multi.pod, 1
+lib/Type/Label.pod, 4
+doc/Language/regexes.pod, 18
+doc/Type/X/Proc/Async/TapBeforeSpawn.pod6, 2
+doc/Type/NFKC.pod6, 4
+sketch/html/index.html, 1
+lib/Mu.pod, 6
+doc/Type/X/Redeclaration.pod6, 2
+doc/Language/typesystem.pod6, 23
+doc/Type/IO/Spec.pod, 4
+doc/Type/X/IO/Rmdir.pod6, 3
+lib/Parcel.pod, 3
+xt/word-variants.t, 3
+lib/Type/Stringy.pod, 2
+lib/Language/exceptions.pod, 2
+html/cheatsheet.css, 2
+doc/Language/io-guide.pod6, 10
+doc/Type/X/Package/Stubbed.pod, 1
+doc/Type/IO/Pipe.pod, 1
+lib/Type/Pod/Block/Para.pod, 2
+doc/Programs/01-debugging.pod, 3
+doc/Type/Complex.pod, 3
+doc/Type/ComplexStr.pod6, 6
+lib/Type/Date.pod, 7
+template/footer_template.html, 3
+t/01-load.t, 1
+lib/Language/control.pod, 4
+doc/Type/X/Parameter/Placeholder.pod6, 2
+doc/Type/Method.pod6, 6
+lib/Type/X/Syntax/AddCategorial/MissingSeparator.pod, 3
+lib/Type/Mix.pod, 2
+lib/Pod/Htmlify.pm6, 9
+doc/Type/X/NYI.pod, 1
+sketch/html/js/jquery-1.7.2.min.js, 1
+doc/Type/PairMap.pod, 2
+doc/Type/X/Temporal/InvalidFormat.pod, 1
+doc/Language/5to6-nutshell.pod6, 18
+lib/Type/IO/Handle.pod, 6
+doc/Type/Promise.pod, 5
+html/css/highlights.css, 2
+doc/Type/Bool.pod6, 7
+doc/Type/Macro.pod, 1
+sketch/html/css/custom-theme/images/ui-bg_inset-hard_95_f5e47b_1x100.png, 1
+lib/X/Anon/Multi.pod, 1
+doc/Language/faq.pod, 24
+type-graph.txt, 15
+lib/Type/Signature.pod, 6
+lib/Type/X/Does/TypeObject.pod, 3
+lib/X/Syntax/NoSelf.pod, 1
+doc/Type/Proxy.pod6, 4
+doc/Type/X/Parameter/Twigil.pod, 1
+lib/IO.pod, 4
+lib/Stringy.pod, 1
+doc/Type/DateTime.pod, 8
+doc/Type/Metamodel/Primitives.pod6, 2
+html/js/jquery.cookie.js, 1
+doc/Type/X/Proc/Unsuccessful.pod6, 3
+doc/Type/NFKD.pod6, 4
+lib/Type/X/Syntax/InfixInTermPosition.pod, 2
+xt/type-graph.t, 1
+xt/links-not-links.t, 3
+doc/Type/X/IO/Rmdir.pod, 1
+sketch/html/js/search.js, 1
+t/00-meta.t, 1
+doc/Type/X/Syntax/Reserved.pod, 1
+doc/Type/X/IO.pod, 1
+doc/Type/X/AdHoc.pod, 2
+doc/Type/Submethod.pod6, 3
+doc/Type/IO/Path/Win32.pod6, 2
+doc/Language/iterating.pod6, 1
+doc/Type/IO/Spec/Cygwin.pod, 4
+assets/js/jquery-3.1.1.min.js, 1
+doc/Type/Mix.pod6, 7
+doc/Type/X/OS.pod, 1
+lib/X/Syntax/Augment/WithoutMonkeyTyping.pod, 1
+bin/p6doc.bat, 2
+doc/Type/X/TypeCheck/Assignment.pod6, 2
+xt/trailing_whitespace.t, 1
+template/head.html, 8
+lib/HomePage.pod, 6
+doc/Type/Metamodel/EnumHOW.pod6, 3
+doc/Type/IO/Spec/Win32.pod6, 4
+lib/Type/X/Method/InvalidQualifier.pod, 2
+lib/X/Bind/NativeType.pod, 1
+doc/Type/X/Declaration/Scope/Multi.pod6, 2
+doc/Type/X/ControlFlow.pod, 1
+doc/Type/X/IO/Chmod.pod6, 2
+lib/Type/Metamodel/Trusting.pod, 2
+lib/Whatever.pod, 1
+lib/Type/X/Syntax/Term/MissingInitializer.pod, 3
+lib/Type/X/Syntax/Variable/Match.pod, 2
+doc/Perl6/other-progs.pod, 1
+t/trailing_whitespace.t, 2
+lib/Type/IO/Spec/Win32.pod, 2
+lib/Type/X/Syntax/UnlessElse.pod, 2
+doc/Type/Stringy.pod, 2
+doc/Type/Seq.pod, 4
+doc/Type/Pod/Block/Code.pod6, 2
+lib/Type/Proc/Status.pod, 3
+doc/Type/X/TypeCheck/Splice.pod6, 3
+doc/Type/atomicint.pod6, 8
+doc/Type/X/Proc/Async/OpenForWriting.pod6, 3
+lib/Type/Cool.pod, 10
+doc/Type/X/Role/Initialization.pod6, 3
+doc/Type/X/TypeCheck/Return.pod, 1
+lib/Type/Capture.pod, 7
+doc/Type/ThreadPoolScheduler.pod, 1
+doc/Type/X/Parameter/MultipleTypeConstraints.pod6, 2
+doc/Type/X/Constructor/Positional.pod, 1
+doc/Type/X/Eval/NoSuchLang.pod, 1
+lib/Type/X/Pod.pod, 2
+doc/Type/X/Mixin/NotComposable.pod, 1
+doc/Language/concurrency.pod6, 13
+doc/Type/X/Signature/Placeholder.pod6, 2
+doc/Type/X/Bind/Slice.pod, 1
+lib/glossary.pod, 4
+LICENSE, 2
+writing-docs/SQUASHATONS.md, 2
+doc/Language/setbagmix.pod6, 12
+doc/Type/Telemetry.pod6, 9
+lib/Set.pod, 1
+doc/Type/QuantHash.pod6, 2
+xt/code.pws, 8
+lib/Type/AST.pod, 2
+lib/Type/Num.pod, 2
+xt/.aspell.pws, 1
+t/02-tests-valid.t, 1
+doc/Type/Method.pod, 1
+lib/Type/X/Parameter/Placeholder.pod, 2
+lib/X/NYI.pod, 1
+doc/Language/about.pod, 4
+lib/Perl6/TypeGraph.pm6, 1
+doc/Programs/README.md, 5
+lib/Type/Metamodel/Finalization.pod, 3
+lib/Positional.pod, 3
+lib/Perl6/Type.pm6, 1
+lib/Type/X/Syntax/NegatedPair.pod, 2
+doc/Perl6/debugging.pod, 1
+doc/Type/WrapHandle.pod6, 5
+doc/Type/utf8.pod6, 5
+doc/Type/Metamodel/MultipleInheritance.pod, 2
+doc/Language/syntax.pod, 10
+doc/Type/X/Attribute/NoPackage.pod6, 2
+doc/Language/objects.pod6, 24
+doc/Language/enumeration.pod6, 4
+html/js/main.js, 4
+doc/Type/X/Syntax/NoSelf.pod6, 3
+lib/Type/X/Package/Stubbed.pod, 2
+lib/X/Attribute/NoPackage.pod, 1
+lib/Type/IO.pod, 7
+template/examples.html, 2
+doc/Type/Thread.pod6, 8
+lib/X/OutOfRange.pod, 1
+lib/X/Syntax.pod, 1
+t/02-pod-valid.t, 2
+lib/Type/X/AdHoc.pod, 2
+doc/Type/X/Undeclared.pod6, 2
+lib/Type/Callable.pod, 3
+lib/Type/Nil.pod, 4
+doc/Type/X/Placeholder/Block.pod, 1
+doc/Type/IO/Notification.pod, 3
+doc/Type/X/Syntax/Comment/Embedded.pod6, 2
+html/perl6.html, 1
+doc/Type/Metamodel/C3MRO.pod6, 5
+doc/Type/Date.pod6, 10
+doc/Type/X/Syntax/Regex/Adverb.pod, 1
+lib/Type/Backtrace.pod, 4
+lib/Type/X/Syntax/Regex/SolitaryQuantifier.pod, 2
+doc/Type/X/Syntax/Augment/WithoutMonkeyTyping.pod6, 3
+lib/Type/X/Inheritance/NotComposed.pod, 2
+doc/Language/performance.pod, 5
+doc/Type/Positional.pod6, 2
+doc/Language/syntax.pod6, 22
+lib/X/Syntax/NegatedPair.pod, 1
+doc/Type/X/StubCode.pod6, 1
+doc/Type/X/OS.pod6, 2
+lib/Type/X/Temporal.pod, 2
+lib/X/IO/Chmod.pod, 1
+lib/BagHash.pod, 1
+lib/X/Parameter/Twigil.pod, 1
+doc/Type/Metamodel/Finalization.pod6, 2
+doc/Type/Block.pod6, 4
+doc/Type/X/Comp.pod, 1
+doc/Type/Baggy.pod6, 8
+lib/Type/SetHash.pod, 4
+sync, 1
+lib/X/TypeCheck.pod, 1
+doc/Type/Metamodel/RoleContainer.pod6, 2
+doc/Programs/00-running.pod6, 10
+lib/X/IO/Rename.pod, 1
+html/css/custom-theme/images/ui-bg_flat_75_ffffff_40x100.png, 2
+doc/Type/IO.pod6, 18
+doc/Language/nativetypes.pod6, 2
+doc/Type/X/Temporal/InvalidFormat.pod6, 4
+assets/js/jquery-ui.min.js, 1
+.travis.yml, 10
+doc/Type/Cursor.pod6, 6
+doc/Type/X/IO/Unlink.pod, 1
+lib/X/TypeCheck/Splice.pod, 1
+README.jp.md, 6
+doc/Language/about.pod6, 12
+doc/Type/X/Syntax/Malformed.pod6, 2
+doc/Type/X/Syntax/Confused.pod, 1
+doc/Type/Supply.pod, 12
+doc/Type/X/IO/Cwd.pod6, 2
+doc/Type/Metamodel/PrivateMethodContainer.pod6, 2
+README, 5
+doc/Type/Instant.pod, 3
+doc/Type/X/Promise/Vowed.pod6, 1
+doc/Type/X/Obsolete.pod6, 3
+lib/Type/Backtrace/Frame.pod, 5
+lib/X/Declaration/Scope.pod, 1
+doc/Type/Bag.pod, 4
+doc/Type/IO/Socket/Async.pod6, 12
+doc/Type/Telemetry/Instrument/ThreadPool.p6, 1
+lib/X/Comp.pod, 1
+doc/Type/ObjAt.pod6, 2
+doc/Type/X/NYI.pod6, 3
+lib/Type/X/Eval/NoSuchLang.pod, 2
+lib/X/Syntax/InfixInTermPosition.pod, 1
+lib/Perl6/Documentable/Registry.pm6, 1
+lib/Type/Blob.pod, 4
+doc/Type/PositionalBindFailover.pod, 2
+.gitignore, 12
+template/header.html, 10
+doc/Type/X/Phaser/PrePost.pod, 1
+lib/X/Method/InvalidQualifier.pod, 1
+doc/Type/UInt.pod6, 5
+lib/Type/Routine.pod, 4
+lib/Junction.pod, 2
+doc/Type/Hash.pod, 14
+doc/Type/Buf.pod, 1
+lib/Pod/Block/Para.pod, 1
+lib/X/Pod.pod, 1
+t/pod-htmlify.t, 7
+lib/Type/IO/Spec/Cygwin.pod, 2
+lib/perlvar.pod, 2
+doc/Type/X/Syntax/Term/MissingInitializer.pod, 1
+doc/HomePage.pod6, 9
+doc/Type/Dateish.pod6, 6
+doc/Type/X/Proc/Async.pod6, 3
+lib/Type/Pod/To/SectionFilter.pm, 1
+doc/Type/X/Package/Stubbed.pod6, 2
+lib/Language/objects.pod, 8
+doc/Language/subscripts.pod, 10
+doc/Type/X/Parameter/Twigil.pod6, 2
+lib/Type/X/Numeric/Real.pod, 2
+doc/Type/Array.pod6, 9
+doc/Type/Promise.pod6, 11
+doc/Type/X/Syntax/Variable/Numeric.pod6, 2
+lib/Type/X/Syntax/Comment/Embedded.pod, 2
+lib/X/Package/Stubbed.pod, 1
+doc/Type/Compiler.pod6, 2
+lib/Numeric.pod, 4
+html/images/pencil.svg, 1
+lib/X/IO/Rmdir.pod, 1
+doc/Language/unicode_texas.pod, 7
+doc/Type/X/Syntax/Confused.pod6, 2
+doc/Type/Num.pod6, 8
+doc/Type/X/Anon/Augment.pod, 1
+doc/Language/mop.pod, 5
+doc/Language/phasers.pod, 5
+doc/Type/Pod/Block/Declarator.pod6, 2
+doc/Type/DateTime.pod6, 10
+doc/Type/Pod/Block/Para.pod, 1
+doc/Type/X/Composition/NotComposable.pod6, 2
+doc/Type/X/Signature/NameClash.pod6, 2
+lib/Type/X/TypeCheck/Assignment.pod, 2
+lib/Type/X/TypeCheck/Binding.pod, 2
+META.info, 12
+doc/Language/performance.pod6, 14
+doc/Type/IO/ArgFiles.pod6, 5
+lib/Type/Pair.pod, 5
+lib/Language/setbagmix.pod, 5
+html/css/custom-theme/images/ui-bg_highlight-soft_75_f5e47b_1x100.png, 2
+lib/Type/X/Declaration/Scope/Multi.pod, 2
+lib/X/Syntax/Augment/Role.pod, 1
+lib/Backtrace.pod, 1
+doc/Language/nativecall.pod, 16
+lib/Perl6/Type.pm, 5
+doc/Type/Metamodel/ClassHOW.pod6, 8
+doc/Type/Callable.pod6, 11
+lib/Perl6/TypeGraph/Viz.pm6, 2
+doc/Type/IO/Handle.pod, 10
+doc/Language/routines.pod6, 1
+doc/Perl6/README.md, 1
+doc/Language/list.pod, 8
+doc/Type/X/Attribute/Undeclared.pod6, 2
+doc/Type/IO/Handle.pod6, 15
+lib/X/Eval/NoSuchLang.pod, 1
+doc/Language/quoting.pod, 6
+lib/X/Temporal.pod, 1
+lib/X/Inheritance/Unsupported.pod, 1
+doc/Language/js-nutshell.pod6, 4
+doc/Type/Backtrace.pod6, 4
+lib/X/Augment/NoSuchType.pod, 1
+html/images/camelia-small.png, 2
+doc/Type/X/Syntax/Number/RadixOutOfRange.pod6, 2
+META6.json, 6
+doc/Type/Hash.pod6, 18
+doc/Type/Dateish.pod, 6
+doc/Type/ObjAt.pod, 1
+doc/Language/structures.pod6, 3
+lib/Type/Block.pod, 2
+doc/Type/Rat.pod6, 6
+doc/Type/Backtrace/Frame.pod6, 3
+lib/Range.pod, 3
+util/perl-nbsp.p6, 2
+doc/Type/X/Parameter/MultipleTypeConstraints.pod, 1
+doc/Type/IO.pod, 10
+lib/Language/classtut.pod, 8
+lib/X/Signature/Placeholder.pod, 1
+lib/QuantHash.pod, 1
+xt/return-type.t, 3
+doc/Type/X/TypeCheck/Assignment.pod, 1
+lib/Language/nativecall.pod, 9
+sketch/html/css/custom-theme/images/ui-bg_highlight-soft_75_f5e47b_1x100.png, 1
+lib/IO/FileTestable.pod, 2
+lib/X/Constructor/Positional.pod, 1
+doc/Type/IntStr.pod, 4
+doc/Type/X/Syntax/Variable/Numeric.pod, 1
+lib/Type/Array.pod, 5
+lib/Type/Supply.pod, 8
+lib/Type/X/Inheritance/Unsupported.pod, 2
+lib/Type/X/Syntax/Number/RadixOutOfRange.pod, 2
+highlights/highlight-folder.coffee, 1
+doc/Type/FatRat.pod6, 3
+doc/Type/Real.pod6, 7
+doc/Type/Telemetry/Period.pod6, 4
+lib/Type/Pod/Block.pod, 2
+lib/X/IO/Unlink.pod, 1
+doc/Language/list.pod6, 14
+html/images/camelia-faded.png, 3
+html/js/jquery-ui.min.js, 1
+lib/Type/Pod/Block/Code.pod, 2
+lib/Type/ThreadPoolScheduler.pod, 1
+lib/Any.pod, 3
+doc/Type/IO/Spec/Unix.pod, 3
+doc/Language/testing.pod6, 15
+doc/Type/CurrentThreadScheduler.pod, 3
+doc/Type/Stash.pod6, 3
+doc/Type/Order.pod6, 5
+README.it.md, 4
+lib/Type/Submethod.pod, 3
+doc/Type/IntStr.pod6, 6
+lib/Type/Failure.pod, 4
+lib/Date.pod, 4
+doc/Type/Semaphore.pod6, 3
+html-files/favicon.ico, 1
+doc/Type/Metamodel/MultipleInheritance.pod6, 2
+doc/Type/X/Composition/NotComposable.pod, 1
+xt/double-dots.t, 2
+doc/Type/Backtrace/Frame.pod, 1
+doc/Type/NFC.pod, 1
+doc/Type/Regex.pod, 4
+doc/Type/Scheduler.pod6, 3
+lib/Type/X/IO/Rmdir.pod, 2
+doc/Type/X/Pod.pod6, 1
+lib/Type/Positional.pod, 3
+lib/Grammar.pod, 2
+doc/Type/X/IO/DoesNotExist.pod, 1
+lib/Type/X/Proc/Async/OpenForWriting.pod, 2
+htmlify.pl, 5
+doc/Type/IO/Path/Unix.pod6, 2
+lib/Language/subscripting.pod, 1
+doc/Type/X/Syntax/Term/MissingInitializer.pod6, 2
+doc/Type/Distro.pod6, 4
+doc/Type/Junction.pod6, 10
+doc/Type/X/Parameter/WrongOrder.pod6, 2
+doc/Type/IO/ArgFiles.pm, 1
+doc/Programs/03-hacking.pod, 2
+doc/Type/FatRat.pod, 1
+lib/Type/X/IO/Mkdir.pod, 2
+lib/Num.pod, 1
+t/perl-nbsp.t, 1
+lib/Language/traps.pod, 7
+lib/Language/unicode_entry.pod, 5
+lib/X/ControlFlow.pod, 1
+doc/Type/X/TypeCheck/Binding.pod6, 2
+lib/Duration.pod, 4
+TODO, 4
+doc/Type/WhateverCode.pod6, 6
+t/return-type.t, 2
+doc/Type/Sub.pod6, 8
+doc/Type/Sub.pod, 1
+lib/Type/X/OutOfRange.pod, 3
+lib/Type/X/TypeCheck/Splice.pod, 2
+lib/objects.pod, 6
+doc/Type/X/Export/NameClash.pod6, 2
+doc/Language/pod.pod6, 11
+lib/Test-Files.pm6, 3
+util/xt-recent.sh, 1
+doc/Type/X/TypeCheck.pod6, 2
+lib/X/Syntax/Variable/Match.pod, 1
+doc/Type/X/NoDispatcher.pod, 2
+doc/Language/modules.pod, 22
+t/tabs.t, 2
+doc/Type/X/Declaration/Scope.pod, 1
+doc/Type/Temporal.pod, 2
+doc/Type/Tap.pod, 3
+doc/Type/X/DateTime/TimezoneClash.pod6, 2
+doc/Type/X/Proc/Async/CharsOrBytes.pod6, 3
+doc/Type/Proc.pod, 1
+lib/Language/about.pod, 3
+lib/Type/X/Phaser/Multiple.pod, 3
+lib/Mix.pod, 1
+lib/Type/Metamodel/PrivateMethodContainer.pod, 3
+lib/X/IO/Cwd.pod, 1
+doc/Type/Telemetry/.DS_Store, 1
+doc/Type/Proxy.pod, 1
+doc/Type/Positional.pod, 1
+doc/Type/Set.pod6, 5
+lib/Match.pod, 4
+doc/Programs/00-running.pod, 2
+lib/Pod/Convenience.pm6, 9
+doc/Type/X/IO/Chdir.pod6, 2
+doc/Type/X/Syntax/Variable/Twigil.pod6, 2
+t/typegraph.t, 5
+doc/Type/X/Syntax/Signature/InvocantMarker.pod, 1
+lib/Type/Enum.pod, 3
+lib/Type/Proc.pod, 4
+sketch/html/css/custom-theme/images/ui-bg_glass_75_f5e47b_1x400.png, 1
+doc/Type/Metamodel/MethodContainer.pod, 2
+doc/Type/Setty.pod, 2
+lib/Cool.pod, 4
+lib/X/Syntax/Variable/Numeric.pod, 1
+doc/Type/Capture.pod6, 7
+lib/Type/X/Comp.pod, 3
+lib/SetHash.pod, 1
+lib/X/Syntax/Number/RadixOutOfRange.pod, 1
+doc/Type/Scalar.pod, 2
+doc/Type/snapper.pod6, 2
+doc/Type/Supply.pod6, 15
+doc/Language/5to6-perlvar.pod6, 14
+lib/Type/Scheduler.pod, 3
+doc/Type/Cancellation.pod, 1
+doc/Language/classtut.pod, 13
+html/css/custom-theme/images/ui-bg_inset-hard_95_f5e47b_1x100.png, 2
+t/04-typegraph.t, 1
+t/03-pod6.t, 1
+lib/Type/X/Bind/Slice.pod, 2
+doc/404.pod, 2
+doc/Type/StrDistance.pod6, 1
+lib/Type/Metamodel/C3MRO.pod, 2
+lib/Type/QuantHash.pod, 2
+lib/Exception.pod, 3
+doc/Type/Metamodel/AttributeContainer.pod6, 2
+lib/Signature.pod, 3
+lib/Nil.pod, 1
+.github/pull_request_template.md, 1
+lib/Method.pod, 1
+lib/Pair.pod, 3
+doc/Type/Cancellation.pod6, 3
+lib/Mixy.pod, 1
+doc/Type/IO/Spec/Win32.pod, 3
+doc/Type/PositionalBindFailover.pod6, 4

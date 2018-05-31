@@ -22,7 +22,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     my @author-files = ("Author,Files");
     for %author-file.keys -> $author {
         my $total = 0;
-        push @author-files, "$author, +%author-file{$author}.keys";
+        push @author-files, "$author, {+%author-file{$author}.keys.elems}";
         for %author-file{$author}.keys -> $file {
             $total +=  %author-file{$author}{$file};
         }
@@ -40,7 +40,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     my @file-authors = ("File,Authors");
     for %file-author.keys -> $file {
         my $total = 0;
-        push @file-authors, "$file, +%file-author{$file}.keys";
+        push @file-authors, "$file, {%file-author{$file}.keys.elems}";
         
         for %file-author{$file}.keys -> $author {
             $total +=  %file-author{$file}{$author};
