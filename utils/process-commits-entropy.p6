@@ -15,8 +15,6 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
         }
     }
 
-    say %author-file;
-    say %file-author;
 
     my @author-entropy = ("Author,Entropy");
     for %author-file.keys -> $author {
@@ -31,7 +29,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
         }
         push @author-entropy:  "$author,$entropy";
     }
-    spurt "../data/author-entropy.csv", @author-entropy.join("");
+    spurt "/tmp/author-entropy.csv", @author-entropy.join("\n");
 
     my @file-entropy = ("File,Entropy");
     for %file-author.keys -> $file {
@@ -41,11 +39,11 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
         }
         my $entropy = 0;
         for %file-author{$file}.keys -> $author {
-            my $proportion = %file-author{$file}{$author};
+            my $proportion = %file-author{$file}{$author}/$total;
             $entropy -=  $proportion * log( $proportion );
         }
         push @file-entropy:  "$file,$entropy";
     }
-    spurt "../data/file-entropy.csv", @author-entropy.join("");
+    spurt "/tmp/file-entropy.csv", @file-entropy.join("\n");
 }
 
