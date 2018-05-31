@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NjE4NDIyNjA=",
   "closed_by": {
     "following_url": "https://api.github.com/users/sylvarant/following{/other_user}",
+    "node_id": "MDQ6VXNlcjQzNTQ0",
     "gists_url": "https://api.github.com/users/sylvarant/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/sylvarant/received_events",
     "organizations_url": "https://api.github.com/users/sylvarant/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/415/events",
   "user": {
     "following_url": "https://api.github.com/users/jjatria/following{/other_user}",
+    "node_id": "MDQ6VXNlcjI5NzU5ODk=",
     "gists_url": "https://api.github.com/users/jjatria/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jjatria/received_events",
     "organizations_url": "https://api.github.com/users/jjatria/orgs",

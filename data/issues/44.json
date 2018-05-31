@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MjgyNDQ3MjQ=",
   "closed_by": {
     "following_url": "https://api.github.com/users/FROGGS/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE0MTk2OA==",
     "gists_url": "https://api.github.com/users/FROGGS/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/FROGGS/received_events",
     "organizations_url": "https://api.github.com/users/FROGGS/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/44/events",
   "user": {
     "following_url": "https://api.github.com/users/bronco-creek/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwNzQ3MTQx",
     "gists_url": "https://api.github.com/users/bronco-creek/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/bronco-creek/received_events",
     "organizations_url": "https://api.github.com/users/bronco-creek/orgs",

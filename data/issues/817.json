@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxNjk4MDE1Njg=",
   "closed_by": {
     "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NjQ0MzU=",
     "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/Altai-man/received_events",
     "organizations_url": "https://api.github.com/users/Altai-man/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "7493fb",
       "name": "search",
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY=",
       "id": 390783036,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/search"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/817/events",
   "user": {
     "following_url": "https://api.github.com/users/titsuki/following{/other_user}",
+    "node_id": "MDQ6VXNlcjY3OTIwNTE=",
     "gists_url": "https://api.github.com/users/titsuki/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/titsuki/received_events",
     "organizations_url": "https://api.github.com/users/titsuki/orgs",

@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWU4ODAwNzY4Mw==",
   "closed_by": {
     "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "node_id": "MDQ6VXNlcjI3NDI=",
     "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ab5tract/received_events",
     "organizations_url": "https://api.github.com/users/ab5tract/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "C4DB17",
       "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
@@ -48,6 +51,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -56,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/93/events",
   "user": {
     "following_url": "https://api.github.com/users/ab5tract/following{/other_user}",
+    "node_id": "MDQ6VXNlcjI3NDI=",
     "gists_url": "https://api.github.com/users/ab5tract/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ab5tract/received_events",
     "organizations_url": "https://api.github.com/users/ab5tract/orgs",

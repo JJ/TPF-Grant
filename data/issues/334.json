@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+      "node_id": "MDQ6VXNlcjgyODU0",
       "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/azawawi/received_events",
       "organizations_url": "https://api.github.com/users/azawawi/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgyODU0",
     "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/azawawi/received_events",
     "organizations_url": "https://api.github.com/users/azawawi/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/azawawi/followers",
     "url": "https://api.github.com/users/azawawi"
   },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTU1NDIzNDY=",
   "closed_by": {
     "following_url": "https://api.github.com/users/azawawi/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgyODU0",
     "gists_url": "https://api.github.com/users/azawawi/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/azawawi/received_events",
     "organizations_url": "https://api.github.com/users/azawawi/orgs",
@@ -83,6 +87,7 @@
     {
       "color": "C4DB17",
       "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
@@ -91,6 +96,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/334/events",
   "user": {
     "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "node_id": "MDQ6VXNlcjM3MzQwODM=",
     "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/LLFourn/received_events",
     "organizations_url": "https://api.github.com/users/LLFourn/orgs",

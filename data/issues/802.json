@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxNjk1ODY0OTI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "5DE0FA",
       "name": "NOTSPECCED",
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI=",
       "id": 420092522,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/802/events",
   "user": {
     "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMzkwNjA=",
     "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/tbrowder/received_events",
     "organizations_url": "https://api.github.com/users/tbrowder/orgs",

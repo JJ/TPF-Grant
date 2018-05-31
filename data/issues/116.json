@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/smls/following{/other_user}",
+      "node_id": "MDQ6VXNlcjMwOTM1ODA=",
       "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/smls/received_events",
       "organizations_url": "https://api.github.com/users/smls/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMwOTM1ODA=",
     "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/smls/received_events",
     "organizations_url": "https://api.github.com/users/smls/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/smls/followers",
     "url": "https://api.github.com/users/smls"
   },
+  "node_id": "MDU6SXNzdWUxMDAxMzQ5ODU=",
   "closed_by": {
     "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "node_id": "MDQ6VXNlcjg2NDI=",
     "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/awwaiid/received_events",
     "organizations_url": "https://api.github.com/users/awwaiid/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "f72bc1",
       "name": "big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
       "id": 244870541,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/big"
@@ -84,6 +89,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/116/events",
   "user": {
     "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMwOTM1ODA=",
     "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/smls/received_events",
     "organizations_url": "https://api.github.com/users/smls/orgs",

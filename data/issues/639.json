@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxNjIzMjI4MzI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/gfldex/following{/other_user}",
+    "node_id": "MDQ6VXNlcjQyNjYxMw==",
     "gists_url": "https://api.github.com/users/gfldex/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/gfldex/received_events",
     "organizations_url": "https://api.github.com/users/gfldex/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "C4DB17",
       "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
@@ -48,6 +51,7 @@
     {
       "color": "0be5a0",
       "name": "site",
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
       "id": 397990514,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/site"
@@ -56,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/639/events",
   "user": {
     "following_url": "https://api.github.com/users/xdg/following{/other_user}",
+    "node_id": "MDQ6VXNlcjc2MjUzMjI=",
     "gists_url": "https://api.github.com/users/xdg/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/xdg/received_events",
     "organizations_url": "https://api.github.com/users/xdg/orgs",

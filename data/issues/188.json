@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTAwODQyNjc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/LLFourn/following{/other_user}",
+    "node_id": "MDQ6VXNlcjM3MzQwODM=",
     "gists_url": "https://api.github.com/users/LLFourn/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/LLFourn/received_events",
     "organizations_url": "https://api.github.com/users/LLFourn/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/188/events",
   "user": {
     "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "node_id": "MDQ6VXNlcjg2NDI=",
     "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/awwaiid/received_events",
     "organizations_url": "https://api.github.com/users/awwaiid/orgs",

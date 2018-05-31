@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTkyOTc1NzM=",
   "closed_by": {
     "following_url": "https://api.github.com/users/zaucker/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE5ODAzOA==",
     "gists_url": "https://api.github.com/users/zaucker/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zaucker/received_events",
     "organizations_url": "https://api.github.com/users/zaucker/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/395/events",
   "user": {
     "following_url": "https://api.github.com/users/edehont/following{/other_user}",
+    "node_id": "MDQ6VXNlcjExNTYzMzg1",
     "gists_url": "https://api.github.com/users/edehont/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/edehont/received_events",
     "organizations_url": "https://api.github.com/users/edehont/orgs",

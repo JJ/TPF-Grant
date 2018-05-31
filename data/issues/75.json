@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzM3Mzc5MDE=",
   "closed_by": {
     "following_url": "https://api.github.com/users/niner/following{/other_user}",
+    "node_id": "MDQ6VXNlcjczMjQ5",
     "gists_url": "https://api.github.com/users/niner/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/niner/received_events",
     "organizations_url": "https://api.github.com/users/niner/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/75/events",
   "user": {
     "following_url": "https://api.github.com/users/heikojansen/following{/other_user}",
+    "node_id": "MDQ6VXNlcjI5NTQ4Nw==",
     "gists_url": "https://api.github.com/users/heikojansen/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/heikojansen/received_events",
     "organizations_url": "https://api.github.com/users/heikojansen/orgs",

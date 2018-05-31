@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxNzIzNzMyNDI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIwMTQ1NTU3",
     "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/samcv/received_events",
     "organizations_url": "https://api.github.com/users/samcv/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/851/events",
   "user": {
     "following_url": "https://api.github.com/users/smls/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMwOTM1ODA=",
     "gists_url": "https://api.github.com/users/smls/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/smls/received_events",
     "organizations_url": "https://api.github.com/users/smls/orgs",

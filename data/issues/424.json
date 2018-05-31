@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NjI3OTA0MDI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/MadcapJake/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMzNzc1MjU=",
     "gists_url": "https://api.github.com/users/MadcapJake/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/MadcapJake/received_events",
     "organizations_url": "https://api.github.com/users/MadcapJake/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/424/events",
   "user": {
     "following_url": "https://api.github.com/users/MadcapJake/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMzNzc1MjU=",
     "gists_url": "https://api.github.com/users/MadcapJake/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/MadcapJake/received_events",
     "organizations_url": "https://api.github.com/users/MadcapJake/orgs",

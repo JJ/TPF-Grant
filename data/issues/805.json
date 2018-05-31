@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU3",
       "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/coke/received_events",
       "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/coke/followers",
     "url": "https://api.github.com/users/coke"
   },
+  "node_id": "MDU6SXNzdWUxNjk1ODcwNDg=",
   "closed_by": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "NOTSPECCED",
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI=",
       "id": 420092522,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
@@ -84,6 +89,7 @@
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/805/events",
   "user": {
     "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMzkwNjA=",
     "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/tbrowder/received_events",
     "organizations_url": "https://api.github.com/users/tbrowder/orgs",

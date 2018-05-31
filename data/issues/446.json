@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/niner/following{/other_user}",
+      "node_id": "MDQ6VXNlcjczMjQ5",
       "gists_url": "https://api.github.com/users/niner/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/niner/received_events",
       "organizations_url": "https://api.github.com/users/niner/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/niner/following{/other_user}",
+    "node_id": "MDQ6VXNlcjczMjQ5",
     "gists_url": "https://api.github.com/users/niner/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/niner/received_events",
     "organizations_url": "https://api.github.com/users/niner/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/niner/followers",
     "url": "https://api.github.com/users/niner"
   },
+  "node_id": "MDU6SXNzdWUxNDY3MzYxMTQ=",
   "closed_by": {
     "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIzNzcz",
     "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/moritz/received_events",
     "organizations_url": "https://api.github.com/users/moritz/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "efa0cd",
       "name": "Hacktoberfest",
+      "node_id": "MDU6TGFiZWw0NTA4NDMzMjI=",
       "id": 450843322,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/Hacktoberfest"
@@ -84,6 +89,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/446/events",
   "user": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",

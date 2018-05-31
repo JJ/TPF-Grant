@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTk0MjU4NzY=",
   "closed_by": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/397/events",
   "user": {
     "following_url": "https://api.github.com/users/gotoexit/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE2ODY2NDkw",
     "gists_url": "https://api.github.com/users/gotoexit/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/gotoexit/received_events",
     "organizations_url": "https://api.github.com/users/gotoexit/orgs",

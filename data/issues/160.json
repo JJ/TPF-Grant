@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NDc1NzIzOTc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/160/events",
   "user": {
     "following_url": "https://api.github.com/users/dha/following{/other_user}",
+    "node_id": "MDQ6VXNlcjk3ODkw",
     "gists_url": "https://api.github.com/users/dha/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/dha/received_events",
     "organizations_url": "https://api.github.com/users/dha/orgs",

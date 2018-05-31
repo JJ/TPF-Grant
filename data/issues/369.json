@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxMjg4OTYwOTc=",
   "closed_by": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -43,6 +45,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/369/events",
   "user": {
     "following_url": "https://api.github.com/users/catb0t/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMyMzg3NDg=",
     "gists_url": "https://api.github.com/users/catb0t/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/catb0t/received_events",
     "organizations_url": "https://api.github.com/users/catb0t/orgs",

@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MzM3MTQxMTQ=",
   "closed_by": {
     "following_url": "https://api.github.com/users/labster/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwODcyMw==",
     "gists_url": "https://api.github.com/users/labster/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/labster/received_events",
     "organizations_url": "https://api.github.com/users/labster/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/74/events",
   "user": {
     "following_url": "https://api.github.com/users/scriplit/following{/other_user}",
+    "node_id": "MDQ6VXNlcjExNTA5Njk=",
     "gists_url": "https://api.github.com/users/scriplit/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/scriplit/received_events",
     "organizations_url": "https://api.github.com/users/scriplit/orgs",

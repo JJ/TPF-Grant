@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUxMTM2MjYzMDk=",
   "closed_by": {
     "following_url": "https://api.github.com/users/awwaiid/following{/other_user}",
+    "node_id": "MDQ6VXNlcjg2NDI=",
     "gists_url": "https://api.github.com/users/awwaiid/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/awwaiid/received_events",
     "organizations_url": "https://api.github.com/users/awwaiid/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/178/events",
   "user": {
     "following_url": "https://api.github.com/users/ronaldxs/following{/other_user}",
+    "node_id": "MDQ6VXNlcjc3MjM0",
     "gists_url": "https://api.github.com/users/ronaldxs/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ronaldxs/received_events",
     "organizations_url": "https://api.github.com/users/ronaldxs/orgs",

@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0NTc3NDE5MzA=",
   "closed_by": {
     "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "node_id": "MDQ6VXNlcjczNjQxOQ==",
     "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
     "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/374/events",
   "user": {
     "following_url": "https://api.github.com/users/dbrunton/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3ODUw",
     "gists_url": "https://api.github.com/users/dbrunton/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/dbrunton/received_events",
     "organizations_url": "https://api.github.com/users/dbrunton/orgs",

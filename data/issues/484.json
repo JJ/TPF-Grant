@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+      "node_id": "MDQ6VXNlcjU1MDc1MDM=",
       "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
       "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/AlexDaniel/followers",
     "url": "https://api.github.com/users/AlexDaniel"
   },
+  "node_id": "MDU6SXNzdWUxNTIxOTExMDk=",
   "closed_by": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -84,6 +89,7 @@
     {
       "color": "5DE0FA",
       "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
       "id": 676800676,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/update"
@@ -92,6 +98,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/484/events",
   "user": {
     "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
     "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
     "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
