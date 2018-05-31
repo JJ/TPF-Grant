@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyNzMxNTkzNjQ=",
   "closed_by": {
     "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE4ODE4MTk2",
     "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
     "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
@@ -43,6 +45,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1670/events",
   "user": {
     "following_url": "https://api.github.com/users/gmichokostas/following{/other_user}",
+    "node_id": "MDQ6VXNlcjcxMTk3Mjk=",
     "gists_url": "https://api.github.com/users/gmichokostas/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/gmichokostas/received_events",
     "organizations_url": "https://api.github.com/users/gmichokostas/orgs",

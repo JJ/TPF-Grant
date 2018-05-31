@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU3",
       "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/coke/received_events",
       "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/coke/followers",
     "url": "https://api.github.com/users/coke"
   },
+  "node_id": "MDU6SXNzdWUyNzUxMDczMjM=",
   "closed_by": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
     "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/coke/received_events",
     "organizations_url": "https://api.github.com/users/coke/orgs",
@@ -77,6 +81,7 @@
     {
       "color": "e99695",
       "name": "xt",
+      "node_id": "MDU6TGFiZWw2Mzk5NzMzODE=",
       "id": 639973381,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/xt"
@@ -85,6 +90,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1680/events",
   "user": {
     "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMDg4ODc4",
     "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
     "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",

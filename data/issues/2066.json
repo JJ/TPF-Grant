@@ -1,0 +1,83 @@
+{
+  "body": "the util allows \"Perl 5\" to be broken onto two lines, and will update it to include a nbsp on the second line, but this case is ignored by the test.\r\n\r\nIMO: we shouldn't be breaking over lines even in POD source, and we should update the test to reject this condition\r\n\r\nIn either case, these two scripts shouldn't have two different sets of rules.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDU6SXNzdWUzMjY3ODExODU=",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-27T06:22:13Z",
+  "created_at": "2018-05-27T02:09:35Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2066/comments",
+  "locked": false,
+  "title": "util/perl-nbsp & xt/perl-nbsp don't match",
+  "id": 326781185,
+  "html_url": "https://github.com/perl6/doc/issues/2066",
+  "closed_at": "2018-05-27T06:22:13Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2066/labels{/name}",
+  "number": 2066,
+  "comments": 1,
+  "labels": [
+    {
+      "color": "b60205",
+      "name": "bug",
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM=",
+      "id": 676814023,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug"
+    },
+    {
+      "color": "e99695",
+      "name": "xt",
+      "node_id": "MDU6TGFiZWw2Mzk5NzMzODE=",
+      "id": 639973381,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/xt"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2066/events",
+  "user": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2066"
+}

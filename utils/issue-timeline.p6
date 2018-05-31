@@ -45,11 +45,9 @@ for @sorted-keys -> $time {
 }
 spurt("../data/issues-timeline.csv", @open-issues.join("\n"));
 
-my @keys = %issues-open.keys ∪ %issues-closed.keys;
-
+my @keys = (%issues-open.keys ∪ %issues-closed.keys).list;
 my @issues-month=("Month,Open,Closed");
-for @keys.list.sort -> $m {
-    say $m;
+for @keys.keys.sort -> $m {
     %issues-open{$m} //= 0;
     %issues-closed{$m} //= 0;
     push @issues-month,

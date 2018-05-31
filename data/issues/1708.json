@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTU3NTk1MzE1",
   "closed_by": {
     "following_url": "https://api.github.com/users/moritz/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIzNzcz",
     "gists_url": "https://api.github.com/users/moritz/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/moritz/received_events",
     "organizations_url": "https://api.github.com/users/moritz/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1708/events",
   "user": {
     "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
     "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fluca1978/received_events",
     "organizations_url": "https://api.github.com/users/fluca1978/orgs",

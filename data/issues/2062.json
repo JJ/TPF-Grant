@@ -1,0 +1,91 @@
+{
+  "body": "## The problem\r\n\r\nIt [does not include](https://docs.perl6.org/type/Associative) the method it provides.\r\n\r\n## Suggestions\r\n\r\nAdd them. Them [seem to be in roast](https://github.com/perl6/roast/blob/b070ea7f407414a877315ee52c5af108b4687e0b/S32-hash/perl.t), so they are specced.\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDU6SXNzdWUzMjY3MjEzMzA=",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-26T08:47:46Z",
+  "created_at": "2018-05-26T08:31:05Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2062/comments",
+  "locked": false,
+  "title": "Expand the Associative role page",
+  "id": 326721330,
+  "html_url": "https://github.com/perl6/doc/issues/2062",
+  "closed_at": "2018-05-26T08:47:46Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2062/labels{/name}",
+  "number": 2062,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "b60205",
+      "name": "bug",
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM=",
+      "id": 676814023,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2062/events",
+  "user": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2062"
+}

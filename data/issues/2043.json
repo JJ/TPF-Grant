@@ -1,0 +1,83 @@
+{
+  "body": "## The problem\r\nhttps://docs.perl6.org/language/unicode#UTF8-C8\r\n\r\nThe UTF8-C8 section doesn't tell how to use it.\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDU6SXNzdWUzMjUzODIwMzk=",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-05-23T05:48:57Z",
+  "created_at": "2018-05-22T16:57:31Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2043/comments",
+  "locked": false,
+  "title": "The UTF8-C8 section doesn't tell how to use it.",
+  "id": 325382039,
+  "html_url": "https://github.com/perl6/doc/issues/2043",
+  "closed_at": "2018-05-23T05:48:57Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2043/labels{/name}",
+  "number": 2043,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2043/events",
+  "user": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2043"
+}

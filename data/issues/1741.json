@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyOTA4OTc0Nzk=",
   "closed_by": {
     "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
     "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fluca1978/received_events",
     "organizations_url": "https://api.github.com/users/fluca1978/orgs",
@@ -43,6 +45,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1741/events",
   "user": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",

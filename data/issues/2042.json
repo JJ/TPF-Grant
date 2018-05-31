@@ -1,0 +1,64 @@
+{
+  "body": "## The problem\r\n\r\nWhile editing https://stackoverflow.com/a/27867992 I was trying to document `lazy-if` and found no documentation on it when searched.\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDU6SXNzdWUzMjUzNDk1NzU=",
+  "closed_by": null,
+  "updated_at": "2018-05-23T05:54:02Z",
+  "created_at": "2018-05-22T15:33:18Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2042/comments",
+  "locked": false,
+  "title": "lazy-if does not appear to be documented",
+  "id": 325349575,
+  "html_url": "https://github.com/perl6/doc/issues/2042",
+  "closed_at": null,
+  "milestone": null,
+  "state": "open",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2042/labels{/name}",
+  "number": 2042,
+  "comments": 4,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "NOTSPECCED",
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI=",
+      "id": 420092522,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2042/events",
+  "user": {
+    "following_url": "https://api.github.com/users/b2gills/following{/other_user}",
+    "node_id": "MDQ6VXNlcjQ4MzYw",
+    "gists_url": "https://api.github.com/users/b2gills/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/b2gills/received_events",
+    "organizations_url": "https://api.github.com/users/b2gills/orgs",
+    "subscriptions_url": "https://api.github.com/users/b2gills/subscriptions",
+    "html_url": "https://github.com/b2gills",
+    "id": 48360,
+    "login": "b2gills",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/b2gills/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/b2gills/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/48360?v=4",
+    "starred_url": "https://api.github.com/users/b2gills/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/b2gills/followers",
+    "url": "https://api.github.com/users/b2gills"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2042"
+}
