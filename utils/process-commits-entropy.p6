@@ -9,9 +9,11 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     my %file-author;
     for @commits -> $c {
         my ($author,$blank,@files) = $c.split("\n");
+        my $nick = $author.split("\@")[0]; 
+        next if !@files;
         for @files -> $f {
-	    %author-file{$author}{$f}++;
-	    %file-author{$f}{$author}++;
+	    %author-file{$nick}{$f}++;
+	    %file-author{$f}{$nick}++;
         }
     }
 
