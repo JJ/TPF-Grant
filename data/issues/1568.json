@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMA==",
       "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/JJ/received_events",
       "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -41,6 +43,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
+  "node_id": "MDU6SXNzdWUyNTg5MDkwNTE=",
   "closed_by": null,
   "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2017-09-19T17:54:43Z",
@@ -59,6 +62,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -67,6 +71,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1568/events",
   "user": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",

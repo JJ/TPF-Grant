@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTUwNzM2NzAx",
   "closed_by": {
     "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMDg4ODc4",
     "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
     "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",
@@ -49,6 +51,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1661/events",
   "user": {
     "following_url": "https://api.github.com/users/jstuder-gh/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMDg4ODc4",
     "gists_url": "https://api.github.com/users/jstuder-gh/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/jstuder-gh/received_events",
     "organizations_url": "https://api.github.com/users/jstuder-gh/orgs",

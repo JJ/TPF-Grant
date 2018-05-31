@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+      "node_id": "MDQ6VXNlcjE3NjgyMTE2",
       "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
       "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
     "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
     "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
@@ -41,8 +43,10 @@
     "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
     "url": "https://api.github.com/users/rafaelschipiura"
   },
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTM5MDM1MzMx",
   "closed_by": {
     "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
     "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
     "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
@@ -85,6 +89,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1522/events",
   "user": {
     "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
     "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
     "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",

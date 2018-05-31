@@ -5,6 +5,7 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyNTQyNjAyOTU=",
   "closed_by": null,
   "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2017-08-31T08:46:59Z",
@@ -23,6 +24,7 @@
     {
       "color": "C4DB17",
       "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
@@ -31,6 +33,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1480/events",
   "user": {
     "following_url": "https://api.github.com/users/lefth/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIxNTU3NDc=",
     "gists_url": "https://api.github.com/users/lefth/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/lefth/received_events",
     "organizations_url": "https://api.github.com/users/lefth/orgs",
