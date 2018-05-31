@@ -6,7 +6,11 @@ Install the Perl 6 dependencies with
 	
 You'll need to install R, ggplot2 and ggthemes2 to run the R scripts.
 
-	
+## Get individual issues
+
+    export GH_TOKEN=your-token
+    ./get_issues.pl
+    
 ## Download issues
 
 Download them with 
