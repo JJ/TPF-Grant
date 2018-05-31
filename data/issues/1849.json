@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMA==",
       "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/JJ/received_events",
       "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -24,6 +25,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -41,6 +43,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
+  "node_id": "MDU6SXNzdWUzMDYxNDU2OTM=",
   "closed_by": null,
   "updated_at": "2018-05-14T05:05:42Z",
   "created_at": "2018-03-17T10:29:01Z",
@@ -59,6 +62,7 @@
     {
       "color": "b60205",
       "name": "bug",
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM=",
       "id": 676814023,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/bug"
@@ -66,6 +70,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -74,6 +79,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1849/events",
   "user": {
     "following_url": "https://api.github.com/users/rheum101/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3ODA5OTQ1",
     "gists_url": "https://api.github.com/users/rheum101/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/rheum101/received_events",
     "organizations_url": "https://api.github.com/users/rheum101/orgs",

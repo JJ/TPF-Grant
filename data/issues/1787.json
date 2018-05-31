@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyOTc5ODM0MDk=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "e99695",
       "name": "xt",
+      "node_id": "MDU6TGFiZWw2Mzk5NzMzODE=",
       "id": 639973381,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/xt"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1787/events",
   "user": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",

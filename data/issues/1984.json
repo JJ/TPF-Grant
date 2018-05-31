@@ -1,28 +1,49 @@
 {
-  "body": "## The problem\r\n\r\nWe have right now a [Chinese version](https://github.com/perl6/doc/blob/master/README.zh.md), we could have more at least to populate search results in a number of languages.\r\n\r\n\r\n## Suggestions\r\n\r\nTranslate to\r\n\r\n- [x] Spanish\r\n- [x] German\r\n- [ ] Dutch\r\n- [ ] Portuguese\r\n- [ ] French\r\n- [x] Japanese\r\n",
+  "body": "## The problem\r\n\r\nWe have right now a [Chinese version](https://github.com/perl6/doc/blob/master/README.zh.md), we could have more at least to populate search results in a number of languages.\r\n\r\n\r\n## Suggestions\r\n\r\nTranslate to\r\n\r\n- [x] Spanish\r\n- [x] German\r\n- [x] Dutch\r\n- [x] Portuguese\r\n- [x] French\r\n- [x] Japanese\r\n",
   "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
-  "closed_by": null,
-  "updated_at": "2018-05-14T05:05:42Z",
+  "node_id": "MDU6SXNzdWUzMTkxMjQ4NzM=",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/rafaelschipiura/following{/other_user}",
+    "node_id": "MDQ6VXNlcjE3NjgyMTE2",
+    "gists_url": "https://api.github.com/users/rafaelschipiura/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/rafaelschipiura/received_events",
+    "organizations_url": "https://api.github.com/users/rafaelschipiura/orgs",
+    "subscriptions_url": "https://api.github.com/users/rafaelschipiura/subscriptions",
+    "html_url": "https://github.com/rafaelschipiura",
+    "id": 17682116,
+    "login": "rafaelschipiura",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/rafaelschipiura/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/rafaelschipiura/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17682116?v=4",
+    "starred_url": "https://api.github.com/users/rafaelschipiura/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/rafaelschipiura/followers",
+    "url": "https://api.github.com/users/rafaelschipiura"
+  },
+  "updated_at": "2018-05-30T19:16:06Z",
   "created_at": "2018-05-01T06:05:50Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1984/comments",
   "locked": false,
   "title": "Translate README.md to languages",
   "id": 319124873,
   "html_url": "https://github.com/perl6/doc/issues/1984",
-  "closed_at": null,
+  "closed_at": "2018-05-30T19:16:06Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1984/labels{/name}",
   "number": 1984,
-  "comments": 7,
+  "comments": 11,
   "labels": [
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -30,6 +51,7 @@
     {
       "color": "000000",
       "name": "meta",
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM=",
       "id": 423513323,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/meta"
@@ -38,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1984/events",
   "user": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",

@@ -1,12 +1,14 @@
 {
   "body": "From my point of view, I think it would be better if the routines or method from the classes mentioned above were not included and explained in each and every class that inherits from them, and instead just show the methods which are unique to the class.",
-  "author_association": "CONTRIBUTOR",
+  "author_association": "COLLABORATOR",
   "assignees": [
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUzMTI2ODQwNTI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "f72bc1",
       "name": "big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
       "id": 244870541,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/big"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1916/events",
   "user": {
     "following_url": "https://api.github.com/users/ElenaMerelo/following{/other_user}",
+    "node_id": "MDQ6VXNlcjg5MDIwNTk=",
     "gists_url": "https://api.github.com/users/ElenaMerelo/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ElenaMerelo/received_events",
     "organizations_url": "https://api.github.com/users/ElenaMerelo/orgs",

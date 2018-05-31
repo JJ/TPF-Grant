@@ -4,6 +4,7 @@
   "assignees": [
     {
       "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMA==",
       "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/JJ/received_events",
       "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -23,6 +24,7 @@
     },
     {
       "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+      "node_id": "MDQ6VXNlcjgxMzY2NA==",
       "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
       "received_events_url": "https://api.github.com/users/fluca1978/received_events",
       "organizations_url": "https://api.github.com/users/fluca1978/orgs",
@@ -43,6 +45,7 @@
   ],
   "assignee": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -60,8 +63,10 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
+  "node_id": "MDU6SXNzdWUzMTc4ODg1NTY=",
   "closed_by": {
     "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
     "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fluca1978/received_events",
     "organizations_url": "https://api.github.com/users/fluca1978/orgs",
@@ -98,6 +103,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1965/events",
   "user": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",

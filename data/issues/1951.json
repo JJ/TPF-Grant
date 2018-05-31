@@ -1,12 +1,14 @@
 {
-  "body": "## The problem\r\n\r\nFrom time to time, the build that uses Whateverable's binary fails with\r\n\r\n```\r\n xt/examples-compilation.t STDERR: Use of uninitialized value $repo-id of type Any in string context.\r\n# Methods .^name, .perl, .gist, or .say can be used to stringi\r\n# xt/examples-compilation.t STDERR: fy it to something meaningful.\r\n# \r\nt/pod-valid.t ........ 340/347 # xt/examples-compilation.t STDERR:   in any statement_control at /tmp/whateverable/rakudo-moar/a138dcf50df2b2bf571db96dc14d2ea3e81e8522/share/nqp/lib/Perl6/Grammar.moarvm line 1\r\n# Use of uninitialized value $repo-id of type Any in string context.\r\n# Methods .^name, .perl, .gist, or .say can be \r\n# xt/examples-compilation.t STDERR: used to stringify it to something meaningful.\r\n#   in any statement_control at /tmp/whateverable/rakudo-moar/a138dcf50df2b2bf571db96dc14d2ea3e81e8522/share/nqp/lib/Perl6/Grammar.moarvm line 1\r\n# \r\n# Failed test 'xt/examples-compilation.t has clean POD6'\r\n```\r\n\r\n## Suggestions\r\n\r\nSince there is another build running in parallel, it's not too important, but the fact that it consistently fails in the same place, although intermitently, might indicate some problem of some sort there. \r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "body": "## The problem\r\n\r\nFrom time to time, builds fail with error of this type\r\n\r\n```\r\n xt/examples-compilation.t STDERR: Use of uninitialized value $repo-id of type Any in string context.\r\n# Methods .^name, .perl, .gist, or .say can be used to stringi\r\n# xt/examples-compilation.t STDERR: fy it to something meaningful.\r\n# \r\nt/pod-valid.t ........ 340/347 # xt/examples-compilation.t STDERR:   in any statement_control at /tmp/whateverable/rakudo-moar/a138dcf50df2b2bf571db96dc14d2ea3e81e8522/share/nqp/lib/Perl6/Grammar.moarvm line 1\r\n# Use of uninitialized value $repo-id of type Any in string context.\r\n# Methods .^name, .perl, .gist, or .say can be \r\n# xt/examples-compilation.t STDERR: used to stringify it to something meaningful.\r\n#   in any statement_control at /tmp/whateverable/rakudo-moar/a138dcf50df2b2bf571db96dc14d2ea3e81e8522/share/nqp/lib/Perl6/Grammar.moarvm line 1\r\n# \r\n# Failed test 'xt/examples-compilation.t has clean POD6'\r\n```\r\n\r\nI happens in all tests, in all binaries, be it Docker file, packages or HEAD binary. \r\n\r\n## Suggestions\r\n\r\nSince there is another build running in parallel, it's not too important, but the fact that it consistently fails in the same place, although intermitently, might indicate some problem of some sort there. \r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
   "author_association": "MEMBER",
   "assignees": [
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUzMTY1OTIzNTI=",
   "closed_by": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",
@@ -24,23 +26,32 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-13T18:06:02Z",
+  "updated_at": "2018-05-19T17:16:08Z",
   "created_at": "2018-04-22T16:20:58Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1951/comments",
   "locked": false,
   "title": "Intermitent problems with some builds",
   "id": 316592352,
   "html_url": "https://github.com/perl6/doc/issues/1951",
-  "closed_at": "2018-05-13T18:06:02Z",
+  "closed_at": null,
   "milestone": null,
-  "state": "closed",
+  "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1951/labels{/name}",
   "number": 1951,
-  "comments": 20,
+  "comments": 21,
   "labels": [
+    {
+      "color": "C4DB17",
+      "name": "build",
+      "node_id": "MDU6TGFiZWw2NjU1ODM5",
+      "id": 6655839,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
     {
       "color": "000000",
       "name": "meta",
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM=",
       "id": 423513323,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/meta"
@@ -49,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1951/events",
   "user": {
     "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
     "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/JJ/received_events",
     "organizations_url": "https://api.github.com/users/JJ/orgs",

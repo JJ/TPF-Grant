@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUzMTg2OTY4ODM=",
   "closed_by": {
     "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
     "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fluca1978/received_events",
     "organizations_url": "https://api.github.com/users/fluca1978/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -48,6 +51,7 @@
     {
       "color": "5DE0FA",
       "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
       "id": 676800676,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/update"
@@ -56,6 +60,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1974/events",
   "user": {
     "following_url": "https://api.github.com/users/ufobat/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEyMzk1MjQ5",
     "gists_url": "https://api.github.com/users/ufobat/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/ufobat/received_events",
     "organizations_url": "https://api.github.com/users/ufobat/orgs",

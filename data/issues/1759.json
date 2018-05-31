@@ -5,8 +5,9 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyOTUyODM2NTc=",
   "closed_by": null,
-  "updated_at": "2018-02-10T19:03:27Z",
+  "updated_at": "2018-05-20T17:01:36Z",
   "created_at": "2018-02-07T20:36:09Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1759/comments",
   "locked": false,
@@ -23,14 +24,24 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1759/events",
   "user": {
     "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMzkwNjA=",
     "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/tbrowder/received_events",
     "organizations_url": "https://api.github.com/users/tbrowder/orgs",

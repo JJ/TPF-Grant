@@ -5,6 +5,7 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUyOTUyOTAwNTU=",
   "closed_by": null,
   "updated_at": "2018-02-20T02:23:40Z",
   "created_at": "2018-02-07T20:57:36Z",
@@ -23,6 +24,7 @@
     {
       "color": "5DE0FA",
       "name": "NOTSPECCED",
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI=",
       "id": 420092522,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
@@ -30,6 +32,7 @@
     {
       "color": "5DE0FA",
       "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
@@ -38,6 +41,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1760/events",
   "user": {
     "following_url": "https://api.github.com/users/samcv/following{/other_user}",
+    "node_id": "MDQ6VXNlcjIwMTQ1NTU3",
     "gists_url": "https://api.github.com/users/samcv/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/samcv/received_events",
     "organizations_url": "https://api.github.com/users/samcv/orgs",

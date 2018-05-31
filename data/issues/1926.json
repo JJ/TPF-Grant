@@ -5,8 +5,10 @@
     
   ],
   "assignee": null,
+  "node_id": "MDU6SXNzdWUzMTQzMjIxNjU=",
   "closed_by": {
     "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
     "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fluca1978/received_events",
     "organizations_url": "https://api.github.com/users/fluca1978/orgs",
@@ -41,6 +43,7 @@
     {
       "color": "8cef88",
       "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
       "id": 876253381,
       "default": true,
       "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
@@ -49,6 +52,7 @@
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1926/events",
   "user": {
     "following_url": "https://api.github.com/users/fecundf/following{/other_user}",
+    "node_id": "MDQ6VXNlcjMxNzU5Mg==",
     "gists_url": "https://api.github.com/users/fecundf/gists{/gist_id}",
     "received_events_url": "https://api.github.com/users/fecundf/received_events",
     "organizations_url": "https://api.github.com/users/fecundf/orgs",
