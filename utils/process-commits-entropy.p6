@@ -4,6 +4,9 @@ use v6;
 
 sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     chdir( $dir );
+    my $dirs = $dir ~~ m:g{\/ (\w+) \/ (\w+) $$};
+    my $prefix = $dirs ?? $dirs[0].join("-") ~ "-" !! "data-";
+    say $prefix;
     my @commits = qx/git log --name-only --format="→%aE"/.split("→");
     my @current-files = qx/git ls-files/.split("\n");
     my $is-current = set @current-files;
@@ -35,8 +38,8 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
         }
         push @author-entropy:  "$author,$entropy";
     }
-    spurt "/tmp/author-entropy.csv", @author-entropy.join("\n");
-    spurt "/tmp/author-files.csv", @author-files.join("\n");
+    spurt "/tmp/{$prefix}author-entropy.csv", @author-entropy.join("\n");
+    spurt "/tmp/{$prefix}author-files.csv", @author-files.join("\n");
 
     my @file-entropy = ("File,Entropy");
     my @file-authors = ("File,Authors");
@@ -59,8 +62,8 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
             push @current-files-data: "$file,$entropy,{%file-author{$file}.keys.elems},$size";
         }
     }
-    spurt "/tmp/file-entropy.csv", @file-entropy.join("\n");
-    spurt "/tmp/file-authors.csv", @file-authors.join("\n");
-    spurt "/tmp/current-files.csv", @current-files-data.join("\n");
+    spurt "/tmp/{$prefix}file-entropy.csv", @file-entropy.join("\n");
+    spurt "/tmp/{$prefix}file-authors.csv", @file-authors.join("\n");
+    spurt "/tmp/{$prefix}current-files.csv", @current-files-data.join("\n");
 }
 
