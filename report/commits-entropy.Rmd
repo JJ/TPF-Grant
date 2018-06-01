@@ -39,6 +39,14 @@ ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits))+geom_point()+scale_x_lo
 
 The inverse relationship found by [@casebolt2009author] for the Gnome suite also holds here, with entropy decreasing with the number of authors. But it also decreases with the number of commits; they are in direct relationship, as can be seen by the point size which represents number of authors (above) and number of commits (below). As indicated in [@casebolt2009author], in this case the entropy is related to the evenness of the distribution of authors and commits. Low entropy would mean that the more authors (or commits), a dominant one emerges; high entropy means that few authors will distribute the load more or less evenly among them. This is simply an emergent behavior that arises from the self-organization of the authors, and is not really imposed from above in any possible way. In fact, the month with the lowest entropy was May 2018, which was also the month with the highest recorded number of commits, most of them made by a single author (the author of this report).
 
+But we can look at the entropy at the file level. This will do in the next Section.
+
+# File-level entropy
+
+Instead of computing the entropy by looking at the lines written by each author, we will look at the number of commits that affect a file, independently of how many lines they have changed. With this we achieve two things: first, look at the whole process of creation and edition of a file, including all the authors that have contributed to it. Second, we use a measure, commits, that is indicative of a different measurement of efforts than lines of code (as done by the rest of the authors mentioned above). This might help us confirm their findings, but also have a more dynamic measure of entropy than simply lines changed per author, which after a certain amount of time is not going to change too much; author commit entropy will change with the number of authors and the number of commits, giving a more up-to-date and accurate view of the *complexity* we want to reveal using entropy.
+
+
+
 ## Acknowledgements
 
 This report has been supported by The Perl Foundation under [grant *Curating and improving Perl 6 documentation*](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html). 

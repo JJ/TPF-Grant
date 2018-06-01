@@ -24,7 +24,9 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
 	    my $proportion = %commits-this-month{$c}/%commits-month{$m};
 	    $entropy += -$proportion*log($proportion);
 	}
-        $entropy /= +%commits-this-month.keys;
+        if  +%commits-this-month.keys > 1 {
+            $entropy /= log(%commits-this-month.keys); #Protect against 0 log
+        } 
 	say "$m-01T00:00:00, %commits-month{$m}, {+%commits-this-month.keys}, $entropy";
     }
 

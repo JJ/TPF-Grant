@@ -56,6 +56,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
             my $proportion = %file-author{$file}{$author}/$total;
             $entropy -=  $proportion * log( $proportion );
         }
+        $entropy /= log(+%file-author{$file}.keys);
         push @file-entropy:  "$file,$entropy";
         if ( $is-current{$file} ) {
             my $size = "./$file".IO.s;
