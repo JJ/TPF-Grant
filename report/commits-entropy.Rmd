@@ -1,21 +1,28 @@
 ---
-title: 'Perl 6 documentation repository through time: author and file entropy'
+title: 'Author and file entropy in the Perl 6 documentation repository'
 author: "JJ Merelo"
 date: "June 1st, 2018"
 output:
   pdf_document: default
   html_document: default
 bibliography: perl6.bib
-abstract: 
+abstract: As the development of a software project proceeds, its complexity increases, and this is reflected at several levels, from the file level to the author level. This complexity can be represented via the entropy. In this report we will analyze entropy at the file level, and try to find some correlations, deriving possibly some advice on how to improve the process of fully volunteer software projects such as this one.
 ---
 
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(ggthemes)
+entropy <- read.csv("../data/file-entropy.csv")
+entropy.c <- read.csv("../data/current-files.csv")
+entropy.r <- read.csv("../data/perl6-rakudo-current-files.csv")
 
 ```
 
 # Introduction
+
+Entropy has been the subject of several papers [@yu2012entropy,@taylor2011analysis,@casebolt2009author] with the main focus on how it reveals the increasing complexity of software projects. Entropy is related to the amount of information, and in this case it refers more to the information it reveals about the software development process that about the information at a different level.
+
+There is no single way of measuring entropy, however. The reports above talk about *author entropy*, which is measured by calculating the Shannon entropy on the number of lines every author has contributed to a single file. This is a way of focusing on the information content of the file such as it is today. Main conclusion reached in [@casebolt2009author] is the inverse relationship between file size and entropy in the Gnome suite of applications, with a dominant author, implying low entropy, usually being the case in big files. That result need not be general, but in any case reveals the power of a particular measure of entropy for revealing software development patterns. We already used entropy in [@perl6commits], although in this case we measured the monthly commit authorship entropy, using Shannon entropy on the number of commits contributed by developers monthly. No clear pattern, emerged, only that entropy increased with the number of authors, which is only to be expected. 
 
 In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6), a purely volunteer-based repository devoted to the creation of the official documentation of the Perl 6 language. 
 
