@@ -5,6 +5,8 @@ use v6;
 sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     chdir( $dir );
     my @commits = qx/git log --name-only --format="→%aE"/.split("→");
+    my @current-files = qx/git ls-files/.split("\n");
+    my $is-current = set @current-files;
     my %author-file;
     my %file-author;
     for @commits -> $c {
@@ -38,6 +40,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
 
     my @file-entropy = ("File,Entropy");
     my @file-authors = ("File,Authors");
+    my @current-files-data = ("File,Entropy,Authors,Size");
     for %file-author.keys -> $file {
         my $total = 0;
         push @file-authors, "$file, {%file-author{$file}.keys.elems}";
@@ -51,8 +54,13 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
             $entropy -=  $proportion * log( $proportion );
         }
         push @file-entropy:  "$file,$entropy";
+        if ( $is-current{$file} ) {
+            my $size = "./$file".IO.s;
+            push @current-files-data: "$file,$entropy,{%file-author{$file}.keys.elems},$size";
+        }
     }
     spurt "/tmp/file-entropy.csv", @file-entropy.join("\n");
     spurt "/tmp/file-authors.csv", @file-authors.join("\n");
+    spurt "/tmp/current-files.csv", @current-files-data.join("\n");
 }
 
