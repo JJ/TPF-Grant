@@ -17,3 +17,9 @@ entropy.c <- read.csv("../data/current-files.csv")
 entropy.c <- entropy.c[ entropy.c$Entropy > 0,]
 ggplot(entropy.c, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
 ggplot(entropy.c, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+
+
+entropy.r <- read.csv("../data/perl6-rakudo-current-files.csv")
+entropy.r <- entropy.r[ entropy.r$Entropy > 0,]
+ggplot(entropy.r, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+ggplot(entropy.r, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
