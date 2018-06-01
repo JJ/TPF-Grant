@@ -6,7 +6,6 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     chdir( $dir );
     my $dirs = $dir ~~ m:g{\/ (\w+) \/ (\w+) $$};
     my $prefix = $dirs ?? $dirs[0].join("-") ~ "-" !! "data-";
-    say $prefix;
     my @commits = qx/git log --name-only --format="→%aE"/.split("→");
     my @current-files = qx/git ls-files/.split("\n");
     my $is-current = set @current-files;
@@ -56,7 +55,9 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
             my $proportion = %file-author{$file}{$author}/$total;
             $entropy -=  $proportion * log( $proportion );
         }
-        $entropy /= log(+%file-author{$file}.keys);
+        if +%file-author{$file}.keys > 1 {
+            $entropy /= log(+%file-author{$file}.keys);
+        }
         push @file-entropy:  "$file,$entropy";
         if ( $is-current{$file} ) {
             my $size = "./$file".IO.s;
