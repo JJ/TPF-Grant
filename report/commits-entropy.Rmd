@@ -1,0 +1,28 @@
+---
+title: 'Perl 6 documentation repository through time: author and file entropy'
+author: "JJ Merelo"
+date: "June 1st, 2018"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: perl6.bib
+abstract: 
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(ggthemes)
+
+```
+
+# Introduction
+
+In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6), a purely volunteer-based repository devoted to the creation of the official documentation of the Perl 6 language. 
+
+
+
+## Acknowledgements
+
+This report has been supported by The Perl Foundation under [grant *Curating and improving Perl 6 documentation*](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html). 
+
+# References
