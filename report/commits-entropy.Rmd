@@ -20,13 +20,24 @@ entropy.r <- read.csv("../data/perl6-rakudo-current-files.csv")
 
 # Introduction
 
-Entropy has been the subject of several papers [@yu2012entropy,@taylor2011analysis,@casebolt2009author] with the main focus on how it reveals the increasing complexity of software projects. Entropy is related to the amount of information, and in this case it refers more to the information it reveals about the software development process that about the information at a different level.
-
-There is no single way of measuring entropy, however. The reports above talk about *author entropy*, which is measured by calculating the Shannon entropy on the number of lines every author has contributed to a single file. This is a way of focusing on the information content of the file such as it is today. Main conclusion reached in [@casebolt2009author] is the inverse relationship between file size and entropy in the Gnome suite of applications, with a dominant author, implying low entropy, usually being the case in big files. That result need not be general, but in any case reveals the power of a particular measure of entropy for revealing software development patterns. We already used entropy in [@perl6commits], although in this case we measured the monthly commit authorship entropy, using Shannon entropy on the number of commits contributed by developers monthly. No clear pattern, emerged, only that entropy increased with the number of authors, which is only to be expected. 
-
-In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6), a purely volunteer-based repository devoted to the creation of the official documentation of the Perl 6 language. 
+Entropy has been the subject of several papers [@yu2012entropy,@taylor2011analysis,@casebolt2009author] with the main focus on how it reveals the increasing complexity of software projects. Entropy is related to the amount of information, and in this case it refers more to the information it reveals about the software development process that about the information at a different level. In a previous report [@mereloperl], we established how the contributions through issues evolved in the [Perl 6 documentation repository](https://github.com/docs/perl6), a purely volunteer-based repository devoted to the creation of the official documentation of the Perl 6 language. We will focus now on different entropy measurements.
 
 
+There is no single way of measuring entropy, however. The reports above talk about *author entropy*, which is measured by calculating the Shannon entropy on the number of lines every author has contributed to a single file. This is a way of focusing on the information content of the file such as it is today. Main conclusion reached in [@casebolt2009author] is the inverse relationship between file size and entropy in the Gnome suite of applications, with a dominant author, implying low entropy, usually being the case in big files. That result need not be general, but in any case reveals the power of a particular measure of entropy for revealing software development patterns. We already used entropy in [@perl6commits], although in this case we measured the monthly commit authorship entropy, using Shannon entropy on the number of commits contributed by developers monthly. No clear pattern, emerged, only that entropy increased with the number of authors, which is only to be expected. However, the picture is different if we look at the normalized entropy, which we will do in the next Section.
+
+# Monthly normalized entropy
+
+
+Below, we use the data in [@perl6commits], updated to the date of the paper, but using Normalized Shannon entropy, which divides the regular entropy by the logarithm of the number of authors that have participated each month.
+
+```{r vs,echo=FALSE}
+commits.t <- read.csv("../data/commits.csv")
+commits.t$Month <- as.Date(commits.t$Month)
+ggplot(commits.t, aes(x=Commits,y=Entropy,size=Authors))+geom_point()+scale_x_log10()+scale_y_log10()+theme_tufte()
+ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits))+geom_point()+scale_x_log10()+scale_y_log10()+theme_tufte()
+```
+
+The inverse relationship found by [@casebolt2009author] for the Gnome suite also holds here, with entropy decreasing with the number of authors. But it also decreases with the number of commits; they are in direct relationship, as can be seen by the point size which represents number of authors (above) and number of commits (below). As indicated in [@casebolt2009author], in this case the entropy is related to the evenness of the distribution of authors and commits. Low entropy would mean that the more authors (or commits), a dominant one emerges; high entropy means that few authors will distribute the load more or less evenly among them. This is simply an emergent behavior that arises from the self-organization of the authors, and is not really imposed from above in any possible way. In fact, the month with the lowest entropy was May 2018, which was also the month with the highest recorded number of commits, most of them made by a single author (the author of this report).
 
 ## Acknowledgements
 
