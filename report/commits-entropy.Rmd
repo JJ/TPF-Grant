@@ -33,13 +33,13 @@ Below, we use the data in [@perl6commits], updated to the date of the paper, but
 ```{r vs,echo=FALSE}
 commits.t <- read.csv("../data/commits.csv")
 commits.t$Month <- as.Date(commits.t$Month)
-ggplot(commits.t, aes(x=Commits,y=Entropy,size=Authors))+geom_point()+scale_x_log10()+scale_y_log10()+theme_tufte()
-ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits))+geom_point()+scale_x_log10()+scale_y_log10()+theme_tufte()
+ggplot(commits.t, aes(x=Commits,y=Entropy,size=Authors))+geom_point()+theme_tufte()
+ggplot(commits.t, aes(x=Authors,y=Entropy,size=Commits))+geom_point()+theme_tufte()
 ```
 
-The inverse relationship found by [@casebolt2009author] for the Gnome suite also holds here, with entropy decreasing with the number of authors. But it also decreases with the number of commits; they are in direct relationship, as can be seen by the point size which represents number of authors (above) and number of commits (below). As indicated in [@casebolt2009author], in this case the entropy is related to the evenness of the distribution of authors and commits. Low entropy would mean that the more authors (or commits), a dominant one emerges; high entropy means that few authors will distribute the load more or less evenly among them. This is simply an emergent behavior that arises from the self-organization of the authors, and is not really imposed from above in any possible way. In fact, the month with the lowest entropy was May 2018, which was also the month with the highest recorded number of commits, most of them made by a single author (the author of this report).
+The inverse relationship found by [@casebolt2009author] for the Gnome suite does not hold in this case, with entropy roughly increasing with the number of authors, and roughly increasing with the number of commits. As indicated in [@casebolt2009author], in this case the entropy is related to the evenness of the distribution of authors and commits. Low entropy would mean that the more authors (or commits), a dominant one emerges; high entropy means that few authors will distribute the load more or less evenly among them. In this case entropy does not crash when the number of authors increases, implying that the load is still distributed in a more or less even way. This is simply an emergent behavior that arises from the self-organization of the authors, and is not really imposed from above in any possible way. In fact, the month with the lowest entropy corresponds to a relatively low number of authors, seven. With a high number of authors, normalized entropy tends to stay high with values that are better than 0.5. Same goes for the number of commits: even with a high number of commits, entropy stays around 0.5, although it roughly decreases with the number of commits.
 
-But we can look at the entropy at the file level. This will do in the next Section.
+But we can look at the entropy at the file level. This will be done in the next Section.
 
 # File-level entropy
 
