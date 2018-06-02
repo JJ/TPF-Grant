@@ -13,7 +13,7 @@ abstract: As the development of a software project proceeds, its complexity incr
 library(ggplot2)
 library(ggthemes)
 entropy <- read.csv("../data/file-entropy.csv")
-entropy.c <- read.csv("../data/current-files.csv")
+entropy.c <- read.csv("../data/perl6-doc-current-files.csv")
 entropy.r <- read.csv("../data/perl6-rakudo-current-files.csv")
 
 ```
@@ -28,7 +28,7 @@ There is no single way of measuring entropy, however. The reports above talk abo
 # Monthly normalized entropy
 
 
-Below, we use the data in [@perl6commits], updated to the date of the paper, but using Normalized Shannon entropy, which divides the regular entropy by the logarithm of the number of authors that have participated each month.
+Below, we use the data in [@perl6commits], updated to the date of this paper, but using Normalized Shannon entropy, which divides the regular entropy by the logarithm of the number of authors that have participated each month.
 
 ```{r vs,echo=FALSE}
 commits.t <- read.csv("../data/commits.csv")
@@ -43,7 +43,36 @@ But we can look at the entropy at the file level. This will be done in the next 
 
 # File-level entropy
 
-Instead of computing the entropy by looking at the lines written by each author, we will look at the number of commits that affect a file, independently of how many lines they have changed. With this we achieve two things: first, look at the whole process of creation and edition of a file, including all the authors that have contributed to it. Second, we use a measure, commits, that is indicative of a different measurement of efforts than lines of code (as done by the rest of the authors mentioned above). This might help us confirm their findings, but also have a more dynamic measure of entropy than simply lines changed per author, which after a certain amount of time is not going to change too much; author commit entropy will change with the number of authors and the number of commits, giving a more up-to-date and accurate view of the *complexity* we want to reveal using entropy.
+Instead of computing the entropy by looking at the lines written by each author, we will look at the number of commits that affect a file, independently of how many lines they have changed. With this we achieve two things: first, look at the whole process of creation and edition of a file, including all the authors that have contributed to it. Second, we use a measure, commits, that is indicative of a different measurement of efforts than lines of code (as done by the rest of the authors mentioned above). This might help us confirm their findings, but also have a more dynamic measure of entropy than simply lines changed per author, which after a certain amount of time is not going to change too much; author commit entropy will change with the number of authors and the number of commits, giving a more up-to-date and accurate view of the *complexity* we want to reveal using entropy. Let us look first at the entropy including all repository history.
+
+```{r file,echo=FALSE}
+entropy.c <- entropy.c[ entropy.c$Entropy > 0,]
+ggplot(entropy.c, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+ggplot(entropy.c, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+entropy.c$Authors <- as.factor(entropy.c$Authors)
+ggplot(entropy.c, aes(x=Authors,y=Entropy))+geom_boxplot()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+The first chart plots normalized entropy vs file size. In general, the smaller the file, the higher the entropy, but there are also many cases in which big files have either low or high entropy. We can conclude if we measure entropy this way, there is no relationship between file size and entropy. However, the next two charts, the first of which uses a logarithmic x scale, shows a certain downwards tendency or inverse relationship between the number of authors and entropy; the higher the number of authors, the lower the entropy, although the lowest values are reached with files with 1 or 2 authors. The one with the lowest entropy is a relatively recent one, `doc/Language/structures.pod6`, with just three authors and an entropy ~0.30. In general, this low entropy is due to one of the authors making the majority of the commits to the file; please note that most of the files have an entropy that is higher than 0.5, indicating a good amount of collaboration.
+
+This might be peculiar to the nature of the repository, which is based mainly on text. Let's look at another, similar repository, [the Rakudo compiler repo](https://github.com/rakudo/rakudo), which is also volunteer-based, deals with the Perl 6 interpreter, and shares a good amount of developers.
+```{r filerakudo,echo=FALSE}
+entropy.r <- entropy.r[ entropy.c$Entropy > 0,]
+ggplot(entropy.r, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+ggplot(entropy.r, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+entropy.r$Authors <- as.factor(entropy.r$Authors)
+ggplot(entropy.r, aes(x=Authors,y=Entropy))+geom_boxplot()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+The situation is remarkably similar, with the main difference being the file size, whose range is smaller, as can be observed in the first chart. The other two charts representing normalized entropy vs. number of authors reflect in general a downward trend, but also a lower range of variation of entropy. As above, when there are few authors, the whole range of situations is possible: from close to equal contribution (which, in general, will correspond to just a few and the same commits by every author) to clear domination by one of the authors. The bigger the number of authors, there tends to be a smaller difference between the contributions made by every one of them. Entropy in this case can be much lower, with several files under 0.5, mainly with few authors. In general, however, pattern of self-organized distributions is remarkably similar.
+
+# Conclusions
+
+The main objective of this paper was to find out the behavior of entropy in the Perl 6 documentation repository and how it informs us on the self-organizing nature of the work in this kind of repositories. What we have found out is that, in general, author commits to files organizes itself in a more or less even way, with files being created by several authors, contributing a number of commits that is not too different. This probably means that, even if a file is originally created by a single author, further contributions to it make authorship, and responsability, more spread among repository contributors. This result, which is achieved via self-organization and not a centralized allocation of work, makes the result more even in quality, and the output larger, since every developer deciding what to do by herself makes her more engaged to the work and the project than a central allocation of tasks, which would certainly result in a different, lower entropy, pattern.
+
+This entropy pattern is not peculiar to the fact that it is a documentation, and not only software, repository. Although an exhaustive investigation has not been made, the sister Rakudo repository shows a very similar pattern.
+
+If we can conclude from these metrics that work is employed in a relatively efficient way, is there a chance that these metrics could help improve output or quality of the work? In general, entropy tends to decrease and get to a certain value with the number of authors, which also increases with time. A low value of entropy with a high number of authors could reveal a file that has not received enough attention from the volunteers. For instance, [`doc/Language/typesystem.pod6`](https://github.com/perl6/doc/blob/master/doc/Language/typesystem.pod6) has many different authors, but a low ~ 0.58 entropy. Looking at [git blame](https://github.com/perl6/doc/blame/master/doc/Language/typesystem.pod6) we can see that it's written mostly by a single person in the year 2016. It would be interesting to highlight these documents for revision, just in case they hide some error or need to be updated to the latest versions of the Perl 6 interpreter. This, of course, in the case of a documentation repository; in the case of a code repository, it is probably OK if a file has been left alone for such a long time and it passes tests. Documentation repositories, however, are different in this sense, and finding new targets for improvement can help allocate work better, and obtain in the mid and long term a better result.
+
 
 
 
