@@ -1,7 +1,7 @@
 ---
 title: 'Author and file entropy in the Perl 6 documentation repository'
 author: "JJ Merelo"
-date: "June 1st, 2018"
+date: "June 2nd, 2018"
 output:
   pdf_document: default
   html_document: default
@@ -48,26 +48,38 @@ Instead of computing the entropy by looking at the lines written by each author,
 ```{r file,echo=FALSE}
 entropy.c <- entropy.c[ entropy.c$Entropy > 0,]
 ggplot(entropy.c, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+```
+
+This chart plots normalized entropy vs file size. In general, the smaller the file, the higher the entropy, but there are also many cases in which big files have either low or high entropy. We can conclude if we measure entropy this way, there is no relationship between file size and entropy.
+
+```{r file2,echo=FALSE}
 ggplot(entropy.c, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
 entropy.c$Authors <- as.factor(entropy.c$Authors)
 ggplot(entropy.c, aes(x=Authors,y=Entropy))+geom_boxplot()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
-The first chart plots normalized entropy vs file size. In general, the smaller the file, the higher the entropy, but there are also many cases in which big files have either low or high entropy. We can conclude if we measure entropy this way, there is no relationship between file size and entropy. However, the next two charts, the first of which uses a logarithmic x scale, shows a certain downwards tendency or inverse relationship between the number of authors and entropy; the higher the number of authors, the lower the entropy, although the lowest values are reached with files with 1 or 2 authors. The one with the lowest entropy is a relatively recent one, `doc/Language/structures.pod6`, with just three authors and an entropy ~0.30. In general, this low entropy is due to one of the authors making the majority of the commits to the file; please note that most of the files have an entropy that is higher than 0.5, indicating a good amount of collaboration.
 
-This might be peculiar to the nature of the repository, which is based mainly on text. Let's look at another, similar repository, [the Rakudo compiler repo](https://github.com/rakudo/rakudo), which is also volunteer-based, deals with the Perl 6 interpreter, and shares a good amount of developers.
+The first of these charts uses a logarithmic x scale, shows a certain downwards tendency or inverse relationship between the number of authors and entropy; the higher the number of authors, the lower the entropy, although the lowest values are reached with files with 1 or 2 authors. The one with the lowest entropy is a relatively recent one, `doc/Language/structures.pod6`, with just three authors and an entropy ~0.30. In general, this low entropy is due to one of the authors making the majority of the commits to the file; please note that most of the files have an entropy that is higher than 0.5, indicating a good amount of collaboration.
+
+This might be peculiar to the nature of the repository, which is based mainly on text. Let's look at another, similar repository, [the Rakudo compiler repo](https://github.com/rakudo/rakudo), which is also volunteer-based, deals with the Perl 6 interpreter, and shares a good amount of developers with the documentation repository.
+
 ```{r filerakudo,echo=FALSE}
 entropy.r <- entropy.r[ entropy.c$Entropy > 0,]
 ggplot(entropy.r, aes(x=Size,y=Entropy,color=Authors))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
+```
+
+The situation is remarkably similar to the documentation repo, with the main difference being the file size, whose range is smaller, as can be observed in this chart. Files tend to be more uniform in size, and also bigger.
+
+```{r filerakudo2,echo=FALSE}
 ggplot(entropy.r, aes(x=Authors,y=Entropy,color=Size))+geom_point()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+ scale_x_log10()
 entropy.r$Authors <- as.factor(entropy.r$Authors)
 ggplot(entropy.r, aes(x=Authors,y=Entropy))+geom_boxplot()+theme_tufte()+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
-The situation is remarkably similar, with the main difference being the file size, whose range is smaller, as can be observed in the first chart. The other two charts representing normalized entropy vs. number of authors reflect in general a downward trend, but also a lower range of variation of entropy. As above, when there are few authors, the whole range of situations is possible: from close to equal contribution (which, in general, will correspond to just a few and the same commits by every author) to clear domination by one of the authors. The bigger the number of authors, there tends to be a smaller difference between the contributions made by every one of them. Entropy in this case can be much lower, with several files under 0.5, mainly with few authors. In general, however, pattern of self-organized distributions is remarkably similar.
+The other two charts representing normalized entropy vs. number of authors reflect in general a downward trend, but also a lower range of variation of entropy. As above, when there are few authors, the whole range of situations is possible: from close to equal contribution (which, in general, will correspond to just a few and the same commits by every author) to clear domination by one of the authors. The bigger the number of authors, there tends to be a smaller difference between the contributions made by every one of them. Entropy in this case can be much lower, with several files under 0.5, mainly with few authors. In general, however, pattern of self-organized distributions is remarkably similar.
 
 # Conclusions
 
-The main objective of this paper was to find out the behavior of entropy in the Perl 6 documentation repository and how it informs us on the self-organizing nature of the work in this kind of repositories. What we have found out is that, in general, author commits to files organizes itself in a more or less even way, with files being created by several authors, contributing a number of commits that is not too different. This probably means that, even if a file is originally created by a single author, further contributions to it make authorship, and responsability, more spread among repository contributors. This result, which is achieved via self-organization and not a centralized allocation of work, makes the result more even in quality, and the output larger, since every developer deciding what to do by herself makes her more engaged to the work and the project than a central allocation of tasks, which would certainly result in a different, lower entropy, pattern.
+The main objective of this paper was to find out the behavior of entropy in the Perl 6 documentation repository and how it informs us on the self-organizing nature of the work in this kind of repositories. What we have found out is that, in general, author commits to files organizes itself in a more or less even way, with files being created by several authors, contributing a number of commits that is not too different. This probably means that, even if a file is originally created by a single author, further contributions to it make authorship, and responsibility, more spread among repository contributors. This result, which is achieved via self-organization and not a centralized allocation of work, makes the result more even in quality, and the output larger, since every developer deciding what to do by herself makes her more engaged to the work and the project than a central allocation of tasks, which would certainly result in a different, lower entropy, pattern.
 
 This entropy pattern is not peculiar to the fact that it is a documentation, and not only software, repository. Although an exhaustive investigation has not been made, the sister Rakudo repository shows a very similar pattern.
 
