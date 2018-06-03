@@ -2,8 +2,8 @@
 
 Check out issues [closed in April](issues-April-2018.md)
 
-| Issue                             | Age when closed | Closes at | Comment | 
-| --------------------------------- | --------------- | --------- | ------- |
+| Issue                             | Age when closed | Closes at | Comment                                                 | 
+| --------------------------------- | --------------- | --------- | ------------------------------------------------------  |
 | [Whitespace links in operator pages](https://github.com/perl6/doc/issues/1835) |53 days  | 2018-05-01 |                   |
 | [FAQ: "how most people enter Unicode stuff"](https://github.com/perl6/doc/issues/1850) |43 days  | 2018-05-01 |                   |
 | [grammar is inheritable but this feature is not documented](https://github.com/perl6/doc/issues/1816) |57 days  | 2018-05-01 |                   |
@@ -80,7 +80,7 @@ Check out issues [closed in April](issues-April-2018.md)
 | [p5 nutshell: Suggest .nextsame and .nextwith once they've been implemented in Rakudo.](https://github.com/perl6/doc/issues/1389) |328 days  | 2018-05-15 |                   |
 | [Mix/Bag/etc. should say *in bold* that these collections are unordered](https://github.com/perl6/doc/issues/1106) |497 days  | 2018-05-15 |                   |
 | [Mention ｢my %h{Int}｣ syntax when talking about non-string keys](https://github.com/perl6/doc/issues/1588) |222 days  | 2018-05-15 |                   |
-| [doc sub sink/sink context](https://github.com/perl6/doc/issues/732) |663 days  | 2018-05-16 |                   |
+| [doc sub sink/sink context](https://github.com/perl6/doc/issues/732) |663 days  | 2018-05-16 | This needed a [whole new page](https://docs.perl6.org/language/contexts#index-entry-sink_context) |
 | ["Note on usage of $*SCHEDULER:"](https://github.com/perl6/doc/issues/1065) |511 days  | 2018-05-16 |                   |
 | [Some glossary terms have no description and others need to be moved around since they are not in alphabetical order](https://github.com/perl6/doc/issues/622) |693 days  | 2018-05-17 |                   |
 | [Nil vs Any confusion (trap)](https://github.com/perl6/doc/issues/1134) |489 days  | 2018-05-17 |                   |
@@ -91,8 +91,8 @@ Check out issues [closed in April](issues-April-2018.md)
 | [type.html and index.html appear duplicated](https://github.com/perl6/doc/issues/2030) |0 days  | 2018-05-18 |                   |
 | [Add debug code to identify htmlify problems](https://github.com/perl6/doc/issues/1932) |32 days  | 2018-05-18 |                   |
 | [Fix a pod directive in .comb](https://github.com/perl6/doc/issues/2029) |0 days  | 2018-05-18 |                   |
-| [Sinking is not documented](https://github.com/perl6/doc/issues/1309) |366 days  | 2018-05-18 |                   |
-| [Which phasers are compatible with "will trait"?](https://github.com/perl6/doc/issues/1553) |246 days  | 2018-05-18 |                   |
+| [Sinking is not documented](https://github.com/perl6/doc/issues/1309) |366 days  | 2018-05-18 |  Actually a duplicate of #732, it was easy after that one and just needed to add indexing.  |
+| [Which phasers are compatible with "will trait"?](https://github.com/perl6/doc/issues/1553) |246 days  | 2018-05-18 | Some clarification and the `CLOSE` phaser were enough for this |
 | [RFC: Install Travis app?](https://github.com/perl6/doc/issues/2021) |9 days  | 2018-05-19 |                   |
 | [CArray methods cannot be searched](https://github.com/perl6/doc/issues/2032) |0 days  | 2018-05-19 |                   |
 | [The sequence operator infix:<...> is not listed](https://github.com/perl6/doc/issues/1621) |206 days  | 2018-05-19 |                   |
@@ -163,7 +163,7 @@ Check out issues [closed in April](issues-April-2018.md)
 | ["topic variable" does not appear in search](https://github.com/perl6/doc/issues/2080) |0 days  | 2018-05-30 |                   |
 | [super is indexed, but not documented](https://github.com/perl6/doc/issues/2076) |0 days  | 2018-05-30 |                   |
 | [Role Systemic is not documented](https://github.com/perl6/doc/issues/1815) |86 days  | 2018-05-30 |                   |
-| [Str.match not documented / Str.subst does not list all options [some are inaccurate/incomplete]](https://github.com/perl6/doc/issues/919) |610 days  | 2018-05-31 |                   |
+| [Str.match not documented / Str.subst does not list all options [some are inaccurate/incomplete]](https://github.com/perl6/doc/issues/919) |610 days  | 2018-05-31 |       The most difficult thing was to understand what was required. It needed a revision of relevant documentation, and moving around some examples to make the narrative clearer            |
 | [Create page for environment variables the interpreter uses](https://github.com/perl6/doc/issues/949) |597 days  | 2018-05-31 |                   |
 | [Add tests for variants of normalized words](https://github.com/perl6/doc/issues/2041) |9 days  | 2018-05-31 |                   |
 | [Add missing right paranthesis](https://github.com/perl6/doc/issues/2084) |0 days  | 2018-05-31 |                   |
