@@ -56,10 +56,11 @@ Check out issues [closed in April](issues-April-2018.md)
 | [Document the trap that the last Failure in a list doesn't get sunk](https://github.com/perl6/doc/issues/1607) |213 days  | 2018-05-17 |(                   )|
 | [Nil vs Any confusion (trap)](https://github.com/perl6/doc/issues/1134) |489 days  | 2018-05-17 |(                   )|
 | [Add debug code to identify htmlify problems](https://github.com/perl6/doc/issues/1932) |32 days  | 2018-05-18 |(                   )|
-| [Which phasers are compatible with "will trait"?](https://github.com/perl6/doc/issues/1553) |246 days  | 2018-05-18 |(                   )|
+|
+[Which phasers are compatible with "will trait"?](https://github.com/perl6/doc/issues/1553) |246 days  | 2018-05-18 | Adding a clarification and the `CLOSE` phaser was all that was needed |
 | [last interacts with whenever](https://github.com/perl6/doc/issues/1551) |247 days  | 2018-05-18 |(                   )|
 | [Merging "whitespacey" tests](https://github.com/perl6/doc/issues/1822) |74 days  | 2018-05-18 |(                   )|
-| [Sinking is not documented](https://github.com/perl6/doc/issues/1309) |366 days  | 2018-05-18 |(                   )|
+| [Sinking is not documented](https://github.com/perl6/doc/issues/1309) |366 days  | 2018-05-18 | Actually a duplicate of [#732](https://github.com/perl6/doc/issues/732), it was easy after that one and just needed to add indexing. |
 | [doc accessing symbols not imported by require by FQN](https://github.com/perl6/doc/issues/1287) |391 days  | 2018-05-19 |(                   )|
 | [Check if all native things are listed](https://github.com/perl6/doc/issues/1511) |258 days  | 2018-05-19 |(                   )|
 | ["Roles cannot inherit from classes," in language/objects may need more clarification](https://github.com/perl6/doc/issues/1138) |489 days  | 2018-05-19 |(                   )|
@@ -92,5 +93,5 @@ Check out issues [closed in April](issues-April-2018.md)
 | [Role Systemic is not documented](https://github.com/perl6/doc/issues/1815) |86 days  | 2018-05-30 |(                   )|
 | [Define SEO targets and try to get them](https://github.com/perl6/doc/issues/1824) |85 days  | 2018-05-30 |(                   )|
 | [Create page for environment variables the interpreter uses](https://github.com/perl6/doc/issues/949) |597 days  | 2018-05-31 |(                   )|
-| [Str.match not documented / Str.subst does not list all options [some are inaccurate/incomplete]](https://github.com/perl6/doc/issues/919) |610 days  | 2018-05-31 |(                   )|
+| [Str.match not documented / Str.subst does not list all options [some are inaccurate/incomplete]](https://github.com/perl6/doc/issues/919) |610 days  | 2018-05-31 |The most difficult thing was to understand what was required. It needed a revision of relevant documentation, and moving around some examples to make the narrative clearer |
 | [Package documentation includes confusing symbol table lookups](https://github.com/perl6/doc/issues/969) |594 days  | 2018-05-31 |(                   )|
