@@ -12,7 +12,30 @@ mainly to work on the [Perl 6 documentation](https://docs.perl6.org).
 * [First month](April.md)
 * Second month TBD.
 
+## List of issues closed during the grant
+
+* [Issues closed in April](report/issues-April-2018.md).
+* [Issues closed in May](report/issues-May-2018.md), with some
+  comments.
+  
 ## Articles related to the grant.
 
+*
+  [Author and file entropy in the Perl 6 documentation repository](https://www.researchgate.net/publication/325532706_Author_and_file_entropy_in_the_Perl_6_documentation_repository),
+  on how files evolve and get a structure in a volunteer environment.
+  
+*
+  [Perl 6 documentation repository through time: dealing with issues](https://www.researchgate.net/publication/325320277_Perl_6_documentation_repository_through_time_dealing_with_issues),
+  on how issues are treated and change through time.
+  
+*
+  [Perl 6 documentation repository through time: contributions through commits](https://www.researchgate.net/publication/325020270_Perl_6_documentation_repository_through_time_contributions_through_commits) examines
+  the commit timeline and tries to find out some patterns, and
+  generate some advice on how to improve the productivity.
+  
+*
+  [Perl 6 documentation repository through time: An initial report](https://www.researchgate.net/publication/324829397_Perl_6_documentation_repository_through_time_An_initial_report),
+  an initial report on the state of the repository roughly before the
+  beginning of the grant.
 
 ## Other reports.
