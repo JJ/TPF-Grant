@@ -1,4 +1,4 @@
-Issue(                                                       )| Age when closed | Closes at | Comment |
+|                              Issue| Age when closed | Closes at | Comment |
 | --------------------------------- | --------------- | --------- | ------- |
 | [&$ROUTINE has weird stuff](https://github.com/perl6/doc/issues/1358.json) |360 days  | 2018-05-30 |(                   )|
 | [Grammatical error in docs for language/syntax#Comments](https://github.com/perl6/doc/issues/1769.json) |0 days  | 2018-02-13 |(                   )|
