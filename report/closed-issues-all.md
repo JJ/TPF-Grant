@@ -286,7 +286,7 @@ Issue                                                       | Age when closed | 
 | [Explain sigils and link to details. fix #1529](https://github.com/perl6/doc/issues/1530) |0 days  | 2017-09-03 |                   |
 | [Provide a .tar.gz version of documentation](https://github.com/perl6/doc/issues/718) |571 days  | 2018-02-09 |                   |
 | [Update Language/regexes.pod6.  Fix confusing sentence about zero-width assertions](https://github.com/perl6/doc/issues/2082) |0 days  | 2018-05-30 |                   |
-| [Is flat another way to say |? Why do we only document one?](https://github.com/perl6/doc/issues/892) |605 days  | 2018-05-06 |                   |
+| [Is flat another way to say bar? Why do we only document one?](https://github.com/perl6/doc/issues/892) |605 days  | 2018-05-06 |                   |
 | [p6doc - 'make html' fails](https://github.com/perl6/doc/issues/2014) |0 days  | 2018-05-09 |                   |
 | [Integrate document on smart-match operator](https://github.com/perl6/doc/issues/1913) |44 days  | 2018-05-24 |                   |
 | ["Note on usage of $*SCHEDULER:"](https://github.com/perl6/doc/issues/1065) |511 days  | 2018-05-16 |                   |
