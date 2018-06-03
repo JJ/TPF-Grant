@@ -6,7 +6,8 @@ use v6;
 use IO::Glob;
 use JSON::Fast;
 
-say "Age,Label,State";
+say "Issue", " " xx 28, "| Age when closed | Closes at | Comment |";
+say "| --------------------------------- | --------------- | --------- | ------- |";
 for glob("../data/issues/[1-9]*.json") -> $file {
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
@@ -15,8 +16,8 @@ for glob("../data/issues/[1-9]*.json") -> $file {
 	    my $issue_number = $file ~~ /(\d+) \.json /;
 	    my $date = $data<closed_at> ~~ /(\d+ \- \d+ \- \d+)/;
             my $age = DateTime.new( $data<closed_at>)  -  DateTime.new( $data<created_at>);
-	    say "[$data<title>](https://github.com/perl6/doc/issues/$issue_number) |" ~
-	    Int( $age/86400 ) ~ " days  | $date | ";
+	    say "| [$data<title>](https://github.com/perl6/doc/issues/$issue_number) |" ~
+	    Int( $age/86400 ) ~ " days  | $date |" ~ " " xx 10 ~ "|";
 	}
     }
 }

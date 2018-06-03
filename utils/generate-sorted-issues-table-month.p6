@@ -3,19 +3,19 @@
 use v6;
 
 
-my $content = "../data/issues-table.md".IO.slurp;
+my $content = "../report/closed-issues-all.md".IO.slurp;
 my @issues = $content.split(/\n/);
-my $month = $*ARGS[0] // "2018-04";
+my $month = $*ARGS[0] // "2018-05";
 my %issues;
 for @issues.grep( /$month/) -> $issue {
     my @items = $issue.split( /\s+\|\s*/);
-    %issues{@items[0]} = [ @items[1], @items[2] ];
+    %issues{@items[0]} = [ @items[2], $issue ];
 }
 
 say %issues.kv[0].perl;
-my @sorted-keys = %issues.keys.sort( { Date.new( %issues{$^a}[1] )
-				       <=> Date.new( %issues{$^b}[1] ) });
+my @sorted-keys = %issues.keys.sort( { Date.new( %issues{$^a}[0] )
+				       <=> Date.new( %issues{$^b}[0] ) });
 
 for @sorted-keys -> $k {
-    say "$k | %issues{$k}[0] | %issues{$k}[1] | ";
+    say %issues{$k}[1];
 }
