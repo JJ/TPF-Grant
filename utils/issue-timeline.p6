@@ -10,7 +10,8 @@ my $names = ().SetHash;
 my %links;
 my %type;
 my %events;
-for glob("../data/issues/[1-9]*.json") -> $file {
+for glob("../data/issues/*.json") -> $file {
+    next if $file ~~ /all.json/;
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
     CATCH {
@@ -31,22 +32,35 @@ my @sorted-keys = @event-keys.map( { DateTime.new( $^ð ) } ).sort ;
 my $open-issues = 0;
 my (%issues-open,%issues-closed);
 
-my @open-issues = ( "Time,Open Issues" );
+my @open-issues = ( "Time,Open Issues,Average Age" );
+my %open-so-far;
 for @sorted-keys -> $time {
+    my $total-age;
+    my $average-age;
+    if +%open-so-far.keys > 0 {
+        for %open-so-far.keys -> $that-time {
+            $total-age += $time - %open-so-far{$that-time};
+        }
+        $average-age = ($total-age / +%open-so-far.keys)/86400;
+    } else {
+        $average-age = 0;
+    }
+
     my $year-month = $time ~~ /(\d ** 4 \- \d ** 2)/;
     if %events{$time} eq 'Open' {
         $open-issues++;
         %issues-open{$year-month}++;
+        %open-so-far{$time} = $time;
     } else {
         $open-issues--;
         %issues-closed{$year-month}++;
+        %open-so-far{$time}:delete;
     }
-    @open-issues.push: "$time,$open-issues";
+    @open-issues.push: "$time,$open-issues,$average-age";
 }
 spurt("../data/issues-timeline.csv", @open-issues.join("\n"));
 
 my $keys = %issues-open.keys ∪ %issues-closed.keys;
-say $keys.keys;
 my @issues-month=("Month,Open,Closed");
 for $keys.keys.sort -> $m {
     %issues-open{$m} //= 0;
