@@ -12,7 +12,10 @@ my %type;
 my %events;
 for glob("../data/issues/*.json") -> $file {
     next if $file ~~ /all.json/;
-    my $issue_number = ( $file ~~ /(\d+) \.json / );
+    my $issue;
+    with $file ~~ /(\d+) \.json / {
+        $issue = ~$0;
+    }
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
     CATCH {
@@ -21,9 +24,9 @@ for glob("../data/issues/*.json") -> $file {
 	    say .backtrace;
 	}
     }
-    %events{ $data<created_at> } = ['Open',$issue_number[0]];
+    %events{ $data<created_at> } = ['Open',$issue];
     if $data<closed_at> {
-        %events{ $data<closed_at> } = ['Close',$issue_number[0]];
+        %events{ $data<closed_at> } = ['Close',$issue];
     }
 }
 
@@ -48,14 +51,16 @@ for @sorted-keys -> $time {
     }
 
     my $year-month = $time ~~ /(\d ** 4 \- \d ** 2)/;
+    my $issue = %events{$time}[1];
+    say "Issue # ", $issue, " , ", %events{$time};
     if %events{$time}[0] eq 'Open' {
         $open-issues++;
         %issues-open{$year-month}++;
-        %open-so-far{%events{$time}[1]} = $time;
+        %open-so-far{$issue} = $time;
     } else {
         $open-issues--;
         %issues-closed{$year-month}++;
-        %open-so-far{%events{$time}[1]}:delete;
+        %open-so-far{$issue}:delete;
         say %open-so-far.elems;
     }
     @open-issues.push: "$time,$open-issues,$average-age";
