@@ -10,7 +10,7 @@ mainly to work on the [Perl 6 documentation](https://docs.perl6.org).
 ## Grant reports.
 
 * [First month](April.md)
-* Second month TBD.
+* [Second month](May.md)
 
 ## List of issues closed during the grant
 
