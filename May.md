@@ -63,7 +63,7 @@ Quite a few of those commits were done as part of
 the
 [May Squashathon](https://gist.github.com/Whateverable/11966854630519253293585849bb5d91). I
 organized, as indicated in the grant proposal,
-a [small squashaton](http://granada.pm/blog/squashathon/) in which
+a [small Squashathon](http://granada.pm/blog/squashathon/) in which
 several local developers participated, working on things like the
 translation of README.md to several languages. I
 also
@@ -123,7 +123,7 @@ focus on some new ones. After the grant, this is my intention for the
 * Continue encouraging the bimonthly document squashathon by focusing
   on single, and if possible easy, first issues.
 * Continue encouraging participation in StackOverflow and checking
-  posts for posible problems in the documentation.
+  posts for possible problems in the documentation.
 * When `$day-job` allows, request another grant, possibly by the
   beginning of year 2019, to clear any backlog that might have
   accumulated or work
