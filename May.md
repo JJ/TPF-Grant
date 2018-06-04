@@ -1,9 +1,9 @@
-# April, 2018. Second month of the grant.
+# May, 2018. Second month of the grant.
 
 We will set as the official beginning of the grant April 1st, 2018,
 which was a Sunday. The *official* end was, then, May 31st, a Thursday.
 
-Let's list the contributions made during the month of May.
+Here's the report on the activities carried out during the month of May.
 
 ## Issues closed
 
