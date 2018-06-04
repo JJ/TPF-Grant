@@ -55,6 +55,7 @@ for @sorted-keys -> $time {
         $open-issues--;
         %issues-closed{$year-month}++;
         %open-so-far{$time}:delete;
+        say %open-so-far.elems;
     }
     @open-issues.push: "$time,$open-issues,$average-age";
 }
