@@ -8,7 +8,8 @@ use JSON::Fast;
 
 my @data;
 say "author_association, closed_at, closer, created_at, created_by, state";
-for glob("../data/issues/[1-9]*.json") -> $file {
+for glob("../data/issues/*.json") -> $file {
+    next if $file ~~ /all.json/;
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
     CATCH {
