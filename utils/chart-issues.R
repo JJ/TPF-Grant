@@ -1,12 +1,13 @@
 library(ggplot2)
 library(ggthemes)
 
-issues.t <- read.csv("../data/issues-timeline-posix.csv")
+issues.t <- read.csv("../data/issues-timeline.csv")
 
-issues.t$Time <- as.POSIXct(issues.t$Time)
-ggplot(issues.t, aes(x=Time,y=Open.Issues))+geom_line()+theme_tufte()
+issues.t$Time <- as.POSIXct(gsub("T"," ",issues.t$Time))
+
+ggplot(issues.t)+geom_line(data=issues.t,aes(x=Time,y=Open.Issues,color='Issues'))+geom_line(data=issues.t,aes(x=Time,y=Average.Age,color='Age'))+theme_tufte()
 issues.2018 <- issues.t[issues.t$Time >= "2018-01-01",]
-ggplot(issues.2018, aes(x=Time,y=Open.Issues))+geom_line()+theme_tufte()
+ggplot()+geom_line(data=issues.2018,aes(x=Time,y=Open.Issues,color='Issues'))+geom_line(data=issues.2018,aes(x=Time,y=Average.Age,color='Age'))+theme_tufte()
 
 
 issues.m <- read.csv("../data/issues-month.csv")
