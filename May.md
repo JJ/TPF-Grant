@@ -23,28 +23,37 @@ discouraging people from working themselves on the issues. I just
 organized myself to close at least two issues per day, as was my
 initial compromise.
 
-In fact, those issues are, on average, 4 months old, or almost 120
-days, while the average for the rest of the contributors is ~1
-month. That means that many of the issues addressed were part of the
+In fact, those issues are, on average, more than 7 month old, or more
+than 210 days, while the average for the rest of the contributors is a
+bit more than ~1 month. 
+
+> And that's mainly due to the fact
+> that [issue #114](https://github.com/perl6/doc/issues/114), which was
+> 1000 days old, was closed by someone else, although I did most of
+> the commits to close it by creating several new pages that were
+> missing from the roadmap since the very beginning.
+
+That means that many of the issues addressed were part of the
 backlog that was accumulation, and weren't, in fact, being addressed,
 making the number of issues accumulate to the tune of a few tens every
-month. 
+month. If we look at the general 
 
 In fact, this has allowed to buck the trend that pushed the number of
-unsolved issues upward
+unsolved issues upward, and in fact has meant the biggest monthly
+difference between the number of open anc closed issues, as can be
+seen below.
 
-![Unsolved issues, 2018](illos/issue-timeline-2018.png)
+![Open and closed issues + difference](illos/issues-open-closed-diff.png)
 
-The number of unsolved issues has remained more or less constant in
-April 2018 and around 260, despite the fact that most issues solved
-were old ones.
+In fact, this high number of closed issues has allowed finally to
+bring the total number of issues below 175 at the beginning of June. 
 
 
 ## Contributions via commits
 
+
 Last month I contributed almost as many commits as the rest of the
-authors together, and in
-fact [April 2018 was the second month with the highest number of commits in history](https://www.researchgate.net/publication/325020270_Perl_6_documentation_repository_through_time_contributions_through_commits).
+authors together, 
 
 ![Commits by JJ and the rest](illos/commits-april.png)
 
