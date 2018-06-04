@@ -40,7 +40,7 @@ month. If we look at the general
 
 In fact, this has allowed to buck the trend that pushed the number of
 unsolved issues upward, and in fact has meant the biggest monthly
-difference between the number of open anc closed issues, as can be
+difference between the number of open and closed issues, as can be
 seen below.
 
 ![Open and closed issues + difference](illos/issues-open-closed-diff.png)
@@ -52,52 +52,86 @@ bring the total number of issues below 175 at the beginning of June.
 ## Contributions via commits
 
 
-Last month I contributed almost as many commits as the rest of the
-authors together, 
+Last month I contributed more commits than the rest of the authors put
+together, and in fact May was the month with the highest number of
+commits so far in the Perl 6 repository.
 
-![Commits by JJ and the rest](illos/commits-april.png)
+![Commits by JJ and the rest](illos/commits-may.png)
 
 
-Not all commits are the same, and some of them were more notable than
-others, but all of them equally valuable to make the Perl 6
-documentation a great resource.
+Quite a few of those commits were done as part of
+the
+[May Squashathon](https://gist.github.com/Whateverable/11966854630519253293585849bb5d91). I
+organized, as indicated in the grant proposal,
+a [small squashaton](http://granada.pm/blog/squashathon/) in which
+several local developers participated, working on things like the
+translation of README.md to several languages. I
+also
+[created this Howto](https://dev.to/jj/squashing-perl-6-documentation-bugs-one-at-a-time-4ojn) to
+make easier the participation in the hackathon.
+
+All in all, contributions via commits for the two months have been
+this
+
+| Month | My contributions | Total |
+| ----- | ---------------- | ----- |
+| April | 195              | 410   |
+| May   | 324              | 593   |
+
+
 
 ## Other contributions
 
-Sometimes working on a issue took me in many unexpected directions,
-and some amount of work had to be done in some other
-places. Contributions I'd like to note are
-
-* Configuring
-  [Shippable to run fast tests](https://app.shippable.com/github/perl6/doc/runs?branchName=master),
-  which now take 3 minutes in average. It is not running the whole
-  test suite, but at least shows early sign of trouble for pull
-  requests and so on.
-  
-* Configuring [Travis](https://travis-ci.org/perl6/doc) with two
-  different binaries, which now take 10 minutes only for the Docker
-  version to run the whole test suite. An intermittent error with that
-  test suit has been (mostly) fixed too. 
-  
-* [`Pod::To::BigPage`](https://github.com/perl6/perl6-pod-to-bigpage),
-  which was used by the Perl 6 Docs to generate a single page, has
-  been extensively refactored to avoid errors and generate HTML instead
-  of XHTML. More than 40 commits have been made to that repository,
-  mostly during this period. There is still some work to be done.
   
 * [Contributions to StackOverflow](https://stackoverflow.com/questions/tagged/perl6),
   and encouragement of everyone (to the point of being annoying at
   times) to contribute their questions and answers there
   too. [StackOverflow](http://data.stackexchange.com/stackoverflow/query/847857/perl6-questions-per-month#graph) has
-  seen the highest number of questions ever in April.
+  seen the highest number of questions ever in May, after reaching the
+  highest number in April.
   
-* [The website has seen its highest number of visitors in March and April](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month).
+*
+  [The website has seen its highest number of unique visitors in March, April and May](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month),
+  with March being the highest.
   
 ## Conclusion
 
-I would say I have reached most of the objectives I set out to do
-during this month. It has been a great experience, and I will try to
-continue in the same line of work during this month of May, although I
-will try to focus on more complicated issues, and also the oldest
-ones. 
+In general, these two months have been a lot of work, but I have had
+lots of help in the #perl6 IRC channel, and the community has been
+quite supportive. 
+
+This month of May my intention was more to create new pages and
+address really old issues, like #114. I have achieved that, with lot
+of
+work
+[on creating pages on math and data structures from scratch](https://github.com/perl6/doc/issues/114). This
+has completed the original roadmap of pages that needed to be created,
+although
+[the need to create new pages, like the one on statement prefixes](https://github.com/perl6/doc/issues/2034),
+has emerged. 
+
+I think that, after these two months of grant, I am in the position of
+helping even better with the documentation repository, since I know
+much better most or all outstanding issues and can help newcomers
+focus on some new ones. After the grant, this is my intention for the
+(near) future
+
+* Present the work done here in upcoming Perl workshops.
+* Try to close, at least, 1 issue a day, on a monthly basis. The
+  incoming rate of new issues approximates that quantity. If it can be
+  matched, the repository can progress in the bi-monthly hackathon.
+* Continue encouraging the bimonthly document squashathon by focusing
+  on single, and if possible easy, first issues.
+* Continue encouraging participation in StackOverflow and checking
+  posts for posible problems in the documentation.
+* When `$day-job` allows, request another grant, possibly by the
+  beginning of year 2019, to clear any backlog that might have
+  accumulated or work
+  in [really big issues](https://github.com/perl6/doc/labels/big),
+  starting with the oldest ones.
+* Continue publishing papers analyzing the documentation, and other,
+  perl6 repositories and drawing conclusions from them.
+  
+
+  
 

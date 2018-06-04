@@ -11,4 +11,6 @@ ggplot(closes.gt.1,aes(x=reorder(closer,-table(closer)[closer])))+geom_bar()+sca
 
 mi.data <- read.csv("../data/commits-tpf.csv")
 data.april <-  mi.data[mi.data$Month == "2018-04-01T00:00:00",]
-ggplot(data.april, aes(x=Author,y=Commits))+geom_bar(state='identity')+theme_tufte()
+ggplot(data.april, aes(x=Author,y=Commits))+geom_bar(stat='identity')+theme_tufte()
+data.may <-  mi.data[mi.data$Month == "2018-05-01T00:00:00",]
+ggplot(data.may, aes(x=Author,y=Commits,fill=Author))+geom_bar(stat='identity')+theme_tufte()
