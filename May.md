@@ -129,7 +129,7 @@ focus on some new ones. After the grant, this is my intention for the
   accumulated or work
   in [really big issues](https://github.com/perl6/doc/labels/big),
   starting with the oldest ones.
-* Continue publishing raports analyzing the documentation, and other,
+* Continue publishing reports analyzing the documentation, and other,
   Perl 6 repositories and drawing conclusions from them.
   
 
