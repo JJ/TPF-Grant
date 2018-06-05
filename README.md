@@ -59,7 +59,11 @@ Some articles published in different platforms
 * [Sankey diagram of issue openers and closers](html/sankey.html),
   representing how issues *flow*, who opens and closes them.
   
-* [Issues per month, along with monthly entropy](illos/commits-month-authors-entropy.png).
+*
+  [Issues per month, along with monthly entropy](illos/commits-month-authors-entropy.png).
+
+*
+  [Leaderboard of number of lines contributed to Perl 6 documentation, by June 2nd 2018](https://www.google.com/fusiontables/DataSource?docid=1PTHPri-Mu-4Unlbc6d5z_cz9AC-P3z1mnOj2uF0C)
 
 # Scripts and data
 
