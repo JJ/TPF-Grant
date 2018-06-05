@@ -46,7 +46,11 @@ seen below.
 ![Open and closed issues + difference](illos/issues-open-closed-diff.png)
 
 In fact, this high number of closed issues has allowed finally to
-bring the total number of issues below 175 at the beginning of June. 
+bring the total number of issues below 175 at the beginning of
+June. This is now
+the
+[ranking of Perl6/doc issue closer](https://jj.github.io/TPF-Grant/illos/closers-perl6-doc-ranking/),
+where I'm tied with the top closer.
 
 
 ## Contributions via commits
@@ -132,6 +136,24 @@ focus on some new ones. After the grant, this is my intention for the
 * Continue publishing reports analyzing the documentation, and other,
   Perl 6 repositories and drawing conclusions from them.
   
+# Some advice for Perl 6 documentation sustainability
 
-  
+Documenting a language is a lot of work; however, I expect to have
+proved that a single, focused person is enough to clear the backlog of
+issues and improve documentation in a way that volunteer work rarely
+covers. [This report](https://www.researchgate.net/publication/325320277_Perl_6_documentation_repository_through_time_dealing_with_issues),
+which studies issues, tends to show that volunteer work focuses on
+short term, recent issues, disregarding other, more complicated issues
+that require longer focus.
+
+This is why a piece of advice is that the foundation, or someone in
+overall charge of development, should create the figure of "designated
+doccer", to be that figure that focuses on old, long-term issues that
+require that kind of attention, as well as draw the focus of the
+community to certain issues that might have been disregarded. It could
+be a volunteer position or an honorary appointment, but it is
+something that is really needed in this project.
+
+
+
 
