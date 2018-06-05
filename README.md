@@ -54,3 +54,9 @@ Some articles published in different platforms
   on encouraging the Perl 6 community to ask questions there. And
   answer them.
   
+# Some (maybe not so) interesting charts
+
+* [Sankey diagram of issue openers and closers](html/sankey.html),
+  representing how issues *flow*, who opens and closes them.
+  
+* [Issues per month, along with monthly entropy](illos/commits-month-authors-entropy.png).
