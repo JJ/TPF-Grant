@@ -60,3 +60,10 @@ Some articles published in different platforms
   representing how issues *flow*, who opens and closes them.
   
 * [Issues per month, along with monthly entropy](illos/commits-month-authors-entropy.png).
+
+# Scripts and data
+
+You can find
+the [scripts in Perl 6 and R in the `utils` directory](utils/). Data
+generated, which you can use freely (citing the origin), are in
+the [`data`](data/) directory.
