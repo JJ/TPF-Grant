@@ -38,4 +38,19 @@ mainly to work on the [Perl 6 documentation](https://docs.perl6.org).
   an initial report on the state of the repository roughly before the
   beginning of the grant.
 
-## Other reports.
+## Other reports and articles.
+
+Some articles published in different platforms
+
+*
+  [We need your help with the Perl 6 documentation](https://dev.to/jj/we-need-your-help-with-the-perl-6-documentation-1e82) in
+  The Practical Dev
+  
+*
+  [Squashing Perl 6 documentation bugs, one at a time](https://dev.to/jj/squashing-perl-6-documentation-bugs-one-at-a-time-4ojn)
+  
+*
+  [StackOverflow that](http://blogs.perl.org/users/jj_merelo/2018/04/stackoverflow-that.html),
+  on encouraging the Perl 6 community to ask questions there. And
+  answer them.
+  
