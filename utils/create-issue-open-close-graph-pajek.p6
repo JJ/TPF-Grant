@@ -9,7 +9,8 @@ use Data::Dump::Tree;
 my $names = ().SetHash;
 my %links;
 my %type;
-for glob("../data/issues/[1-9]*.json") -> $file {
+for glob("../data/issues/*.json") -> $file {
+    next if $file ~~ /all/;
     my $content =  $file.IO.slurp;
     my $data = from-json $content;
     CATCH {
