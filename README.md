@@ -70,4 +70,6 @@ Some articles published in different platforms
 You can find
 the [scripts in Perl 6 and R in the `utils` directory](utils/). Data
 generated, which you can use freely (citing the origin), are in
-the [`data`](data/) directory.
+the [`data`](data/) directory. All images used in the reports, and
+some more (which should hopefully be self-explanatory) are in
+the [`illos`](illos/) directory.
