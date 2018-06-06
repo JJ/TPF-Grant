@@ -11,6 +11,7 @@ mainly to work on the [Perl 6 documentation](https://docs.perl6.org).
 
 * [First month](April.md)
 * [Second month](May.md)
+* [Final report](Final.md)
 
 ## List of issues closed during the grant
 

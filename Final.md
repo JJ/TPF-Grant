@@ -48,15 +48,15 @@ a
 Several tests have been
 added:
 [testing fake links](https://github.com/perl6/doc/blob/master/xt/links-not-links.t),
-[normalizes some words](https://github.com/perl6/doc/blob/master/xt/word-variants.t). [Tests
-have been ordered and reorganized](https://github.com/perl6/doc/tree/master/t).
+[normalizes some words](https://github.com/perl6/doc/blob/master/xt/word-variants.t). 
+[Tests have been ordered and reorganized](https://github.com/perl6/doc/tree/master/t).
 
 In general, this objective has been pretty much achieved, but there's
 still a lot of work to do.
 
 ## Assigning outstanding issues during the grant and create a system for assigning work to volunteers
 
-Well, I simply couldn't do this. I realized very soon that people want
+Well, I simply could not do this. I realized very soon that people want
 to work on whatever they feel like working, and assigning issues in
 general is considered rather rude. I did highlight some issues to be
 worked on during the Squashathon, and decided on labeling as "help
@@ -67,7 +67,7 @@ work. You have to live with that.
 
 ## Creating an entry page with a tutorial for complete beginners with very little or no knowledge of programming, with the intent of providing a good landing page for the language
 
-I couldn't find a way to do this, and besides, there are very good
+I could not find a way to do this, and besides, there are very good
 pages that do that, like [Perl 6 Intro](https://perl6intro.com). I did
 create
 an
@@ -89,7 +89,7 @@ has been submitted, and accepted, for the Dutch Perl Workshop, and
 [again at the Perl 6 conference in Glasgow](http://act.perlconference.org/tpc-2018-glasgow/talk/7409),
 which is yet to be accepted.
 
-## Criting articles in websites such as The Practical Dev (https://dev.to), HackerNoon or Medium with practical "30 minutes" tutorials to perform usual tasks in Perl6.
+## Writing articles in websites such as The Practical Dev (https://dev.to), HackerNoon or Medium with practical "30 minutes" tutorials to perform usual tasks in Perl6.
 
 Besides the articles mentioned above, 
 [on the Perl 6 squashathon](https://dev.to/jj/squashing-perl-6-documentation-bugs-one-at-a-time-4ojn),
@@ -126,7 +126,7 @@ even more.
   enforcing it.
 * [ ] Analyze landing pages and site paths and contribute to work on preferred landing pages. Produce report to improve usability of the site. 
 * [ ] Contribute 1 entry-level tutorial per week, to be published
-  preferably on non-perl publications (Medium, dev.to, hackernoon).
+  preferably on non-perl publications (Medium, dev.to, HackerNoon).
 * [x] Monitor StackOverflow and answer and/or identify needs to be
   addressed in documentation. Contribute to work on those pages or
   create new ones.
