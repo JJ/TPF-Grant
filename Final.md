@@ -3,7 +3,8 @@
 Here's the final report, referring to the set
 of
 [objectives stated](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html) in
-the original proposal.
+the original proposal. Monthly reports are [here for April](April.md)
+and [this one for May](May.md).
 
 ## Working on all outstanding issues and address all of the issues in 2015, 2016 and 2017
 
