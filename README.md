@@ -5,7 +5,10 @@
 This is the site for
 the
 [TPF Grant ](http://news.perlfoundation.org/2018/02/grant-proposal-curating-and-im.html) devoted
-mainly to work on the [Perl 6 documentation](https://docs.perl6.org).
+mainly to work on
+the [Perl 6 documentation](https://docs.perl6.org). 
+
+Check out the published version at [`jj.github.io/TPF-Grant`](https://jj.github.io/TPF-Grant).
 
 ## Grant reports.
 
