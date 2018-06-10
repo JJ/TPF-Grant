@@ -59,7 +59,7 @@ Check out issues [closed in May](issues-May-2018.md) too
 | [Should we stop using .xhtml?](https://github.com/perl6/doc/issues/1845) |38 days  | 2018-04-23 |                   |
 | [why is html/perl6.xhtml checked in?](https://github.com/perl6/doc/issues/1956) |0 days  | 2018-04-23 |                   |
 | [`but` precedence trap is no longer a trap](https://github.com/perl6/doc/issues/1950) |1 days  | 2018-04-23 |                   |
-| [infix:<does> and infix:<but> not indexed](https://github.com/perl6/doc/issues/1953) |0 days  | 2018-04-23 |                   |
+| [infix:&lt;does> and infix:&lt;but> not indexed](https://github.com/perl6/doc/issues/1953) |0 days  | 2018-04-23 |                   |
 | [Not much info on $*IN in Docs](https://github.com/perl6/doc/issues/1955) |0 days  | 2018-04-23 |                   |
 | [make html hangs on OpenBSD](https://github.com/perl6/doc/issues/1947) |3 days  | 2018-04-24 |                   |
 | [Example needed of multi-line commenting using #`](https://github.com/perl6/doc/issues/1944) |4 days  | 2018-04-25 |                   |
@@ -70,7 +70,7 @@ Check out issues [closed in May](issues-May-2018.md) too
 | [/language/contributors hasn't been updated in ages](https://github.com/perl6/doc/issues/1970) |0 days  | 2018-04-27 |                   |
 | [X::TypeCheck::Splice exception description is wrong](https://github.com/perl6/doc/issues/833) |626 days  | 2018-04-28 |                   |
 | [Create language/history page](https://github.com/perl6/doc/issues/740) |645 days  | 2018-04-28 |                   |
-| [L<foo|#method bar> Links Are Broken on Individual Generated Pages](https://github.com/perl6/doc/issues/162) |926 days  | 2018-04-28 |                   |
+| [L<foo #method bar> Links Are Broken on Individual Generated Pages](https://github.com/perl6/doc/issues/162) |926 days  | 2018-04-28 |                   |
 | [｢is default｣ is indexed twice](https://github.com/perl6/doc/issues/1514) |237 days  | 2018-04-28 |                   |
 | [defined is not indexed as a method](https://github.com/perl6/doc/issues/1800) |60 days  | 2018-04-28 |                   |
 | [?? !! is pointing to the wrong place](https://github.com/perl6/doc/issues/1851) |40 days  | 2018-04-28 |                   |
