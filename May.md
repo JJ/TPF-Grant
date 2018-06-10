@@ -34,11 +34,21 @@ bit more than ~1 month.
 > missing from the roadmap since the very beginning.
 
 That means that many of the issues addressed were part of the
-backlog that was accumulation, and weren't, in fact, being addressed,
+backlog that was accumulating, and weren't, in fact, being addressed,
 making the number of issues accumulate to the tune of a few tens every
-month. If we look at the general 
+month. If we look at the general chart with the number of opened and
+closed issues per month, we see that most months had a positive opened
+vs. closed balance, which became increasingly dire in the first months
+after release, creating an upward trend in the total number of open issues.
 
-In fact, this has allowed to buck the trend that pushed the number of
+![Total number of open issues](illos/issues-timeline.png)
+
+> In this chart, the number of open issues is sometimes higher than
+> the real number, which is probably due to the fact that some issues
+> have been reopened and then closed several times. At any rate, it
+> reflects the information returned by the GitHub API.
+
+In fact, this grant has allowed to buck the trend that pushed the number of
 unsolved issues upward, and in fact has meant the biggest monthly
 difference between the number of open and closed issues, as can be
 seen below.
