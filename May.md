@@ -1,6 +1,6 @@
 # May, 2018. Second month of the grant.
 
-We will set as the official beginning of the grant April 1st, 2018,
+We set as the official beginning of the grant April 1st, 2018,
 which was a Sunday. The *official* end was, then, May 31st, a Thursday.
 
 Here's the report on the activities carried out during the month of May.
@@ -67,7 +67,7 @@ where I'm tied with the top closer.
 
 
 Last month I contributed more commits than the rest of the authors put
-together, and in fact May was the month with the highest number of
+together, even when May was the month with the highest number of
 commits so far in the Perl 6 repository.
 
 ![Commits by JJ and the rest](illos/commits-may.png)
@@ -104,8 +104,7 @@ this
   seen the highest number of questions ever in May, after reaching the
   highest number in April.
   
-*
-  [The website has seen its highest number of unique visitors in March, April and May](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month),
+* [The website has seen its highest number of unique visitors in March, April and May](http://www.p6c.org/stats/doc.perl6.org#Unique%20visitors%20in%20each%20month),
   with March being the highest.
   
 ## Conclusion
