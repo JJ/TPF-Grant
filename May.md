@@ -157,18 +157,17 @@ short term, recent issues, disregarding other, more complicated issues
 that require longer focus.
 
 This is why a piece of advice is that the foundation, or someone in
-overall charge of development, should create the figure of "designated
-doccer", to be that figure that focuses on old, long-term issues that
+overall charge of development, should create the figure of *designated
+doccer*, to be that person that focuses on old, long-term issues that
 require that kind of attention, as well as draw the focus of the
-community to certain issues that might have been disregarded. Also use
-higher level metrics,
+community to certain issues that might have been disregarded. This
+person should look at higher level metrics,
 like
 [file entropy](https://www.researchgate.net/publication/325532706_Author_and_file_entropy_in_the_Perl_6_documentation_repository),
 to find out which files have been disregarded and update or draw the
-focus of the community to them.
-It could
-be a volunteer position or an honorary appointment, but it is
-something that is really needed in this project.
+focus of the community to them.  It could be a volunteer position or
+an honorary appointment, but it is something that is really needed in
+this project.
 
 
 
