@@ -21,3 +21,6 @@ commits.y <- read.csv("../data/commits-year.csv")
 commits.y$Year <- as.Date(commits.y$Year)
 ggplot(commits.y, aes(x=Year,y=Commits))+geom_line()+geom_point(aes(size=Authors,color=Entropy))+theme_tufte()
 ggplot(commits.y, aes(x=Year,y=Commits,color=Entropy,size=Authors))+geom_line()+theme_tufte()
+
+days.commits <- read.csv("../data/100commit-interval.csv")
+ggplot(days.commits, aes(x=row.names(days.commits),y=Days,group=1))+geom_line()+theme_tufte()
