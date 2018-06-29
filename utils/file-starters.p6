@@ -4,8 +4,6 @@ use v6;
 
 sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     chdir( $dir );
-    my $dirs = $dir ~~ m:g{\/ (\w+) \/ (\w+) $$};
-    my $prefix = $dirs ?? $dirs[0].join("-") ~ "-" !! "data-";
     my @current-files = qx/git ls-files/.split("\n");
 
     my %created;
@@ -17,11 +15,11 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
 	    }
         }
         my $created = qqx/git log --diff-filter=A -- $file/;
-        my $author = $created ~~ /\< (.+?) \> /;
-        say $author;
-        %created{$author}++;
+        my $author = $created ~~ /\< (.+?) \@ /;
+        %created{$author[0]}++ if $author;
     }
 
+    say "Author,Files";
     for %created.sort: - *.value  {
        say $_.key, ", ", $_.value;
     }
