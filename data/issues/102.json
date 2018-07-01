@@ -1,6 +1,6 @@
 {
   "body": "Clicking \"unpack\" from there goes to `http://doc.perl6.org/method%20unpack`, which is a 404.\n",
-  "author_association": "CONTRIBUTOR",
+  "author_association": "NONE",
   "assignees": [
     
   ],
@@ -51,24 +51,24 @@
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/102/events",
   "user": {
-    "following_url": "https://api.github.com/users/flussence/following{/other_user}",
-    "node_id": "MDQ6VXNlcjQwOTg2MA==",
-    "gists_url": "https://api.github.com/users/flussence/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/flussence/received_events",
-    "organizations_url": "https://api.github.com/users/flussence/orgs",
-    "subscriptions_url": "https://api.github.com/users/flussence/subscriptions",
-    "html_url": "https://github.com/flussence",
-    "id": 409860,
-    "login": "flussence",
+    "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMTM3",
+    "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ghost/received_events",
+    "organizations_url": "https://api.github.com/users/ghost/orgs",
+    "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+    "html_url": "https://github.com/ghost",
+    "id": 10137,
+    "login": "ghost",
     "type": "User",
-    "repos_url": "https://api.github.com/users/flussence/repos",
+    "repos_url": "https://api.github.com/users/ghost/repos",
     "site_admin": false,
-    "events_url": "https://api.github.com/users/flussence/events{/privacy}",
+    "events_url": "https://api.github.com/users/ghost/events{/privacy}",
     "gravatar_id": "",
-    "avatar_url": "https://avatars0.githubusercontent.com/u/409860?v=4",
-    "starred_url": "https://api.github.com/users/flussence/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/flussence/followers",
-    "url": "https://api.github.com/users/flussence"
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+    "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ghost/followers",
+    "url": "https://api.github.com/users/ghost"
   },
   "repository_url": "https://api.github.com/repos/perl6/doc",
   "url": "https://api.github.com/repos/perl6/doc/issues/102"
