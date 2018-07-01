@@ -26,19 +26,19 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-21T18:29:07Z",
+  "updated_at": "2018-06-23T10:11:45Z",
   "created_at": "2018-05-20T22:36:24Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/2037/comments",
   "locked": false,
   "title": "Non-breaking space becomes normal space when rendered to the web",
   "id": 324748622,
   "html_url": "https://github.com/perl6/doc/issues/2037",
-  "closed_at": null,
+  "closed_at": "2018-06-22T17:56:48Z",
   "milestone": null,
-  "state": "open",
+  "state": "closed",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/2037/labels{/name}",
   "number": 2037,
-  "comments": 8,
+  "comments": 10,
   "labels": [
     {
       "color": "b60205",

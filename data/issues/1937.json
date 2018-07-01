@@ -125,7 +125,7 @@
   },
   "node_id": "MDU6SXNzdWUzMTUxNDAyMjk=",
   "closed_by": null,
-  "updated_at": "2018-05-14T05:05:42Z",
+  "updated_at": "2018-06-07T05:52:12Z",
   "created_at": "2018-04-17T16:33:52Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1937/comments",
   "locked": false,
@@ -154,6 +154,14 @@
       "id": 423513323,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/meta"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1937/events",

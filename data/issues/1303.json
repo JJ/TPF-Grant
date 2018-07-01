@@ -7,7 +7,7 @@
   "assignee": null,
   "node_id": "MDU6SXNzdWUyMjg0NDE4ODU=",
   "closed_by": null,
-  "updated_at": "2018-04-20T18:33:10Z",
+  "updated_at": "2018-06-10T07:47:30Z",
   "created_at": "2017-05-13T02:02:01Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1303/comments",
   "locked": false,
@@ -21,6 +21,14 @@
   "number": 1303,
   "comments": 6,
   "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
     {
       "color": "8cef88",
       "name": "good first issue",

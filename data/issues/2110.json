@@ -1,0 +1,89 @@
+{
+  "body": "There is currently no /type/NativeCall page, everything seems to be in /language/nativecall\r\n\r\n## The problem\r\nBroken links on /language/nativetypes\r\n\r\n## Solution provided\r\nLink to /language/nativecall\r\n",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDExOlB1bGxSZXF1ZXN0MTk2MTM5OTYx",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/dmaestro/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU2MDYxMDk=",
+    "gists_url": "https://api.github.com/users/dmaestro/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dmaestro/received_events",
+    "organizations_url": "https://api.github.com/users/dmaestro/orgs",
+    "subscriptions_url": "https://api.github.com/users/dmaestro/subscriptions",
+    "html_url": "https://github.com/dmaestro",
+    "id": 5606109,
+    "login": "dmaestro",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dmaestro/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dmaestro/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5606109?v=4",
+    "starred_url": "https://api.github.com/users/dmaestro/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dmaestro/followers",
+    "url": "https://api.github.com/users/dmaestro"
+  },
+  "updated_at": "2018-06-22T16:45:09Z",
+  "created_at": "2018-06-20T13:32:43Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2110/comments",
+  "pull_request": {
+    "html_url": "https://github.com/perl6/doc/pull/2110",
+    "diff_url": "https://github.com/perl6/doc/pull/2110.diff",
+    "patch_url": "https://github.com/perl6/doc/pull/2110.patch",
+    "url": "https://api.github.com/repos/perl6/doc/pulls/2110"
+  },
+  "locked": false,
+  "title": "Fix links to NativeCall",
+  "id": 334078656,
+  "html_url": "https://github.com/perl6/doc/pull/2110",
+  "closed_at": "2018-06-20T15:01:07Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2110/labels{/name}",
+  "number": 2110,
+  "comments": 3,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2110/events",
+  "user": {
+    "following_url": "https://api.github.com/users/dmaestro/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU2MDYxMDk=",
+    "gists_url": "https://api.github.com/users/dmaestro/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/dmaestro/received_events",
+    "organizations_url": "https://api.github.com/users/dmaestro/orgs",
+    "subscriptions_url": "https://api.github.com/users/dmaestro/subscriptions",
+    "html_url": "https://github.com/dmaestro",
+    "id": 5606109,
+    "login": "dmaestro",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/dmaestro/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/dmaestro/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5606109?v=4",
+    "starred_url": "https://api.github.com/users/dmaestro/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/dmaestro/followers",
+    "url": "https://api.github.com/users/dmaestro"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2110"
+}

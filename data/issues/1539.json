@@ -26,7 +26,7 @@
     "followers_url": "https://api.github.com/users/AlexDaniel/followers",
     "url": "https://api.github.com/users/AlexDaniel"
   },
-  "updated_at": "2017-11-05T10:04:30Z",
+  "updated_at": "2018-06-24T11:16:01Z",
   "created_at": "2017-09-05T20:12:33Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1539/comments",
   "locked": false,
@@ -47,6 +47,14 @@
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "cccc10",
+      "name": "trap",
+      "node_id": "MDU6TGFiZWw5NzM3NDk5NjA=",
+      "id": 973749960,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/trap"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1539/events",

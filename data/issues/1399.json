@@ -26,7 +26,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-14T05:05:42Z",
+  "updated_at": "2018-06-27T17:15:19Z",
   "created_at": "2017-06-29T20:12:19Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1399/comments",
   "locked": false,
@@ -38,7 +38,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1399/labels{/name}",
   "number": 1399,
-  "comments": 5,
+  "comments": 6,
   "labels": [
     {
       "color": "5DE0FA",

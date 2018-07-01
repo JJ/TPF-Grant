@@ -7,7 +7,7 @@
   "assignee": null,
   "node_id": "MDU6SXNzdWUzMjA1ODkxNzA=",
   "closed_by": null,
-  "updated_at": "2018-05-06T15:57:55Z",
+  "updated_at": "2018-06-13T07:55:53Z",
   "created_at": "2018-05-06T12:36:19Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/2004/comments",
   "locked": false,
@@ -19,7 +19,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/2004/labels{/name}",
   "number": 2004,
-  "comments": 0,
+  "comments": 2,
   "labels": [
     {
       "color": "5DE0FA",

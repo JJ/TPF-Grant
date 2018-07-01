@@ -26,7 +26,7 @@
     "followers_url": "https://api.github.com/users/JJ/followers",
     "url": "https://api.github.com/users/JJ"
   },
-  "updated_at": "2018-05-13T10:21:11Z",
+  "updated_at": "2018-06-24T11:16:54Z",
   "created_at": "2017-02-24T19:58:59Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1216/comments",
   "locked": false,
@@ -47,6 +47,14 @@
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "cccc10",
+      "name": "trap",
+      "node_id": "MDU6TGFiZWw5NzM3NDk5NjA=",
+      "id": 973749960,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/trap"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1216/events",

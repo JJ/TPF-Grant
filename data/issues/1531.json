@@ -7,7 +7,7 @@
   "assignee": null,
   "node_id": "MDU6SXNzdWUyNTQ5MDM5MzY=",
   "closed_by": null,
-  "updated_at": "2018-05-18T18:08:36Z",
+  "updated_at": "2018-06-27T17:16:14Z",
   "created_at": "2017-09-03T22:08:11Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1531/comments",
   "locked": false,
@@ -28,6 +28,14 @@
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "8cef88",
+      "name": "good first issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
+      "id": 876253381,
+      "default": true,
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1531/events",

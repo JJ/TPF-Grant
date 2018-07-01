@@ -7,7 +7,7 @@
   "assignee": null,
   "node_id": "MDU6SXNzdWUzMDgxMDUzNzA=",
   "closed_by": null,
-  "updated_at": "2018-05-14T05:05:42Z",
+  "updated_at": "2018-06-16T12:23:13Z",
   "created_at": "2018-03-23T16:51:24Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1866/comments",
   "locked": false,
@@ -19,7 +19,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1866/labels{/name}",
   "number": 1866,
-  "comments": 3,
+  "comments": 4,
   "labels": [
     {
       "color": "0be5a0",

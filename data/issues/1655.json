@@ -7,7 +7,7 @@
   "assignee": null,
   "node_id": "MDU6SXNzdWUyNzEyMTA1ODI=",
   "closed_by": null,
-  "updated_at": "2018-05-15T09:31:23Z",
+  "updated_at": "2018-06-28T17:09:49Z",
   "created_at": "2017-11-04T17:47:56Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1655/comments",
   "locked": false,
@@ -28,6 +28,14 @@
       "id": 244843225,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "5DE0FA",
+      "name": "update",
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
+      "id": 676800676,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/update"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1655/events",

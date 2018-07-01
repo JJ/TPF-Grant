@@ -2,12 +2,50 @@
   "body": "## The problem\r\n\r\nSeveral utility programs build a cache of Pod 6 documents, only they do so in different ways.\r\n\r\n- htmlify puts it in a global variable, `$*DR`\r\n- pod-valid.t just ditches of the file as soon as it's checked.\r\n- pod2onepage actually *builds* and puts it in a `.precomp` data store, used as a cache. That is why when you change just one page it says `(cached)`\r\n- p6doc creates one `index.data` file, which is not used by anyone else.\r\n\r\nBaseline is: many programs, some of them run in sequence, load and build Perl 6 objects out of Pod 6 files only to ditch it later. We should make them use the same objects, precomputed if they are available. \r\n\r\n## Suggestions\r\n\r\nCould we maybe take a look at all this and create a single cache for docs that could speed up at least local testing? Would be part of #1823, but not the whole lot, of course... ",
   "author_association": "MEMBER",
   "assignees": [
-    
+    {
+      "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU3",
+      "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+      "received_events_url": "https://api.github.com/users/coke/received_events",
+      "organizations_url": "https://api.github.com/users/coke/orgs",
+      "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+      "html_url": "https://github.com/coke",
+      "id": 50257,
+      "login": "coke",
+      "type": "User",
+      "repos_url": "https://api.github.com/users/coke/repos",
+      "site_admin": false,
+      "events_url": "https://api.github.com/users/coke/events{/privacy}",
+      "gravatar_id": "",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+      "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+      "followers_url": "https://api.github.com/users/coke/followers",
+      "url": "https://api.github.com/users/coke"
+    }
   ],
-  "assignee": null,
+  "assignee": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
   "node_id": "MDU6SXNzdWUzMTY1OTY2Njc=",
   "closed_by": null,
-  "updated_at": "2018-05-14T05:05:42Z",
+  "updated_at": "2018-06-07T05:33:17Z",
   "created_at": "2018-04-22T17:20:22Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1952/comments",
   "locked": false,
@@ -36,6 +74,14 @@
       "id": 6655839,
       "default": false,
       "url": "https://api.github.com/repos/perl6/doc/labels/build"
+    },
+    {
+      "color": "fef2c0",
+      "name": "wishlist",
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
+      "id": 493345410,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
     }
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1952/events",

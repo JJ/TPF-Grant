@@ -1,0 +1,83 @@
+{
+  "body": "During [today's discussion](http://colabti.org/irclogger/irclogger_log/perl6?date=2018-06-28#l910) remembering indirect method call syntax was brought up, which is writing\r\n\r\n```perl6\r\n$obj.meth: @args;\r\n```\r\n\r\nas\r\n\r\n```perl6\r\nmeth $obj: @args;\r\n```\r\n\r\nI went into the docs to see if this handy tip was listed already:\r\n\r\n```\r\nZoffix | moritz: the indirect invocant has the same syntax as method signature definition:\r\nZoffix | method foo(\\Invocant: \\arg1, \\arg2) { }\r\nZoffix | say foo Invocant: arg1, arg2;\r\n```\r\n\r\nHowever, I couldn't find where it's documented at all. I tried:\r\n* Searching for \"indirect\"; that didn't give any good results\r\n* Searched for \"indirect method call\" and then clicked \"try google\" link but google didn't find it either\r\n* Search for \":\" and skimmed the gazillion returned results, but I don't see anything relevant.",
+  "author_association": "MEMBER",
+  "assignees": [
+    
+  ],
+  "assignee": null,
+  "node_id": "MDU6SXNzdWUzMzY3NjE2OTE=",
+  "closed_by": {
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "html_url": "https://github.com/JJ",
+    "id": 500,
+    "login": "JJ",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "url": "https://api.github.com/users/JJ"
+  },
+  "updated_at": "2018-06-30T08:31:54Z",
+  "created_at": "2018-06-28T20:07:02Z",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2131/comments",
+  "locked": false,
+  "title": "Can't find indirect method call docs",
+  "id": 336761691,
+  "html_url": "https://github.com/perl6/doc/issues/2131",
+  "closed_at": "2018-06-30T08:31:54Z",
+  "milestone": null,
+  "state": "closed",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2131/labels{/name}",
+  "number": 2131,
+  "comments": 0,
+  "labels": [
+    {
+      "color": "5DE0FA",
+      "name": "docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "id": 244843225,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
+    },
+    {
+      "color": "7493fb",
+      "name": "search",
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY=",
+      "id": 390783036,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/search"
+    }
+  ],
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2131/events",
+  "user": {
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "html_url": "https://github.com/zoffixznet",
+    "id": 5747918,
+    "login": "zoffixznet",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "url": "https://api.github.com/users/zoffixznet"
+  },
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2131"
+}

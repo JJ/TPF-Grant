@@ -45,7 +45,7 @@
   },
   "node_id": "MDU6SXNzdWUzMjczNzU1MzM=",
   "closed_by": null,
-  "updated_at": "2018-05-30T17:09:31Z",
+  "updated_at": "2018-06-10T08:15:41Z",
   "created_at": "2018-05-29T15:34:46Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/2070/comments",
   "locked": false,
@@ -59,6 +59,14 @@
   "number": 2070,
   "comments": 0,
   "labels": [
+    {
+      "color": "f72bc1",
+      "name": "big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
+      "id": 244870541,
+      "default": false,
+      "url": "https://api.github.com/repos/perl6/doc/labels/big"
+    },
     {
       "color": "5DE0FA",
       "name": "docs",

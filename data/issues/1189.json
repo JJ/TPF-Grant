@@ -2,9 +2,47 @@
   "body": "Some code is like:\r\n\r\n`multi sub hello($name) {say \"hi $name\"}`\r\n\r\nOther code is like:\r\n\r\n`multi hello($name) {say \"hi $name\"}`\r\n\r\nI'm not sure what is going on here, but this is something that should be decided upon. I think `multi sub` makes sense because you always clarify `multi method` in classes. And yet, I've never seen a `proto sub`. I've only seen `proto` by itself.\r\n\r\nThoughts?",
   "author_association": "MEMBER",
   "assignees": [
-    
+    {
+      "following_url": "https://api.github.com/users/coke/following{/other_user}",
+      "node_id": "MDQ6VXNlcjUwMjU3",
+      "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+      "received_events_url": "https://api.github.com/users/coke/received_events",
+      "organizations_url": "https://api.github.com/users/coke/orgs",
+      "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+      "html_url": "https://github.com/coke",
+      "id": 50257,
+      "login": "coke",
+      "type": "User",
+      "repos_url": "https://api.github.com/users/coke/repos",
+      "site_admin": false,
+      "events_url": "https://api.github.com/users/coke/events{/privacy}",
+      "gravatar_id": "",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+      "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+      "followers_url": "https://api.github.com/users/coke/followers",
+      "url": "https://api.github.com/users/coke"
+    }
   ],
-  "assignee": null,
+  "assignee": {
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "node_id": "MDQ6VXNlcjUwMjU3",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "html_url": "https://github.com/coke",
+    "id": 50257,
+    "login": "coke",
+    "type": "User",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "site_admin": false,
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "gravatar_id": "",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "url": "https://api.github.com/users/coke"
+  },
   "node_id": "MDU6SXNzdWUyMDY5NTI1Njg=",
   "closed_by": {
     "following_url": "https://api.github.com/users/coke/following{/other_user}",
@@ -26,7 +64,7 @@
     "followers_url": "https://api.github.com/users/coke/followers",
     "url": "https://api.github.com/users/coke"
   },
-  "updated_at": "2018-05-30T16:15:35Z",
+  "updated_at": "2018-06-28T17:22:25Z",
   "created_at": "2017-02-11T02:56:31Z",
   "comments_url": "https://api.github.com/repos/perl6/doc/issues/1189/comments",
   "locked": false,
@@ -38,7 +76,7 @@
   "state": "open",
   "labels_url": "https://api.github.com/repos/perl6/doc/issues/1189/labels{/name}",
   "number": 1189,
-  "comments": 13,
+  "comments": 17,
   "labels": [
     {
       "color": "5DE0FA",

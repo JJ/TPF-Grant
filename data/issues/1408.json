@@ -1,6 +1,6 @@
 {
   "body": "Fix grammer around IO::Handle.getc.",
-  "author_association": "CONTRIBUTOR",
+  "author_association": "NONE",
   "assignees": [
     
   ],
@@ -50,24 +50,24 @@
   ],
   "events_url": "https://api.github.com/repos/perl6/doc/issues/1408/events",
   "user": {
-    "following_url": "https://api.github.com/users/gdonald/following{/other_user}",
-    "node_id": "MDQ6VXNlcjEzMDE2",
-    "gists_url": "https://api.github.com/users/gdonald/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/gdonald/received_events",
-    "organizations_url": "https://api.github.com/users/gdonald/orgs",
-    "subscriptions_url": "https://api.github.com/users/gdonald/subscriptions",
-    "html_url": "https://github.com/gdonald",
-    "id": 13016,
-    "login": "gdonald",
+    "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+    "node_id": "MDQ6VXNlcjEwMTM3",
+    "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+    "received_events_url": "https://api.github.com/users/ghost/received_events",
+    "organizations_url": "https://api.github.com/users/ghost/orgs",
+    "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+    "html_url": "https://github.com/ghost",
+    "id": 10137,
+    "login": "ghost",
     "type": "User",
-    "repos_url": "https://api.github.com/users/gdonald/repos",
+    "repos_url": "https://api.github.com/users/ghost/repos",
     "site_admin": false,
-    "events_url": "https://api.github.com/users/gdonald/events{/privacy}",
+    "events_url": "https://api.github.com/users/ghost/events{/privacy}",
     "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/13016?v=4",
-    "starred_url": "https://api.github.com/users/gdonald/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/gdonald/followers",
-    "url": "https://api.github.com/users/gdonald"
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+    "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+    "followers_url": "https://api.github.com/users/ghost/followers",
+    "url": "https://api.github.com/users/ghost"
   },
   "repository_url": "https://api.github.com/repos/perl6/doc",
   "url": "https://api.github.com/repos/perl6/doc/issues/1408"
