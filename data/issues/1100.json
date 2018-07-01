@@ -1,6 +1,6 @@
 {
   "body": "This adds a header to the 'is default' section of the Sub type so that it is indexed. The 'is default' section for variables has also been changed a bit so that it is in the same format as the Sub one.",
-  "author_association": "CONTRIBUTOR",
+  "author_association": "MEMBER",
   "assignees": [
     
   ],
