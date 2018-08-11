@@ -2,6 +2,8 @@
 
 use v6;
 
+# Downloads only the issue title.
+
 use lib <../../../forks/perl6/perl6-WebService-GitHub/lib>;
 use WebService::GitHub;
 use WebService::GitHub::Issues;

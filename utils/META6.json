@@ -14,7 +14,8 @@
 	"JSON::Fast",
 	"Cache::LRU",
 	"JSON::Fast",
-	"IO::Glob"],
+	"IO::Glob",
+        "Data::Dump::Tree"],
     "provides" : {},
     "source-url"    : "git://github.com/JJ/TPF-Grant.git",
     "test-depends" : [ "Test::META" ]
