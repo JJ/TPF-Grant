@@ -37,6 +37,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
 
     }
 
+    say "Nick, lines";
     for %lines.sort: - *.value  {
        say $_.key, ", ", $_.value;
     }
