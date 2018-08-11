@@ -15,6 +15,7 @@ my $repo = "perl6/doc";
 my @issues = $gh.show( repo => $repo, state => 'all' ).Array;
 spurt "../data/issues/all.json", to-json( @issues );
 
+my @not-downloaded;
 for @issues -> $issue {
     say $issue;
     die "Limit exceeded in issue ", $issue<number>, " please use auth" if !rate-limit-remaining();
@@ -23,6 +24,7 @@ for @issues -> $issue {
 	default {
 	    say "Problems with ", $issue<number>;
 	    say .Str;
+            push @not-downloaded:  $issue<number>;
 	    next;
 	}
     }
@@ -36,5 +38,5 @@ for @issues -> $issue {
     
 }
 
-
+spurt "not-downloaded.dat", @not-downloaded;
 
