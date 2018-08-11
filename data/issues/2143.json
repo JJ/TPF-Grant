@@ -1,0 +1,91 @@
+{
+  "body": "Perhaps it would be an idea to create a page about all of the Perl 6 books that have been written / are available?",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2143",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2143/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2143",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta",
+      "default": false,
+      "name": "meta",
+      "color": "000000",
+      "id": 423513323,
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    }
+  ],
+  "title": "No books mentioned in Perl 6 documentation",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2143/labels{/name}",
+  "closed_at": "2018-07-26T17:35:22Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "comments": 25,
+  "user": {
+    "events_url": "https://api.github.com/users/lizmat/events{/privacy}",
+    "following_url": "https://api.github.com/users/lizmat/following{/other_user}",
+    "followers_url": "https://api.github.com/users/lizmat/followers",
+    "html_url": "https://github.com/lizmat",
+    "url": "https://api.github.com/users/lizmat",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/lizmat/orgs",
+    "gists_url": "https://api.github.com/users/lizmat/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2229339?v=4",
+    "id": 2229339,
+    "starred_url": "https://api.github.com/users/lizmat/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/lizmat/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/lizmat/repos",
+    "subscriptions_url": "https://api.github.com/users/lizmat/subscriptions",
+    "node_id": "MDQ6VXNlcjIyMjkzMzk=",
+    "login": "lizmat"
+  },
+  "id": 338316553,
+  "updated_at": "2018-07-26T17:35:22Z",
+  "assignee": null,
+  "created_at": "2018-07-04T15:27:17Z",
+  "number": 2143,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2143/comments",
+  "node_id": "MDU6SXNzdWUzMzgzMTY1NTM="
+}

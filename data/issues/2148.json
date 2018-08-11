@@ -1,0 +1,64 @@
+{
+  "body": "The https://docs.perl6.org/syntax/unit says\r\n\r\n> This must be at the start of the file (preceded only by comments or use statements)\r\n\r\nHowever, it can also be preceded by `sub EXPORT` at the very least (which actually *has* to go outside the `unit` stuff). I filed [R#2020](https://github.com/rakudo/rakudo/issues/2020) to clarify what's allowed, and once that's resolved, it would go in to fix this issue.",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2148",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2148/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2148",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/external",
+      "default": false,
+      "name": "external",
+      "color": "5319e7",
+      "id": 503572706,
+      "node_id": "MDU6TGFiZWw1MDM1NzI3MDY="
+    }
+  ],
+  "title": "Error in the docs for `unit` declarator",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2148/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 338334147,
+  "updated_at": "2018-07-12T10:11:35Z",
+  "assignee": null,
+  "created_at": "2018-07-04T16:36:53Z",
+  "number": 2148,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2148/comments",
+  "node_id": "MDU6SXNzdWUzMzgzMzQxNDc="
+}

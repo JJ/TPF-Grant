@@ -1,0 +1,56 @@
+{
+  "body": "For Perl6 new comers, those who are not familiar with the Perl6 community and culture \r\nand how Perl6 came to be or evolve \r\n\r\nThe special Unicode Characters in code and especially in operators, can look very intimidating \r\nit can be quiet engaging to find out how to insert those characters in your favorite OS or editor \r\n\r\nHaving Unicode only code samples and examples, might give the impression, that there is no other way to write that code, except using the unicode characters\r\n\r\nIt should be made clear in the docs, that for example this line \r\n`my @primes = ^∞ .grep: *.is-prime;`\r\nCan simply be written as \r\n`my @primes2 = ^Inf .grep: *.is-prime;`\r\n\r\nAnd if possible any unicode operator mentioned in the docs, should have a link to its ascii equivalent \r\nI understand, that Perl6 might be trying to promote itself as a 100 year language, and that part of this is promoting the use of the nicer looking unicode characters, but for new comers who are not aware of this or sold on this idea, this can be very intimidating and confusing \r\n",
+  "author_association": "NONE",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2201",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2201/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2201",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist",
+      "default": false,
+      "name": "wishlist",
+      "color": "fef2c0",
+      "id": 493345410,
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA="
+    }
+  ],
+  "title": "Include ASCII Equivalents in Official Docs code Examples ",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2201/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 5,
+  "user": {
+    "events_url": "https://api.github.com/users/shishini/events{/privacy}",
+    "following_url": "https://api.github.com/users/shishini/following{/other_user}",
+    "followers_url": "https://api.github.com/users/shishini/followers",
+    "html_url": "https://github.com/shishini",
+    "url": "https://api.github.com/users/shishini",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/shishini/orgs",
+    "gists_url": "https://api.github.com/users/shishini/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2177439?v=4",
+    "id": 2177439,
+    "starred_url": "https://api.github.com/users/shishini/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/shishini/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/shishini/repos",
+    "subscriptions_url": "https://api.github.com/users/shishini/subscriptions",
+    "node_id": "MDQ6VXNlcjIxNzc0Mzk=",
+    "login": "shishini"
+  },
+  "id": 343297633,
+  "updated_at": "2018-07-22T11:01:57Z",
+  "assignee": null,
+  "created_at": "2018-07-21T04:56:19Z",
+  "number": 2201,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2201/comments",
+  "node_id": "MDU6SXNzdWUzNDMyOTc2MzM="
+}

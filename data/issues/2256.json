@@ -1,0 +1,83 @@
+{
+  "body": "## The problem\r\n\r\nThe [`polymod` page says](https://docs.perl6.org/routine/polymod)\r\n\r\n> Returns a sequence of mod results corresponding to the divisors in @mods. The divisors are given from smallest \"unit\" to the largest\r\n\r\nHowever,\r\n\r\n    say 57.polymod(1,2,5,10,20,50);  # OUTPUT: «(0 1 3 5 0 0 0)␤»  \r\n    say 57.polymod(50,20,10,5,2,1);  # OUTPUT: «(7 1 0 0 0 0 0)␤»\r\n\r\nThey simply issue mods in the same order they are given in the argument. In fact, the examples use sometimes increasing units, some times decreasing.\r\n\r\n## Suggestions\r\n\r\n[Here is the code for `Int`](https://github.com/rakudo/rakudo/blob/eb6656b876867eb010504a4423823f527d259b74/src/core/Int.pm6#L105-L135) and the code for Num is similar. ",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2256",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2256/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2256",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "polymod explanation is not clear enough (and it's not documented for Real)",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2256/labels{/name}",
+  "closed_at": "2018-08-11T08:46:35Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 349712555,
+  "updated_at": "2018-08-11T08:46:35Z",
+  "assignee": null,
+  "created_at": "2018-08-11T07:08:48Z",
+  "number": 2256,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2256/comments",
+  "node_id": "MDU6SXNzdWUzNDk3MTI1NTU="
+}

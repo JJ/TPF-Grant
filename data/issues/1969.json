@@ -1,72 +1,72 @@
 {
   "body": "Below `/language/` we have 3 pages about unicode, 2 pages about grammar, 2 or 3 pages about OO.\r\n\r\nThey mix up concept/reference with tutorial/case study. It might be better to keep high level concepts below `/language/` and move **detailed/hand by hand** tutorials (especially, several grammar tutorials) below a new category `/tutorial/`. \r\n\r\nRefers to #114 . It is ok to, somehow, keep redundant, but not several pages of nearly the same topic that pushes our users do cross reading (for an identical topic).\r\n",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/1969",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1969/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1969",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/build",
+      "default": false,
+      "name": "build",
+      "color": "C4DB17",
+      "id": 6655839,
+      "node_id": "MDU6TGFiZWw2NjU1ODM5"
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist",
+      "default": false,
+      "name": "wishlist",
+      "color": "fef2c0",
+      "id": 493345410,
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA="
+    }
+  ],
+  "title": "Separate category of Tutorial",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1969/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUzMTgyNjMwNjU=",
-  "closed_by": null,
-  "updated_at": "2018-05-14T05:05:42Z",
-  "created_at": "2018-04-27T03:08:20Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1969/comments",
   "locked": false,
-  "title": "Separate category of Tutorial",
-  "id": 318263065,
-  "html_url": "https://github.com/perl6/doc/issues/1969",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1969/labels{/name}",
-  "number": 1969,
-  "comments": 4,
-  "labels": [
-    {
-      "color": "C4DB17",
-      "name": "build",
-      "node_id": "MDU6TGFiZWw2NjU1ODM5",
-      "id": 6655839,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/build"
-    },
-    {
-      "color": "0be5a0",
-      "name": "site",
-      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
-      "id": 397990514,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/site"
-    },
-    {
-      "color": "fef2c0",
-      "name": "wishlist",
-      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
-      "id": 493345410,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/1969/events",
-  "user": {
-    "following_url": "https://api.github.com/users/W4anD0eR96/following{/other_user}",
-    "node_id": "MDQ6VXNlcjE4ODE4MTk2",
-    "gists_url": "https://api.github.com/users/W4anD0eR96/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/W4anD0eR96/received_events",
-    "organizations_url": "https://api.github.com/users/W4anD0eR96/orgs",
-    "subscriptions_url": "https://api.github.com/users/W4anD0eR96/subscriptions",
-    "html_url": "https://github.com/W4anD0eR96",
-    "id": 18818196,
-    "login": "W4anD0eR96",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/W4anD0eR96/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/W4anD0eR96/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
-    "starred_url": "https://api.github.com/users/W4anD0eR96/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/W4anD0eR96/followers",
-    "url": "https://api.github.com/users/W4anD0eR96"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/1969"
+  "closed_by": null,
+  "comments": 5,
+  "user": {
+    "events_url": "https://api.github.com/users/TisonKun/events{/privacy}",
+    "following_url": "https://api.github.com/users/TisonKun/following{/other_user}",
+    "followers_url": "https://api.github.com/users/TisonKun/followers",
+    "html_url": "https://github.com/TisonKun",
+    "url": "https://api.github.com/users/TisonKun",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/TisonKun/orgs",
+    "gists_url": "https://api.github.com/users/TisonKun/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18818196?v=4",
+    "id": 18818196,
+    "starred_url": "https://api.github.com/users/TisonKun/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/TisonKun/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/TisonKun/repos",
+    "subscriptions_url": "https://api.github.com/users/TisonKun/subscriptions",
+    "node_id": "MDQ6VXNlcjE4ODE4MTk2",
+    "login": "TisonKun"
+  },
+  "id": 318263065,
+  "updated_at": "2018-07-18T12:41:00Z",
+  "assignee": null,
+  "created_at": "2018-04-27T03:08:20Z",
+  "number": 1969,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1969/comments",
+  "node_id": "MDU6SXNzdWUzMTgyNjMwNjU="
 }

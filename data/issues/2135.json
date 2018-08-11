@@ -1,0 +1,56 @@
+{
+  "body": "*Note: Please feel free to reword the title. I'm just frustrated with how little our docs say about such an important feature of perl 6.*\r\n\r\nImagine you stumbled upon react block somewhere in the wild, so you go to the documentation to learn about it.\r\n\r\nThe search functions gives you just one link: https://docs.perl6.org/language/concurrency#index-entry-react-react\r\n\r\nThe section starts with:\r\n\r\n> This could also be written using the react keyword:\r\n\r\nSorry, what can be written? The previous section takes a full page and talks about supplies and suppliers, and moreover that's not needed at all to understand react (IMO). The basics can be shown with simple promises.\r\n\r\nThen it goes with the only paragraph that explains react block:\r\n\r\n> Here the whenever keyword uses .act to create a tap on the Supply from the provided block. The react block is exited when done() is called in one of the taps. Using last to exit the block would produce an error indicating that it's not really a loop construct.\r\n\r\nUh… and? So if it's using taps, why use the react block instead of just using .tap? Nothing is explained.\r\n\r\n----\r\n\r\nIf I had to summarize react block in one sentence I would say that it does *sequential processing of asynchronous events*. That, in my opinion, is its main feature. I don't know if this description is fully correct and if it is understandable, but perhaps that's a good start.\r\n\r\nMoreover, it should probably discuss how exceptions happening in whenevers/react can be noticed easily, compared to threads dying in regular .taps.\r\n\r\nFWIW there's a huge example using react/whenever in https://docs.perl6.org/type/Proc::Async (maybe it can be used for inspiration).",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2135",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2135/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2135",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    }
+  ],
+  "title": "So what the hell is react/whenever",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2135/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 6,
+  "user": {
+    "events_url": "https://api.github.com/users/AlexDaniel/events{/privacy}",
+    "following_url": "https://api.github.com/users/AlexDaniel/following{/other_user}",
+    "followers_url": "https://api.github.com/users/AlexDaniel/followers",
+    "html_url": "https://github.com/AlexDaniel",
+    "url": "https://api.github.com/users/AlexDaniel",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/AlexDaniel/orgs",
+    "gists_url": "https://api.github.com/users/AlexDaniel/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5507503?v=4",
+    "id": 5507503,
+    "starred_url": "https://api.github.com/users/AlexDaniel/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/AlexDaniel/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/AlexDaniel/repos",
+    "subscriptions_url": "https://api.github.com/users/AlexDaniel/subscriptions",
+    "node_id": "MDQ6VXNlcjU1MDc1MDM=",
+    "login": "AlexDaniel"
+  },
+  "id": 337335756,
+  "updated_at": "2018-07-03T15:15:06Z",
+  "assignee": null,
+  "created_at": "2018-07-02T00:20:47Z",
+  "number": 2135,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2135/comments",
+  "node_id": "MDU6SXNzdWUzMzczMzU3NTY="
+}

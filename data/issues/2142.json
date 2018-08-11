@@ -1,0 +1,91 @@
+{
+  "body": "## The problem\r\nsize_t is not documented in new [native type page](https://docs.perl6.org/language/nativetypes#index-entry-int32), and also the type ssize_t, ulong, ulonglong\r\n\r\n## Suggestions\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2142",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2142/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2142",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED",
+      "default": false,
+      "name": "NOTSPECCED",
+      "color": "5DE0FA",
+      "id": 420092522,
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "size_t, ssize_t ... etc are not document",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2142/labels{/name}",
+  "closed_at": "2018-07-05T06:15:23Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "comments": 1,
+  "user": {
+    "events_url": "https://api.github.com/users/araraloren/events{/privacy}",
+    "following_url": "https://api.github.com/users/araraloren/following{/other_user}",
+    "followers_url": "https://api.github.com/users/araraloren/followers",
+    "html_url": "https://github.com/araraloren",
+    "url": "https://api.github.com/users/araraloren",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/araraloren/orgs",
+    "gists_url": "https://api.github.com/users/araraloren/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15150618?v=4",
+    "id": 15150618,
+    "starred_url": "https://api.github.com/users/araraloren/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/araraloren/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/araraloren/repos",
+    "subscriptions_url": "https://api.github.com/users/araraloren/subscriptions",
+    "node_id": "MDQ6VXNlcjE1MTUwNjE4",
+    "login": "araraloren"
+  },
+  "id": 338178464,
+  "updated_at": "2018-07-05T06:15:23Z",
+  "assignee": null,
+  "created_at": "2018-07-04T08:29:08Z",
+  "number": 2142,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2142/comments",
+  "node_id": "MDU6SXNzdWUzMzgxNzg0NjQ="
+}

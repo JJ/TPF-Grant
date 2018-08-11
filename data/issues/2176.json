@@ -1,0 +1,83 @@
+{
+  "body": "(I think I filed some general \"Any improvement\" Issue before, but I think it got fixed)\r\n\r\nA lot of routines on [`Any` docs](https://docs.perl6.org/type/Any) (eg. `.classify`) say \"Treats the Any as a 1-item list\". However that's inaccurate.\r\n\r\nI believe the actual behaviour is *\"coerces the object to a list by calling `.list` method\"*. While by default, it does indeed create a 1-item list with the object in it, nothing stops users declaring their own `.list` returning multiple items.\r\n\r\nThe \"Treats the Any as a 1-item list\" phrase suggests that even if you define your own `.list` the methods would not call it and still treat your object as 1-item list.\r\n\r\n```perl6\r\n<Zoffix_> m: class Foo { method list { <a b c> } }; dd Foo.classify: * eq \"a\"\r\n<camelia> rakudo-moar 9dce63318: OUTPUT: «(my Any %{Any} = Bool::False => $[\"b\", \"c\"], Bool::True => $[\"a\"])␤»\r\n```",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2176",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2176/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2176",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/easy%20to%20resolve",
+      "default": false,
+      "name": "easy to resolve",
+      "color": "36d6d8",
+      "id": 993689518,
+      "node_id": "MDU6TGFiZWw5OTM2ODk1MTg="
+    }
+  ],
+  "title": "The \"1-item list\" in Any docs is inaccurate",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2176/labels{/name}",
+  "closed_at": "2018-08-10T21:07:52Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "comments": 3,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 341239194,
+  "updated_at": "2018-08-10T21:07:52Z",
+  "assignee": null,
+  "created_at": "2018-07-14T14:11:42Z",
+  "number": 2176,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2176/comments",
+  "node_id": "MDU6SXNzdWUzNDEyMzkxOTQ="
+}

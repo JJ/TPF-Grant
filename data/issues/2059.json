@@ -1,80 +1,80 @@
 {
   "body": "## The problem\r\n\r\nAt some point in the past, [run, shell and other functions were part of the IO.pm file](https://github.com/rakudo/rakudo/blob/4887ae5c91307f2e96497b47527ceb1de12cfaed/src/core/IO.pm), although not part of the class or role. That is probably why they are part of the IO.pod6 document now. run and shell have now moved to [Proc.pm6](https://github.com/rakudo/rakudo/blob/92eaa11a1f60713b174d78a35954d17382f76e51/src/core/Proc.pm6), although they still are \"independent\" routines. Some others have gone to [io_operators.pm6](https://github.com/rakudo/rakudo/blob/89a4cf0d980c563e08336d27ac9197bc0df5000e/src/core/io_operators.pm6), and we still have to find out what has happened to the others.\r\n\r\nThat inclusion in IO makes them part also of all the classes that mix in that role. That's confusing, since they are not class of object methods of any kind. \r\n\r\n## Suggestions\r\n\r\nMove them from the current page to different pages that will reflect the module they are a part of, if not their domain. For instance, create a `IO-operators` and a `proc-operators` or `-routines` and move the definitions there. Maybe move them too to the `Languages` subdirectory to avoid making them part of the class hierarchy. \r\n\r\nThat will also solve issues like #1518, #1045 and #1747. ",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2059",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2059/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2059",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "default": false,
+      "name": "big",
+      "color": "f72bc1",
+      "id": 244870541,
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug",
+      "default": true,
+      "name": "bug",
+      "color": "b60205",
+      "id": 676814023,
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    }
+  ],
+  "title": "IO role documentation includes lots of routines it no longer has",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2059/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUzMjY1ODcwMzI=",
-  "closed_by": null,
-  "updated_at": "2018-05-25T16:20:40Z",
-  "created_at": "2018-05-25T16:20:22Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2059/comments",
   "locked": false,
-  "title": "IO role documentation includes lots of routines it no longer has",
-  "id": 326587032,
-  "html_url": "https://github.com/perl6/doc/issues/2059",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2059/labels{/name}",
-  "number": 2059,
-  "comments": 0,
-  "labels": [
-    {
-      "color": "f72bc1",
-      "name": "big",
-      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
-      "id": 244870541,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/big"
-    },
-    {
-      "color": "b60205",
-      "name": "bug",
-      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM=",
-      "id": 676814023,
-      "default": true,
-      "url": "https://api.github.com/repos/perl6/doc/labels/bug"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "docs",
-      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "new",
-      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE=",
-      "id": 676800971,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/new"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/2059/events",
-  "user": {
-    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
-    "node_id": "MDQ6VXNlcjUwMA==",
-    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/JJ/received_events",
-    "organizations_url": "https://api.github.com/users/JJ/orgs",
-    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
-    "html_url": "https://github.com/JJ",
-    "id": 500,
-    "login": "JJ",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/JJ/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
-    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/JJ/followers",
-    "url": "https://api.github.com/users/JJ"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/2059"
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 326587032,
+  "updated_at": "2018-05-25T16:20:40Z",
+  "assignee": null,
+  "created_at": "2018-05-25T16:20:22Z",
+  "number": 2059,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2059/comments",
+  "node_id": "MDU6SXNzdWUzMjY1ODcwMzI="
 }

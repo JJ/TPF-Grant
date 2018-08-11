@@ -1,0 +1,64 @@
+{
+  "body": "## The problem\r\n\r\nIt's not clear that a `Hash`'s `.keys` and `.values` both return objects in the same order such that you\r\ncan  update a `Hash` with another like this:\r\n```\r\n[23:56] <Juerd> p6: my %orig = :1a, :2b; my %new = :5b, :6c; %orig{ %new.keys } = %new.values; dd %orig\r\n[23:56] <+camelia> rakudo-moar 49363d690: OUTPUT: «Hash %orig = {:a(1), :b(5), :c(6)}␤»\r\n```\r\n\r\n\r\n\r\n",
+  "author_association": "NONE",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2182",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2182/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2182",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "No docs on the ordering of .keys and .values methods of a Hash",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2182/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 1,
+  "user": {
+    "events_url": "https://api.github.com/users/kjkuan/events{/privacy}",
+    "following_url": "https://api.github.com/users/kjkuan/following{/other_user}",
+    "followers_url": "https://api.github.com/users/kjkuan/followers",
+    "html_url": "https://github.com/kjkuan",
+    "url": "https://api.github.com/users/kjkuan",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/kjkuan/orgs",
+    "gists_url": "https://api.github.com/users/kjkuan/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/973329?v=4",
+    "id": 973329,
+    "starred_url": "https://api.github.com/users/kjkuan/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/kjkuan/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/kjkuan/repos",
+    "subscriptions_url": "https://api.github.com/users/kjkuan/subscriptions",
+    "node_id": "MDQ6VXNlcjk3MzMyOQ==",
+    "login": "kjkuan"
+  },
+  "id": 341759316,
+  "updated_at": "2018-07-25T02:43:22Z",
+  "assignee": null,
+  "created_at": "2018-07-17T04:12:51Z",
+  "number": 2182,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2182/comments",
+  "node_id": "MDU6SXNzdWUzNDE3NTkzMTY="
+}

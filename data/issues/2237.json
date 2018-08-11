@@ -1,0 +1,83 @@
+{
+  "body": "The documentation for [prefix `let` ](https://docs.perl6.org/routine/let) repeats itself, and the same code example is shown twice.\r\n\r\n",
+  "author_association": "NONE",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2237",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2237/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2237",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug",
+      "default": true,
+      "name": "bug",
+      "color": "b60205",
+      "id": 676814023,
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "The documentation for prefix let repeats itself twice",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2237/labels{/name}",
+  "closed_at": "2018-08-08T09:10:49Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "comments": 2,
+  "user": {
+    "events_url": "https://api.github.com/users/hakonhagland/events{/privacy}",
+    "following_url": "https://api.github.com/users/hakonhagland/following{/other_user}",
+    "followers_url": "https://api.github.com/users/hakonhagland/followers",
+    "html_url": "https://github.com/hakonhagland",
+    "url": "https://api.github.com/users/hakonhagland",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/hakonhagland/orgs",
+    "gists_url": "https://api.github.com/users/hakonhagland/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6708379?v=4",
+    "id": 6708379,
+    "starred_url": "https://api.github.com/users/hakonhagland/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/hakonhagland/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/hakonhagland/repos",
+    "subscriptions_url": "https://api.github.com/users/hakonhagland/subscriptions",
+    "node_id": "MDQ6VXNlcjY3MDgzNzk=",
+    "login": "hakonhagland"
+  },
+  "id": 347357815,
+  "updated_at": "2018-08-08T09:10:49Z",
+  "assignee": null,
+  "created_at": "2018-08-03T11:17:53Z",
+  "number": 2237,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2237/comments",
+  "node_id": "MDU6SXNzdWUzNDczNTc4MTU="
+}

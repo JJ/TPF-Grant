@@ -1,0 +1,91 @@
+{
+  "body": "Just like issue #1945, some section descriptions in the [Language](https://docs.perl6.org/language.html) page seem to have inconsistent casing and use of periods.\r\n\r\nExamples:\r\n\r\n* Perl 6 Terms\r\n* Unicode Support in Perl 6\r\n* What are contexts and how to get into them.\r\n\r\nUnlike 'Functional Programming' or 'Object Orientation'  in other descriptions, I'm not sure if \r\n'Unicode Support' and 'Perl 6 Terms' are being used as proper noun here though.\r\n\r\nRegarding the period, most of the descriptions don't have it.\r\n\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2146",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2146/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2146",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/bug",
+      "default": true,
+      "name": "bug",
+      "color": "b60205",
+      "id": 676814023,
+      "node_id": "MDU6TGFiZWw2NzY4MTQwMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue",
+      "default": true,
+      "name": "good first issue",
+      "color": "8cef88",
+      "id": 876253381,
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE="
+    }
+  ],
+  "title": "Inconsistent capitalization and use of period in the \"Language\" page",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2146/labels{/name}",
+  "closed_at": "2018-07-08T00:58:22Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "html_url": "https://github.com/tbrowder",
+    "url": "https://api.github.com/users/tbrowder",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "id": 1039060,
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "node_id": "MDQ6VXNlcjEwMzkwNjA=",
+    "login": "tbrowder"
+  },
+  "comments": 3,
+  "user": {
+    "events_url": "https://api.github.com/users/uzluisf/events{/privacy}",
+    "following_url": "https://api.github.com/users/uzluisf/following{/other_user}",
+    "followers_url": "https://api.github.com/users/uzluisf/followers",
+    "html_url": "https://github.com/uzluisf",
+    "url": "https://api.github.com/users/uzluisf",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/uzluisf/orgs",
+    "gists_url": "https://api.github.com/users/uzluisf/gists{/gist_id}",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22332927?v=4",
+    "id": 22332927,
+    "starred_url": "https://api.github.com/users/uzluisf/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/uzluisf/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/uzluisf/repos",
+    "subscriptions_url": "https://api.github.com/users/uzluisf/subscriptions",
+    "node_id": "MDQ6VXNlcjIyMzMyOTI3",
+    "login": "uzluisf"
+  },
+  "id": 338327558,
+  "updated_at": "2018-07-08T00:58:22Z",
+  "assignee": null,
+  "created_at": "2018-07-04T16:07:28Z",
+  "number": 2146,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2146/comments",
+  "node_id": "MDU6SXNzdWUzMzgzMjc1NTg="
+}

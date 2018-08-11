@@ -1,0 +1,64 @@
+{
+  "body": "## The problem\r\n\r\nWe don't have a description on how %?RESOURCES variable works, which may be quite important.\r\n\r\nI believe(though feel free to discuss), the docs should cover at least such topics:\r\n\r\n* What is %?RESOURCES variable?\r\n* How can one populate it with META6.json file?\r\n* How it works(a client API side, e.g. what it contains, how to use it to get data, showing an example).\r\n* How to test code that involves %?RESOURCES usage, explicitly note if it works out of the box, if not - provide some nice pattern to mock this data or to give some design tips on it.\r\n\r\n## Suggestions\r\n\r\nWe need someone who knows answers to the question above to write some explanations.",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2240",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2240/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2240",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    }
+  ],
+  "title": "%?RESOURCES info",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2240/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "html_url": "https://github.com/Altai-man",
+    "url": "https://api.github.com/users/Altai-man",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "id": 5764435,
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NjQ0MzU=",
+    "login": "Altai-man"
+  },
+  "id": 347728934,
+  "updated_at": "2018-08-05T20:37:32Z",
+  "assignee": null,
+  "created_at": "2018-08-05T20:37:32Z",
+  "number": 2240,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2240/comments",
+  "node_id": "MDU6SXNzdWUzNDc3Mjg5MzQ="
+}

@@ -1,0 +1,64 @@
+{
+  "body": "There's some [discussion here](http://colabti.org/irclogger/irclogger_log/perl6?date=2018-07-20#l1011) with a user who struggled with a problem for a couple of days. I also recall a ticket either on RT or Rakudo's repo where this issue was discussed and IIRC nine++ pointed out that basically this is more or less normal (though, this might be considered a Rakudo-only implementation-specific problem, I guess).\r\n\r\nBasically, when you include a dir with stuff like `PERL6LIB`, `-I` command line switch, or `use lib`, that dir becomes a \"FileSystem\" compilation unit repository and the compiler takes a snapshot of (only Perl 6, IIRC) files so that it would know whether any changes to the code in the FileSystem repository happened, so it would know to recompile any modules. Now, if you stick a path with a gazillion of files, it'll take ages taking that snapshot\r\n\r\nFor example, in my home dir, `PERL6LIB=. time perl6 -e 'use Test'` takes 59 seconds, but plain `time perl6 -e 'use Test'` takes only 0.2 seconds.\r\n\r\nAnd the solution to this trap is to avoid using huge dirs like home dir as CU::Repositiory::FileSystem by not including them in `PERL6LIB`/`-I`/`use lib`\r\n",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2199",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2199/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2199",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/trap",
+      "default": false,
+      "name": "trap",
+      "color": "cccc10",
+      "id": 973749960,
+      "node_id": "MDU6TGFiZWw5NzM3NDk5NjA="
+    }
+  ],
+  "title": "Document trap: `use lib` with a huge directory is super slow",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2199/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 1,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 343208870,
+  "updated_at": "2018-07-21T06:44:10Z",
+  "assignee": null,
+  "created_at": "2018-07-20T18:39:19Z",
+  "number": 2199,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2199/comments",
+  "node_id": "MDU6SXNzdWUzNDMyMDg4NzA="
+}

@@ -1,0 +1,64 @@
+{
+  "body": "## The problem\r\n\r\nWe are mixing together the documentation of a class and a syntactic feature\r\n\r\n## Suggestions\r\n\r\nMove out the description of declaring new ops to a separate page where it can grow\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2162",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2162/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2162",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "Move out the section on declaring custom operators from the description of the Sub class",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2162/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 3,
+  "user": {
+    "events_url": "https://api.github.com/users/pmurias/events{/privacy}",
+    "following_url": "https://api.github.com/users/pmurias/following{/other_user}",
+    "followers_url": "https://api.github.com/users/pmurias/followers",
+    "html_url": "https://github.com/pmurias",
+    "url": "https://api.github.com/users/pmurias",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/pmurias/orgs",
+    "gists_url": "https://api.github.com/users/pmurias/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/104358?v=4",
+    "id": 104358,
+    "starred_url": "https://api.github.com/users/pmurias/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/pmurias/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/pmurias/repos",
+    "subscriptions_url": "https://api.github.com/users/pmurias/subscriptions",
+    "node_id": "MDQ6VXNlcjEwNDM1OA==",
+    "login": "pmurias"
+  },
+  "id": 339487205,
+  "updated_at": "2018-07-10T06:28:33Z",
+  "assignee": null,
+  "created_at": "2018-07-09T15:01:23Z",
+  "number": 2162,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2162/comments",
+  "node_id": "MDU6SXNzdWUzMzk0ODcyMDU="
+}

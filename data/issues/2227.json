@@ -1,0 +1,72 @@
+{
+  "body": "## The problem\r\n\r\nThere are sometimes subtle problems of the type search.js is not still updated with the latest changes to the documentation; this does not take long, however, and is rarely noticed except by the person that has done the change.\r\n\r\nBut the main problem is that site regeneration takes now ~13 minutes, while the cron job that regenerates the site is programmed to work every 5 minutes. If two push are followed closely by each other, theoretically there's a lock on some files so it shouldn't go ahead, but the fact that there are subtle errors tells me lock does not work all across the files, or there's something else we are missing.\r\n\r\n## Suggestions\r\n\r\nObvious suggestion would be to change the cronjob so that it is more in sync with the time it takes to regenerate the site, but that's going to work as long as the generation time does not increase. Also revise the process of generation and synchronisation to avoid these problems. And, of course, try to make the generation process faster by using caches or other devices.\r\nThis would be related to #1823 mainly.",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2227",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2227/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2227",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "default": false,
+      "name": "big",
+      "color": "f72bc1",
+      "id": 244870541,
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/build",
+      "default": false,
+      "name": "build",
+      "color": "C4DB17",
+      "id": 6655839,
+      "node_id": "MDU6TGFiZWw2NjU1ODM5"
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    }
+  ],
+  "title": "Issues (possibly) caused by the current duration of the site generation script",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2227/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 1,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 345518787,
+  "updated_at": "2018-07-31T13:44:21Z",
+  "assignee": null,
+  "created_at": "2018-07-29T10:11:46Z",
+  "number": 2227,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2227/comments",
+  "node_id": "MDU6SXNzdWUzNDU1MTg3ODc="
+}

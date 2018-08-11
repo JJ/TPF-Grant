@@ -1,0 +1,64 @@
+{
+  "body": "## The problem\r\n\r\nWhen the filename includes two words, `_` and `-` are used indistinctly:  `grammar_tutorial` and `io-guide`, for instance.\r\n\r\n## Suggestions\r\n\r\nIt wouldn't be good to change URLs now since we would lose lots of links, but we might want to decide on a uniform way of separating words in file names and, if names are changed, create redirections. While we're at it, we might want to give uniform names to \"tutorials\", \"guides\", and \"howtos\". There's an IO \"guide\" and a grammars \"tutorial\". There are also Python, Ruby and other \"nutshell\", but a Haskell-to-p6.\r\nUnderscores are only used in 3 files. We might want to change those three names and include indirections in the .htaccess file. Dashes are better than underscores, too.",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2244",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2244/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2244",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta",
+      "default": false,
+      "name": "meta",
+      "color": "000000",
+      "id": 423513323,
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    }
+  ],
+  "title": "Uniform file names in the Languages directory",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2244/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 349017401,
+  "updated_at": "2018-08-09T07:55:11Z",
+  "assignee": null,
+  "created_at": "2018-08-09T07:55:00Z",
+  "number": 2244,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2244/comments",
+  "node_id": "MDU6SXNzdWUzNDkwMTc0MDE="
+}

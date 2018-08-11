@@ -1,72 +1,72 @@
 {
   "body": "## The problem\r\n\r\nThe GitHub API [returns only traffic stats for the last 14 days](https://developer.github.com/v3/repos/traffic/#views). It would be interesting to check longer-term terms.\r\n\r\n## Suggestions\r\n\r\nIt's a single query and it can be done every 7 days or so from some site, stored in JSON form and processed somehow. A cron job would probably do the trick.",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2045",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2045/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2045",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta",
+      "default": false,
+      "name": "meta",
+      "color": "000000",
+      "id": 423513323,
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist",
+      "default": false,
+      "name": "wishlist",
+      "color": "fef2c0",
+      "id": 493345410,
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA="
+    }
+  ],
+  "title": "Collect repo traffic stats",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2045/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUzMjU0MDgyMzQ=",
-  "closed_by": null,
-  "updated_at": "2018-05-22T18:17:16Z",
-  "created_at": "2018-05-22T18:15:41Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2045/comments",
   "locked": false,
-  "title": "Collect repo traffic stats",
-  "id": 325408234,
-  "html_url": "https://github.com/perl6/doc/issues/2045",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2045/labels{/name}",
-  "number": 2045,
-  "comments": 0,
-  "labels": [
-    {
-      "color": "000000",
-      "name": "meta",
-      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM=",
-      "id": 423513323,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/meta"
-    },
-    {
-      "color": "0be5a0",
-      "name": "site",
-      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
-      "id": 397990514,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/site"
-    },
-    {
-      "color": "fef2c0",
-      "name": "wishlist",
-      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
-      "id": 493345410,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/2045/events",
-  "user": {
-    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
-    "node_id": "MDQ6VXNlcjUwMA==",
-    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/JJ/received_events",
-    "organizations_url": "https://api.github.com/users/JJ/orgs",
-    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
-    "html_url": "https://github.com/JJ",
-    "id": 500,
-    "login": "JJ",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/JJ/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
-    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/JJ/followers",
-    "url": "https://api.github.com/users/JJ"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/2045"
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 325408234,
+  "updated_at": "2018-05-22T18:17:16Z",
+  "assignee": null,
+  "created_at": "2018-05-22T18:15:41Z",
+  "number": 2045,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2045/comments",
+  "node_id": "MDU6SXNzdWUzMjU0MDgyMzQ="
 }

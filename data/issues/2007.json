@@ -1,72 +1,72 @@
 {
-  "body": ":ver<> and :auth<> (see: https://docs.perl6.org/language/typesystem#Versioning_and_Authorship) is:\r\n- not referenced here: https://docs.perl6.org/language/modules#use\r\n- confusingly mentioned here: https://docs.perl6.org/language/modules#is_export\r\n\r\nTo clarify the doc, we should answer this questions:\r\n- can the adverbs ver and auth be used everywhere where a module/class/role/unit is created *and* consumed?\r\n- what is the canonical source of author? Are there certain limits when creating it (does it need an email address, how must it be formatted)? When consuming it, should it refer to a github handle, CPAN user, free text as defined in the module metadata?",
+  "body": ":ver<> and :auth<> (see: https://docs.perl6.org/language/typesystem#Versioning_and_Authorship) is:\r\n- not referenced here: https://docs.perl6.org/language/modules#use\r\n- confusingly mentioned here: https://docs.perl6.org/language/modules#is_export\r\n\r\nTo clarify the doc, we should answer these questions:\r\n- can the adverbs ver and auth be used everywhere where a module/class/role/unit is created *and* consumed?\r\n- what is the canonical source of author? Are there certain limits when creating it (does it need an email address, how must it be formatted)? When consuming it, should it refer to a github handle, CPAN user, free text as defined in the module metadata?",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2007",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2007/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2007",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED",
+      "default": false,
+      "name": "NOTSPECCED",
+      "color": "5DE0FA",
+      "id": 420092522,
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "Versioning and Authorship for module/class/role/unit",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2007/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUzMjA2MTEwNzg=",
-  "closed_by": null,
-  "updated_at": "2018-05-14T05:40:19Z",
-  "created_at": "2018-05-06T17:27:47Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2007/comments",
   "locked": false,
-  "title": "Versioning and Authorship for module/class/role/unit",
-  "id": 320611078,
-  "html_url": "https://github.com/perl6/doc/issues/2007",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2007/labels{/name}",
-  "number": 2007,
-  "comments": 2,
-  "labels": [
-    {
-      "color": "5DE0FA",
-      "name": "NOTSPECCED",
-      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI=",
-      "id": 420092522,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "docs",
-      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "update",
-      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
-      "id": 676800676,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/update"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/2007/events",
-  "user": {
-    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
-    "node_id": "MDQ6VXNlcjM2ODc4Nzk=",
-    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/nxadm/received_events",
-    "organizations_url": "https://api.github.com/users/nxadm/orgs",
-    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
-    "html_url": "https://github.com/nxadm",
-    "id": 3687879,
-    "login": "nxadm",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/nxadm/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
-    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/nxadm/followers",
-    "url": "https://api.github.com/users/nxadm"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/2007"
+  "closed_by": null,
+  "comments": 3,
+  "user": {
+    "events_url": "https://api.github.com/users/nxadm/events{/privacy}",
+    "following_url": "https://api.github.com/users/nxadm/following{/other_user}",
+    "followers_url": "https://api.github.com/users/nxadm/followers",
+    "html_url": "https://github.com/nxadm",
+    "url": "https://api.github.com/users/nxadm",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/nxadm/orgs",
+    "gists_url": "https://api.github.com/users/nxadm/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3687879?v=4",
+    "id": 3687879,
+    "starred_url": "https://api.github.com/users/nxadm/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/nxadm/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/nxadm/repos",
+    "subscriptions_url": "https://api.github.com/users/nxadm/subscriptions",
+    "node_id": "MDQ6VXNlcjM2ODc4Nzk=",
+    "login": "nxadm"
+  },
+  "id": 320611078,
+  "updated_at": "2018-07-31T09:29:44Z",
+  "assignee": null,
+  "created_at": "2018-05-06T17:27:47Z",
+  "number": 2007,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2007/comments",
+  "node_id": "MDU6SXNzdWUzMjA2MTEwNzg="
 }

@@ -1,0 +1,64 @@
+{
+  "body": "http://colabti.org/irclogger/irclogger_log/perl6-dev?date=2018-07-11#l154\r\n\r\nThey're currently not specced: https://github.com/perl6/roast/issues/447\r\nIO::CatHandle is also missing these options in Rakudo: https://github.com/perl6/roast/issues/447",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2169",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2169/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2169",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED",
+      "default": false,
+      "name": "NOTSPECCED",
+      "color": "5DE0FA",
+      "id": 420092522,
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    }
+  ],
+  "title": "IO::[Cat]Handle.encoding's :$replacement, :$translate-nl, and :$strict are not documented",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2169/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 340229124,
+  "updated_at": "2018-07-11T13:00:48Z",
+  "assignee": null,
+  "created_at": "2018-07-11T12:53:58Z",
+  "number": 2169,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2169/comments",
+  "node_id": "MDU6SXNzdWUzNDAyMjkxMjQ="
+}

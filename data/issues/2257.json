@@ -1,0 +1,64 @@
+{
+  "body": "I wanted to document the outcome of https://github.com/rakudo/rakudo/issues/2200#issuecomment-412214444 , namely that unlike regular `Array`s, the native-typed `array`s aren't actually `List`s.\r\n\r\nHowever, I can't find any place these are documented at all. \r\n\r\nThe [typed Arrays are mentioned](https://docs.perl6.org/language/list#index-entry-typed_array), but not the native portion. The `array` appears in the search result, but seems to [lead to just a lower-cased heading](https://docs.perl6.org/language/101-basics#index-entry-array) that talks about `Array`s. The [native types page](https://docs.perl6.org/language/nativetypes) only mentions the `CArray` stuff",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2257",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2257/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2257",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    }
+  ],
+  "title": "Can't find native-typed arrays",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2257/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 349732310,
+  "updated_at": "2018-08-11T15:33:17Z",
+  "assignee": null,
+  "created_at": "2018-08-11T12:57:05Z",
+  "number": 2257,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2257/comments",
+  "node_id": "MDU6SXNzdWUzNDk3MzIzMTA="
+}

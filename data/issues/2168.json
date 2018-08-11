@@ -1,0 +1,83 @@
+{
+  "body": "## The problem\r\n\r\nDiscussion of parameter aliases is a bit hidden in the voluminious function and signature desciptions.  A bit of highlighting the term would be helpful\r\n\r\n## Suggestions\r\n\r\nAdd a heading of **Aliases** in the appropriate place.\r\n\r\n\r\n",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2168",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2168/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2168",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "need heading for “aliases” in discussions of signatures",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2168/labels{/name}",
+  "closed_at": "2018-07-12T08:48:30Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/fluca1978/events{/privacy}",
+    "following_url": "https://api.github.com/users/fluca1978/following{/other_user}",
+    "followers_url": "https://api.github.com/users/fluca1978/followers",
+    "html_url": "https://github.com/fluca1978",
+    "url": "https://api.github.com/users/fluca1978",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/fluca1978/orgs",
+    "gists_url": "https://api.github.com/users/fluca1978/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/813664?v=4",
+    "id": 813664,
+    "starred_url": "https://api.github.com/users/fluca1978/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/fluca1978/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/fluca1978/repos",
+    "subscriptions_url": "https://api.github.com/users/fluca1978/subscriptions",
+    "node_id": "MDQ6VXNlcjgxMzY2NA==",
+    "login": "fluca1978"
+  },
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/tbrowder/events{/privacy}",
+    "following_url": "https://api.github.com/users/tbrowder/following{/other_user}",
+    "followers_url": "https://api.github.com/users/tbrowder/followers",
+    "html_url": "https://github.com/tbrowder",
+    "url": "https://api.github.com/users/tbrowder",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/tbrowder/orgs",
+    "gists_url": "https://api.github.com/users/tbrowder/gists{/gist_id}",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1039060?v=4",
+    "id": 1039060,
+    "starred_url": "https://api.github.com/users/tbrowder/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/tbrowder/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/tbrowder/repos",
+    "subscriptions_url": "https://api.github.com/users/tbrowder/subscriptions",
+    "node_id": "MDQ6VXNlcjEwMzkwNjA=",
+    "login": "tbrowder"
+  },
+  "id": 340176897,
+  "updated_at": "2018-07-12T08:48:30Z",
+  "assignee": null,
+  "created_at": "2018-07-11T10:08:57Z",
+  "number": 2168,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2168/comments",
+  "node_id": "MDU6SXNzdWUzNDAxNzY4OTc="
+}

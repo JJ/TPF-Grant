@@ -1,0 +1,72 @@
+{
+  "body": "## The problem\r\n\r\n[This class](https://github.com/rakudo/rakudo/blob/2234b61de57fef4a128e76ce580d0a844f3e19d4/src/core/Distribution.pm6) is a part of the whole compunit ecosystem, is [in roast](https://github.com/perl6/roast/blob/b82233a6973ad18d7b74a2fdd0ae8789a1977a76/S11-repository/curli-install.t#L24) (although not tested) and [also in the Synopse](http://design.perl6.org/S22.html#Distribution). So I guess they are properly part of the language and should be documented.\r\n\r\n\r\n## Suggestions\r\n\r\nAlthough the straightforward way would be to create a `Type` page, this is a part of a set of `Distribution` roles, which are not part of the roast test suite, and maybe should be, but meanwhile, a single page with all information needed for this would be probably a next-to-best solution",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2136",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2136/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2136",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/NOTSPECCED",
+      "default": false,
+      "name": "NOTSPECCED",
+      "color": "5DE0FA",
+      "id": 420092522,
+      "node_id": "MDU6TGFiZWw0MjAwOTI1MjI="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    }
+  ],
+  "title": "Document Distribution::Hash",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2136/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 337380286,
+  "updated_at": "2018-07-02T06:03:48Z",
+  "assignee": null,
+  "created_at": "2018-07-02T06:03:18Z",
+  "number": 2136,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2136/comments",
+  "node_id": "MDU6SXNzdWUzMzczODAyODY="
+}

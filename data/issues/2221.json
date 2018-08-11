@@ -1,0 +1,72 @@
+{
+  "body": "## The problem\r\n\r\nThe rules for indexing are kinda funky, but you should try and avoid things like these\r\n\r\n    =head1 X&lt;This is going to be indexed>\r\n\r\nSince it will generate, all by itself, categories and problems like #1410 \r\n\r\n\r\n## Suggestions\r\n\r\nIncorporate that into the contributing guide.\r\n",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2221",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2221/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2221",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "default": false,
+      "name": "big",
+      "color": "f72bc1",
+      "id": 244870541,
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/meta",
+      "default": false,
+      "name": "meta",
+      "color": "000000",
+      "id": 423513323,
+      "node_id": "MDU6TGFiZWw0MjM1MTMzMjM="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/search",
+      "default": false,
+      "name": "search",
+      "color": "7493fb",
+      "id": 390783036,
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY="
+    }
+  ],
+  "title": "Avoid indexing problems",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2221/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/JJ/events{/privacy}",
+    "following_url": "https://api.github.com/users/JJ/following{/other_user}",
+    "followers_url": "https://api.github.com/users/JJ/followers",
+    "html_url": "https://github.com/JJ",
+    "url": "https://api.github.com/users/JJ",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/JJ/orgs",
+    "gists_url": "https://api.github.com/users/JJ/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/500?v=4",
+    "id": 500,
+    "starred_url": "https://api.github.com/users/JJ/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/JJ/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/JJ/repos",
+    "subscriptions_url": "https://api.github.com/users/JJ/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMA==",
+    "login": "JJ"
+  },
+  "id": 345099487,
+  "updated_at": "2018-07-29T10:04:41Z",
+  "assignee": null,
+  "created_at": "2018-07-27T05:54:06Z",
+  "number": 2221,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2221/comments",
+  "node_id": "MDU6SXNzdWUzNDUwOTk0ODc="
+}

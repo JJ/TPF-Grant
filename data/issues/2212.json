@@ -1,0 +1,83 @@
+{
+  "body": "The value returned from `.perl` is meant to be `.EVAL`able back to an equivalent object. However, the exact structure of the returned string is implementation-dependent.\r\n\r\n[The docs for `.perl`](https://docs.perl6.org/routine/perl) state that fact in `Mu.perl`, however, other entries, like `Complex.perl` and `Rat.perl` go on into detailed description of what the value is, but they shouldn't.\r\n\r\nThey also use the phrase `val()-based`. I think that should be removed too and the author of that text likely confused the Complex/Rat literal syntax `<1+42i>`/`<1/2>` with the quote-word allomorph constructor `< 1/2>`/`< 1+42i>` (the latter requires at least some whitespace inside)",
+  "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2212",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2212/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2212",
+  "state": "closed",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/easy%20to%20resolve",
+      "default": false,
+      "name": "easy to resolve",
+      "color": "36d6d8",
+      "id": 993689518,
+      "node_id": "MDU6TGFiZWw5OTM2ODk1MTg="
+    }
+  ],
+  "title": "Some docs for .perl state exact string values, but shouldn't",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2212/labels{/name}",
+  "closed_at": "2018-07-24T16:18:44Z",
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "comments": 0,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 343880959,
+  "updated_at": "2018-07-24T16:18:44Z",
+  "assignee": null,
+  "created_at": "2018-07-24T04:32:06Z",
+  "number": 2212,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2212/comments",
+  "node_id": "MDU6SXNzdWUzNDM4ODA5NTk="
+}

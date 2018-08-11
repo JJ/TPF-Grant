@@ -1,80 +1,80 @@
 {
   "body": "## The problem\r\n- There's already some documentation for what traits are under `doc/Language/functions.pod6` but it's incomplete and doesn't explain how they can be used with `Routine`, `Variable`, `Attribute`, and types fully\r\n- The `is repr` trait is undocumented\r\n\r\n## Suggestions\r\n- Expanding the traits section in the functions would be really useful since I don't think even the Perl 6 blogs out there document them completely either\r\n- Creating a pod explaining what `is repr` does, why it works differently from the other traits, and documenting each type of REPR that's reasonable to use outside native code would also be useful\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/1957",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1957/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1957",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "default": false,
+      "name": "big",
+      "color": "f72bc1",
+      "id": 244870541,
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "default": false,
+      "name": "docs",
+      "color": "5DE0FA",
+      "id": 244843225,
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/new",
+      "default": false,
+      "name": "new",
+      "color": "5DE0FA",
+      "id": 676800971,
+      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/update",
+      "default": false,
+      "name": "update",
+      "color": "5DE0FA",
+      "id": 676800676,
+      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY="
+    }
+  ],
+  "title": "Documentation for traits is lacking",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1957/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUzMTY5NTE2NzU=",
-  "closed_by": null,
-  "updated_at": "2018-05-27T07:19:34Z",
-  "created_at": "2018-04-23T19:28:00Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1957/comments",
   "locked": false,
-  "title": "Documentation for traits is lacking",
-  "id": 316951675,
-  "html_url": "https://github.com/perl6/doc/issues/1957",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1957/labels{/name}",
-  "number": 1957,
-  "comments": 1,
-  "labels": [
-    {
-      "color": "f72bc1",
-      "name": "big",
-      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
-      "id": 244870541,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/big"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "docs",
-      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "new",
-      "node_id": "MDU6TGFiZWw2NzY4MDA5NzE=",
-      "id": 676800971,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/new"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "update",
-      "node_id": "MDU6TGFiZWw2NzY4MDA2NzY=",
-      "id": 676800676,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/update"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/1957/events",
-  "user": {
-    "following_url": "https://api.github.com/users/Kaiepi/following{/other_user}",
-    "node_id": "MDQ6VXNlcjM0MTk3NjE1",
-    "gists_url": "https://api.github.com/users/Kaiepi/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/Kaiepi/received_events",
-    "organizations_url": "https://api.github.com/users/Kaiepi/orgs",
-    "subscriptions_url": "https://api.github.com/users/Kaiepi/subscriptions",
-    "html_url": "https://github.com/Kaiepi",
-    "id": 34197615,
-    "login": "Kaiepi",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/Kaiepi/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/Kaiepi/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars1.githubusercontent.com/u/34197615?v=4",
-    "starred_url": "https://api.github.com/users/Kaiepi/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/Kaiepi/followers",
-    "url": "https://api.github.com/users/Kaiepi"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/1957"
+  "closed_by": null,
+  "comments": 1,
+  "user": {
+    "events_url": "https://api.github.com/users/Kaiepi/events{/privacy}",
+    "following_url": "https://api.github.com/users/Kaiepi/following{/other_user}",
+    "followers_url": "https://api.github.com/users/Kaiepi/followers",
+    "html_url": "https://github.com/Kaiepi",
+    "url": "https://api.github.com/users/Kaiepi",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/Kaiepi/orgs",
+    "gists_url": "https://api.github.com/users/Kaiepi/gists{/gist_id}",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/34197615?v=4",
+    "id": 34197615,
+    "starred_url": "https://api.github.com/users/Kaiepi/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/Kaiepi/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/Kaiepi/repos",
+    "subscriptions_url": "https://api.github.com/users/Kaiepi/subscriptions",
+    "node_id": "MDQ6VXNlcjM0MTk3NjE1",
+    "login": "Kaiepi"
+  },
+  "id": 316951675,
+  "updated_at": "2018-05-27T07:19:34Z",
+  "assignee": null,
+  "created_at": "2018-04-23T19:28:00Z",
+  "number": 1957,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1957/comments",
+  "node_id": "MDU6SXNzdWUzMTY5NTE2NzU="
 }

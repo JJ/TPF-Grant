@@ -1,0 +1,72 @@
+{
+  "body": "## The problem\r\nWhenever I'm reading the docs and reach a certain point, I need to do some scrolling if\r\nI want to get back to the table of contents and jump to a certain section.\r\n\r\n## Suggestions\r\nMake the sidebar (table of contents) fixed so that it stays in place when scrolling the doc.\r\n\r\n<!--\r\n\r\n    The template below contains optional suggestions. If you cannot\r\n    provide some information, simply omit it.\r\n\r\n    Please state clearly in \"The problem\" whether you are reporting a\r\n    problem with the site (something does not show up in the search\r\n    drop-down menu or a page is missing, for instance), documentation\r\n    text or examples that are missing or should be improved or\r\n    something else. Describe clearly the problem and the page where\r\n    you found it.\r\n\r\n    If applicable, tell us in \"Suggestions\" what could be done to\r\n    solve the problem, such as \"Rephrase the description\" or \"Use an\r\n    example program that actually runs\".\r\n\r\n-->\r\n\r\n",
+  "author_association": "CONTRIBUTOR",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/2138",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/2138/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/2138",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue",
+      "default": true,
+      "name": "good first issue",
+      "color": "8cef88",
+      "id": 876253381,
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist",
+      "default": false,
+      "name": "wishlist",
+      "color": "fef2c0",
+      "id": 493345410,
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA="
+    }
+  ],
+  "title": "Fix left sidebar in the \"Language\" page",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/2138/labels{/name}",
+  "closed_at": null,
+  "assignees": [
+    
+  ],
+  "locked": false,
+  "repository_url": "https://api.github.com/repos/perl6/doc",
+  "closed_by": null,
+  "comments": 2,
+  "user": {
+    "events_url": "https://api.github.com/users/uzluisf/events{/privacy}",
+    "following_url": "https://api.github.com/users/uzluisf/following{/other_user}",
+    "followers_url": "https://api.github.com/users/uzluisf/followers",
+    "html_url": "https://github.com/uzluisf",
+    "url": "https://api.github.com/users/uzluisf",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/uzluisf/orgs",
+    "gists_url": "https://api.github.com/users/uzluisf/gists{/gist_id}",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22332927?v=4",
+    "id": 22332927,
+    "starred_url": "https://api.github.com/users/uzluisf/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/uzluisf/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/uzluisf/repos",
+    "subscriptions_url": "https://api.github.com/users/uzluisf/subscriptions",
+    "node_id": "MDQ6VXNlcjIyMzMyOTI3",
+    "login": "uzluisf"
+  },
+  "id": 337896223,
+  "updated_at": "2018-07-24T17:28:24Z",
+  "assignee": null,
+  "created_at": "2018-07-03T13:20:27Z",
+  "number": 2138,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/2138/comments",
+  "node_id": "MDU6SXNzdWUzMzc4OTYyMjM="
+}
