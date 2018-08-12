@@ -1,64 +1,72 @@
 {
   "body": "Code blocks now can have an explicit :lang<> set; if this lang is not Perl 6, then we should not run the Perl 6 syntax highlighter on those snippets of code. (See, for example, https://docs.perl6.org/language/rb-nutshell, which has many sections that are marked as :lang<ruby>, and therefore should not get Perl 6 highlighting)",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/1430",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1430/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1430",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/build",
+      "default": false,
+      "name": "build",
+      "color": "C4DB17",
+      "id": 6655839,
+      "node_id": "MDU6TGFiZWw2NjU1ODM5"
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/help%20wanted",
+      "default": true,
+      "name": "help wanted",
+      "color": "5319e7",
+      "id": 876252396,
+      "node_id": "MDU6TGFiZWw4NzYyNTIzOTY="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    }
+  ],
+  "title": "Only highlight perl 6 snippets as perl 6",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1430/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUyNDY3MzE2ODg=",
-  "closed_by": null,
-  "updated_at": "2018-05-14T06:14:57Z",
-  "created_at": "2017-07-31T11:56:32Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1430/comments",
   "locked": false,
-  "title": "Only highlight perl 6 snippets as perl 6",
-  "id": 246731688,
-  "html_url": "https://github.com/perl6/doc/issues/1430",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1430/labels{/name}",
-  "number": 1430,
-  "comments": 6,
-  "labels": [
-    {
-      "color": "C4DB17",
-      "name": "build",
-      "node_id": "MDU6TGFiZWw2NjU1ODM5",
-      "id": 6655839,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/build"
-    },
-    {
-      "color": "0be5a0",
-      "name": "site",
-      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
-      "id": 397990514,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/site"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/1430/events",
-  "user": {
-    "following_url": "https://api.github.com/users/coke/following{/other_user}",
-    "node_id": "MDQ6VXNlcjUwMjU3",
-    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/coke/received_events",
-    "organizations_url": "https://api.github.com/users/coke/orgs",
-    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
-    "html_url": "https://github.com/coke",
-    "id": 50257,
-    "login": "coke",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/coke/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/coke/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
-    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/coke/followers",
-    "url": "https://api.github.com/users/coke"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/1430"
+  "closed_by": null,
+  "comments": 6,
+  "user": {
+    "events_url": "https://api.github.com/users/coke/events{/privacy}",
+    "following_url": "https://api.github.com/users/coke/following{/other_user}",
+    "followers_url": "https://api.github.com/users/coke/followers",
+    "html_url": "https://github.com/coke",
+    "url": "https://api.github.com/users/coke",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/coke/orgs",
+    "gists_url": "https://api.github.com/users/coke/gists{/gist_id}",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50257?v=4",
+    "id": 50257,
+    "starred_url": "https://api.github.com/users/coke/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/coke/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/coke/repos",
+    "subscriptions_url": "https://api.github.com/users/coke/subscriptions",
+    "node_id": "MDQ6VXNlcjUwMjU3",
+    "login": "coke"
+  },
+  "id": 246731688,
+  "updated_at": "2018-07-03T05:11:03Z",
+  "assignee": null,
+  "created_at": "2017-07-31T11:56:32Z",
+  "number": 1430,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1430/comments",
+  "node_id": "MDU6SXNzdWUyNDY3MzE2ODg="
 }

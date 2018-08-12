@@ -1,80 +1,80 @@
 {
   "body": "For example, if you search for `is-approx`, the [link will lead here](https://docs.perl6.org/language/testing#index-entry-is-approx-is-approx%28%24value%2C_%24expected%2C_%24description%3F%29); hiding the title of the section.\r\n\r\nThe same problem exists with glossary, when searching for, say, `reify` [leads to this page](https://docs.perl6.org/language/glossary#index-entry-Reify), again, with the title of the section hidden.\r\n\r\nI believe this is due to the `X<>` bits being below the title.",
   "author_association": "MEMBER",
+  "milestone": null,
+  "html_url": "https://github.com/perl6/doc/issues/1303",
+  "events_url": "https://api.github.com/repos/perl6/doc/issues/1303/events",
+  "url": "https://api.github.com/repos/perl6/doc/issues/1303",
+  "state": "open",
+  "labels": [
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "default": false,
+      "name": "big",
+      "color": "f72bc1",
+      "id": 244870541,
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue",
+      "default": true,
+      "name": "good first issue",
+      "color": "8cef88",
+      "id": 876253381,
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/search",
+      "default": false,
+      "name": "search",
+      "color": "7493fb",
+      "id": 390783036,
+      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY="
+    },
+    {
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "default": false,
+      "name": "site",
+      "color": "0be5a0",
+      "id": 397990514,
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ="
+    }
+  ],
+  "title": "Search Index anchors point a line too low",
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1303/labels{/name}",
+  "closed_at": null,
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUyMjg0NDE4ODU=",
-  "closed_by": null,
-  "updated_at": "2018-06-10T07:47:30Z",
-  "created_at": "2017-05-13T02:02:01Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1303/comments",
   "locked": false,
-  "title": "Search Index anchors point a line too low",
-  "id": 228441885,
-  "html_url": "https://github.com/perl6/doc/issues/1303",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/1303/labels{/name}",
-  "number": 1303,
-  "comments": 6,
-  "labels": [
-    {
-      "color": "f72bc1",
-      "name": "big",
-      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
-      "id": 244870541,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/big"
-    },
-    {
-      "color": "8cef88",
-      "name": "good first issue",
-      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
-      "id": 876253381,
-      "default": true,
-      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
-    },
-    {
-      "color": "7493fb",
-      "name": "search",
-      "node_id": "MDU6TGFiZWwzOTA3ODMwMzY=",
-      "id": 390783036,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/search"
-    },
-    {
-      "color": "0be5a0",
-      "name": "site",
-      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
-      "id": 397990514,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/site"
-    }
-  ],
-  "events_url": "https://api.github.com/repos/perl6/doc/issues/1303/events",
-  "user": {
-    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
-    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
-    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
-    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
-    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
-    "html_url": "https://github.com/zoffixznet",
-    "id": 5747918,
-    "login": "zoffixznet",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/zoffixznet/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
-    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/zoffixznet/followers",
-    "url": "https://api.github.com/users/zoffixznet"
-  },
   "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/1303"
+  "closed_by": null,
+  "comments": 6,
+  "user": {
+    "events_url": "https://api.github.com/users/zoffixznet/events{/privacy}",
+    "following_url": "https://api.github.com/users/zoffixznet/following{/other_user}",
+    "followers_url": "https://api.github.com/users/zoffixznet/followers",
+    "html_url": "https://github.com/zoffixznet",
+    "url": "https://api.github.com/users/zoffixznet",
+    "site_admin": false,
+    "type": "User",
+    "organizations_url": "https://api.github.com/users/zoffixznet/orgs",
+    "gists_url": "https://api.github.com/users/zoffixznet/gists{/gist_id}",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5747918?v=4",
+    "id": 5747918,
+    "starred_url": "https://api.github.com/users/zoffixznet/starred{/owner}{/repo}",
+    "received_events_url": "https://api.github.com/users/zoffixznet/received_events",
+    "gravatar_id": "",
+    "repos_url": "https://api.github.com/users/zoffixznet/repos",
+    "subscriptions_url": "https://api.github.com/users/zoffixznet/subscriptions",
+    "node_id": "MDQ6VXNlcjU3NDc5MTg=",
+    "login": "zoffixznet"
+  },
+  "id": 228441885,
+  "updated_at": "2018-06-10T07:47:30Z",
+  "assignee": null,
+  "created_at": "2017-05-13T02:02:01Z",
+  "number": 1303,
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/1303/comments",
+  "node_id": "MDU6SXNzdWUyMjg0NDE4ODU="
 }
