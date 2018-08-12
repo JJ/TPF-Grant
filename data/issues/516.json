@@ -1,80 +1,80 @@
 {
-  "body": "There are a lot of Exception classes (somewhere over 250 defined in the Exception.pm,) If they were all to be documented (and the assumption would be that they should be,) they would swamp the types documentation page and become rather un-manageable.\n\nThey should be searchable and linkable from , for example, the places where they are thrown, but otherwise the individual exceptions are not particularly interesting unless you actually have one in hand and want to know what it is all about.\n\nI'd like to suggest that they might be put into some sub-category of \"type\" such that they are all listed on a separate page, which could, for example, be linked to the main type page by \"X\" (which would itself address the suggestion made by @dha that 'X' should be documented somehow.\n\nI guess that this would require some changes to both p6doc and to the tooling that generates the web pages as well as (probably automatable) changes to the existing documentation (to the links to the existing X::\\* class documentation.)\n\nThis however shouldn't be a barrier in the first instance to documenting the remaining exceptions :)\n",
+  "closed_by": null,
+  "closed_at": null,
+  "title": "Re-organise exception types documentation",
+  "id": 154906894,
+  "created_at": "2016-05-15T12:44:02Z",
+  "user": {
+    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
+    "id": 736419,
+    "site_admin": false,
+    "type": "User",
+    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
+    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
+    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
+    "html_url": "https://github.com/jonathanstowe",
+    "url": "https://api.github.com/users/jonathanstowe",
+    "node_id": "MDQ6VXNlcjczNjQxOQ==",
+    "gravatar_id": "",
+    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
+    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
+    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
+    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
+    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
+    "login": "jonathanstowe"
+  },
+  "locked": false,
+  "node_id": "MDU6SXNzdWUxNTQ5MDY4OTQ=",
+  "html_url": "https://github.com/perl6/doc/issues/516",
+  "url": "https://api.github.com/repos/perl6/doc/issues/516",
+  "labels": [
+    {
+      "id": 244870541,
+      "name": "big",
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
+      "default": false,
+      "color": "f72bc1"
+    },
+    {
+      "id": 244843225,
+      "name": "docs",
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "default": false,
+      "color": "5DE0FA"
+    },
+    {
+      "id": 876252396,
+      "name": "help wanted",
+      "url": "https://api.github.com/repos/perl6/doc/labels/help%20wanted",
+      "node_id": "MDU6TGFiZWw4NzYyNTIzOTY=",
+      "default": true,
+      "color": "5319e7"
+    },
+    {
+      "id": 397990514,
+      "name": "site",
+      "url": "https://api.github.com/repos/perl6/doc/labels/site",
+      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
+      "default": false,
+      "color": "0be5a0"
+    }
+  ],
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/516/labels{/name}",
   "author_association": "MEMBER",
+  "assignee": null,
+  "state": "open",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/516/comments",
+  "body": "There are a lot of Exception classes (somewhere over 250 defined in the Exception.pm,) If they were all to be documented (and the assumption would be that they should be,) they would swamp the types documentation page and become rather un-manageable.\n\nThey should be searchable and linkable from , for example, the places where they are thrown, but otherwise the individual exceptions are not particularly interesting unless you actually have one in hand and want to know what it is all about.\n\nI'd like to suggest that they might be put into some sub-category of \"type\" such that they are all listed on a separate page, which could, for example, be linked to the main type page by \"X\" (which would itself address the suggestion made by @dha that 'X' should be documented somehow.\n\nI guess that this would require some changes to both p6doc and to the tooling that generates the web pages as well as (probably automatable) changes to the existing documentation (to the links to the existing X::\\* class documentation.)\n\nThis however shouldn't be a barrier in the first instance to documenting the remaining exceptions :)\n",
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUxNTQ5MDY4OTQ=",
-  "closed_by": null,
   "updated_at": "2018-06-05T10:13:51Z",
-  "created_at": "2016-05-15T12:44:02Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/516/comments",
-  "locked": false,
-  "title": "Re-organise exception types documentation",
-  "id": 154906894,
-  "html_url": "https://github.com/perl6/doc/issues/516",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/516/labels{/name}",
-  "number": 516,
   "comments": 1,
-  "labels": [
-    {
-      "color": "f72bc1",
-      "name": "big",
-      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
-      "id": 244870541,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/big"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "docs",
-      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "5319e7",
-      "name": "help wanted",
-      "node_id": "MDU6TGFiZWw4NzYyNTIzOTY=",
-      "id": 876252396,
-      "default": true,
-      "url": "https://api.github.com/repos/perl6/doc/labels/help%20wanted"
-    },
-    {
-      "color": "0be5a0",
-      "name": "site",
-      "node_id": "MDU6TGFiZWwzOTc5OTA1MTQ=",
-      "id": 397990514,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/site"
-    }
-  ],
+  "milestone": null,
+  "number": 516,
   "events_url": "https://api.github.com/repos/perl6/doc/issues/516/events",
-  "user": {
-    "following_url": "https://api.github.com/users/jonathanstowe/following{/other_user}",
-    "node_id": "MDQ6VXNlcjczNjQxOQ==",
-    "gists_url": "https://api.github.com/users/jonathanstowe/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/jonathanstowe/received_events",
-    "organizations_url": "https://api.github.com/users/jonathanstowe/orgs",
-    "subscriptions_url": "https://api.github.com/users/jonathanstowe/subscriptions",
-    "html_url": "https://github.com/jonathanstowe",
-    "id": 736419,
-    "login": "jonathanstowe",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/jonathanstowe/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/jonathanstowe/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars3.githubusercontent.com/u/736419?v=4",
-    "starred_url": "https://api.github.com/users/jonathanstowe/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/jonathanstowe/followers",
-    "url": "https://api.github.com/users/jonathanstowe"
-  },
-  "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/516"
+  "repository_url": "https://api.github.com/repos/perl6/doc"
 }

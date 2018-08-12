@@ -1,80 +1,80 @@
 {
-  "body": "At the Glossary page we already have `dalek`, `camelia` and `yoleaux`, but also we have `bisectbot`. Is it still working? If yes, I think we should write about it too.\n",
+  "closed_by": null,
+  "closed_at": null,
+  "title": "Description of all IRC bots",
+  "id": 165877459,
+  "created_at": "2016-07-15T21:05:13Z",
+  "user": {
+    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
+    "id": 5764435,
+    "site_admin": false,
+    "type": "User",
+    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
+    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
+    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
+    "html_url": "https://github.com/Altai-man",
+    "url": "https://api.github.com/users/Altai-man",
+    "node_id": "MDQ6VXNlcjU3NjQ0MzU=",
+    "gravatar_id": "",
+    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
+    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
+    "followers_url": "https://api.github.com/users/Altai-man/followers",
+    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
+    "repos_url": "https://api.github.com/users/Altai-man/repos",
+    "login": "Altai-man"
+  },
+  "locked": false,
+  "node_id": "MDU6SXNzdWUxNjU4Nzc0NTk=",
+  "html_url": "https://github.com/perl6/doc/issues/711",
+  "url": "https://api.github.com/repos/perl6/doc/issues/711",
+  "labels": [
+    {
+      "id": 244870541,
+      "name": "big",
+      "url": "https://api.github.com/repos/perl6/doc/labels/big",
+      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
+      "default": false,
+      "color": "f72bc1"
+    },
+    {
+      "id": 244843225,
+      "name": "docs",
+      "url": "https://api.github.com/repos/perl6/doc/labels/docs",
+      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
+      "default": false,
+      "color": "5DE0FA"
+    },
+    {
+      "id": 876253381,
+      "name": "good first issue",
+      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue",
+      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
+      "default": true,
+      "color": "8cef88"
+    },
+    {
+      "id": 493345410,
+      "name": "wishlist",
+      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist",
+      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
+      "default": false,
+      "color": "fef2c0"
+    }
+  ],
+  "labels_url": "https://api.github.com/repos/perl6/doc/issues/711/labels{/name}",
   "author_association": "MEMBER",
+  "assignee": null,
+  "state": "open",
+  "comments_url": "https://api.github.com/repos/perl6/doc/issues/711/comments",
+  "body": "At the Glossary page we already have `dalek`, `camelia` and `yoleaux`, but also we have `bisectbot`. Is it still working? If yes, I think we should write about it too.\n",
   "assignees": [
     
   ],
-  "assignee": null,
-  "node_id": "MDU6SXNzdWUxNjU4Nzc0NTk=",
-  "closed_by": null,
-  "updated_at": "2018-06-05T10:17:18Z",
-  "created_at": "2016-07-15T21:05:13Z",
-  "comments_url": "https://api.github.com/repos/perl6/doc/issues/711/comments",
-  "locked": false,
-  "title": "Description of all IRC bots",
-  "id": 165877459,
-  "html_url": "https://github.com/perl6/doc/issues/711",
-  "closed_at": null,
-  "milestone": null,
-  "state": "open",
-  "labels_url": "https://api.github.com/repos/perl6/doc/issues/711/labels{/name}",
-  "number": 711,
+  "updated_at": "2018-07-08T19:12:30Z",
   "comments": 20,
-  "labels": [
-    {
-      "color": "f72bc1",
-      "name": "big",
-      "node_id": "MDU6TGFiZWwyNDQ4NzA1NDE=",
-      "id": 244870541,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/big"
-    },
-    {
-      "color": "5DE0FA",
-      "name": "docs",
-      "node_id": "MDU6TGFiZWwyNDQ4NDMyMjU=",
-      "id": 244843225,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/docs"
-    },
-    {
-      "color": "8cef88",
-      "name": "good first issue",
-      "node_id": "MDU6TGFiZWw4NzYyNTMzODE=",
-      "id": 876253381,
-      "default": true,
-      "url": "https://api.github.com/repos/perl6/doc/labels/good%20first%20issue"
-    },
-    {
-      "color": "fef2c0",
-      "name": "wishlist",
-      "node_id": "MDU6TGFiZWw0OTMzNDU0MTA=",
-      "id": 493345410,
-      "default": false,
-      "url": "https://api.github.com/repos/perl6/doc/labels/wishlist"
-    }
-  ],
+  "milestone": null,
+  "number": 711,
   "events_url": "https://api.github.com/repos/perl6/doc/issues/711/events",
-  "user": {
-    "following_url": "https://api.github.com/users/Altai-man/following{/other_user}",
-    "node_id": "MDQ6VXNlcjU3NjQ0MzU=",
-    "gists_url": "https://api.github.com/users/Altai-man/gists{/gist_id}",
-    "received_events_url": "https://api.github.com/users/Altai-man/received_events",
-    "organizations_url": "https://api.github.com/users/Altai-man/orgs",
-    "subscriptions_url": "https://api.github.com/users/Altai-man/subscriptions",
-    "html_url": "https://github.com/Altai-man",
-    "id": 5764435,
-    "login": "Altai-man",
-    "type": "User",
-    "repos_url": "https://api.github.com/users/Altai-man/repos",
-    "site_admin": false,
-    "events_url": "https://api.github.com/users/Altai-man/events{/privacy}",
-    "gravatar_id": "",
-    "avatar_url": "https://avatars1.githubusercontent.com/u/5764435?v=4",
-    "starred_url": "https://api.github.com/users/Altai-man/starred{/owner}{/repo}",
-    "followers_url": "https://api.github.com/users/Altai-man/followers",
-    "url": "https://api.github.com/users/Altai-man"
-  },
-  "repository_url": "https://api.github.com/repos/perl6/doc",
-  "url": "https://api.github.com/repos/perl6/doc/issues/711"
+  "repository_url": "https://api.github.com/repos/perl6/doc"
 }
