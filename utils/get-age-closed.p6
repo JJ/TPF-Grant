@@ -2,6 +2,8 @@
 
 use v6;
 
+# Gets the number of issues closed by user JJ in GitHub
+
 use Text::CSV;
 
 my @data  = "../data/issues.csv".IO.slurp.split("\n");
