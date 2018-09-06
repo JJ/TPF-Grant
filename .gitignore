@@ -3,3 +3,4 @@
 auto/
 report/*.html
 *.pdf
+*.Rout
