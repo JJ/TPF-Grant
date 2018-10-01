@@ -1,6 +1,7 @@
 library(ggplot2)
 library(ggthemes)
 
+# Probably obsolete.
 commits.t <- read.csv("../data/commits.csv")
 
 commits.t$Ratio <- commits.t$Commits / commits.t$Author
