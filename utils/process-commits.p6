@@ -8,7 +8,7 @@ sub MAIN( $dir = "../../../forks/perl6/doc" ) {
     my %commits-month;
     my %author-commits-month;
     @commits.pop; # eliminate last empty thing
-    for @commits.reverse -> $c { # Process perl month
+    for @commits.reverse -> $c { # Process per month
 	my ($author,$date ) = $c.split("|");
 	my $month = $date ~~ /^(\d+ \- \d+)/;
 	%commits-month{$month}++;
