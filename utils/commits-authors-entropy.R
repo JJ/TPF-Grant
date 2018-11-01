@@ -9,5 +9,5 @@ ggplot(commits.t, aes(x=Month,y=Commits))+geom_line()+geom_point(aes(size=Author
 ggsave("../illos/commits-authors-entropy.png",width=16, height=9)
 commits.t$M <- factor(format(as.Date(commits.t$Month),"%m"))
 commits.t$Y <- format(as.Date(commits.t$Month),"%Y")
-ggplot(commits.t, aes(x=Y,y=Commits,group=M))+geom_line(aes(color=M))+scale_colour_discrete()+theme_tufte()
+ggplot(commits.t, aes(x=Y,y=Commits,group=M))+geom_line(aes(color=M,linetype=M))+scale_colour_discrete()+theme_tufte()
 ggsave("../illos/commits-month.png",width=16, height=9)
